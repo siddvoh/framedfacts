@@ -1,0 +1,185 @@
+{
+  "arm": "cross_replay",
+  "citations": [],
+  "claim_id": "ff_32a832e2cbd2",
+  "completed_at": "2026-08-04T17:03:57.141+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": false,
+      "all_urls_well_formed": false,
+      "has_url": false,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": false,
+      "substantive_support_verified": false,
+      "urls": []
+    },
+    "conclusion": {
+      "justification": "The report concludes that the evidence is suggestive but insufficient, describing the claim as 'promising but unproven' due to a lack of conclusive evidence and Cochrane's finding of insufficient data. This fits the definition of hedged.",
+      "label": "hedged"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "# Acupuncture for Depression During Pregnancy: What the Evidence Shows\n\n**Bottom line: The claim is only partially supported—evidence is suggestive but not conclusive.** A small number of promising trials exist, but systematic reviews conclude there isn't yet sufficient evidence to confirm efficacy.\n\n## The Evidence\n\nThe most cited study is a randomized controlled trial by Manber and colleagues at Stanford, which randomized 150 pregnant women meeting DSM-IV depression criteria to acupuncture specifically targeting depression versus control conditions. The trial concluded that \"depression during pregnancy is responsive to treatment, and the acupuncture protocol tested in this study could be a viable treatment option for depressed pregnant women\" (journals.lww.com/greenjournal/fulltext/2010/03000/acupuncture_for_depression_during_pregnancy__a.7.aspx). This is a genuine, peer-reviewed RCT with positive findings.\n\nHowever, this trial exists somewhat in isolation. A review notes that \"preliminary research into acupuncture for the management of antenatal depression, although limited to three clinical studies, appears promising\" (pmc.ncbi.nlm.nih.gov/articles/PMC4758005/)—acknowledging the evidence base is thin.\n\nMore importantly, the **Cochrane Systematic Review** on interventions for antenatal depression (which would include acupuncture among other non-pharmacological approaches) concluded that \"the included trials were too small to reach any conclusions; they also used a variety of interventions, outcome measures and comparisons. The trials provided insufficient evidence to determine if these therapies are effective\" (cochrane.org/th/evidence/CD006795). This is a significant caveat, as Cochrane reviews are considered the gold standard for evidence synthesis.\n\nAdditionally, broader research on acupuncture for depression (not pregnancy-specific) shows \"findings of sham-controlled studies on acupuncture for depressed mood are inconsistent\" (faim.org/the-integrative-management-of-depressed-mood-in-pregnancy-what-the-evidence-suggests), and NCCIH notes mixed results across sham-controlled acupuncture studies generally (nccih.nih.gov/health/acupuncture-effectiveness-and-safety).\n\n## Conclusion\n\nOne well-designed RCT found a benefit, but the overall evidence base is small, and the authoritative Cochrane review found insufficient evidence to confirm efficacy for antenatal depression specifically. The claim has some support but should be considered \"promising but unproven\" rather than established fact.",
+  "run_id": "cross_replay_ff_32a832e2cbd2_believer_on_skeptic_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "acupuncture depression pregnancy randomized controlled trial",
+      "results": [
+        {
+          "title": "Acupuncture for Depression during Pregnancy: a Randomized...",
+          "url": "https://link.springer.com/article/10.1016/j.dza.2010.04.009"
+        },
+        {
+          "title": "OBJECTIVE: To estimate the efficacy of acupuncture for depression...",
+          "url": "https://journals.lww.com/greenjournal/fulltext/2010/03000/acupuncture_for_depression_during_pregnancy__a.7.aspx"
+        },
+        {
+          "title": "Acupuncture for Depression During Pregnancy A Randomized...",
+          "url": "https://www.researchgate.net/publication/41532580_Acupuncture_for_Depression_During_Pregnancy_A_Randomized_Controlled_Trial"
+        },
+        {
+          "title": "Acupuncture for Depression in Pregnancy | Clinician.com",
+          "url": "https://www.clinician.com/articles/18788-acupuncture-for-depression-in-pregnancy"
+        },
+        {
+          "title": "(PDF) Does Acupuncture Have a Place as an Adjunct... - Academia.edu",
+          "url": "https://www.academia.edu/24145082/Does_Acupuncture_Have_a_Place_as_an_Adjunct_Treatment_During_Pregnancy_A_Review_of_Randomized_Controlled_Trials_and_Systematic_Reviews"
+        },
+        {
+          "title": "Debra Betts - Acupuncture and Acupressure for Pregnancy and...",
+          "url": "https://acupuncture.rhizome.net.nz/acupuncture/research/depression-pregnancy/"
+        },
+        {
+          "title": "Acupuncture for Depression During Pregnancy - MGH Center for...",
+          "url": "https://womensmentalhealth.org/posts/acupuncture-for-depression-during-pregnancy/"
+        },
+        {
+          "title": "Acupuncture for low back and/or pelvic pain during pregnancy...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36410790/"
+        }
+      ]
+    },
+    {
+      "query": "acupuncture antenatal depression efficacy meta-analysis",
+      "results": [
+        {
+          "title": "Акупунктура — Википедия",
+          "url": "https://ru.wikipedia.org/wiki/Акупунктура"
+        },
+        {
+          "title": "Evaluation of an antenatal acupuncture intervention as an adjunct...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4758005/"
+        },
+        {
+          "title": "The evaluation of acupuncture as an adjunct intervention for...",
+          "url": "https://researchers.westernsydney.edu.au/en/studentTheses/the-evaluation-of-acupuncture-as-an-adjunct-intervention-for-ante"
+        },
+        {
+          "title": "‘Acupuncture for antenatal depression: It's worth giving it a go...",
+          "url": "https://researchnow.flinders.edu.au/en/publications/acupuncture-for-antenatal-depression-its-worth-giving-it-a-go-a-q/"
+        },
+        {
+          "title": "Evaluation of an antenatal acupuncture intervention as an adjunct...",
+          "url": "https://researchers.mq.edu.au/en/publications/evaluation-of-an-antenatal-acupuncture-intervention-as-an-adjunct/"
+        },
+        {
+          "title": "tandfonline.com/doi/full/10.1080/14737167.2019.1703182",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/14737167.2019.1703182"
+        },
+        {
+          "title": "sciencedirect.com/science/article/abs/pii/S0272735805001005",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272735805001005"
+        },
+        {
+          "title": "Interventions (other than pharmacological, psychosocial or...) | Cochrane",
+          "url": "https://www.cochrane.org/th/evidence/CD006795_interventions-other-pharmacological-psychosocial-or-psychological-treating-antenatal-depression"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review acupuncture antenatal depression conclusion",
+      "results": [
+        {
+          "title": "Interventions (other than pharmacological, psychosocial or...) | Cochrane",
+          "url": "https://www.cochrane.org/th/evidence/CD006795_interventions-other-pharmacological-psychosocial-or-psychological-treating-antenatal-depression"
+        },
+        {
+          "title": "Evaluation of an antenatal acupuncture intervention as an adjunct...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4758005/"
+        },
+        {
+          "title": "‘Acupuncture for antenatal depression: It's worth giving it a go...",
+          "url": "https://researchnow.flinders.edu.au/en/publications/acupuncture-for-antenatal-depression-its-worth-giving-it-a-go-a-q"
+        },
+        {
+          "title": "Exercise vs Therapy for Depression: 2026 Cochrane Review...",
+          "url": "https://www.youtube.com/watch?v=Fk2CzTFE7QE"
+        },
+        {
+          "title": "Antenatal Acupuncture in London | London Pregnancy Clinic",
+          "url": "https://www.londonpregnancy.com/antenatal-acupuncture/"
+        },
+        {
+          "title": "Maternal Nutrition and Antenatal Care to Reduce... | Biores Scientia",
+          "url": "https://bioresscientia.com/article/maternal-nutrition-and-antenatal-care-to-reduce-preterm-birth-and-improve-neonatal-outcomes-an-evidence-based-narrative-review"
+        },
+        {
+          "title": "Study Shows Acupuncture Works to Relieve Depression In Pregnancy",
+          "url": "https://postpartumprogress.com/study-shows-acupuncture-works-to-relieve-depression-during-pregnancy"
+        },
+        {
+          "title": "Evaluation of an antenatal acupuncture intervention as an adjunct...",
+          "url": "https://researchers.mq.edu.au/en/publications/evaluation-of-an-antenatal-acupuncture-intervention-as-an-adjunct/"
+        }
+      ]
+    },
+    {
+      "query": "acupuncture pregnancy depression systematic review limitations sham control",
+      "results": [
+        {
+          "title": "(PDF) Preliminary communication Acupuncture: a promising treatment...",
+          "url": "https://www.academia.edu/93899751/Preliminary_communication_Acupuncture_a_promising_treatment_for_depression_during_pregnancy"
+        },
+        {
+          "title": "Acupuncture: Effectiveness and Safety | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety"
+        },
+        {
+          "title": "Acupuncture performed around the time of embryo transfer...",
+          "url": "https://static1.squarespace.com/static/565543e7e4b0fad364cec4be/t/5e85298a190d075eddf7a21a/1585785262135/Acupuncture+IVF+SysReview+MetaAnal+CSmith+2019.pdf"
+        },
+        {
+          "title": "The Integrative Management of Depressed Mood in Pregnancy: What...",
+          "url": "https://www.faim.org/the-integrative-management-of-depressed-mood-in-pregnancy-what-the-evidence-suggests"
+        },
+        {
+          "title": "Acupuncture for pelvic and back pain in pregnancy: A systematic...",
+          "url": "https://www.researchgate.net/publication/5539789_Acupuncture_for_pelvic_and_back_pain_in_pregnancy_A_systematic_review"
+        },
+        {
+          "title": "More Tooth Fairy Science: Acupuncture does not... | ScienceBlogs",
+          "url": "https://scienceblogs.com/insolence/2013/07/03/more-tooth-fairy-science-acupuncture-does-not-improve-in-vitro-fertilization-success-rates-no-matter-what-acupuncturists-say"
+        },
+        {
+          "title": "Is Acupuncture Safe During Pregnancy? What Experts Want You to...",
+          "url": "https://www.whattoexpect.com/pregnancy-acupuncture.aspx"
+        },
+        {
+          "title": "Pregnancy, Depression and Acupuncture - The New York Times",
+          "url": "https://archive.nytimes.com/parenting.blogs.nytimes.com/2010/02/24/pregnancy-depression-and-acupuncture/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:03:34.161+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

@@ -1,0 +1,210 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/",
+    "https://www.bmj.com/content/357/bmj.j1982",
+    "https://www.healio.com/news/orthopedics/20120325/arthroscopic-debridement-of-the-knee-for-osteoarthritis-is-it-ever-indicated"
+  ],
+  "claim_id": "ff_e4d9c8b1dce8",
+  "completed_at": "2026-08-04T03:48:25.878+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/",
+        "https://www.bmj.com/content/357/bmj.j1982",
+        "https://www.healio.com/news/orthopedics/20120325/arthroscopic-debridement-of-the-knee-for-osteoarthritis-is-it-ever-indicated"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that arthroscopy does not provide meaningful or durable benefit for knee osteoarthritis, citing sham surgery trials, systematic reviews, and clinical guidelines that strongly recommend against the procedure.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "knee arthroscopy osteoarthritis efficacy evidence Cochrane NEJM",
+    "Moseley 2002 NEJM controlled trial knee arthroscopy placebo sham",
+    "BMJ recommendation knee arthroscopy degenerative knee disease guideline",
+    "AAOS clinical practice guideline management knee osteoarthritis arthroscopy recommendation"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion**\nYour understanding is correct: **No**, arthroscopy (joint endoscopy)—including lavage (flushing) and debridement (trimming tissue)—does not provide meaningful or durable benefit for knee osteoarthritis.\n\n**The Evidence**\n* **Sham Surgery Trials:** Landmark double-blind randomized trials (such as Moseley et al., *NEJM* 2002) demonstrated that patients undergoing actual knee arthroscopy experienced no greater pain relief or functional improvement than those receiving sham (placebo) surgery.\n* **Systematic Reviews:** Comprehensive Cochrane reviews concluded that arthroscopic debridement offers no significant benefit over conservative non-surgical management or placebo for primary knee osteoarthritis (https://www.aetna.com/cpb/medical/data/600_699/0673.html; https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/).\n* **Clinical Practice Guidelines:** *The BMJ* Expert Panel issued a strong recommendation against arthroscopic surgery for degenerative knee disease, noting that any minor, transient pain relief does not outweigh surgical risks, recovery burden, or costs (https://www.bmj.com/content/357/bmj.j1982). Likewise, clinical guidelines from the American Academy of Orthopaedic Surgeons (AAOS) explicitly recommend against performing arthroscopic lavage or debridement for primary knee osteoarthritis, affirming that it yields outcomes no better than non-surgical management like physical therapy and medication (https://www.healio.com/news/orthopedics/20120325/arthroscopic-debridement-of-the-knee-for-osteoarthritis-is-it-ever-indicated).\n\nBecause degenerative osteoarthritis is a structural wear-and-tear process rather than a mechanically fixable localized lesion, medical guidelines prioritize conservative treatments—including exercise, physical therapy, weight management, and oral or topical medications—over arthroscopic procedures.",
+  "run_id": "core_ff_e4d9c8b1dce8_skeptic_gemini_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "knee arthroscopy osteoarthritis efficacy evidence Cochrane NEJM",
+    "Moseley 2002 NEJM controlled trial knee arthroscopy placebo sham",
+    "BMJ recommendation knee arthroscopy degenerative knee disease guideline",
+    "AAOS clinical practice guideline management knee osteoarthritis arthroscopy recommendation"
+  ],
+  "searches": [
+    {
+      "query": "knee arthroscopy osteoarthritis efficacy evidence Cochrane NEJM",
+      "results": [
+        {
+          "title": "Osteoarthritis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Osteoarthritis"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa1301408",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1301408"
+        },
+        {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical... | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html"
+        },
+        {
+          "title": "Arthroscopy as a Treatment for Knee Osteoarthritis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/"
+        },
+        {
+          "title": "77661 PDFs | Review articles in KNEE OSTEOARTHRITIS",
+          "url": "https://www.researchgate.net/topic/Knee-Osteoarthritis~Arthroscopy/publications"
+        },
+        {
+          "title": "Arthroscopic knee surgery in a middle-age patient.",
+          "url": "https://caringmedical.com/prolotherapy-news/meniscus-acl-surgery-patients-50-non-surgical-options/"
+        },
+        {
+          "title": "Knee Osteoarthritis Treatment",
+          "url": "https://www.arthritis-health.com/types/osteoarthritis/knee-osteoarthritis-treatment"
+        },
+        {
+          "title": "Knee Osteoarthritis: Symptoms, Causes... | Leading Medicine Guide",
+          "url": "https://www.leading-medicine-guide.com/en/illness/muscles-bones/knee-osteoarthritis"
+        }
+      ]
+    },
+    {
+      "query": "Moseley 2002 NEJM controlled trial knee arthroscopy placebo sham",
+      "results": [
+        {
+          "title": "Placebo Surgery: The Knee Arthroscopy Trial That... | Digital Dharma",
+          "url": "https://digitaldharma.io/sc/placebo-surgery-knee-arthroscopy/"
+        },
+        {
+          "title": "'Sham' Surgery Can Actually Fix Our Bodies. : ScienceAlert",
+          "url": "https://www.sciencealert.com/sham-surgery-can-actually-fix-our-bodies-so-why-are-some-against-it"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa1301408",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1301408"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892839/"
+        },
+        {
+          "title": "(PDF) Developing a placebo-controlled trial in surgery: Issues of...",
+          "url": "https://www.academia.edu/14651381/Developing_a_placebo_controlled_trial_in_surgery_Issues_of_design_acceptability_and_feasibility"
+        },
+        {
+          "title": "Артроскопия коленного сустава: когда нужна",
+          "url": "https://bsckrd.ru/blog/tpost/artroskopiya-kolennogo-sustava"
+        },
+        {
+          "title": "NICE guideline on osteoarthritis: assessment and management...",
+          "url": "https://www.nice.org.uk/guidance/ng226/documents/evidence-review-16"
+        },
+        {
+          "title": "sciencedirect.com/science/article/pii/S0965229920319099",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0965229920319099"
+        }
+      ]
+    },
+    {
+      "query": "BMJ recommendation knee arthroscopy degenerative knee disease guideline",
+      "results": [
+        {
+          "title": "Guideline BMJ RapidRecs: Arthroscopic surgery for degenerative...",
+          "url": "https://files.magicapp.org/guideline/0bd5c99a-6b86-4960-93a2-6ec686c5991b/published_guideline_1844-3_0.pdf"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee arthritis and meniscal...",
+          "url": "https://bjsm.bmj.com/content/52/5/313/"
+        },
+        {
+          "title": "Knee arthroscopy: the elephant in the room | Bone & Joint",
+          "url": "https://boneandjoint.org.uk/Article/10.1302/2048-0105.83.360689"
+        },
+        {
+          "title": "Knee Osteoarthritis: Early Signs, Causes, Diagnosis, Treatment",
+          "url": "https://www.webmd.com/osteoarthritis/ostearthritis-of-the-knee-degenerative-arthritis-of-the-knee"
+        },
+        {
+          "title": "When Does Knee Arthroscopy Actually Help? A Surgeon's Critical...",
+          "url": "https://drdewan.com/articles/arthroscopy-degenerative-meniscus-tear"
+        },
+        {
+          "title": "Degenerative Knee Disease - The Physio Company",
+          "url": "https://thephysiocompany.co.uk/degenerative-knee-disease/"
+        },
+        {
+          "title": "Meniscus Tears In Arthritic Knees: What Patients Should Know Before...",
+          "url": "https://arthritis.com.sg/meniscus-tears-in-arthritic-knees-what-patients-should-know-before-assuming-surgery-is-the-answer/"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee arthritis and ...",
+          "url": "https://www.bmj.com/content/357/bmj.j1982"
+        }
+      ]
+    },
+    {
+      "query": "AAOS clinical practice guideline management knee osteoarthritis arthroscopy recommendation",
+      "results": [
+        {
+          "title": "Management of Osteoarthritis of the",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+        },
+        {
+          "title": "(PDF) AAOS Clinical Practice Guideline: Surgical Management of...",
+          "url": "https://www.researchgate.net/publication/304630062_AAOS_Clinical_Practice_Guideline_Surgical_Management_of_Osteoarthritis_of_the_Knee_Evidence-based_Guideline"
+        },
+        {
+          "title": "Osteoarthritis Guidelines: Guidelines Summary, Hand...",
+          "url": "https://emedicine.medscape.com/article/330487-guidelines"
+        },
+        {
+          "title": "(PDF) Usability of the AAOS Appropriate Use Criteria (AUC) for the...",
+          "url": "https://www.academia.edu/110273920/Usability_of_the_AAOS_Appropriate_Use_Criteria_AUC_for_the_surgical_management_of_knee_osteoarthritis_in_clinical_practice"
+        },
+        {
+          "title": "Nonoperative Management Recommendations for Knee...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12660514/"
+        },
+        {
+          "title": "Recommendations for the management of hip and knee...",
+          "url": "https://www.binasss.sa.cr/bibliotecas/bhm/oct23/43.pdf"
+        },
+        {
+          "title": "JAAOS - Journal of the American Academy of Orthopaedic Surgeons",
+          "url": "https://journals.lww.com/jaaos/fulltext/2016/08000/aaos_clinical_practice_guideline__surgical.14.aspx"
+        },
+        {
+          "title": "Arthroscopic debridement of the knee for osteoarthritis: Is it ever...",
+          "url": "https://www.healio.com/news/orthopedics/20120325/arthroscopic-debridement-of-the-knee-for-osteoarthritis-is-it-ever-indicated"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T03:39:47.078+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

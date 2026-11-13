@@ -1,0 +1,210 @@
+{
+  "arm": "neutral_repeat",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793",
+    "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext",
+    "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+  ],
+  "claim_id": "ff_23d78e91cffc",
+  "completed_at": "2026-08-04T17:52:16.934+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793",
+        "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext",
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states 'Yes' in its conclusion and cites multiple large randomized controlled trials (NLST and NELSON) and guidelines showing that regular low-dose CT screening reduces lung cancer mortality in heavy current and former smokers. Therefore, it directly endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "5bc62f51921f0a6786d0dbb36a5500bb402a260c8f69181407cb2f7d15740186",
+  "queries": [
+    "CT lung cancer screening mortality reduction heavy smokers NLST trial",
+    "NELSON trial CT screening lung cancer mortality smokers",
+    "low-dose CT lung cancer screening current former smokers death rate meta-analysis",
+    "USPSTF CT lung cancer screening recommendations heavy smokers evidence"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "## Conclusion\n\n**Yes.** Multiple large randomized controlled trials and expert guidelines confirm that regular low-dose CT (LDCT) screening reduces lung cancer death in heavy current and former smokers.\n\n### Key Evidence\n\n1. **National Lung Screening Trial (NLST)** — This U.S. trial randomized 53,454 current or former heavy smokers (ages 55–74) to annual LDCT versus chest X-ray. LDCT screening was associated with a **20% relative reduction in lung cancer mortality**.\n   - Source: https://www.nejm.org/doi/full/10.1056/NEJMoa1102873\n\n2. **NELSON Trial (Dutch-Belgian)** — The second-largest RCT, comparing volume-based LDCT screening to no screening in male and female current/former smokers. It found a **24% mortality reduction in men and 33% in women** compared to the unscreened control group, confirming and extending the NLST findings.\n   - Source: https://www.nejm.org/doi/full/10.1056/NEJMoa1911793\n   - Commentary: https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext\n\n3. **USPSTF Recommendation** — Based on this evidence, the U.S. Preventive Services Task Force recommends **annual LDCT screening** for adults aged 50–80 with at least a 20 pack-year smoking history who currently smoke or quit within the past 15 years, concluding with \"moderate certainty\" that screening has a \"moderate net benefit\" in this high-risk group.\n   - Source: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening\n\n### Summary\n\nHeavy (ex-)smokers who undergo regular LDCT screening are significantly less likely to die of lung cancer—mortality reductions of roughly 20–26% (and up to 33% in women in NELSON) have been demonstrated. Screening detects cancers at earlier, more treatable stages. The benefit applies specifically to high-risk individuals meeting the smoking-history and age criteria above.",
+  "run_id": "neutral_repeat_ff_23d78e91cffc_neutral_glm_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "CT lung cancer screening mortality reduction heavy smokers NLST trial",
+    "NELSON trial CT screening lung cancer mortality smokers",
+    "low-dose CT lung cancer screening current former smokers death rate meta-analysis",
+    "USPSTF CT lung cancer screening recommendations heavy smokers evidence"
+  ],
+  "searches": [
+    {
+      "query": "CT lung cancer screening mortality reduction heavy smokers NLST trial",
+      "results": [
+        {
+          "title": "National Lung Screening Trial - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/National_Lung_Screening_Trial"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic Screening",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4356534/"
+        },
+        {
+          "title": "The National Lung Screening Trial: Results Stratified by...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3936005/"
+        },
+        {
+          "title": "Results of Initial Low-Dose Computed Tomographic Screening for ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1209120"
+        },
+        {
+          "title": "National Lung Screening Trial (NLST) - NCI - National Cancer...",
+          "url": "https://www.cancer.gov/types/lung/research/nlst"
+        },
+        {
+          "title": "National Lung Screening Trial: Questions and Answers",
+          "url": "https://www.cancer.gov/types/lung/research/nlst-qa"
+        },
+        {
+          "title": "National Lung Screening Trial - an overview - ScienceDirect",
+          "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/national-lung-screening-trial"
+        }
+      ]
+    },
+    {
+      "query": "NELSON trial CT screening lung cancer mortality smokers",
+      "results": [
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a Randomized ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793"
+        },
+        {
+          "title": "NELSON trial: reduced lung-cancer mortality with volume CT screening ...",
+          "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext"
+        },
+        {
+          "title": "Lung Nodule Management in Low-Dose CT Screening for Lung Cancer ...",
+          "url": "https://pubs.rsna.org/doi/pdf/10.1148/radiol.240535?download=true"
+        },
+        {
+          "title": "NELSON trial: reduced lung-cancer mortality with volume CT screening ...",
+          "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/abstract"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic Screening",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873"
+        },
+        {
+          "title": "NELSON Trial confirms mortality benefit of lung cancer screening",
+          "url": "https://pressroom.cancer.org/NELSON2020"
+        },
+        {
+          "title": "Lung Cancer Screening with Chest CT: Efficacy Confirmed",
+          "url": "https://pubs.rsna.org/doi/10.1148/rycan.2020204015"
+        },
+        {
+          "title": "Lung Cancer Screening with Chest CT: Efficacy Confirmed - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7983786/"
+        }
+      ]
+    },
+    {
+      "query": "low-dose CT lung cancer screening current former smokers death rate meta-analysis",
+      "results": [
+        {
+          "title": "Low (Flo Rida song) - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/Low_(Flo_Rida_song)"
+        },
+        {
+          "title": "Low (band) - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/Low_(band)"
+        },
+        {
+          "title": "Flo Rida - Low (feat. T-Pain) [Official Video] - YouTube",
+          "url": "https://m.youtube.com/watch?v=U2waT9TxPU0"
+        },
+        {
+          "title": "Lowe's Weekly Ad - Your Local Store",
+          "url": "https://www.lowes.com/weekly-ad"
+        },
+        {
+          "title": "LOW Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/low"
+        },
+        {
+          "title": "Lowe's Companies, Inc. (LOW) - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/LOW/?fr=sycsrp_catchall"
+        },
+        {
+          "title": "Flo Rida – Low Lyrics - Genius",
+          "url": "https://genius.com/Flo-rida-low-lyrics"
+        },
+        {
+          "title": "Flo Rida - Low Lyrics | AZLyrics.com",
+          "url": "https://www.azlyrics.com/lyrics/florida/low.html"
+        }
+      ]
+    },
+    {
+      "query": "USPSTF CT lung cancer screening recommendations heavy smokers evidence",
+      "results": [
+        {
+          "title": "Recommendation: Lung Cancer: Screening | United States Preventive ...",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+        },
+        {
+          "title": "Screening for Lung Cancer",
+          "url": "https://www.uspreventiveservicestaskforce.org/home/getfilebytoken/WN7F3WW6RQFDkHay87a3Dx"
+        },
+        {
+          "title": "Screening for Lung Cancer | Lung Cancer | CDC",
+          "url": "https://www.cdc.gov/lung-cancer/screening/index.html"
+        },
+        {
+          "title": "USPSTF Lung Cancer Screening Recommendation Toolkit",
+          "url": "https://www.lung.org/policy-advocacy/healthcare-lung-disease/lung-cancer-policy/toolkit"
+        },
+        {
+          "title": "USPSTF Evidence Report: Screening for Lung Cancer",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2777244"
+        },
+        {
+          "title": "Screening for Lung Cancer: US Preventive Services Task Force ...",
+          "url": "https://lungcancercap.org/wp-content/uploads/2021/03/lung-cancer-screening-rs.pdf"
+        },
+        {
+          "title": "Lung Cancer Screening and USPSTF Recommendations | HBHI",
+          "url": "https://hbhi.jhu.edu/publications/lung-cancer-screening-and-uspstf-recommendations"
+        },
+        {
+          "title": "Lung Cancer Screening Recommendations",
+          "url": "https://ebccp.cancercontrol.cancer.gov/recommendation.do?topicId=36341578"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:51:02.040+00:00",
+  "status": "judged",
+  "system": "glm"
+}

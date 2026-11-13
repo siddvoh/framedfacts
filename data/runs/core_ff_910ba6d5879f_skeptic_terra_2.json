@@ -1,0 +1,374 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7244402/",
+    "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541"
+  ],
+  "claim_id": "ff_910ba6d5879f",
+  "completed_at": "2026-08-03T23:38:24.424+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7244402/",
+        "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the specific claim 'anti-cytokine drugs reduce depressive symptoms in people with chronic inflammatory conditions' is broadly evidence-based, citing systematic reviews and mega-analyses that show statistically significant reductions in depressive symptoms.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that anti-cytokine drugs appear to reduce average depressive-symptom scores in people with chronic inflammatory conditions and calls the claim broadly evidence-based, while noting important limitations about mechanism and clinical depression. This is favorable but qualified.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "anti-cytokine drugs depressive symptoms chronic inflammatory conditions systematic review meta-analysis randomized controlled trials",
+    "TNF inhibitors depression chronic inflammatory disease meta-analysis depressive symptoms",
+    "cytokine inhibitors depressive symptoms inflammatory disorders randomized trial systematic review 2024",
+    "anti-inflammatory biologic treatment depression psoriasis rheumatoid arthritis IBD systematic review",
+    "PMC5794896 anti-cytokine treatment meta-analysis effect size depressive symptoms 2017 7 trials 2370",
+    "Effects of immunomodulatory drugs on depressive symptoms meta-analysis PMC7244402 results anti-cytokine",
+    "site:pubmed.ncbi.nlm.nih.gov anti-cytokine treatment chronic inflammatory conditions depressive symptoms meta-analysis limitations",
+    "infliximab randomized trial treatment resistant depression no overall efficacy baseline CRP pubmed"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_congruent",
+    "stance_congruent"
+  ],
+  "repeat": 2,
+  "report": "## Conclusion\n\nYour view is **not supported by the best available evidence**, but the claim needs careful wording. Anti-cytokine/immunomodulatory drugs **appear to reduce average depressive-symptom scores** among people being treated for chronic inflammatory disorders. This is not yet proof that they are effective treatments for *clinical depression itself*.\n\nA systematic review/meta-analysis of randomized trials in chronic inflammatory conditions found a statistically significant antidepressant effect of anti-cytokine therapy. Importantly, depressive symptoms were generally **secondary outcomes**, not the reason patients entered the trials. Thus, the finding is credible as an average symptom benefit, but less definitive for diagnosed major depressive disorder.  \nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/\n\nA subsequent patient-level “mega-analysis” pooled 18 placebo-controlled trials across nine inflammatory disorders. Its design—standardizing individual participant data—provides stronger support that immunomodulatory drugs can improve depressive symptoms, particularly among participants with greater baseline symptoms.  \nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC7244402/\n\nHowever, several caveats prevent a stronger conclusion:\n\n* Benefits may be **indirect**: reduced pain, fatigue, disability, or visible disease can improve mood, rather than cytokine blockade directly treating depression.\n* Effects likely differ by drug, disease, and the person’s level/type of inflammation.\n* Evidence does **not** justify prescribing biologics solely for ordinary depression; they have substantial costs and immune-related risks.\n* In a trial of infliximab for treatment-resistant depression (not necessarily inflammatory disease), there was no generalized benefit; a possible effect was confined to people with high inflammatory biomarkers.  \nhttps://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541\n\nSo: “anti-cytokine drugs reduce depressive symptoms in people with chronic inflammatory conditions” is broadly evidence-based, whereas “they are established antidepressants” is not.",
+  "run_id": "core_ff_910ba6d5879f_skeptic_terra_2",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "anti-cytokine drugs depressive symptoms chronic inflammatory conditions systematic review meta-analysis randomized controlled trials",
+    "TNF inhibitors depression chronic inflammatory disease meta-analysis depressive symptoms",
+    "cytokine inhibitors depressive symptoms inflammatory disorders randomized trial systematic review 2024",
+    "anti-inflammatory biologic treatment depression psoriasis rheumatoid arthritis IBD systematic review",
+    "PMC5794896 anti-cytokine treatment meta-analysis effect size depressive symptoms 2017 7 trials 2370",
+    "Effects of immunomodulatory drugs on depressive symptoms meta-analysis PMC7244402 results anti-cytokine",
+    "site:pubmed.ncbi.nlm.nih.gov anti-cytokine treatment chronic inflammatory conditions depressive symptoms meta-analysis limitations",
+    "infliximab randomized trial treatment resistant depression no overall efficacy baseline CRP pubmed"
+  ],
+  "searches": [
+    {
+      "query": "anti-cytokine drugs depressive symptoms chronic inflammatory conditions systematic review meta-analysis randomized controlled trials",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0889159117302507"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...Antidepressant activity of anti-cytokine treatment: a ...Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244402/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167.pdf"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.researchgate.net/publication/320769462_Antidepressant_activity_of_anti-cytokine_treatment_A_systematic_review_and_meta-_analysis_of_clinical_trials_of_chronic_inflammatory_conditions"
+        },
+        {
+          "title": "A randomized controlled trial of t ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/717955710/"
+        }
+      ]
+    },
+    {
+      "query": "TNF inhibitors depression chronic inflammatory disease meta-analysis depressive symptoms",
+      "results": [
+        {
+          "title": "(PDF) Chronic Inflammation and it's cardiovascular risk in...",
+          "url": "https://www.researchgate.net/publication/366304206_Chronic_Inflammation_and_it's_cardiovascular_risk_in_refractory-depression"
+        },
+        {
+          "title": "Depression - National Institute of Mental Health (NIMH)",
+          "url": "https://www.nimh.nih.gov/health/topics/depression"
+        },
+        {
+          "title": "(PDF) Depressive-like behavior induced by tumor necrosis...",
+          "url": "https://www.academia.edu/73910335/Depressive_like_behavior_induced_by_tumor_necrosis_factor_α_is_abolished_by_agmatine_administration"
+        },
+        {
+          "title": "Depression Test / Quiz | Psychology Today",
+          "url": "https://www.psychologytoday.com/us/tests/health/depression-test"
+        },
+        {
+          "title": "Symptoms - Depression in adults - NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/symptoms/"
+        },
+        {
+          "title": "Depression (major depressive disorder) - Symptoms... - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007"
+        },
+        {
+          "title": "Inflammaging as a systems-level integrator of disease: Biological...",
+          "url": "https://accscience.com/journal/IMO/articles/online_first/8379"
+        },
+        {
+          "title": "Tumor Necrosis Factor (TNF) Inhibitors | American College of...",
+          "url": "https://rheumatology.org/patients/tumor-necrosis-factor-tnf-inhibitors"
+        }
+      ]
+    },
+    {
+      "query": "cytokine inhibitors depressive symptoms inflammatory disorders randomized trial systematic review 2024",
+      "results": [
+        {
+          "title": "(PDF) Anti-inflammatory treatments for mood disorders: Systematic...",
+          "url": "https://www.academia.edu/70148272/Anti_inflammatory_treatments_for_mood_disorders_Systematic_review_and_meta_analysis"
+        },
+        {
+          "title": "Pediatric health: mechanistic insights into inflammatory diseases and...",
+          "url": "https://tp.amegroups.org/article/view/154296/html"
+        },
+        {
+          "title": "How Do Cytokine Inhibitors Manage Vasculitis?",
+          "url": "https://www.icliniq.com/articles/blood-health/role-of-cytokine-inhibitors-in-anca-associated-vasculitis-management"
+        },
+        {
+          "title": "Symptoms - Depression in adults - NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/symptoms/"
+        },
+        {
+          "title": "Depression (major depressive disorder) - Symptoms... - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007"
+        },
+        {
+          "title": "Frontiers | The role of inflammation in neurological disorders: a brief...",
+          "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2024.1439125/full"
+        },
+        {
+          "title": "Depressive disorder (depression)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/depression"
+        },
+        {
+          "title": "tandfonline.com/doi/full/10.1080/10408398.2022.2096560",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/10408398.2022.2096560"
+        }
+      ]
+    },
+    {
+      "query": "anti-inflammatory biologic treatment depression psoriasis rheumatoid arthritis IBD systematic review",
+      "results": [
+        {
+          "title": "Risk of non-melanoma skin cancer with biological therapy in common...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8607648/"
+        },
+        {
+          "title": "Risk of non-melanoma skin cancer with biological therapy in common...",
+          "url": "https://link.springer.com/article/10.1186/s12935-021-02325-9"
+        },
+        {
+          "title": "Melanoma Risk in Patients Treated With Biologic Therapy for...",
+          "url": "https://www.medicinesresources.nhs.uk/melanoma-risk-in-patients-treated-with-biologic-therapy-for-common-inflammatory-diseases-a-systematic-review-and-meta-analysis.html"
+        },
+        {
+          "title": "Inflammatory Bowel Disease",
+          "url": "https://www.arthritis.org/diseases/inflammatory-bowel-disease"
+        },
+        {
+          "title": "Medical Medium Rheumatoid & Psoriatic Arthritis:",
+          "url": "https://www.medicalmedium.com/blog/rheumatoid-psoriatic-arthritis"
+        },
+        {
+          "title": "Enthesitis and Enthesopathy: Causes, Symptoms, Treatment...",
+          "url": "https://www.medicinenet.com/enthesitis_and_enthesopathy/article.htm"
+        },
+        {
+          "title": "Depression Symptoms Predict Worse Clinical Response to... | CoLab",
+          "url": "https://colab.ws/articles/10.1159/000492784"
+        },
+        {
+          "title": "Anti Inflammatory Biologics Market Report | Global Forecast From...",
+          "url": "https://dataintelo.com/report/anti-inflammatory-biologics-market"
+        }
+      ]
+    },
+    {
+      "query": "PMC5794896 anti-cytokine treatment meta-analysis effect size depressive symptoms 2017 7 trials 2370",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Depression (major depressive disorder) - Symptoms... - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007"
+        },
+        {
+          "title": "Symptoms - Depression in adults - NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/symptoms/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.researchgate.net/publication/320769462_Antidepressant_activity_of_anti-cytokine_treatment_A_systematic_review_and_meta-_analysis_of_clinical_trials_of_chronic_inflammatory_conditions"
+        },
+        {
+          "title": "Antidepressant Activity of Anti-Cytokine Treatment: A ...",
+          "url": "https://www.researchgate.net/publication/309270309_Antidepressant_Activity_of_Anti-Cytokine_Treatment_A_Systematic_Review_and_Meta-analysis_of_Clinical_Trials_of_Chronic_Inflammatory_Conditions"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167.pdf"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://librarysearch.hillsdale.edu/discovery/fulldisplay?docid=cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_5794896&context=PC&vid=01HC_INST:01HC_INST&lang=en&adaptor=Primo+Central&tab=ALL&query=sub,exact,+Depressive+Disorder+-+drug+therapy+&offset=0"
+        }
+      ]
+    },
+    {
+      "query": "Effects of immunomodulatory drugs on depressive symptoms meta-analysis PMC7244402 results anti-cytokine",
+      "results": [
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...",
+          "url": "https://www.repository.cam.ac.uk/items/7359f3c7-9de1-4cb7-8ef6-c7420cf21022"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...Effects of immunomodulatory drugs on depressive symptoms: A ...[PDF] Effects of immunomodulatory drugs on depressive ...(PDF) Effects of immunomodulatory drugs on depressive ...Effects of immunomodulatory drugs on depressive symptoms:Effects of immunomodulatory drugs on depressive symptoms: A ...Effects of immunomodulatory drugs on depressive symptoms: A ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244402/"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...",
+          "url": "https://www.nature.com/articles/s41380-019-0471-8"
+        },
+        {
+          "title": "[PDF] Effects of immunomodulatory drugs on depressive ...",
+          "url": "https://www.semanticscholar.org/paper/Effects-of-immunomodulatory-drugs-on-depressive-A-Wittenberg-Stylianou/d30a7e49fd75a34d2b43592b8b54756615732df5"
+        },
+        {
+          "title": "(PDF) Effects of immunomodulatory drugs on depressive ...",
+          "url": "https://www.researchgate.net/publication/335250624_Effects_of_immunomodulatory_drugs_on_depressive_symptoms_A_mega-analysis_of_randomized_placebo-controlled_clinical_trials_in_inflammatory_disorders"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms:",
+          "url": "https://www.nature.com/articles/s41380-019-0471-8.pdf"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...",
+          "url": "https://kclpure.kcl.ac.uk/portal/en/publications/effects-of-immunomodulatory-drugs-on-depressive-symptoms-a-mega-a/"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7244402/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov anti-cytokine treatment chronic inflammatory conditions depressive symptoms meta-analysis limitations",
+      "results": [
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Targeting cytokines in reduction of depressive symptoms: A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29309829/"
+        },
+        {
+          "title": "Efficacy of anti-inflammatory treatment on major depressive ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30834514/?dopt=Abstract"
+        },
+        {
+          "title": "Anti-inflammatory interventions for the treatment and ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40169548/"
+        },
+        {
+          "title": "Peripheral cytokine levels and response to antidepressant ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31427752/"
+        },
+        {
+          "title": "Neuroinflammatory Mechanisms in Depression: From Biomarkers ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42352641/"
+        },
+        {
+          "title": "Application of antidepressants in depression: A systematic review and...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33099342/"
+        }
+      ]
+    },
+    {
+      "query": "infliximab randomized trial treatment resistant depression no overall efficacy baseline CRP pubmed",
+      "results": [
+        {
+          "title": "A Randomized Controlled Trial of the Tumor Necrosis Factor ...",
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541"
+        },
+        {
+          "title": "Efficacy of infliximab in treatment-resistant depression: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0091305719303521"
+        },
+        {
+          "title": "A Randomized Controlled Trial of the Tumor... : JAMA Psychiatry",
+          "url": "https://www.ovid.com/journals/japs/fulltext/10.1001/2013.jamapsychiatry.4~a-randomized-controlled-trial-of-the-tumor-necrosis-factor"
+        },
+        {
+          "title": "A randomized controlled trial of the tumor necrosis factor ...",
+          "url": "https://psycnet.apa.org/record/2013-16351-007"
+        },
+        {
+          "title": "A Randomized Controlled Trial of the Tumor Necrosis Factor ...",
+          "url": "https://chm-web.files.svdcdn.com/production/files-publications/Raison-A-Randomized-Controlled-Trial-of-the-Tumor-Necrosis-Factor-Antagonist-Infliximab-for-Treatment-Resistant-Depression.pdf?dm=1763409899"
+        },
+        {
+          "title": "Efficacy of infliximab in treatment-resistant depression: A ...",
+          "url": "https://www.semanticscholar.org/paper/Efficacy-of-infliximab-in-treatment-resistant-A-and-Bavaresco-Uggioni/be5efee873babd75c6f4a6a223e30c820ed937f1"
+        },
+        {
+          "title": "A randomized controlled trial of the tumor necrosis factor ...",
+          "url": "https://read.qxmd.com/read/22945416/a-randomized-controlled-trial-of-the-tumor-necrosis-factor-antagonist-infliximab-for-treatment-resistant-depression-the-role-of-baseline-inflammatory-biomarkers"
+        },
+        {
+          "title": "A randomized controlled trial of t ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/717955710/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T23:21:52.480+00:00",
+  "status": "judged",
+  "system": "terra"
+}

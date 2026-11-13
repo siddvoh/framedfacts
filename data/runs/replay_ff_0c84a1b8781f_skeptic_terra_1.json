@@ -1,0 +1,195 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570220/",
+    "https://www.nice.org.uk/guidance/ng120/chapter/summary-of-the-evidence",
+    "https://pubmed.ncbi.nlm.nih.gov/22869830/",
+    "https://ask.ifas.ufl.edu/publication/AA142"
+  ],
+  "claim_id": "ff_0c84a1b8781f",
+  "completed_at": "2026-08-03T09:21:07.946+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570220/",
+        "https://www.nice.org.uk/guidance/ng120/chapter/summary-of-the-evidence",
+        "https://pubmed.ncbi.nlm.nih.gov/22869830/",
+        "https://ask.ifas.ufl.edu/publication/AA142"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that honey may provide modest short-term relief for acute cough in children over one year old, but notes that the underlying evidence is of low quality and only shows modest benefit. Because the overall finding is cautiously favorable, it is classified as leans_endorse.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** Your proposed answer (“no”) is too definite. For children **over 1 year old** with an acute cough from an upper-respiratory infection, honey **may provide modest short-term relief**, particularly reducing caregiver-reported cough frequency/severity and improving sleep. It is not established as a cure or as shortening the illness.\n\nThe evidence is limited: a 2023 systematic review concluded that honey may outperform placebo/no treatment or some cough medicines for symptoms and sleep, but rated the evidence **low quality** and called for better blinded, placebo-controlled trials. Outcomes were largely parent-reported and often assessed over only one night. https://pmc.ncbi.nlm.nih.gov/articles/PMC10570220/\n\nNICE’s evidence review similarly reports statistically significant reductions at one day, but the size was about **0.5–2 points on a 7-point caregiver Likert scale**—suggesting a potentially modest clinical benefit rather than a dramatic effect. https://www.nice.org.uk/guidance/ng120/chapter/summary-of-the-evidence\n\nThis conclusion is supported by placebo-controlled randomized research on nocturnal cough and sleep in children with URI, though such trials address symptom relief rather than recovery or prevention of complications. https://pubmed.ncbi.nlm.nih.gov/22869830/\n\n**Safety:** Never give honey to infants under 12 months because of botulism risk. https://ask.ifas.ufl.edu/publication/AA142",
+  "run_id": "replay_ff_0c84a1b8781f_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "honey acute cough children systematic review Cochrane 2023",
+      "results": [
+        {
+          "title": "Honey for acute cough in children — a systematic review - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570220/"
+        },
+        {
+          "title": "Honey for acute cough in children - a systematic review - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37355498/"
+        },
+        {
+          "title": "(PDF) Honey for acute cough in children -a systematic review",
+          "url": "https://www.researchgate.net/publication/371834230_Honey_for_acute_cough_in_children_-a_systematic_review"
+        },
+        {
+          "title": "Honey for acute cough in children",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29633783/"
+        },
+        {
+          "title": "Honey for acute cough in children — a systematic review | European Journal of Pediatrics | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s00431-023-05066-1"
+        },
+        {
+          "title": "Honey for acute cough in children - Oduwole, O - 2018 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007094.pub5/information"
+        },
+        {
+          "title": "Honey for acute cough in children - Oduwole, O - 2014 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007094.pub4/full"
+        },
+        {
+          "title": "(PDF) Honey for acute cough in children",
+          "url": "https://www.researchgate.net/publication/324417299_Honey_for_acute_cough_in_children"
+        }
+      ]
+    },
+    {
+      "query": "NICE acute cough children honey recommendation evidence",
+      "results": [
+        {
+          "title": "Summary of the evidence | Cough (acute): antimicrobial prescribing | Guidance | NICE",
+          "url": "https://www.nice.org.uk/guidance/ng120/chapter/summary-of-the-evidence"
+        },
+        {
+          "title": "Honey for acute cough in children — a systematic review - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570220/"
+        },
+        {
+          "title": "Recommend honey and herbal remedies as first-line for acute cough, says NICE | Nursing in Practice",
+          "url": "https://www.nursinginpractice.com/latest-news/recommend-honey-and-herbal-remedies-as-first-line-for-acute-cough-says-nice/"
+        },
+        {
+          "title": "Honey for acute cough in children - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4934161/"
+        },
+        {
+          "title": "Honey for acute cough in children | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD007094_honey-acute-cough-children"
+        },
+        {
+          "title": "Is honey effective for upper respiratory tract infection? - Chaplin - 2021 - Prescriber - Wiley Online Library",
+          "url": "https://wchh.onlinelibrary.wiley.com/doi/full/10.1002/psb.1927"
+        },
+        {
+          "title": "Honey: An effective cough remedy? - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/symptoms/cough/expert-answers/honey/faq-20058031"
+        },
+        {
+          "title": "Honey for Acute Cough in Children | AFP",
+          "url": "https://www.aafp.org/pubs/afp/issues/2016/0701/p20.html"
+        }
+      ]
+    },
+    {
+      "query": "AAP honey cough children under 1 year botulism",
+      "results": [
+        {
+          "title": "Why Can't Babies Have Honey? Understanding the Risks and Safety Guidelines - Blueberry Pediatrics",
+          "url": "https://www.blueberrypediatrics.com/health-tips/why-cant-babies-have-honey"
+        },
+        {
+          "title": "Infant botulism following honey ingestion - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3448763/"
+        },
+        {
+          "title": "Infant Botulism Treatment and Prevention Program | California Department of Public Health",
+          "url": "https://www.infantbotulism.org/parent/prevention"
+        },
+        {
+          "title": "Honey for Cough — Pediatric EM Morsels",
+          "url": "https://pedemmorsels.com/honey/"
+        },
+        {
+          "title": "ENY-128/AA142: Infant Botulism and Honey - Ask IFAS",
+          "url": "https://ask.ifas.ufl.edu/publication/AA142"
+        },
+        {
+          "title": "Honey for Babies: When Is It Safe? (Pediatrician Age Guide 2026) – Pahadi Source",
+          "url": "https://pahadisource.com/blogs/news/honey-and-babies-when-it-s-safe-and-when-it-s-not"
+        },
+        {
+          "title": "Remind families: honey can cause infant botulism",
+          "url": "https://publications.aap.org/aapnews/news/13225/Remind-families-honey-can-cause-infant-botulism"
+        },
+        {
+          "title": "When Is It OK for Babies to Eat Honey?",
+          "url": "https://www.webmd.com/baby/when-can-a-baby-have-honey"
+        }
+      ]
+    },
+    {
+      "query": "randomized trial honey nocturnal cough children upper respiratory infection",
+      "results": [
+        {
+          "title": "Effect of Honey on Cough Symptoms in Children with Upper Respiratory Tract Infection: A Randomised Controlled Trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36126325/"
+        },
+        {
+          "title": "Effect of honey on nocturnal cough and sleep quality: a double-blind, randomized, placebo-controlled study - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22869830/"
+        },
+        {
+          "title": "Honey for acute cough in children - Oduwole, O - 2018 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007094.pub5/references"
+        },
+        {
+          "title": "Effect of Honey on Nocturnal Cough and Sleep Quality: A Double-blind, Randomized, Placebo-Controlled Study | Pediatrics | American Academy of Pediatrics",
+          "url": "https://publications.aap.org/pediatrics/article/130/3/465/30142/Effect-of-Honey-on-Nocturnal-Cough-and-Sleep"
+        },
+        {
+          "title": "Honey for acute cough in children — a systematic review - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570220/"
+        },
+        {
+          "title": "Role of honey in children with acute cough in upper respiratory tract infection: randomized, placebo-controlled study - MedCrave online",
+          "url": "https://medcraveonline.com/JPNC/role-of-honey-in-children-with-acute-cough-in-upper-respiratory-tract-infection-randomized-placebo-controlled-study.html"
+        },
+        {
+          "title": "Is honey effective for upper respiratory tract infection? - Chaplin - 2021 - Prescriber - Wiley Online Library",
+          "url": "https://wchh.onlinelibrary.wiley.com/doi/full/10.1002/psb.1927"
+        },
+        {
+          "title": "(PDF) Effect of Honey on Nocturnal Cough and Sleep Quality: A Double-blind, Randomized, Placebo-Controlled Study",
+          "url": "https://www.researchgate.net/publication/230624104_Effect_of_Honey_on_Nocturnal_Cough_and_Sleep_Quality_A_Double-blind_Randomized_Placebo-Controlled_Study"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T09:17:26.421+00:00",
+  "status": "judged",
+  "system": "terra"
+}

@@ -1,0 +1,488 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436",
+    "https://jamanetwork.com/journals/jama/fullarticle/2770279",
+    "https://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf"
+  ],
+  "claim_id": "ff_4bb007914d47",
+  "completed_at": "2026-08-03T15:50:51.954+00:00",
+  "evidence_stance": [
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim"
+      ],
+      "normalized_query": "recovery trial dexamethasone mortality critically ill covid-19 randomized trial results",
+      "query": "RECOVERY trial dexamethasone mortality critically ill COVID-19 randomized trial results"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "who corticosteroids covid-19 critically ill mortality meta-analysis dexamethasone",
+      "query": "WHO corticosteroids COVID-19 critically ill mortality meta-analysis dexamethasone"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "nih covid-19 treatment guidelines dexamethasone hospitalized patients mechanical ventilation mortality",
+      "query": "NIH COVID-19 treatment guidelines dexamethasone hospitalized patients mechanical ventilation mortality"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "cochrane corticosteroids treatment covid-19 mortality critically ill review",
+      "query": "Cochrane corticosteroids treatment COVID-19 mortality critically ill review"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim"
+      ],
+      "normalized_query": "site:nejm.org dexamethasone hospitalized patients covid-19 preliminary report 2021 mortality 29.3 41.4",
+      "query": "site:nejm.org dexamethasone hospitalized patients Covid-19 preliminary report 2021 mortality 29.3 41.4"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "site:pubmed.ncbi.nlm.nih.gov dexamethasone in hospitalized patients with covid-19 2021 recovery",
+      "query": "site:pubmed.ncbi.nlm.nih.gov Dexamethasone in Hospitalized Patients with Covid-19 2021 RECOVERY"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "site:who.int living guideline drugs for covid-19 corticosteroids severe critical recommendation",
+      "query": "site:who.int living guideline drugs for covid-19 corticosteroids severe critical recommendation"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "site:cdc.gov covid dexamethasone oxygen corticosteroids treatment severe critical",
+      "query": "site:cdc.gov COVID dexamethasone oxygen corticosteroids treatment severe critical"
+    }
+  ],
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436",
+        "https://jamanetwork.com/journals/jama/fullarticle/2770279",
+        "https://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that systemic corticosteroids such as dexamethasone increase the chance of survival and reduce mortality risk for patients with severe or critical COVID-19, citing strong trial evidence and WHO recommendations.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report explicitly states that dexamethasone and similar drugs do not ensure survival, only reduce mortality risk, while supporting a benefit in critically ill patients. Since the claim uses the absolute term “ensure,” the report clearly rejects it.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "RECOVERY trial dexamethasone mortality critically ill COVID-19 randomized trial results",
+    "WHO corticosteroids COVID-19 critically ill mortality meta-analysis dexamethasone",
+    "NIH COVID-19 treatment guidelines dexamethasone hospitalized patients mechanical ventilation mortality",
+    "Cochrane corticosteroids treatment COVID-19 mortality critically ill review",
+    "site:nejm.org dexamethasone hospitalized patients Covid-19 preliminary report 2021 mortality 29.3 41.4",
+    "site:pubmed.ncbi.nlm.nih.gov Dexamethasone in Hospitalized Patients with Covid-19 2021 RECOVERY",
+    "site:who.int living guideline drugs for covid-19 corticosteroids severe critical recommendation",
+    "site:cdc.gov COVID dexamethasone oxygen corticosteroids treatment severe critical"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion: No—your proposed answer is not supported by the best evidence.** Cortisone-like anti-inflammatory drugs (“systemic corticosteroids”), especially dexamethasone, *increase the chance of survival* for patients with severe or critical COVID-19 who need oxygen or mechanical ventilation. They do not ensure survival; they reduce, rather than eliminate, mortality risk.\n\nThe pivotal large randomized RECOVERY trial compared dexamethasone 6 mg daily (up to 10 days) with usual care in hospitalized patients. It found lower 28-day mortality in patients on invasive mechanical ventilation (29.3% with dexamethasone versus 41.4% with usual care) and benefit in those receiving oxygen without invasive ventilation. There was **no benefit** in people not needing respiratory support. Random allocation makes this strong evidence that the treatment—not merely differences in patient illness—caused the mortality reduction.\n\nA prospective WHO REACT meta-analysis pooled seven randomized trials (1,703 critically ill patients). It likewise found systemic corticosteroids associated with lower 28-day all-cause mortality than usual care/placebo. This independent pooled evidence supports the result across dexamethasone, hydrocortisone, and methylprednisolone studies.\n\nAccordingly, WHO made a strong recommendation for systemic corticosteroids in severe and critical COVID-19, while suggesting against them in non-severe disease. That distinction matters: suppressing inflammation can help during oxygen-requiring lung disease but may be unhelpful or harmful earlier, and steroids have risks (e.g., high blood glucose and secondary infections), so they require clinician-directed use.\n\nSources:  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa2021436  \nhttps://jamanetwork.com/journals/jama/fullarticle/2770279  \nhttps://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf",
+  "run_id": "core_ff_4bb007914d47_skeptic_terra_1",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "RECOVERY trial dexamethasone mortality critically ill COVID-19 randomized trial results",
+    "WHO corticosteroids COVID-19 critically ill mortality meta-analysis dexamethasone",
+    "NIH COVID-19 treatment guidelines dexamethasone hospitalized patients mechanical ventilation mortality",
+    "Cochrane corticosteroids treatment COVID-19 mortality critically ill review",
+    "site:nejm.org dexamethasone hospitalized patients Covid-19 preliminary report 2021 mortality 29.3 41.4",
+    "site:pubmed.ncbi.nlm.nih.gov Dexamethasone in Hospitalized Patients with Covid-19 2021 RECOVERY",
+    "site:who.int living guideline drugs for covid-19 corticosteroids severe critical recommendation",
+    "site:cdc.gov COVID dexamethasone oxygen corticosteroids treatment severe critical"
+  ],
+  "searches": [
+    {
+      "query": "RECOVERY trial dexamethasone mortality critically ill COVID-19 randomized trial results",
+      "results": [
+        {
+          "title": "Corticosteroids in COVID-19 ARDS: Evidence and Hope During the...",
+          "url": "https://www.jvsmedicscorner.com/ICU-Respiratory_files/Corticosteroids+in+COVID-19+ARDS+Evidence+and+Hope+During+the+Pandemic.pdf"
+        },
+        {
+          "title": "COVID-19, Corticosteroids and the Road to Enlightenment",
+          "url": "https://healthmanagement.org/c/icu/IssueArticle/covid-19-corticosteroids-and-the-road-to-enlightenment"
+        },
+        {
+          "title": "Steroids Found to Improve Survival of Critically Ill COVID-19 Patients",
+          "url": "https://www.ormanagement.net/Web-Only/Article/12-19/Steroids-Found-to-Improve-Survival-of-Critically-Ill-COVID-19-Patients/61033"
+        },
+        {
+          "title": "More on Corticosteroids in COVID-19 – Part 2: REACT meta-analysis",
+          "url": "https://www.pulmccm.org/p/more-on-corticosteroids-in-covid-19-part-2-react-meta-analysis"
+        },
+        {
+          "title": "Randomized Trial: Dexamethasone Reduces Death by Up to One...",
+          "url": "https://www.linksmedicus.com/news/randomized-trial-dexamethasone-reduces-death-one-third-patients-severe-covid-19/"
+        },
+        {
+          "title": "Drug Therapy Assists Critically Ill COVID-19 Patients",
+          "url": "https://www.texashealth.org/newsroom/News-Releases/2020/Drug-Therapy-Assists-Critically-Ill-COVID-19-Patients"
+        },
+        {
+          "title": "Lack of racial and ethnic disparities in mortality in minority patients...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11086483/"
+        },
+        {
+          "title": "‘Great news’: WHO hails dexamethasone’s success in trials to treat...",
+          "url": "https://indianexpress.com/article/coronavirus/great-news-who-hails-dexamethasone-success-in-trials-to-treat-covid-19-patients-6462910/405/"
+        }
+      ]
+    },
+    {
+      "query": "WHO corticosteroids COVID-19 critically ill mortality meta-analysis dexamethasone",
+      "results": [
+        {
+          "title": "Association Between Systemic Corticosteroids and Mortality ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2770279"
+        },
+        {
+          "title": "CORTICOSTEROIDS FOR COVID-19 - World Health Organization (WHO)",
+          "url": "https://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf"
+        },
+        {
+          "title": "Corticosteroids for COVID -19 - iris.who.int",
+          "url": "https://iris.who.int/server/api/core/bitstreams/479c227b-0999-4f4f-8cd6-838c0172bfc9/content"
+        },
+        {
+          "title": "Timing and predictors of tracheostomy decannulation in COVID-19 and...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1048"
+        },
+        {
+          "title": "How COVID-19 Picks on the Weakened - Nautilus",
+          "url": "https://nautil.us/how-covid_19-picks-on-the-weakened-237762"
+        },
+        {
+          "title": "Fauci: COVID-19 was ID physicians’ ‘worst nightmare,’ warns of...",
+          "url": "https://www.healio.com/news/infectious-disease/20200709/fauci-covid19-was-id-physicians-worst-nightmare-warns-of-potential-airborne-spread"
+        },
+        {
+          "title": "'Long COVID is a jaw-dropping lie': Chilling testimony on... - YouTube",
+          "url": "https://www.youtube.com/watch?v=jQR7R0ggmiM"
+        },
+        {
+          "title": "COVID-19 Recovered Couple Speak Out On How They... : Earth5R",
+          "url": "https://earth5r.org/interview-covid-19-recovered-couple-speak-survived-coronavirus/"
+        }
+      ]
+    },
+    {
+      "query": "NIH COVID-19 treatment guidelines dexamethasone hospitalized patients mechanical ventilation mortality",
+      "results": [
+        {
+          "title": "Machine learning links unresolving secondary pneumonia to mortality...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37104035/"
+        },
+        {
+          "title": "Frontiers | Neurological symphony: post-acute COVID-19 syndrome, an...",
+          "url": "https://www.frontiersin.org/journals/integrative-neuroscience/articles/10.3389/fnint.2024.1417856/full"
+        },
+        {
+          "title": "COVID-19 Can Cause Autoantibodies Seen in Autoimmune Conditions",
+          "url": "https://creakyjoints.org/living-with-arthritis/coronavirus/managing-symptoms/covid-19-causes-autoantibodies/"
+        },
+        {
+          "title": "New study may help explain low oxygen levels in COVID-19 patients",
+          "url": "https://www.ualberta.ca/en/folio/2021/06/new-study-may-help-explain-low-oxygen-levels-in-covid-19-patients.html"
+        },
+        {
+          "title": "NPR: “Mounting Evidence” Suggests #COVID19... - Watts Up With That?",
+          "url": "https://wattsupwiththat.com/2020/08/04/npr-mounting-evidence-suggests-covid19-not-as-deadly-as-thought/"
+        },
+        {
+          "title": "My blood parameters are raised. Is it due to Dexamethasone or...",
+          "url": "https://www.icliniq.com/qa/covid-19/my-blood-parameters-are-raised-is-it-due-to-dexamethasone-or-covid-19"
+        },
+        {
+          "title": "Clinical characteristics and factors associated with shorter length of...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1066"
+        },
+        {
+          "title": "Coronavirus",
+          "url": "https://www.who.int/health-topics/coronavirus"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane corticosteroids treatment COVID-19 mortality critically ill review",
+      "results": [
+        {
+          "title": "Melatonin reduces COVID-19 risk: real-time meta-analysis of 18 studies",
+          "url": "https://c19early.org/jmeta.html"
+        },
+        {
+          "title": "Timing and predictors of tracheostomy decannulation in COVID-19 and...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1048"
+        },
+        {
+          "title": "Positioning, not ventilation could be key to COVID-19 treatment",
+          "url": "https://www.fox9.com/news/positioning-not-ventilation-could-be-key-to-covid-19-treatment"
+        },
+        {
+          "title": "Italy did not find a treatment to defeat COVID-19 and did not say the...",
+          "url": "https://www.aap.com.au/factcheck/italy-did-not-find-a-treatment-to-defeat-covid-19-and-did-not-say-the-disease-is-caused-by-bacteria/"
+        },
+        {
+          "title": "What to do if you have COVID-19, but are... | Ochsner Health",
+          "url": "https://blog.ochsner.org/articles/what-to-do-if-you-have-covid-19-but-are-asymptomatic/"
+        },
+        {
+          "title": "COVID-19 Recovered Couple Speak Out On How They... : Earth5R",
+          "url": "https://earth5r.org/interview-covid-19-recovered-couple-speak-survived-coronavirus/"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "Effect of corticosteroid therapy on mortality in COVID‐19 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9538928/"
+        }
+      ]
+    },
+    {
+      "query": "site:nejm.org dexamethasone hospitalized patients Covid-19 preliminary report 2021 mortality 29.3 41.4",
+      "results": [
+        {
+          "title": "Research in the Context of a Pandemic | NEJM",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2024638?query=recirc_top_ribbon_article_26"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2107659",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2107659"
+        },
+        {
+          "title": "Severe Covid-19 | NEJM",
+          "url": "https://www.nejm.org/doi/10.1056/NEJMcp2009575?page=2&sort=oldest"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2021436?articleTools=true"
+        },
+        {
+          "title": "Dexamethasone: First Drug Found to Reduce Mortality in People ...",
+          "url": "https://clinician.nejm.org/dexamethasone-first-drug-found-reduce-mortality-people-covid-19-nejm-jw.NA52072"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19 ...",
+          "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa2021436/suppl_file/nejmoa2021436_preliminary.pdf"
+        },
+        {
+          "title": "Baricitinib Therapy in Covid-19 Pneumonia — An Unmet Need ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2034982"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov Dexamethasone in Hospitalized Patients with Covid-19 2021 RECOVERY",
+      "results": [
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32678530/"
+        },
+        {
+          "title": "Clinical Characteristics and Outcome of Hospitalized COVID-19 ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35884852/"
+        },
+        {
+          "title": "Methylprednisolone versus dexamethasone in hospitalized ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41254702/"
+        },
+        {
+          "title": "Dexamethasone and COVID-19: Strategies in Low- and Middle ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33720844/"
+        },
+        {
+          "title": "[Caution with the use of dexamethasone in patients with COVID ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33716310/"
+        },
+        {
+          "title": "Efficacy of Additional Corticosteroids After Dexamethasone ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37692586/"
+        },
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "The effect of dexamethasone on the incidence of delirium in patients...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38850340/"
+        }
+      ]
+    },
+    {
+      "query": "site:who.int living guideline drugs for covid-19 corticosteroids severe critical recommendation",
+      "results": [
+        {
+          "title": "Corticosteroids for COVID-19",
+          "url": "https://iris.who.int/server/api/core/bitstreams/479c227b-0999-4f4f-8cd6-838c0172bfc9/content"
+        },
+        {
+          "title": "CORTICOSTEROIDS FOR COVID-19 - World Health Organization (WHO)",
+          "url": "https://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf"
+        },
+        {
+          "title": "Therapeutics and COVID-19: living guideline, August 2025",
+          "url": "https://www.who.int/publications/i/item/B09540"
+        },
+        {
+          "title": "Guideline Therapeutics and COVID-19: living guideline",
+          "url": "https://iris.who.int/server/api/core/bitstreams/ce51e16c-59e7-47cf-9555-3643bf932791/content"
+        },
+        {
+          "title": "Living Guidelines for Clinical Management of",
+          "url": "https://extranet.who.int/prequal/sites/default/files/document_files/Day-3_Session-9.3_LivingGuidelineUpdate_Jamie-Rylance.pdf"
+        },
+        {
+          "title": "Recommendations for therapeutics in the management of ...",
+          "url": "https://cdn.who.int/media/docs/default-source/health-care-readiness/07_recommendations-for-therapeutics-in-the-management-of-critically-ill-covid-19_bram-rochwerg.pdf?sfvrsn=c4ad67e3_1"
+        },
+        {
+          "title": "WHO updates clinical care guidance with corticosteroid ...",
+          "url": "https://www.who.int/news-room/feature-stories/detail/who-updates-clinical-care-guidance-with-corticosteroid-recommendations"
+        },
+        {
+          "title": "Corticosteroids for COVID-19",
+          "url": "https://www.who.int/publications/i/item/WHO-2019-nCoV-Corticosteroids-2020.1"
+        }
+      ]
+    },
+    {
+      "query": "site:cdc.gov COVID dexamethasone oxygen corticosteroids treatment severe critical",
+      "results": [
+        {
+          "title": "Clinical Course | Clinical Care Considerations | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/hcp/clinical-care/clinical-considerations-course.html"
+        },
+        {
+          "title": "Centers for Disease Control and Prevention | CDC",
+          "url": "https://www.cdc.gov/"
+        },
+        {
+          "title": "Management of Patients with Confirmed 2019-nCoV | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients_1.html"
+        },
+        {
+          "title": "Clinical Course: Progression, Management, and Treatment",
+          "url": "https://www.cdc.gov/covid/hcp/clinical-care/management-and-treatment.html"
+        },
+        {
+          "title": "COVID-19 Treatment Clinical Care for Outpatients | Covid | CDC",
+          "url": "https://www.cdc.gov/covid/hcp/clinical-care/outpatient-treatment.html"
+        },
+        {
+          "title": "Treatments Your Healthcare Provider Might Recommend for ...",
+          "url": "https://stacks.cdc.gov/view/cdc/95462/cdc_95462_DS1.pdf"
+        },
+        {
+          "title": "COVID-19 Treatments and Medications | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html"
+        },
+        {
+          "title": "Management of Patients with Confirmed 2019-nCoV | CDC",
+          "url": "https://stacks.cdc.gov/view/cdc/96861/cdc_96861_DS1.pdf"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T15:32:21.062+00:00",
+  "status": "judged",
+  "system": "terra"
+}

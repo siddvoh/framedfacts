@@ -1,0 +1,370 @@
+{
+  "arm": "kimi",
+  "citations": [
+    "https://www.nature.com/articles/onc2009335",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/",
+    "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.908487/full",
+    "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+  ],
+  "claim_id": "ff_c3a5974d97f8",
+  "completed_at": "2026-08-04T01:52:19.991+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nature.com/articles/onc2009335",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/",
+        "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.908487/full",
+        "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is unsupported/misleading and states that 'treats breast cancer in humans' is not currently true due to a lack of human clinical trial evidence.",
+      "label": "rejects"
+    }
+  },
+  "model": "moonshotai/kimi-k3:exacto",
+  "params_hash": "5b73edffbd5cb9dfcfede042e73a6ddc3775e3026bc39efa7340eed875692c3a",
+  "queries": [
+    "capsaicin breast cancer human clinical trial treatment",
+    "capsaicin breast cancer systematic review humans TRPV1",
+    "capsaicin breast cancer cells in vitro animal study proliferation apoptosis",
+    "NCI PDQ capsaicin cancer treatment breast cancer",
+    "ClinicalTrials.gov capsaicin breast cancer treatment trial",
+    "capsaicin cancer clinical trials review no human evidence oral capsaicin chemotherapy speculative",
+    "capsaicin breast cancer epidemiology spicy food risk cohort human",
+    "breast cancer treatment guidelines capsaicin not recommended complementary alternative"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "neutral",
+    "stance_incongruent"
+  ],
+  "repeat": 1,
+  "report": "Conclusion: the claim is **unsupported/misleading**. Capsaicin has shown anti-proliferative and pro-apoptotic effects against breast-cancer cells in culture and in mouse xenograft models, but that is preclinical evidence, not proof that it treats human breast cancer (https://www.nature.com/articles/onc2009335). Reviews of the broader capsaicin–cancer literature describe abundant laboratory and animal work yet emphasize that oral capsaicin’s clinical value as a chemotherapy complement remains speculative; human use is mainly topical for pain/neuropathy, not tumor eradication (https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/; https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.908487/full). I found no retrieved evidence of completed human trials showing capsaicin shrinks breast tumors or improves survival. Established breast-cancer care remains surgery, radiation, chemotherapy, endocrine and targeted therapies selected by stage and biology (https://www.cancer.gov/types/breast/hp/breast-treatment-pdq). Practical advice: do not substitute capsaicin or chili supplements for oncology care; discuss any complementary use with the treating team because dose, GI/skin toxicity, drug interactions and product quality are concerns. Eating moderate spicy food appears generally safe, but “treats breast cancer in humans” is not currently true.",
+  "run_id": "kimi_ff_c3a5974d97f8_neutral_kimi_1",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "capsaicin breast cancer human clinical trial treatment",
+    "capsaicin breast cancer systematic review humans TRPV1",
+    "capsaicin breast cancer cells in vitro animal study proliferation apoptosis",
+    "NCI PDQ capsaicin cancer treatment breast cancer",
+    "ClinicalTrials.gov capsaicin breast cancer treatment trial",
+    "capsaicin cancer clinical trials review no human evidence oral capsaicin chemotherapy speculative",
+    "capsaicin breast cancer epidemiology spicy food risk cohort human",
+    "breast cancer treatment guidelines capsaicin not recommended complementary alternative"
+  ],
+  "searches": [
+    {
+      "query": "capsaicin breast cancer human clinical trial treatment",
+      "results": [
+        {
+          "title": "A Comprehensive Review of Capsaicin and Its Role in Cancer ...",
+          "url": "https://www.thieme-connect.com/products/ejournals/pdf/10.1055/a-2309-5581.pdf"
+        },
+        {
+          "title": "Can Capsaicin Kill Cancer Cells? What Research Shows",
+          "url": "https://scienceinsights.org/can-capsaicin-kill-cancer-cells-what-research-shows/"
+        },
+        {
+          "title": "Capsaicin-Entangled Multi-Walled Carbon Nanotubes Against ...",
+          "url": "https://link.springer.com/article/10.1007/s10876-024-02694-x"
+        },
+        {
+          "title": "Evaluating Treatment Preferences and the Efficacy of ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11763653/"
+        },
+        {
+          "title": "Evaluating Treatment Preferences and the Efficacy of ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39858095/"
+        },
+        {
+          "title": "Application of capsaicin as a potential new therapeutic drug ...",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jcpt.13039"
+        },
+        {
+          "title": "Capsaicin and cancer: Guilty as charged or innocent until proven guilty?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/"
+        },
+        {
+          "title": "Unlocking The Potential Of Capsaicin In Breast Cancer Treatment",
+          "url": "https://medshun.com/article/capsaicin-breast-cancer-treatment"
+        }
+      ]
+    },
+    {
+      "query": "capsaicin breast cancer systematic review humans TRPV1",
+      "results": [
+        {
+          "title": "Intracellular aggregated TRPV1 is associated with lower survival in br",
+          "url": "https://www.dovepress.com/intracellular-aggregated-trpv1-is-associated-with-lower-survival-in-br-peer-reviewed-fulltext-article-BCTT"
+        },
+        {
+          "title": "Why Do Humans Love Eating Spicy Foods? - YouTube",
+          "url": "https://www.youtube.com/watch?v=6VnYjy0Ryv4"
+        },
+        {
+          "title": "Capsaicinoids and capsinoids. A potential role for weight management?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22634197/"
+        },
+        {
+          "title": "A review of the patent literature surrounding TRPV1 modulators",
+          "url": "https://www.researchgate.net/publication/389010857_A_review_of_the_patent_literature_surrounding_TRPV1_modulators"
+        },
+        {
+          "title": "Chili Pepper Compound Curtails Breast Cancer - WorldHealth.net",
+          "url": "https://worldhealth.net/news/chili-pepper-compound-curtails-breast-cancer/"
+        },
+        {
+          "title": "Human TRPV1 is an efficient thermogenetic actuator for chronic...",
+          "url": "https://link.springer.com/article/10.1007/s00018-024-05475-x"
+        },
+        {
+          "title": "Next-generation sequencing of the human TRPV1 gene... | PLOS One",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180116"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2105215",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2105215"
+        }
+      ]
+    },
+    {
+      "query": "capsaicin breast cancer cells in vitro animal study proliferation apoptosis",
+      "results": [
+        {
+          "title": "Capsaicin Inhibits Proliferation and Induces Apoptosis in ...",
+          "url": "https://www.tandfonline.com/doi/full/10.2147/DDDT.S269901"
+        },
+        {
+          "title": "Capsaicin Inhibits Proliferation and Induces Apoptosis in ...",
+          "url": "https://www.researchgate.net/publication/348410511_Capsaicin_Inhibits_Proliferation_and_Induces_Apoptosis_in_Breast_Cancer_by_Down-Regulating_FBI-1-Mediated_NF-kB_Pathway"
+        },
+        {
+          "title": "Capsaicin Inhibits Proliferation and Induces Apoptosis in ...",
+          "url": "https://www.semanticscholar.org/paper/Capsaicin-Inhibits-Proliferation-and-Induces-in-by-Chen-Xiao/4cc23e6e114bed37dd776ebe19aea221b06e8002"
+        },
+        {
+          "title": "Capsaicin causes cell-cycle arrest and apoptosis in",
+          "url": "https://www.nature.com/articles/onc2009335"
+        },
+        {
+          "title": "Capsaicin may induce breast cancer cell death through ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/0960327110396530"
+        },
+        {
+          "title": "Capsaicin Inhibits Proliferation and Induces Apoptosis in ...",
+          "url": "https://www.semanticscholar.org/paper/Capsaicin-Inhibits-Proliferation-and-Induces-in-by-Chen-Xiao/f9ecf04f962368d5897b3c66c0d96c833c96bc6f"
+        },
+        {
+          "title": "Capsaicin inhibits proliferation and induces apoptosis of ...",
+          "url": "https://www.researchgate.net/figure/Capsaicin-inhibits-proliferation-and-induces-apoptosis-of-breast-cancer-cells-A-Cells_fig1_348410511"
+        },
+        {
+          "title": "Capsaicin Inhibits Proliferation and Induces Apoptosis in Breast...",
+          "url": "https://www.dovepress.com/capsaicin-inhibits-proliferation-and-induces-apoptosis-in-breast-cance-peer-reviewed-fulltext-article-DDDT"
+        }
+      ]
+    },
+    {
+      "query": "NCI PDQ capsaicin cancer treatment breast cancer",
+      "results": [
+        {
+          "title": "Breast Cancer Treatment (PDQ®) - NCI",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "title": "PDQ® Cancer Information - NCI",
+          "url": "https://www.cancer.gov/publications/pdq"
+        },
+        {
+          "title": "Can Capsaicin Kill Cancer Cells? What Research Shows",
+          "url": "https://scienceinsights.org/can-capsaicin-kill-cancer-cells-what-research-shows/"
+        },
+        {
+          "title": "Topical treatment of chemotherapy-induced peripheral ...",
+          "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1452099/pdf"
+        },
+        {
+          "title": "Topical treatment of chemotherapy-induced ... - Frontiers",
+          "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1452099/full"
+        },
+        {
+          "title": "Breast Cancer Treatment (Adult) (PDQ®) - PDQ Cancer ...",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK65744.34/?report=printable"
+        },
+        {
+          "title": "Breast Cancer Prevention (PDQ®) - NCI",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-prevention-pdq"
+        },
+        {
+          "title": "Capsaicin and cancer: Guilty as charged or innocent until proven guilty?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/"
+        }
+      ]
+    },
+    {
+      "query": "ClinicalTrials.gov capsaicin breast cancer treatment trial",
+      "results": [
+        {
+          "title": "Home | ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/"
+        },
+        {
+          "title": "Unlocking The Potential Of Capsaicin In Breast Cancer Treatment",
+          "url": "https://medshun.com/article/capsaicin-breast-cancer-treatment"
+        },
+        {
+          "title": "Types of Cancer Treatment - NCI",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types"
+        },
+        {
+          "title": "Goserelin Clinical Trial NCT03860987 | PeptideStat",
+          "url": "https://www.peptidestat.com/clinical-trials/NCT03860987"
+        },
+        {
+          "title": "Clinical Trials Register",
+          "url": "https://www.clinicaltrialsregister.eu/ctr-search/search"
+        },
+        {
+          "title": "Clinical Trials: MedlinePlus",
+          "url": "https://medlineplus.gov/clinicaltrials.html"
+        },
+        {
+          "title": "Bon Secours Opens New Chapter in Breast Cancer Treatment Trials...",
+          "url": "https://californiasymposium.com/bon-secours-opens-new-chapter-in-breast-cancer-treatment-trials/"
+        },
+        {
+          "title": "Table 1 Summary of randomized, double-blind, controlled trials of...",
+          "url": "https://www.researchgate.net/figure/Summary-of-randomized-double-blind-controlled-trials-of-NGX-4010-in-patients-with_tbl1_235373781"
+        }
+      ]
+    },
+    {
+      "query": "capsaicin cancer clinical trials review no human evidence oral capsaicin chemotherapy speculative",
+      "results": [
+        {
+          "title": "Capsaicin: A Two-Decade Systematic Review of ... - Frontiers",
+          "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.908487/full"
+        },
+        {
+          "title": "A Comprehensive Review of Capsaicin and Its Role in Cancer...",
+          "url": "https://www.researchgate.net/publication/380471293_A_Comprehensive_Review_of_Capsaicin_and_Its_Role_in_Cancer_Prevention_and_Treatment"
+        },
+        {
+          "title": "Capsaicin and cancer: Guilty as charged or innocent until proven guilty?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/"
+        },
+        {
+          "title": "Capsaicin Benefits and How to Use - Dr. Axe",
+          "url": "https://draxe.com/nutrition/capsaicin/"
+        },
+        {
+          "title": "Cayenne | Memorial Sloan Kettering Cancer Center",
+          "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cayenne"
+        },
+        {
+          "title": "Anticancer Properties of Capsaicin Against Human Cancer",
+          "url": "https://ar.iiarjournals.org/content/36/3/837"
+        },
+        {
+          "title": "(PDF) Capsaicin: A Two-Decade Systematic Review of Global...",
+          "url": "https://www.academia.edu/130346331/Capsaicin_A_Two_Decade_Systematic_Review_of_Global_Research_Output_and_Recent_Advances_Against_Human_Cancer"
+        },
+        {
+          "title": "7 Benefits and Side Effects of Capsaicin... | COB Foundation",
+          "url": "https://cobfoundation.org/health-information/7-benefits-and-side-effects-of-capsaicin-8-contraindications-to-be-used/"
+        }
+      ]
+    },
+    {
+      "query": "capsaicin breast cancer epidemiology spicy food risk cohort human",
+      "results": [
+        {
+          "title": "Capsaicin and cancer: Guilty as charged or innocent until proven guilty?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177684/"
+        },
+        {
+          "title": "Unveiling the spice of life: Exploring the impact of spicy food...",
+          "url": "https://www.ejgm.co.uk/download/unveiling-the-spice-of-life-exploring-the-impact-of-spicy-food-consumption-on-breast-cancer-risk-16009.pdf"
+        },
+        {
+          "title": "Can a Chemical in Spicy Peppers Help Cure Breast Cancer?",
+          "url": "https://www.snopes.com/fact-check/spicy-peppers-breast-cancer/"
+        },
+        {
+          "title": "Why Do Humans Love Eating Spicy Foods? - YouTube",
+          "url": "https://www.youtube.com/watch?v=6VnYjy0Ryv4"
+        },
+        {
+          "title": "Capsaicin Inhibits Proliferation and Induces Apoptosis in Breast Cance",
+          "url": "https://www.dovepress.com/capsaicin-inhibits-proliferation-and-induces-apoptosis-in-breast-cance-peer-reviewed-fulltext-article-DDDT"
+        },
+        {
+          "title": "Unlocking The Potential Of Capsaicin In Breast Cancer... | MedShun",
+          "url": "https://medshun.com/article/capsaicin-breast-cancer-treatment"
+        },
+        {
+          "title": "Hot Peppers Are Recommended For Breast... | Food for Breast Cancer",
+          "url": "https://foodforbreastcancer.com/foods/hot-peppers"
+        },
+        {
+          "title": "The Benefits of Capsaicin in Chili Peppers - Breast Cancer Conqueror",
+          "url": "https://breastcancerconqueror.com/the-benefits-of-capsaicin-in-chili-peppers/"
+        }
+      ]
+    },
+    {
+      "query": "breast cancer treatment guidelines capsaicin not recommended complementary alternative",
+      "results": [
+        {
+          "title": "Frontiers | Capsaicin: A Two-Decade Systematic Review of Global...",
+          "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.908487/full"
+        },
+        {
+          "title": "sciencedirect.com/topics/medicine-and-dentistry/capsaicin",
+          "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/capsaicin"
+        },
+        {
+          "title": "Natural Cancer Cures and Why You Don't Know About Them - YouTube",
+          "url": "https://www.youtube.com/watch?v=1g4FlTsbze0"
+        },
+        {
+          "title": "Capsaicin induces cell cycle arrest and apoptosis in human KB cancer...",
+          "url": "https://link.springer.com/article/10.1186/1472-6882-13-46"
+        },
+        {
+          "title": "nccn.org/guidelines/category_1",
+          "url": "https://www.nccn.org/guidelines/category_1"
+        },
+        {
+          "title": "Capsaicin suppresses the migration and invasion of human...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10541384/"
+        },
+        {
+          "title": "Chaparral | Complementary and alternative... | Cancer Research UK",
+          "url": "https://www.cancerresearchuk.org/about-cancer/treatment/complementary-alternative-therapies/individual-therapies/chaparral"
+        },
+        {
+          "title": "An Updated Review On Anticancer Activity Of Capsaicin | Request PDF",
+          "url": "https://www.researchgate.net/publication/337981040_An_Updated_Review_On_Anticancer_Activity_Of_Capsaicin"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T01:35:54.690+00:00",
+  "status": "judged",
+  "system": "kimi"
+}

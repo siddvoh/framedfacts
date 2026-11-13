@@ -1,0 +1,343 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.cochrane.org/evidence/CD001321_cranberries-preventing-urinary-tract-infections",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10636779/",
+    "https://www.bbc.com/future/article/20230126-why-arent-there-better-treatments-for-cystitis",
+    "https://www.aafp.org/afp/2009/0315/p503"
+  ],
+  "claim_id": "ff_cb2bcd282365",
+  "completed_at": "2026-08-04T17:27:31.217+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cochrane.org/evidence/CD001321_cranberries-preventing-urinary-tract-infections",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10636779/",
+        "https://www.bbc.com/future/article/20230126-why-arent-there-better-treatments-for-cystitis",
+        "https://www.aafp.org/afp/2009/0315/p503"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the answer is yes, citing a 2023 Cochrane systematic review of 50 RCTs which showed moderate-certainty evidence that cranberry products reduce the risk of recurrent UTIs in women. Therefore, it strongly endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "d355ebcaa485d29d8e9bf93cd2e74f2333778858d1d31a329bb23aaddb0e6d63",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion: The answer is actually yes, not no.** The most current and comprehensive evidence—the 2023 Cochrane systematic review—concludes that cranberry products (juice, capsules, or tablets) do reduce the risk of recurrent UTIs in women.\n\n**Key evidence:**\n\nThe 2023 Cochrane review (\"Cranberries for preventing urinary tract infections\") analyzed **50 RCTs with 8,857 participants**. It found that cranberry products reduced the risk of symptomatic, culture-verified UTIs overall (RR 0.70, 95% CI 0.58–0.84; moderate-certainty evidence), representing roughly a **26–30% reduction** in UTI risk. The benefit was strongest in **women with recurrent UTIs** and in children.\n\nThe proposed mechanism involves **proanthocyanidins (PACs)** in cranberries, which inhibit adherence of *E. coli* to bladder wall cells, preventing infection from taking hold. A dose of **36 mg of PACs** has been cited as the specific effective amount.\n\n**Why the confusion?** Earlier evidence was mixed and sometimes inconclusive. An older AFP summary listed cranberry products under \"unknown effectiveness,\" and some individual trials found no effect. The BBC noted the evidence was \"sparse and difficult to interpret.\" However, the 2023 Cochrane update—adding 26 new studies—changed the conclusions, now providing moderate-certainty evidence of benefit. Benefits appear less clear in postmenopausal women, pregnant women, and catheter users.\n\n**Sources:**\n- https://www.cochrane.org/evidence/CD001321_cranberries-preventing-urinary-tract-infections\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC10636779/\n- https://www.bbc.com/future/article/20230126-why-arent-there-better-treatments-for-cystitis\n- https://www.aafp.org/afp/2009/0315/p503",
+  "run_id": "cross_replay_ff_cb2bcd282365_skeptic_on_believer_glm_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "cranberry juice extract prevent recurrent cystitis women evidence",
+      "results": [
+        {
+          "title": "Recurrent urinary tract infections and cystitis",
+          "url": "https://au.sfihealth.com/health-insights/urinary-tract-health/cystitis/"
+        },
+        {
+          "title": "Recurrent Cystitis in Nonpregnant Women | AFP",
+          "url": "https://www.aafp.org/afp/2009/0315/p503"
+        },
+        {
+          "title": "(PDF) efficacy of cranberry extract in preventing recurrent utis in...",
+          "url": "https://www.researchgate.net/publication/394229337_EFFICACY_OF_CRANBERRY_EXTRACT_IN_PREVENTING_RECURRENT_UTIS_IN_WOMEN_A_RANDOMIZED_CONTROLLED_TRIAL"
+        },
+        {
+          "title": "Why aren't there better treatments for cystitis?",
+          "url": "https://www.bbc.com/future/article/20230126-why-arent-there-better-treatments-for-cystitis"
+        },
+        {
+          "title": "Recurrent cystitis in non-pregnant women - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2907990/"
+        },
+        {
+          "title": "Cystitis prevention & urinary health guide | Blackmores",
+          "url": "https://www.blackmores.com.au/womens-health/uti-prevention-and-urinary-wellness"
+        },
+        {
+          "title": "Management and Prevention of Recurrent Urinary... | Consultant360",
+          "url": "https://www.consultant360.com/articles/management-and-prevention-recurrent-urinary-tract-infections-women"
+        },
+        {
+          "title": "Sci-Hub: Are High Proanthocyanidins Key to Cranberry Efficacy in the...",
+          "url": "https://sci-hub.su/meta/10.1002/ptr.5427"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review cranberry products prevent urinary tract infections 2023",
+      "results": [
+        {
+          "title": "Cranberry - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cranberry"
+        },
+        {
+          "title": "Cranberry vs D-Mannose for UTI Prevention: What Works?",
+          "url": "https://cobfoundation.org/health-information/cranberry-vs-d-mannose-for-uti-prevention/"
+        },
+        {
+          "title": "Does cranberry juice and/or D-mannose prevent recurrent...",
+          "url": "https://specialistnutritionrehab.co.uk/does-cranberry-juice-and-or-d-mannose-prevent-recurrent-utis/"
+        },
+        {
+          "title": "A myth no more: Cranberry products can prevent urinary tract...",
+          "url": "https://www.m3india.in/contents/clinical_news/a-myth-no-more-cranberry-products-can-prevent-urinary-tract"
+        },
+        {
+          "title": "Cranberry Really Might Help Prevent UTIs for Many, Large Review...",
+          "url": "https://gizmodo.com/cranberry-juice-prevent-urinary-tract-infection-science-1850363312"
+        },
+        {
+          "title": "Urinary tract infection (UTI) - Symptoms and causes - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+        },
+        {
+          "title": "New study evaluates the effectiveness of cranberries in preventing...",
+          "url": "https://www.indianeconomicobserver.com/news/new-study-evaluates-the-effectiveness-of-cranberries-in-preventing-urinary-tract-infections20230511140201/"
+        },
+        {
+          "title": "Urinary tract infections (UTIs) - NHS",
+          "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review 2023 cranberries preventing urinary tract infections results findings",
+      "results": [
+        {
+          "title": "Cranberries for preventing urinary tract infections ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001321.pub6/information"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001321.pub7/information"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37068952/"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10636779/"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections ...",
+          "url": "https://www.cochranelibrary.com/web/cochrane/content?templateType=related&urlTitle=/cdsr/doi/10.1002/14651858.CD001321.pub6&doi=10.1002/14651858.CD001321.pub6&_scolariscontentdisplay_WAR_scolariscontentdisplay_action=related-content&type=cdsr&contentLanguage=hu"
+        },
+        {
+          "title": "Library Cochrane",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001321.pub6/pdf/CDSR/CD001321/CD001321_abstract.pdf"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD001321_cranberries-preventing-urinary-tract-infections"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections | Cochrane",
+          "url": "https://www-cochrane-org.nproxy.org/CD001321/RENAL_cranberries-preventing-urinary-tract-infections"
+        }
+      ]
+    },
+    {
+      "query": "cranberry extract vs cranberry juice UTI prevention effectiveness comparison women",
+      "results": [
+        {
+          "title": "Cranberry Juice for UTIs: Can Cranberries Help Prevent UTIs?",
+          "url": "https://www.webmd.com/a-to-z-guides/cranberries-for-uti-protection"
+        },
+        {
+          "title": "Does Cranberry Juice Help Treat UTIs? Myth vs. Science",
+          "url": "https://www.healthline.com/nutrition/cranberry-juice-uti"
+        },
+        {
+          "title": "Cranberry or trimethoprim for the ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1145199/"
+        },
+        {
+          "title": "D-Mannose vs Cranberry for UTIs: What the Research Shows | WHYZ",
+          "url": "https://whyz.com/learn/guides/d-mannose-vs-cranberry/"
+        },
+        {
+          "title": "Can Cranberry Stop Your UTIs? | Cleveland Clinic",
+          "url": "https://health.clevelandclinic.org/can-cranberry-juice-stop-uti"
+        },
+        {
+          "title": "Urinary Tract Infection (UTI) Treatments",
+          "url": "https://www.everydayhealth.com/uti/guide/care/"
+        },
+        {
+          "title": "(PDF) Efficacy of Cranberry Juice in the Prevention of Recurrent...",
+          "url": "https://www.academia.edu/86460419/Efficacy_of_Cranberry_Juice_in_the_Prevention_of_Recurrent_Urinary_Tract_Infection"
+        },
+        {
+          "title": "Cranberry Juice, Cranberry Tablets, or Liquid Therapies for ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405456924001226"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane 2023 cranberry UTI prevention results \"26% reduction\" OR \"rate ratio\" women recurrent",
+      "results": [
+        {
+          "title": "Are cranberry supplements effective for preventing urinary ...",
+          "url": "https://www.droracle.ai/articles/635226/are-cranberry-supplements-effective-for-preventing-urinary-tract-infections"
+        },
+        {
+          "title": "FemiCore Reviews: Can a Daily Supplement Prevent Repeat UTIs?",
+          "url": "https://www.usatoday.com/press-release/story/37919/femicore-reviews-can-a-daily-supplement-prevent-repeat-utis/"
+        },
+        {
+          "title": "Fosfomycin trometamol prophylaxis for recurrent urinary tract ...",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/23744235.2026.2671234"
+        },
+        {
+          "title": "Efficacy of vaginal estrogen for recurrent urinary tract ...",
+          "url": "https://www.ajog.org/article/S0002-9378(23)00309-5/fulltext"
+        },
+        {
+          "title": "2026 Hand Hygiene Statistics | 30+ Verified Facts",
+          "url": "https://gitnux.org/hand-hygiene-statistics/"
+        },
+        {
+          "title": "Mammography screening",
+          "url": "https://www.scientificfreedom.dk/wp-content/uploads/2024/10/Mammography-screening-the-great-hoax.pdf"
+        },
+        {
+          "title": "Effects of radiotherapy and of differences in the extent of surgery for...",
+          "url": "https://lup.lub.lu.se/search/publication/18e62cba-1f2a-4578-b8f7-520bad25432f"
+        },
+        {
+          "title": "Medicinal and aromatic plants of North America - DOKUMEN.PUB",
+          "url": "https://dokumen.pub/medicinal-and-aromatic-plants-of-north-america.html"
+        }
+      ]
+    },
+    {
+      "query": "PMC10636779 cranberries preventing urinary tract infections Cochrane 2023 findings conclusions",
+      "results": [
+        {
+          "title": "Cranberry - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cranberry"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10636779/"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections",
+          "url": "https://www.cranberryinstitute.org/cranberry-health-research/abstract/cranberries-for-preventing-urinary-tract-infections-0"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections: Cochrane...",
+          "url": "https://www.escop.com/cranberries-preventing-urinary-tract-infections-cochrane-systematic-review/"
+        },
+        {
+          "title": "Urinary tract infection (UTI) - Symptoms and causes - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+        },
+        {
+          "title": "Urinary Tract Infection: Causes, Symptoms & Treatments",
+          "url": "https://www.medicoverhospitals.in/diseases/urinary-tract-infection/"
+        },
+        {
+          "title": "Non-antibiotic interventions to prevent recurrent urinary tract...",
+          "url": "https://www.researchsquare.com/article/rs-9071068/v1"
+        },
+        {
+          "title": "Urinary tract infections (UTIs) - NHS",
+          "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/"
+        }
+      ]
+    },
+    {
+      "query": "\"cranberries for preventing urinary tract infections\" Cochrane 2023 \"rate ratio\" OR \"risk ratio\" OR \"reduced\" women recurrent findings",
+      "results": [
+        {
+          "title": "Cranberries for preventing urinary tract infections - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10108827/"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections (Review)",
+          "url": "https://www.researchgate.net/publication/269400737_Cranberries_for_preventing_urinary_tract_infections_Review"
+        },
+        {
+          "title": "Cranberry Juice, Cranberry Tablets, or Liquid Therapies for Urinary...",
+          "url": "https://d1xe7tfg0uwul9.cloudfront.net/sbgg.org.br/wp-content/uploads/2024/10/3_Cranberry_confirmado_como_remdio_natural_para_infeces_do_trato_urinrio.pdf"
+        },
+        {
+          "title": "The prevention of urinary tract infections",
+          "url": "http://www.cpa.org.uk/information/reviews/CPA-Rapid-Review-UTI-prevention.pdf"
+        },
+        {
+          "title": "Top 381 The Cochrane library papers published in 2023",
+          "url": "https://scispace.com/journals/the-cochrane-library-1ig697vk/2023"
+        },
+        {
+          "title": "Cranberry Juice, Cranberry Tablets, or Liquid Therapies for",
+          "url": "https://helda.helsinki.fi/server/api/core/bitstreams/1f8ffcac-c792-4b69-a38e-54e62083a86c/content"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7027998/"
+        },
+        {
+          "title": "Cranberry Juice, Cranberry Tablets, or Liquid Therapies for ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405456924001226"
+        }
+      ]
+    },
+    {
+      "query": "cranberry products reduce UTI risk 26% Cochrane review 50 trials 8857 participants",
+      "results": [
+        {
+          "title": "Cranberry vs D-Mannose for UTI Prevention: What Works?",
+          "url": "https://cobfoundation.org/health-information/cranberry-vs-d-mannose-for-uti-prevention/"
+        },
+        {
+          "title": "Cochrane",
+          "url": "https://d1xe7tfg0uwul9.cloudfront.net/sbgg.org.br/wp-content/uploads/2023/06/5-Cranberries-for-preventing-urinary-tract-infections.pdf"
+        },
+        {
+          "title": "Cranberries for preventing urinary tract infections | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD001321_cranberries-preventing-urinary-tract-infections"
+        },
+        {
+          "title": "Data Support the Use of Cranberry Products to Reduce UTI Risk...",
+          "url": "https://inc.nutfruit.org/data-support-the-use-of-cranberry-products-to-reduce-uti-risk/"
+        },
+        {
+          "title": "Cochrane Update: Do Cranberry Products Reduce the Risk of UTIs?",
+          "url": "https://www.obgproject.com/2023/05/10/cochrane-update-do-cranberry-products-reduce-the-risk-of-utis/"
+        },
+        {
+          "title": "Recurring UTIs? Should Cranberry Products Be Recommended?",
+          "url": "https://www.medscape.com/viewarticle/recurring-utis-should-cranberry-products-be-recommended-2026a1000cfu"
+        },
+        {
+          "title": "D-Mannose vs Cranberry for UTIs: Compared",
+          "url": "https://remedysnutrition.com/blogs/letter-vitamins/d-mannose-vs-cranberry-for-utis"
+        },
+        {
+          "title": "Recurrent UTI in Women: D-mannose, | Urology Insights by Dr Chui",
+          "url": "https://urologyhk.org/blog/en/en-female-recurrent-uti-d-mannose-prevention-hong-kong"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:27:16.802+00:00",
+  "status": "judged",
+  "system": "glm"
+}

@@ -1,0 +1,193 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436",
+    "https://jamanetwork.com/journals/jama/fullarticle/2770279",
+    "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014963/abstract"
+  ],
+  "claim_id": "ff_4bb007914d47",
+  "completed_at": "2026-08-03T15:52:00.993+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436",
+        "https://jamanetwork.com/journals/jama/fullarticle/2770279",
+        "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014963/abstract"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that high-quality randomized trial evidence shows dexamethasone and similar systemic corticosteroids reduce the risk of death in severe or critically ill COVID-19 patients needing respiratory support, which clearly supports the claim that these treatments lead to more critically ill patients surviving.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** No—dexamethasone or similar systemic corticosteroids do not *ensure* survival, but high-quality randomized-trial evidence shows they **reduce the risk of death** in hospitalized patients with severe or critical COVID-19 who need oxygen or mechanical ventilation.\n\nThe RECOVERY randomized trial found lower 28-day mortality with dexamethasone in patients receiving invasive mechanical ventilation or oxygen, but **not** in patients who did not need respiratory support. A prospective meta-analysis of seven randomized trials in critically ill patients likewise found systemic corticosteroids were associated with lower 28-day all-cause mortality. A later Cochrane review concluded that systemic corticosteroids probably reduce all-cause mortality slightly overall.\n\nThus, these medicines became an important standard treatment for appropriately selected severely ill patients, but they are not a cure, cannot guarantee an individual outcome, and should be prescribed at evidence-based doses with clinical monitoring. The benefit depends strongly on illness severity and respiratory support status; use in less severe COVID-19 may not help.\n\nSources:  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa2021436  \nhttps://jamanetwork.com/journals/jama/fullarticle/2770279  \nhttps://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014963/abstract",
+  "run_id": "replay_ff_4bb007914d47_neutral_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "RECOVERY trial dexamethasone mortality critically ill COVID-19 official results",
+      "results": [
+        {
+          "title": "The inside story of the RECOVERY trial is one thing but we... | The BMJ",
+          "url": "https://www.bmj.com/content/370/bmj.m2670/rr-6"
+        },
+        {
+          "title": "Filling in the gaps: smart use of health data lies behind the RECOVERY...",
+          "url": "https://www.hdruk.ac.uk/news/filling-in-the-gaps-smart-use-of-health-data-lies-behind-the-recovery-trials-success/"
+        },
+        {
+          "title": "Analysis of seven trials finds that corticosteroids reduce risk of death...",
+          "url": "https://arcwestarchive.org.uk/news/analysis-of-seven-trials-finds-that-corticosteroids-reduce-risk-of-death-by-20-per-cent-in-critically-ill-covid-19-patients/"
+        },
+        {
+          "title": "Corticosteroids in critical COVID-19: Are all corticosteroids equal?",
+          "url": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S0256-95742021000600015"
+        },
+        {
+          "title": "Steroid drug hailed as 'breakthrough' for seriously ill COVID-19...",
+          "url": "https://gasiantimes.com/health/2020/06/16/steroid-drug-hailed-as-breakthrough-for-seriously-ill-covid-19-patients/"
+        },
+        {
+          "title": "Drug Therapy Assists Critically Ill COVID-19 Patients",
+          "url": "https://www.texashealth.org/newsroom/News-Releases/2020/Drug-Therapy-Assists-Critically-Ill-COVID-19-Patients"
+        },
+        {
+          "title": "View of COVID-19 pandemic-the learning continues | Anaesthesia...",
+          "url": "https://www.apicareonline.com/index.php/APIC/article/view/1301/2096"
+        },
+        {
+          "title": "More on Corticosteroids in COVID-19 – Part 2: REACT meta-analysis",
+          "url": "https://www.pulmccm.org/p/more-on-corticosteroids-in-covid-19-part-2-react-meta-analysis"
+        }
+      ]
+    },
+    {
+      "query": "WHO corticosteroids COVID-19 critically ill guideline dexamethasone mortality",
+      "results": [
+        {
+          "title": "CORTICOSTEROIDS FOR COVID-19 - World Health Organization (WHO)",
+          "url": "https://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf"
+        },
+        {
+          "title": "Coronavirus disease (COVID-19): Corticosteroids, including ...",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-dexamethasone"
+        },
+        {
+          "title": "Corticosteroids for COVID -19 - iris.who.int",
+          "url": "https://iris.who.int/server/api/core/bitstreams/479c227b-0999-4f4f-8cd6-838c0172bfc9/content"
+        },
+        {
+          "title": "Glucocorticoid Dose in COVID-19—Lessons for Clinical Trials ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2785531"
+        },
+        {
+          "title": "High-dose corticosteroid therapy in critically ill COVID-19 ...",
+          "url": "https://www.dovepress.com/high-dose-corticosteroids-in-critically-ill-covid-19-patients-a-retros-peer-reviewed-fulltext-article-JIR"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436"
+        },
+        {
+          "title": "Brasil - Percutaneous Tracheostomy in COVID-19 Critically Ill Patients...",
+          "url": "https://www.scielo.br/j/iao/a/mY9TJMGtx4NKC9sPNP85kJS/?lang=en&ilang=es"
+        },
+        {
+          "title": "Timing and predictors of tracheostomy decannulation in COVID-19 and...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1048"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane systemic corticosteroids COVID-19 critically ill mortality review",
+      "results": [
+        {
+          "title": "Systemic corticosteroids for the treatment of COVID-19 (Review)",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014963/pdf/CDSR/CD014963/rel0001/CD014963/CD014963_abstract.pdf"
+        },
+        {
+          "title": "Association Between Systemic Corticosteroids and Mortality ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2770279"
+        },
+        {
+          "title": "Systemic Corticosteroids | Cochrane Equity",
+          "url": "https://methods.cochrane.org/equity/projects/evidence-equity/e4e-series/covid-19/systemic-corticosteroids"
+        },
+        {
+          "title": "Systemic corticosteroids for the treatment of COVID‐19 ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014963/abstract"
+        },
+        {
+          "title": "Are corticosteroids (anti-inflammatory medicines) given ...",
+          "url": "https://www.cochrane.org/evidence/CD014963_are-corticosteroids-anti-inflammatory-medicines-given-orally-or-injection-effective-treatment-people"
+        },
+        {
+          "title": "Do Systemic Corticosteroids Reduce Mortality in Critically ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7547602/"
+        },
+        {
+          "title": "Impact of systemic corticosteroids on hospitalized patients... | medRxiv",
+          "url": "https://www.medrxiv.org/content/10.1101/2021.02.03.21251065v1.full"
+        },
+        {
+          "title": "Timing and predictors of tracheostomy decannulation in COVID-19 and...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1048"
+        }
+      ]
+    },
+    {
+      "query": "NIH COVID-19 treatment guidelines dexamethasone mechanically ventilated mortality",
+      "results": [
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32678530/"
+        },
+        {
+          "title": "Hospitalized Adults: Therapeutic Management | COVID-19 ...",
+          "url": "https://adsp.nm.org/uploads/1/4/3/0/143064172/nih_hosp_adult_guideline.pdf"
+        },
+        {
+          "title": "Corticosteroid treatment and mortality in mechanically ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8617372/"
+        },
+        {
+          "title": "Impact of dexamethasone on the incidence of ventilator ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165680/"
+        },
+        {
+          "title": "NIH Releases Final Version of COVID-19 Treatment Guidelines",
+          "url": "https://www.accp.com/report/index.aspx?art=3428"
+        },
+        {
+          "title": "Immunomodulators in Mechanically Ventilated Patients With ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9668358/"
+        },
+        {
+          "title": "Machine learning links unresolving secondary pneumonia to mortality...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37104035/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T15:51:49.378+00:00",
+  "status": "judged",
+  "system": "terra"
+}

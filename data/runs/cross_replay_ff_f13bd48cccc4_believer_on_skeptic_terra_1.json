@@ -1,0 +1,267 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/27533157/",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/38307725/"
+  ],
+  "claim_id": "ff_f13bd48cccc4",
+  "completed_at": "2026-08-04T17:29:57.781+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27533157/",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/38307725/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is well supported by randomized controlled trial evidence, FDA labeling, and systematic reviews, showing a significant reduction in vertebral fractures. Therefore, it clearly endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** The claim is well supported for postmenopausal women with osteoporosis, particularly those at elevated fracture risk.\n\nThe principal evidence is the 18‑month ACTIVE randomized, double-blind, placebo-controlled trial of daily subcutaneous abaloparatide. New vertebral fractures occurred in **0.58%** of women assigned abaloparatide versus **4.22%** assigned placebo—an approximately **86% relative risk reduction** (absolute reduction ~3.6 percentage points; roughly 28 women treated for 18 months to prevent one new radiographic vertebral fracture). The trial also found fewer nonvertebral fractures, and its conclusion was that abaloparatide reduced both vertebral and nonvertebral fracture risk versus placebo.\n\nThis is not merely a bone-density finding: vertebral fractures were a clinical trial endpoint. The FDA-approved label likewise states that abaloparatide reduces vertebral and nonvertebral fractures in postmenopausal osteoporosis. A 2024 systematic review/meta-analysis also concluded that abaloparatide reduces vertebral-fracture risk, although the pivotal RCT is the clearest basis for the claim.\n\n**Important limits:** the strongest evidence concerns daily treatment for 18 months in the studied population; it does not establish identical benefit for every woman with osteoporosis or indefinite treatment. Treatment choice should also weigh adverse effects, contraindications, cost, and follow-on osteoporosis therapy.\n\nSources:  \nhttps://pubmed.ncbi.nlm.nih.gov/27533157/  \nhttps://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf  \nhttps://pubmed.ncbi.nlm.nih.gov/38307725/",
+  "run_id": "cross_replay_ff_f13bd48cccc4_believer_on_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "abaloparatide vertebral fractures postmenopausal osteoporosis ACTIVE trial results 86%",
+      "results": [
+        {
+          "title": "FDA approves abaloparatide for postmenopausal osteoporosis",
+          "url": "https://www.mdedge.com/obgyn/article/137158/osteoporosis/fda-approves-abaloparatide-postmenopausal-osteoporosis"
+        },
+        {
+          "title": "FDA approves Tymlos for postmenopausal women with osteoporosis",
+          "url": "https://www.healio.com/news/endocrinology/20170428/fda-approves-tymlos-for-postmenopausal-women-with-osteoporosis"
+        },
+        {
+          "title": "Abaloparatide Decreased Fractures in Postmenopausal Women...",
+          "url": "https://www.endocrinologyadvisor.com/news/abaloparatide-decreased-fractures-in-postmenopausal-women-with-osteoporosis/"
+        },
+        {
+          "title": "Abaloparatide (Male Osteoporosis) | PeptideTrace — PeptideTrace",
+          "url": "https://www.peptidetrace.com/compounds/abaloparatide-male-osteoporosis"
+        },
+        {
+          "title": "Abaloparatide Found To Lower Fracture Risk - AZIM Solutions",
+          "url": "https://azimsolutions.com/abaloparatide-found-to-lower-fracture-risk/"
+        },
+        {
+          "title": "FDA Approves Tymlos for Osteoporosis in Postmenopausal Women",
+          "url": "https://www.managedcaremag.com/news/fda-approves-tymlos-osteoporosis-postmenopausal-women/"
+        },
+        {
+          "title": "Abaloparatide Shows No Effect on CV Risk in Postmenopausal...",
+          "url": "https://www.medscape.com/viewarticle/934467"
+        },
+        {
+          "title": "(PDF) Abaloparatide: an anabolic treatment to reduce fracture risk in...",
+          "url": "https://www.academia.edu/99286035/Abaloparatide_an_anabolic_treatment_to_reduce_fracture_risk_in_postmenopausal_women_with_osteoporosis"
+        }
+      ]
+    },
+    {
+      "query": "abaloparatide prescribing information new vertebral fractures postmenopausal women osteoporosis",
+      "results": [
+        {
+          "title": "Treatment of Postmenopausal Women with Osteoporosis at High",
+          "url": "https://www.tymloshcp.com/wp-content/uploads/2026/01/tymlos-prescribing-information.pdf"
+        },
+        {
+          "title": "ACTIVE: Abaloparatide reduces fracture risk in postmenopausal...",
+          "url": "https://www.healio.com/news/endocrinology/20160816/active-abaloparatide-reduces-fracture-risk-in-postmenopausal-women-with-osteoporosis"
+        },
+        {
+          "title": "Injected Drug Reduces Risk Of Fracture Among Women... - DoveMed",
+          "url": "https://www.dovemed.com/current-medical-news/injected-drug-reduces-risk-fracture-among-women-osteoporosis"
+        },
+        {
+          "title": "Osteoporotic, Postmenopausal Women: Abaloparatide Reduces...",
+          "url": "https://www.hmpgloballearningnetwork.com/site/altc/article/osteoporotic-postmenopausal-women-abaloparatide-reduces-risk-new-fractures"
+        },
+        {
+          "title": "TYMLOS (abaloparatide) injection Label",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf"
+        },
+        {
+          "title": "Tymlos (Abaloparatide Injection): Side Effects, Uses, Dosage...",
+          "url": "https://www.rxlist.com/tymlos-drug.htm"
+        },
+        {
+          "title": "Abaloparatide Reduces Fractures in Women With Osteoporosis",
+          "url": "https://www.uspharmacist.com/article/abaloparatide-reduces-fractures-in-women-with-osteoporosis"
+        },
+        {
+          "title": "Treatment patterns in women with postmenopausal osteoporosis...",
+          "url": "https://link.springer.com/article/10.1007/s00198-024-07070-z"
+        }
+      ]
+    },
+    {
+      "query": "NEJM abaloparatide postmenopausal women osteoporosis vertebral fracture trial 2016",
+      "results": [
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2544640"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27533157/"
+        },
+        {
+          "title": "Postmenopausal Osteoporosis | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp2307353"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Alendronate on Fracture Risk ...",
+          "url": "https://academic.oup.com/jcem/article/105/3/938/5610884"
+        },
+        {
+          "title": "The Efficacy and Safety of Abaloparatide in Osteoporosis: A ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12842433/"
+        },
+        {
+          "title": "Effects of Abaloparatide-SC on Bone Mineral Density and Risk ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015760/"
+        },
+        {
+          "title": "Effect of abaloparatide on fracture incidence and... : Menopause",
+          "url": "https://journals.lww.com/menopausejournal/fulltext/10.1097/gme.0000000000002516~effect-of-abaloparatide-on-fracture-incidence-and-bone"
+        },
+        {
+          "title": "Abaloparatide may help prevent fractures in postmenopausal...",
+          "url": "https://medicalxpress.com/news/2016-04-abaloparatide-fractures-postmenopausal-women-osteoporosis.html"
+        }
+      ]
+    },
+    {
+      "query": "systematic review abaloparatide vertebral fracture postmenopausal osteoporosis evidence",
+      "results": [
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2544640"
+        },
+        {
+          "title": "The Efficacy and Safety of Abaloparatide in Osteoporosis: A ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12842433/"
+        },
+        {
+          "title": "The Safety and Efficacy of Abaloparatide on Postmenopausal ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0149291824000043"
+        },
+        {
+          "title": "The Efficacy and Safety of Abaloparatide in Osteoporosis: A ...",
+          "url": "https://www.mdpi.com/2077-0383/15/2/673"
+        },
+        {
+          "title": "Effects of Abaloparatide-SC on Bone Mineral Density and Risk ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015760/"
+        },
+        {
+          "title": "Efficacy and safety of abaloparatide, denosumab ... - Frontiers",
+          "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1886136/full"
+        },
+        {
+          "title": "The Safety and Efficacy of Abaloparatide on Postmenopausal ...",
+          "url": "https://www.clinicaltherapeutics.com/article/S0149-2918(24)00004-3/pdf"
+        },
+        {
+          "title": "The Safety and Efficacy of Abaloparatide on Postmenopausal...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38307725/"
+        }
+      ]
+    },
+    {
+      "query": "FDA Drug Trials Snapshot Tymlos ACTIVE trial new vertebral fracture 0.6 4.2",
+      "results": [
+        {
+          "title": "Abaloparatide - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abaloparatide"
+        },
+        {
+          "title": "Efficacy and Safety | ACTIVE Trial | TYMLOS",
+          "url": "https://www.tymloshcp.com/efficacysafety-active/"
+        },
+        {
+          "title": "FDA Approves Radius Health's TYMLOS™ (abaloparatide) - Bone...",
+          "url": "https://www.bonehealthandosteoporosis.org/news/fda-approves-radius-healths-tymlos-abaloparatide/"
+        },
+        {
+          "title": "What are the differences between Tymlos (abaloparatide) and Forteo...",
+          "url": "https://www.droracle.ai/articles/632456/what-are-the-differences-between-tymlos-abaloparatide-and-forteo"
+        },
+        {
+          "title": "How much does Tymlos increase bone density?",
+          "url": "https://www.drugs.com/medical-answers/how-tymlos-increase-bone-density-3581147/"
+        },
+        {
+          "title": "Abaloparatide (Tymlos) for Osteoporosis | AFP",
+          "url": "https://www.aafp.org/afp/2019/0215/p260"
+        },
+        {
+          "title": "FDA approves abaloparatide for postmenopausal osteoporosis | MDedge",
+          "url": "https://www.mdedge.com/endocrinology/article/137158/osteoporosis/fda-approves-abaloparatide-postmenopausal-osteoporosis"
+        },
+        {
+          "title": "Disappointing update on Tymlos | Mayo Clinic Connect",
+          "url": "https://connect.mayoclinic.org/discussion/disappointing-update-on-tymlos/?pg=2"
+        }
+      ]
+    },
+    {
+      "query": "ACTIVE trial abaloparatide 0.6% 4.2% vertebral fractures confidence interval JAMA",
+      "results": [
+        {
+          "title": "jamanetwork.com/journals/jama/pages/instructions-for-authors",
+          "url": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors"
+        },
+        {
+          "title": "ajronline.org/loi/ajr",
+          "url": "https://www.ajronline.org/loi/ajr"
+        },
+        {
+          "title": "ULTRAKILL 4-2 REWORK: GOD DAMN THE SUN... - YouTube",
+          "url": "https://www.youtube.com/watch?v=hWg9NI5B0Es"
+        },
+        {
+          "title": "Google",
+          "url": "https://www.google.com/"
+        },
+        {
+          "title": "Link to sciencedirect.com",
+          "url": "https://www.sciencedirect.com/science/article/am/pii/S0963868717302196"
+        },
+        {
+          "title": "МАРИНОВАННЫЕ Огурчики на зиму- хрустящие , в меру... | Дзен",
+          "url": "https://dzen.ru/video/watch/62c48c2fd349d130fcd67497"
+        },
+        {
+          "title": "Монреаль/Торонто 2026: Прямая трансляция смотреть - Теннис...",
+          "url": "https://tennis-live.su/"
+        },
+        {
+          "title": "Ормузский пролив - танкерный трафик - транзиты... | TankerMap",
+          "url": "https://tankermap.com/ru/analytics/straits/hormuz"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:29:37.902+00:00",
+  "status": "judged",
+  "system": "terra"
+}

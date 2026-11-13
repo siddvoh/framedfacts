@@ -1,0 +1,195 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://jamanetwork.com/journals/jamaneurology/fullarticle/782965",
+    "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409",
+    "https://pubmed.ncbi.nlm.nih.gov/24664227/?dopt=Abstract",
+    "https://link.springer.com/article/10.1007/s10072-016-2757-9"
+  ],
+  "claim_id": "ff_53f6df77b46b",
+  "completed_at": "2026-08-04T17:06:45.298+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://jamanetwork.com/journals/jamaneurology/fullarticle/782965",
+        "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409",
+        "https://pubmed.ncbi.nlm.nih.gov/24664227/?dopt=Abstract",
+        "https://link.springer.com/article/10.1007/s10072-016-2757-9"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the scientific consensus and high-quality evidence (including a Phase III trial stopped for futility and a meta-analysis) show no evidence of benefit for CoQ10 in improving movement symptoms in Parkinson's disease, thereby rejecting the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "Based on the retrieved evidence, \"no\" is the well-supported conclusion, though the history is more nuanced than a simple negative.\n\n**Early promising signals, later refuted:** A smaller Phase II trial (Shults et al., 2002) found preliminary evidence that CoQ10 at doses up to 1200 mg/day might slow functional decline in early Parkinson's disease, as measured by UPDRS scores (https://jamanetwork.com/journals/jamaneurology/fullarticle/782965). This generated interest in CoQ10 as a potential disease-modifying or symptom-improving therapy.\n\n**Definitive Phase III trial found no benefit:** However, the larger, more rigorous Phase III randomized, placebo-controlled trial by Beal and colleagues (published in JAMA Neurology) tested high-dosage CoQ10 (up to 2400 mg/day) in early Parkinson's disease patients and explicitly concluded \"no evidence of benefit\" — the trial was stopped early for futility (https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409; also indexed at https://pubmed.ncbi.nlm.nih.gov/24664227/?dopt=Abstract).\n\n**Meta-analysis confirms lack of efficacy:** A 2016 systematic review and meta-analysis pooling multiple randomized controlled trials evaluating CoQ10 in Parkinson's disease similarly concluded there was no significant improvement in motor symptoms or UPDRS scores, reinforcing that CoQ10 does not provide meaningful clinical benefit (https://link.springer.com/article/10.1007/s10072-016-2757-9).\n\n**Conclusion:** The weight of evidence—particularly the large, definitive Phase III trial and subsequent meta-analysis—does not support CoQ10 as an effective treatment for improving movement/motor symptoms in Parkinson's disease. While an earlier Phase II study suggested possible benefit, this was not confirmed and was effectively overturned by higher-quality, larger trials. The scientific consensus, based on the best available evidence, aligns with the \"no\" answer to this question.",
+  "run_id": "cross_replay_ff_53f6df77b46b_skeptic_on_believer_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "coenzyme Q10 Parkinson's disease motor symptoms randomized controlled trial",
+      "results": [
+        {
+          "title": "Randomized, Double-blind, Placebo-Controlled Trial on ...Coenzyme Q10 and Parkinsonian Syndromes: A Systematic ReviewEffects of Coenzyme Q10 (CoQ) in Parkinson DiseaseA Randomized Clinical Trial of High-Dosage Coenzyme Q10 in ...Randomized, double-blind, placebo-controlled pilot trial of ...The efficacy and safety of coenzyme Q10 in Parkinson’s ...A randomized clinical trial of high-dosage coenzyme Q10 in ...",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/794066"
+        },
+        {
+          "title": "Coenzyme Q10 and Parkinsonian Syndromes: A Systematic Review",
+          "url": "https://www.mdpi.com/2075-4426/12/6/975"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 (CoQ) in Parkinson Disease",
+          "url": "https://www.ninds.nih.gov/health-information/clinical-trials/effects-coenzyme-q10-coq-parkinson-disease"
+        },
+        {
+          "title": "A Randomized Clinical Trial of High-Dosage Coenzyme Q10 in ...",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409"
+        },
+        {
+          "title": "Randomized, double-blind, placebo-controlled pilot trial of ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1353802015002400"
+        },
+        {
+          "title": "The efficacy and safety of coenzyme Q10 in Parkinson’s ...",
+          "url": "https://link.springer.com/article/10.1007/s10072-016-2757-9"
+        },
+        {
+          "title": "A randomized clinical trial of high-dosage coenzyme Q10 in ...",
+          "url": "https://pure.johnshopkins.edu/en/publications/a-randomized-clinical-trial-of-high-dosage-coenzyme-q10-in-early-/"
+        },
+        {
+          "title": "(PDF) Effects of Qigong Exercise on Non-Motor Symptoms and...",
+          "url": "https://www.academia.edu/94046974/Effects_of_Qigong_Exercise_on_Non_Motor_Symptoms_and_Inflammatory_Status_in_Parkinson_s_Disease_A_Protocol_for_a_Randomized_Controlled_Trial"
+        }
+      ]
+    },
+    {
+      "query": "CoQ10 Parkinson's disease clinical trial UPDRS",
+      "results": [
+        {
+          "title": "Effects of Coenzyme Q10 (CoQ) in Parkinson Disease",
+          "url": "https://www.ninds.nih.gov/health-information/clinical-trials/effects-coenzyme-q10-coq-parkinson-disease"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 (CoQ) in Parkinson Disease (QE3)",
+          "url": "https://clinicaltrials.gov/study/NCT00740714"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 in Early Parkinson Disease",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/782965"
+        },
+        {
+          "title": "Randomized, double-blind, placebo-controlled pilot trial of ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1353802015002400"
+        },
+        {
+          "title": "The efficacy and safety of coenzyme Q10 in Parkinson’s ...",
+          "url": "https://link.springer.com/article/10.1007/s10072-016-2757-9"
+        },
+        {
+          "title": "Randomized, Double-blind, Placebo-Controlled Trial on ...",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/794066"
+        },
+        {
+          "title": "Parkinson's Disease: Pathophysiology, Clinical Features, Diagnosis...",
+          "url": "https://pt.slideshare.net/slideshow/parkinson-s-disease-pathophysiology-clinical-features-diagnosis-physiotherapy-management/288811721"
+        },
+        {
+          "title": "Clinical Trial on Parkinsons Disease - Clinical Trials... - ICH GCP",
+          "url": "https://ichgcp.net/clinical-trials-registry/NCT02249559"
+        }
+      ]
+    },
+    {
+      "query": "meta-analysis coenzyme Q10 Parkinson's disease UPDRS motor score efficacy",
+      "results": [
+        {
+          "title": "Does high-dose coenzyme Q10 improve oxidative damage and clinical...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24410614/"
+        },
+        {
+          "title": "Frontiers | Acupuncture effects on non-motor symptoms of...",
+          "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1745157/full"
+        },
+        {
+          "title": "Imbalanced motivated behaviors according to motor sign asymmetry in...",
+          "url": "https://hal.science/hal-04759623"
+        },
+        {
+          "title": "The trans-omics of -omics – The Science of Parkinson's",
+          "url": "https://scienceofparkinsons.com/2022/11/18/omics/"
+        },
+        {
+          "title": "Acupuncture in Parkinson’s Disease: Network Meta-Analysis of 57...",
+          "url": "https://acupuntura.com/en/news/acupuncture-for-parkinson-disease-network-meta-analysis-57-rcts-2026/"
+        },
+        {
+          "title": "Spinal Cord Stimulation for Parkinson’s Disease: A Systematic...",
+          "url": "https://repositorio.uchile.cl/handle/2250/214549"
+        },
+        {
+          "title": "Parkinson S Disease Statistics: 2026 Verified Data & Trends",
+          "url": "https://gitnux.org/parkinson-s-disease-statistics/"
+        },
+        {
+          "title": "(PDF) Effect of Exercise on Parkinson’s Disease Tremor...",
+          "url": "https://www.academia.edu/109766861/Effect_of_Exercise_on_Parkinson_s_Disease_Tremor_A_Meta_analysis_Study"
+        }
+      ]
+    },
+    {
+      "query": "phase III CoQ10 high dosage early Parkinson disease no evidence of benefit Beal",
+      "results": [
+        {
+          "title": "The trans-omics of -omics – The Science of Parkinson's",
+          "url": "https://scienceofparkinsons.com/2022/11/18/omics/"
+        },
+        {
+          "title": "Early Signs of Parkinson's Disease: Symptoms Beyond the Tremor",
+          "url": "https://health.stonybrookmedicine.edu/early-signs-of-parkinsons-disease/"
+        },
+        {
+          "title": "Nutrition and Lifestyle Interventions for Managing Parkinson’s Disease...",
+          "url": "https://e-jmd.org/journal/view.php?doi=10.14802/jmd.20006"
+        },
+        {
+          "title": "A novel design of a Phase III trial of isradipine in early Parkinson...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5454402/"
+        },
+        {
+          "title": "verywellfit.com/benefits-and-risks-of-taking-dietary-supplements...",
+          "url": "https://www.verywellfit.com/benefits-and-risks-of-taking-dietary-supplements-2506547"
+        },
+        {
+          "title": "B-Complex Vitamins: Benefits, Side Effects, and Dosage",
+          "url": "https://www.healthline.com/nutrition/vitamin-b-complex"
+        },
+        {
+          "title": "High-Dosage CoQ10 in Early PD - JAMA Network",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409"
+        },
+        {
+          "title": "A randomized clinical trial of high-dosage coenzyme Q10 in ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24664227/?dopt=Abstract"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:06:31.828+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

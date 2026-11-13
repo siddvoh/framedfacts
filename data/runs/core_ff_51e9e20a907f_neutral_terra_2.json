@@ -1,0 +1,272 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/nejmoa0809493",
+    "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88",
+    "https://link.springer.com/article/10.1007/s00198-021-05900-y"
+  ],
+  "claim_id": "ff_51e9e20a907f",
+  "completed_at": "2026-08-03T16:03:47.181+00:00",
+  "evidence_stance": [
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim"
+      ],
+      "normalized_query": "denosumab prolia vertebral fracture risk osteoporosis freedom trial nejm",
+      "query": "denosumab Prolia vertebral fracture risk osteoporosis FREEDOM trial NEJM"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "fda prolia prescribing information vertebral fractures osteoporosis reduction",
+      "query": "FDA Prolia prescribing information vertebral fractures osteoporosis reduction"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "cochrane denosumab osteoporosis vertebral fractures review",
+      "query": "Cochrane denosumab osteoporosis vertebral fractures review"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim"
+      ],
+      "normalized_query": "endocrine society guideline denosumab reduces vertebral fractures osteoporosis",
+      "query": "Endocrine Society guideline denosumab reduces vertebral fractures osteoporosis"
+    }
+  ],
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/nejmoa0809493",
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88",
+        "https://link.springer.com/article/10.1007/s00198-021-05900-y"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states 'Yes. Denosumab (Prolia) reduces the risk of vertebral fractures in osteoporosis', citing a 68% relative risk reduction in clinical trials and FDA prescribing information. Therefore, it strongly endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that denosumab reduces vertebral fracture risk, citing randomized trial results and prescribing information. The caveats concern safe administration and discontinuation, not whether the claim is supported.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "denosumab Prolia vertebral fracture risk osteoporosis FREEDOM trial NEJM",
+    "FDA Prolia prescribing information vertebral fractures osteoporosis reduction",
+    "Cochrane denosumab osteoporosis vertebral fractures review",
+    "Endocrine Society guideline denosumab reduces vertebral fractures osteoporosis"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_congruent"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** Yes. Denosumab (Prolia) reduces the risk of vertebral fractures in osteoporosis—most clearly demonstrated in postmenopausal women at high fracture risk. In the 3-year randomized, placebo-controlled FREEDOM trial, new radiographic vertebral fractures occurred in 2.3% of women receiving denosumab versus 7.2% receiving placebo, a **68% relative risk reduction**. It also reduced hip and nonvertebral fractures.\n\nThis benefit is reflected in the U.S. prescribing information, which states that Prolia reduces vertebral, nonvertebral, and hip fracture incidence in postmenopausal osteoporosis. A major clinical guide likewise estimates vertebral-fracture reduction at about 68% within one year.\n\nAn important caveat: denosumab must be administered consistently (60 mg subcutaneously every six months) and should not be stopped or substantially delayed without a clinician-directed transition to another antiresorptive medicine, because rapid bone loss and multiple vertebral fractures can occur after discontinuation. Appropriateness depends on fracture risk, kidney function/hypocalcemia risk, dental considerations, and alternative treatments.\n\nSources:  \n- https://www.nejm.org/doi/full/10.1056/nejmoa0809493  \n- https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88  \n- https://link.springer.com/article/10.1007/s00198-021-05900-y",
+  "run_id": "core_ff_51e9e20a907f_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "denosumab Prolia vertebral fracture risk osteoporosis FREEDOM trial NEJM",
+    "FDA Prolia prescribing information vertebral fractures osteoporosis reduction",
+    "Cochrane denosumab osteoporosis vertebral fractures review",
+    "Endocrine Society guideline denosumab reduces vertebral fractures osteoporosis"
+  ],
+  "searches": [
+    {
+      "query": "denosumab Prolia vertebral fracture risk osteoporosis FREEDOM trial NEJM",
+      "results": [
+        {
+          "title": "Denosumab for Prevention of Fractures in Postmenopausal Women ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/nejmoa0809493"
+        },
+        {
+          "title": "Denosumab for Prevention of Fractures in Postmenopausal Women ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa0809493"
+        },
+        {
+          "title": "Denosumab and Fracture Prevention in Primary Care Practice",
+          "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2834322"
+        },
+        {
+          "title": "Denosumab for Reducing Risk of Fractures in ... - TheNNT",
+          "url": "https://thennt.com/nnt/denosumab-reducing-risk-fractures-postmenopausal-women/"
+        },
+        {
+          "title": "Study Summary: FREEDOM - AJMC",
+          "url": "https://www.ajmc.com/view/study-summary-freedom"
+        },
+        {
+          "title": "Denosumab for prevention of fractures in postmenopausal women ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19671655/"
+        },
+        {
+          "title": "Denosumab for Reducing Risk of Fractures in ... - AAFP",
+          "url": "https://www.aafp.org/afp/2019/0501/od1"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa0809493",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa0809493"
+        }
+      ]
+    },
+    {
+      "query": "FDA Prolia prescribing information vertebral fractures osteoporosis reduction",
+      "results": [
+        {
+          "title": "These highlights do not include all the information needed to use...",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88"
+        },
+        {
+          "title": "FDA MedWatch - Prolia (denosumab): Drug Safety Communication",
+          "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/385a50d"
+        },
+        {
+          "title": "Starting Prolia® (denosumab) | Prolia",
+          "url": "https://www.evenityproliasa.com/starting-prolia"
+        },
+        {
+          "title": "STOBOCLO Dosing & Administration | FDA-approved biosimilar to...",
+          "url": "https://www.stoboclo.com/hcp/dosing-and-administration/"
+        },
+        {
+          "title": "Important Safety Information",
+          "url": "https://www.proliahcp.com/-/media/Themes/Amgen/ProliaHcp-com/ProliaHcp-com/PDFs/6_2_2_Prolia_Patient_Access/Prolia-Product-Ordering-Sheet.pdf"
+        },
+        {
+          "title": "PROLIA Prescription & Dosage Information - MPR",
+          "url": "https://www.empr.com/drug/prolia/"
+        },
+        {
+          "title": "Product Information",
+          "url": "https://www.evenityproliahcp.com/-/media/Themes/Amgen/evenityproliahcp-com/evenityproliahcp-com/PDFs/6_2_2_Prolia_Patient_Access/Prolia-Treatment-Referral-Form.pdf"
+        },
+        {
+          "title": "FDA Approves Prolia® (Denosumab) For Glucocorticoid-Induced...",
+          "url": "https://www.amgen.com/newsroom/press-releases/2018/05/fda-approves-prolia-denosumab-for-glucocorticoidinduced-osteoporosis"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane denosumab osteoporosis vertebral fractures review",
+      "results": [
+        {
+          "title": "A Review on the Role of Denosumab in Fracture Prevention | DDDT",
+          "url": "https://www.dovepress.com/a-review-on-the-role-of-denosumab-in-fracture-prevention-peer-reviewed-fulltext-article-DDDT"
+        },
+        {
+          "title": "Denosumab in elderly osteoporotic patients. A narrative review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38048119/"
+        },
+        {
+          "title": "Efficacy and safety of denosumab compared to bisphosphonates in...",
+          "url": "http://www.smj.org.sg/article/efficacy-and-safety-denosumab-compared-bisphosphonates-improving-bone-strength"
+        },
+        {
+          "title": "Denosumab Curbs Fractures Equally at All Risk Levels | MDedge",
+          "url": "https://www.mdedge.com/endocrinology/article/54202/osteoporosis/denosumab-curbs-fractures-equally-all-risk-levels"
+        },
+        {
+          "title": "Insightful How Denosumab Works For Osteoporosis... - Liv Hospital",
+          "url": "https://int.livhospital.com/insightful-how-denosumab-works-for-osteoporosis-treatment/"
+        },
+        {
+          "title": "Denosumab discontinuation increases risk for major osteoporotic...",
+          "url": "https://www.healio.com/news/endocrinology/20191114/denosumab-discontinuation-increases-risk-for-major-osteoporotic-vertebral-fractures"
+        },
+        {
+          "title": "Denosumab for osteoporosis treatment: when, how, for whom, and...",
+          "url": "https://link.springer.com/article/10.1007/s40520-025-02991-z"
+        },
+        {
+          "title": "Denosumab for the Treatment of Osteoporosis | Request PDF",
+          "url": "https://www.researchgate.net/publication/271330777_Denosumab_for_the_Treatment_of_Osteoporosis"
+        }
+      ]
+    },
+    {
+      "query": "Endocrine Society guideline denosumab reduces vertebral fractures osteoporosis",
+      "results": [
+        {
+          "title": "Treatment of low bone density or osteoporosis to prevent fractures in...",
+          "url": "https://www.mdedge.com/clinical-guidelines-hub/article/141754/endocrinology/treatment-low-bone-density-or-osteoporosis"
+        },
+        {
+          "title": "Treatment with Denosumab Reduces the Incidence of New Vertebral...",
+          "url": "https://academic.oup.com/jcem/article-abstract/96/6/1727/2834261?redirectedFrom=fulltext"
+        },
+        {
+          "title": "Denosumab | Treatment & Management | Point of Care",
+          "url": "https://www.statpearls.com/point-of-care/37779"
+        },
+        {
+          "title": "Denosumab: A Useful Addition to the Armamentarium for the...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11260113/"
+        },
+        {
+          "title": "The clinician’s guide to prevention and treatment of osteoporosis",
+          "url": "https://link.springer.com/article/10.1007/s00198-021-05900-y"
+        },
+        {
+          "title": "A Review on the Role of Denosumab in Fracture Prevention | DDDT",
+          "url": "https://www.dovepress.com/a-review-on-the-role-of-denosumab-in-fracture-prevention-peer-reviewed-fulltext-article-DDDT"
+        },
+        {
+          "title": "Osteoporosis: Practice Essentials, Background, Pathophysiology",
+          "url": "https://emedicine.medscape.com/article/330598-overview"
+        },
+        {
+          "title": "Denosumab for osteoporosis - UpToDate",
+          "url": "https://www.uptodate.com/contents/denosumab-for-osteoporosis?search=Metabolic+bone+diseases+thoracolumbar+vertebral+compression+fractures&source=search_result&selectedTitle=3~150&usage_type=default&display_rank=3"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T15:54:22.263+00:00",
+  "status": "judged",
+  "system": "terra"
+}

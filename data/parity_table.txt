@@ -1,0 +1,80 @@
+# Model parity
+
+Access date: 2026-08-01. Every row below is read from the OpenRouter model-catalog
+response of that date and nowhere else. The six entries it uses are released here as
+`data/model_catalog_2026-08-01.json`, so the table can be checked against them.
+
+| Role | Requested ID | Canonical ID | Tool calling | Reasoning default | Supported effort | Max output |
+|---|---|---|---|---|---|---:|
+| Agent | `anthropic/claude-sonnet-5` | `anthropic/claude-sonnet-5-20260630` | yes | on, high | low, medium, high, xhigh, max | 128,000 |
+| Agent | `openai/gpt-5.6-terra` | `openai/gpt-5.6-terra-20260709` | yes | on, medium | none, low, medium, high, xhigh, max | 128,000 |
+| Agent and judge | `google/gemini-3.6-flash` | `google/gemini-3.6-flash-20260721` | yes | mandatory, medium | minimal, low, medium, high | 65,536 |
+| Agent | `z-ai/glm-5.2` | `z-ai/glm-5.2-20260616` | yes | on, high | high, xhigh | 131,072 |
+| Cross-family judge | `openai/gpt-5.6-luna` | `openai/gpt-5.6-luna-20260709` | yes | on, medium | none, low, medium, high, xhigh, max | 128,000 |
+| Optional probe | `moonshotai/kimi-k3:exacto` | `moonshotai/kimi-k3-20260715` | yes | on, max | low, high, max | not reported |
+
+The catalog reports no default temperature for Sonnet, Terra, Gemini, or Luna.
+It reports temperature 1 and top-p 0.95 for GLM, and top-p 0.95 for Kimi. The
+catalog's supported-parameter lists omit temperature and top-p for Sonnet,
+Terra, and Luna. Preflight sends the study's unified sampling fields and records
+whether each route accepts them. A rejected field is removed only for the model
+that rejects it, with the exact request and error retained.
+
+Experimental agent requests use temperature 0.2, top-p 1, a 2,000-token output
+cap, and medium reasoning where the route accepts those fields. Preflight
+showed that strict Terra and Sonnet routing returned HTTP 404 when temperature
+and top-p were present. Those fields were removed only for those two systems,
+with both rejections retained in the raw preflight records. Luna's catalog route
+likewise does not accept temperature, so its judge requests use the route's
+fixed sampling behavior instead of claiming an unenforceable temperature zero. GLM has no
+medium setting, so high is its closest supported mapping. Kimi uses high, its
+native fixed top-p 0.95, and the `:exacto` routing modifier as the runbook's
+out-of-band mapping. The Kimi top-p value replaces the initially requested 1.0
+after the diagnostic route rejected that value and reported 0.95 as required.
+Judges use temperature 0 when the route accepts
+it and a 700-token cap. Every agent receives the same system prompt, search
+schema, a minimum of four searches, an eight-call search cap, eight results,
+350-character snippet clamp,
+250-word report limit, and four-citation limit. If a response proposes more
+search calls than remain, every route deterministically executes only the first
+calls that fit the shared cap and retains the dropped calls in raw provenance.
+
+The active `strict_v3` cache enforces the eight-result contract before a result
+is exposed to any model. The primary web transport is fixed to DDGS 9.14.4 with
+its DuckDuckGo engine, region `us-en`, moderate safe search, page 1, no time
+limit, and a 16-candidate request. TLS verification uses the pinned certifi
+2026.2.25 bundle; requests are globally paced by at least 1.5 seconds, with
+bounded jitter. Ranked candidates retain their order while empty-title,
+non-HTTP(S), non-string, and duplicate-URL rows are removed, and only the first
+eight valid rows are accepted. If fewer than eight survive, the exact query is
+retried and ultimately fails closed; queries are never rewritten or padded.
+DDGS and Brave share one logical web namespace, so the first valid result set
+stored for a normalized query remains fixed across a fallback switch. A
+separate scholarly namespace uses the same strict result schema and
+cardinality.
+
+All upstream search attempts, including successful ones, retain their complete
+candidate payload and outcome in the private append-only backend history.
+Rejected attempts are additionally linked inside the corresponding run raw log;
+an exhausted tool call fails the trajectory with an ordered hash list and an
+exact completed/failed/unexecuted call partition. The rolling web-failure
+window is reconstructed from this history at startup. Only after a full 200
+attempts and a failure rate strictly above 5% may the transport switch to Brave,
+and only when a nonempty Brave credential was present at launch. Otherwise the
+condition creates a durable terminal latch. Either outcome is logged and does
+not reset when the process restarts.
+
+URL fragments do not create distinct source slots, although the original
+upstream URL is preserved in the eight returned rows. Search execution IDs are
+deterministic across restart from the run, call, tool, exact-query, and logical
+backend identity. Persisted failures resume at the next same-query attempt and
+persisted successes are reused without another upstream request. The audit
+requires a bijection between every global provider attempt and exactly one
+raw-run rejection or accepted-attempt link; cache-only hits explicitly carry no
+provider-attempt link. Attempt persistence, the rolling-window update, and a
+required DDGS-to-Brave switch are serialized together, including against
+concurrent scholarly searches.
+
+Gemini requests pin `google-ai-studio` as the only provider and disable
+fallback. This routing is tested on three preflight calls before the pilot and is
+not inferred from configuration alone.

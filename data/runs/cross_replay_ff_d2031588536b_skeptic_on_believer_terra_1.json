@@ -1,0 +1,343 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.cochrane.org/evidence/CD003388_psychological-therapies-chronic-post-traumatic-stress-disorder-ptsd-adults",
+    "https://pubmed.ncbi.nlm.nih.gov/37882423/",
+    "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Provider-Summary.pdf",
+    "https://www.nice.org.uk/guidance/ng116/chapter/Recommendations"
+  ],
+  "claim_id": "ff_d2031588536b",
+  "completed_at": "2026-08-04T17:28:14.400+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cochrane.org/evidence/CD003388_psychological-therapies-chronic-post-traumatic-stress-disorder-ptsd-adults",
+        "https://pubmed.ncbi.nlm.nih.gov/37882423/",
+        "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Provider-Summary.pdf",
+        "https://www.nice.org.uk/guidance/ng116/chapter/Recommendations"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states 'Conclusion: yes' and clearly affirms that EMDR can alleviate PTSD symptoms based on Cochrane reviews, systematic meta-analyses, and clinical practice guidelines.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion: yes.** The evidence does not support “no”: EMDR can alleviate PTSD symptoms, particularly in adults, and is an established trauma-focused psychotherapy rather than an experimental treatment.\n\n**Why the answer is yes**\n- A Cochrane review of psychological therapies for chronic PTSD found support for both trauma-focused CBT and EMDR in adults. This is important because Cochrane reviews systematically assess trials rather than relying on individual studies. https://www.cochrane.org/evidence/CD003388_psychological-therapies-chronic-post-traumatic-stress-disorder-ptsd-adults\n- A 2023 systematic review and meta-analysis specifically examined EMDR’s efficacy for PTSD across randomized clinical trials published from 1991–2022. Randomized trials and their pooled analysis are appropriate evidence for whether a treatment reduces symptoms. https://pubmed.ncbi.nlm.nih.gov/37882423/\n- Major evidence-based guidelines recommend it. The VA/DoD PTSD guideline describes trauma-focused psychotherapies—including EMDR—as highly recommended and uses an evidence-based recommendation process. https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Provider-Summary.pdf\n- NICE’s PTSD guideline covers adults and aims to reduce PTSD symptoms; its recommendations include EMDR as a treatment option. https://www.nice.org.uk/guidance/ng116/chapter/Recommendations\n\n**Important qualification:** “Can alleviate” does not mean it works for every person, produces remission in every case, or is necessarily superior to other leading trauma-focused therapies such as prolonged exposure or cognitive processing therapy. Treatment choice should reflect the person’s trauma history, preferences, safety, access to a trained clinician, and response over time.",
+  "run_id": "cross_replay_ff_d2031588536b_skeptic_on_believer_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "EMDR PTSD systematic review meta-analysis randomized controlled trial evidence Cochrane",
+      "results": [
+        {
+          "title": "Eye movement desensitization and reprocessing - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing"
+        },
+        {
+          "title": "Efficacy of EMDR in Post-Traumatic Stress Disorder: A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37882423/"
+        },
+        {
+          "title": "Efficacy of EMDR in post-traumatic stress disorder: A ...",
+          "url": "https://www.emdria.org/resource/efficacy-of-emdr-in-post-traumatic-stress-disorder-a-systematic-review-and-meta-analysis-of-randomized-clinical-trials-psicothema/"
+        },
+        {
+          "title": "The Use of Eye-Movement Desensitization Reprocessing (EMDR ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5997931/"
+        },
+        {
+          "title": "Is EMDR effective for improving post-traumatic stress ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2468749926000736"
+        },
+        {
+          "title": "Efficacy of EMDR in Post-Traumatic Stress Disorder: A ...",
+          "url": "https://www.researchgate.net/publication/375334928_Efficacy_of_EMDR_in_Post-Traumatic_Stress_Disorder_A_Systematic_Review_and_Meta-analysis_of_Randomized_Clinical_Trials"
+        },
+        {
+          "title": "EMDR v. other psychological therapies for PTSD: A systematic ...",
+          "url": "https://psycnet.apa.org/record/2024-43062-001"
+        },
+        {
+          "title": "Effects of EMDR vs. waiting list for adults with post-traumatic stress...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40876652/"
+        }
+      ]
+    },
+    {
+      "query": "VA DoD clinical practice guideline PTSD EMDR recommendation 2023",
+      "results": [
+        {
+          "title": "Eye Movement Desensitization and Reprocessing for PTSD - PTSD...",
+          "url": "https://www.ptsd.va.gov/professional/treat/txessentials/emdr_pro.asp"
+        },
+        {
+          "title": "Does EMDR work? What the evidence actually says",
+          "url": "https://emease.com/research/does-emdr-work"
+        },
+        {
+          "title": "EMDR For PTSD - NeuroTek",
+          "url": "https://neurotekcorp.com/emdr-for-ptsd/"
+        },
+        {
+          "title": "EMDR vs CPT: Mechanism, Sessions, and Who Each Fits",
+          "url": "https://www.scienceworkshealth.com/post/emdr-vs-cpt-how-two-evidence-based-trauma-therapies-compare"
+        },
+        {
+          "title": "PTSD Treatment for Veterans: The Complete Guide | Reforge",
+          "url": "https://reforgepsychiatry.com/complete-guide-ptsd-treatment-for-veterans/"
+        },
+        {
+          "title": "Evidence-Based PTSD Treatments for Veterans | What Works March...",
+          "url": "https://www.marchahead.com.au/blog/evidence-based-treatments-veteran-mental-health"
+        },
+        {
+          "title": "Testing the Science behind the VA's TBI/PTSD Treatments - TreatNOW",
+          "url": "https://treatnow.org/testing-the-science-behind-the-vas-tbi-ptsd-treatments/"
+        },
+        {
+          "title": "EMDR Therapy - Villa Healing Center",
+          "url": "https://villahealingcenter.com/emdr-therapy/"
+        }
+      ]
+    },
+    {
+      "query": "WHO guideline PTSD EMDR adults recommendation",
+      "results": [
+        {
+          "title": "Eye Movement Desensitization and Reprocessing for PTSD - PTSD...",
+          "url": "https://www.ptsd.va.gov/professional/treat/txessentials/emdr_pro.asp"
+        },
+        {
+          "title": "Eye Movement Desensitization and Reprocessing (EMDR) Therapy",
+          "url": "https://www.apa.org/ptsd-guideline/treatments/eye-movement-reprocessing"
+        },
+        {
+          "title": "EMDR Therapy (Eye Movement Desensitization & Reprocessing)",
+          "url": "https://www.webmd.com/mental-health/emdr-what-is-it"
+        },
+        {
+          "title": "EMDR Comprehensive Guide | TrueHope Psychology",
+          "url": "https://truehope.com.au/2025/10/10/emdr-comprehensive-guide/"
+        },
+        {
+          "title": "EMDR Therapy in California — Trained Clinicians... | My Mental Climb",
+          "url": "https://www.mymentalclimb.com/emdr-therapy/"
+        },
+        {
+          "title": "EMDR vs Somatic Experiencing: How to Choose | ScienceWorks",
+          "url": "https://www.scienceworkshealth.com/post/emdr-vs-somatic-experiencing"
+        },
+        {
+          "title": "EMDR Therapy for Trauma, Anxiety, and PTSD",
+          "url": "https://www.verywellhealth.com/emdr-therapy-5212839"
+        },
+        {
+          "title": "PTSD (post-traumatic stress disorder) - NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/ptsd-post-traumatic-stress-disorder/"
+        }
+      ]
+    },
+    {
+      "query": "NICE PTSD guideline EMDR evidence recommendation",
+      "results": [
+        {
+          "title": "Eye movement desensitization and reprocessing - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing"
+        },
+        {
+          "title": "EMDR therapy helps some people with PTSD - Project Gromeus",
+          "url": "https://www.gromeus.com/psy/various-psy/emdr-therapy-ptsd-evidence/"
+        },
+        {
+          "title": "Eye Movement Desensitization and Reprocessing for PTSD - PTSD...",
+          "url": "https://www.ptsd.va.gov/professional/treat/txessentials/emdr_pro.asp"
+        },
+        {
+          "title": "Is EMDR evidence-based? Guidelines and research, reviewed",
+          "url": "https://emease.com/research/is-emdr-evidence-based"
+        },
+        {
+          "title": "The Efficacy of EMDR Early Interventions",
+          "url": "https://cdn.website-editor.net/0145d0f86d4b412ebb4058694ee11fcc/files/uploaded/E%20Shapiro%20%26%20Maxfield%2C%202019%2C%20early%20emdr%20intervention_aLJT5m8PTBGFdKRZMsOA.pdf"
+        },
+        {
+          "title": "Eye Movement Desensitization and Reprocessing (EMDR) Therapy",
+          "url": "https://www.apa.org/ptsd-guideline/treatments/eye-movement-reprocessing"
+        },
+        {
+          "title": "EMDR Complete Guide Las Vegas | Meridian Behavioral Health",
+          "url": "https://www.meridianbehavioral.com/resources/emdr-complete-guide"
+        },
+        {
+          "title": "EMDR Research: Scientific Evidence and Meta-Analyses",
+          "url": "https://blsnow.io/en/articles/emdr-research"
+        }
+      ]
+    },
+    {
+      "query": "site:nice.org.uk/guidance/ng116 EMDR adults PTSD recommendation",
+      "results": [
+        {
+          "title": "Recommendations | Post-traumatic stress disorder | Guidance ...",
+          "url": "https://www.nice.org.uk/guidance/ng116/chapter/Recommendations"
+        },
+        {
+          "title": "Overview | Post-traumatic stress disorder | Guidance | NICE",
+          "url": "https://www.nice.org.uk/guidance/ng116"
+        },
+        {
+          "title": "Rationale and impact | Post-traumatic stress disorder | NICE",
+          "url": "https://www.nice.org.uk/guidance/NG116/chapter/rationale-and-impact"
+        },
+        {
+          "title": "PTSD (update) guideline",
+          "url": "https://www.nice.org.uk/guidance/ng116/documents/consultation-comments-and-responses"
+        },
+        {
+          "title": "Post-traumatic stress disorder - NICE",
+          "url": "https://www.nice.org.uk/guidance/ng116/resources/posttraumatic-stress-disorder-pdf-66141601777861"
+        },
+        {
+          "title": "CG26 Post-traumatic stress disorder (PTSD): Full guideline ...",
+          "url": "https://www.nice.org.uk/guidance/ng116/evidence/full-guideline-pdf-6602623598"
+        },
+        {
+          "title": "Guideline - NICE",
+          "url": "https://www.nice.org.uk/guidance/ng116/documents/draft-guideline-2"
+        },
+        {
+          "title": "Post-traumatic stress disorder - NICE",
+          "url": "https://www.nice.org.uk/guidance/ng116/evidence/evidence-review-b-psychological-psychosocial-and-other-nonpharmacological-interventions-for-the-treatment-of-ptsd-in-children-and-young-people-pdf-6602621006"
+        }
+      ]
+    },
+    {
+      "query": "site:healthquality.va.gov PTSD CPG 2023 EMDR strongly recommend PDF",
+      "results": [
+        {
+          "title": "Management of Type 2 Diabetes Mellitus (2023) - VA/DOD Clinical...",
+          "url": "https://www.healthquality.va.gov/guidelines/cd/diabetes/index.asp"
+        },
+        {
+          "title": "VA/DoD_Clinical_Practice_Guideline_(CPG)_for_the_Management ...",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Provider-Summary.pdf"
+        },
+        {
+          "title": "VA/DoD_Clinical_Practice_Guideline_(CPG)_for_the_Management ...",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Patient-Summary.pdf"
+        },
+        {
+          "title": "The Primary Care Management of Asthma (2025) - VA/DOD Clinical...",
+          "url": "https://www.healthquality.va.gov/guidelines/CD/asthma/index.asp"
+        },
+        {
+          "title": "Management of Posttraumatic Stress Disorder and Acute Stress ...",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/"
+        },
+        {
+          "title": "VA/DOD Clinical Practice Guidelines: Management of ...",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/PTSD-pocket-card-508.pdf"
+        },
+        {
+          "title": "The Management of Posttraumatic Stress Disorder and Acute ...",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/PTSD-in-Annals-2024.pdf"
+        },
+        {
+          "title": "VA/DoD Clinical Practice Guideline for Management of ...",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Full-CPG-Edited-111624-V5-81825.pdf"
+        }
+      ]
+    },
+    {
+      "query": "PubMed 37882423 EMDR PTSD meta-analysis randomized trials results effect size",
+      "results": [
+        {
+          "title": "Complex post-traumatic stress disorder - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Complex_post-traumatic_stress_disorder"
+        },
+        {
+          "title": "What Does EMDR Feel Like? A Therapist's Honest Account",
+          "url": "https://anniewright.com/emdr-what-it-feels-like/"
+        },
+        {
+          "title": "Advanced Search Results - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/advanced/"
+        },
+        {
+          "title": "PTSD (post-traumatic stress disorder) - NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/ptsd-post-traumatic-stress-disorder/"
+        },
+        {
+          "title": "Post-traumatic stress disorder (PTSD) - Symptoms... - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967"
+        },
+        {
+          "title": "EMDR Therapy for Trauma: Does It Really Work?",
+          "url": "https://mindbodyo.com/emdr-therapy-for-trauma-does-it-really-work/"
+        },
+        {
+          "title": "PubMed.ai – AI-Assisted Biomedical Literature Search Tool",
+          "url": "https://www.pubmed.ai/home?ref=producthunt"
+        },
+        {
+          "title": "What Online Therapy Actually Does to Your Results",
+          "url": "https://www.reachlink.com/advice/therapy/what-online-therapy-actually-does-to-your-results/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane psychological therapies chronic PTSD EMDR review results",
+      "results": [
+        {
+          "title": "Post-traumatic stress disorder - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder"
+        },
+        {
+          "title": "Psychological therapies for chronic post-traumatic stress ...",
+          "url": "https://www.cochrane.org/evidence/CD003388_psychological-therapies-chronic-post-traumatic-stress-disorder-ptsd-adults"
+        },
+        {
+          "title": "Psychological interventions for post-traumatic stress ...",
+          "url": "https://www.cochrane.org/evidence/CD011464_psychological-interventions-post-traumatic-stress-disorder-ptsd-people-severe-mental-illness"
+        },
+        {
+          "title": "Psychological therapies for chronic post-traumatic stress ...",
+          "url": "https://www.emdria.org/resource/psychological-therapies-for-chronic-post-traumatic-stress-disorder-ptsd-in-adults-cochrane-database-of-systematic-reviews/"
+        },
+        {
+          "title": "Psychological therapies for chronic post‐traumatic stress ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003388.pub4/information"
+        },
+        {
+          "title": "Psychological therapies for chronic post‐traumatic stress ...",
+          "url": "https://www.cochranelibrary.com/web/cochrane/content?templateType=information&urlTitle=/cdsr/doi/10.1002/14651858.CD003388.pub4&doi=10.1002/14651858.CD003388.pub4&type=cdsr&contentLanguage=zh_HANS"
+        },
+        {
+          "title": "Psychological therapies for chronic post-traumatic stress ...",
+          "url": "https://www.researchgate.net/profile/Neil-Roberts-7/publication/259335789_Psychological_therapies_for_chronic_post-_traumatic_stress_disorder_PTSD_in_adults/links/5e581be3299bf1bdb84098c7/Psychological-therapies-for-chronic-post-traumatic-stress-disorder-PTSD-in-adults.pdf"
+        },
+        {
+          "title": "EMDR v. other psychological therapies for PTSD: a systematic ...",
+          "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/emdr-v-other-psychological-therapies-for-ptsd-a-systematic-review-and-individual-participant-data-metaanalysis/903183C014DD518979569C26525588E1"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:27:59.707+00:00",
+  "status": "judged",
+  "system": "terra"
+}

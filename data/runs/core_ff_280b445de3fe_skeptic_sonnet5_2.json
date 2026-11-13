@@ -1,0 +1,210 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/",
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498",
+    "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services"
+  ],
+  "claim_id": "ff_280b445de3fe",
+  "completed_at": "2026-08-03T13:36:44.466+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498",
+        "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that robust evidence from multiple RCTs and systematic reviews shows offering HIV self-testing substantially increases HIV testing uptake, effectively doubling testing rates compared to standard services.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "HIV self-testing increase uptake of HIV testing randomized controlled trial",
+    "HIV self-testing offer effect on testing uptake systematic review",
+    "Cochrane review HIV self-testing uptake general population",
+    "HIV self-testing does not increase testing among general population evidence"
+  ],
+  "query_labels": [
+    "stance_incongruent",
+    "neutral",
+    "neutral",
+    "stance_congruent"
+  ],
+  "repeat": 2,
+  "report": "The evidence strongly contradicts the assumption of \"no\" — multiple systematic reviews and meta-analyses of randomized controlled trials show that offering HIV self-testing (HIVST) substantially **increases** uptake of HIV testing.\n\n**Key findings:**\n- A 2021 systematic review/meta-analysis in *EClinicalMedicine* pooling 13 RCTs found HIVST roughly **doubled** testing uptake in the general population versus standard services (RR 2.09, 95% CI 1.69–2.58, moderate-certainty evidence), with benefits across multiple delivery models (facility-based, community, mail/online distribution) (https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext).\n- A companion review focused on men who have sex with men (MSM) and transgender people found HIVST increased testing uptake by 1.45 times (RR 1.45, 95% CI 1.20–1.75) and increased testing frequency, while identifying nearly all new HIV cases in some trial settings (https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/).\n- PLOS ONE (2021) similarly concluded HIVST \"has the potential to increase the uptake of HIV testing compared to standard HIV testing services,\" though optional home-based linkage to care sometimes reduced downstream linkage rates even as testing rates rose (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498).\n- The WHO (2023) cites systematic-review evidence that facility-based HIVST achieves uptake \"comparable to or higher than\" standard testing, supporting policy recommendations to expand self-testing options (https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services).\n\n**Caveats:** Most trials provided HIVST kits for free, and effects vary by delivery model and population; some trials showed modest reductions in linkage-to-care after a positive self-test.\n\n**Conclusion:** Contrary to the premise, robust RCT-based evidence indicates offering HIV self-testing does increase testing uptake — often doubling rates versus standard testing — making \"no\" inconsistent with current evidence.",
+  "run_id": "core_ff_280b445de3fe_skeptic_sonnet5_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "HIV self-testing increase uptake of HIV testing randomized controlled trial",
+    "HIV self-testing offer effect on testing uptake systematic review",
+    "Cochrane review HIV self-testing uptake general population",
+    "HIV self-testing does not increase testing among general population evidence"
+  ],
+  "searches": [
+    {
+      "query": "HIV self-testing increase uptake of HIV testing randomized controlled trial",
+      "results": [
+        {
+          "title": "The evidence for HIV self-testing to increase HIV testing rates and ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8915955/"
+        },
+        {
+          "title": "Comparing the effects of HIV self-testing to standard ... - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537021002716"
+        },
+        {
+          "title": "Determinants of Recent HIV Self-Testing Uptake Among Men Who ...",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2021.736440/full"
+        },
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention services",
+          "url": "https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(24)00187-5/abstract"
+        },
+        {
+          "title": "The effects of regular home delivery of HIV self-testing and follow-up ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39020453/"
+        },
+        {
+          "title": "HIV Self-testing and Risk Behaviors Among Men Who Have Sex ...",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2799686"
+        },
+        {
+          "title": "The effects of HIV self-testing on the uptake of HIV testing, linkage to ...",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498"
+        }
+      ]
+    },
+    {
+      "query": "HIV self-testing offer effect on testing uptake systematic review",
+      "results": [
+        {
+          "title": "The effects of HIV self-testing on the uptake of HIV testing, linkage to ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33503050/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28530049/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.sciencedirect.com/science/article/am/pii/S2589537021002716"
+        },
+        {
+          "title": "Approaches and impacts of digital health in HIV self-testing uptake ...",
+          "url": "https://jphe.amegroups.org/article/view/10315/html"
+        },
+        {
+          "title": "The effects of HIV self-testing on the uptake of HIV testing, linkage to ...",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498"
+        },
+        {
+          "title": "HIV Self-Testing Uptake and Intervention Strategies Among Men in ...",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2021.594298/full"
+        },
+        {
+          "title": "HIV testing uptake and the effect of health education on HIV self ...",
+          "url": "https://www.nature.com/articles/s41598-026-50614-y"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review HIV self-testing uptake general population",
+      "results": [
+        {
+          "title": "Approaches and impacts of digital health in HIV self-testing uptake...",
+          "url": "https://jphe.amegroups.org/article/view/10315/html"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28530049/"
+        },
+        {
+          "title": "Comparing the effects of HIV self-testing to standard HIV testing for ...",
+          "url": "https://link.springer.com/article/10.1186/s12916-020-01835-z"
+        },
+        {
+          "title": "WHO recommends optimizing HIV testing services",
+          "url": "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services"
+        },
+        {
+          "title": "HIV Self-Testing Uptake and Intervention Strategies Among Men in ...",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2021.594298/full"
+        },
+        {
+          "title": "Trends in HIV self-testing uptake in Africa: a modeling study of ...",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.09.22.25336306v1.full-text"
+        },
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention services",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2352301824001875"
+        }
+      ]
+    },
+    {
+      "query": "HIV self-testing does not increase testing among general population evidence",
+      "results": [
+        {
+          "title": "Examining the effects of HIV self-testing compared to ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537021002716"
+        },
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention ...",
+          "url": "https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(24)00187-5/fulltext"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext"
+        },
+        {
+          "title": "Comparing the effects of HIV self-testing to standard HIV ...",
+          "url": "https://link.springer.com/article/10.1186/s12916-020-01835-z"
+        },
+        {
+          "title": "Verification of HIV Self-Testing Use and Results: A Global ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7194324/"
+        },
+        {
+          "title": "Comparing the Uptake of HIV Self-Testing to HIV Serology ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/23259582251393357"
+        },
+        {
+          "title": "The effects of regular home delivery of HIV self-testing and ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39020453/"
+        },
+        {
+          "title": "Comparing the effects of HIV self-testing to standard ... - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T13:32:40.564+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

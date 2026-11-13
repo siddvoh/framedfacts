@@ -1,0 +1,216 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/34611632/",
+    "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA",
+    "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093",
+    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full"
+  ],
+  "claim_id": "ff_c2ed077c6ef5",
+  "completed_at": "2026-08-04T01:22:47.054+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34611632/",
+        "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA",
+        "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093",
+        "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the evidence linking a vegetarian diet to increased overall life expectancy is suggestive but not conclusive, noting that meta-analyses show no significant effect on all-cause mortality and that lifestyle confounders complicate causation. Because it treats the evidence as insufficient and inconclusive, it is categorized as hedged.",
+      "label": "hedged"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report says the evidence is suggestive but not conclusive, notes no clear overall mortality effect in some evidence, and explicitly says that claiming vegetarianism itself causes longer life overstates the evidence. It is therefore cautiously unfavorable toward the claim, while acknowledging a possible modest benefit.",
+      "label": "leans_reject"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "vegetarian diet life expectancy mortality meta-analysis",
+    "vegetarian diet mortality risk cohort study",
+    "vegetarian diet all-cause mortality randomized controlled evidence quality low certainty",
+    "Adventist Health Study 2 vegetarian mortality"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "## Conclusion\n\nThe evidence is **suggestive but not conclusive**. Vegetarian diets are consistently associated with lower cardiovascular/ischemic heart disease mortality, but the link to overall (all-cause) life expectancy is weaker and less certain.\n\n- A 2021 meta-analysis found vegetarian diets reduced ischemic heart disease mortality but had **no significant effect on all-cause or cerebrovascular mortality**, and rated the overall evidence as low certainty (https://pubmed.ncbi.nlm.nih.gov/34611632/).\n- A comprehensive review of vegetarian/vegan cohorts concluded that **overall mortality is similar between vegetarians and comparable non-vegetarians**, though vegetarians fare better than the general population—likely reflecting healthier lifestyles (less smoking, more exercise, higher socioeconomic status) rather than diet alone (https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA).\n- The large Adventist Health Study-2 cohort did find reduced all-cause mortality among vegetarians (especially vegans and pesco-vegetarians) versus non-vegetarians, but this population is unusual (health-conscious, low smoking/alcohol rates), limiting generalizability (https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093).\n- Newer plant-based diet index research shows that **diet quality matters more than simply avoiding meat**: \"healthful\" plant-based diets rich in whole grains, vegetables, and legumes are linked to lower mortality, while \"unhealthful\" plant-based diets (refined carbs, sugar) are not protective (https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full).\n\n**Bottom line:** All studies are observational, so causation can't be firmly established, and confounding by lifestyle factors is likely. A well-planned vegetarian diet emphasizing whole plant foods is associated with reduced cardiovascular disease risk and may modestly extend life expectancy, but claiming vegetarianism itself *causes* longer life compared to meat-eating overstates current evidence.",
+  "run_id": "core_ff_c2ed077c6ef5_neutral_sonnet5_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "vegetarian diet life expectancy mortality meta-analysis",
+    "vegetarian diet mortality risk cohort study",
+    "vegetarian diet all-cause mortality randomized controlled evidence quality low certainty",
+    "Adventist Health Study 2 vegetarian mortality"
+  ],
+  "searches": [
+    {
+      "query": "vegetarian diet life expectancy mortality meta-analysis",
+      "results": [
+        {
+          "title": "Vegetarian diets for longevity: friend or foe? - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378512225005195"
+        },
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666667721000374"
+        },
+        {
+          "title": "Mortality and Cardiovascular Disease Rates of VegetariansThe long-term health of vegetarians and vegansFrontiers | Plant-based diets and total and cause-specific ...Frontiers | Plant-based diet and risk of all-cause mortality ...Vegetarian, Vegan Diets And Multiple Health Outcomes: A ...",
+          "url": "https://veganhealth.org/chronic-disease-and-vegetarian-diets/vegetarian-cohorts/"
+        },
+        {
+          "title": "The long-term health of vegetarians and vegans",
+          "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA"
+        },
+        {
+          "title": "Frontiers | Plant-based diets and total and cause-specific ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full"
+        },
+        {
+          "title": "Frontiers | Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1481363/full"
+        },
+        {
+          "title": "Vegetarian, Vegan Diets And Multiple Health Outcomes: A ...",
+          "url": "https://iffs.earth/articles/vegetarian-vegan-diets-and-multiple-health-outcomes-a-systematic-review-with-meta-analysis-of-observational-studies-2/"
+        },
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart disease...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34611632/"
+        }
+      ]
+    },
+    {
+      "query": "vegetarian diet mortality risk cohort study",
+      "results": [
+        {
+          "title": "(PDF) Plant-based diets and risk of disease mortality: a systematic...",
+          "url": "https://www.researchgate.net/publication/351375370_Plant-based_diets_and_risk_of_disease_mortality_a_systematic_review_and_meta-analysis_of_cohort_studies"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: evidence from a large...",
+          "url": "https://researchers.mq.edu.au/en/publications/vegetarian-diet-and-all-cause-mortality-evidence-from-a-large-pop"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a large...",
+          "url": "https://openresearch-repository.anu.edu.au/items/c6ae4f02-92e6-40ea-98e0-3fd71cdcc133"
+        },
+        {
+          "title": "Adherence to the Provegetarian Food Patterns and Incidence of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40806057/"
+        },
+        {
+          "title": "Dietary carbohydrate intake and mortality: a prospective cohort...",
+          "url": "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(18)30135-X/fulltext"
+        },
+        {
+          "title": "Frontiers | Associations of Dietary Fat Intake With Mortality From All...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2021.701430/full"
+        },
+        {
+          "title": "Sustained adherence to a Mediterranean diet and physical activity on...",
+          "url": "https://link.springer.com/article/10.1186/s12889-019-7919-2"
+        },
+        {
+          "title": "Egg and cholesterol consumption and mortality from... | PLOS Medicine",
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003508"
+        }
+      ]
+    },
+    {
+      "query": "vegetarian diet all-cause mortality randomized controlled evidence quality low certainty",
+      "results": [
+        {
+          "title": "The Health Benefits of the Mediterranean Diet — UniversityNutrition.org",
+          "url": "https://universitynutrition.org/eating-patterns/the-health-benefits-of-the-mediterranean-diet"
+        },
+        {
+          "title": "Adherence to the Provegetarian Food Patterns and Incidence of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40806057/"
+        },
+        {
+          "title": "The science of low carb and keto – Diet Doctor",
+          "url": "https://www.dietdoctor.com/low-carb/science"
+        },
+        {
+          "title": "Mediterranean, Low-Fat Diets Both Good for Health: Network...",
+          "url": "https://web.archive.org/web/20230330210748/https://www.tctmd.com/news/mediterranean-low-fat-diets-both-good-health-network-meta-analysis"
+        },
+        {
+          "title": "Mediterranean Diet Can Lower Heart... — Transcontinental Times",
+          "url": "https://www.transcontinentaltimes.com/mediterranean-diet-heart-attack/"
+        },
+        {
+          "title": "Mediterranean diet can reduce death risk due to... | The Independent",
+          "url": "https://www.independent.co.uk/life-style/food-and-drink/mediterranean-diet-heart-attack-stroke-b2310635.html"
+        },
+        {
+          "title": "Adherence to the Mediterranean Diet in Relation to All-Cause...",
+          "url": "https://advances.nutrition.org/article/S2161-8313(22)00442-2/fulltext"
+        },
+        {
+          "title": "Low bone mineral density and handgrip strength are associated with...",
+          "url": "http://jbr-pub.org.cn/en/article/doi/10.7555/JBR.40.20260283"
+        }
+      ]
+    },
+    {
+      "query": "Adventist Health Study 2 vegetarian mortality",
+      "results": [
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)04881-5/fulltext"
+        },
+        {
+          "title": "Vegetarian dietary patterns and mortality in Adventist Health ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23836264/"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002916523048815"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S000291652400652X"
+        },
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://www.researchgate.net/publication/247772472_Vegetarian_Dietary_Patterns_and_Mortality_in_Adventist_Health_Study_2"
+        },
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health Study...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191896/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T01:13:37.333+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

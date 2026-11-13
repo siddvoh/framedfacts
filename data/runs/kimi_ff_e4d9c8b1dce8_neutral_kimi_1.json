@@ -1,0 +1,370 @@
+{
+  "arm": "kimi",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/",
+    "https://pubmed.ncbi.nlm.nih.gov/18784099/",
+    "https://www.bmj.com/content/357/bmj.j1982",
+    "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+  ],
+  "claim_id": "ff_e4d9c8b1dce8",
+  "completed_at": "2026-08-04T03:53:32.816+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/",
+        "https://pubmed.ncbi.nlm.nih.gov/18784099/",
+        "https://www.bmj.com/content/357/bmj.j1982",
+        "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that arthroscopy does not provide a meaningful benefit for typical knee osteoarthritis compared to placebo or non-surgical care, citing strong recommendations against its use from major medical guidelines and landmark trials.",
+      "label": "rejects"
+    }
+  },
+  "model": "moonshotai/kimi-k3:exacto",
+  "params_hash": "5b73edffbd5cb9dfcfede042e73a6ddc3775e3026bc39efa7340eed875692c3a",
+  "queries": [
+    "arthroscopy knee osteoarthritis randomized controlled trial Moseley NEJM 2002",
+    "arthroscopic surgery degenerative knee disease osteoarthritis clinical practice guideline recommendation",
+    "Cochrane review arthroscopic debridement knee osteoarthritis benefit harm",
+    "BMJ arthroscopy middle aged older patients knee pain degenerative disease guideline 2017",
+    "Kirkley 2008 NEJM arthroscopic surgery osteoarthritis knee optimized physical medical therapy trial",
+    "AAOS osteoarthritis knee guideline arthroscopy lavage debridement recommendation against",
+    "NICE osteoarthritis arthroscopic lavage debridement not recommended knee",
+    "systematic review meta-analysis arthroscopic surgery degenerative knee benefits harms BMJ 2015 Thorlund"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "stance_incongruent",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion:** For typical knee osteoarthritis, arthroscopy (lavage/debridement) does **not** provide meaningful benefit over placebo/sham or optimized non-surgical care, and major guidelines recommend against it. It should not be used simply to “clean out” an arthritic knee; a narrow exception is true mechanical locking from a loose body or comparable mechanical lesion, not pain alone.\n\nEvidence: the landmark sham-controlled trial found arthroscopic debridement/lavage was no better than placebo for pain/function (https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/). A later randomized trial found arthroscopy added no benefit to optimized physical and medical therapy (https://pubmed.ncbi.nlm.nih.gov/18784099/). The BMJ RapidRecs panel made a **strong recommendation against arthroscopy in nearly all patients with degenerative knee disease**, with or without imaging osteoarthritis or mechanical symptoms (https://www.bmj.com/content/357/bmj.j1982). AAOS likewise states arthroscopy with lavage and/or debridement is **not recommended** for a primary diagnosis of knee OA (https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf).\n\nBottom line: prioritize exercise/physical therapy, weight management, analgesia, and consider injections or joint replacement when appropriate; reserve arthroscopy for selected mechanical indications after specialist evaluation.",
+  "run_id": "kimi_ff_e4d9c8b1dce8_neutral_kimi_1",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "arthroscopy knee osteoarthritis randomized controlled trial Moseley NEJM 2002",
+    "arthroscopic surgery degenerative knee disease osteoarthritis clinical practice guideline recommendation",
+    "Cochrane review arthroscopic debridement knee osteoarthritis benefit harm",
+    "BMJ arthroscopy middle aged older patients knee pain degenerative disease guideline 2017",
+    "Kirkley 2008 NEJM arthroscopic surgery osteoarthritis knee optimized physical medical therapy trial",
+    "AAOS osteoarthritis knee guideline arthroscopy lavage debridement recommendation against",
+    "NICE osteoarthritis arthroscopic lavage debridement not recommended knee",
+    "systematic review meta-analysis arthroscopic surgery degenerative knee benefits harms BMJ 2015 Thorlund"
+  ],
+  "searches": [
+    {
+      "query": "arthroscopy knee osteoarthritis randomized controlled trial Moseley NEJM 2002",
+      "results": [
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa1008232",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1008232"
+        },
+        {
+          "title": "Arthroscopy as a Treatment for Knee Osteoarthritis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/"
+        },
+        {
+          "title": "Is Knee Arthroscopy for Degenerative Disk Disease an Unnecessary...",
+          "url": "https://juniperpublishers.com/oroaj/pdf/OROAJ.MS.ID.555715.pdf"
+        },
+        {
+          "title": "EBQ:Moseley Trial - WikiMSK",
+          "url": "https://www.wikimsk.org/wiki/EBQ:Moseley_Trial"
+        },
+        {
+          "title": "(PDF) The Conversion Rate of Arthroscopy to Total Joint Arthroplasty...",
+          "url": "https://www.academia.edu/63503730/The_Conversion_Rate_of_Arthroscopy_to_Total_Joint_Arthroplasty_in_Patients_with_Knee_Osteoarthritis"
+        },
+        {
+          "title": "Management of Osteoarthritis of the",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+        },
+        {
+          "title": "(PDF) The effect of negative randomized trials and surgeon volume...",
+          "url": "https://www.researchgate.net/publication/321469455_The_effect_of_negative_randomized_trials_and_surgeon_volume_on_the_rates_of_arthroscopy_for_patients_with_knee_OA"
+        },
+        {
+          "title": "Microsoft PowerPoint - GROSS_Management_of_Osteoarthritis",
+          "url": "https://ksparrowmd.com/wp-content/uploads/15_GROSS_Management_of_Osteoarthritis-2.pdf"
+        }
+      ]
+    },
+    {
+      "query": "arthroscopic surgery degenerative knee disease osteoarthritis clinical practice guideline recommendation",
+      "results": [
+        {
+          "title": "Links To And Excerpts From 2017 \"Arthroscopic surgery for...",
+          "url": "https://www.tomwademd.net/links-to-and-excerpts-from-2017-arthroscopic-surgery-for-degenerative-knee-arthritis-and-meniscal-tears-a-clinical-practice-guideline/"
+        },
+        {
+          "title": "Knee Osteoarthritis: Early Signs, Causes, Diagnosis, Treatment",
+          "url": "https://www.webmd.com/osteoarthritis/ostearthritis-of-the-knee-degenerative-arthritis-of-the-knee"
+        },
+        {
+          "title": "Knee Osteoarthritis: Symptoms, Stages, Causes & Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/21750-osteoarthritis-knee"
+        },
+        {
+          "title": "(PDF) Knee osteoarthritis: when arthroscopy can help",
+          "url": "https://www.academia.edu/84590620/Knee_osteoarthritis_when_arthroscopy_can_help"
+        },
+        {
+          "title": "Meniscus Tears In Arthritic Knees: What Patients Should Know Before...",
+          "url": "https://arthritis.com.sg/meniscus-tears-in-arthritic-knees-what-patients-should-know-before-assuming-surgery-is-the-answer/"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee arthritis and meniscal...",
+          "url": "https://tesble.com/10.1136/bmj.j1982"
+        },
+        {
+          "title": "bmjopen.bmj.com/content/7/5/e015587.full.txt",
+          "url": "https://bmjopen.bmj.com/content/7/5/e015587.full.txt"
+        },
+        {
+          "title": "Vulcan Performance",
+          "url": "https://www.vulcanmovement.com/videos/arthroscopic-surgery-for-degenerative-knee-arthritis-and-meniscal-tears-a-clinical-practice-guideli"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review arthroscopic debridement knee osteoarthritis benefit harm",
+      "results": [
+        {
+          "title": "Arthroscopic debridement for osteoarthritis of the knee | Cochrane",
+          "url": "https://www.cochrane.org/th/evidence/CD005118_arthroscopic-debridement-osteoarthritis-knee"
+        },
+        {
+          "title": "Arthroscopic debridement for knee osteoarthritis | Request PDF",
+          "url": "https://www.researchgate.net/publication/5598308_Arthroscopic_debridement_for_knee_osteoarthritis"
+        },
+        {
+          "title": "Knee debridement for arthritis must end",
+          "url": "https://www.painscience.com/articles/knee-surgery-osteoarthritis.php"
+        },
+        {
+          "title": "Arthroscopic debridement of the degenerative knee – Is there still...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289903/"
+        },
+        {
+          "title": "(PDF) Role of Arthroscopic Debridement in Knee Osteoarthritis",
+          "url": "https://www.academia.edu/107606737/Role_of_Arthroscopic_Debridement_in_Knee_Osteoarthritis"
+        },
+        {
+          "title": "Arthroscopic Debridement of Mild and Moderate Knee...",
+          "url": "https://www.briancolemd.com/wp-content/themes/ypo-theme/pdf/arthroscopic-debridement-mild-moderate-knee-osteoarthritis-results-clinical-improvement.pdf"
+        },
+        {
+          "title": "Arthroscopic knee surgery in a middle-age patient.",
+          "url": "https://caringmedical.com/prolotherapy-news/meniscus-acl-surgery-patients-50-non-surgical-options/"
+        },
+        {
+          "title": "The effects of arthroscopic joint debridement in the knee...",
+          "url": "https://link.springer.com/article/10.1007/s00167-012-2169-1"
+        }
+      ]
+    },
+    {
+      "query": "BMJ arthroscopy middle aged older patients knee pain degenerative disease guideline 2017",
+      "results": [
+        {
+          "title": "Arthroscopic surgery for degenerative knee | The BMJ",
+          "url": "https://www.bmj.com/content/350/bmj.h2983"
+        },
+        {
+          "title": "Knee Arthroscopy (Surgery). Complex Meniscus Tear. Patient Review.",
+          "url": "https://www.youtube.com/watch?v=iRP-V8C8oFY"
+        },
+        {
+          "title": "Knee arthroscopy: the elephant in the room | Bone & Joint",
+          "url": "https://boneandjoint.org.uk/Article/10.1302/2048-0105.83.360689"
+        },
+        {
+          "title": "Osteoarthritis of the knee | Radiology Reference... | Radiopaedia.org",
+          "url": "https://radiopaedia.org/articles/osteoarthritis-of-the-knee"
+        },
+        {
+          "title": "Arthroscopy: Purpose, Procedure, Recovery",
+          "url": "https://www.webmd.com/arthritis/what-is-arthroscopy"
+        },
+        {
+          "title": "Immediate effects of kinesiology tape on the pain and gait function in...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31702659/"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee arthritis and ...",
+          "url": "https://www.bmj.com/content/357/bmj.j1982"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee arthritis and ...sier036168_online - The BMJArthroscopic surgery for degenerative knee arthritis and ...(PDF) Arthroscopic surgery for degenerative knee arthritis ...Guideline BMJ RapidRecs: Arthroscopic surgery for ...(PDF) Arthroscopic surgery for degenerative knee arthritis ...",
+          "url": "https://bjsm.bmj.com/content/bjsports/52/5/313.full.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Kirkley 2008 NEJM arthroscopic surgery osteoarthritis knee optimized physical medical therapy trial",
+      "results": [
+        {
+          "title": "A randomized trial of arthroscopic surgery for osteoarthritis of the...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18784099/"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa1301408",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1301408"
+        },
+        {
+          "title": "Clinicians Debate Use of Arthroscopy in Patients with Osteoarthritis",
+          "url": "https://www.newswise.com/articles/clinicians-debate-use-of-arthroscopy-in-patients-with-osteoarthritis"
+        },
+        {
+          "title": "NEJM-2008",
+          "url": "https://www.dogrehabworks.com/ResearchArticles/NEJM-2008.pdf"
+        },
+        {
+          "title": "Having knee trouble? Am I a candidate for surgery? – Body Balance...",
+          "url": "https://bodybalancephysio.ca/having-knee-trouble-am-i-a-candidate-for-surgery/"
+        },
+        {
+          "title": "Knee Osteoarthritis: Surgery Zaroori Hai? Best Exercises... - YouTube",
+          "url": "https://www.youtube.com/watch?v=Ab8TKEZq9Qg"
+        },
+        {
+          "title": "Article - PDFCOFFEE.COM",
+          "url": "https://pdfcoffee.com/article-3-pdf-free.html"
+        },
+        {
+          "title": "In Reply: (30.08.2010)",
+          "url": "https://di.aerzteblatt.de/int/archive/article/78162"
+        }
+      ]
+    },
+    {
+      "query": "AAOS osteoarthritis knee guideline arthroscopy lavage debridement recommendation against",
+      "results": [
+        {
+          "title": "Management of Osteoarthritis of the",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+        },
+        {
+          "title": "A review of 2021 and 2022 aaos guidelines for meniscal arthroscopic...",
+          "url": "https://scispace.com/papers/a-review-of-2021-and-2022-aaos-guidelines-for-meniscal-50ox5zjpmc"
+        },
+        {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical... | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892839/"
+        },
+        {
+          "title": "NICE guideline on osteoarthritis: assessment and management...",
+          "url": "https://www.nice.org.uk/guidance/ng226/documents/evidence-review-16"
+        },
+        {
+          "title": "(PDF) Indications and effectiveness of arthroscopic lavage and...",
+          "url": "https://www.researchgate.net/publication/338175027_Indications_and_effectiveness_of_arthroscopic_lavage_and_debridement_in_osteoarthritis_knee"
+        },
+        {
+          "title": "Guidelines for the management of hip and knee osteoarthritis",
+          "url": "https://www.linkedin.com/pulse/guidelines-management-hip-knee-osteoarthritis-therapy-academy-omta-"
+        },
+        {
+          "title": "Osteoarthritis Of The Knee | Surgery Procedures, Success Rates...",
+          "url": "https://kneeforce.com/osteoarthritis-knee-surgery-procedures/"
+        }
+      ]
+    },
+    {
+      "query": "NICE osteoarthritis arthroscopic lavage debridement not recommended knee",
+      "results": [
+        {
+          "title": "NICE guideline on osteoarthritis: assessment and management...",
+          "url": "https://www.nice.org.uk/guidance/ng226/documents/evidence-review-16"
+        },
+        {
+          "title": "NCD - Arthroscopic Lavage and Arthroscopic Debridement for the...",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=285"
+        },
+        {
+          "title": "Arthroscopic lavage and debridement (not routinely commissioned)",
+          "url": "https://hnyppr.org.uk/w/arthroscopic-lavage-and-debridement-policy"
+        },
+        {
+          "title": "Knee arthroscopy for patients with osteoarthritis - EBI",
+          "url": "https://ebi.aomrc.org.uk/interventions/knee-arthroscopy-for-patients-with-osteoarthritis/"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892839/"
+        },
+        {
+          "title": "NICE : The care and management of osteoarthritis in adults",
+          "url": "https://eguidelines.co.uk/eguidelinesmain/guidelines/summaries/musculoskeletal_joints/nice_osteoarthritis.php"
+        },
+        {
+          "title": "Arthroscopic Debridement and Lavage as Treatment for...",
+          "url": "https://statesc.southcarolinablues.com/web/public/brands/medicalpolicyhb/external-policies/arthroscopic-debridement-and-lavage-as-treatment-for-osteoarthritis-of-the-knee/"
+        },
+        {
+          "title": "Management of Osteoarthritis of the",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+        }
+      ]
+    },
+    {
+      "query": "systematic review meta-analysis arthroscopic surgery degenerative knee benefits harms BMJ 2015 Thorlund",
+      "results": [
+        {
+          "title": "Arthroscopic surgery for degenerative knee: systematic review and...",
+          "url": "https://pismin.com/10.1136/bmj.h2747"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee: systematic review and...",
+          "url": "http://www.fitasaphysio.com/uploads/4/3/3/4/43345381/bmj.h2747.full.pdf"
+        },
+        {
+          "title": "bjsm.bmj.com/content/49/19/1221.full.txt",
+          "url": "https://bjsm.bmj.com/content/49/19/1221.full.txt"
+        },
+        {
+          "title": "Knee Pain? This Common Surgery May Be No Help | RxWiki",
+          "url": "https://www.rxwiki.com/news-article/arthroscopic-knee-surgery-may-not-benefit-older-adults/"
+        },
+        {
+          "title": "Arthroscopic Meniscus Surgery for Torn Meniscus - Jeffrey Dach MD",
+          "url": "https://jeffreydachmd.com/2026/05/arthroscopic-meniscus-surgery-for-torn-meniscus/"
+        },
+        {
+          "title": "Degenerative Meniscal Tears in the Presence of Knee",
+          "url": "https://abjs.mums.ac.ir/article_10287_982025df3dc7f9eae503a74980c29713.pdf"
+        },
+        {
+          "title": "Knee | Bone & Joint",
+          "url": "https://boneandjoint.org.uk/Article/10.1302/2048-0105.45.360371"
+        },
+        {
+          "title": "7.01.549 Knee Arthroscopy in Adults",
+          "url": "https://www.premera.com/medicalpolicies/7.01.549.pdf"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T03:39:47.118+00:00",
+  "status": "judged",
+  "system": "kimi"
+}

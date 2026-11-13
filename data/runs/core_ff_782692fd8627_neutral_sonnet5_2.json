@@ -1,0 +1,212 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.science.org/doi/10.1126/science.abi9069",
+    "https://www.watoday.com.au/national/victoria/why-this-leading-modeller-thinks-you-should-put-your-mask-back-on-20220613-p5at7n.html",
+    "https://jamanetwork.com/journals/jama/fullarticle/2776536",
+    "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811136",
+    "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+  ],
+  "claim_id": "ff_782692fd8627",
+  "completed_at": "2026-08-03T19:48:06.415+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.science.org/doi/10.1126/science.abi9069",
+        "https://www.watoday.com.au/national/victoria/why-this-leading-modeller-thinks-you-should-put-your-mask-back-on-20220613-p5at7n.html",
+        "https://jamanetwork.com/journals/jama/fullarticle/2776536",
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811136",
+        "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes 'Yes — evidence indicates that widespread mask wearing can meaningfully reduce COVID-19 transmission at the population level', clearly endorsing the claim that masks reduce infections when worn by a large proportion of the population.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "mask wearing population level reduce COVID-19 transmission effectiveness",
+    "community mask use randomized controlled trial COVID-19 infection reduction",
+    "Bangladesh mask cluster randomized trial COVID-19 symptomatic seroprevalence results",
+    "Cochrane review physical interventions face masks respiratory virus transmission 2023"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "## Conclusion\n\nYes — evidence indicates that widespread mask wearing can meaningfully reduce COVID-19 transmission at the population level, though the effect is moderate rather than absolute, and depends heavily on how many people actually wear masks and how well they fit.\n\nThe strongest real-world evidence comes from a large cluster-randomized trial in rural Bangladesh (342,183 adults), which found that community-level promotion of mask-wearing nearly tripled mask usage and reduced symptomatic, seroconfirmed SARS-CoV-2 infections by about 9–11% overall, with larger reductions (~30–35%) among older adults and with surgical masks specifically (science.org, https://www.science.org/doi/10.1126/science.abi9069). Modeling based on UK data similarly estimated that population-wide mask wearing reduced COVID-19 transmission by roughly 19%, contingent on high compliance (https://www.watoday.com.au/national/victoria/why-this-leading-modeller-thinks-you-should-put-your-mask-back-on-20220613-p5at7n.html). A JAMA review of accumulated evidence during the pandemic likewise concluded that community mask wearing helps control spread, especially given pre-symptomatic transmission (https://jamanetwork.com/journals/jama/fullarticle/2776536), and a 2023 JAMA Network Open analysis concluded that \"robust available data support the use of face masks in community settings\" (https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811136).\n\nThe widely publicized 2023 Cochrane review is often cited as contradicting this, but Cochrane's own editors clarified that its \"no evidence\" finding reflected weaknesses and heterogeneity in prior RCTs (mostly on influenza, with poor compliance) rather than proof that masks don't work — a point Cochrane explicitly addressed to correct misinterpretation (https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review).\n\nOverall, when adopted broadly, masks appear to provide a real, though partial, protective effect against COVID-19 spread.",
+  "run_id": "core_ff_782692fd8627_neutral_sonnet5_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "mask wearing population level reduce COVID-19 transmission effectiveness",
+    "community mask use randomized controlled trial COVID-19 infection reduction",
+    "Bangladesh mask cluster randomized trial COVID-19 symptomatic seroprevalence results",
+    "Cochrane review physical interventions face masks respiratory virus transmission 2023"
+  ],
+  "searches": [
+    {
+      "query": "mask wearing population level reduce COVID-19 transmission effectiveness",
+      "results": [
+        {
+          "title": "Face coverings can reduce COVID-19 transmission risk: study",
+          "url": "https://bit.ly/36ZOnkC"
+        },
+        {
+          "title": "Identifying airborne transmission as the dominant route for... | NCRC",
+          "url": "https://ncrc.jhsph.edu/research/identifying-airborne-transmission-as-the-dominant-route-for-the-spread-of-covid-19/"
+        },
+        {
+          "title": "Victoria COVID: Keep your mask on, Professor Margaret Hellard urges",
+          "url": "https://www.watoday.com.au/national/victoria/why-this-leading-modeller-thinks-you-should-put-your-mask-back-on-20220613-p5at7n.html"
+        },
+        {
+          "title": "Mass General Brigham study: Masks ‘significantly’ reduce COVID-19...",
+          "url": "https://whdh.com/news/mass-general-brigham-study-masks-significantly-reduce-covid-19-transmission/"
+        },
+        {
+          "title": "Un-masking Children: Part 3 of 4. Mask (In) Effectiveness in Limiting...",
+          "url": "https://www.thesmileproject.global/post/un-masking-children-part-3-of-4-mask-in-effectiveness-in-limiting-covid-19-transmission"
+        },
+        {
+          "title": "Still Confused About Masks? Here’s the Science Behind How Face...",
+          "url": "https://www.tumblr.com/profoundsheepbarbarian/658750599359283200/still-confused-about-masks-heres-the-science"
+        },
+        {
+          "title": "View of Wear a mask to reduce COVID-19 transmission while...",
+          "url": "https://rsdjournal.org/index.php/rsd/article/view/9259/8292"
+        },
+        {
+          "title": "Understanding the role of mask-wearing during COVID-19 on the...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10354478/"
+        }
+      ]
+    },
+    {
+      "query": "community mask use randomized controlled trial COVID-19 infection reduction",
+      "results": [
+        {
+          "title": "Mask wearing in community settings reduces SARS-CoV-2 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191667/"
+        },
+        {
+          "title": "Reevaluating Mask Effectiveness: Insights From Evidence-Based ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11715561/"
+        },
+        {
+          "title": "Masks During Pandemics Caused by Respiratory Pathogens",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811136"
+        },
+        {
+          "title": "Effectiveness of Mask Wearing to Control Community Spread of ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2776536"
+        },
+        {
+          "title": "Largest study on masks and Covid-19 demonstrates their ...",
+          "url": "https://egc.yale.edu/research/largest-study-masks-and-covid-19-demonstrates-their-effectiveness-real-world"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://www.science.org/doi/10.1126/science.abi9069"
+        },
+        {
+          "title": "A rapid systematic review of the efficacy of face masks and ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0020748920301139"
+        },
+        {
+          "title": "Vitamin D for the prevention of COVID-19: A randomized controlled...",
+          "url": "https://sciencebasedmedicine.org/vitamin-d-for-the-prevention-of-covid-19-a-randomized-controlled-trial/"
+        }
+      ]
+    },
+    {
+      "query": "Bangladesh mask cluster randomized trial COVID-19 symptomatic seroprevalence results",
+      "results": [
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://poverty-action.org/sites/default/files/publications/Mask_RCT____Symptomatic_Seropositivity_083121.pdf"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://www.science.org/doi/10.1126/science.abi9069"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34855513/"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://www.science.org/doi/pdf/10.1126/science.abi9069"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://cddrl.fsi.stanford.edu/publication/impact-community-masking-covid-19-cluster-randomized-trial-bangladesh"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://poverty-action.org/sites/default/files/publications/Mask_Second_Stage_Paper_20211108.pdf.pdf"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized...",
+          "url": "https://www.science.org/doi/10.1126/science.abi9069?intcmp=trendmd-sci&cookieSet=1"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review physical interventions face masks respiratory virus transmission 2023",
+      "results": [
+        {
+          "title": "Statement on 'Physical interventions to interrupt or... | Cochrane",
+          "url": "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+        },
+        {
+          "title": "Masks: Not Again-“It Simply Doesn’t Make Sense!” They Do Not Work",
+          "url": "https://concernedamericandad.com/2023/09/11/masks-not-again-it-simply-doesnt-make-sense-they-do-not-work/"
+        },
+        {
+          "title": "(PDF) Physical interventions to interrupt or reduce the spread of...",
+          "url": "https://www.researchgate.net/publication/45279795_Physical_interventions_to_interrupt_or_reduce_the_spread_of_respiratory_viruses_A_Cochrane_review"
+        },
+        {
+          "title": "\"That Simply doesn't Make Sense\" - Lead author of 'Cochrane Face...",
+          "url": "https://bibliotecapleyades.net/ciencia3/ciencia_coronavirus548.htm"
+        },
+        {
+          "title": "Lead Author of New Cochrane Review... - Canada Health Alliance",
+          "url": "https://canadahealthalliance.org/lead-author-of-new-cochrane-review-speaks-out/"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full"
+        },
+        {
+          "title": "Efficacy of face mask in preventing respiratory virus transmission...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7253999/"
+        },
+        {
+          "title": "Mask Study: “Makes little or no Difference” in COVID-19 Transmission”",
+          "url": "https://counterinformationblog.blogspot.com/2023/04/mask-study-makes-little-or-no.html"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T19:34:09.319+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

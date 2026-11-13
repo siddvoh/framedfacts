@@ -1,0 +1,328 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)15835-2/fulltext",
+    "https://www.cancer.gov/types/breast/abortion-miscarriage-risk",
+    "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2009/06/induced-abortion-and-breast-cancer-risk"
+  ],
+  "claim_id": "ff_aab478daa021",
+  "completed_at": "2026-08-04T00:41:53.663+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)15835-2/fulltext",
+        "https://www.cancer.gov/types/breast/abortion-miscarriage-risk",
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2009/06/induced-abortion-and-breast-cancer-risk"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that induced abortion does not appear to increase a woman's risk of breast cancer, citing major collaborative studies and medical organizations that reject the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "National Cancer Institute abortion breast cancer risk fact sheet",
+    "American Cancer Society abortion breast cancer risk evidence",
+    "WHO abortion breast cancer risk review",
+    "systematic review meta-analysis induced abortion breast cancer risk prospective studies",
+    "site:acog.org induced abortion breast cancer risk committee opinion",
+    "NCI abortion miscarriage breast cancer risk 2003 workshop prospective studies",
+    "PubMed 2004 Lancet collaborative reanalysis breast cancer abortion 53 studies 16 countries"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** The claim is not supported by high-quality evidence. Induced abortion does **not** appear to increase a woman’s subsequent risk of breast cancer.\n\nA major collaborative reanalysis of individual-level data from 53 studies (including about 83,000 women with breast cancer in 16 countries) found no increase in risk in studies that collected abortion histories prospectively; it reported a relative risk of 0.93 for induced abortion. The authors concluded that apparent elevations in some retrospective studies were likely due to *reporting/recall bias*—for example, women with breast cancer may be more likely to disclose a prior abortion than comparable women without cancer.\n\nThe National Cancer Institute’s expert workshop, which reviewed population, clinical, and animal evidence, likewise concluded that induced abortion (and miscarriage) does not raise subsequent breast-cancer risk. The American College of Obstetricians and Gynecologists reaches the same conclusion and notes the methodological problems in early case-control studies that suggested an association.\n\nThis does not mean pregnancy history is irrelevant to breast-cancer risk: age at first full-term birth and other reproductive, genetic, hormonal, and lifestyle factors can matter. But an abortion itself is not established as a breast-cancer risk factor.\n\nSources:  \n- https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)15835-2/fulltext  \n- https://www.cancer.gov/types/breast/abortion-miscarriage-risk  \n- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2009/06/induced-abortion-and-breast-cancer-risk",
+  "run_id": "core_ff_aab478daa021_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 7,
+  "search_tool_queries": [
+    "National Cancer Institute abortion breast cancer risk fact sheet",
+    "American Cancer Society abortion breast cancer risk evidence",
+    "WHO abortion breast cancer risk review",
+    "systematic review meta-analysis induced abortion breast cancer risk prospective studies",
+    "site:acog.org induced abortion breast cancer risk committee opinion",
+    "NCI abortion miscarriage breast cancer risk 2003 workshop prospective studies",
+    "PubMed 2004 Lancet collaborative reanalysis breast cancer abortion 53 studies 16 countries"
+  ],
+  "searches": [
+    {
+      "query": "National Cancer Institute abortion breast cancer risk fact sheet",
+      "results": [
+        {
+          "title": "Abortion and Breast Cancer Risk",
+          "url": "https://www.cancer.org/cancer/risk-prevention/medical-treatments/abortion-and-breast-cancer-risk.html"
+        },
+        {
+          "title": "Reproductive History and Cancer Risk - NCI",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/reproductive-history-fact-sheet"
+        },
+        {
+          "title": "Breast Cancer Risk in American Women - NCI",
+          "url": "https://www.cancer.gov/types/breast/risk-fact-sheet"
+        },
+        {
+          "title": "Abortion, Miscarriage, and Breast Cancer Risk - GovInfo",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20_3000-PURL-LPS99508/pdf/GOVPUB-HE20_3000-PURL-LPS99508.pdf"
+        },
+        {
+          "title": "Abortion and Breast Cancer Risk - Susan G. Komen®",
+          "url": "https://www.komen.org/breast-cancer/facts-statistics/research-studies/topics/abortion-and-breast-cancer-risk/"
+        },
+        {
+          "title": "Abortion, Miscarriage, and Breast Cancer Risk, Cancer Facts 3.75",
+          "url": "https://cancerquest.org/sites/default/files/assets/pdf/breast-cancer/AbortionMiscarriageBreastCancerRisk.pdf"
+        },
+        {
+          "title": "BCPI Fact Sheets - Breast Cancer Prevention Institute",
+          "url": "https://www.bcpinstitute.org/resources---fact-sheets.html"
+        },
+        {
+          "title": "The Abortion–Breast Cancer",
+          "url": "https://www.pdcnet.org/C1257D43006C9AB1/file/FFC9DCCEA99668D785257D97006CA18D/$FILE/ncbq_2005_0005_0002_0091_0117.pdf"
+        }
+      ]
+    },
+    {
+      "query": "American Cancer Society abortion breast cancer risk evidence",
+      "results": [
+        {
+          "title": "New Study Confirms Evidence of Abortion/Breast Cancer Link",
+          "url": "https://thenewamerican.com/us/healthcare/new-study-confirms-evidence-of-abortion-breast-cancer-link/"
+        },
+        {
+          "title": "Burying the Abortion-Breast Cancer Link| National Catholic Register",
+          "url": "https://www.ncregister.com/news/burying-the-abortion-breast-cancer-link"
+        },
+        {
+          "title": "Tribute to Karen Malec | Abortion Breast Cancer",
+          "url": "https://www.abortionbreastcancer.com/"
+        },
+        {
+          "title": "Tom Hoopes: When Abortion Kills Twice - The Abortion/ Breast...",
+          "url": "https://www.catholicity.com/commentary/hoopes/06459.html"
+        },
+        {
+          "title": "Breast Cancer Risk Factors You Can... | American Cancer Society",
+          "url": "https://www.cancer.org/cancer/types/breast-cancer/risk-and-prevention/lifestyle-related-breast-cancer-risk-factors.html"
+        },
+        {
+          "title": "The Link Between Breast Cancer and Abortion | Discovery Institute",
+          "url": "https://www.discovery.org/a/3018/"
+        },
+        {
+          "title": "Lying For Jesus: The Abortion/Breast Cancer Link – JONATHAN...",
+          "url": "https://jonathanturley.org/2012/02/12/lying-for-jesus-the-abortionbreast-cancer-link/"
+        },
+        {
+          "title": "Library : Model Testimony on the Abortion/Breast Cancer Connection",
+          "url": "https://www.catholicculture.org/culture/library/view.cfm?id=833"
+        }
+      ]
+    },
+    {
+      "query": "WHO abortion breast cancer risk review",
+      "results": [
+        {
+          "title": "Abortion and Breast Cancer Risk - Susan G. Komen®",
+          "url": "https://www.komen.org/breast-cancer/facts-statistics/research-studies/topics/abortion-and-breast-cancer-risk/"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)15835-2/fulltext"
+        },
+        {
+          "title": "Abortion and Breast Cancer Risk",
+          "url": "https://www.cancer.org/cancer/risk-prevention/medical-treatments/abortion-and-breast-cancer-risk.html"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0140673604158352"
+        },
+        {
+          "title": "Abortion and breast cancer: a hard decision made harder",
+          "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470204501005915/fulltext"
+        },
+        {
+          "title": "Induced abortion, miscarriage, and the risk of breast cancer ...",
+          "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.70154"
+        },
+        {
+          "title": "Induced abortion as an independent risk factor for breast ...",
+          "url": "https://jech.bmj.com/content/50/5/481"
+        },
+        {
+          "title": "Is abortion a breast cancer risk? | WORLD",
+          "url": "https://wng.org/sift/is-abortion-a-breast-cancer-risk-1617251962"
+        }
+      ]
+    },
+    {
+      "query": "systematic review meta-analysis induced abortion breast cancer risk prospective studies",
+      "results": [
+        {
+          "title": "Induced abortion as an independent risk factor for breast ...",
+          "url": "https://jech.bmj.com/content/50/5/481"
+        },
+        {
+          "title": "Association between abortion and breast cancer: an updated ...Induced abortion and breast cancer: An updated meta-analysisInduced abortion as an independent risk factor for breast ...Induced abortion and breast cancer: An updated meta-analysis(PDF) Association between abortion and breast cancer: An ...Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://link.springer.com/article/10.1007/s10552-015-0536-1"
+        },
+        {
+          "title": "Induced abortion and breast cancer: An updated meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29504989/?dopt=Abstract"
+        },
+        {
+          "title": "Induced abortion as an independent risk factor for breast ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8944853/"
+        },
+        {
+          "title": "Induced abortion and breast cancer: An updated meta-analysis",
+          "url": "https://www.researchgate.net/publication/322560500_Induced_abortion_and_breast_cancer_An_updated_meta-analysis"
+        },
+        {
+          "title": "(PDF) Association between abortion and breast cancer: An ...",
+          "url": "https://www.researchgate.net/publication/273701392_Association_between_abortion_and_breast_cancer_An_updated_systematic_review_and_meta-analysis_based_on_prospective_studies"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0140673604158352"
+        },
+        {
+          "title": "(PDF) Induced abortion as an independent risk factor for breast...",
+          "url": "https://www.academia.edu/70586025/Induced_abortion_as_an_independent_risk_factor_for_breast_cancer_a_systematic_review_and_meta_analysis_of_studies_on_south_asian_women"
+        }
+      ]
+    },
+    {
+      "query": "site:acog.org induced abortion breast cancer risk committee opinion",
+      "results": [
+        {
+          "title": "Induced Abortion and Breast Cancer Risk - ACOG",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2009/06/induced-abortion-and-breast-cancer-risk"
+        },
+        {
+          "title": "Identifying and Combating Abortion Myths and Misinformation",
+          "url": "https://www.acog.org/advocacy/facts-are-important/identifying-combating-abortion-myths-misinformation"
+        },
+        {
+          "title": "Increasing Access to Abortion | ACOG",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2025/02/increasing-access-to-abortion"
+        },
+        {
+          "title": "The Limits of Conscientious Refusal in Reproductive Medicine | ACOG",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2007/11/the-limits-of-conscientious-refusal-in-reproductive-medicine"
+        },
+        {
+          "title": "Gynecologic Issues in Children and Adolescent Cancer... | ACOG",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/08/gynecologic-issues-in-children-and-adolescent-cancer-patients-and-survivors"
+        },
+        {
+          "title": "Tamoxifen and Uterine Cancer | ACOG",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2014/06/tamoxifen-and-uterine-cancer"
+        },
+        {
+          "title": "ACOG Resources For Postpartum Contraception In The U.S ...",
+          "url": "https://pcainitiative.acog.org/resource-library/acog-resources/"
+        },
+        {
+          "title": "Abortion - ACOG",
+          "url": "https://www.acog.org/topics/abortion"
+        }
+      ]
+    },
+    {
+      "query": "NCI abortion miscarriage breast cancer risk 2003 workshop prospective studies",
+      "results": [
+        {
+          "title": "2003 Early Reproductive Events Workshop - NCI",
+          "url": "https://www.cancer.gov/types/breast/abortion-miscarriage-risk"
+        },
+        {
+          "title": "Abortion, Miscarriage, and Breast Cancer Risk - GovInfo",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20_3000-PURL-LPS99508/pdf/GOVPUB-HE20_3000-PURL-LPS99508.pdf"
+        },
+        {
+          "title": "Abortion, Miscarriage Don’t Increase Breast Cancer Risk, NCI ...",
+          "url": "https://cancerletter.com/the-cancer-letter/20030307_1/"
+        },
+        {
+          "title": "Early Reproductive Events/Breast Cancer Statement - NCI",
+          "url": "https://www.cancer.gov/types/breast/ere-workshop-statement"
+        },
+        {
+          "title": "Abortion, Miscarriage, and Breast Cancer Risk, Cancer Facts 3.75",
+          "url": "https://cancerquest.org/sites/default/files/assets/pdf/breast-cancer/AbortionMiscarriageBreastCancerRisk.pdf"
+        },
+        {
+          "title": "Abortion, Miscarriage Don’t Increase Breast Cancer Risk, NCI ...",
+          "url": "https://cancerhistoryproject.com/tcl-archive/20030307-1/"
+        },
+        {
+          "title": "Abortion-Cancer Link Ruled Out - Science | AAAS",
+          "url": "https://www.science.org/content/article/abortion-cancer-link-ruled-out"
+        },
+        {
+          "title": "National Cancer Institute Should Tell Women of Abortion-Breast...",
+          "url": "https://www.lifenews.com/2010/11/09/wbs-106/"
+        }
+      ]
+    },
+    {
+      "query": "PubMed 2004 Lancet collaborative reanalysis breast cancer abortion 53 studies 16 countries",
+      "results": [
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)15835-2/fulltext"
+        },
+        {
+          "title": "doi:10.1016/S0140-6736(04)15835-2 - The Lancet",
+          "url": "https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(04)15835-2.pdf"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://europepmc.org/article/MED/15051280"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://europepmc.org/abstract/MED/15051280"
+        },
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://portal.research.lu.se/en/publications/breast-cancer-and-abortion-collaborative-reanalysis-of-data-from-"
+        },
+        {
+          "title": "Breast cancer and abortion: collaborative reanalysis of data ...",
+          "url": "https://www.researchgate.net/publication/8650228_Breast_cancer_and_abortion_collaborative_reanalysis_of_data_from_53_epidemiological_studies_including_83000_women_with_breast_cancer_from_16_countries"
+        },
+        {
+          "title": "PRIME PubMed | Breast cancer and abortion: collaborative...",
+          "url": "https://www.unboundmedicine.com/medline/citation/15051280/full_citation"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T00:27:15.754+00:00",
+  "status": "judged",
+  "system": "terra"
+}

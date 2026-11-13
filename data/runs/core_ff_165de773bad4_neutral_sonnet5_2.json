@@ -1,0 +1,208 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea",
+    "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/information",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1802598"
+  ],
+  "claim_id": "ff_165de773bad4",
+  "completed_at": "2026-08-03T10:26:21.088+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea",
+        "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/information",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1802598"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the best current high-quality evidence shows any benefit is minimal or uncertain, with large trials showing no significant difference from placebo and an updated Cochrane review finding they 'probably make little or no difference.' Because it concludes probiotics should not be considered a reliably effective treatment, it is cautiously unfavorable towards the claim.",
+      "label": "leans_reject"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "probiotics duration acute infectious diarrhea meta-analysis",
+    "Cochrane review probiotics acute infectious diarrhea children",
+    "Cochrane 2020 update probiotics acute diarrhoea reduced certainty evidence conclusion",
+    "Lactobacillus rhamnosus GG randomized trial diarrhea duration children negative result 2018"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "stance_incongruent"
+  ],
+  "repeat": 2,
+  "report": "## Conclusion\n\nThe evidence is mixed, and current high-quality data suggest that any benefit is small at best and highly uncertain overall.\n\nEarlier meta-analyses (e.g., Cochrane's 2010 update) reported that probiotics, especially certain *Lactobacillus rhamnosus GG* strains, could modestly shorten diarrhea duration (by roughly ~1 day) and reduce stool frequency. However, the updated 2020 Cochrane systematic review (82 trials, >12,000 participants, mostly children) revised this conclusion: it found that probiotics \"probably make little or no difference\" to the proportion of people with diarrhea lasting ≥48 hours, and it is now **uncertain** whether probiotics meaningfully shorten diarrhea duration, largely due to substantial heterogeneity among trials, strain differences, and risk of bias in the underlying studies (https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea; https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/information).\n\nThis reassessment was reinforced by two large, rigorous, multi-center U.S. randomized controlled trials published in the New England Journal of Medicine (2018), which tested *L. rhamnosus GG* and a combination probiotic in children with acute gastroenteritis presenting to emergency departments. Neither trial found any significant difference from placebo in diarrhea duration, severity, or other outcomes (https://www.nejm.org/doi/full/10.1056/NEJMoa1802598).\n\n**Bottom line:** While probiotics are generally safe and some older, smaller studies suggested modest reductions in diarrhea duration, the best current evidence—an updated Cochrane review and large well-designed RCTs—indicates that any benefit is uncertain or minimal, and probiotics should not be considered a reliably effective treatment for shortening acute infectious diarrhea. Rehydration remains the cornerstone of treatment.",
+  "run_id": "core_ff_165de773bad4_neutral_sonnet5_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "probiotics duration acute infectious diarrhea meta-analysis",
+    "Cochrane review probiotics acute infectious diarrhea children",
+    "Cochrane 2020 update probiotics acute diarrhoea reduced certainty evidence conclusion",
+    "Lactobacillus rhamnosus GG randomized trial diarrhea duration children negative result 2018"
+  ],
+  "searches": [
+    {
+      "query": "probiotics duration acute infectious diarrhea meta-analysis",
+      "results": [
+        {
+          "title": "Probiotics for Antibiotic-Associated Diarrhea: What, When ...",
+          "url": "https://www.scirp.org/pdf/ijcm_2022120514523191.pdf"
+        },
+        {
+          "title": "Which Probiotic Is the Most Effective for Treating Acute ...",
+          "url": "https://www.mdpi.com/2072-6643/13/12/4319"
+        },
+        {
+          "title": "Efficacy of probiotics in prevention of acute diarrhoea: a ...",
+          "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473309906704959/fulltext"
+        },
+        {
+          "title": "Meta-analysis - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405457724015420"
+        },
+        {
+          "title": "Probiotics and gastrointestinal disorders: an umbrella meta ...",
+          "url": "https://link.springer.com/article/10.1186/s40001-025-02788-w"
+        },
+        {
+          "title": "(PDF) A Meta-Analysis and Systematic Review on the Effect of...",
+          "url": "https://www.academia.edu/122999246/A_Meta_Analysis_and_Systematic_Review_on_the_Effect_of_Probiotics_in_Acute_Diarrhea"
+        },
+        {
+          "title": "(PDF) Efficacy of probiotics in prevention of acute diarrhoea...",
+          "url": "https://www.researchgate.net/publication/7055078_Efficacy_of_probiotics_in_prevention_of_acute_diarrhoea_A_meta-analysis_of_masked_randomised_placebo-controlled_trials"
+        },
+        {
+          "title": "View of Cochrane Meta-analysis on Probiotics in Acute Infectious...",
+          "url": "https://actamedicaphilippina.upm.edu.ph/index.php/acta/article/view/6064/3631"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review probiotics acute infectious diarrhea children",
+      "results": [
+        {
+          "title": "Do probiotics help to treat acute infectious diarrhoea?",
+          "url": "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea"
+        },
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/information"
+        },
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub3/abstract"
+        },
+        {
+          "title": "What are the benefits and harms of probiotics for ... - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD006095_what-are-benefits-and-harms-probiotics-preventing-clostridioides-difficile-associated-diarrhea"
+        },
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6532699/"
+        },
+        {
+          "title": "Cochrane Review: Probiotics for treating acute infectious ...",
+          "url": "https://www.semanticscholar.org/paper/Cochrane-Review:-Probiotics-for-treating-acute-Allen-Martínez/dd0a022b9f842ffc4fb59c08c928d35ccabc8c41"
+        },
+        {
+          "title": "Cochrane Review: Probiotics for treating acute infectious ...",
+          "url": "https://www.researchgate.net/publication/51491172_Cochrane_Review_Probiotics_for_treating_acute_infectious_diarrhoea"
+        },
+        {
+          "title": "Researchers examine effectiveness of treating acute infectious...",
+          "url": "https://www.news-medical.net/news/20201209/Researchers-examine-effectiveness-of-treating-acute-infectious-diarrhea-with-probiotics.aspx"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane 2020 update probiotics acute diarrhoea reduced certainty evidence conclusion",
+      "results": [
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/information"
+        },
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea - Cochrane",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/related-content"
+        },
+        {
+          "title": "Do probiotics help to treat acute infectious diarrhoea? - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea"
+        },
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea - Evidence Aid",
+          "url": "https://evidenceaid.org/resource/probiotics-for-treating-infectious-diarrhoea/"
+        },
+        {
+          "title": "What Is the Efficacy of Probiotics for the Treatment of Acute ...",
+          "url": "https://www.annemergmed.com/article/S0196-0644(21)00116-5/fulltext"
+        },
+        {
+          "title": "(PDF) Probiotics for treating acute infectious diarrhoea",
+          "url": "https://www.researchgate.net/publication/347750467_Probiotics_for_treating_acute_infectious_diarrhoea"
+        },
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea",
+          "url": "https://www.semanticscholar.org/paper/Probiotics-for-treating-acute-infectious-diarrhoea-Collinson-Deans/f70de0a0060e62224515a25e2e66c788a97b0e88"
+        },
+        {
+          "title": "What Is the Efficacy of Probiotics for the Treatment of Acute ...",
+          "url": "https://www.annemergmed.com/article/S0196-0644(21)00116-5/pdf"
+        }
+      ]
+    },
+    {
+      "query": "Lactobacillus rhamnosus GG randomized trial diarrhea duration children negative result 2018",
+      "results": [
+        {
+          "title": "Lactobacillus rhamnosus GG versus Placebo for Acute ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1802598"
+        },
+        {
+          "title": "Lactobacillus rhamnosus GG versus Placebo for Acute ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30462938/"
+        },
+        {
+          "title": "Lactobacillus administration does not affect acute gastroenteritis",
+          "url": "https://www.jpeds.com/article/S0022-3476(19)30288-4/fulltext"
+        },
+        {
+          "title": "Lactobacillus rhamnosus GG versus Placebo for... : New England Journal ...",
+          "url": "https://www.ovid.com/journals/nejm/fulltext/10.1056/nejmoa1802598~lactobacillus-rhamnosus-gg-versus-placebo-for-acute"
+        },
+        {
+          "title": "Efficacy of Lactobacillus rhamnosus GG in treatment of acute pediatric ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31543689/"
+        },
+        {
+          "title": "Lactobacillus Rhamnosus GG Versus Placebo For Acute ... - Scribd",
+          "url": "https://www.scribd.com/document/434135010/Lactobacillus-Rhamnosus-GG-Versus-Placebo-for-Acute-Gastroenteritis-in-Children"
+        },
+        {
+          "title": "L. rhamnosus GG for treatment of acute pediatric diarrhea: the totality ...",
+          "url": "https://isappscience.org/l-rhamnosus-gg-acute-pediatric-diarrhea/"
+        },
+        {
+          "title": "Randomised controlled trial of Lactobacillus rhamnosus (LGG) versus ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5623493/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T10:15:01.170+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

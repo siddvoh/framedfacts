@@ -1,0 +1,200 @@
+{
+  "arm": "core",
+  "citations": [],
+  "claim_id": "ff_f270562a5953",
+  "completed_at": "2026-08-04T04:38:16.876+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": false,
+      "all_urls_well_formed": false,
+      "has_url": false,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": false,
+      "substantive_support_verified": false,
+      "urls": []
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is false and unsupported by scientific evidence, citing large cohort studies and statements from public health bodies like the WHO and FDA.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "ibuprofen COVID-19 worsens infection claim evidence",
+    "WHO ibuprofen COVID-19 statement",
+    "ibuprofen ACE2 receptor COVID-19 hypothesis French health minister origin",
+    "NSAID COVID-19 outcomes cohort study mortality ICU 2021"
+  ],
+  "query_labels": [
+    "stance_incongruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion: The claim is false — evidence does not support it\n\nYour skepticism is well-founded. The claim that ibuprofen worsens COVID-19 originated from a March 2020 tweet by the French Health Minister, based on anecdotal case reports and a speculative hypothesis that NSAIDs might upregulate ACE2 receptors (the entry point SARS-CoV-2 uses to infect cells) — a mechanism drawn from a single animal study in diabetic rats, never confirmed in humans (pmc.ncbi.nlm.nih.gov/articles/PMC7287029/).\n\nSince then, multiple large, rigorous studies have found no evidence supporting the claim:\n\n- **WHO** reviewed 73 studies (28 in adults, 46 in children) and found no evidence that ibuprofen worsens COVID-19 outcomes, reversing its initial cautious stance (who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19).\n- A large **multicentre cohort study** of hospitalized COVID-19 patients across England, Scotland, and Wales found NSAID use was not associated with worse in-hospital mortality, ICU admission, or need for ventilation (thelancet.com/journals/lanrhe/article/PIIS2665-9913(21)00104-1/fulltext).\n- A **38-center U.S. study** using electronic health records from over 857,000 COVID-19 patients (National COVID Cohort Collaborative) found no significant association between NSAID use and disease severity (pmc.ncbi.nlm.nih.gov/articles/PMC9107579/).\n- The **FDA** likewise stated it was not aware of scientific evidence connecting NSAID use with worsening COVID-19 (fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19).\n\n**Bottom line:** The ibuprofen-worsens-COVID-19 claim was a precautionary hypothesis, not an evidence-based finding, and subsequent large-scale studies have consistently failed to find any such association.",
+  "run_id": "core_ff_f270562a5953_skeptic_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "ibuprofen COVID-19 worsens infection claim evidence",
+    "WHO ibuprofen COVID-19 statement",
+    "ibuprofen ACE2 receptor COVID-19 hypothesis French health minister origin",
+    "NSAID COVID-19 outcomes cohort study mortality ICU 2021"
+  ],
+  "searches": [
+    {
+      "query": "ibuprofen COVID-19 worsens infection claim evidence",
+      "results": [
+        {
+          "title": "Association Between Prescribed Ibuprofen and Severe COVID‐19 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+        },
+        {
+          "title": "Does Ibuprofen Worsen COVID-19? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287029/"
+        },
+        {
+          "title": "Ibuprofen in the Management of Viral Infections: The Lesson ...Ibuprofen use and clinical outcomes in COVID-19 patientsThe COVID-19 ibuprofen controversy: A systematic review of ...Does Ibuprofen Worsen COVID-19? - Drug Safety - SpringerThe use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://accp1.onlinelibrary.wiley.com/doi/full/10.1002/jcph.2258"
+        },
+        {
+          "title": "Ibuprofen use and clinical outcomes in COVID-19 patients",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1198743X20303438"
+        },
+        {
+          "title": "The COVID-19 ibuprofen controversy: A systematic review of ...Does Ibuprofen Worsen COVID-19? - Drug Safety - SpringerThe use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bcp.14514"
+        },
+        {
+          "title": "Does Ibuprofen Worsen COVID-19? - Drug Safety - Springer",
+          "url": "https://link.springer.com/article/10.1007/s40264-020-00953-0"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        },
+        {
+          "title": "Think you might have Covid-19? Try this self-triage tool first | STAT",
+          "url": "https://www.statnews.com/2020/03/20/self-triage-tool-covid-19/"
+        }
+      ]
+    },
+    {
+      "query": "WHO ibuprofen COVID-19 statement",
+      "results": [
+        {
+          "title": "FDA advises patients on use of NSAIDs for COVID-19",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19"
+        },
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...Does Ibuprofen Worsen COVID-19? - PMCCan you take Ibuprofen if you have COVID-19 (coronavirus)?Ibuprofen, other NSAIDs and COVID‐19: a narrative reviewThe latest from WHO: No proof that ibuprofen worsens COVID-19",
+          "url": "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19"
+        },
+        {
+          "title": "Does Ibuprofen Worsen COVID-19? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287029/"
+        },
+        {
+          "title": "Can you take Ibuprofen if you have COVID-19 (coronavirus)?",
+          "url": "https://www.drugs.com/medical-answers/you-ibuprofen-you-covid-19-coronavirus-disease-3534620/"
+        },
+        {
+          "title": "Ibuprofen, other NSAIDs and COVID‐19: a narrative review",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10787-023-01309-7.pdf"
+        },
+        {
+          "title": "The latest from WHO: No proof that ibuprofen worsens COVID-19",
+          "url": "https://www.factrakers.org/post/the-latest-from-who-no-evidence-that-ibuprofen-worsens-covid-19"
+        },
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no... | CBC News",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen ACE2 receptor COVID-19 hypothesis French health minister origin",
+      "results": [
+        {
+          "title": "An Illustrated Primer on COVID-19 Therapy: part 1",
+          "url": "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1"
+        },
+        {
+          "title": "COVID19 – the spike protein and blood clotting | Dr. Malcolm Kendrick",
+          "url": "https://drmalcolmkendrick.org/2021/06/03/covid19-the-spike-protein-and-blood-clotting/"
+        },
+        {
+          "title": "Insights into the COVID-19 pandemic: Origin, pathogenesis, diagnosis...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33048778/"
+        },
+        {
+          "title": "The origin of olfactory disorders related to COVID-19 | IVES Technical...",
+          "url": "https://ives-technicalreviews.eu/article/view/3987"
+        },
+        {
+          "title": "COVID-19, Pneumonia & Inflammasomes - The... - EvolutaMente.it",
+          "url": "https://www.evolutamente.it/covid-19-pneumonia-inflammasomes-the-melatonin-connection/"
+        },
+        {
+          "title": "Frontiers | COVID-19 Mechanisms in the Human Body—What We...",
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.693938/full"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "Why do some people with coronavirus get symptoms while others don’t?",
+          "url": "https://theconversation.com/why-do-some-people-with-coronavirus-get-symptoms-while-others-dont-135546"
+        }
+      ]
+    },
+    {
+      "query": "NSAID COVID-19 outcomes cohort study mortality ICU 2021",
+      "results": [
+        {
+          "title": "Non-steroidal anti-inflammatory drug use and outcomes of ...",
+          "url": "https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(21)00104-1/fulltext"
+        },
+        {
+          "title": "Use of non-steroidal anti-inflammatory drugs and adverse ...NSAID use and clinical outcomes in COVID-19 patients: A 38 ...Use of non-steroidal anti-inflammatory drugs and adverse ...NSAID use and clinical outcomes in COVID-19 patients: a 38 ...NSAID use and clinical outcomes in COVID-19 patients: A 38 ...Non-steroidal anti-inflammatory agent use may not be ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8989274/"
+        },
+        {
+          "title": "NSAID use and clinical outcomes in COVID-19 patients: A 38 ...",
+          "url": "https://www.medrxiv.org/content/10.1101/2021.04.13.21255438v2.full.pdf"
+        },
+        {
+          "title": "NSAID use and clinical outcomes in COVID-19 patients: a 38 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9107579/"
+        },
+        {
+          "title": "NSAID use and clinical outcomes in COVID-19 patients: A 38 ...",
+          "url": "https://www.medrxiv.org/content/10.1101/2021.04.13.21255438v2"
+        },
+        {
+          "title": "(PDF) COVID-19 Outcomes and Vaccination in Patients with...",
+          "url": "https://www.researchgate.net/publication/360778435_COVID-19_Outcomes_and_Vaccination_in_Patients_with_Spondyloarthritis"
+        },
+        {
+          "title": "(PDF) Different Covid-19 Outcomes Among Systemic Rheumatic...",
+          "url": "https://www.academia.edu/130152979/Different_Covid_19_Outcomes_Among_Systemic_Rheumatic_Diseases_A_Nation_wide_Cohort_Study"
+        },
+        {
+          "title": "Associations between onychomycosis and COVID-19 clinical...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34773138/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T04:21:29.741+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

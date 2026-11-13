@@ -1,0 +1,216 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202007-812RL?role=tab",
+    "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/",
+    "https://www.michiganmedicine.org/health-lab/4-mask-myths-put-you-risk",
+    "https://rightasrain.uwmedicine.org/well/prevention/face-mask-myths"
+  ],
+  "claim_id": "ff_8d7236a31744",
+  "completed_at": "2026-08-03T22:44:08.468+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202007-812RL?role=tab",
+        "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/",
+        "https://www.michiganmedicine.org/health-lab/4-mask-myths-put-you-risk",
+        "https://rightasrain.uwmedicine.org/well/prevention/face-mask-myths"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is false and cites clinical studies, expert guidance, and scientific principles showing that cloth or surgical face masks do not cause dangerous carbon-dioxide buildup.",
+      "label": "rejects"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is false and supports that conclusion with evidence about gas diffusion, clinical studies, and expert guidance.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "face mask carbon dioxide buildup study CDC WHO",
+    "does wearing a cloth or surgical face mask cause hypercapnia fact check CDC",
+    "Annals of the American Thoracic Society face masks gas exchange COPD",
+    "Mayo Clinic carbon dioxide face masks myth"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent"
+  ],
+  "repeat": 2,
+  "report": "### Conclusion\nThe claim that prolonged use of cloth or surgical face masks causes dangerous carbon dioxide ($\\text{CO}_2$) buildup is **false**.\n\n### Evidence and Findings\n* **Gas Diffusion:** Carbon dioxide molecules are microscopic gas particles that pass freely through the breathable, porous material of cloth and surgical face masks. While masks trap larger respiratory droplets, they do not impede gas exchange.\n* **Clinical Studies:** A study published in the *Annals of the American Thoracic Society* evaluated blood gas levels in both healthy individuals and patients with severe Chronic Obstructive Pulmonary Disease (COPD). Researchers found no clinically significant changes in oxygen or $\\text{CO}_2$ levels during mask use, even during physical exertion.\n* **Expert Guidance:** The Centers for Disease Control and Prevention (CDC) and major medical institutions affirm that wearing cloth or surgical masks does not cause hypercapnia ($\\text{CO}_2$ toxicity) or hypoxia (oxygen deprivation). Healthcare personnel have worn surgical masks for long procedures for decades without experiencing adverse blood-gas issues.\n* **Perceived Discomfort:** Sensations of warmth, humidity, or air restriction while wearing a mask are related to thermal comfort and minor breathing resistance, not a dangerous buildup of exhaled gases.\n\n### Sources\n* Annals of the American Thoracic Society: https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202007-812RL?role=tab\n* USA Today Fact Check: https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/\n* Michigan Medicine: https://www.michiganmedicine.org/health-lab/4-mask-myths-put-you-risk\n* UW Medicine: https://rightasrain.uwmedicine.org/well/prevention/face-mask-myths",
+  "run_id": "core_ff_8d7236a31744_neutral_gemini_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "face mask carbon dioxide buildup study CDC WHO",
+    "does wearing a cloth or surgical face mask cause hypercapnia fact check CDC",
+    "Annals of the American Thoracic Society face masks gas exchange COPD",
+    "Mayo Clinic carbon dioxide face masks myth"
+  ],
+  "searches": [
+    {
+      "query": "face mask carbon dioxide buildup study CDC WHO",
+      "results": [
+        {
+          "title": "Face masks don't restrict oxygen or contribute to carbon dioxide...",
+          "url": "https://www.fox13news.com/news/face-masks-dont-restrict-oxygen-or-contribute-to-carbon-dioxide-buildup-study"
+        },
+        {
+          "title": "New Study Suggests Carbon Dioxide Buildup from Wearing Face...",
+          "url": "https://www.breakingchristiannews.com/articles/display_art.html?ID=37498"
+        },
+        {
+          "title": "Fact check: Wearing face mask will not cause hypoxia or hypercapnia",
+          "url": "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+        },
+        {
+          "title": "Masks do not restrict oxygen flow or cause CO2 buildup, study finds",
+          "url": "https://www.yahoo.com/news/masks-not-restrict-oxygen-flow-134504166.html"
+        },
+        {
+          "title": "Masks Poison People with Carbon Dioxide Buildup, Study Warns",
+          "url": "https://slaynews.com/masks-poison-people-carbon-dioxide-buildup-study-warns/"
+        },
+        {
+          "title": "CO2 Buildup from Wearing Face Masks Increases Medical Risks",
+          "url": "https://shiftfrequency.com/carbon-dioxide-buildup-from-wearing-face-masks-increase-medical-risks/"
+        },
+        {
+          "title": "Effect of Wearing Face Masks on the Carbon Dioxide Concentration...",
+          "url": "https://aaqr.org/articles/aaqr-20-07-covid-0403.pdf"
+        },
+        {
+          "title": "Using face masks reduces the transmission of... - Science Feedback",
+          "url": "https://science.feedback.org/review/the-use-of-face-masks-reduces-the-transmission-of-covid-19-and-doesnt-lead-to-oxygen-deficiency-or-carbon-dioxide-buildup-in-the-bloodstream/"
+        }
+      ]
+    },
+    {
+      "query": "does wearing a cloth or surgical face mask cause hypercapnia fact check CDC",
+      "results": [
+        {
+          "title": "Fact check: Wearing face mask will not cause hypoxia or hypercapnia",
+          "url": "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+        },
+        {
+          "title": "FACT CHECK: Did The Surgeon General Say Face Masks Can Make...",
+          "url": "https://dailycaller.com/2020/05/27/fact-check-surgeon-general-jerome-adams-face-masks-sick-carbon-dioxide/"
+        },
+        {
+          "title": "Is It Dangerous to Wear a COVID-19 Protective Mask for... | Snopes.com",
+          "url": "https://www.snopes.com/fact-check/masks-dangerous-health/"
+        },
+        {
+          "title": "Meme misleads about danger of long-term mask use | Fact Check",
+          "url": "https://factcheck.afp.com/meme-misleads-about-danger-long-term-mask-use"
+        },
+        {
+          "title": "Fact check: CDC document claiming to show guidance about masks...",
+          "url": "https://www.northjersey.com/story/news/factcheck/2020/07/27/fact-check-cdc-document-claiming-show-guidance-masks-fake/5486229002/"
+        },
+        {
+          "title": "Claims that face masks can cause illnesses are just hot air | AAP",
+          "url": "https://www.aap.com.au/factcheck/claims-that-face-masks-can-cause-illnesses-are-just-hot-air/"
+        },
+        {
+          "title": "PolitiFact | Masks do not kill people and do not reduce blood oxygen...",
+          "url": "https://www.politifact.com/factchecks/2020/dec/03/facebook-posts/masks-do-not-kill-people-and-do-not-reduce-blood-o/"
+        },
+        {
+          "title": "VERA FILES FACT CHECK: Wearing masks daily DOES NOT cause...",
+          "url": "https://verafiles.org/articles/vera-files-fact-check-wearing-masks-daily-does-not-cause-car"
+        }
+      ]
+    },
+    {
+      "query": "Annals of the American Thoracic Society face masks gas exchange COPD",
+      "results": [
+        {
+          "title": "Effect of Face Masks on Gas Exchange in Healthy Persons and ...",
+          "url": "https://academic.oup.com/annalsats/article/18/3/541/8419544"
+        },
+        {
+          "title": "Annals of the American Thoracic Society - ATS Journals",
+          "url": "https://www.atsjournals.org/doi/10.1513/AnnalsATS.202206-551RL"
+        },
+        {
+          "title": "Effect of Face Masks on Gas Exchange in Healthy Persons and ...",
+          "url": "https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202007-812RL?role=tab"
+        },
+        {
+          "title": "Effect of Face Masks on Gas Exchange in Healthy... : Annals ...",
+          "url": "https://www.ovid.com/journals/aats/fulltext/10.1513/annalsats.202007-812rl~effect-of-face-masks-on-gas-exchange-in-healthy-persons-and"
+        },
+        {
+          "title": "Effect of Face Masks on Gas Exchange in Healthy Persons and ...",
+          "url": "https://www.researchgate.net/publication/345662751_Effect_of_Face_Masks_on_Gas_Exchange_in_Healthy_Persons_and_Patients_with_COPD"
+        },
+        {
+          "title": "Effect of Face Masks on Gas Exchange in Healthy Persons and ...",
+          "url": "https://colab.ws/articles/10.1513/annalsats.202007-812rl"
+        },
+        {
+          "title": "Face masks unlikely to cause over-exposure to carbon... | ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2020/10/201002091039.htm"
+        },
+        {
+          "title": "AnnalsATS183letter 534..553",
+          "url": "https://pdfs.semanticscholar.org/4803/c9f58d6070d9ddb0c97bd87a757e7305a242.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Mayo Clinic carbon dioxide face masks myth",
+      "results": [
+        {
+          "title": "Debunking COVID-19 myths - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/coronavirus-myths/art-20485720"
+        },
+        {
+          "title": "Do Masks Prevent Respiratory Virus Spread?",
+          "url": "https://health.clevelandclinic.org/do-masks-work"
+        },
+        {
+          "title": "How well do face masks protect against COVID-19? - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/coronavirus-mask/art-20485449"
+        },
+        {
+          "title": "4 Mask Myths That Put You at Risk - Michigan MedicineMask myth debunked: Face coverings don't hurt lung function ...Busting mask myths one question at a time - UW HealthDebunking Face Mask Myths | Right as Rain by UW Medicine",
+          "url": "https://www.michiganmedicine.org/health-lab/4-mask-myths-put-you-risk"
+        },
+        {
+          "title": "Mask myth debunked: Face coverings don't hurt lung function ...",
+          "url": "https://www.nbcnews.com/health/health-news/mask-myth-debunked-face-coverings-don-t-hurt-lung-function-n1241721"
+        },
+        {
+          "title": "Busting mask myths one question at a time - UW Health",
+          "url": "https://www.uwhealth.org/news/busting-mask-myths-one-question-at-a-time"
+        },
+        {
+          "title": "Debunking Face Mask Myths | Right as Rain by UW Medicine",
+          "url": "https://rightasrain.uwmedicine.org/well/prevention/face-mask-myths"
+        },
+        {
+          "title": "Infectious disease physician breaks down coronavirus mask myths",
+          "url": "https://news.llu.edu/health-wellness/infectious-disease-physician-breaks-down-coronavirus-mask-myths"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T22:33:30.643+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

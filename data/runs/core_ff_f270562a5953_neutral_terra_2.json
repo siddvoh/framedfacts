@@ -1,0 +1,374 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+    "https://iris.who.int/server/api/core/bitstreams/28b11a16-db64-4166-931e-5b707e72ba05/content",
+    "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html"
+  ],
+  "claim_id": "ff_f270562a5953",
+  "completed_at": "2026-08-04T04:42:57.925+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+        "https://iris.who.int/server/api/core/bitstreams/28b11a16-db64-4166-931e-5b707e72ba05/content",
+        "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is not supported by the best available evidence and states that taking ibuprofen does not appear to worsen COVID-19 infection or its clinical outcomes.",
+      "label": "rejects"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that the claim is not supported and states that ibuprofen does not appear to worsen COVID-19 infection or clinical outcomes, while acknowledging general medication risks.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "WHO ibuprofen COVID-19 advice NSAIDs infection worsening",
+    "systematic review ibuprofen NSAIDs COVID-19 outcomes mortality hospitalization",
+    "FDA NSAIDs ibuprofen COVID-19 worsening infection statement",
+    "NIH COVID-19 treatment guidelines NSAIDs ibuprofen symptom management",
+    "site:pubmed.ncbi.nlm.nih.gov NSAID use COVID-19 systematic review meta-analysis ibuprofen",
+    "site:who.int ibuprofen COVID-19 no evidence worsening",
+    "site:gov.uk Commission on Human Medicines ibuprofen COVID-19 evidence",
+    "site:cdc.gov COVID-19 ibuprofen acetaminophen symptoms"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** The claim is **not supported by the best available evidence**. Taking ibuprofen does not appear to worsen COVID-19 infection or its clinical outcomes.\n\nThe concern began early in the pandemic from theoretical mechanisms and anecdotal reports, not persuasive clinical evidence. WHO’s scientific review found no evidence that NSAID use (a class including ibuprofen) caused severe adverse events, greater healthcare use, or worse survival in people with COVID-19, while noting that early evidence was limited. The CDC has also listed ibuprofen, alongside acetaminophen, as an over-the-counter option for relief of COVID-19 symptoms.\n\nThat does **not** mean ibuprofen is appropriate for everyone: it can cause or worsen stomach bleeding/ulcers, kidney injury, fluid retention, and cardiovascular problems, and it may interact with other medicines. People with kidney disease, ulcer/bleeding history, heart failure, those taking blood thinners, or people who are pregnant should seek individualized medical advice. Use the lowest effective dose for the shortest time, follow the label, and seek care for trouble breathing, chest pain, confusion, or other emergency symptoms. For people at elevated risk of severe COVID-19, prompt evaluation for antiviral treatment matters more than choice of fever/pain reliever.\n\nSources:  \n- https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19  \n- https://iris.who.int/server/api/core/bitstreams/28b11a16-db64-4166-931e-5b707e72ba05/content  \n- https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html",
+  "run_id": "core_ff_f270562a5953_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "WHO ibuprofen COVID-19 advice NSAIDs infection worsening",
+    "systematic review ibuprofen NSAIDs COVID-19 outcomes mortality hospitalization",
+    "FDA NSAIDs ibuprofen COVID-19 worsening infection statement",
+    "NIH COVID-19 treatment guidelines NSAIDs ibuprofen symptom management",
+    "site:pubmed.ncbi.nlm.nih.gov NSAID use COVID-19 systematic review meta-analysis ibuprofen",
+    "site:who.int ibuprofen COVID-19 no evidence worsening",
+    "site:gov.uk Commission on Human Medicines ibuprofen COVID-19 evidence",
+    "site:cdc.gov COVID-19 ibuprofen acetaminophen symptoms"
+  ],
+  "searches": [
+    {
+      "query": "WHO ibuprofen COVID-19 advice NSAIDs infection worsening",
+      "results": [
+        {
+          "title": "Should You Avoid Pain Relievers After the COVID-19 Vaccine?",
+          "url": "https://www.healthline.com/health-news/should-you-take-pain-relievers-after-covid-19-vaccine"
+        },
+        {
+          "title": "Philippines logs 4,973 new COVID-19 infections; active... - YouTube",
+          "url": "https://www.youtube.com/watch?v=Cmw0AZ-Fq0g"
+        },
+        {
+          "title": "What to do if you have COVID-19, but are... | Ochsner Health",
+          "url": "https://blog.ochsner.org/articles/what-to-do-if-you-have-covid-19-but-are-asymptomatic/"
+        },
+        {
+          "title": "Why are some people with Covid-19 asymptomatic? Evidence points...",
+          "url": "https://www.inverse.com/science/covid-19-asymptomatic"
+        },
+        {
+          "title": "Burning Nose COVID-19: Symptom & Treatment | Ada Health",
+          "url": "https://ada.com/covid/covid-19-symptom-burning-nose/"
+        },
+        {
+          "title": "Brazilian study finds ivermectin an ineffective COVID-19 treatment",
+          "url": "https://www.startribune.com/brazilian-study-finds-ivermectin-an-ineffective-covid-19-treatment/600160777"
+        },
+        {
+          "title": "Noida doctor tests Covid-19 positive again, 45 days... | Hindustan Times",
+          "url": "https://www.hindustantimes.com/noida/noida-doctor-tests-covid-19-positive-again-45-days-after-recovering-from-first-bout-of-infection/story-LYZiGABP4oDE8602reUeUJ.html"
+        },
+        {
+          "title": "COVID-19 - Advice for PANS/PANDAS children - Brainstorm Health",
+          "url": "https://www.brainstormhealth.co.uk/2020/03/covid-19-advice-pans-pandas-children/"
+        }
+      ]
+    },
+    {
+      "query": "systematic review ibuprofen NSAIDs COVID-19 outcomes mortality hospitalization",
+      "results": [
+        {
+          "title": "COVID-19-triggered MG Case Detected by Highly Sensitive Diagnostics",
+          "url": "https://myastheniagravisnews.com/news/highly-sensitive-test-detects-mg-in-patient-after-covid-19-diagnosis/"
+        },
+        {
+          "title": "Patients with asthma experienced more COVID-19 hospitalization...",
+          "url": "https://www.healio.com/news/allergy-asthma/20240711/patients-with-asthma-experienced-more-covid19-hospitalization-mortality"
+        },
+        {
+          "title": "COVID-19 | Johns Hopkins Medicine",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus"
+        },
+        {
+          "title": "Brazilian study finds ivermectin an ineffective COVID-19 treatment",
+          "url": "https://www.startribune.com/brazilian-study-finds-ivermectin-an-ineffective-covid-19-treatment/600160777"
+        },
+        {
+          "title": "Many Severe Covid-19 Survivors Go on to Die Within a Year, Study...",
+          "url": "https://gizmodo.com/many-severe-covid-19-survivors-go-on-to-die-within-a-ye-1848144418"
+        },
+        {
+          "title": "An Illustrated Primer on COVID-19 Therapy: part 1",
+          "url": "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1"
+        },
+        {
+          "title": "COVID-19 worsens maternal, fetal outcomes, studies find | CIDRAP",
+          "url": "https://www.cidrap.umn.edu/covid-19-worsens-maternal-fetal-outcomes-studies-find"
+        },
+        {
+          "title": "Mortality Rate of Pregnant Women Increased by COVID-19",
+          "url": "https://www.contagionlive.com/view/mortality-rate-of-pregnant-women-increased-by-covid-19"
+        }
+      ]
+    },
+    {
+      "query": "FDA NSAIDs ibuprofen COVID-19 worsening infection statement",
+      "results": [
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no... | CBC News",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        },
+        {
+          "title": "Should COVID-19 Patients Avoid Taking Ibuprofen? | Snopes.com",
+          "url": "https://www.snopes.com/fact-check/covid-19-nsaids-ibuprofen/"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        },
+        {
+          "title": "Should You Avoid Pain Relievers After the COVID-19 Vaccine?",
+          "url": "https://www.healthline.com/health-news/should-you-take-pain-relievers-after-covid-19-vaccine"
+        },
+        {
+          "title": "Headache in a time of Covid-19 - London Headache Centre",
+          "url": "https://londonheadachecentre.co.uk/headache-in-a-time-of-covid-19/"
+        },
+        {
+          "title": "Philippines logs 4,973 new COVID-19 infections; active... - YouTube",
+          "url": "https://www.youtube.com/watch?v=Cmw0AZ-Fq0g"
+        },
+        {
+          "title": "COVID-19 worsens maternal, fetal outcomes, studies find | CIDRAP",
+          "url": "https://www.cidrap.umn.edu/covid-19-worsens-maternal-fetal-outcomes-studies-find"
+        },
+        {
+          "title": "An Illustrated Primer on COVID-19 Therapy: part 1",
+          "url": "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1"
+        }
+      ]
+    },
+    {
+      "query": "NIH COVID-19 treatment guidelines NSAIDs ibuprofen symptom management",
+      "results": [
+        {
+          "title": "Updated: WHO Now Doesn't Recommend Avoiding Ibuprofen For...",
+          "url": "https://www.sciencealert.com/who-recommends-to-avoid-taking-ibuprofen-for-covid-19-symptoms"
+        },
+        {
+          "title": "Deadly NIH COVID-19 Treatment Guidelines Had Doctors... - YouTube",
+          "url": "https://www.youtube.com/shorts/gvQjb804I_w"
+        },
+        {
+          "title": "COVID-19 | Johns Hopkins Medicine",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus"
+        },
+        {
+          "title": "Frontiers | Neurological symphony: post-acute COVID-19 syndrome, an...",
+          "url": "https://www.frontiersin.org/journals/integrative-neuroscience/articles/10.3389/fnint.2024.1417856/full"
+        },
+        {
+          "title": "Is It Fall Allergies or COVID-19? How to... - Allergy & Asthma Network",
+          "url": "https://allergyasthmanetwork.org/news/is-it-fall-allergies-or-covid-19/"
+        },
+        {
+          "title": "Think you might have Covid-19? Try this self-triage tool first | STAT",
+          "url": "https://www.statnews.com/2020/03/20/self-triage-tool-covid-19/"
+        },
+        {
+          "title": "Study finds few COVID-19 patients get rebound symptoms after...",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/study-finds-few-covid-19-patients-get-rebound-symptoms-after-paxlovid-treatment/"
+        },
+        {
+          "title": "Non‐steroidal anti‐inflammatory drugs in management of COVID ...Clinical Course: Progression, Management, and TreatmentUse of non-steroidal anti-inflammatory drugs and adverse ...Rapid Review: Nonsteroidal Anti-inflammatory Agents and ...Types of COVID-19 Treatment | Covid | CDCHome as the new frontier for the treatment of COVID-19: the ...The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7267090/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov NSAID use COVID-19 systematic review meta-analysis ibuprofen",
+      "results": [
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Nonsteroidal anti-inflammatory drugs in acute viral ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35218614/"
+        },
+        {
+          "title": "NSAID Use and Bone Healing: An Umbrella Review with a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42489592/"
+        },
+        {
+          "title": "The potential role of indomethacin in COVID-19 ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42238848/"
+        },
+        {
+          "title": "NSAID administration post colorectal surgery increases ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29998389/"
+        },
+        {
+          "title": "Effect of ibuprofen versus acetaminophen on postpartum ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41851234/"
+        },
+        {
+          "title": "Ocular manifestations of COVID-19: systematic review and...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37683691/"
+        },
+        {
+          "title": "An umbrella review and meta-analysis of renin-angiotensin system...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36205627/"
+        }
+      ]
+    },
+    {
+      "query": "site:who.int ibuprofen COVID-19 no evidence worsening",
+      "results": [
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...COVID-19 and NCDs: The use of Non-steroidal anti ...Guideline Therapeutics and COVID-19: living guidelineWHO COVID-19 dashboardCOVID-19 cases | WHO COVID-19 dashboard",
+          "url": "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19"
+        },
+        {
+          "title": "Guideline Therapeutics and COVID-19: living guideline",
+          "url": "https://iris.who.int/server/api/core/bitstreams/23655773-e9d2-4eba-96d9-296d10bb9c61/content"
+        },
+        {
+          "title": "COVID-19 and NCDs: The use of Non-steroidal anti ...",
+          "url": "https://www.who.int/docs/default-source/ncds/ncd-covid-19/21-april-2020---scientific-brief-(nsaid).pdf?sfvrsn=87fab05b_2"
+        },
+        {
+          "title": "WHO COVID-19 dashboard",
+          "url": "https://data.who.int/dashboards/covid19/summary"
+        },
+        {
+          "title": "COVID-19 cases | WHO COVID-19 dashboard",
+          "url": "https://covid19.who.int/"
+        },
+        {
+          "title": "Coronavirus (COVID-19) | WHO | Regional Office for Africa",
+          "url": "https://afro.who.int/health-topics/coronavirus-covid-19"
+        },
+        {
+          "title": "Review Article Information and communication needs in the ...",
+          "url": "https://applications.emro.who.int/imemrf/224/J-Med-Res-2020-6-4-128-130-eng.pdf"
+        },
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://iris.who.int/server/api/core/bitstreams/28b11a16-db64-4166-931e-5b707e72ba05/content"
+        }
+      ]
+    },
+    {
+      "query": "site:gov.uk Commission on Human Medicines ibuprofen COVID-19 evidence",
+      "results": [
+        {
+          "title": "The roles of the MHRA and JCVI in COVID-19 vaccines – UK Health...",
+          "url": "https://ukhsa.blog.gov.uk/2020/12/02/the-roles-of-the-mhra-and-jcvi-in-covid-19-vaccines/"
+        },
+        {
+          "title": "National flu and COVID-19 surveillance report: 30 July 2026... - GOV.UK",
+          "url": "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2026-to-2027-season/national-flu-and-covid-19-surveillance-report-30-july-2026-week-31"
+        },
+        {
+          "title": "Link to legislation.gov.uk",
+          "url": "https://www.legislation.gov.uk/ukpga/Vict/50-51/55/contents"
+        },
+        {
+          "title": "Coronavirus (COVID-19) | Westmorland and Furness Council",
+          "url": "https://barrowbc.gov.uk/coronavirus-covid-19"
+        },
+        {
+          "title": "Link to london.gov.uk",
+          "url": "https://www.london.gov.uk/maaate"
+        },
+        {
+          "title": "covid19",
+          "url": "https://avening-pc.gov.uk/covid19.htm"
+        },
+        {
+          "title": "Corona Virus Update - Belmont Rural Parish Council",
+          "url": "https://belmontrural-pc.gov.uk/corona-virus-update/"
+        },
+        {
+          "title": "Find and access your council services",
+          "url": "https://www.somerset.gov.uk/"
+        }
+      ]
+    },
+    {
+      "query": "site:cdc.gov COVID-19 ibuprofen acetaminophen symptoms",
+      "results": [
+        {
+          "title": "COVID-19 Treatments and Medications | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html"
+        },
+        {
+          "title": "Symptoms of COVID-19 | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html"
+        },
+        {
+          "title": "Symptoms of COVID-19 | Covid | CDC",
+          "url": "https://www.cdc.gov/covid/signs-symptoms/index.html"
+        },
+        {
+          "title": "Types of COVID-19 Treatment | Covid | CDC",
+          "url": "https://www.cdc.gov/covid/treatment/index.html"
+        },
+        {
+          "title": "Symptoms of COVID-19 - CDC Stacks",
+          "url": "https://stacks.cdc.gov/view/cdc/135931/cdc_135931_DS1.pdf"
+        },
+        {
+          "title": "COVID FactSheet - CDC Stacks",
+          "url": "https://stacks.cdc.gov/view/cdc/104267/cdc_104267_DS1.pdf"
+        },
+        {
+          "title": "Severe Multisystem Inflammatory Symptoms in 2 Adults after ...",
+          "url": "https://wwwnc.cdc.gov/eid/article/28/5/21-2316_article"
+        },
+        {
+          "title": "Centers for Disease Control and Prevention | CDC",
+          "url": "https://www.cdc.gov/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T04:21:29.728+00:00",
+  "status": "judged",
+  "system": "terra"
+}

@@ -1,0 +1,269 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/",
+    "https://www.nejm.org/doi/full/10.1056/Nejmoa1103507",
+    "https://www.cancer.org/cancer/types/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html"
+  ],
+  "claim_id": "ff_7fc5d77832a8",
+  "completed_at": "2026-08-04T17:13:43.593+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/",
+        "https://www.nejm.org/doi/full/10.1056/Nejmoa1103507",
+        "https://www.cancer.org/cancer/types/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported by strong randomized-trial evidence, highlighting a 65% relative reduction in invasive breast cancer incidence among postmenopausal women taking exemestane, despite noting short-term limits and non-FDA approval.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Conclusion\n\n**The claim is supported by strong randomized-trial evidence**, with important limits. In the placebo-controlled MAP.3 trial, 4,560 postmenopausal women at increased breast-cancer risk received exemestane or placebo. At a median follow-up of about 3 years, invasive breast cancer occurred in **11 exemestane recipients versus 32 placebo recipients**: annual incidence **0.19% versus 0.55%**, respectively (hazard ratio 0.35; 95% CI 0.18–0.70; *P*=0.002). This is a **65% relative reduction** in invasive cancer incidence.  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa1103507\n\nThat result has good internal validity because it came from a large randomized, placebo-controlled trial. The absolute difference, however, was modest over the observed period—roughly **0.36 fewer invasive cancers per 100 women per year**—and follow-up was relatively short (median 35 months). Thus, the study demonstrates reduced *short-term incidence*, not a proven reduction in breast-cancer mortality or overall mortality.  \nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/\n\nSafety requires individualized assessment. Overall adverse events were more frequent with exemestane (88% vs 85%), though the trial found no statistically significant between-group differences in fractures, cardiovascular events, other cancers, or treatment-related deaths during follow-up.  \nhttps://www.nejm.org/doi/full/10.1056/Nejmoa1103507\n\nFinally, this is a risk-reduction option rather than an FDA-approved prevention indication: the American Cancer Society notes aromatase inhibitors are not FDA-approved specifically to lower breast-cancer risk, although expert groups include them as options for increased-risk postmenopausal women.  \nhttps://www.cancer.org/cancer/types/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html",
+  "run_id": "cross_replay_ff_7fc5d77832a8_believer_on_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "MAP.3 exemestane prevention trial postmenopausal women elevated risk breast cancer incidence NEJM 2011",
+      "results": [
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507"
+        },
+        {
+          "title": "Exemestane -- A New Option for Breast Cancer Prevention",
+          "url": "https://www.medscape.com/viewarticle/743993"
+        },
+        {
+          "title": "(PDF) Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://www.researchgate.net/publication/224957911_Exemestane_for_Breast_Cancer_Prevention_A_Critical_Shift"
+        },
+        {
+          "title": "(PDF) Exemestane for breast cancer prevention: a critical shift?",
+          "url": "https://www.academia.edu/18729465/Exemestane_for_breast_cancer_prevention_a_critical_shift"
+        },
+        {
+          "title": "Exemestane Prevents 65% of Invasive Breast Cancers in... | MDedge",
+          "url": "https://www.mdedge.com/hematology-oncology/article/35454/womens-health/exemestane-prevents-65-invasive-breast-cancers"
+        },
+        {
+          "title": "Quality of life in MAP.3 (Mammary ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/718342710/"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal...",
+          "url": "https://studyres.com/doc/4408359/exemestane-for-breast-cancer-prevention-in-postmenopausal..."
+        }
+      ]
+    },
+    {
+      "query": "exemestane breast cancer prevention guideline postmenopausal increased risk ASCO",
+      "results": [
+        {
+          "title": "Experts Available to Comment on New Guidelines on... | Newswise",
+          "url": "https://www.newswise.com/articles/new-guidelines-on-aromatase-inhibitors-for-breast-cancer-prevention"
+        },
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "Exemestane: Breast Cancer Uses, Warnings, Side Effects, Dosage",
+          "url": "https://www.medicinenet.com/exemestane/article.htm"
+        },
+        {
+          "title": "(PDF) Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://www.researchgate.net/publication/224957911_Exemestane_for_Breast_Cancer_Prevention_A_Critical_Shift"
+        },
+        {
+          "title": "Exemestane: uses, dosing, warnings, adverse events, interactions",
+          "url": "https://www.oncologynewscentral.com/drugs/monograph/17764-399038/exemestane-oral"
+        },
+        {
+          "title": "(PDF) Exemestane for breast cancer prevention: a critical shift?",
+          "url": "https://www.academia.edu/18729465/Exemestane_for_breast_cancer_prevention_a_critical_shift"
+        },
+        {
+          "title": "A Randomized Study of The Effect of... | Dana-Farber Cancer Institute",
+          "url": "https://www.dana-farber.org/clinical-trials/05-064"
+        },
+        {
+          "title": "Breast Cancer Risk Assessment Tool: Online Calculator - NCI",
+          "url": "https://bcrisktool.cancer.gov/"
+        }
+      ]
+    },
+    {
+      "query": "USPSTF breast cancer medications risk reduction aromatase inhibitors exemestane evidence",
+      "results": [
+        {
+          "title": "Breast Cancer: Medication Use to Reduce Risk",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-medications-for-risk-reduction"
+        },
+        {
+          "title": "Evidence Summary: Breast Cancer: Medication Use to Reduce Risk",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/evidence-summary/breast-cancer-medications-for-risk-reduction"
+        },
+        {
+          "title": "USPSTF breast cancer chemoprevention recommendations... | MDedge",
+          "url": "https://www.mdedge.com/breast-cancer-icymi/article/77812/oncology/uspstf-breast-cancer-chemoprevention-recommendations-were"
+        },
+        {
+          "title": "Aromatase Inhibitors for Breast Cancer in Postmenopausal Women",
+          "url": "https://www.academia.edu/10556781/Aromatase_Inhibitors_for_Breast_Cancer_in_Postmenopausal_Women"
+        },
+        {
+          "title": "Anastrozole May Decrease Risk of Breast Cancer in High-Risk...",
+          "url": "https://about.ebsco.com/clinical-decisions/dynamed-solutions/about/ebm-focus/anastrozole-may-decrease-risk-breast-cancer"
+        },
+        {
+          "title": "Prescription of Tamoxifen for Breast Cancer Prevention by Primary...",
+          "url": "https://www.researchgate.net/publication/6695569_Prescription_of_Tamoxifen_for_Breast_Cancer_Prevention_by_Primary_Care_Physicians"
+        },
+        {
+          "title": "Aromatase Inhibitors: Did you decide to go on them or not?",
+          "url": "https://connect.mayoclinic.org/discussion/arimidex/?pg=126"
+        },
+        {
+          "title": "Comparing breast cancer and cardiovascular risk among women...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12729956/"
+        }
+      ]
+    },
+    {
+      "query": "exemestane prevention trial long term follow up breast cancer incidence MAP.3 limitations",
+      "results": [
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal Women",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507"
+        },
+        {
+          "title": "Quality of life in MAP.3 (Mammary ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/718342710/"
+        },
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "(PDF) Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://www.researchgate.net/publication/224957911_Exemestane_for_Breast_Cancer_Prevention_A_Critical_Shift"
+        },
+        {
+          "title": "Exemestane Prevents Invasive and Preinvasive Breast Cancers in...",
+          "url": "https://ascopost.com/issues/july-15-2011/exemestane-prevents-invasive-and-preinvasive-breast-cancers-in-map3-trial/"
+        },
+        {
+          "title": "Exemestane Prevents 65% of Invasive Breast Cancers in... | MDedge",
+          "url": "https://www.mdedge.com/breast-cancer-icymi/article/35454/womens-health/exemestane-prevents-65-invasive-breast-cancers"
+        },
+        {
+          "title": "Exemestane -- A New Option for Breast Cancer Prevention",
+          "url": "https://www.medscape.com/viewarticle/743993"
+        },
+        {
+          "title": "The burden of breast cancer from China to Italy - Levaggi - Journal of...",
+          "url": "https://jtd.amegroups.org/article/view/2663/html"
+        }
+      ]
+    },
+    {
+      "query": "MAP.3 exemestane trial 4560 hazard ratio 0.35 95 confidence interval adverse events fractures cardiovascular mortality",
+      "results": [
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/Nejmoa1103507"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal Women",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1103507"
+        },
+        {
+          "title": "\"Exemestane for breast-cancer prevention in postmenopausal ...",
+          "url": "https://hsrc.himmelfarb.gwu.edu/smhs_medicine_facpubs/4806/"
+        },
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "Exemestane for primary prevention of breast cancer in ...",
+          "url": "https://academic.oup.com/ajhp/article-abstract/69/16/1384/5111903"
+        },
+        {
+          "title": "Exemestane for primary prevention of breast cancer in ...",
+          "url": "https://ascopubs.org/doi/10.1200/jco.2011.29.18_suppl.lba504"
+        },
+        {
+          "title": "Exemestane reduces breast cancer in post-menopausal women at ...",
+          "url": "https://ecancer.org/en/news/1893-exemestane-reduces-breast-cancer-in-post-menopausal-women-at-risk-for-this-disease-trial-results-now-published"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal Women",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507"
+        }
+      ]
+    },
+    {
+      "query": "FDA Aromasin exemestane prescribing information indication breast cancer prevention",
+      "results": [
+        {
+          "title": "Exemestane - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Exemestane"
+        },
+        {
+          "title": "DailyMed - AROMASIN- exemestane tablet",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3"
+        },
+        {
+          "title": "Breast Cancer Prevention: Aromatase Inhibitors | American Cancer...",
+          "url": "https://www.cancer.org/cancer/types/breast-cancer/risk-and-prevention/aromatase-inhibitors-for-lowering-breast-cancer-risk.html"
+        },
+        {
+          "title": "Aromasin (exemestane) dosing, indications, interactions, adverse...",
+          "url": "https://reference.medscape.com/drug/aromasin-exemestane-342216"
+        },
+        {
+          "title": "Exemestane (Aromasin®) | OncoLink",
+          "url": "https://www.oncolink.org/cancer-treatment/oncolink-rx/exemestane-aromasin-r"
+        },
+        {
+          "title": "Exemestane: Side Effects, Interactions, & Reviews from Patients...",
+          "url": "https://www.inspire.com/treatment/exemestane/"
+        },
+        {
+          "title": "Full prescribing information",
+          "url": "https://hemonc.org/w/images/b/b9/Exemestane.pdf"
+        },
+        {
+          "title": "Drugs Approved for Breast Cancer - NCI",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/breast"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:13:31.917+00:00",
+  "status": "judged",
+  "system": "terra"
+}

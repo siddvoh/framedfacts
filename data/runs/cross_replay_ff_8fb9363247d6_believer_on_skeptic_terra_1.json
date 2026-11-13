@@ -1,0 +1,304 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208224Orig1s000LBL.pdf",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080",
+    "https://www.kyleenahcp.com/about-kyleena/efficacy"
+  ],
+  "claim_id": "ff_8fb9363247d6",
+  "completed_at": "2026-08-04T17:16:53.492+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208224Orig1s000LBL.pdf",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080",
+        "https://www.kyleenahcp.com/about-kyleena/efficacy"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes 'True' for the U.S. FDA-approved use, stating that Kyleena is FDA-approved to prevent pregnancy for up to five years with high cumulative efficacy over that period. Therefore, it clearly endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion: True (for U.S. FDA-approved use).** Kyleena, a 19.5-mg levonorgestrel-releasing intrauterine system, is FDA-approved/indicated to prevent pregnancy **for up to five years**. The FDA-approved label says it must be removed by the end of year five; if ongoing contraception is wanted, it may be replaced then. This means five years is the labeled maximum duration—not evidence that the same device remains approved or reliably effective beyond that point. [FDA label](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208224Orig1s000LBL.pdf)\n\n**Evidence behind the duration:** The prescribing information explicitly states the indication: prevention of pregnancy for up to five years. The U.S. National Library of Medicine’s DailyMed reproduces the official drug-label information. [DailyMed label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080)\n\nThe supporting contraceptive-efficacy study enrolled 1,452 generally healthy parous and nulliparous women aged 18–35. Reported results included a first-year Pearl Index of 0.16 (two pregnancies per the study reporting) and an estimated cumulative five-year pregnancy rate of 1.45% (13 pregnancies; upper 95% confidence limit 2.53%), corresponding to about 98.6% cumulative efficacy over five years. [Official HCP efficacy summary](https://www.kyleenahcp.com/about-kyleena/efficacy)\n\nThese data support the claim for the studied population, while individual suitability and risks require clinician assessment.",
+  "run_id": "cross_replay_ff_8fb9363247d6_believer_on_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "Kyleena prescribing information approved pregnancy prevention up to 5 years FDA",
+      "results": [
+        {
+          "title": "Kyleena IUD: Is It the Right Birth Control for You?",
+          "url": "https://www.verywellhealth.com/kyleena-iud-4119899"
+        },
+        {
+          "title": "FDA Approves Bayer's Kyleena™ (Levonorgestrel-Releasing...)",
+          "url": "https://www.prnewswire.com/news-releases/fda-approves-bayers-kyleena-levonorgestrel-releasing-intrauterine-system-195-mg-for-prevention-of-pregnancy-for-up-to-five-years-300330006.html"
+        },
+        {
+          "title": "Kyleena: Package Insert / Prescribing Information / MOA",
+          "url": "https://www.drugs.com/pro/kyleena.html"
+        },
+        {
+          "title": "Kyleena_PI",
+          "url": "https://labeling.bayerhealthcare.com/html/products/pi/Kyleena_PI.pdf"
+        },
+        {
+          "title": "Bayer announces FDA approval of Kyleena | American Pharmacy News",
+          "url": "https://americanpharmacynews.com/stories/511012062-bayer-announces-fda-approval-of-kyleena"
+        },
+        {
+          "title": "DailyMed - KYLEENA- levonorgestrel intrauterine device",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "KYLEENA Coupon, Savings Card and Patient Assistance",
+          "url": "https://nowpatient.com/medications/kyleena"
+        },
+        {
+          "title": "Kyleena dosage: Form, strength, how it's inserted, and more",
+          "url": "https://www.medicalnewstoday.com/articles/drugs-kyleena-dosage"
+        }
+      ]
+    },
+    {
+      "query": "Kyleena official US prescribing information efficacy 5 years Pearl Index",
+      "results": [
+        {
+          "title": "Kyleena® IUD | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/"
+        },
+        {
+          "title": "Prescribing Information | Ozempic® (semaglutide) injection 0.5 mg...",
+          "url": "https://www.ozempic.com/prescribing-information.html"
+        },
+        {
+          "title": "Why Wait 2 Weeks After Kyleena IUD Insertion? - ScienceInsights",
+          "url": "https://scienceinsights.org/why-wait-2-weeks-after-kyleena-iud-insertion/"
+        },
+        {
+          "title": "IUD Birth Control | Info About Mirena & Paragard IUDs",
+          "url": "https://www.plannedparenthood.org/learn/birth-control/iud"
+        },
+        {
+          "title": "List of 262 Birth Control Pills & Medicines Compared",
+          "url": "https://www.drugs.com/condition/contraception.html"
+        },
+        {
+          "title": "Twist & Tone Yoga - 45 Minute Yoga Class - Five Parks Yoga - YouTube",
+          "url": "https://www.youtube.com/watch?v=MfHv6q7qCvU"
+        },
+        {
+          "title": "Minute of Formulary Group Meeting held n Tuesday 15 May 2018",
+          "url": "https://www.nhsgrampian.org/globalassets/foidocument/foi-public-documents1---all-documents/fg20180515_foi.pdf"
+        },
+        {
+          "title": "FDA Approves Gwyn Lo Once-Weekly... - Endocrinology Advisor",
+          "url": "https://www.endocrinologyadvisor.com/news/fda-approves-gwyn-lo-low-dose-estrogen-contraceptive-patch/"
+        }
+      ]
+    },
+    {
+      "query": "Kyleena clinical trial 5 years contraceptive efficacy levonorgestrel intrauterine system",
+      "results": [
+        {
+          "title": "Kyleena® IUD Effectiveness | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/about-kyleena/efficacy"
+        },
+        {
+          "title": "FDA Green Lights Bayer's Five-Year Contraceptive Kyleena",
+          "url": "https://www.biospace.com/fda-green-lights-bayer-s-five-year-contraceptive-kyleena"
+        },
+        {
+          "title": "Results of a 5-year contraceptive trial in parous and nulliparous...",
+          "url": "https://www.researchgate.net/publication/312365084_Results_of_a_5-year_contraceptive_trial_in_parous_and_nulliparous_women_with_a_new_LNG-IUS"
+        },
+        {
+          "title": "Levonorgestrel Intrauterine System for Contraception: An Expert...",
+          "url": "https://www.jsafog.com/abstractArticleContentBrowse/JSAFOG/23231/JPJ/fullText"
+        },
+        {
+          "title": "Levonorgestrel-releasing intra-uterine systems as female...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29637798/"
+        },
+        {
+          "title": "Levonorgestrel (intrauterine route) - Side effects & uses - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/drugs-supplements/levonorgestrel-intrauterine-route/description/drg-20073437"
+        },
+        {
+          "title": "(PDF) Levonorgestrel Intrauterine System for Contraception: An...",
+          "url": "https://www.academia.edu/76480603/Levonorgestrel_Intrauterine_System_for_Contraception_An_Expert_Panel_Consensus_Statement"
+        },
+        {
+          "title": "Mirena, Skyla (levonorgestrel intrauterine) dosing, indications...",
+          "url": "https://reference.medscape.com/drug/mirena-skyla-levonorgestrel-intrauterine-342780"
+        }
+      ]
+    },
+    {
+      "query": "\"Kyleena\" \"cumulative 5-year pregnancy rate\"",
+      "results": [
+        {
+          "title": "EFFICACY AND BLEEDING PROFILE CONSIDERATIONS FOR KYLEENA AND ...",
+          "url": "https://www.mirenahcp.com/Kyl_Mir_Efficacy_Bleeding_Guide_Digital.pdf?inline"
+        },
+        {
+          "title": "Kyleena® IUD Effectiveness | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/about-kyleena/efficacy"
+        },
+        {
+          "title": "FDA Green Lights Bayer’s Five-Year Contraceptive Kyleena",
+          "url": "https://www.biospace.com/fda-green-lights-bayer-s-five-year-contraceptive-kyleena"
+        },
+        {
+          "title": "FDA Approves Bayer's Kyleena™ (Levonorgestrel-Releasing ...",
+          "url": "https://www.prnewswire.com/news-releases/fda-approves-bayers-kyleena-levonorgestrel-releasing-intrauterine-system-195-mg-for-prevention-of-pregnancy-for-up-to-five-years-300330006.html"
+        },
+        {
+          "title": "SAMPLE KYLEENA® (levonorgestrel-releasing intrauterine system)...",
+          "url": "https://www.whcsupport.com/Kyleena_Letter_of_Appeals.pdf"
+        },
+        {
+          "title": "Kyleena - Bayer HealthCare Pharmaceuticals Inc., Page 6",
+          "url": "https://rxdruglabels.com/lib/rx/rx-meds/kyleena/page/6/"
+        },
+        {
+          "title": "What happens after having Mirena for 5 years? – Tonyajoy.com",
+          "url": "https://tonyajoy.com/2022/09/14/what-happens-after-having-mirena-for-5-years/"
+        },
+        {
+          "title": "IN AN ONLINE SURVEY OF 1000 WOMEN CONSIDERING HORMONAL BIRTH ...",
+          "url": "https://www.kyleenahcp.com/PP_KYL_US_1230_1_Kyleena_Leave_Behind.pdf"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov Kyleena 19.5 mg five year trial",
+      "results": [
+        {
+          "title": "Checking your browser - reCAPTCHA - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36342694/"
+        },
+        {
+          "title": "Correction: The use of LNG-IUS-19.5 mg in daily ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38573356/"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35658024/"
+        },
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10025398/?dopt=Abstract"
+        },
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10034639/?dopt=Abstract"
+        },
+        {
+          "title": "Phase III trial in metastatic gastroesophageal adenocarcinoma with...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18349393/"
+        },
+        {
+          "title": "Contraceptive efficacy and safety of the 52-mg levonorgestrel ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36096186/"
+        },
+        {
+          "title": "RETRACTED: Hydroxychloroquine and azithromycin as a treatment of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32205204/"
+        }
+      ]
+    },
+    {
+      "query": "DailyMed Kyleena clinical studies Pearl Index 5 years 1.45",
+      "results": [
+        {
+          "title": "DailyMed - KYLEENA- levonorgestrel intrauterine device",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "Kyleena DailyMed Label - FDA.report",
+          "url": "https://fda.report/DailyMed/2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "EFFICACY AND BLEEDING PROFILE CONSIDERATIONS FOR KYLEENA AND ...",
+          "url": "https://www.kyleenahcp.com/media/2276/download"
+        },
+        {
+          "title": "Kyleena® IUD | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/"
+        },
+        {
+          "title": "Kyleena Intrauterine Device - FDA Label NDC 50419-424",
+          "url": "https://ndclist.com/ndc/50419-424/label"
+        },
+        {
+          "title": "Kyleena® IUD Effectiveness | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/about-kyleena/efficacy"
+        },
+        {
+          "title": "KYLEENA Prescription & Dosage Information - MPR",
+          "url": "https://www.empr.com/drug/kyleena/"
+        },
+        {
+          "title": "Kyleena and Mirena IUDs: Differences, benefits, and side effects",
+          "url": "https://www.singlecare.com/blog/kyleena-vs-mirena/"
+        }
+      ]
+    },
+    {
+      "query": "FDA Drugs@FDA Kyleena NDA 208224 approval 2016",
+      "results": [
+        {
+          "title": "Kyleena (levonorgestrel) FDA Approval History - Drugs.com",
+          "url": "https://www.drugs.com/history/kyleena.html"
+        },
+        {
+          "title": "New IUD Kyleena FDA Approved Hormonal Birth Control",
+          "url": "https://www.refinery29.com/en-us/2016/09/123657/new-iud-kyleena-fda-approved"
+        },
+        {
+          "title": "FDA extends Liletta IUD duration of use to 4 years | MDedge",
+          "url": "https://www.mdedge.com/obgyn/article/144232/contraception/fda-extends-liletta-iud-duration-use-4-years"
+        },
+        {
+          "title": "Food and Drug Administration (FDA) | USAGov",
+          "url": "https://www.usa.gov/agencies/food-and-drug-administration"
+        },
+        {
+          "title": "KYLEENA(LEVONORGESTREL) - 美国FDA药品数据库",
+          "url": "https://www.drugfuture.com/fda/nda208224_001.html"
+        },
+        {
+          "title": "208224Orig1s000 - Food and Drug Administration",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208224Orig1s000LBL.pdf"
+        },
+        {
+          "title": "Kyleena — FDA Orange Book Record (NDA 208224) | Assyro",
+          "url": "https://www.assyro.com/tools/fda-orange-book/product/kyleena"
+        },
+        {
+          "title": "KYLEENA — FDA Orange Book Record (NDA 208224) | Assyro",
+          "url": "https://www.assyro.com/tools/fda-orange-book/product/kyleena-nda-208224-001"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:16:42.446+00:00",
+  "status": "judged",
+  "system": "terra"
+}

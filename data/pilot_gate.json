@@ -1,0 +1,45 @@
+{
+  "all_passed": true,
+  "decision_include_kimi": true,
+  "evaluated_at": "2026-08-03T07:09:42.731+00:00",
+  "full_schedule_sha256": "be012ce99b73fea2cf9035404cd2aeecd1c09c4747bc0a96a29115b119f11093",
+  "gates": {
+    "agents_search_and_cite": {
+      "detail": "40 successful runs, mean 5.08 searches, 37 with extractable citations (92%)",
+      "passed": true
+    },
+    "audit_green_and_manual_review": {
+      "detail": "pilot audit is green with 0 errors; manual review of three raw files recorded",
+      "passed": true
+    },
+    "byok_verified": {
+      "detail": "v5 preflight record exists and passed",
+      "passed": true
+    },
+    "cost_within_budget": {
+      "passed": true
+    },
+    "directional_sanity": {
+      "detail": "4/25 believer and skeptic query labels are stance-congruent",
+      "passed": true
+    },
+    "judge_outputs_parse": {
+      "detail": "8/8 judgeable sampled runs have parse-valid judge output; 1 recorded terminal-invalid, 1 failed terminally",
+      "passed": true
+    },
+    "parity_and_reasoning": {
+      "detail": "all four systems accepted the unified config with reasoning evidence",
+      "passed": true
+    },
+    "resume_safety": {
+      "detail": "kill and restart evidence files are present",
+      "passed": true
+    }
+  },
+  "include_kimi": true,
+  "initial_full_schedule_sha256": "be012ce99b73fea2cf9035404cd2aeecd1c09c4747bc0a96a29115b119f11093",
+  "initial_trim_profile": "kimi_step1_glm_core_repeat2",
+  "last_trim_record_sha256": "61c6a4cb109b95e6f20fc365568c77cac08e5dd08504943b7575f150a573632c",
+  "trim_profile": "kimi_step1_glm_core_repeat2",
+  "trim_record_count": 1
+}

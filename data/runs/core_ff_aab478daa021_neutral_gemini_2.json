@@ -1,0 +1,250 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.cancer.org/cancer/risk-prevention/medical-treatments/abortion-and-breast-cancer-risk.html",
+    "https://www.cancer.gov/types/breast/abortion-miscarriage-risk",
+    "https://www.komen.org/breast-cancer/facts-statistics/research-studies/topics/abortion-and-breast-cancer-risk/",
+    "https://www.breastcancer.org/risk/risk-factors/abortion"
+  ],
+  "claim_id": "ff_aab478daa021",
+  "completed_at": "2026-08-04T00:39:13.566+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cancer.org/cancer/risk-prevention/medical-treatments/abortion-and-breast-cancer-risk.html",
+        "https://www.cancer.gov/types/breast/abortion-miscarriage-risk",
+        "https://www.komen.org/breast-cancer/facts-statistics/research-studies/topics/abortion-and-breast-cancer-risk/",
+        "https://www.breastcancer.org/risk/risk-factors/abortion"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that having an abortion does not increase a woman's risk of developing breast cancer, citing consensus from major scientific and medical organizations like the NCI, ACS, and ACOG. Therefore, it clearly rejects the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "abortion breast cancer risk scientific consensus",
+    "American Cancer Society abortion breast cancer risk",
+    "National Cancer Institute abortion breast cancer workshop meta-analysis Beral Lancet",
+    "ACOG American College Obstetricians Gynecologists induced abortion breast cancer risk",
+    "site:cancer.gov abortion breast cancer risk"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "### Conclusion\n\nHaving an abortion does **not** increase a woman's risk of developing breast cancer. Major medical, scientific, and public health organizations worldwide—including the National Cancer Institute (NCI), the American Cancer Society (ACS), and the American College of Obstetricians and Gynecologists (ACOG)—agree that there is no causal link between induced or spontaneous abortion and breast cancer.\n\n### Evidence Summary\n\n- **Methodological Bias in Early Studies:** Early retrospective case-control studies suggested a possible association, but researchers determined this was due to *recall bias* (women diagnosed with breast cancer reported past abortions more accurately than healthy controls).\n- **Prospective Cohort Studies:** Rigorous prospective studies, which record reproductive history before any cancer diagnosis, consistently show no increased risk of breast cancer following an abortion.\n- **Expert Consensus:** A landmark 2004 meta-analysis in *The Lancet* analyzed data from 53 epidemiological studies involving over 83,000 women across 16 countries and concluded that induced abortion does not increase breast cancer risk. The NCI convened an expert panel that reached the same conclusion.\n\n### Sources\n\n- **American Cancer Society:** https://www.cancer.org/cancer/risk-prevention/medical-treatments/abortion-and-breast-cancer-risk.html\n- **National Cancer Institute:** https://www.cancer.gov/types/breast/abortion-miscarriage-risk\n- **Susan G. Komen:** https://www.komen.org/breast-cancer/facts-statistics/research-studies/topics/abortion-and-breast-cancer-risk/\n- **Breastcancer.org:** https://www.breastcancer.org/risk/risk-factors/abortion",
+  "run_id": "core_ff_aab478daa021_neutral_gemini_2",
+  "search_backend": "web",
+  "search_count": 5,
+  "search_tool_queries": [
+    "abortion breast cancer risk scientific consensus",
+    "American Cancer Society abortion breast cancer risk",
+    "National Cancer Institute abortion breast cancer workshop meta-analysis Beral Lancet",
+    "ACOG American College Obstetricians Gynecologists induced abortion breast cancer risk",
+    "site:cancer.gov abortion breast cancer risk"
+  ],
+  "searches": [
+    {
+      "query": "abortion breast cancer risk scientific consensus",
+      "results": [
+        {
+          "title": "The Faulty Science of the Abortion-Breast Cancer Link - The Atlantic",
+          "url": "https://www.theatlantic.com/national/2013/12/inside-faulty-science-abortion-breast-cancer-link/355850/"
+        },
+        {
+          "title": "Do abortions cause breast cancer? Kansas State House Abortion...",
+          "url": "https://slate.com/technology/2012/05/do-abortions-cause-breast-cancer-kansas-state-house-abortion-act-invokes-shaky-science-for-political-gain.html"
+        },
+        {
+          "title": "PolitiFact Gets Facts Wrong on Abortion & Breast Cancer Link",
+          "url": "https://crisismagazine.com/opinion/politifact-gets-facts-wrong-on-abortion-breast-cancer-link"
+        },
+        {
+          "title": "Library : Abortion & Breast Cancer Link -- What the... | Catholic Culture",
+          "url": "https://www.catholicculture.org/culture/library/view.cfm?id=2902"
+        },
+        {
+          "title": "Delayed birth equals more cancers and preterm births - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1071422/"
+        },
+        {
+          "title": "The Link Between Abortion And Breast Cancer: Exploring... | MedShun",
+          "url": "https://medshun.com/article/do-women-who-abort-have-more-breast-cancer"
+        },
+        {
+          "title": "Weekend Read: How Abortion Hurts Women - LIBERTY FIRST",
+          "url": "https://libertyfirst.org/weekend-read-how-abortion-hurts-women/"
+        },
+        {
+          "title": "Abortion Hurts Women (Not To Mention Babies) - CultureWatch",
+          "url": "https://billmuehlenberg.com/2011/12/22/abortion-hurts-women-not-to-mention-babies/"
+        }
+      ]
+    },
+    {
+      "query": "American Cancer Society abortion breast cancer risk",
+      "results": [
+        {
+          "title": "Abortion and Breast Cancer Risk - American Cancer Society",
+          "url": "https://www.cancer.org/cancer/risk-prevention/medical-treatments/abortion-and-breast-cancer-risk.html"
+        },
+        {
+          "title": "Abortion and Breast Cancer Risk - Susan G. Komen®",
+          "url": "https://www.komen.org/breast-cancer/facts-statistics/research-studies/topics/abortion-and-breast-cancer-risk/"
+        },
+        {
+          "title": "Does Abortion Increase Breast Cancer Risk?",
+          "url": "https://www.breastcancer.org/risk/risk-factors/abortion"
+        },
+        {
+          "title": "Breast Cancer Risk and Prevention - American Cancer Society",
+          "url": "https://www.cancer.org/cancer/types/breast-cancer/risk-and-prevention.html"
+        },
+        {
+          "title": "Abortion and Breast Cancer Risk - American Cancer Society",
+          "url": "https://qa.cancer.org/content/dam/CRC/PDF/Public/6727.00.pdf"
+        },
+        {
+          "title": "Reproductive History and Cancer Risk - NCI",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/reproductive-history-fact-sheet"
+        },
+        {
+          "title": "Reproductive Choices of Young Women Affecting Future Breast ...",
+          "url": "https://acpeds.org/reproductive-choices-of-young-women-affecting-future-breast-cancer-risk/"
+        },
+        {
+          "title": "Is abortion a breast cancer risk? | WORLD",
+          "url": "https://wng.org/sift/is-abortion-a-breast-cancer-risk-1617251962"
+        }
+      ]
+    },
+    {
+      "query": "National Cancer Institute abortion breast cancer workshop meta-analysis Beral Lancet",
+      "results": [
+        {
+          "title": "Abortion–breast cancer hypothesis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abortion–breast_cancer_hypothesis"
+        },
+        {
+          "title": "2003 Early Reproductive Events Workshop - NCI",
+          "url": "https://www.cancer.gov/types/breast/abortion-miscarriage-risk"
+        },
+        {
+          "title": "Abortion–breast cancer hypothesis definition and... | sensagent editor",
+          "url": "https://dictionary.sensagent.com/Abortion–breast+cancer+hypothesis/en-en/"
+        },
+        {
+          "title": "The Abortion–Breast Cancer",
+          "url": "https://www.pdcnet.org/C1257D43006C9AB1/file/FFC9DCCEA99668D785257D97006CA18D/$FILE/ncbq_2005_0005_0002_0091_0117.pdf"
+        },
+        {
+          "title": "The Abortion-Breast Cancer Link Revisited - Page 2 of 2 - Action Life",
+          "url": "https://www.actionlife.org/the-abortion-breast-cancer-link-revisited/2/"
+        },
+        {
+          "title": "thelancet.com/article/S0140-6736(18)31571-X/fulltext",
+          "url": "https://www.thelancet.com/article/S0140-6736(18)31571-X/fulltext"
+        },
+        {
+          "title": "Abortion breast cancer studies - Conservapedia",
+          "url": "https://www.conservapedia.com/Abortion_breast_cancer_studies"
+        },
+        {
+          "title": "Apparently, the National Cancer Institute’s Tweeter... - People v. State",
+          "url": "https://www.peoplevstate.com/?p=2416"
+        }
+      ]
+    },
+    {
+      "query": "ACOG American College Obstetricians Gynecologists induced abortion breast cancer risk",
+      "results": [
+        {
+          "title": "Home | ACOG",
+          "url": "https://www.acog.org/"
+        },
+        {
+          "title": "Top Myths DEBUNKED: The American College of Obstetricians and...",
+          "url": "https://www.liveaction.org/news/top-myths-debunked-american-college-obstetricians-gynecologists"
+        },
+        {
+          "title": "Supreme Court: The first abortion case of the Amy Coney Barrett... | Vox",
+          "url": "https://www.vox.com/2020/12/17/22178362/supreme-court-abortion-amy-coney-barrett-fda-american-college-obstetricians-gynecologists"
+        },
+        {
+          "title": "(PDF) The Care of Women Requesting Induced Abortion The Care of...",
+          "url": "https://www.academia.edu/36125035/The_Care_of_Women_Requesting_Induced_Abortion_The_Care_of_Women_Requesting_Induced_Abortion_Evidence_based_Clinical_Guideline_Number_7"
+        },
+        {
+          "title": "Bacterial Vaginosis is Not an Independent Risk Factor for Human...",
+          "url": "https://acog.multilearning.com/acog/2026/2026-acog-annual-clinical-and-scientific-meeting/4200337/erica.gan.3Cb3Ebacterial.vaginosis.is.not.an.independent.risk.factor.for.human.html?f=c_id=174976"
+        },
+        {
+          "title": "More U.S. obstetrician-gynecologists are providing abortion now...",
+          "url": "https://www.ansirh.org/research/research/more-us-obstetrician-gynecologists-are-providing-abortion-now-2009"
+        },
+        {
+          "title": "American College Of Obstetricians And Gynecologists Guidelines...",
+          "url": "https://doku.pub/documents/doku.pub-el9v6rp2orqy"
+        },
+        {
+          "title": "Thornburgh v. American College of Obstetricians... - JRank Articles",
+          "url": "https://law.jrank.org/pages/13314/Thornburgh-v-American-College-Obstetricians-Gynecologists-Further-Readings.html"
+        }
+      ]
+    },
+    {
+      "query": "site:cancer.gov abortion breast cancer risk",
+      "results": [
+        {
+          "title": "Breast Cancer Risk Assessment Tool: Online Calculator - NCI",
+          "url": "https://bcrisktool.cancer.gov/"
+        },
+        {
+          "title": "Breast Cancer Risk Assessment Calculator - NCI",
+          "url": "https://bcrisktool.cancer.gov/calculator.html"
+        },
+        {
+          "title": "Causes and Risk Factors | Breast Cancer - NCI",
+          "url": "https://www.cancer.gov/types/breast/causes-risk-factors"
+        },
+        {
+          "title": "Abortion, Miscarriage, and Breast Cancer Risk: 2003 Workshop",
+          "url": "https://www.cancer.gov/types/breast/abortion-miscarriage-risk"
+        },
+        {
+          "title": "Reproductive History and Cancer Risk - NCI",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/reproductive-history-fact-sheet"
+        },
+        {
+          "title": "Oral Contraceptives (Birth Control Pills) and Cancer Risk",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/oral-contraceptives-fact-sheet"
+        },
+        {
+          "title": "Diethylstilbestrol (DES) Exposure and Cancer - NCI",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/des-fact-sheet"
+        },
+        {
+          "title": "DES Follow-up Study at the National Cancer Institute - NCI",
+          "url": "https://dceg.cancer.gov/research/what-we-study/des-study"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T00:27:15.728+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

@@ -1,0 +1,195 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+    "https://archive.connect.h1.co/article/1121766/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4010873/",
+    "https://kpjmd.com/ask/is-arthroscopic-surgery-effective-knee-osteoarthritis/"
+  ],
+  "claim_id": "ff_e4d9c8b1dce8",
+  "completed_at": "2026-08-04T17:29:25.312+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.aetna.com/cpb/medical/data/600_699/0673.html",
+        "https://archive.connect.h1.co/article/1121766/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4010873/",
+        "https://kpjmd.com/ask/is-arthroscopic-surgery-effective-knee-osteoarthritis/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that routine knee arthroscopy is not effective for treating osteoarthritis of the knee joint compared to non-surgical treatments or placebo, citing multiple high-quality studies and clinical practice guidelines.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "84dc48069e616b91a0e0cb90076077caef6d49be58b396a9b5ac0c272b7495cd",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "### Conclusion\n**No**, routine knee arthroscopy (joint endoscopy)—such as arthroscopic lavage or debridement—is not effective for treating osteoarthritis (OA) of the knee joint compared to non-surgical treatments or placebo.\n\n### Evidence Behind the Answer\nMultiple high-quality studies and clinical practice guidelines confirm that arthroscopy provides no significant advantage in pain relief or functional improvement for knee OA:\n\n1. **No Superiority Over Placebo**: A landmark placebo-controlled randomized controlled trial (RCT) led by Moseley et al. (2002) demonstrated that patients undergoing arthroscopic debridement or lavage experienced no greater relief in pain or joint function than those receiving a sham (placebo) procedure (https://www.aetna.com/cpb/medical/data/600_699/0673.html).\n2. **No Added Benefit Over Physical/Medical Therapy**: A pivotal 2008 RCT by Kirkley et al. showed that adding arthroscopic surgery to optimized medical and physical therapy produced no additional benefits in physical function, stiffness, or pain (https://archive.connect.h1.co/article/1121766/, https://pmc.ncbi.nlm.nih.gov/articles/PMC4010873/).\n3. **Clinical Guidelines**: Major orthopaedic bodies, including the American Academy of Orthopaedic Surgeons (AAOS), advise against performing arthroscopic debridement or lavage for patients with primary knee osteoarthritis (https://www.aetna.com/cpb/medical/data/600_699/0673.html). \n\nGiven these findings, standard medical guidelines support conservative management—such as structured physical therapy, exercise, and medication—over arthroscopic surgery for managing knee osteoarthritis (https://kpjmd.com/ask/is-arthroscopic-surgery-effective-knee-osteoarthritis/).\n\n### Sources Relyed On\n- https://www.aetna.com/cpb/medical/data/600_699/0673.html\n- https://archive.connect.h1.co/article/1121766/\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC4010873/\n- https://kpjmd.com/ask/is-arthroscopic-surgery-effective-knee-osteoarthritis/",
+  "run_id": "cross_replay_ff_e4d9c8b1dce8_skeptic_on_believer_gemini_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "knee arthroscopy osteoarthritis effectiveness evidence randomized controlled trial",
+      "results": [
+        {
+          "title": "Arthroscopic surgery is not superior to conservative treatment in knee...",
+          "url": "https://link.springer.com/article/10.1186/s12891-024-07813-3"
+        },
+        {
+          "title": "Arthroscopy as a Treatment for Knee Osteoarthritis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2818323/"
+        },
+        {
+          "title": "NG226 Evidence review N",
+          "url": "https://www.nice.org.uk/guidance/ng226/evidence/n-clinical-and-cost-effectiveness-of-arthroscopic-procedures-for-the-management-of-osteoarthritis-pdf-405016302427"
+        },
+        {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical... | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html"
+        },
+        {
+          "title": "A randomized trial of arthroscopic ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1121766/"
+        },
+        {
+          "title": "(PDF) Arthroscopic treatment for osteoarthritic knee",
+          "url": "https://www.academia.edu/67341617/Arthroscopic_treatment_for_osteoarthritic_knee"
+        },
+        {
+          "title": "Is arthroscopic surgery effective for knee osteoarthritis?",
+          "url": "https://kpjmd.com/ask/is-arthroscopic-surgery-effective-knee-osteoarthritis/"
+        },
+        {
+          "title": "Research disputes effectiveness of arthroscopic surgery for knee OA",
+          "url": "https://www.healio.com/news/orthopedics/20120325/research-disputes-effectiveness-of-arthroscopic-surgery-for-knee-oa"
+        }
+      ]
+    },
+    {
+      "query": "Moseley 2002 Kirkley 2008 knee arthroscopy osteoarthritis",
+      "results": [
+        {
+          "title": "The role of arthroscopy in the management of knee osteoarthritis...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4010873/"
+        },
+        {
+          "title": "Arthroscopic Treatment of Osteoarthritis",
+          "url": "https://suxeed.blob.core.windows.net/docs/Arthroscopic+Treatment+of+Knee+Osteoarthritis.pdf"
+        },
+        {
+          "title": "Arthroscopic debridement of the knee for osteoarthritis: Is it ever...",
+          "url": "https://www.healio.com/news/orthopedics/20120325/arthroscopic-debridement-of-the-knee-for-osteoarthritis-is-it-ever-indicated"
+        },
+        {
+          "title": "Trends in elective knee arthroscopies in a population-based cohort...",
+          "url": "https://www.mja.com.au/journal/2012/197/7/trends-elective-knee-arthroscopies-population-based-cohort-2000-2009"
+        },
+        {
+          "title": "(PDF) Arthroscopic treatment for osteoarthritic knee",
+          "url": "https://www.academia.edu/67341617/Arthroscopic_treatment_for_osteoarthritic_knee"
+        },
+        {
+          "title": "7.01.549 Knee Arthroscopy in Adults",
+          "url": "https://www.premera.com/medicalpolicies/7.01.549.pdf"
+        },
+        {
+          "title": "Arthroscopy for Knee Osteoarthritis Has Not Decreased After...",
+          "url": "https://www.researchgate.net/publication/281171521_Arthroscopy_for_Knee_Osteoarthritis_Has_Not_Decreased_After_a_Clinical_Trial"
+        },
+        {
+          "title": "The role of arthroscopy in the management of knee osteoarthritis",
+          "url": "https://musculoskeletalkey.com/the-role-of-arthroscopy-in-the-management-of-knee-osteoarthritis/"
+        }
+      ]
+    },
+    {
+      "query": "AAOS clinical practice guideline arthroscopy knee osteoarthritis recommendation",
+      "results": [
+        {
+          "title": "Management of Osteoarthritis of the",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+        },
+        {
+          "title": "(PDF) AAOS Clinical Practice Guideline: Surgical Management of...",
+          "url": "https://www.researchgate.net/publication/304630062_AAOS_Clinical_Practice_Guideline_Surgical_Management_of_Osteoarthritis_of_the_Knee_Evidence-based_Guideline"
+        },
+        {
+          "title": "Treatment of Osteoarthritis of the Knee, 2 nd edition",
+          "url": "https://da7648.approby.com/m/c1787184467e2398.pdf"
+        },
+        {
+          "title": "Knee Arthroscopy / Osteoarthritis of the Knee - Medical Clinical...",
+          "url": "https://www.aetna.com/cpb/medical/data/600_699/0673.html"
+        },
+        {
+          "title": "(PDF) American Academy of Orthopaedic Surgeons Clinical...",
+          "url": "https://www.academia.edu/104659559/American_Academy_of_Orthopaedic_Surgeons_Clinical_Practice_Guideline_on"
+        },
+        {
+          "title": "American Academy of Orthopaedic Surgeons Clinical Practice...",
+          "url": "https://scispace.com/papers/american-academy-of-orthopaedic-surgeons-clinical-practice-3h8v2xctah"
+        },
+        {
+          "title": "How should we diagnose and treat osteoarthritis of the knee? | MDedge",
+          "url": "https://www.mdedge.com/familymedicine/article/65514/rheumatology/how-should-we-diagnose-and-treat-osteoarthritis-knee"
+        },
+        {
+          "title": "Knee osteoarthritis: New update summary",
+          "url": "https://www.m3india.in/contents/editor_pick/knee-osteoarthritis-new-update"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review arthroscopic surgery knee osteoarthritis summary",
+      "results": [
+        {
+          "title": "Arthroscopic Lavage and Debridement for Osteoarthritis of the Knee...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3382413/"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full"
+        },
+        {
+          "title": "Is arthroscopic surgery effective for knee osteoarthritis?",
+          "url": "https://kpjmd.com/ask/is-arthroscopic-surgery-effective-knee-osteoarthritis/"
+        },
+        {
+          "title": "Knee Arthroscopy (Surgery). Complex Meniscus Tear. Patient Review.",
+          "url": "https://www.youtube.com/watch?v=iRP-V8C8oFY"
+        },
+        {
+          "title": "A randomized trial of arthroscopic ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1121766/"
+        },
+        {
+          "title": "Knee Osteoarthritis",
+          "url": "https://mokyingren.sg/exit-exams-viva-prep/knee-osteoarthritis"
+        },
+        {
+          "title": "Mini Arthrotomy in the Management of Primary Osteoarthritis of the...",
+          "url": "https://journalajrs.com/index.php/AJRS/article/view/404"
+        },
+        {
+          "title": "What Is Osteoarthritis? | Physical Therapy located in Bonita Springs, FL",
+          "url": "https://www.bridgingthegappt.com/post/what-is-osteoarthritis"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:29:13.264+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

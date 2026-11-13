@@ -1,0 +1,370 @@
+{
+  "arm": "kimi",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+    "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1916904",
+    "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541",
+    "https://www.nature.com/articles/mp2016167"
+  ],
+  "claim_id": "ff_910ba6d5879f",
+  "completed_at": "2026-08-03T23:36:43.158+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+        "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1916904",
+        "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541",
+        "https://www.nature.com/articles/mp2016167"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported and 'true for symptom reduction in chronic inflammatory conditions', citing meta-analyses showing a statistically significant antidepressant effect in this population.",
+      "label": "endorses"
+    }
+  },
+  "model": "moonshotai/kimi-k3:exacto",
+  "params_hash": "5b73edffbd5cb9dfcfede042e73a6ddc3775e3026bc39efa7340eed875692c3a",
+  "queries": [
+    "anti-cytokine drugs depressive symptoms chronic inflammatory conditions meta-analysis",
+    "anti-inflammatory treatment depression randomized trial cytokine inhibitors",
+    "TNF alpha inhibitors depression rheumatoid arthritis psoriasis mood",
+    "Kappelmann anti-cytokine treatment depression meta-analysis 2018",
+    "Kappelmann 2016 Molecular Psychiatry anti-cytokine depression effect size SMD 0.40 adalimumab etanercept",
+    "anti-cytokine depression meta-analysis limitations heterogeneity secondary outcome criticism",
+    "adalimumab psoriasis depression randomized controlled trial depressive symptoms independent of skin improvement",
+    "infliximab treatment resistant depression trial Raison 2013 CRP baseline inflammation"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion: Supported, but with important qualifiers.** In people with chronic inflammatory diseases, anti-cytokine drugs show a **modest antidepressant effect**, not a robust stand-alone depression treatment. The strongest evidence is a *Molecular Psychiatry* systematic review/meta-analysis of RCTs in chronic inflammatory conditions where depression was a secondary outcome: anti-cytokine treatment beat placebo (SMD ≈ 0.40, 95% CI 0.22–0.59); anti-TNF agents were most studied (SMD ≈ 0.33), and adalimumab, etanercept, infliximab and tocilizumab each improved depressive symptoms. Crucially, response tracked **baseline depressive severity** and was **not explained by improvement in the physical illness**, suggesting a specific mood effect rather than only “feeling better because disease improved.” https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/\n\nA broader JAMA Psychiatry meta-analysis likewise found anti-inflammatory treatments (NSAIDs and cytokine inhibitors) reduced depressive symptoms versus placebo, supporting a real but moderate signal. https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1916904\n\nHowever, in primary treatment-resistant depression, infliximab was **not generally effective**; benefit appeared mainly in patients with high baseline inflammation (e.g., elevated hs-CRP). This implies the effect is context- and biomarker-dependent, not universal. https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541\n\nCaveats: many trials measured depression secondarily, samples had inflammatory disease, effects are modest, heterogeneity and safety/immunosuppression matter. So the claim is **true for symptom reduction in chronic inflammatory conditions**, especially with higher baseline inflammation/severe symptoms, but should not be read as proof that anti-cytokine drugs are general antidepressants. https://www.nature.com/articles/mp2016167",
+  "run_id": "kimi_ff_910ba6d5879f_neutral_kimi_1",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "anti-cytokine drugs depressive symptoms chronic inflammatory conditions meta-analysis",
+    "anti-inflammatory treatment depression randomized trial cytokine inhibitors",
+    "TNF alpha inhibitors depression rheumatoid arthritis psoriasis mood",
+    "Kappelmann anti-cytokine treatment depression meta-analysis 2018",
+    "Kappelmann 2016 Molecular Psychiatry anti-cytokine depression effect size SMD 0.40 adalimumab etanercept",
+    "anti-cytokine depression meta-analysis limitations heterogeneity secondary outcome criticism",
+    "adalimumab psoriasis depression randomized controlled trial depressive symptoms independent of skin improvement",
+    "infliximab treatment resistant depression trial Raison 2013 CRP baseline inflammation"
+  ],
+  "searches": [
+    {
+      "query": "anti-cytokine drugs depressive symptoms chronic inflammatory conditions meta-analysis",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "(PDF) Antidepressant Activity of Anti-Cytokine Treatment...",
+          "url": "https://www.researchgate.net/publication/309270309_Antidepressant_Activity_of_Anti-Cytokine_Treatment_A_Systematic_Review_and_Meta-analysis_of_Clinical_Trials_of_Chronic_Inflammatory_Conditions"
+        },
+        {
+          "title": "Anti-inflammatory drugs could treat symptoms of depression",
+          "url": "https://pharmaceutical-journal.com/article/news/anti-inflammatory-drugs-could-treat-symptoms-of-depression"
+        },
+        {
+          "title": "Anti-inflammatory drugs can relieve symptoms of depression",
+          "url": "https://www.newscientist.com/article/2109382-anti-inflammatory-drugs-can-relieve-symptoms-of-depression/"
+        },
+        {
+          "title": "New Anti-Inflammatory Drugs May Help Treat Depression",
+          "url": "https://www.livescience.com/56519-anti-inflammatory-drugs-depression.html"
+        },
+        {
+          "title": "Anti-inflammatory drugs might someday treat depression | CNN",
+          "url": "https://www.cnn.com/2016/10/18/health/anti-inflammatory-drugs-depression"
+        },
+        {
+          "title": "Anti-cytokine Drugs Could Help Treat Depression Symptoms",
+          "url": "https://sciencebeta.com/anti-cytokinedrugs-depression/"
+        },
+        {
+          "title": "Anti-Inflammatory Drugs For Depression? The Link You Need To...",
+          "url": "https://www.medicaldaily.com/anti-inflammatory-drugs-depression-link-you-need-know-about-307780"
+        }
+      ]
+    },
+    {
+      "query": "anti-inflammatory treatment depression randomized trial cytokine inhibitors",
+      "results": [
+        {
+          "title": "Effect of Anti-inflammatory Treatment on Depression",
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1916904"
+        },
+        {
+          "title": "Effect of anti-inflammatory treatment on depressive symptom ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12910469/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "“Inflamed” depression: A review of the interactions between ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1043661824002676"
+        },
+        {
+          "title": "Anti-inflammatory Intervention in Depression - JAMA Network",
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2290682"
+        },
+        {
+          "title": "EFFICACY OF ANTI-INFLAMMATORY TREATMENT ON PATIENTS WITH MOOD ...",
+          "url": "https://academic.oup.com/ijnp/article/28/Supplement_1/i282/8010052"
+        },
+        {
+          "title": "Effect of anti-inflammatory treatment on depression ...",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK291981/"
+        },
+        {
+          "title": "Efficacy of anti‐inflammatory treatment on major depressive disorder...",
+          "url": "https://www.researchgate.net/publication/331525962_Efficacy_of_anti-inflammatory_treatment_on_major_depressive_disorder_or_depressive_symptoms_Meta-analysis_of_clinical_trials"
+        }
+      ]
+    },
+    {
+      "query": "TNF alpha inhibitors depression rheumatoid arthritis psoriasis mood",
+      "results": [
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428291/"
+        },
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://www.mdpi.com/1422-0067/26/17/8361"
+        },
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://www.preprints.org/manuscript/202507.2669"
+        },
+        {
+          "title": "The Role of Tumor Necrosis Factor Alpha (TNF-α) in Autoimmune ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7962638/"
+        },
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://www.semanticscholar.org/paper/Beyond-Joints:-Neuropsychiatric-Benefits-of-TNF-α-Siuchnińska-Minarowska/703e564731c241eeb031ea867dece0ee90b3344e"
+        },
+        {
+          "title": "Anti-TNF-α therapy induced psoriasis in rheumatoid arthritis ...",
+          "url": "https://www.nature.com/articles/s41598-023-37010-6"
+        },
+        {
+          "title": "TNF alpha Inhibition as Treatment Modality for Certain Rheumatologic...",
+          "url": "https://www.eurekaselect.com/article/29805"
+        },
+        {
+          "title": "TNFα-dependent anhedonia and upregulation of hippocampal serotonin...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29723540/"
+        }
+      ]
+    },
+    {
+      "query": "Kappelmann anti-cytokine treatment depression meta-analysis 2018",
+      "results": [
+        {
+          "title": "Characterizing the Role of Neuroinflammation in Depression Using...",
+          "url": "https://criticaldebateshsgj.scholasticahq.com/article/160313-characterizing-the-role-of-neuroinflammation-in-depression-using-free-water-mri-biomarkers-and-investigating-its-therapeutic-relevance"
+        },
+        {
+          "title": "How Inflammation Can Drive Depression",
+          "url": "https://www.brainfacts.org/diseases-and-disorders/immune-system-disorders/2025/how-inflammation-can-drive-depression-100125"
+        },
+        {
+          "title": "Identifying leading anti-inflammatory dietary determinants of...",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10217342/1/Identifying+leading+anti-inflammatory+dietary+determinants+of+depression+and+loneliness+in+older+adults.pdf"
+        },
+        {
+          "title": "Identifying leading anti-inflammatory dietary determinants of...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12041756/"
+        },
+        {
+          "title": "The prevalence and correlation of depression and anxiety with disease...",
+          "url": "https://reu.termedia.pl/The-prevalence-and-correlation-of-depression-and-anxiety-with-disease-activity-in,154905,0,2.html"
+        },
+        {
+          "title": "Dissecting the Association Between Inflammation, Metabolic...",
+          "url": "https://www.amedeolucente.it/public/Dissecting+the+Association+Between+Inflammation,+Metabolic+Dysregulation,+and+Specific+Depressive+Symptoms.pdf"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        }
+      ]
+    },
+    {
+      "query": "Kappelmann 2016 Molecular Psychiatry anti-cytokine depression effect size SMD 0.40 adalimumab etanercept",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167.pdf"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0889159117302507"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/1522181/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://paperity.org/p/137629244/antidepressant-activity-of-anti-cytokine-treatment-a-systematic-review-and-meta-analysis"
+        },
+        {
+          "title": "(PDF) Antidepressant Activity of Anti-Cytokine Treatment...",
+          "url": "https://www.researchgate.net/publication/309270309_Antidepressant_Activity_of_Anti-Cytokine_Treatment_A_Systematic_Review_and_Meta-analysis_of_Clinical_Trials_of_Chronic_Inflammatory_Conditions"
+        }
+      ]
+    },
+    {
+      "query": "anti-cytokine depression meta-analysis limitations heterogeneity secondary outcome criticism",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167.pdf"
+        },
+        {
+          "title": "Peripheral cytokine levels and response to antidepressant ...",
+          "url": "https://www.nature.com/articles/s41380-019-0474-5.pdf"
+        },
+        {
+          "title": "Evaluation of inflammatory cytokines in drug-naïve major ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/03946320231198828"
+        },
+        {
+          "title": "Peripheral cytokine levels and response to antidepressant ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31427752/"
+        },
+        {
+          "title": "Altered Cytokine Levels in the First Episode of Major ... - MDPI",
+          "url": "https://www.mdpi.com/1422-0067/26/21/10362"
+        },
+        {
+          "title": "Inflammatory markers in depression: A meta-analysis of mean ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0889159119311912"
+        },
+        {
+          "title": "Frontiers | Cytokine Research in Depression: Principles, Challenges...",
+          "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00030/full"
+        }
+      ]
+    },
+    {
+      "query": "adalimumab psoriasis depression randomized controlled trial depressive symptoms independent of skin improvement",
+      "results": [
+        {
+          "title": "(PDF) The effect of adalimumab on reducing depression ...",
+          "url": "https://www.academia.edu/20315346/The_effect_of_adalimumab_on_reducing_depression_symptoms_in_patients_with_moderate_to_severe_psoriasis_A_randomized_clinical_trial"
+        },
+        {
+          "title": "Immune links in comorbid depression and psoriasis: A narrative...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11830344/"
+        },
+        {
+          "title": "Psoriasis, Depression, and Inflammatory Overlap: A Review",
+          "url": "https://link.springer.com/article/10.1007/s40257-017-0279-8"
+        },
+        {
+          "title": "(PDF) The Psoriasis-Depression Nexus: A Critical Review of Clinical...",
+          "url": "https://www.researchgate.net/publication/382241596_The_Psoriasis-Depression_Nexus_A_Critical_Review_of_Clinical_and_Biological_Underpinnings"
+        },
+        {
+          "title": "Depression and Suicidality in Psoriasis and Clinical Studies... | MDedge",
+          "url": "https://www.mdedge.com/dermatology/article/213773/psoriasis/depression-and-suicidality-psoriasis-and-clinical-studies"
+        },
+        {
+          "title": "Depression Test / Quiz | Psychology Today",
+          "url": "https://www.psychologytoday.com/us/tests/health/depression-test"
+        },
+        {
+          "title": "Symptoms - Depression in adults - NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/symptoms/"
+        },
+        {
+          "title": "Adalimumab-adaz: Package Insert / Prescribing Info / MOA",
+          "url": "https://www.drugs.com/pro/adalimumab-adaz.html"
+        }
+      ]
+    },
+    {
+      "query": "infliximab treatment resistant depression trial Raison 2013 CRP baseline inflammation",
+      "results": [
+        {
+          "title": "(Open Access) A Randomized Controlled Trial of the Tumor Necrosis...",
+          "url": "https://scispace.com/papers/a-randomized-controlled-trial-of-the-tumor-necrosis-factor-3gd6qbpjgt"
+        },
+        {
+          "title": "(PDF) A randomized controlled trial of the tumor necrosis factor...",
+          "url": "https://www.academia.edu/62498113/A_randomized_controlled_trial_of_the_tumor_necrosis_factor_antagonist_infliximab_for_treatment_resistant_depression_the_role_of_baseline_inflammatory_biomarkers"
+        },
+        {
+          "title": "Sci-Hub: A Randomized Controlled Trial of the Tumor Necrosis Factor...",
+          "url": "https://www.sci-hub.ru/10.1001/2013.jamapsychiatry.4"
+        },
+        {
+          "title": "Low-grade inflammation predicts",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/1467471/1/art_10.1007_s00213-015-3919-9-1.pdf"
+        },
+        {
+          "title": "A Study of Infliximab for Treatment Resistant Major Depression",
+          "url": "https://findtrial.co/trial/NCT00463580"
+        },
+        {
+          "title": "Anti-inflammatory treatment for major depressive... : Journal of...",
+          "url": "https://www.ovid.com/journals/jpsyc/fulltext/10.1177/0269881117711708~anti-inflammatory-treatment-for-major-depressive-disorder"
+        },
+        {
+          "title": "Low-grade inflammation predicts persistence of depressive symptoms",
+          "url": "https://link.springer.com/article/10.1007/s00213-015-3919-9"
+        },
+        {
+          "title": "A Randomized Controlled Trial of the Tumor Necrosis Factor ...",
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1356541"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T23:21:52.496+00:00",
+  "status": "judged",
+  "system": "kimi"
+}

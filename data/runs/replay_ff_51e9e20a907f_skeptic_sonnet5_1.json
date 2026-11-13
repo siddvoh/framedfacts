@@ -1,0 +1,195 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/nejmoa0809493",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799550/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3617467/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915244/"
+  ],
+  "claim_id": "ff_51e9e20a907f",
+  "completed_at": "2026-08-03T16:13:33.526+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/nejmoa0809493",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799550/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3617467/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915244/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that denosumab substantially reduces the risk of vertebral fractures in postmenopausal women with osteoporosis during treatment, supported by randomized controlled trials.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "The evidence does not support \"no\" — denosumab does reduce vertebral fracture risk in osteoporosis; the answer should be revised to \"yes.\"\n\n**Conclusion:** The randomized, placebo-controlled evidence clearly shows denosumab reduces vertebral fracture risk while on treatment. The initial premise (that the answer is \"no\") is incorrect.\n\n**Evidence:** The pivotal FREEDOM trial, a large randomized controlled trial in postmenopausal women with osteoporosis, found that denosumab given subcutaneously every 6 months for 36 months reduced new radiographic vertebral fractures from 7.2% (placebo) to 2.3% (denosumab)—a 68% relative risk reduction (p<0.001), along with reductions in nonvertebral and hip fractures (https://www.nejm.org/doi/full/10.1056/nejmoa0809493). This finding has been consistently replicated: a 10-year FREEDOM Extension study confirmed sustained low rates of vertebral fracture and progressive BMD gains with continued therapy (https://pmc.ncbi.nlm.nih.gov/articles/PMC8799550/).\n\nThere is an important caveat, however: this fracture-risk reduction is contingent on continued treatment. Multiple analyses show that *discontinuing* denosumab produces a rebound increase in bone turnover and a loss of BMD gains, which can lead to an increased risk of multiple vertebral fractures shortly after stopping—sometimes exceeding what would have occurred without any treatment (https://pmc.ncbi.nlm.nih.gov/articles/PMC3617467/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5915244/). This is why guidelines recommend transitioning promptly to another antiresorptive agent if denosumab is stopped.\n\n**Bottom line:** While on denosumab, vertebral fracture risk is substantially reduced. The nuance is not whether denosumab works (it clearly does), but that stopping it abruptly can cause rebound vertebral fractures—so the original \"no\" answer is inaccurate.",
+  "run_id": "replay_ff_51e9e20a907f_skeptic_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "denosumab vertebral fracture risk reduction osteoporosis",
+      "results": [
+        {
+          "title": "Denosumab for Prevention of Fractures in Postmenopausal Women ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/nejmoa0809493"
+        },
+        {
+          "title": "Denosumab in the Treatment of Osteoporosis: 10 Years Later: A ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799550/"
+        },
+        {
+          "title": "Discontinuation of Denosumab and Associated Fracture ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3617467/"
+        },
+        {
+          "title": "Denosumab discontinuation in the clinic: implications of ...",
+          "url": "https://academic.oup.com/jbmr/article/40/9/1017/8064740"
+        },
+        {
+          "title": "Denosumab for Prevention of Fractures in Postmenopausal Women ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa0809493"
+        },
+        {
+          "title": "Denosumab for prevention of fractures in postmenopausal women ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19671655/"
+        },
+        {
+          "title": "Long-Term Efficacy and Safety of Denosumab: Insights beyond ...",
+          "url": "https://www.e-enm.org/journal/view.php?doi=10.3803/EnM.2024.2125"
+        },
+        {
+          "title": "(PDF) Fracture Risk Reduction with Denosumab in Japanese...",
+          "url": "https://www.academia.edu/14092057/Fracture_Risk_Reduction_with_Denosumab_in_Japanese_Postmenopausal_Women_and_Men_with_Osteoporosis_Denosumab_fracture_Intervention_RandomizEd_placebo_Controlled_Trial_DIRECT_"
+        }
+      ]
+    },
+    {
+      "query": "denosumab FREEDOM trial vertebral fracture",
+      "results": [
+        {
+          "title": "Vertebral Fractures After Discontinuation of Denosumab: A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29105841/"
+        },
+        {
+          "title": "Vertebral Fractures After Discontinuation of Denosumab: A ...",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/jbmr.3337"
+        },
+        {
+          "title": "Denosumab for Prevention of Fractures in Postmenopausal Women ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/nejmoa0809493"
+        },
+        {
+          "title": "Discontinuation of Denosumab and Associated Fracture ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3617467/"
+        },
+        {
+          "title": "Multiple Vertebral Fractures After Denosumab Discontinuation ...",
+          "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/jbmr.4705"
+        },
+        {
+          "title": "Discontinuation of Denosumab and Associated Fracture ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3617467/"
+        },
+        {
+          "title": "Vertebral Fractures After Discontinuation of Denosumab: A ...",
+          "url": "https://academic.oup.com/jbmr/article-abstract/33/2/190/7605890"
+        },
+        {
+          "title": "A Review on the Role of Denosumab in Fracture Prevention | DDDT",
+          "url": "https://www.dovepress.com/a-review-on-the-role-of-denosumab-in-fracture-prevention-peer-reviewed-fulltext-article-DDDT"
+        }
+      ]
+    },
+    {
+      "query": "denosumab discontinuation rebound vertebral fracture risk",
+      "results": [
+        {
+          "title": "Warning of an increased risk of vertebral fracture after stopping...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915244/"
+        },
+        {
+          "title": "(PDF) Rebound-associated vertebral fractures after denosumab...",
+          "url": "https://www.researchgate.net/publication/360380037_Rebound-associated_vertebral_fractures_after_denosumab_discontinuation_in_a_lung_cancer_patient_with_bone_metastases"
+        },
+        {
+          "title": "(PDF) Clinical Features of 24 Patients With Rebound-Associated...",
+          "url": "https://www.academia.edu/52683723/Clinical_Features_of_24_Patients_With_Rebound_Associated_Vertebral_Fractures_After_Denosumab_Discontinuation_Systematic_Review_and_Additional_Cases"
+        },
+        {
+          "title": "Vertebral fractures after denosumab cessation | Cleveland Clinic...",
+          "url": "https://www.ccjm.org/content/87/6/337"
+        },
+        {
+          "title": "Fracture Risk and Management of Discontinuation of Denosumab...",
+          "url": "https://www.sci-hub.ru/10.1210/clinem/dgaa756"
+        },
+        {
+          "title": "Discontinuation of Denosumab therapy for osteoporosis...",
+          "url": "https://www.research.ed.ac.uk/en/publications/discontinuation-of-denosumab-therapy-for-osteoporosis-a-systemati/"
+        },
+        {
+          "title": "Rebound-associated vertebral fract ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/726035696/"
+        },
+        {
+          "title": "Denosumab discontinuation in non-metastatic breast cancer treated...",
+          "url": "https://medicalxpress.com/news/2026-02-denosumab-discontinuation-metastatic-breast-cancer.pdf"
+        }
+      ]
+    },
+    {
+      "query": "denosumab 68% relative risk reduction vertebral fracture",
+      "results": [
+        {
+          "title": "Denosumab for prevention of fractu ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1164226/"
+        },
+        {
+          "title": "Denosumab for Prevention of Fractures in Postmenopausal Women...",
+          "url": "https://www.panoramaortho.com/wp-content/uploads/2018/06/Denosumab-for-Prevention-of-Fractures-in-Postmenopausal-Women-with-Osteoporosis.pdf"
+        },
+        {
+          "title": "Effects of long-term treatment of denosumab on bone",
+          "url": "https://eprints.qut.edu.au/129072/1/Effects+of+long-term+treatment+of+denosumab+.pdf"
+        },
+        {
+          "title": "Bosaya (denosumab-kyqq) - Dosing, PA Forms & Info (2026)",
+          "url": "https://prescriberpoint.com/therapies/bosaya-1e5e8c8"
+        },
+        {
+          "title": "Fracture Risk Lowest for Alendronate, Pamidronate Use... | AJMC",
+          "url": "https://www.ajmc.com/view/fracture-risk-lowest-for-alendronate-pamidronate-use-during-mm-treatment"
+        },
+        {
+          "title": "Romosozumab followed by denosumab in Japanese women with high...",
+          "url": "https://link.springer.com/article/10.1007/s00774-020-01147-5"
+        },
+        {
+          "title": "FRAX Calculator | Fracture Risk Assessment Tool | UnitTables [2026]",
+          "url": "https://www.unittables.com/health/frax-calculator"
+        },
+        {
+          "title": "One Year of Romosozumab Followed by Two Years of Denosumab...",
+          "url": "https://research.monash.edu/en/publications/one-year-of-romosozumab-followed-by-two-years-of-denosumab-mainta/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T16:13:21.531+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

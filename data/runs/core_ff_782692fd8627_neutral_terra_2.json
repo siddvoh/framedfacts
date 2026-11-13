@@ -1,0 +1,328 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.science.org/doi/10.1126/science.abi9069",
+    "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full",
+    "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00304-7/fulltext"
+  ],
+  "claim_id": "ff_782692fd8627",
+  "completed_at": "2026-08-03T19:50:20.477+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.science.org/doi/10.1126/science.abi9069",
+        "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full",
+        "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00304-7/fulltext"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly answers 'Yes' to the question, stating that increasing mask wearing across a community can reduce COVID-19 infections, supported by evidence from a large cluster-randomized trial. Therefore, it endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "systematic review community masking SARS-CoV-2 infection large proportion population randomized trial",
+    "Bangladesh cluster randomized trial masks symptomatic seroprevalence SARS-CoV-2 PNAS 2022",
+    "Cochrane physical interventions interrupt respiratory viruses masks review 2023 conclusions",
+    "CDC masks community COVID-19 reduce transmission evidence population level",
+    "site:who.int mask use community SARS-CoV-2 transmission guideline 2023",
+    "Impact community masking COVID-19 Bangladesh trial 9.2% reduction symptomatic seroprevalence surgical masks results",
+    "rapid systematic review effectiveness face masks reducing transmission SARS-CoV-2 2023 conclusions community policies"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_congruent",
+    "neutral",
+    "stance_congruent",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** Yes—when mask wearing is increased across a community, it can reduce COVID‑19 infections, though the average effect is modest and depends heavily on uptake, fit, mask type, setting, and concurrent measures.\n\nThe strongest direct evidence is a large cluster-randomized trial in 600 Bangladeshi villages (over 342,000 adults). A program that distributed masks and promoted their use roughly tripled observed mask wearing and reduced symptomatic, test-confirmed SARS‑CoV‑2 infections; benefits were clearer for surgical than cloth masks and among older adults. This supports a population-level benefit from broad adoption rather than merely an individual recommendation. [Science trial](https://www.science.org/doi/10.1126/science.abi9069)\n\nEvidence is not perfectly uniform: a Cochrane review of trials of masks for respiratory viruses found uncertainty/no clear overall effect, largely because many included trials had low adherence, varied interventions and outcomes, and were not designed to test sustained, high community coverage during COVID‑19. It should not be read as showing that masks cannot work. [Cochrane review](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full)\n\nA systematic review of community-policy studies likewise concluded that mask policies *may* reduce SARS‑CoV‑2 burden, while warning that observational policy studies cannot fully separate masks from other behavior changes. [Review](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00304-7/fulltext)\n\nThus, widespread, consistent use—especially of well-fitting, higher-filtration masks in crowded indoor spaces—can lower transmission, but is best combined with ventilation, staying home when ill, testing, and vaccination.",
+  "run_id": "core_ff_782692fd8627_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 7,
+  "search_tool_queries": [
+    "systematic review community masking SARS-CoV-2 infection large proportion population randomized trial",
+    "Bangladesh cluster randomized trial masks symptomatic seroprevalence SARS-CoV-2 PNAS 2022",
+    "Cochrane physical interventions interrupt respiratory viruses masks review 2023 conclusions",
+    "CDC masks community COVID-19 reduce transmission evidence population level",
+    "site:who.int mask use community SARS-CoV-2 transmission guideline 2023",
+    "Impact community masking COVID-19 Bangladesh trial 9.2% reduction symptomatic seroprevalence surgical masks results",
+    "rapid systematic review effectiveness face masks reducing transmission SARS-CoV-2 2023 conclusions community policies"
+  ],
+  "searches": [
+    {
+      "query": "systematic review community masking SARS-CoV-2 infection large proportion population randomized trial",
+      "results": [
+        {
+          "title": "Mask wearing in community settings reduces SARS-CoV-2 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191667/"
+        },
+        {
+          "title": "Mask use in community settings in the context of COVID-19: A ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00304-7/fulltext"
+        },
+        {
+          "title": "Effectiveness of Mask Wearing to Control Community Spread of ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2776536"
+        },
+        {
+          "title": "Effectiveness of Mask Wearing to Control Community Spread of ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892938/"
+        },
+        {
+          "title": "Effectiveness of face masks for reducing transmission of SARS ...",
+          "url": "https://royalsocietypublishing.org/rsta/article/381/2257/20230133/112518/Effectiveness-of-face-masks-for-reducing"
+        },
+        {
+          "title": "Mask use in community settings in the context of COVID-19: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537021003047"
+        },
+        {
+          "title": "The role of community-wide wearing of face mask for control of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32335167/"
+        },
+        {
+          "title": "COVID: No Real Differences by Wearing Masks – Largest...",
+          "url": "https://www.woolstangray.eu/covid-no-real-differences-by-wearing-masks-largest-randomized-controlled-trial/"
+        }
+      ]
+    },
+    {
+      "query": "Bangladesh cluster randomized trial masks symptomatic seroprevalence SARS-CoV-2 PNAS 2022",
+      "results": [
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34855513/"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://poverty-action.org/sites/default/files/publications/Mask_RCT____Symptomatic_Seropositivity_083121.pdf"
+        },
+        {
+          "title": "(PDF) Impact of community masking on COVID-19...",
+          "url": "https://www.researchgate.net/publication/356757278_Impact_of_community_masking_on_COVID-19_A_cluster-randomized_trial_in_Bangladesh"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://cowles.yale.edu/research/cfdp-2284r-impact-community-masking-covid-19-cluster-randomized-trial-bangladesh"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized...",
+          "url": "https://www.science.org/doi/10.1126/science.abi9069?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19... | NCRC",
+          "url": "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "The Evolving Science of Face Masks and COVID-19 - FactCheck.org",
+          "url": "https://www.factcheck.org/2021/03/scicheck-the-evolving-science-of-face-masks-and-covid-19/"
+        },
+        {
+          "title": "What did cluster randomized trials in households and s...",
+          "url": "https://factually.co/fact-checks/health/cluster-randomized-trials-masks-households-schools-611a23"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane physical interventions interrupt respiratory viruses masks review 2023 conclusions",
+      "results": [
+        {
+          "title": "Cochrane Library _Open menu Cochrane Database of Systematic...",
+          "url": "https://ifunny.co/picture/cochrane-library-open-menu-cochrane-database-of-systematic-reviews-i-ff6NGSfmA"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of...",
+          "url": "https://healthevidence.org/view-article.aspx?a=physical-interventions-interrupt-reduce-spread-respiratory-viruses-17891"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of...",
+          "url": "https://www.pro-memoria.info/wp/wp-content/uploads/Physical-interventions-to-interrupt-or-reduce-the-spread-of-respiratory-viruses-_Tom-Jefferson-2023-Cochrane-Library.pdf"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full"
+        },
+        {
+          "title": "Brasil - Immunization against respiratory viruses among dental...",
+          "url": "https://www.scielo.br/j/bjid/a/yJDC8skx9cGqfJSXgDJggjf/?lang=en"
+        },
+        {
+          "title": "Adakah langkah fizikal seperti mencuci tangan atau... | Cochrane",
+          "url": "https://www.cochrane.org/ms/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses"
+        },
+        {
+          "title": "Full text of \"Masken-Literatur\"",
+          "url": "https://archive.org/stream/Masken-Literatur/2023-01-30_physical_interventions_to_interrupt_or_reduce_the_spread_of_respiratory_viruses-(ReviewJefferson_et_al-Cochrane_Database_of_Systematic_Reviews_djvu.txt"
+        },
+        {
+          "title": "Emails show Zeynep Tufekci is a master at flimflam",
+          "url": "https://plague.info/2024-08-14-zeynep-tufekci-is-a-master-at-flimflam.html"
+        }
+      ]
+    },
+    {
+      "query": "CDC masks community COVID-19 reduce transmission evidence population level",
+      "results": [
+        {
+          "title": "Identifying airborne transmission as the dominant route for... | NCRC",
+          "url": "https://ncrc.jhsph.edu/research/identifying-airborne-transmission-as-the-dominant-route-for-the-spread-of-covid-19/"
+        },
+        {
+          "title": "Routine Infection Prevention Will Not Contain COVID-19",
+          "url": "https://in-housestaff.org/routine-infection-prevention-will-not-contain-covid-19-1683"
+        },
+        {
+          "title": "Drive for Masks",
+          "url": "https://mockup.driveformasks.org/sources.php"
+        },
+        {
+          "title": "Don’t Panic: COVID-19 Q&A and Handholding Post – The Avocado",
+          "url": "https://the-avocado.org/2020/02/28/dont-panic-covid-19-qa/"
+        },
+        {
+          "title": "Exploring community-level gut health amidst COVID-19 pandemic...",
+          "url": "https://link.springer.com/article/10.1007/s11356-026-38012-3"
+        },
+        {
+          "title": "NC Coronavirus update August 13: City of Raleigh COVID-19 mask...",
+          "url": "https://abc11.com/covid-19-vaccine-mask-mandate-wake-county/10949001/"
+        },
+        {
+          "title": "Six in seven COVID-19 infections go undetected in Africa | WHO",
+          "url": "https://www.afro.who.int/news/six-seven-covid-19-infections-go-undetected-africa"
+        },
+        {
+          "title": "As COVID-19 Spread Through Midwest Detention Centers, ICE...",
+          "url": "https://borderlessmag.org/2021/07/14/as-covid-19-spread-through-midwest-detention-centers-ice-struggled-to-provide-accurate-data/"
+        }
+      ]
+    },
+    {
+      "query": "site:who.int mask use community SARS-CoV-2 transmission guideline 2023",
+      "results": [
+        {
+          "title": "WHO recommendations on mask use by health workers, in light of the...",
+          "url": "https://www.who.int/publications/i/item/WHO-2019-nCoV-IPC_Masks-Health_Workers-Omicron_variant-2021.1"
+        },
+        {
+          "title": "Respiratory Viruses",
+          "url": "https://cdn.who.int/media/docs/default-source/wpro---documents/emergency/surveillance/seasonal-influenza/respiratory-viruses-surveillance-bulletin_epidemiological-week-29-2026.pdf?sfvrsn=c681a3d1_1"
+        },
+        {
+          "title": "WHO position paper on COVID-19 vaccines - July 2026",
+          "url": "https://www.who.int/publications/i/item/who-wer101-30-138-156"
+        },
+        {
+          "title": "Guideline WHO Infection Prevention and Control COVID-19 ...",
+          "url": "https://iris.who.int/server/api/core/bitstreams/395e9183-b671-4963-9611-3787a0dd5703/content"
+        },
+        {
+          "title": "COVID-19 infection prevention and control living guideline ...",
+          "url": "https://www.who.int/publications/i/item/WHO-2019-nCoV-IPC_masks-2021.1"
+        },
+        {
+          "title": "Advice on the use of masks in the community, during home care ...",
+          "url": "https://www.who.int/publications/i/item/advice-on-the-use-of-masks-in-the-community-during-home-care-and-in-healthcare-settings-in-the-context-of-the-novel-coronavirus-(2019-ncov)-outbreak"
+        },
+        {
+          "title": "Guideline Infection prevention and control in the context of ...",
+          "url": "https://iris.who.int/server/api/core/bitstreams/fbd004d4-a5ad-4d09-bbd4-8d8377d4528d/content"
+        },
+        {
+          "title": "Use of medical and non-medical/fabric masks for community ...",
+          "url": "https://apps.who.int/iris/bitstream/handle/10665/341570/WHO-2019-nCoV-IPC-Masks-Comm-health-care-2021.1-eng.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Impact community masking COVID-19 Bangladesh trial 9.2% reduction symptomatic seroprevalence surgical masks results",
+      "results": [
+        {
+          "title": "Impact of community masking on COVID-19: A cluster ... - AAAS",
+          "url": "https://www.science.org/doi/10.1126/science.abi9069"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://poverty-action.org/sites/default/files/publications/Mask_RCT____Symptomatic_Seropositivity_083121.pdf"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "(PDF) Impact of community masking on COVID-19: A cluster ...",
+          "url": "https://www.researchgate.net/publication/356757278_Impact_of_community_masking_on_COVID-19_A_cluster-randomized_trial_in_Bangladesh"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://escholarship.org/uc/item/86t771h3"
+        },
+        {
+          "title": "The Impact of Mask Distribution and Promotion on Mask Uptake ...",
+          "url": "https://www.povertyactionlab.org/evaluation/impact-mask-distribution-and-promotion-mask-uptake-and-covid-19-bangladesh"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://www.scienceopen.com/document?vid=31c6da4f-769e-403c-9c7b-d3d939f3a17e"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster...",
+          "url": "https://cowles.yale.edu/research/cfdp-2284r-impact-community-masking-covid-19-cluster-randomized-trial-bangladesh"
+        }
+      ]
+    },
+    {
+      "query": "rapid systematic review effectiveness face masks reducing transmission SARS-CoV-2 2023 conclusions community policies",
+      "results": [
+        {
+          "title": "The role of community-wide wearing of face mask for control of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32335167/"
+        },
+        {
+          "title": "(PDF) The use of masks by asymptomatic people to reduce COVID...",
+          "url": "https://www.academia.edu/109564004/The_use_of_masks_by_asymptomatic_people_to_reduce_COVID_transmission"
+        },
+        {
+          "title": "Estimated Mask Use and Temporal Relationship to COVID-19...",
+          "url": "https://link.springer.com/article/10.1007/s40615-022-01308-4"
+        },
+        {
+          "title": "When the air went viral: Exploring SARS-CoV-2 in aerosols during the...",
+          "url": "https://lucris.lub.lu.se/ws/portalfiles/portal/180203498/Avhandling_Sara_Thuresson_LUCRIS.pdf"
+        },
+        {
+          "title": "(PDF) Covid-19: To meter er kanskje ikke nok",
+          "url": "https://www.researchgate.net/publication/349239072_Covid-19_To_meter_er_kanskje_ikke_nok"
+        },
+        {
+          "title": "Maskomania: Masks and COVID-19 - Page 6 of 6 - The Hospitalist",
+          "url": "https://www.the-hospitalist.org/hospitalist/article/222464/coronavirus-updates/maskomania-masks-and-covid-19/6/"
+        },
+        {
+          "title": "science.org/doi/10.1126/science.abc7520",
+          "url": "https://www.science.org/doi/10.1126/science.abc7520"
+        },
+        {
+          "title": "Full text of \"Masken-Literatur\"",
+          "url": "https://archive.org/stream/Masken-Literatur/2021-11-08_evidence_for_community_cloth_face_masking_to_limit_the_spread_of_SARS-CoV-2-a_critical_review-CATO_Institute_working-paper-64_djvu.txt"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T19:34:09.327+00:00",
+  "status": "judged",
+  "system": "terra"
+}

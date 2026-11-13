@@ -1,0 +1,256 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://jamanetwork.com/journals/jama/fullarticle/2544640",
+    "https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8&audience=consumer"
+  ],
+  "claim_id": "ff_f13bd48cccc4",
+  "completed_at": "2026-08-04T04:05:04.566+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://jamanetwork.com/journals/jama/fullarticle/2544640",
+        "https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8&audience=consumer"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported, citing trial data showing a significant reduction in new vertebral fractures in postmenopausal women with osteoporosis compared to placebo.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report explicitly concludes that abaloparatide reduces new vertebral fractures and cites randomized trial and FDA data supporting the claim. Its qualifications concern population and treatment considerations, not doubt about the claim itself.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "abaloparatide postmenopausal osteoporosis vertebral fractures ACTIVE trial 86% source",
+    "abaloparatide prescribing information new vertebral fractures postmenopausal women osteoporosis",
+    "NEJM Effect of Abaloparatide vs Placebo on New Vertebral Fractures postmenopausal women osteoporosis 2016",
+    "FDA Tymlos abaloparatide clinical studies vertebral fracture reduction",
+    "Endocrine Society guideline abaloparatide vertebral fracture postmenopausal osteoporosis"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "stance_congruent",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion: Supported.** Abaloparatide reduces new vertebral fractures in postmenopausal women with osteoporosis, particularly those at high fracture risk.\n\nThe strongest evidence is the 18-month, randomized, placebo-controlled ACTIVE trial. Among postmenopausal women with osteoporosis, daily subcutaneous abaloparatide significantly reduced both new vertebral and nonvertebral fractures versus placebo. FDA labeling reports new vertebral fractures in 0.6% of abaloparatide-treated women versus 4.2% with placebo—an absolute reduction of 3.6 percentage points and relative reduction of about 86%.\n\nThis supports the claim, but it should not be generalized to every person with low bone density: the approved indication and trial population concern women with established osteoporosis and elevated fracture risk. Treatment selection also needs to weigh contraindications, adverse effects, duration limits, and follow-on osteoporosis therapy with a clinician.\n\nSources:  \n- https://jamanetwork.com/journals/jama/fullarticle/2544640  \n- https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract  \n- https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf  \n- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8&audience=consumer",
+  "run_id": "core_ff_f13bd48cccc4_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 5,
+  "search_tool_queries": [
+    "abaloparatide postmenopausal osteoporosis vertebral fractures ACTIVE trial 86% source",
+    "abaloparatide prescribing information new vertebral fractures postmenopausal women osteoporosis",
+    "NEJM Effect of Abaloparatide vs Placebo on New Vertebral Fractures postmenopausal women osteoporosis 2016",
+    "FDA Tymlos abaloparatide clinical studies vertebral fracture reduction",
+    "Endocrine Society guideline abaloparatide vertebral fracture postmenopausal osteoporosis"
+  ],
+  "searches": [
+    {
+      "query": "abaloparatide postmenopausal osteoporosis vertebral fractures ACTIVE trial 86% source",
+      "results": [
+        {
+          "title": "FDA approves abaloparatide for postmenopausal osteoporosis",
+          "url": "https://www.mdedge.com/rheumatology/article/137158/osteoporosis/fda-approves-abaloparatide-postmenopausal-osteoporosis"
+        },
+        {
+          "title": "(PDF) Abaloparatide is an Effective Treatment Option for...",
+          "url": "https://www.researchgate.net/publication/326026218_Abaloparatide_is_an_Effective_Treatment_Option_for_Postmenopausal_Osteoporosis_Review_of_the_Number_Needed_to_Treat_Compared_with_Teriparatide"
+        },
+        {
+          "title": "FDA Approves Abaloparatide for Osteoporosis, Warns of Cancer Risk",
+          "url": "https://www.hcplive.com/view/fda-approves-new-osteoporosis-drug-that-includes-a-cancer-warning"
+        },
+        {
+          "title": "Abaloparatide is an Effective Treatment Option for Postmenopausal...",
+          "url": "https://link.springer.com/article/10.1007/s00223-018-0450-0"
+        },
+        {
+          "title": "ACTIVE: Abaloparatide reduces fracture risk in postmenopausal...",
+          "url": "https://www.healio.com/news/endocrinology/20160816/active-abaloparatide-reduces-fracture-risk-in-postmenopausal-women-with-osteoporosis"
+        },
+        {
+          "title": "(PDF) Abaloparatide: an anabolic treatment to reduce fracture risk in...",
+          "url": "https://www.academia.edu/99286035/Abaloparatide_an_anabolic_treatment_to_reduce_fracture_risk_in_postmenopausal_women_with_osteoporosis"
+        },
+        {
+          "title": "Abaloparatide Found To Lower Fracture Risk - AZIM Solutions",
+          "url": "https://azimsolutions.com/abaloparatide-found-to-lower-fracture-risk/"
+        },
+        {
+          "title": "Abaloparatide Decreased Fractures in Postmenopausal Women...",
+          "url": "https://www.endocrinologyadvisor.com/news/abaloparatide-decreased-fractures-in-postmenopausal-women-with-osteoporosis/"
+        }
+      ]
+    },
+    {
+      "query": "abaloparatide prescribing information new vertebral fractures postmenopausal women osteoporosis",
+      "results": [
+        {
+          "title": "Treatment of Postmenopausal Women with Osteoporosis at High",
+          "url": "https://www.tymloshcp.com/wp-content/uploads/2026/01/tymlos-prescribing-information.pdf"
+        },
+        {
+          "title": "ACTIVE: Abaloparatide reduces fracture risk in postmenopausal...",
+          "url": "https://www.healio.com/news/endocrinology/20160816/active-abaloparatide-reduces-fracture-risk-in-postmenopausal-women-with-osteoporosis"
+        },
+        {
+          "title": "Injected Drug Reduces Risk Of Fracture Among Women... - DoveMed",
+          "url": "https://www.dovemed.com/current-medical-news/injected-drug-reduces-risk-fracture-among-women-osteoporosis"
+        },
+        {
+          "title": "Osteoporotic, Postmenopausal Women: Abaloparatide Reduces...",
+          "url": "https://www.hmpgloballearningnetwork.com/site/altc/article/osteoporotic-postmenopausal-women-abaloparatide-reduces-risk-new-fractures"
+        },
+        {
+          "title": "TYMLOS (abaloparatide) injection Label",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf"
+        },
+        {
+          "title": "Tymlos (Abaloparatide Injection): Side Effects, Uses, Dosage...",
+          "url": "https://www.rxlist.com/tymlos-drug.htm"
+        },
+        {
+          "title": "Abaloparatide Reduces Fractures in Women With Osteoporosis",
+          "url": "https://www.uspharmacist.com/article/abaloparatide-reduces-fractures-in-women-with-osteoporosis"
+        },
+        {
+          "title": "Treatment patterns in women with postmenopausal osteoporosis...",
+          "url": "https://link.springer.com/article/10.1007/s00198-024-07070-z"
+        }
+      ]
+    },
+    {
+      "query": "NEJM Effect of Abaloparatide vs Placebo on New Vertebral Fractures postmenopausal women osteoporosis 2016",
+      "results": [
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial | Orthopedics | JAMA | JAMA Network",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2544640"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: a Randomized Clinical Trial | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/central/doi/10.1002/central/CN-01179378/full"
+        },
+        {
+          "title": "Injected drug reduces risk of fracture among women with osteoporosis | ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2016/08/160816120636.htm"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27533157/"
+        },
+        {
+          "title": "Abaloparatide for risk reduction of nonvertebral and vertebral fractures in postmenopausal women with osteoporosis: a network meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30953114/"
+        },
+        {
+          "title": "Effect of abaloparatide vs placebo ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/726647437/"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral",
+          "url": "https://www.panoramaortho.com/wp-content/uploads/2017/09/JAMA-Abaloparatide-ACTIVE-Miller-et-al-FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "query": "FDA Tymlos abaloparatide clinical studies vertebral fracture reduction",
+      "results": [
+        {
+          "title": "TYMLOS (abaloparatide) injection Label",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf"
+        },
+        {
+          "title": "FDA Approves Radius Health's TYMLOS™ (abaloparatide) - Bone...",
+          "url": "https://www.bonehealthandosteoporosis.org/news/fda-approves-radius-healths-tymlos-abaloparatide/"
+        },
+        {
+          "title": "DailyMed - TYMLOS- abaloparatide injection, solution",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8&audience=consumer"
+        },
+        {
+          "title": "Bone Building Drug Gets FDA Approval for Osteoporosis - MPR",
+          "url": "https://www.empr.com/home/news/bone-building-drug-gets-fda-approval-for-osteoporosis/"
+        },
+        {
+          "title": "Abaloparatide (Tymlos) for Osteoporosis | AFP",
+          "url": "https://www.aafp.org/afp/2019/0215/p260"
+        },
+        {
+          "title": "Abaloparatide reduces bone fractures, but raises tumor concerns.",
+          "url": "https://www.hcplive.com/view/fda-approves-new-osteoporosis-drug-that-includes-a-cancer-warning"
+        },
+        {
+          "title": "Abaloparatide (Tymlos): Uses, Class & Info | Zimmer Medical Group",
+          "url": "https://www.zmg.us/medications/abaloparatide"
+        },
+        {
+          "title": "FDA Approves Abaloparatide for Fragility Fracture in...",
+          "url": "https://www.rheumatologyadvisor.com/news/fda-approves-abaloparatide-for-fragility-fracture-in-postmenopausal-osteoporosis/"
+        }
+      ]
+    },
+    {
+      "query": "Endocrine Society guideline abaloparatide vertebral fracture postmenopausal osteoporosis",
+      "results": [
+        {
+          "title": "Managing Osteoporosis in Postmenopausal Women: An Endocrine...",
+          "url": "https://www.rheumatologyadvisor.com/news/managing-osteoporosis-in-postmenopausal-women-an-endocrine-society-guideline/"
+        },
+        {
+          "title": "Endocrine Society GUIDELINES Bundle (free trial) - Osteoporosis in...",
+          "url": "https://eguideline.guidelinecentral.com/i/1140214-osteoporosis-in-women/2"
+        },
+        {
+          "title": "Abaloparatide Significantly Reduces... - Endocrinology Advisor",
+          "url": "https://www.endocrinologyadvisor.com/news/abaloparatide-significantly-reduces-fracture-risk-in-women-with-postmenopausal-osteoporosis/"
+        },
+        {
+          "title": "Should Patients With Very High Risk of Fracture Be Managed...",
+          "url": "https://decisionpoint.medscape.com/diabetes-endocrinology/viewarticle/939590"
+        },
+        {
+          "title": "Abaloparatide | Treatment & Management | Point of Care",
+          "url": "https://www.statpearls.com/point-of-care/148092"
+        },
+        {
+          "title": "Abaloparatide Monograph for Professionals - Drugs.com",
+          "url": "https://www.drugs.com/monograph/abaloparatide.html"
+        },
+        {
+          "title": "Abaloparatide significantly reduced fractures, increased... | MDedge",
+          "url": "https://www.mdedge.com/clinicalendocrinologynews/article/247250/osteoporosis/abaloparatide-significantly-reduced-fractures"
+        },
+        {
+          "title": "Effect of abaloparatide on fracture incidence and bone mineral...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39999474/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T03:55:58.626+00:00",
+  "status": "judged",
+  "system": "terra"
+}

@@ -1,0 +1,306 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/28813226/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5716495/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7052786/",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/210365Orig1s011lbl.pdf"
+  ],
+  "claim_id": "ff_dc4d255f9099",
+  "completed_at": "2026-08-04T03:17:19.248+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28813226/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5716495/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7052786/",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/210365Orig1s011lbl.pdf"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is 'substantially supported, not false' when referring to prescription-grade oral cannabidiol as an add-on therapy, citing randomized controlled trial evidence and FDA approval.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Conclusion\n\nThe claim is **substantially supported**, not false—when “cannabidiol” means the tested, prescription-grade oral formulation used **as add-on therapy** in children/adolescents with treatment-resistant Dravet syndrome. It should not be generalized to over-the-counter CBD products, all seizure types, or long-term outcomes.\n\n**Best evidence:** two short, randomized, double-blind, placebo-controlled trials.\n\n* In the original 14-week trial, 120 patients aged 2–18 received cannabidiol 20 mg/kg/day or placebo in addition to existing treatment. The trial’s primary outcome was convulsive-seizure frequency. A secondary “50% responder” result was 43% with cannabidiol versus 27% with placebo, but that comparison itself was not conventionally statistically significant (P=0.08). This is a potential source of skepticism, but it does not overturn the positive primary seizure-frequency result.  \n  https://pubmed.ncbi.nlm.nih.gov/28813226/  \n  https://pmc.ncbi.nlm.nih.gov/articles/PMC5716495/\n\n* A later 14-week dose-ranging RCT randomized 199 children to 10 mg/kg/day, 20 mg/kg/day, or placebo. Reported convulsive-seizure reductions were 48.7% and 45.7% with the two cannabidiol doses, versus 26.9% with placebo. The authors concluded both doses produced clinically relevant reductions; 10 mg/kg/day had better safety/tolerability.  \n  https://pmc.ncbi.nlm.nih.gov/articles/PMC7052786/\n\nRegulatory decisions are consistent with this evidence: FDA labeling indicates prescription cannabidiol for seizures associated with Dravet syndrome (age ≥1 year). This is not proof by itself, but supports that the evidence met an efficacy/safety threshold.  \nhttps://www.accessdata.fda.gov/drugsatfda_docs/label/2021/210365Orig1s011lbl.pdf",
+  "run_id": "replay_ff_dc4d255f9099_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "Dravet syndrome cannabidiol add-on convulsive seizure frequency randomized trial NEJM 2017",
+      "results": [
+        {
+          "title": "Dravet syndrome - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dravet_syndrome"
+        },
+        {
+          "title": "(PDF) Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo...",
+          "url": "https://www.researchgate.net/publication/339635744_Dose-Ranging_Effect_of_Adjunctive_Oral_Cannabidiol_vs_Placebo_on_Convulsive_Seizure_Frequency_in_Dravet_Syndrome_A_Randomized_Clinical_Trial"
+        },
+        {
+          "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet...",
+          "url": "https://resident360.nejm.org/content-items/trial-of-cannabidiol-for-drug-resistant-seizures-in-the-dravet-syndrome-3"
+        },
+        {
+          "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on...",
+          "url": "https://www.scienceopen.com/document?vid=2925839c-4023-4436-89e0-bc0a51a6fb73"
+        },
+        {
+          "title": "(PDF) Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo...",
+          "url": "https://www.academia.edu/143361522/Dose_Ranging_Effect_of_Adjunctive_Oral_Cannabidiol_vs_Placebo_on_Convulsive_Seizure_Frequency_in_Dravet_Syndrome"
+        },
+        {
+          "title": "The impact of Cannabidiol on the frequency of convulsive seizures...",
+          "url": "https://rsdjournal.org/index.php/rsd/article/view/47076"
+        },
+        {
+          "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on...",
+          "url": "https://z-lib.id/article/151618189"
+        },
+        {
+          "title": "The efficacy and safety of cannabidiol (CBD) in pediatric patients with...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10949818/"
+        }
+      ]
+    },
+    {
+      "query": "FDA Epidiolex prescribing information Dravet syndrome clinical studies convulsive seizures",
+      "results": [
+        {
+          "title": "These highlights do not include all the information needed to use...",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=8bf27097-4870-43fb-94f0-f3d0871d1eec&type=display"
+        },
+        {
+          "title": "Full prescribing information",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/210365Orig1s011lbl.pdf"
+        },
+        {
+          "title": "EPIDIOLEX (cannabidiol) oral solution",
+          "url": "https://www.ncsbn.org/public-files/FDA_Epidiolex.pdf"
+        },
+        {
+          "title": "EPIDIOLEX® (cannabidiol) for LGS, Dravet & TSC Seizures",
+          "url": "https://www.epidiolex.com/"
+        },
+        {
+          "title": "Full prescribing information",
+          "url": "https://pp.jazzpharma.com/pi/epidiolex.en.USPI.pdf"
+        },
+        {
+          "title": "Epidiolex Oral Solution: Package Insert / Prescribing Info / MOA",
+          "url": "https://www.drugs.com/pro/epidiolex-oral-solution.html"
+        },
+        {
+          "title": "GB_Epidiolex_PI_010319",
+          "url": "https://www.epidiolexhcp.com/sites/default/files/EPIDIOLEX_Full_Prescribing_Information.pdf"
+        },
+        {
+          "title": "HealthMatch - Epidiolex",
+          "url": "https://healthmatch.io/medications/epidiolex"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane cannabidiol Dravet syndrome seizures systematic review",
+      "results": [
+        {
+          "title": "Dravet syndrome - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dravet_syndrome"
+        },
+        {
+          "title": "Adjunctive Cannabidiol in Patients with Dravet Syndrome...",
+          "url": "https://link.springer.com/article/10.1007/s40263-020-00708-6"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full"
+        },
+        {
+          "title": "Efficacy of pharmacological treatments for Dravet syndrome...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38354598/"
+        },
+        {
+          "title": "Orphan drug designation spurs trials for cannabidiol in Dravet...",
+          "url": "https://www.mdedge.com/neurology/article/81108/epilepsy-seizures/orphan-drug-designation-spurs-trials-cannabidiol-dravet"
+        },
+        {
+          "title": "Keywords: Antiepileptic drug, cannabidiol, Dravet syndrome, Lennox...",
+          "url": "https://www.researchgate.net/profile/Fadia-Gafri/publication/361730574_Unveiling_of_cannabidiol_in_the_treatment_of_rare_childhood_epilepsies_Dravet_and_Lennox_Gastaut_syndromes/links/62c215e6bd55e01e75f7e9ff/Unveiling-of-cannabidiol-in-the-treatment-of-rare-childhood-epilepsies-Dravet-and-Lennox-Gastaut-syndromes.pdf?origin=journalDetail&_tp=eyJwYWdlIjoiam91cm5hbERldGFpbCJ9"
+        },
+        {
+          "title": "Diagnosis and Treatment - Dravet Syndrome Foundation",
+          "url": "https://dravetfoundation.org/hcp-resources/diagnosis-and-treatment/"
+        },
+        {
+          "title": "Frontiers | Efficacy and safety of adjunctive antiseizure medications for...",
+          "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.980937/full"
+        }
+      ]
+    },
+    {
+      "query": "EMA Epidyolex Dravet syndrome clinical trial seizure frequency cannabidiol",
+      "results": [
+        {
+          "title": "Epidyolex, INN-cannabidiol",
+          "url": "https://www.ema.europa.eu/en/documents/product-information/epidyolex-epar-product-information_en.pdf?trk=article-ssr-frontend-pulse_little-text-block"
+        },
+        {
+          "title": "Dracaena - Dravet syndrome pipeline review 2022",
+          "url": "https://static1.squarespace.com/static/54589576e4b01c74d3bdbdd3/t/639b0e7b09a8286ea8f9ca61/1671106183307/Dracaena_DravetSyndromePipelineReview_2022.pdf"
+        },
+        {
+          "title": "Epidyolex 100 mg/ml oral solution - Summary of Product...",
+          "url": "https://www.medicines.org.uk/emc/product/10781/smpc"
+        },
+        {
+          "title": "Dravet Cannabidiol-based Treatment, Epidyolex, Approved in Europe",
+          "url": "https://dravetsyndromenews.com/news/oral-cannabidiol-epidyolex-approved-in-europe-as-add-on-treatment-for-dravet-lennox-gastaut-syndromes/"
+        },
+        {
+          "title": "The use of cannabidiol in patients with Lennox-Gastaut syndrome...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11786083/"
+        },
+        {
+          "title": "expert reaction to EMA granting a positive opinion for Epidyolex...",
+          "url": "https://www.sciencemediacentre.org/expert-reaction-to-ema-granting-a-positive-opinion-for-epidyolex-cannabidiol-for-the-treatment-of-seizures-associated-with-lennox-gastaut-syndrome-or-dravet-syndrome-two-forms-of-epilepsy/"
+        },
+        {
+          "title": "cannabidiol (Epidyolex) | Scottish Medicines Consortium",
+          "url": "https://scottishmedicines.org.uk/medicines-advice/cannabidiol-epidyolex-full-smc2262/"
+        },
+        {
+          "title": "EPIDIOLEX® (cannabidiol) for LGS, Dravet & TSC Seizures",
+          "url": "https://www.epidiolex.com/"
+        }
+      ]
+    },
+    {
+      "query": "PubMed Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome 2017 120 39% 13%",
+      "results": [
+        {
+          "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28813226/"
+        },
+        {
+          "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1611618?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub++0pubmed&page=0"
+        },
+        {
+          "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet...",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/1558984/1/Cross_nejmoa1611618.pdf"
+        },
+        {
+          "title": "(PDF) Trial of Cannabidiol for Drug-Resistant Seizures in the...",
+          "url": "https://www.academia.edu/42626867/Trial_of_Cannabidiol_for_Drug_Resistant_Seizures_in_the_Dravet_Syndrome"
+        },
+        {
+          "title": "Cannabis Derivative Cannabidiol Reduces Seizures in Severe...",
+          "url": "https://neurosciencenews.com/cannabidiol-epilepsy-6770/"
+        },
+        {
+          "title": "Trial of cannabidiol for drug-resistant seizures in the dravet...",
+          "url": "https://www.scholars.northwestern.edu/en/publications/trial-of-cannabidiol-for-drug-resistant-seizures-in-the-dravet-sy"
+        },
+        {
+          "title": "Cannabis Derivative Cannabidiol Reduces Seizures in Severe...",
+          "url": "https://nyulangone.org/news/cannabis-derivative-cannabidiol-reduces-seizures-severe-epilepsy-disorder"
+        },
+        {
+          "title": "Cannabidiol reduces seizure frequency in Dravet syndrome",
+          "url": "https://www.nature.com/articles/nrneurol.2017.86?error=cookies_not_supported&code=2ebbd70a-45f9-4f37-a3ba-fb780276d643"
+        }
+      ]
+    },
+    {
+      "query": "PubMed Dose-Ranging Effect adjunctive oral cannabidiol placebo convulsive seizure frequency Dravet 2020 JAMA Neurology 199",
+      "results": [
+        {
+          "title": "(PDF) Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs...",
+          "url": "https://www.researchgate.net/publication/339635744_Dose-Ranging_Effect_of_Adjunctive_Oral_Cannabidiol_vs_Placebo_on_Convulsive_Seizure_Frequency_in_Dravet_Syndrome_A_Randomized_Clinical_Trial"
+        },
+        {
+          "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7052786/"
+        },
+        {
+          "title": "(PDF) Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs...",
+          "url": "https://www.academia.edu/143361522/Dose_Ranging_Effect_of_Adjunctive_Oral_Cannabidiol_vs_Placebo_on_Convulsive_Seizure_Frequency_in_Dravet_Syndrome"
+        },
+        {
+          "title": "Cannabidiol as an Adjunctive Therapy for... - Neurology Advisor",
+          "url": "https://www.neurologyadvisor.com/news/adjunctive-therapy-for-patients-with-treatment-resistant-dravet-syndrome/"
+        },
+        {
+          "title": "Low-Dose Cannabidiol Effective for Reducing Convulsive Seizures...",
+          "url": "https://www.neurologylive.com/view/lowdose-cannabidiol-effective-for-reducing-convulsive-seizures-in-dravet-syndrome"
+        },
+        {
+          "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on...",
+          "url": "https://www.medicinesresources.nhs.uk/dose-ranging-effect-of-adjunctive-oral-cannabidiol-vs-placebo-on-convulsive-seizure-frequency-in-dravet-syndrome-a-randomized-clinical-trial.html"
+        },
+        {
+          "title": "Placebo response in patients with Dravet... - Epilepsy & Behavior",
+          "url": "https://www.epilepsybehavior.com/article/S1525-5050(24)00186-0/fulltext"
+        },
+        {
+          "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on...",
+          "url": "https://z-lib.id/article/151618189"
+        }
+      ]
+    },
+    {
+      "query": "NICE cannabidiol Dravet syndrome evidence convulsive seizure frequency placebo",
+      "results": [
+        {
+          "title": "Anticonvulsant Effects of Cannabidiol in Dravet Syndrome - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5716495/"
+        },
+        {
+          "title": "Fenfluramine for Treating Dravet Syndrome: An Evidence Review...",
+          "url": "https://link.springer.com/content/pdf/10.1007/s40273-022-01209-8.pdf"
+        },
+        {
+          "title": "(PDF) Fenfluramine for Treating Dravet Syndrome: An Evidence...",
+          "url": "https://www.researchgate.net/publication/364823934_Fenfluramine_for_Treating_Dravet_Syndrome_An_Evidence_Review_Group_Perspective_of_a_NICE_Single_Technology_Appraisal"
+        },
+        {
+          "title": "(PDF) Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs...",
+          "url": "https://www.academia.edu/143361522/Dose_Ranging_Effect_of_Adjunctive_Oral_Cannabidiol_vs_Placebo_on_Convulsive_Seizure_Frequency_in_Dravet_Syndrome"
+        },
+        {
+          "title": "Orphan drug designation spurs trials for cannabidiol in Dravet...",
+          "url": "https://www.mdedge.com/neurology/article/81108/epilepsy-seizures/orphan-drug-designation-spurs-trials-cannabidiol-dravet"
+        },
+        {
+          "title": "Frontiers | Efficacy and safety of adjunctive antiseizure medications for...",
+          "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.980937/full"
+        },
+        {
+          "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet...",
+          "url": "https://resident360.nejm.org/content-items/trial-of-cannabidiol-for-drug-resistant-seizures-in-the-dravet-syndrome-3"
+        },
+        {
+          "title": "Cannabidiol with clobazam for treating seizures ... - NICE",
+          "url": "https://www.nice.org.uk/guidance/TA614"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T03:17:06.821+00:00",
+  "status": "judged",
+  "system": "terra"
+}

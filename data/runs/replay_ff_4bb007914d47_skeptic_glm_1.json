@@ -1,0 +1,269 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436",
+    "https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19",
+    "https://jamanetwork.com/journals/jama/fullarticle/2785531",
+    "https://www.who.int/publications/i/item/WHO-2019-nCoV-Corticosteroids-2020.1"
+  ],
+  "claim_id": "ff_4bb007914d47",
+  "completed_at": "2026-08-03T15:52:20.742+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436",
+        "https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19",
+        "https://jamanetwork.com/journals/jama/fullarticle/2785531",
+        "https://www.who.int/publications/i/item/WHO-2019-nCoV-Corticosteroids-2020.1"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that treatment with corticosteroids like dexamethasone improves survival in critically ill COVID-19 patients, citing evidence from the RECOVERY trial and the WHO REACT meta-analysis.",
+      "label": "endorses"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "d355ebcaa485d29d8e9bf93cd2e74f2333778858d1d31a329bb23aaddb0e6d63",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Conclusion: The Answer Is Actually **Yes**, Not No\n\nThe evidence shows that corticosteroids like dexamethasone **do** improve survival in critically ill COVID-19 patients, contradicting the assumption that the answer is \"no.\"\n\n### Key Evidence\n\n**1. The RECOVERY Trial (NEJM, July 2020):** This large randomized controlled trial assigned hospitalized COVID-19 patients to receive dexamethasone (6 mg daily for up to 10 days) or usual care. Dexamethasone **reduced 28-day mortality by 17% overall**, with the greatest benefit among patients on invasive mechanical ventilation (approximately one-third reduction in deaths). The benefit was significant for patients receiving oxygen or ventilation, but not for those not requiring respiratory support.\n\n**2. WHO REACT Meta-Analysis (JAMA, September 2020):** The WHO partnered with investigators from seven randomized trials to conduct a prospective meta-analysis. It found that administration of systemic corticosteroids was **associated with lower 28-day all-cause mortality** among critically ill COVID-19 patients. This led WHO to issue guidance recommending corticosteroids for severe and critical COVID-19.\n\n**3. Important Nuance:** Timing matters. Dexamethasone used too early (within 7 days of symptom onset) may have no benefit and could potentially weaken innate immunity. The benefit is specifically in patients with severe disease requiring oxygen or ventilation.\n\n### Sources\n\n- https://www.nejm.org/doi/full/10.1056/NEJMoa2021436\n- https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19\n- https://jamanetwork.com/journals/jama/fullarticle/2785531\n- https://www.who.int/publications/i/item/WHO-2019-nCoV-Corticosteroids-2020.1",
+  "run_id": "replay_ff_4bb007914d47_skeptic_glm_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "dexamethasone COVID-19 critically ill patients survival",
+      "results": [
+        {
+          "title": "IDSA Guidelines on the Treatment and Management of Patients with...",
+          "url": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/"
+        },
+        {
+          "title": "As COVID-19 cases surge, patients are dying at a lower rate - Los...",
+          "url": "https://www.latimes.com/california/story/2020-08-09/covid-19-coronavirus-survival-rate-improves"
+        },
+        {
+          "title": "Dexamethasone_COVID19 - EMEA-H-A-5(3)-1500",
+          "url": "https://www.ema.europa.eu/en/documents/opinion-any-scientific-matter/dexamethasone-covid19-article-53-procedure-assessment-report_en.pdf"
+        },
+        {
+          "title": "Dexamethasone, COVID-19 and the RECOVERY trial. St Emlyn's",
+          "url": "https://www.stemlynsblog.org/dexamethasone-covid-19-and-the-recovery-trial-st-emlyns/"
+        },
+        {
+          "title": "Coronavirus Disease 2019 (COVID-19) Treatment Guidelines",
+          "url": "https://opis-cdn.tinkoffjournal.ru/mercury/stop-covid-doc_3.pdf"
+        },
+        {
+          "title": "Biomarkers and prognostic models for severe COVID-19 in comparison...",
+          "url": "https://www.researchgate.net/publication/373791486_Biomarkers_and_prognostic_models_for_severe_COVID-19_in_comparison_with_other_etiologies_of_sepsis"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436"
+        },
+        {
+          "title": "Association of early dexamethasone therapy with mortality in ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9617242/"
+        }
+      ]
+    },
+    {
+      "query": "RECOVERY trial dexamethasone COVID-19 mortality",
+      "results": [
+        {
+          "title": "Dexamethasone, a steroid that shows promise as a Covid-19... | Vox",
+          "url": "https://www.vox.com/21292752/coronavirus-steroids-dexamethasone-covid-19-drug-treatment"
+        },
+        {
+          "title": "Eric Feigl-Ding on Twitter: \"DANGERS OF DEXAMETHASONE...\"",
+          "url": "https://twitter.com/DrEricDing/status/1312860331316838400"
+        },
+        {
+          "title": "COVID-19 Info | AM/PM Walk-In Urgent Care | NJ",
+          "url": "https://www.ampmwalkinurgentcare.com/covid-19-info/"
+        },
+        {
+          "title": "Covid-19: Three further deaths, 14 additional cases",
+          "url": "https://www.rte.ie/news/2020/0616/1147808-ireland-covid-latest/"
+        },
+        {
+          "title": "COVID-19 Recovered Couple Speak Out On How They... : Earth5R",
+          "url": "https://earth5r.org/interview-covid-19-recovered-couple-speak-survived-coronavirus/"
+        },
+        {
+          "title": "jamanetwork.com/journals/jamacardiology/fullarticle/2763846",
+          "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2763846"
+        },
+        {
+          "title": "(PDF) Therapeutic implications of current Janus kinase inhibitors as...",
+          "url": "https://www.academia.edu/170958952/Therapeutic_implications_of_current_Janus_kinase_inhibitors_as_anti_COVID_agents_A_review"
+        },
+        {
+          "title": "UpToDate",
+          "url": "https://www.uptodate.com/"
+        }
+      ]
+    },
+    {
+      "query": "corticosteroids COVID-19 meta-analysis survival benefit",
+      "results": [
+        {
+          "title": "My entire family survived COVID-19. Here's what I wish... - YouTube",
+          "url": "https://www.youtube.com/watch?v=Xyf1ruAeF6c"
+        },
+        {
+          "title": "COVID-19 - Wikiwand",
+          "url": "https://www.wikiwand.com/en/COVID-19"
+        },
+        {
+          "title": "graviolateam finland: Pfizer COVID Vaccine Has 1,291 Side Effects...",
+          "url": "https://graviolateam.blogspot.com/2026/07/pfizer-covid-vaccine-has-1291-side.html"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "Timing and predictors of tracheostomy decannulation in COVID-19 and...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1048"
+        },
+        {
+          "title": "Is It a Stomach Bug or COVID-19?",
+          "url": "https://www.everydayhealth.com/coronavirus/could-your-digestive-issues-be-a-symptom-of-covid-19/"
+        },
+        {
+          "title": "How COVID-19 triggers massive inflammation - Boston...",
+          "url": "https://answers.childrenshospital.org/covid-19-inflammation/"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2115869",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2115869"
+        }
+      ]
+    },
+    {
+      "query": "WHO guidelines corticosteroids COVID-19 treatment",
+      "results": [
+        {
+          "title": "covid19.who.int",
+          "url": "https://covid19.who.int/"
+        },
+        {
+          "title": "New Research May Help People with Long-Haul COVID-19",
+          "url": "https://www.brainandlife.org/articles/help-for-lingering-covid-19-symptoms"
+        },
+        {
+          "title": "COVID-19 Info | AM/PM Walk-In Urgent Care | NJ",
+          "url": "https://www.ampmwalkinurgentcare.com/covid-19-info/"
+        },
+        {
+          "title": "What to do if you have COVID-19, but are... | Ochsner Health",
+          "url": "https://blog.ochsner.org/articles/what-to-do-if-you-have-covid-19-but-are-asymptomatic/"
+        },
+        {
+          "title": "Timing and predictors of tracheostomy decannulation in COVID-19 and...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1048"
+        },
+        {
+          "title": "Emory doctors tapped to shape federal COVID-19 treatment guidelines",
+          "url": "https://news.emory.edu/stories/2020/04/emory-doctors-tapped-shape-federal-covid-19-treatment-guidelines"
+        },
+        {
+          "title": "COVID-19 Recovered Couple Speak Out On How They... : Earth5R",
+          "url": "https://earth5r.org/interview-covid-19-recovered-couple-speak-survived-coronavirus/"
+        },
+        {
+          "title": "COVID-19 Map - Johns Hopkins Coronavirus Resource Center",
+          "url": "https://coronavirus.jhu.edu/map.html"
+        }
+      ]
+    },
+    {
+      "query": "RECOVERY trial dexamethasone 28-day mortality ventilated patients results",
+      "results": [
+        {
+          "title": "The RECOVERY Trial: Dexamethasone for COVID-19? - REBEL EM...",
+          "url": "https://rebelem.com/the-recovery-trial-dexamethasone-for-covid-19/"
+        },
+        {
+          "title": "What is Dexamethasone? | What Is News - The Indian Express",
+          "url": "https://indianexpress.com/article/what-is/what-is-dexamethasone-6462047/"
+        },
+        {
+          "title": "(PDF) Effectiveness of the Use of Dexamethasone in... - Academia.edu",
+          "url": "https://www.academia.edu/98691220/Effectiveness_of_the_Use_of_Dexamethasone_in_Treatment_of_Coronavirus_Infections_A_Systematic_Review"
+        },
+        {
+          "title": "Are Mechanically Ventilated Patients with COVID-19 More Likely to...",
+          "url": "https://www.ijccm.org/abstractArticleContentBrowse/IJCCM/26018/JPJ/fullText"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436"
+        },
+        {
+          "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2021436?articleTools=true"
+        },
+        {
+          "title": "Dexamethasone results — RECOVERY Trial",
+          "url": "https://www.recoverytrial.net/results/dexamethasone-results"
+        },
+        {
+          "title": "Low-cost dexamethasone reduces death by up to one third in ...",
+          "url": "https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19"
+        }
+      ]
+    },
+    {
+      "query": "WHO REACT meta-analysis corticosteroids COVID-19 JAMA 2020 results",
+      "results": [
+        {
+          "title": "Glucocorticoid Dose in COVID-19 - JAMA Network",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2785531"
+        },
+        {
+          "title": "Corticosteroids for COVID-19 - World Health Organization (WHO)",
+          "url": "https://www.who.int/publications/i/item/WHO-2019-nCoV-Corticosteroids-2020.1"
+        },
+        {
+          "title": "CORTICOSTEROIDS FOR COVID-19 - World Health Organization (WHO)",
+          "url": "https://www.who.int/docs/default-source/coronaviruse/module-3-corticosteroid-therapy-and-covid19.pdf"
+        },
+        {
+          "title": "WHO (2020) Rapid Evidence Appraisal for COVID-19 Therapies ...",
+          "url": "https://www.scirp.org/reference/referencespapers?referenceid=3308496"
+        },
+        {
+          "title": "COVID-19, Corticosteroids and the Road to Enlightenment",
+          "url": "https://healthmanagement.org/c/icu/issuearticle/covid-19-corticosteroids-and-the-road-to-enlightenment"
+        },
+        {
+          "title": "jamanetwork.com/journals/jama/fullarticle/2770279?guestAccessKey...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2770279?guestAccessKey=ec87204d-c42d-4d34-bef5-077a40bc86b0"
+        },
+        {
+          "title": "Corticosteroids in COVID-19: A double-edged sword – a retrospective...",
+          "url": "https://www.medintensiva.org/es-corticosteroids-in-covid-19-a-double-edged-articulo-S0210569121000176"
+        },
+        {
+          "title": "COMMENTARY: Masks-for-all for COVID-19 not based on... | CIDRAP",
+          "url": "https://www.cidrap.umn.edu/covid-19/commentary-masks-all-covid-19-not-based-sound-data"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T15:51:49.385+00:00",
+  "status": "judged",
+  "system": "glm"
+}

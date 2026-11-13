@@ -1,0 +1,214 @@
+{
+  "arm": "attribution",
+  "citations": [
+    "https://www.nytimes.com/2020/03/17/health/coronavirus-ibuprofen.html",
+    "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1",
+    "https://www.paho.org/en/documents/ibuprofen-and-covid-19-washington-dc-18-march-2020",
+    "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+    "https://aesgp.eu/articles/statement-on-the-use-of-non-steroidal-anti-inflammatories-and-covid-19",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+  ],
+  "claim_id": "ff_f270562a5953",
+  "completed_at": "2026-08-04T04:29:28.702+00:00",
+  "framing": "attribution",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nytimes.com/2020/03/17/health/coronavirus-ibuprofen.html",
+        "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1",
+        "https://www.paho.org/en/documents/ibuprofen-and-covid-19-washington-dc-18-march-2020",
+        "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+        "https://aesgp.eu/articles/statement-on-the-use-of-non-steroidal-anti-inflammatories-and-covid-19",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is not supported by scientific evidence, concluding that ibuprofen does not worsen COVID-19 outcomes and is safe for symptom management.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "ibuprofen worsens COVID-19 infection evidence",
+    "NSAIDs COVID-19 outcomes study",
+    "WHO ibuprofen coronavirus statement retraction 2020",
+    "ibuprofen ACE2 receptor COVID-19 theory French health minister"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "Based on this evidence, I can now write the report.\n\n## Report: Does Ibuprofen Worsen COVID-19?\n\n**Short answer: No — the claim is not supported by scientific evidence.**\n\n**Origin of the claim:** The scare began in March 2020 when a French health minister tweeted that NSAIDs like ibuprofen could worsen COVID-19, based on a few anecdotal case reports and a theoretical mechanism suggesting NSAIDs might upregulate ACE2 receptors (the doorway SARS-CoV-2 uses to enter cells) ([NYT](https://www.nytimes.com/2020/03/17/health/coronavirus-ibuprofen.html); [pulmccm.org](https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1)).\n\n**Regulatory reversal:** This anecdotal theory triggered a temporary WHO recommendation to avoid ibuprofen, but within days the WHO, European Medicines Agency (EMA), UK's Commission on Human Medicines, and UK NHS all reviewed the evidence and reversed course. The EMA explicitly stated \"there is currently no scientific evidence establishing a link between ibuprofen and worsening of COVID-19,\" and WHO retracted its caution, confirming no reports of adverse effects beyond the known standard risks of NSAIDs ([PAHO](https://www.paho.org/en/documents/ibuprofen-and-covid-19-washington-dc-18-march-2020); [WHO](https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19); [AESGP](https://aesgp.eu/articles/statement-on-the-use-of-non-steroidal-anti-inflammatories-and-covid-19)).\n\n**Subsequent research:** A peer-reviewed cohort study specifically examining prescribed ibuprofen use in COVID-19 patients found no significant association between ibuprofen and severe COVID-19 outcomes ([PMC7537121](https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/)). Broader reviews of NSAID use (chronic or acute) in COVID-19 patients, including a Saudi Arabian cohort study, similarly found no elevated risk of worse outcomes or mortality.\n\n**Conclusion:** The idea that ibuprofen worsens COVID-19 originated from a theoretical concern and anecdote, not controlled data. Major health authorities investigated, found no supporting evidence, and reversed their initial caution. Current research supports that ibuprofen is safe to use for COVID-19 symptom management, following standard NSAID precautions (e.g., kidney/GI concerns) that apply regardless of COVID-19 status.",
+  "run_id": "attribution_ff_f270562a5953_attribution_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "ibuprofen worsens COVID-19 infection evidence",
+    "NSAIDs COVID-19 outcomes study",
+    "WHO ibuprofen coronavirus statement retraction 2020",
+    "ibuprofen ACE2 receptor COVID-19 theory French health minister"
+  ],
+  "searches": [
+    {
+      "query": "ibuprofen worsens COVID-19 infection evidence",
+      "results": [
+        {
+          "title": "How Do I Manage COVID-19 Symptoms at Home?",
+          "url": "https://www.avera.org/balance/wellness-and-preventive-care/how-do-i-manage-covid-19-symptoms-at-home/"
+        },
+        {
+          "title": "How COVID-19 triggers massive inflammation - Boston...",
+          "url": "https://answers.childrenshospital.org/covid-19-inflammation/"
+        },
+        {
+          "title": "COVID-19 falsely linked to bacteria",
+          "url": "https://www.factrakers.org/post/covid-19-falsely-linked-to-bacteria"
+        },
+        {
+          "title": "Leg Pain and COVID-19: Symptoms, Treatment & FAQ | Ada Health",
+          "url": "https://ada.com/covid/covid-19-leg-pain/"
+        },
+        {
+          "title": "Coronavirus (COVID-19) Cases | Our World in Data",
+          "url": "https://ourworldindata.org/covid-cases"
+        },
+        {
+          "title": "COVID - Coronavirus Statistics - Worldometer",
+          "url": "https://www.worldometers.info/coronavirus/"
+        },
+        {
+          "title": "Lingering lung, physical, mental symptoms 4 months after COVID-19",
+          "url": "https://www.cidrap.umn.edu/covid-19/lingering-lung-physical-mental-symptoms-4-months-after-covid-19"
+        },
+        {
+          "title": "Association Between Prescribed Ibuprofen and Severe COVID‐19 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+        }
+      ]
+    },
+    {
+      "query": "NSAIDs COVID-19 outcomes study",
+      "results": [
+        {
+          "title": "(PDF) COVID-19 Outcomes and Vaccination in Patients with...",
+          "url": "https://www.researchgate.net/publication/360778435_COVID-19_Outcomes_and_Vaccination_in_Patients_with_Spondyloarthritis"
+        },
+        {
+          "title": "COVID-19 Outcomes and Vaccination in Patients with Spondyloarthritis",
+          "url": "https://link.springer.com/article/10.1007/s40744-022-00462-9"
+        },
+        {
+          "title": "Severe obesity poses 76% higher risk of poor COVID-19 outcomes...",
+          "url": "https://www.cidrap.umn.edu/covid-19/severe-obesity-poses-76-higher-risk-poor-covid-19-outcomes-study-suggests"
+        },
+        {
+          "title": "An Illustrated Primer on COVID-19 Therapy: part 1",
+          "url": "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1"
+        },
+        {
+          "title": "Sleep Apnea Appears to Increase Risk of COVID-19 Infection | AJMC",
+          "url": "https://www.ajmc.com/view/sleep-apnea-appears-to-increase-risk-of-covid-19-infection"
+        },
+        {
+          "title": "How Did We Know That the COVID-19 Vaccines Would Decimate...",
+          "url": "https://www.midwesterndoctor.com/p/how-did-we-know-that-the-covid-19"
+        },
+        {
+          "title": "Snake Venom and COVID-19 - Truth for Health Foundation",
+          "url": "https://www.truthforhealth.org/2022/04/snake-venom-and-covid-19/"
+        },
+        {
+          "title": "Impact of the COVID-19 pandemic on morbidity and mortality in...",
+          "url": "https://ard.bmj.com/content/80/8/1086"
+        }
+      ]
+    },
+    {
+      "query": "WHO ibuprofen coronavirus statement retraction 2020",
+      "results": [
+        {
+          "title": "Is Ibuprofen Really Risky for Coronavirus Patients? (Published 2020)",
+          "url": "https://www.nytimes.com/2020/03/17/health/coronavirus-ibuprofen.html"
+        },
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...Ibuprofen and COVID-19 (Washington, DC. 18 March, 2020 ... - PAHOIbuprofen and coronavirus (COVID-19)Is Ibuprofen Really Risky for Coronavirus Patients? - The New ...No link between the use of ibuprofen and worsening of COVID-19EMA gives advice on the use of non-steroidal anti ...",
+          "url": "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19"
+        },
+        {
+          "title": "Ibuprofen and COVID-19 (Washington, DC. 18 March, 2020 ... - PAHO",
+          "url": "https://www.paho.org/en/documents/ibuprofen-and-covid-19-washington-dc-18-march-2020"
+        },
+        {
+          "title": "Ibuprofen and coronavirus (COVID-19)",
+          "url": "https://www.cas.mhra.gov.uk/ViewAndAcknowledgment/viewAttachment.aspx?Attachment_id=103524"
+        },
+        {
+          "title": "No link between the use of ibuprofen and worsening of COVID-19",
+          "url": "https://aesgp.eu/articles/statement-on-the-use-of-non-steroidal-anti-inflammatories-and-covid-19"
+        },
+        {
+          "title": "Can you take Ibuprofen if you have COVID-19 (coronavirus)?",
+          "url": "https://www.drugs.com/medical-answers/you-ibuprofen-you-covid-19-coronavirus-disease-3534620/"
+        },
+        {
+          "title": "WHO Reverses Statement On Ibuprofen For COVID-19: No Reports...",
+          "url": "https://www.smartparenting.com.ph/life/news/ibuprofen-for-covid-no-negative-effects-a00061-20200319"
+        },
+        {
+          "title": "tandfonline.com/doi/full/10.1080/01490400.2020.1774016",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/01490400.2020.1774016"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen ACE2 receptor COVID-19 theory French health minister",
+      "results": [
+        {
+          "title": "An Illustrated Primer on COVID-19 Therapy: part 1",
+          "url": "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1"
+        },
+        {
+          "title": "COVID-19, Pneumonia & Inflammasomes - The... - EvolutaMente.it",
+          "url": "https://www.evolutamente.it/covid-19-pneumonia-inflammasomes-the-melatonin-connection/"
+        },
+        {
+          "title": "Frontiers | COVID-19 Mechanisms in the Human Body—What We...",
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.693938/full"
+        },
+        {
+          "title": "Covid-19: Melatonin – People, Nature, and Data",
+          "url": "https://dadamo.com/dangerous/2020/04/01/covid-19-melatonin/"
+        },
+        {
+          "title": "Onderzoekers Radboudumc publiceren nieuwe inzichten COVID-19...",
+          "url": "https://www.radboudumc.nl/nieuws/2020/onderzoekers-radboudumc-publiceren-nieuwe-inzichten-covid19"
+        },
+        {
+          "title": "‘I was in… excruciating pain’ A growing number of younger COVID-19...",
+          "url": "https://www.youtube.com/watch?v=Q6-9_itCNQA"
+        },
+        {
+          "title": "The origin of olfactory disorders related to COVID-19 | IVES Technical...",
+          "url": "https://ives-technicalreviews.eu/article/view/3987"
+        },
+        {
+          "title": "French Saint Martin: Coronavirus COVID-19 cases confirmed",
+          "url": "https://eturbonews.com/french-saint-martin-coronavirus-covid-19-cases-confirmed/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T04:21:29.621+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

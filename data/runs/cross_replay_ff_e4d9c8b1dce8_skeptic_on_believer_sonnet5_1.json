@@ -1,0 +1,195 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa013259",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa0708333",
+    "https://bjsm.bmj.com/content/52/5/313",
+    "https://www.cochrane.org/th/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease"
+  ],
+  "claim_id": "ff_e4d9c8b1dce8",
+  "completed_at": "2026-08-04T17:29:37.883+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa013259",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa0708333",
+        "https://bjsm.bmj.com/content/52/5/313",
+        "https://www.cochrane.org/th/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that arthroscopy does not meaningfully help with knee osteoarthritis and strongly recommends against the procedure based on high-quality randomized controlled trials, systematic reviews, and clinical guidelines.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**No, arthroscopy does not meaningfully help knee osteoarthritis, and current evidence strongly recommends against it.**\n\nThe strongest evidence comes from randomized controlled trials directly testing arthroscopy against sham/placebo surgery. Moseley et al.'s landmark placebo-controlled trial found that arthroscopic surgery (lavage or debridement) provided no better pain relief or functional improvement than a sham procedure in patients with knee osteoarthritis (https://www.nejm.org/doi/full/10.1056/NEJMoa013259). A follow-up RCT by Kirkley et al. compared arthroscopic surgery plus optimized medical/physical therapy to optimized therapy alone in moderate-to-severe knee OA, concluding \"arthroscopic surgery for osteoarthritis of the knee provides no additional benefit to optimized physical and medical therapy\" (https://www.nejm.org/doi/full/10.1056/NEJMoa0708333).\n\nThese findings have been reinforced by systematic reviews and clinical guidelines. A 2017 BMJ Rapid Recommendation, based on a linked systematic review and meta-analysis, issued a **strong recommendation against** arthroscopic surgery for degenerative knee disease (including osteoarthritis and degenerative meniscal tears), stating that further research is unlikely to change this conclusion (https://bjsm.bmj.com/content/52/5/313). A subsequent Cochrane systematic review update similarly concluded that arthroscopic surgery provides little or no clinically important benefit for patients with degenerative knee disease, despite the procedure remaining common in practice (https://www.cochrane.org/th/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease).\n\n**Conclusion:** Across multiple high-quality RCTs, systematic reviews, and clinical practice guidelines, the evidence consistently shows arthroscopy offers no meaningful benefit over sham surgery, physical therapy, or optimized medical management for knee osteoarthritis, despite its continued widespread use.",
+  "run_id": "cross_replay_ff_e4d9c8b1dce8_skeptic_on_believer_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "arthroscopy knee osteoarthritis effectiveness randomized controlled trial",
+      "results": [
+        {
+          "title": "A Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa013259"
+        },
+        {
+          "title": "A Randomized Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa0708333"
+        },
+        {
+          "title": "A controlled trial of arthroscopic surgery for osteoarthritis ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12110735/"
+        },
+        {
+          "title": "A randomized controlled trial: Acupotomy Arthroscope vs ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0972978X25000856"
+        },
+        {
+          "title": "Changes Within Clinical Practice After a Randomized ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5400146/"
+        },
+        {
+          "title": "A Controlled Trial of Arthroscopic Knee Surgery versus ...",
+          "url": "https://academic.oup.com/book/57541/chapter/468477336"
+        },
+        {
+          "title": "A Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://colab.ws/articles/10.1056/NEJMoa013259"
+        },
+        {
+          "title": "A randomized trial of arthroscopic ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1121766/"
+        }
+      ]
+    },
+    {
+      "query": "arthroscopic surgery for degenerative knee disease evidence review",
+      "results": [
+        {
+          "title": "What is the role of arthroscopic surgery in degenerative knee...",
+          "url": "https://bjsm.bmj.com/content/bjsports/52/5/313/DC1/embed/inline-supplementary-material-1.rtf?download=true"
+        },
+        {
+          "title": "Application of minimal important differences in degenerative knee...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5777462/"
+        },
+        {
+          "title": "(PDF) Arthroscopic surgery for degenerative knee arthritis and...",
+          "url": "https://www.researchgate.net/publication/323203463_Arthroscopic_surgery_for_degenerative_knee_arthritis_and_meniscal_tears_a_clinical_practice_guideline"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease | Cochrane",
+          "url": "https://www.cochrane.org/th/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease"
+        },
+        {
+          "title": "Thumbs Down on Arthroscopic Knee Surgery",
+          "url": "https://www.hcplive.com/view/thumbs-down-arthroscopic-knee-surgery"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://experts.mcmaster.ca/display/publication2172769"
+        },
+        {
+          "title": "(PDF) Arthroscopic management of the degenerative knee",
+          "url": "https://www.academia.edu/22159403/Arthroscopic_management_of_the_degenerative_knee"
+        },
+        {
+          "title": "Knee pain? Ragged cartilage? Research suggests surgery’s not... - AOL",
+          "url": "https://www.aol.com/articles/knee-pain-ragged-cartilage-research-143141000.html"
+        }
+      ]
+    },
+    {
+      "query": "BMJ 2017 clinical practice guideline arthroscopic surgery degenerative knee arthritis meniscal tears strong recommendation against",
+      "results": [
+        {
+          "title": "Arthroscopic surgery for degenerative knee arthritis and meniscal...",
+          "url": "https://bjsm.bmj.com/content/52/5/313"
+        },
+        {
+          "title": "(PDF) Arthroscopic surgery for degenerative knee arthritis and...",
+          "url": "https://www.researchgate.net/publication/316865007_Arthroscopic_surgery_for_degenerative_knee_arthritis_and_meniscal_tears_A_clinical_practice_guideline"
+        },
+        {
+          "title": "Links To And Excerpts From 2017 \"Arthroscopic surgery for...",
+          "url": "https://www.tomwademd.net/links-to-and-excerpts-from-2017-arthroscopic-surgery-for-degenerative-knee-arthritis-and-meniscal-tears-a-clinical-practice-guideline/"
+        },
+        {
+          "title": "BMJ: Guideline Strongly Recommends Against Arthroscopy for...",
+          "url": "https://www.thesuperiortherapy.com/research-article/bmj-guideline-strongly-recommends-against-arthroscopy-for-nearly-all-patients-with-knee-oa-or-meniscal-tears/"
+        },
+        {
+          "title": "New Warning About Arthroscopic Knee Surgery — Pain News Network",
+          "url": "https://www.painnewsnetwork.org/stories/2017/5/16/new-warning-about-arthroscopic-knee-surgery"
+        },
+        {
+          "title": "Meniscus Tear Treatment: Why Surgery Isn't Always the Answer",
+          "url": "https://www.palmbeachphysio.com/patient-resources/c/knee-rehabilitation/b/meniscus-tear-treatment"
+        },
+        {
+          "title": "Meniscus Tear In The Older Knee: Surgery versus No Surgery...",
+          "url": "https://www.gckneegroup.com.au/2025/06/13/meniscus-tear-in-the-older-knee-surgery-versus-no-surgery-explained/"
+        },
+        {
+          "title": "Meniscus Tears In Arthritic Knees: What Patients Should Know...",
+          "url": "https://arthritis.com.sg/meniscus-tears-in-arthritic-knees-what-patients-should-know-before-assuming-surgery-is-the-answer/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review arthroscopic surgery osteoarthritis knee no benefit",
+      "results": [
+        {
+          "title": "Systematic Review: Arthroscopic surgery provides little or no...",
+          "url": "https://www.linksmedicus.com/news/systematic-review-arthroscopic-surgery-provides-little-no-clinically-important-benefit-patients-degenerative-knee-disease/"
+        },
+        {
+          "title": "EBM Focus - Year in Review 2014 | EBM Focus",
+          "url": "https://about.ebsco.com/clinical-decisions/dynamed-solutions/about/ebm-focus/ebm-focus-year-review-2014"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full"
+        },
+        {
+          "title": "Arthroscopic knee surgery in a middle-age patient.",
+          "url": "https://caringmedical.com/prolotherapy-news/meniscus-acl-surgery-patients-50-non-surgical-options/"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892839/"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://www.researchgate.net/publication/358994694_Arthroscopic_surgery_for_degenerative_knee_disease_osteoarthritis_including_degenerative_meniscal_tears"
+        },
+        {
+          "title": "A randomized trial of arthroscopic ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1121766/"
+        },
+        {
+          "title": "Why arthroscopic partial meniscectomy? - Lyu - Annals of...",
+          "url": "https://atm.amegroups.org/article/view/6916/html"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:29:13.278+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

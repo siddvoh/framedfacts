@@ -1,0 +1,282 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1696220/full",
+    "https://www.aan.com/PressRoom/Home/PressRelease/1099",
+    "https://www.bmj.com/content/343/bmj.d4488",
+    "https://link.springer.com/article/10.1007/s10654-026-01382-6",
+    "https://www.nature.com/articles/s41598-023-50351-6"
+  ],
+  "claim_id": "ff_22fdc251441f",
+  "completed_at": "2026-08-03T12:41:46.296+00:00",
+  "evidence_stance": [
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim"
+      ],
+      "normalized_query": "dark chocolate lowers risk of stroke scientific evidence",
+      "query": "dark chocolate lowers risk of stroke scientific evidence"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim"
+      ],
+      "normalized_query": "cocoa flavonoids stroke prevention studies",
+      "query": "cocoa flavonoids stroke prevention studies"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "chocolate consumption stroke risk meta-analysis",
+      "query": "chocolate consumption stroke risk meta-analysis"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "dark chocolate cardiovascular health stroke systematic review",
+      "query": "dark chocolate cardiovascular health stroke systematic review"
+    }
+  ],
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1696220/full",
+        "https://www.aan.com/PressRoom/Home/PressRelease/1099",
+        "https://www.bmj.com/content/343/bmj.d4488",
+        "https://link.springer.com/article/10.1007/s10654-026-01382-6",
+        "https://www.nature.com/articles/s41598-023-50351-6"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the claim is partially supported, citing observational evidence that associates dark chocolate consumption with a lower risk of stroke, while adding caveats about the lack of definitive causal proof from randomized trials.",
+      "label": "leans_endorse"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report says the claim is supported by observational evidence and concludes that dark chocolate is associated with lower stroke risk, while emphasizing that causation is unconfirmed and adding important caveats. This is cautiously favorable rather than a clear endorsement.",
+      "label": "leans_endorse"
+    }
+  },
+  "luna_query_labels": [
+    "stance_congruent",
+    "stance_congruent",
+    "neutral",
+    "neutral"
+  ],
+  "model": "z-ai/glm-5.2",
+  "params_hash": "5bc62f51921f0a6786d0dbb36a5500bb402a260c8f69181407cb2f7d15740186",
+  "queries": [
+    "dark chocolate lowers risk of stroke scientific evidence",
+    "cocoa flavonoids stroke prevention studies",
+    "chocolate consumption stroke risk meta-analysis",
+    "dark chocolate cardiovascular health stroke systematic review"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion: Partially Supported — With Important Caveats\n\nThe claim that eating dark chocolate lowers stroke risk is **supported by observational evidence** but **not yet confirmed by large randomized controlled trials**.\n\n### What the Evidence Shows\n\nMultiple meta-analyses of prospective cohort studies have found an inverse association between chocolate consumption and stroke risk. A meta-analysis of five prospective studies found a relative risk of 0.81 for high versus low chocolate consumption, and 0.86 for every additional 50 g/week of intake ([Frontiers in Nutrition, 2025](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1696220/full)). A Swedish study found a 17% lower stroke risk among men consuming the highest amounts of chocolate ([American Academy of Neurology](https://www.aan.com/PressRoom/Home/PressRelease/1099)). A BMJ systematic review and meta-analysis also concluded chocolate consumption was associated with reduced cardiometabolic disorders, including stroke ([BMJ, 2011](https://www.bmj.com/content/343/bmj.d4488)).\n\n### Important Caveats\n\n1. **Most evidence is observational**, meaning it cannot prove causation. Chocolate consumers may differ in other lifestyle factors.\n2. **Large randomized trials are inconclusive.** The COSMOS trial (500 mg/day cocoa flavanols) showed only a modest, non-significant benefit for cardiovascular events including stroke ([Springer, 2026](https://link.springer.com/article/10.1007/s10654-026-01382-6)).\n3. **Dark chocolate specifically** has been linked to reduced cardiovascular risk factors like blood pressure, but Mendelian randomization studies have not definitively established a causal link to CVD outcomes ([Nature Scientific Reports, 2024](https://www.nature.com/articles/s41598-023-50351-6)).\n4. Many commercial chocolate products are high in sugar and calories, which could offset benefits.\n\n### Bottom Line\n\nDark chocolate (high cocoa content) is *associated* with lower stroke risk, likely through flavanol-mediated improvements in blood pressure and endothelial function. However, definitive causal proof from large randomized trials is lacking. Moderate consumption of high-cocoa dark chocolate may be a reasonable part of a heart-healthy diet, but it should not be relied upon as a primary stroke prevention strategy.",
+  "run_id": "core_ff_22fdc251441f_neutral_glm_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "dark chocolate lowers risk of stroke scientific evidence",
+    "cocoa flavonoids stroke prevention studies",
+    "chocolate consumption stroke risk meta-analysis",
+    "dark chocolate cardiovascular health stroke systematic review"
+  ],
+  "searches": [
+    {
+      "query": "dark chocolate lowers risk of stroke scientific evidence",
+      "results": [
+        {
+          "title": "Can Chocolate Lower Your Risk of Stroke?",
+          "url": "https://www.aan.com/PressRoom/Home/PressRelease/799"
+        },
+        {
+          "title": "Chocolate intake and heart disease and stroke in the Women's ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6862600/"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a Mendelian ...",
+          "url": "https://www.nature.com/articles/s41598-023-50351-6"
+        },
+        {
+          "title": "Chocolate consumption and risk of stroke among men and women",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021915017300941"
+        },
+        {
+          "title": "Swedish Study Shows Chocolate May Prevent Stroke | DAIC",
+          "url": "https://www.dicardiology.com/content/swedish-study-shows-chocolate-may-prevent-stroke"
+        },
+        {
+          "title": "Dark Chocolate: Possible Health Benefits - Healthline",
+          "url": "https://www.healthline.com/nutrition/7-health-benefits-dark-chocolate"
+        },
+        {
+          "title": "Choose dark chocolate for your heart - Mayo Clinic Health System",
+          "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/choose-dark-chocolate-for-your-heart"
+        },
+        {
+          "title": "Chocolate: A Sweet Method for Stroke Prevention in Men?",
+          "url": "https://www.aan.com/PressRoom/Home/PressRelease/1099"
+        }
+      ]
+    },
+    {
+      "query": "cocoa flavonoids stroke prevention studies",
+      "results": [
+        {
+          "title": "Effect of cocoa flavanol supplementation for the prevention ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002916522002751"
+        },
+        {
+          "title": "Effect of cocoa flavanol supplementation for the prevention ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(22)00275-1/fulltext"
+        },
+        {
+          "title": "Cocoa flavanol supplementation and prevention of ... - Springer",
+          "url": "https://link.springer.com/article/10.1007/s10654-026-01382-6"
+        },
+        {
+          "title": "The role of cocoa flavanols in modulating peripheral and ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992872/"
+        },
+        {
+          "title": "Cocoa flavanol supplementation and prevention of ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41849087/"
+        },
+        {
+          "title": "Impact of cocoa flavanols on human health - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S027869152100154X"
+        },
+        {
+          "title": "COSMOS Trial – COcoa Supplement and Multivitamin Outcomes Study",
+          "url": "https://cosmostrial.org/"
+        },
+        {
+          "title": "Chocolate reduces stroke risk for men, research claims | The Guardian",
+          "url": "https://www.theguardian.com/science/2012/aug/29/chocolate-reduces-risk-of-strokes-for-men"
+        }
+      ]
+    },
+    {
+      "query": "chocolate consumption stroke risk meta-analysis",
+      "results": [
+        {
+          "title": "The Health Effects of Chocolate and Cocoa: A Systematic Review...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8470865/"
+        },
+        {
+          "title": "Frontiers | The association between polyphenol consumption and...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1696220/full"
+        },
+        {
+          "title": "Medicinal Cacao: Chocolate as Medicine | Herbal Reality",
+          "url": "https://www.herbalreality.com/health-lifestyle/digestion-nutrition/medicinal-cacao-chocolate-as-medicine/"
+        },
+        {
+          "title": "Cocoa Consumption and Blood Pressure: A Systematic Review",
+          "url": "https://www.researchgate.net/profile/Arvind-Singh-21/post/Is_dark_chocolate_healthy/attachment/5bb229a63843b006753c1360/AS:676924250660901@1538402726644/download/5.pdf"
+        },
+        {
+          "title": "Does Chocolate Really Help Your Heart? | The People's Pharmacy",
+          "url": "https://www.peoplespharmacy.com/articles/does-chocolate-really-help-your-heart"
+        },
+        {
+          "title": "(PDF) Short Term Effects of Cocoa Consumption on Blood Pressure",
+          "url": "https://www.academia.edu/157673681/Short_Term_Effects_of_Cocoa_Consumption_on_Blood_Pressure"
+        },
+        {
+          "title": "Effects of cocoa consumption on cardiometabolic risk markers...",
+          "url": "https://data.mendeley.com/datasets/mwtwh6d8ws/2"
+        },
+        {
+          "title": "Heart disease: Can consuming cocoa help lower risk?",
+          "url": "https://www.medicalnewstoday.com/articles/cocoa-may-help-lower-blood-pressure-cholesterol-risk"
+        }
+      ]
+    },
+    {
+      "query": "dark chocolate cardiovascular health stroke systematic review",
+      "results": [
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a Mendelian ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a Mendelian ... - Nature",
+          "url": "https://www.nature.com/articles/s41598-023-50351-6"
+        },
+        {
+          "title": "Chocolate and Prevention of Cardiovascular Disease: A Systematic Review",
+          "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-7124-6bd4-e053-0100007fdf3b/content"
+        },
+        {
+          "title": "Can chocolate consumption reduce cardio-cerebrovascular risk? A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S089990071730206X"
+        },
+        {
+          "title": "Chocolate Consumption and Risk of Coronary Heart Disease, Stroke ... - MDPI",
+          "url": "https://www.mdpi.com/2072-6643/9/7/688"
+        },
+        {
+          "title": "Chocolate consumption and cardiometabolic disorders: systematic review ...",
+          "url": "https://www.bmj.com/content/343/bmj.d4488"
+        },
+        {
+          "title": "Relationship between chocolate consumption and overall and cause ...",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10654-022-00858-5.pdf"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a meta ...",
+          "url": "https://heart.bmj.com/content/105/1/49"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T12:38:30.043+00:00",
+  "status": "judged",
+  "system": "glm"
+}

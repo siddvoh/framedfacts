@@ -1,0 +1,197 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://heart.bmj.com/content/105/1/49",
+    "https://www.neurology.org/doi/10.1212/WNL.0b013e31826aacfa",
+    "https://www.mdpi.com/2072-6643/9/7/688",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3022066/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+  ],
+  "claim_id": "ff_22fdc251441f",
+  "completed_at": "2026-08-03T13:02:47.827+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://heart.bmj.com/content/105/1/49",
+        "https://www.neurology.org/doi/10.1212/WNL.0b013e31826aacfa",
+        "https://www.mdpi.com/2072-6643/9/7/688",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3022066/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the claim is 'possibly true, modestly, but not firmly established,' pointing out observational support and biological plausibility despite inconclusive causal evidence. This represents a cautiously favorable position.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "The claim that dark chocolate lowers stroke risk is not clearly false — it's a plausible but unsettled association, not a well-established causal fact.\n\n**Observational evidence is mixed but leans toward a modest inverse association.** A meta-analysis of prospective cohort studies found chocolate consumption associated with reduced cardiovascular disease risk, including stroke (https://heart.bmj.com/content/105/1/49). Similarly, a Neurology study on chocolate and stroke in men, combined with a meta-analysis, found an inverse relationship (https://www.neurology.org/doi/10.1212/WNL.0b013e31826aacfa), and a MDPI meta-analysis reported chocolate intake associated with lower risk of coronary heart disease and stroke (https://www.mdpi.com/2072-6643/9/7/688). However, these are observational studies prone to confounding (e.g., wealthier, health-conscious people eat more dark chocolate).\n\n**Mechanistic plausibility exists.** Cocoa flavanols have documented effects on endothelial function, nitric oxide signaling, blood pressure, and platelet activity — plausible pathways for reduced stroke risk (https://pmc.ncbi.nlm.nih.gov/articles/PMC3022066/).\n\n**Causal evidence is weaker and inconsistent.** A Mendelian randomization study specifically testing dark chocolate intake and cardiovascular outcomes did not find strong support for a causal protective effect on ischemic stroke, and the authors themselves cautioned that prior observational work hadn't tested causality, while noting limitations of MR methodology (https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/).\n\n**Conclusion:** The claim isn't simply false — there's real epidemiological association and biological plausibility — but genetic/causal evidence is inconclusive, and effect sizes in cohort studies may be inflated by confounding and reverse causation. A fair characterization: \"possibly true, modestly, but not firmly established\" rather than a clear-cut, well-proven causal claim.",
+  "run_id": "replay_ff_22fdc251441f_skeptic_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "dark chocolate stroke risk study",
+      "results": [
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ... - NatureStudy Details | NCT06808282 | Effects of Dark Chocolate on ...Chocolate consumption and risk of stroke among men and women ...Chocolate consumption and risk of stroke - NeurologyBeyond Taste: The Impact of Chocolate on ... - MDPIChocolate Consumption and Risk of Coronary Heart Disease ...",
+          "url": "https://www.nature.com/articles/s41598-023-50351-6"
+        },
+        {
+          "title": "Study Details | NCT06808282 | Effects of Dark Chocolate on ...",
+          "url": "https://clinicaltrials.gov/study/NCT06808282"
+        },
+        {
+          "title": "Chocolate consumption and risk of stroke among men and women ...",
+          "url": "https://www.atherosclerosis-journal.com/article/S0021-9150(17)30094-1/fulltext"
+        },
+        {
+          "title": "Chocolate consumption and risk of stroke - Neurology",
+          "url": "https://www.neurology.org/doi/10.1212/WNL.0b013e31826aacfa"
+        },
+        {
+          "title": "Beyond Taste: The Impact of Chocolate on ... - MDPI",
+          "url": "https://www.mdpi.com/2072-6643/18/4/636"
+        },
+        {
+          "title": "Chocolate Consumption and Risk of Coronary Heart Disease ...",
+          "url": "https://www.mdpi.com/2072-6643/9/7/688"
+        },
+        {
+          "title": "Dark Chocolate Intake and Cardiovascular Diseases: A Mendelian ...",
+          "url": "https://www.researchgate.net/publication/370883134_Dark_Chocolate_Intake_and_Cardiovascular_Diseases_A_Mendelian_Randomization_Study"
+        }
+      ]
+    },
+    {
+      "query": "chocolate consumption cardiovascular disease meta-analysis",
+      "results": [
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a meta ...",
+          "url": "https://heart.bmj.com/content/105/1/49"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: A ...",
+          "url": "https://www.researchgate.net/publication/326709194_Chocolate_consumption_and_risk_of_cardiovascular_diseases_A_meta-Analysis_of_prospective_studies"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a ...",
+          "url": "https://www.semanticscholar.org/paper/Chocolate-consumption-and-risk-of-cardiovascular-a-Ren-Liu/66081260aec906ae680b1848143490d38504d4fe"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular - ProQuest",
+          "url": "https://www.proquest.com/docview/2154939362"
+        },
+        {
+          "title": "Chocolate Consumption and Risk of Coronary Heart Disease ...",
+          "url": "https://www.mdpi.com/2072-6643/9/7/688"
+        },
+        {
+          "title": "Relationship between chocolate consumption and overall and cause ...",
+          "url": "https://www.jstor.org/stable/48808165"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a meta ...",
+          "url": "https://europepmc.org/article/MED/30061161"
+        },
+        {
+          "title": "Can chocolate consumption reduce cardio-cerebrovascular risk? A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S089990071730206X"
+        }
+      ]
+    },
+    {
+      "query": "flavanols cocoa mechanism blood pressure endothelial function stroke",
+      "results": [
+        {
+          "title": "Cocoa flavanols: effects on vascular nitric oxide and blood pressure...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3022066/"
+        },
+        {
+          "title": "What Are the Health Benefits of Cocoa Flavanols?",
+          "url": "https://www.peoplespharmacy.com/articles/what-are-the-health-benefits-of-cocoa-flavanols"
+        },
+        {
+          "title": "Cocoa Flavanols and Cardiovascular Health | USC Journal",
+          "url": "https://www.uscjournal.com/articles/cocoa-flavanols-and-cardiovascular-health?language_content_entity=en"
+        },
+        {
+          "title": "(PDF) Cocoa flavanols and cardiovascular health",
+          "url": "https://www.academia.edu/13767165/Cocoa_flavanols_and_cardiovascular_health"
+        },
+        {
+          "title": "Industry-funded study of the week: Cocoa flavanols",
+          "url": "https://www.foodpolitics.com/2022/03/industry-funded-study-of-the-week-cocoa-flavanols/"
+        },
+        {
+          "title": "(PDF) Endothelial function, nitric oxide, and cocoa flavanols: A brief...",
+          "url": "https://www.researchgate.net/publication/290349974_Endothelial_function_nitric_oxide_and_cocoa_flavanols_A_brief_overview"
+        },
+        {
+          "title": "The Science of Cocoa Flavanols",
+          "url": "https://primacy.io/blog/apex/the-science-of-cocoa-flavanols"
+        },
+        {
+          "title": "Cocoa flavanols lower blood pressure and increase blood vessel...",
+          "url": "https://medicalxpress.com/news/2015-09-cocoa-flavanols-blood-pressure-vessel.html"
+        }
+      ]
+    },
+    {
+      "query": "Mendelian randomization dark chocolate stroke causal",
+      "results": [
+        {
+          "title": "Mendelian randomization - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mendelian_randomization"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ... - NatureDark chocolate intake and cardiovascular diseases: a ...Dark chocolate intake and cardiovascular diseases: a MendelianDark chocolate intake and cardiovascular diseases: a ...A Mendelian Randomization Study Dark Chocolate Intake and ...Dark Chocolate Intake and Cardiovascular Diseases: AMendelian randomization studies on ischemic stroke: a field ...",
+          "url": "https://www.nature.com/articles/s41598-023-50351-6"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a Mendelian",
+          "url": "https://greenmedinfo.com/article/dark-chocolate-intake-and-cardiovascular-diseases"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ...",
+          "url": "https://www.finngen.fi/en/node/1802"
+        },
+        {
+          "title": "A Mendelian Randomization Study Dark Chocolate Intake and ...",
+          "url": "https://www.researchgate.net/publication/370883134_Dark_Chocolate_Intake_and_Cardiovascular_Diseases_A_Mendelian_Randomization_Study/fulltext/646788709533894cac7e66de/Dark-Chocolate-Intake-and-Cardiovascular-Diseases-A-Mendelian-Randomization-Study.pdf"
+        },
+        {
+          "title": "Dark Chocolate Intake and Cardiovascular Diseases: A",
+          "url": "https://assets-eu.researchsquare.com/files/rs-2919868/v1/5e3f876b4f07595a06866471.pdf"
+        },
+        {
+          "title": "Mendelian randomization studies on ischemic stroke: a field ...",
+          "url": "https://link.springer.com/article/10.1186/s12967-025-06992-4"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T12:48:40.126+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

@@ -1,0 +1,288 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409",
+    "https://clinicaltrials.gov/study/NCT00740714",
+    "https://www.mdpi.com/2075-4426/12/6/975"
+  ],
+  "claim_id": "ff_53f6df77b46b",
+  "completed_at": "2026-08-03T16:30:03.188+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409",
+        "https://clinicaltrials.gov/study/NCT00740714",
+        "https://www.mdpi.com/2075-4426/12/6/975"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that clinical evidence demonstrates coenzyme Q10 does not improve movement disorders or slow functional decline in patients with Parkinson's disease, citing large phase III trial results and systematic reviews. Therefore, it rejects the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "Coenzyme Q10 Parkinson disease movement disorders clinical trials meta-analysis",
+    "CoQ10 Parkinson disease motor symptoms efficacy systematic review meta-analysis",
+    "site:ncbi.nlm.nih.gov \"coenzyme Q10\" OR \"CoQ10\" \"Parkinson's\" motor UPDRS meta-analysis",
+    "site:ncbi.nlm.nih.gov \"coenzyme Q10\" \"Parkinson's disease\" \"JAMA\" OR \"Cochrane\" OR \"meta-analysis\"",
+    "\"coenzyme Q10\" \"Parkinson\" \"JAMA\" phase III trial motor UPDRS",
+    "\"coenzyme Q10\" \"Parkinson\" meta-analysis systematic review motor UPDRS"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion:** Current clinical evidence indicates that taking coenzyme Q10 (CoQ10) **does not** improve movement disorders or slow functional decline in patients with Parkinson's disease.\n\nWhile early preclinical research and phase II preliminary studies suggested potential benefits, definitive large-scale clinical trials and systematic reviews have found no benefit:\n\n* **Phase III Clinical Evidence:** A landmark phase III randomized, placebo-controlled clinical trial (the QE3 study) evaluated high dosages of CoQ10 (up to 2,400 mg/day) in patients with early Parkinson's disease. The trial was halted early for futility because CoQ10 showed no significant difference compared to placebo in changing Unified Parkinson's Disease Rating Scale (UPDRS) scores, including motor symptom subscores.\n* **Systematic Reviews and Meta-Analyses:** Subsequent meta-analyses synthesizing data across multiple randomized controlled trials confirm that CoQ10 supplementation does not superiorly improve motor symptoms, daily living activities, or overall clinical progression compared to placebo.\n\nAlthough CoQ10 is generally safe and well tolerated, current evidence does not support its use for treating movement disorders or slowing progression in Parkinson's disease.\n\n**Sources:**\n- JAMA Neurology (Phase III Trial): https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409\n- ClinicalTrials.gov (QE3 Study Details): https://clinicaltrials.gov/study/NCT00740714\n- MDPI Journal of Personalised Medicine (Systematic Review): https://www.mdpi.com/2075-4426/12/6/975",
+  "run_id": "core_ff_53f6df77b46b_neutral_gemini_1",
+  "search_backend": "web",
+  "search_count": 6,
+  "search_tool_queries": [
+    "Coenzyme Q10 Parkinson disease movement disorders clinical trials meta-analysis",
+    "CoQ10 Parkinson disease motor symptoms efficacy systematic review meta-analysis",
+    "site:ncbi.nlm.nih.gov \"coenzyme Q10\" OR \"CoQ10\" \"Parkinson's\" motor UPDRS meta-analysis",
+    "site:ncbi.nlm.nih.gov \"coenzyme Q10\" \"Parkinson's disease\" \"JAMA\" OR \"Cochrane\" OR \"meta-analysis\"",
+    "\"coenzyme Q10\" \"Parkinson\" \"JAMA\" phase III trial motor UPDRS",
+    "\"coenzyme Q10\" \"Parkinson\" meta-analysis systematic review motor UPDRS"
+  ],
+  "searches": [
+    {
+      "query": "Coenzyme Q10 Parkinson disease movement disorders clinical trials meta-analysis",
+      "results": [
+        {
+          "title": "The Michael J. Fox Foundation for Parkinson's Research",
+          "url": "https://www.michaeljfox.org/"
+        },
+        {
+          "title": "Parkinson's Disease-Treat the Fire, Not the Smoke - alive magazine",
+          "url": "https://www.alive.com/health/parkinsons-disease-treat-the-fire-not-the-smoke/"
+        },
+        {
+          "title": "ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/"
+        },
+        {
+          "title": "10 Early Signs | Parkinson's Foundation",
+          "url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs"
+        },
+        {
+          "title": "Early Signs of Parkinson's Disease: Symptoms Beyond the Tremor",
+          "url": "https://health.stonybrookmedicine.edu/early-signs-of-parkinsons-disease/"
+        },
+        {
+          "title": "Understanding Parkinson's disease - YouTube",
+          "url": "https://www.youtube.com/watch?v=ckn9zybpYZ8"
+        },
+        {
+          "title": "Emerging therapies for Parkinson's disease: from bench to bedside",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24854598/"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 (CoQ) in Parkinson Disease (QE3)",
+          "url": "https://clinicaltrials.gov/study/NCT00740714"
+        }
+      ]
+    },
+    {
+      "query": "CoQ10 Parkinson disease motor symptoms efficacy systematic review meta-analysis",
+      "results": [
+        {
+          "title": "Early Levodopa-Induced Motor Complications in RAB39B X-Linked...",
+          "url": "https://tremorjournal.org/articles/10.5334/tohm.946"
+        },
+        {
+          "title": "The Iowa Gambling Task in Parkinson's disease: A meta-analysis on...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27475264/"
+        },
+        {
+          "title": "Parkinson's Disease: Pathophysiology, Clinical Features, Diagnosis...",
+          "url": "https://pt.slideshare.net/slideshow/parkinson-s-disease-pathophysiology-clinical-features-diagnosis-physiotherapy-management/288811721"
+        },
+        {
+          "title": "Parkinson Disease: Motor Symptoms | Vumedi",
+          "url": "https://www.vumedi.com/video/parkinson-disease-motor-symptoms/"
+        },
+        {
+          "title": "tandfonline.com/doi/full/10.1080/17437199.2021.1923406",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17437199.2021.1923406"
+        },
+        {
+          "title": "science.org/doi/10.1126/science.1114655",
+          "url": "https://www.science.org/doi/10.1126/science.1114655"
+        },
+        {
+          "title": "jamanetwork.com/journals/jamanetworkopen/fullarticle/2831134",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2831134"
+        },
+        {
+          "title": "Dysautonomia International",
+          "url": "https://www.dysautonomiainternational.org/page.php?ID=34"
+        }
+      ]
+    },
+    {
+      "query": "site:ncbi.nlm.nih.gov \"coenzyme Q10\" OR \"CoQ10\" \"Parkinson's\" motor UPDRS meta-analysis",
+      "results": [
+        {
+          "title": "Combined Supplementation of Coenzyme Q10 and Other Nutrients ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9609170/"
+        },
+        {
+          "title": "Coenzyme Q10 - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31687097/"
+        },
+        {
+          "title": "Coenzyme Q10: Role in Less Common Age-Related Disorders",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9687298/"
+        },
+        {
+          "title": "Coenzyme Q10 supplementation - In ageing and disease",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34129891/"
+        },
+        {
+          "title": "Biochemical Assessment of Coenzyme Q10 Deficiency - PMCCoenzyme Q10 | C59H90O4 | CID 5281915 - PubChemCoenzyme Q10 Status as a Determinant of Muscular Strength in ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5372996/"
+        },
+        {
+          "title": "Coenzyme Q10 | C59H90O4 | CID 5281915 - PubChem",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281915"
+        },
+        {
+          "title": "Coenzyme Q10 Status as a Determinant of Muscular Strength in ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5132250/"
+        },
+        {
+          "title": "Quantitative and causal analysis for inflammatory genes and the risk of...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10011457/"
+        }
+      ]
+    },
+    {
+      "query": "site:ncbi.nlm.nih.gov \"coenzyme Q10\" \"Parkinson's disease\" \"JAMA\" OR \"Cochrane\" OR \"meta-analysis\"",
+      "results": [
+        {
+          "title": "Cochrane reviews | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/?contentLanguage=enNational"
+        },
+        {
+          "title": "The Cochrane Library | Cochrane Public Health",
+          "url": "https://ph.cochrane.org/cochrane-library"
+        },
+        {
+          "title": "Efficacy and Optimal Dose of Coenzyme Q10 ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37118903/"
+        },
+        {
+          "title": "Cochrane Library | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/library?contentLanguage=en"
+        },
+        {
+          "title": "Cochrane Library",
+          "url": "https://www.cochrane.org/products-and-services/cochrane-library"
+        },
+        {
+          "title": "Our evidence - Cochrane",
+          "url": "https://www.cochrane.org/evidence"
+        },
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Pathophysiology and Management of Fatigue in Neuromuscular...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10003182/"
+        }
+      ]
+    },
+    {
+      "query": "\"coenzyme Q10\" \"Parkinson\" \"JAMA\" phase III trial motor UPDRS",
+      "results": [
+        {
+          "title": "A Randomized Clinical Trial of High-Dosage Coenzyme Q10 in ...",
+          "url": "https://scholar.barrowneuro.org/neurology/93/"
+        },
+        {
+          "title": "A Randomized Clinical Trial of High-Dosage Coenzyme Q10 in ...",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/1851409"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 in Early Parkinson Disease",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/782965"
+        },
+        {
+          "title": "A randomized clinical trial of high-dosage coenzyme Q10 in ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24664227/?dopt=Abstract"
+        },
+        {
+          "title": "A randomized clinical trial of high-dosage coenzyme Q10 in ...",
+          "url": "https://mayoclinic.elsevierpure.com/en/publications/a-randomized-clinical-trial-of-high-dosage-coenzyme-q10-in-early-/"
+        },
+        {
+          "title": "A Randomized Clinical Trial of High-Dosage Coenzyme Q10 in ...",
+          "url": "https://www.researchgate.net/publication/261513724_A_Randomized_Clinical_Trial_of_High-Dosage_Coenzyme_Q10_in_Early_Parkinson_Disease"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 (CoQ) in Parkinson Disease (QE3)",
+          "url": "https://clinicaltrials.gov/study/NCT00740714"
+        },
+        {
+          "title": "The trans-omics of -omics – The Science of Parkinson's",
+          "url": "https://scienceofparkinsons.com/2022/11/18/omics/"
+        }
+      ]
+    },
+    {
+      "query": "\"coenzyme Q10\" \"Parkinson\" meta-analysis systematic review motor UPDRS",
+      "results": [
+        {
+          "title": "Coenzyme Q10 for Patients with Parkinson's Disease: A ...",
+          "url": "https://www.benthamdirect.com/content/journals/cnsnddt/10.2174/1871527314666150821103306"
+        },
+        {
+          "title": "Coenzyme Q10 and Parkinsonian Syndromes: A Systematic Review",
+          "url": "https://www.mdpi.com/2075-4426/12/6/975"
+        },
+        {
+          "title": "Coenzyme Q10 for Patients with Parkinson's Disease: A ...",
+          "url": "https://www.researchgate.net/publication/281460312_Coenzyme_Q10_for_Patients_with_Parkinson's_Disease_A_Systematic_Review_and_Meta-Analysis"
+        },
+        {
+          "title": "Coenzyme Q10 for Patients with Parkinson's Disease: A ...",
+          "url": "https://europepmc.org/article/med/26553164"
+        },
+        {
+          "title": "Coenzyme Q10 for Patients with Parkinson's disease: A ...",
+          "url": "https://www.researchgate.net/profile/Ahmed-Negida-2/publication/281460312_Coenzyme_Q10_for_Patients_with_Parkinson's_Disease_A_Systematic_Review_and_Meta-Analysis/links/565e9c8d08aefe619b2727ec/Coenzyme-Q10-for-Patients-with-Parkinsons-Disease-A-Systematic-Review-and-Meta-Analysis.pdf"
+        },
+        {
+          "title": "Coenzyme Q10 for Patients with Parkinson's disease: A ...",
+          "url": "https://www.epistemonikos.org/en/documents/693bb46ca64364fb10c6a3a17ac3e2b014c529e9"
+        },
+        {
+          "title": "The efficacy and safety of coenzyme Q10 in Parkinson’s ...",
+          "url": "https://link.springer.com/article/10.1007/s10072-016-2757-9"
+        },
+        {
+          "title": "Beyond motor symptoms: a systematic review of the...",
+          "url": "https://insightsjhr.org/index.php/home/article/view/1621"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T16:14:53.610+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

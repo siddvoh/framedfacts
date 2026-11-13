@@ -1,0 +1,195 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK279544/",
+    "https://link.springer.com/article/10.1186/s12889-023-17229-8",
+    "https://medlineplus.gov/ency/article/002145.htm"
+  ],
+  "claim_id": "ff_03df546ff699",
+  "completed_at": "2026-08-03T07:50:19.497+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK279544/",
+        "https://link.springer.com/article/10.1186/s12889-023-17229-8",
+        "https://medlineplus.gov/ency/article/002145.htm"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report directly states that regular vitamin C supplementation does not prevent colds for the general population, although it notes a niche exception for people undergoing heavy acute physical stress.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Conclusion\n\nFor most people, regular vitamin C supplementation does **not prevent** colds. The Cochrane review (based on 29 trials, 11,306 participants) found no reduction in cold incidence in the general population. However, it does provide a modest but consistent benefit once you catch a cold—**shortening duration by about 8% in adults and 14% in children**, and a separate meta-analysis found roughly a 15% reduction in symptom severity.\n\nThere is one notable exception: people under **heavy acute physical stress**, such as marathon and ultramarathon runners or soldiers in subarctic conditions, showed roughly a **50% reduction in cold incidence** with regular vitamin C use in pooled trials. This effect has not been observed in the general population.\n\nTaking vitamin C only after cold symptoms start (rather than regularly beforehand) shows no benefit for duration or severity.\n\n**Bottom line:** Daily vitamin C is not an effective strategy to prevent colds for the average person, though it may slightly reduce how long and how severe a cold is if you take it regularly. It may meaningfully lower cold risk specifically for people undergoing intense physical exertion.\n\n## Sources\n\n- Cochrane review: Vitamin C for preventing and treating the common cold — https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/\n- NCBI Bookshelf, InformedHealth.org — https://www.ncbi.nlm.nih.gov/books/NBK279544/\n- BMC Public Health meta-analysis on cold severity — https://link.springer.com/article/10.1186/s12889-023-17229-8\n- MedlinePlus Medical Encyclopedia — https://medlineplus.gov/ency/article/002145.htm",
+  "run_id": "replay_ff_03df546ff699_neutral_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "vitamin C prevent common cold regular supplementation",
+      "results": [
+        {
+          "title": "Common colds: Research summaries – Does vitamin C prevent colds? - InformedHealth.org - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK279544/"
+        },
+        {
+          "title": "Vitamin C in the Prevention and Treatment of the Common Cold",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124957/"
+        },
+        {
+          "title": "Vitamin C for Colds: Benefits, Side Effects, Uses",
+          "url": "https://www.webmd.com/cold-and-flu/vitamin-c-for-common-cold"
+        },
+        {
+          "title": "Mayo Clinic Minute: Can vitamin C keep the common cold away? - Mayo Clinic News Network",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-can-vitamin-c-keep-the-common-cold-away/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold"
+        },
+        {
+          "title": "Common Cold | Linus Pauling Institute | Oregon State University",
+          "url": "https://lpi.oregonstate.edu/mic/health-disease/common-cold"
+        },
+        {
+          "title": "Vitamin C and colds: MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/article/002145.htm"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review vitamin C common cold prevention",
+      "results": [
+        {
+          "title": "Vitamin C for preventing and treating the common cold - Hemilä, H - 2013 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub4/full"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold"
+        },
+        {
+          "title": "Cochrane review: Vitamin C for preventing and treating the common cold - Douglas - 2008 - Evidence-Based Child Health: A Cochrane Review Journal - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/ebch.266"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - Douglas, RM - 2004 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub2/abstract"
+        },
+        {
+          "title": "Cochrane Library Cochrane Database of Systematic Reviews",
+          "url": "https://immunonutrition-isin.org/docs/covidEvidence/Vitamin%20C%202.pdf"
+        },
+        {
+          "title": "Common Cold | Cochrane Complementary Medicine",
+          "url": "https://cam.cochrane.org/common-cold"
+        },
+        {
+          "title": "Cochrane review: Vitamin C for preventing and treating the common cold | Request PDF",
+          "url": "https://www.researchgate.net/publication/239295855_Cochrane_review_Vitamin_C_for_preventing_and_treating_the_common_cold"
+        }
+      ]
+    },
+    {
+      "query": "vitamin C marathon runners athletes cold incidence reduced",
+      "results": [
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+        },
+        {
+          "title": "Vitamin C may protect marathon runners from colds, but what about the rest of us?",
+          "url": "https://www.nutraingredients.com/Article/2013/02/15/Vitamin-C-may-protect-marathon-runners-from-colds-but-what-about-the-rest-of-us/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold"
+        },
+        {
+          "title": "Can Vitamin C Help Improve Recovery from the Marathon and Ultramarathon? - Runners Connect",
+          "url": "https://runnersconnect.net/vitamin-c-and-ultramarathon/"
+        },
+        {
+          "title": "Vitamin C Reduces Duration, Severity of Colds in Athletes",
+          "url": "https://naturalsociety.com/vitamin-c-reduces-duration-severity-colds-athletes/"
+        },
+        {
+          "title": "Cochrane Library Cochrane Database of Systematic Reviews",
+          "url": "https://immunonutrition-isin.org/docs/covidEvidence/Vitamin%20C%202.pdf"
+        },
+        {
+          "title": "Vitamin C and exercise-induced bronchoconstriction in athletes - Journal of Allergy and Clinical Immunology",
+          "url": "https://www.jacionline.org/article/S0091-6749(08)01743-0/fulltext"
+        }
+      ]
+    },
+    {
+      "query": "vitamin C cold duration percent reduction meta-analysis",
+      "results": [
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38082300/"
+        },
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis | BMC Public Health | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s12889-023-17229-8"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/"
+        },
+        {
+          "title": "RESEARCH Open Access",
+          "url": "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12889-023-17229-8.pdf"
+        },
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10712193/"
+        },
+        {
+          "title": "Myth of the Month: Vitamin C vs the Common Cold | MDedge",
+          "url": "https://www.mdedge.com/familymedicine/article/270936/infectious-diseases/myth-month-vitamin-c-vs-common-cold"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T07:44:29.537+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

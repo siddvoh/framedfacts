@@ -1,0 +1,218 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12024850/",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf",
+    "https://www.mdpi.com/2077-0383/15/2/673",
+    "https://academic.oup.com/jcem/article/105/3/938/5610884"
+  ],
+  "claim_id": "ff_f13bd48cccc4",
+  "completed_at": "2026-08-04T04:07:50.772+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12024850/",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf",
+        "https://www.mdpi.com/2077-0383/15/2/673",
+        "https://academic.oup.com/jcem/article/105/3/938/5610884"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is true and supported by strong, consistent evidence from pivotal clinical trials, regulatory approvals, and meta-analyses.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that the claim is true and strongly supported, citing consistent trial, regulatory, and meta-analytic evidence. It explicitly rejects the opposing skeptical stance.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "abaloparatide vertebral fracture postmenopausal osteoporosis",
+    "abaloparatide ACTIVE trial results fracture risk reduction",
+    "abaloparatide FDA approval label vertebral fracture reduction indication",
+    "abaloparatide meta-analysis efficacy safety osteoporosis"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "The claim is well-supported by evidence — it is not false.\n\n**Conclusion:** The statement that abaloparatide reduces vertebral fractures in postmenopausal women with osteoporosis is true and backed by strong, consistent evidence.\n\n**Evidence:**\n\n1. **Pivotal RCT (ACTIVE trial):** The phase 3, double-blind, placebo-controlled ACTIVE trial randomized 2,463 postmenopausal women with osteoporosis to abaloparatide, placebo, or open-label teriparatide. New morphometric vertebral fractures occurred in 0.6% of abaloparatide-treated women versus 4.2% of placebo-treated women over 18 months (p<0.0001) — a large, statistically significant relative risk reduction (https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract; https://pmc.ncbi.nlm.nih.gov/articles/PMC12024850/).\n\n2. **Regulatory basis:** The FDA's approval of abaloparatide (Tymlos) explicitly cites these same 18-month results — 0.6% vs. 4.2% vertebral fracture incidence — as pivotal evidence, and the drug's approved labeling states it is indicated to reduce vertebral and nonvertebral fracture risk in high-risk postmenopausal women (https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf).\n\n3. **Independent meta-analyses:** Systematic reviews/meta-analyses pooling multiple trials confirm the effect is robust and reproducible, not an artifact of a single study, concluding abaloparatide provides \"strong vertebral protection\" with a favorable safety profile (https://www.mdpi.com/2077-0383/15/2/673; PubMed ID 41598611).\n\n4. **Comparative and extension data:** Follow-on studies (ACTIVExtend) and comparative trials against alendronate show the vertebral fracture benefit is sustained over longer follow-up and compares favorably to standard antiresorptive therapy (https://academic.oup.com/jcem/article/105/3/938/5610884).\n\nGiven randomized trial data, regulatory review, and independent meta-analytic confirmation all pointing the same direction, there is no credible basis to consider this claim false; the skepticism appears unwarranted.",
+  "run_id": "core_ff_f13bd48cccc4_skeptic_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "abaloparatide vertebral fracture postmenopausal osteoporosis",
+    "abaloparatide ACTIVE trial results fracture risk reduction",
+    "abaloparatide FDA approval label vertebral fracture reduction indication",
+    "abaloparatide meta-analysis efficacy safety osteoporosis"
+  ],
+  "searches": [
+    {
+      "query": "abaloparatide vertebral fracture postmenopausal osteoporosis",
+      "results": [
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial | Orthopedics | JAMA | JAMA Network",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2544640"
+        },
+        {
+          "title": "Abaloparatide - StatPearls - NCBI Bookshelf - NIH",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK587447/"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27533157/?dopt=Abstract"
+        },
+        {
+          "title": "Abaloparatide for risk reduction of nonvertebral and vertebral fractures in postmenopausal women with osteoporosis: a network meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30953114/"
+        },
+        {
+          "title": "Abaloparatide for risk reduction of nonvertebral and vertebral fractures in postmenopausal women with osteoporosis: a network meta-analysis - PMC",
+          "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC6614166"
+        },
+        {
+          "title": "Effect of abaloparatide on vertebral, nonvertebral, major osteoporotic, and clinical fractures in a subset of postmenopausal women at increased risk of fracture by FRAX probability - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6373333/"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Alendronate on Fracture Risk Reduction in Postmenopausal Women With Osteoporosis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31674644/"
+        },
+        {
+          "title": "Effect of abaloparatide on fracture incidence and bone mineral density in postmenopausal women with osteoporosis at highest risk for fracture - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12024850/"
+        }
+      ]
+    },
+    {
+      "query": "abaloparatide ACTIVE trial results fracture risk reduction",
+      "results": [
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2544640"
+        },
+        {
+          "title": "Fracture and Bone Mineral Density Response by Baseline Risk ...",
+          "url": "https://academic.oup.com/jbmr/article/34/12/2213/7380871"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27533157/"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Alendronate on Fracture Risk ...",
+          "url": "https://academic.oup.com/jcem/article/105/3/938/5610884"
+        },
+        {
+          "title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures ...",
+          "url": "https://www.panoramaortho.com/wp-content/uploads/2017/05/JAMA-Abaloparatide-ACTIVE-Miller-et-al-FINAL.pdf"
+        },
+        {
+          "title": "Effect of abaloparatide on fracture incidence and bone ...",
+          "url": "https://journals.lww.com/menopausejournal/fulltext/10.1097/gme.0000000000002516~effect-of-abaloparatide-on-fracture-incidence-and-bone"
+        },
+        {
+          "title": "Effects of Abaloparatide-SC on Bone Mineral Density and Risk ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015760/"
+        },
+        {
+          "title": "Fracture and Bone Mineral Density Response by Baseline Risk in...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6916366/"
+        }
+      ]
+    },
+    {
+      "query": "abaloparatide FDA approval label vertebral fracture reduction indication",
+      "results": [
+        {
+          "title": "Abaloparatide - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abaloparatide"
+        },
+        {
+          "title": "TYMLOS (abaloparatide) injection Label",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf"
+        },
+        {
+          "title": "Tymlos (abaloparatide) dosing, indications, interactions, adverse...",
+          "url": "https://reference.medscape.com/drug/tymlos-abaloparatide-1000129"
+        },
+        {
+          "title": "FDA Approves Tymlos for Osteoporosis in... - Managedcaremag.com",
+          "url": "https://www.managedcaremag.com/news/fda-approves-tymlos-osteoporosis-postmenopausal-women/"
+        },
+        {
+          "title": "Abaloparatide: What the Research Actually Shows (FDA Approved)...",
+          "url": "https://peptibase.dev/peptides/abaloparatide"
+        },
+        {
+          "title": "FDA approves Tymlos for postmenopausal women with osteoporosis",
+          "url": "https://www.healio.com/news/endocrinology/20170428/fda-approves-tymlos-for-postmenopausal-women-with-osteoporosis"
+        },
+        {
+          "title": "FDA-Approved Abaloparatide API Manufacturers & Suppliers",
+          "url": "https://pharmaoffer.com/api-excipient-supplier/hormonal-agents/abaloparatide/fda"
+        },
+        {
+          "title": "FDA Approves Abaloparatide to Treat Men... - The Rheumatologist",
+          "url": "https://www.the-rheumatologist.org/article/fda-approves-abaloparatide-to-treat-men-with-osteoporosis-a-high-risk-of-fracture/"
+        }
+      ]
+    },
+    {
+      "query": "abaloparatide meta-analysis efficacy safety osteoporosis",
+      "results": [
+        {
+          "title": "The Efficacy and Safety of Abaloparatide in Osteoporosis: A Systematic Review and Meta-Analysis",
+          "url": "https://www.mdpi.com/2077-0383/15/2/673"
+        },
+        {
+          "title": "Frontiers | Efficacy and safety of abaloparatide, denosumab, teriparatide, oral bisphosphonates, and intravenous bisphosphonates in the treatment of male osteoporosis: a systematic review and Bayesian network meta-analysis",
+          "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1558560/full"
+        },
+        {
+          "title": "The Efficacy and Safety of Abaloparatide in Osteoporosis: A Systematic Review and Meta-Analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41598611/"
+        },
+        {
+          "title": "The Safety and Efficacy of Abaloparatide on Postmenopausal Osteoporosis: A Systematic Review and Meta-analysis - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0149291824000043"
+        },
+        {
+          "title": "(PDF) The Efficacy and Safety of Abaloparatide in Osteoporosis: A Systematic Review and Meta-Analysis",
+          "url": "https://www.researchgate.net/publication/399780858_The_Efficacy_and_Safety_of_Abaloparatide_in_Osteoporosis_A_Systematic_Review_and_Meta-Analysis"
+        },
+        {
+          "title": "Efficacy and safety of abaloparatide, denosumab, teriparatide, oral bisphosphonates, and intravenous bisphosphonates in the treatment of male osteoporosis: a systematic review and Bayesian network meta-analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12040664/"
+        },
+        {
+          "title": "Frontiers | Comparative efficacy and safety of odanacatib, abaloparatide, denosumab, teriparatide, and bisphosphonates for male osteoporosis: a systematic review and network meta-analysis",
+          "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1836818/full"
+        },
+        {
+          "title": "The Safety and Efficacy of Abaloparatide on Postmenopausal Osteoporosis: A Systematic Review and Meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38307725/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T03:55:58.638+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

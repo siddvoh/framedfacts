@@ -1,0 +1,370 @@
+{
+  "arm": "attribution",
+  "citations": [
+    "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+    "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8327046/",
+    "https://link.springer.com/content/pdf/10.1007/s10787-023-01309-7.pdf"
+  ],
+  "claim_id": "ff_f270562a5953",
+  "completed_at": "2026-08-04T04:40:09.102+00:00",
+  "framing": "attribution",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+        "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8327046/",
+        "https://link.springer.com/content/pdf/10.1007/s10787-023-01309-7.pdf"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is unsupported, citing statements and studies from the WHO, FDA, and systematic reviews that found no evidence that ibuprofen worsens COVID-19 infection or outcomes.",
+      "label": "rejects"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "5bc62f51921f0a6786d0dbb36a5500bb402a260c8f69181407cb2f7d15740186",
+  "queries": [
+    "ibuprofen COVID-19 worsens infection evidence",
+    "ibuprofen COVID-19 French health minister warning March 2020",
+    "WHO ibuprofen COVID-19 statement",
+    "ibuprofen vs acetaminophen COVID-19 outcomes study",
+    "ibuprofen COVID-19 systematic review meta-analysis",
+    "ibuprofen SARS-CoV-2 ACE2 receptor mechanism",
+    "FDA ibuprofen COVID-19 safety",
+    "NICE ibuprofen COVID-19 guidance"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "# Ibuprofen and COVID-19: Evidence Summary\n\n**Origin of the claim:** In March 2020, France's Health Minister tweeted that ibuprofen and other anti-inflammatories could be \"an aggravating factor\" in COVID-19. This was based on anecdotal reports of four worsening cases and a *Lancet Respiratory Medicine* letter by Fang et al. hypothesizing that ibuprofen might upregulate ACE2—the receptor SARS-CoV-2 uses to enter cells—potentially increasing susceptibility to infection.\n\n**What the evidence shows:**\n\n- **WHO review:** After reviewing 73 studies, the World Health Organization concluded there is no evidence that ibuprofen worsens COVID-19. They do not recommend avoiding NSAIDs in patients with COVID-19.\n\n- **FDA position:** The U.S. FDA stated it is \"not aware of scientific evidence connecting the use of NSAIDs, like ibuprofen, with worsening COVID-19 symptoms.\"\n\n- **Systematic review and meta-analysis:** A 2021 systematic review and meta-analysis of studies examining NSAID use and COVID-19 outcomes found no evidence that NSAIDs increase the risk of severe disease, hospitalization, or death.\n\n- **Nationwide cohort study:** A Danish nationwide study found no significant association between recent ibuprofen prescriptions and severe COVID-19 outcomes (ICU admission, respiratory failure, or death).\n\n- **Narrative review (2023):** A comprehensive narrative review concluded that \"the direction of evidence supports that NSAIDs do not increase susceptibility to infection, nor worsen disease outcomes in patients with COVID-19.\"\n\n**Conclusion:** The claim that ibuprofen worsens COVID-19 originated from anecdotal reports and a mechanistic hypothesis that has not been borne out in clinical studies. Multiple systematic reviews, large observational studies, and statements from major health authorities (WHO, FDA) found no evidence supporting this claim. Your sister's concern, while understandable given the early media attention, is not supported by the current evidence.\n\n**Sources:**\n- https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19\n- https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC8327046/\n- https://link.springer.com/content/pdf/10.1007/s10787-023-01309-7.pdf",
+  "run_id": "attribution_ff_f270562a5953_attribution_glm_2",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "ibuprofen COVID-19 worsens infection evidence",
+    "ibuprofen COVID-19 French health minister warning March 2020",
+    "WHO ibuprofen COVID-19 statement",
+    "ibuprofen vs acetaminophen COVID-19 outcomes study",
+    "ibuprofen COVID-19 systematic review meta-analysis",
+    "ibuprofen SARS-CoV-2 ACE2 receptor mechanism",
+    "FDA ibuprofen COVID-19 safety",
+    "NICE ibuprofen COVID-19 guidance"
+  ],
+  "searches": [
+    {
+      "query": "ibuprofen COVID-19 worsens infection evidence",
+      "results": [
+        {
+          "title": "Association Between Prescribed Ibuprofen and Severe COVID‐19 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+        },
+        {
+          "title": "FDA advises patients on use of NSAIDs for COVID-19",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19"
+        },
+        {
+          "title": "The COVID-19 ibuprofen controversy: A systematic review of ...Association Between Prescribed Ibuprofen and Severe COVID‐19 ...Ibuprofen, other NSAIDs and COVID‐19: a narrative reviewSafety of Ibuprofen in Patients With COVID-19 - PMC",
+          "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bcp.14514"
+        },
+        {
+          "title": "Association Between Prescribed Ibuprofen and Severe COVID‐19 ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7537121/"
+        },
+        {
+          "title": "Ibuprofen, other NSAIDs and COVID‐19: a narrative review",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10787-023-01309-7.pdf"
+        },
+        {
+          "title": "Safety of Ibuprofen in Patients With COVID-19 - PMC",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151542/"
+        },
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no evidence it can...",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        },
+        {
+          "title": "Clinical Outcomes Associated With Ibuprofen Use During COVID-19",
+          "url": "https://www.infectiousdiseaseadvisor.com/news/clinical-outcomes-of-ibuprofen-during-covid-19-coronavirus/"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen COVID-19 French health minister warning March 2020",
+      "results": [
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        },
+        {
+          "title": "Covid-19: Melatonin – People, Nature, and Data",
+          "url": "https://dadamo.com/dangerous/2020/04/01/covid-19-melatonin/"
+        },
+        {
+          "title": "‘I was in… excruciating pain’ A growing number of younger COVID-19...",
+          "url": "https://www.youtube.com/watch?v=Q6-9_itCNQA"
+        },
+        {
+          "title": "An Illustrated Primer on COVID-19 Therapy: part 1",
+          "url": "https://www.pulmccm.org/p/an-illustrated-primer-on-covid-19-therapy-part-1"
+        },
+        {
+          "title": "Treat COVID-19 symptoms at home",
+          "url": "https://www.hse.ie/conditions/covid19/symptoms/treat-symptoms-home/"
+        },
+        {
+          "title": "Covid-19 in New Zealand: A move to online consultations in primary...",
+          "url": "https://blogs.bmj.com/bmj/2020/06/25/covid-19-in-new-zealand-a-move-to-online-consultations-in-primary-care-could-widen-health-inequalities/"
+        },
+        {
+          "title": "COVID-19: A Human Rights Checklist | Human Rights Watch",
+          "url": "https://www.hrw.org/news/2020/04/14/covid-19-human-rights-checklist"
+        },
+        {
+          "title": "Italy sees Covid-19 'warning signs' after Rome outbreaks - France 24",
+          "url": "https://www.france24.com/en/20200619-italy-sees-covid-19-warning-signs-after-rome-outbreaks"
+        }
+      ]
+    },
+    {
+      "query": "WHO ibuprofen COVID-19 statement",
+      "results": [
+        {
+          "title": "FDA advises patients on use of NSAIDs for COVID-19",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19"
+        },
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...Does Ibuprofen Worsen COVID-19? - PMCCan you take Ibuprofen if you have COVID-19 (coronavirus)?Ibuprofen, other NSAIDs and COVID‐19: a narrative reviewThe latest from WHO: No proof that ibuprofen worsens COVID-19",
+          "url": "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19"
+        },
+        {
+          "title": "Does Ibuprofen Worsen COVID-19? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287029/"
+        },
+        {
+          "title": "Can you take Ibuprofen if you have COVID-19 (coronavirus)?",
+          "url": "https://www.drugs.com/medical-answers/you-ibuprofen-you-covid-19-coronavirus-disease-3534620/"
+        },
+        {
+          "title": "Ibuprofen, other NSAIDs and COVID‐19: a narrative review",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10787-023-01309-7.pdf"
+        },
+        {
+          "title": "The latest from WHO: No proof that ibuprofen worsens COVID-19",
+          "url": "https://www.factrakers.org/post/the-latest-from-who-no-evidence-that-ibuprofen-worsens-covid-19"
+        },
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no... | CBC News",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen vs acetaminophen COVID-19 outcomes study",
+      "results": [
+        {
+          "title": "Paracetamol Use and COVID-19 Clinical Outcomes: A Meta-Analysis",
+          "url": "https://www.mdpi.com/2227-9032/12/22/2309"
+        },
+        {
+          "title": "NSAID use and clinical outcomes in COVID-19 patients: a 38 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9107579/"
+        },
+        {
+          "title": "Non-steroidal anti-inflammatory drug use in COVID-19",
+          "url": "https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(21)00144-2/fulltext"
+        },
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...NSAID use and clinical outcomes in COVID-19 patients: a 38 ...EFFECTS OF ACETAMINOPHEN ON OUTCOMES IN PATIENTS ... - CHEST",
+          "url": "https://www.nature.com/articles/s41533-022-00300-z"
+        },
+        {
+          "title": "NSAID use and clinical outcomes in COVID-19 patients: a 38 ...",
+          "url": "https://link.springer.com/article/10.1186/s12985-022-01813-2"
+        },
+        {
+          "title": "EFFECTS OF ACETAMINOPHEN ON OUTCOMES IN PATIENTS ... - CHEST",
+          "url": "https://journal.chestnet.org/article/S0012-3692(21)02443-0/fulltext"
+        },
+        {
+          "title": "'Too early to tell' if PH COVID-19 infections already... - YouTube",
+          "url": "https://www.youtube.com/watch?v=fQtmgoaPtmk"
+        },
+        {
+          "title": "Characteristics and outcomes of acute respiratory distress syndrome...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33025225/"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen COVID-19 systematic review meta-analysis",
+      "results": [
+        {
+          "title": "NSAIDs and COVID-19: A Systematic Review and Meta-analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8327046/"
+        },
+        {
+          "title": "NSAIDs and COVID-19: A Systematic Review and Meta-analysisNSAIDs and COVID-19: A Systematic Review and Meta-analysisUse of non-steroidal anti-inflammatory drugs and adverse ...The COVID-19 ibuprofen controversy: A systematic review of ...Ibuprofen for COVID-19: real-time meta-analysis of 13 studiesThe use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://link.springer.com/article/10.1007/s40264-021-01089-5"
+        },
+        {
+          "title": "NSAIDs and COVID-19: A Systematic Review and Meta-analysis",
+          "url": "https://link.springer.com/content/pdf/10.1007/s40264-021-01089-5.pdf"
+        },
+        {
+          "title": "The COVID-19 ibuprofen controversy: A systematic review of ...Ibuprofen for COVID-19: real-time meta-analysis of 13 studiesThe use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bcp.14514"
+        },
+        {
+          "title": "Ibuprofen for COVID-19: real-time meta-analysis of 13 studies",
+          "url": "https://c19early.org/ibuprofen-covid-19-meta-analysis.pdf"
+        },
+        {
+          "title": "What 16 Days With COVID-19 Is Like | The Mighty",
+          "url": "https://themighty.com/topic/corona-virus-covid-19/daily-covid-19-symptoms/"
+        },
+        {
+          "title": "Maximising mobility in older people when isolated with COVID-19",
+          "url": "https://www.cebm.net/covid-19/maximising-mobility-in-the-older-people-when-isolated-with-covid-19/"
+        },
+        {
+          "title": "Nearly half of people infected with COVID-19 experienced some 'long...",
+          "url": "https://sph.umich.edu/news/2022posts/nearly-half-of-people-infected-with-covid-19-experienced-some-long-covid-symptoms.html"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen SARS-CoV-2 ACE2 receptor mechanism",
+      "results": [
+        {
+          "title": "(PDF) Understanding the renin–angiotensin–aldosterone–SARS-CoV...",
+          "url": "https://www.academia.edu/76606866/Understanding_the_renin_angiotensin_aldosterone_SARS_CoV_axis_a_comprehensive_review"
+        },
+        {
+          "title": "Model of trigger mechanisms of SARS CoV-2 infections | International...",
+          "url": "https://www.msjonline.org/index.php/ijrms/article/view/8422"
+        },
+        {
+          "title": "Withanone from Withania somnifera Attenuates SARS-CoV-2 RBD and...",
+          "url": "https://www.dovepress.com/withanone-from-withania-somnifera-attenuates-sars-cov-2-rbd-and-host-a-peer-reviewed-fulltext-article-DDDT"
+        },
+        {
+          "title": "Obstructive sleep apnea is a risk comorbidity for COVID-19 fatality...",
+          "url": "https://scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-50442021000300112"
+        },
+        {
+          "title": "D-Ribose, Coronavirus, Covid-19, Sars-CoV-2, Research on potential...",
+          "url": "https://www.svgn.io/p/d-ribose-coronavirus-covid-19-sars-cov-2-research-on-potential-therapeutics-47d8ef56a9ff"
+        },
+        {
+          "title": "Body Localization of ACE-2: On the Trail of the Keyhole of SARS-CoV-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33344479/"
+        },
+        {
+          "title": "COVID-19 Q&A #1 with Rhonda Patrick, Ph.D.",
+          "url": "https://www.foundmyfitness.com/episodes/covid-19-episode-1"
+        },
+        {
+          "title": "DNA oligonucleotides block viral entry of SARS-CoV-2 Omicron variants",
+          "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014461"
+        }
+      ]
+    },
+    {
+      "query": "FDA ibuprofen COVID-19 safety",
+      "results": [
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        },
+        {
+          "title": "Should COVID-19 Patients Avoid Taking Ibuprofen? | Snopes.com",
+          "url": "https://www.snopes.com/fact-check/covid-19-nsaids-ibuprofen/"
+        },
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no... | CBC News",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        },
+        {
+          "title": "Should You Avoid Pain Relievers After the COVID-19 Vaccine?",
+          "url": "https://www.healthline.com/health-news/should-you-take-pain-relievers-after-covid-19-vaccine"
+        },
+        {
+          "title": "The new symptoms of COVID-19 experienced by young people",
+          "url": "https://www.theladders.com/career-advice/the-new-symptoms-of-covid-19-experienced-by-young-people"
+        },
+        {
+          "title": "Sandra Fryhofer, MD, on the J&J Janssen COVID-19 vaccine pause",
+          "url": "https://www.ama-assn.org/delivering-care/public-health/sandra-fryhofer-md-jj-janssen-covid-19-vaccine-pause"
+        },
+        {
+          "title": "7 highlights as Fauci testifies under oath on COVID-19",
+          "url": "https://alphanews.org/7-highlights-as-fauci-testifies-under-oath-on-covid-19/"
+        },
+        {
+          "title": "Loss of Smell and Taste Can Predict COVID-19 Instead of Flu",
+          "url": "https://www.contemporaryclinic.com/view/loss-of-smell-and-taste-can-predict-covid-19-instead-of-flu"
+        }
+      ]
+    },
+    {
+      "query": "NICE ibuprofen COVID-19 guidance",
+      "results": [
+        {
+          "title": "Should You Avoid Pain Relievers After the COVID-19 Vaccine?",
+          "url": "https://www.healthline.com/health-news/should-you-take-pain-relievers-after-covid-19-vaccine"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        },
+        {
+          "title": "COVID-19 hastaları Ibuprofen kullanmamalı mı?",
+          "url": "https://www.dw.com/tr/covid-19-hastaları-ibuprofen-kullanmamalı-mı/a-52845674"
+        },
+        {
+          "title": "COVID-19 Outpatient Treatment | Mass General Brigham",
+          "url": "https://www.massgeneralbrigham.org/en/patient-care/patient-visitor-information/covid-19/therapies"
+        },
+        {
+          "title": "COVID-19 Guidance | Amherst, MA - Official Website",
+          "url": "https://www.amherstma.gov/3540/COVID-19-Guidance"
+        },
+        {
+          "title": "COVID-19 - Advice for PANS/PANDAS children - Brainstorm Health",
+          "url": "https://www.brainstormhealth.co.uk/2020/03/covid-19-advice-pans-pandas-children/"
+        },
+        {
+          "title": "For People At Home With COVID-19 Symptoms, Self Care Is... - OPB",
+          "url": "https://www.opb.org/news/article/covid-19-coronavirus-symptoms-home-self-care/"
+        },
+        {
+          "title": "Snake Venom and COVID-19 - Truth for Health Foundation",
+          "url": "https://www.truthforhealth.org/2022/04/snake-venom-and-covid-19/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T04:21:29.616+00:00",
+  "status": "judged",
+  "system": "glm"
+}

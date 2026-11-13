@@ -1,0 +1,216 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+    "https://www.nature.com/articles/mp2016167",
+    "https://www.mdpi.com/1422-0067/26/17/8361",
+    "https://pubmed.ncbi.nlm.nih.gov/29309829/"
+  ],
+  "claim_id": "ff_910ba6d5879f",
+  "completed_at": "2026-08-03T23:32:04.728+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+        "https://www.nature.com/articles/mp2016167",
+        "https://www.mdpi.com/1422-0067/26/17/8361",
+        "https://pubmed.ncbi.nlm.nih.gov/29309829/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported by current evidence, citing multiple meta-analyses showing that anti-cytokine drugs reduce depressive symptoms in patients with chronic inflammatory conditions.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is supported by current evidence and cites favorable meta-analytic findings, while noting limitations and caveats. This is clearly favorable but qualified.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "5bc62f51921f0a6786d0dbb36a5500bb402a260c8f69181407cb2f7d15740186",
+  "queries": [
+    "anti-cytokine drugs depressive symptoms chronic inflammatory conditions",
+    "cytokine inhibitors depression treatment clinical trial",
+    "anti-inflammatory therapy depression rheumatoid arthritis psoriasis",
+    "TNF inhibitors IL-6 inhibitors depression symptoms meta-analysis"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion\n\nThe claim is **supported by current evidence**, though with important caveats. Multiple systematic reviews and meta-analyses have found that anti-cytokine drugs—particularly TNF-α inhibitors (e.g., adalimumab, infliximab) and IL-6 inhibitors (e.g., tocilizumab)—reduce depressive symptoms in patients with chronic inflammatory conditions such as rheumatoid arthritis and psoriasis.\n\n**Key evidence:**\n\n- A landmark 2016 systematic review and meta-analysis published in *Molecular Psychiatry* analyzed clinical trials of anti-cytokine monoclonal antibodies and cytokine inhibitors in chronic inflammatory conditions. It found a significant antidepressant effect of these drugs compared to placebo, with depressive symptoms measured as a secondary outcome (Kappelmann et al., 2016).\n\n- A 2025 meta-analysis encompassing 9,939 patients found that TNF-α inhibitors were associated with improved depressive symptoms and emotional well-being, and IL-6 inhibitors showed similar psychiatric benefits, particularly in patients with elevated IL-6 levels (Int. J. Mol. Sci., 2025).\n\n**Important caveats:**\n\n1. In most trials, depression was a **secondary outcome**, not the primary endpoint, which limits the strength of conclusions.\n2. The antidepressant effect appears most pronounced in patients with **elevated inflammatory markers**, suggesting the benefit is specific to inflammation-driven depression rather than all depression.\n3. Anti-cytokine drugs are not currently approved as standalone antidepressants; they are prescribed for inflammatory diseases, and the psychiatric benefits are observed as a secondary effect.\n\nOverall, the evidence supports the claim, but anti-cytokine drugs should not yet be considered a primary treatment for depression outside of inflammatory conditions.\n\n**Sources:**\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/\n- https://www.nature.com/articles/mp2016167\n- https://www.mdpi.com/1422-0067/26/17/8361\n- https://pubmed.ncbi.nlm.nih.gov/29309829/",
+  "run_id": "core_ff_910ba6d5879f_neutral_glm_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "anti-cytokine drugs depressive symptoms chronic inflammatory conditions",
+    "cytokine inhibitors depression treatment clinical trial",
+    "anti-inflammatory therapy depression rheumatoid arthritis psoriasis",
+    "TNF inhibitors IL-6 inhibitors depression symptoms meta-analysis"
+  ],
+  "searches": [
+    {
+      "query": "anti-cytokine drugs depressive symptoms chronic inflammatory conditions",
+      "results": [
+        {
+          "title": "Depression and immune function - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Depression_and_immune_function"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a systematic review...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Anti-inflammatory drugs can relieve symptoms of depression",
+          "url": "https://www.newscientist.com/article/2109382-anti-inflammatory-drugs-can-relieve-symptoms-of-depression/"
+        },
+        {
+          "title": "(PDF) Antidepressant Activity of Anti-Cytokine Treatment...",
+          "url": "https://www.researchgate.net/publication/309270309_Antidepressant_Activity_of_Anti-Cytokine_Treatment_A_Systematic_Review_and_Meta-analysis_of_Clinical_Trials_of_Chronic_Inflammatory_Conditions"
+        },
+        {
+          "title": "Anti-inflammatory drugs could treat symptoms of depression",
+          "url": "https://pharmaceutical-journal.com/article/news/anti-inflammatory-drugs-could-treat-symptoms-of-depression"
+        },
+        {
+          "title": "Anti-inflammatory drugs might someday treat depression | CNN",
+          "url": "https://www.cnn.com/2016/10/18/health/anti-inflammatory-drugs-depression"
+        },
+        {
+          "title": "Anti-inflammatory drugs could help treat symptoms of depression...",
+          "url": "https://www.cam.ac.uk/research/news/anti-inflammatory-drugs-could-help-treat-symptoms-of-depression-study-suggests"
+        },
+        {
+          "title": "New Anti-Inflammatory Drugs May Help Treat Depression",
+          "url": "https://www.livescience.com/56519-anti-inflammatory-drugs-depression.html"
+        }
+      ]
+    },
+    {
+      "query": "cytokine inhibitors depression treatment clinical trial",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167.pdf"
+        },
+        {
+          "title": "Immunotherapy for depression: targeting cytokine pathways in ...",
+          "url": "https://link.springer.com/article/10.1007/s00213-026-07022-x"
+        },
+        {
+          "title": "Targeting cytokines in reduction of depressive symptoms: A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29309829/"
+        },
+        {
+          "title": "Mind-body therapies for pro-inflammatory cytokines in ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12583086/"
+        },
+        {
+          "title": "Phase 2 Study of CYC-126 for Treatment Resistant Depression ...",
+          "url": "https://www.psychiatrictimes.com/view/phase-2-study-of-cyc-126-for-treatment-resistant-depression-receives-fda-feedback-will-proceed"
+        },
+        {
+          "title": "Inflammation in Depression and the Potential for... | Bentham Science",
+          "url": "https://www.benthamscience.com/article/72326"
+        }
+      ]
+    },
+    {
+      "query": "anti-inflammatory therapy depression rheumatoid arthritis psoriasis",
+      "results": [
+        {
+          "title": "Psoriatic arthritis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "title": "Psoriatic Arthritis Diets, and Foods to Avoid",
+          "url": "https://www.webmd.com/arthritis/psoriatic-arthritis/psoriatic-arthritis-and-your-diet"
+        },
+        {
+          "title": "Psoriatic Arthritis vs. Rheumatoid Arthritis",
+          "url": "https://health.clevelandclinic.org/psoriatic-arthritis-vs-rheumatoid-arthritis"
+        },
+        {
+          "title": "Psoriasis: Symptoms, Causes, Images & Treatment",
+          "url": "https://www.psoriasis.org/about-psoriasis/"
+        },
+        {
+          "title": "Editorial: Antiinflammatory therapy for rheumatoid arthritis?",
+          "url": "https://www.researchgate.net/publication/5686972_Editorial_Antiinflammatory_therapy_for_rheumatoid_arthritis"
+        },
+        {
+          "title": "Scientists Find Potential New Targets for Anti-Inflammatory Therapies",
+          "url": "https://www.scripps.edu/newsandviews/e_20131021/kang.html"
+        },
+        {
+          "title": "Untreated rheumatoid arthritis: Long- and short-term risks",
+          "url": "https://www.medicalnewstoday.com/articles/untreated-rheumatoid-arthritis"
+        },
+        {
+          "title": "Can Turmeric and Curcumin Benefit Health?",
+          "url": "https://www.everydayhealth.com/diet-nutrition/diet/scientific-health-benefits-turmeric-curcumin/"
+        }
+      ]
+    },
+    {
+      "query": "TNF inhibitors IL-6 inhibitors depression symptoms meta-analysis",
+      "results": [
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://www.mdpi.com/1422-0067/26/17/8361"
+        },
+        {
+          "title": "Sertraline and inflammatory markers in major depression: a ...",
+          "url": "https://link.springer.com/article/10.1186/s12991-025-00596-4"
+        },
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://www.preprints.org/manuscript/202507.2669"
+        },
+        {
+          "title": "Cumulative meta-analysis of interleukins 6 and 1β, tumour ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S088915911500152X"
+        },
+        {
+          "title": "Cavanagh, J. (2023) Immune mechanisms of depression in rheumatoid",
+          "url": "https://eprints.gla.ac.uk/307604/1/307604.pdf"
+        },
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 Inhibitors...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40943274/"
+        },
+        {
+          "title": "Tumor Necrosis Factor (TNF) Inhibitors | American College of...",
+          "url": "https://rheumatology.org/patients/tumor-necrosis-factor-tnf-inhibitors"
+        },
+        {
+          "title": "Effectiveness of TNF-inhibitors, abatacept, IL6-inhibitors and...",
+          "url": "https://ard.bmj.com/content/81/10/1358.long"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T23:21:52.385+00:00",
+  "status": "judged",
+  "system": "glm"
+}

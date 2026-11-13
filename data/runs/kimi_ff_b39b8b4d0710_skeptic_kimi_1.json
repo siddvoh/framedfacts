@@ -1,0 +1,290 @@
+{
+  "arm": "kimi",
+  "citations": [
+    "https://www.sciencedirect.com/science/article/pii/S0360132320306004",
+    "https://www.sciencedirect.com/science/article/pii/S0360132322008605",
+    "https://www.sciencedirect.com/science/article/pii/S0360132323011459",
+    "https://pubmed.ncbi.nlm.nih.gov/32979003/"
+  ],
+  "claim_id": "ff_b39b8b4d0710",
+  "completed_at": "2026-08-04T01:01:00.607+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0360132320306004",
+        "https://www.sciencedirect.com/science/article/pii/S0360132322008605",
+        "https://www.sciencedirect.com/science/article/pii/S0360132323011459",
+        "https://pubmed.ncbi.nlm.nih.gov/32979003/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report finds evidence supporting the idea that opening a window to improve bedroom ventilation and lower CO2 levels can enhance sleep quality, but cautions that the claim is context-dependent and not a universal rule (e.g., opening internal doors lowers CO2 without reliably improving sleep, and open windows can introduce noise or pollution). Therefore, it leans towards endorsing the claim with caveats.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "moonshotai/kimi-k3:exacto",
+  "params_hash": "5b73edffbd5cb9dfcfede042e73a6ddc3775e3026bc39efa7340eed875692c3a",
+  "queries": [
+    "bedroom ventilation open window door sleep quality study CO2",
+    "indoor carbon dioxide bedroom ventilation sleep quality next day performance study",
+    "opening bedroom window improves sleep quality evidence noise temperature light tradeoffs",
+    "systematic review bedroom ventilation sleep quality indoor air quality",
+    "\"A field intervention study of the effects of window and door\" sleep quality open window door CO2",
+    "\"Ventilation causing an average CO2 concentration of 1,000 ppm\" sleep quality 750 1300 results"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "Your skepticism is partly justified: the claim is **overstated as a universal rule**, but not simply false. Reviews say bedroom-air evidence is still limited, yet poor ventilation/high CO₂ is associated with worse sleep and next-day performance (https://www.sciencedirect.com/science/article/pii/S0360132320306004). A 40-bedroom Danish field intervention found opening a **window** improved IAQ and objective/subjective sleep, while opening an internal **door** lowered CO₂ but did **not** improve sleep (https://www.sciencedirect.com/science/article/pii/S0360132322008605). Other work suggests lower CO₂ is better: ~750 ppm outperformed ~1000–1300 ppm, implying “some ventilation” may still be suboptimal (https://www.sciencedirect.com/science/article/pii/S0360132323011459). Controlled chamber data also link very high CO₂ (1900–3000 ppm) with disturbed sleep (https://pubmed.ncbi.nlm.nih.gov/32979003/).\n\nPractical conclusion: improving bedroom ventilation/CO₂ can help, but “open a window or door” is context-dependent. Open windows may backfire with noise, cold/heat, pollen, pollution, or security concerns; doors may reduce CO₂ without reliably improving sleep. The strongest supported version is: keep bedroom air fresh—ideally CO₂ roughly below ~750–1000 ppm—while preserving quiet, darkness, and comfortable temperature.",
+  "run_id": "kimi_ff_b39b8b4d0710_skeptic_kimi_1",
+  "search_backend": "web",
+  "search_count": 6,
+  "search_tool_queries": [
+    "bedroom ventilation open window door sleep quality study CO2",
+    "indoor carbon dioxide bedroom ventilation sleep quality next day performance study",
+    "opening bedroom window improves sleep quality evidence noise temperature light tradeoffs",
+    "systematic review bedroom ventilation sleep quality indoor air quality",
+    "\"A field intervention study of the effects of window and door\" sleep quality open window door CO2",
+    "\"Ventilation causing an average CO2 concentration of 1,000 ppm\" sleep quality 750 1300 results"
+  ],
+  "searches": [
+    {
+      "query": "bedroom ventilation open window door sleep quality study CO2",
+      "results": [
+        {
+          "title": "Ventilate your bedroom at night. You perform better the next day",
+          "url": "https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day"
+        },
+        {
+          "title": "(PDF) The effect of CO2 controlled bedroom ventilation on sleep and...",
+          "url": "https://www.researchgate.net/publication/283674783_The_effect_of_CO2_controlled_bedroom_ventilation_on_sleep_and_next-day_performance"
+        },
+        {
+          "title": "Sleeping with the Window Open: Can Fresh Air Improve Sleep...",
+          "url": "https://joyorganics.com/blogs/news/sleeping-with-the-window-open-can-fresh-air-improve-sleep-quality"
+        },
+        {
+          "title": "[PDF] Window/door opening‐mediated bedroom ventilation and its...",
+          "url": "https://www.semanticscholar.org/paper/Window-door-opening‐mediated-bedroom-ventilation-on-Mishra-Ruitenbeek/039ee4c792d1dcdde2c4eb69c2735cd053ea20aa"
+        },
+        {
+          "title": "Window/door opening‐mediated bedroom ventilation and its impact...",
+          "url": "https://www.hu.nl/onderzoek/publicaties/windowdoor-openingmediated-bedroom-ventilation-and-its-impact-on-sleep-quality-of-healthy-young"
+        },
+        {
+          "title": "Study reveals how poor bedroom air quality affects sleep and...",
+          "url": "https://medicalxpress.com/news/2023-05-reveals-poor-bedroom-air-quality.html"
+        },
+        {
+          "title": "Why Don't More of Us Sleep With the Window Open?",
+          "url": "https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed"
+        },
+        {
+          "title": "Better Bedroom Ventilation May Mean Better Sleep | Engoo Daily News",
+          "url": "https://engoo.com/app/daily-news/article/better-bedroom-ventilation-may-mean-better-sleep/onNUPnyzEe67HTPEYnIPLQ"
+        }
+      ]
+    },
+    {
+      "query": "indoor carbon dioxide bedroom ventilation sleep quality next day performance study",
+      "results": [
+        {
+          "title": "(PDF) The effect of CO2 controlled bedroom ventilation on sleep and...",
+          "url": "https://www.researchgate.net/publication/283674783_The_effect_of_CO2_controlled_bedroom_ventilation_on_sleep_and_next-day_performance"
+        },
+        {
+          "title": "Associations of Indoor CO2 Concentration with Sleep Quality ...",
+          "url": "https://link.springer.com/chapter/10.1007/978-981-13-9520-8_99"
+        },
+        {
+          "title": "Ventilation causing an average CO2 concentration of 1,000 ppm ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360132323011459"
+        },
+        {
+          "title": "The Influence of Bedroom CO2 Concentration on Sleep Quality",
+          "url": "https://www.mdpi.com/2075-5309/13/11/2768"
+        },
+        {
+          "title": "Ventilation causing an average CO2...",
+          "url": "https://ui.adsabs.harvard.edu/abs/2024BuEnv.24911118K/abstract"
+        },
+        {
+          "title": "Experimental study on sleep quality affected by carbon ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32979003/"
+        },
+        {
+          "title": "A single-blind field intervention study of whether increased ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0048969723024269"
+        },
+        {
+          "title": "The effects of bedroom air quality on sleep and next‐day performance",
+          "url": "https://www.sci-hub.ru/10.1111/ina.12254"
+        }
+      ]
+    },
+    {
+      "query": "opening bedroom window improves sleep quality evidence noise temperature light tradeoffs",
+      "results": [
+        {
+          "title": "A field intervention study of the effects of window and door ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360132322008605"
+        },
+        {
+          "title": "Exploring the nexus between bedroom design and sleep quality ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2212095523002298"
+        },
+        {
+          "title": "Effects of window opening on the bedroom environment and ...",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/23744731.2021.1927177"
+        },
+        {
+          "title": "Effects of Window Opening on the Bedroom Environment and ...",
+          "url": "https://www.researchgate.net/publication/351422194_Effects_of_Window_Opening_on_the_Bedroom_Environment_and_resulting_Sleep_Quality"
+        },
+        {
+          "title": "Is It Healthier to Sleep With the Window Open? Here’s What ...",
+          "url": "https://www.health.com/is-it-healthier-to-sleep-with-the-window-open-11940960"
+        },
+        {
+          "title": "Effects of window opening on the bedroom environment and ...",
+          "url": "https://ui.adsabs.harvard.edu/abs/2021STBE...27..995L/abstract"
+        },
+        {
+          "title": "Sleep Environment Optimization: Temperature, Light, Noise ...",
+          "url": "https://optimalsleep.org/blog/sleep-environment-optimization/"
+        },
+        {
+          "title": "Soft Rain in Outside at the Open Bedroom Window - YouTube",
+          "url": "https://www.youtube.com/watch?v=2S6B9_9V0RE"
+        }
+      ]
+    },
+    {
+      "query": "systematic review bedroom ventilation sleep quality indoor air quality",
+      "results": [
+        {
+          "title": "Bedroom ventilation: Review of existing evidence and current ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360132320306004"
+        },
+        {
+          "title": "Sleep quality: Design of bedroom ventilation and evaluation ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378778824011897"
+        },
+        {
+          "title": "Sleep and Indoor Air Quality | Springer Nature Link",
+          "url": "https://link.springer.com/rwe/10.1007/978-981-16-7680-2_66"
+        },
+        {
+          "title": "Sleep and Indoor Air Quality - Springer",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-10-5155-5_66-1.pdf"
+        },
+        {
+          "title": "New research on bedroom ventilation and sleep quality ...",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/23744731.2025.2531317"
+        },
+        {
+          "title": "How Is Indoor Air Quality during Sleep? A Review of ... - MDPI",
+          "url": "https://www.mdpi.com/2073-4433/12/1/110"
+        },
+        {
+          "title": "Bedroom ventilation: Review of existing evidence and current ...",
+          "url": "https://waseda.elsevierpure.com/en/publications/bedroom-ventilation-review-of-existing-evidence-and-current-stand/"
+        },
+        {
+          "title": "(PDF) Reviewing How Bedroom Ventilation Affects IAQ And Sleep...",
+          "url": "https://www.researchgate.net/publication/351687297_Reviewing_How_Bedroom_Ventilation_Affects_IAQ_And_Sleep_Quality"
+        }
+      ]
+    },
+    {
+      "query": "\"A field intervention study of the effects of window and door\" sleep quality open window door CO2",
+      "results": [
+        {
+          "title": "(PDF) A field intervention study of the effects of window and door...",
+          "url": "https://www.researchgate.net/publication/364098150_A_field_intervention_study_of_the_effects_of_window_and_door_opening_on_bedroom_IAQ_sleep_quality_and_next-day_cognitive_performance"
+        },
+        {
+          "title": "Ventilate your bedroom at night. You perform better the... | EurekAlert!",
+          "url": "https://www.eurekalert.org/news-releases/988687"
+        },
+        {
+          "title": "A field intervention study of the effects of window and door...",
+          "url": "https://orbit.dtu.dk/en/publications/a-field-intervention-study-of-the-effects-of-window-and-door-open"
+        },
+        {
+          "title": "Study reveals how poor bedroom air quality affects sleep and...",
+          "url": "https://medicalxpress.com/news/2023-05-reveals-poor-bedroom-air-quality.html"
+        },
+        {
+          "title": "Why Don't More of Us Sleep With the Window Open?",
+          "url": "https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed"
+        },
+        {
+          "title": "Enhance Your Sleep Quality: The Simple Sleep Hack of Opening...",
+          "url": "https://theelitetrainer.com/enhance-your-sleep-quality-the-simple-sleep-hack-of-opening-your-window/"
+        },
+        {
+          "title": "Evaluation of sleep quality and cognitive performance: A case study...",
+          "url": "https://malque.pub/ojs/index.php/msj/article/view/5093"
+        },
+        {
+          "title": "Questions for Li Lan (Shanghai Jiao Tong University, CN)",
+          "url": "https://www.aivc.org/system/files/QAs_Sleep.pdf"
+        }
+      ]
+    },
+    {
+      "query": "\"Ventilation causing an average CO2 concentration of 1,000 ppm\" sleep quality 750 1300 results",
+      "results": [
+        {
+          "title": "Ventilation causing an average CO2 concentration of 1,000 ppm...",
+          "url": "https://www.researchgate.net/publication/376604044_Ventilation_causing_an_average_CO2_concentration_of_1000_ppm_has_negative_impacts_on_sleep_A_field-lab_study_on_healthy_youth"
+        },
+        {
+          "title": "Air Pollution and Environmental Factors DO Significantly Impact Sleep...",
+          "url": "https://www.linkedin.com/pulse/air-pollution-environmental-factors-do-significantly-impact-njx7e"
+        },
+        {
+          "title": "How I Cut My Sleeping CO₂ in Half for $30",
+          "url": "https://ryanschiang.com/co2"
+        },
+        {
+          "title": "How Ventilation and CO2 Impact Sleep",
+          "url": "https://lzwjava.github.io/ventilation-co2-sleep-en"
+        },
+        {
+          "title": "Why Do You Wake Up Tired? Bedroom CO₂ and What an Air Quality...",
+          "url": "https://airobothome.com/why-do-you-wake-up-tired-bedroom-co₂-and-what-an-air-quality-monitor-reveals/"
+        },
+        {
+          "title": "Signs Your Bedroom Has Too Much CO2 at Night | Sleep Quality Guide",
+          "url": "https://indoorhumidity.com/indoor-air-quality/signs-your-bedroom-has-too-much-co2-at-night/"
+        },
+        {
+          "title": "Air Quality Monitoring Use Cases — Airgeek",
+          "url": "https://www.airgeek.cz/use-cases.html"
+        },
+        {
+          "title": "Is Sleeping With a Fan on Bad for You? | Saatva",
+          "url": "https://www.saatva.com/blog/is-sleeping-with-a-fan-on-bad-for-you/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T00:47:19.495+00:00",
+  "status": "judged",
+  "system": "kimi"
+}

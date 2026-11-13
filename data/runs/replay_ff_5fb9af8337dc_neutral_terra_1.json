@@ -1,0 +1,267 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926?af=R&rss=currentIssue",
+    "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov/solidarity-clinical-trial-for-covid-19-treatments/interim-results",
+    "https://www.nih.gov/news-events/news-releases/hydroxychloroquine-does-not-benefit-adults-hospitalized-covid-19"
+  ],
+  "claim_id": "ff_5fb9af8337dc",
+  "completed_at": "2026-08-03T16:58:31.191+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926?af=R&rss=currentIssue",
+        "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov/solidarity-clinical-trial-for-covid-19-treatments/interim-results",
+        "https://www.nih.gov/news-events/news-releases/hydroxychloroquine-does-not-benefit-adults-hospitalized-covid-19"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that hydroxychloroquine does not reduce deaths from COVID-19, citing high-quality randomized trial evidence showing no mortality benefit or clinical improvement. Therefore, it clearly rejects the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** No. High-quality randomized evidence in hospitalized COVID-19 patients found that hydroxychloroquine did **not** reduce deaths.\n\nThe large RECOVERY randomized trial concluded that patients receiving hydroxychloroquine had no lower 28-day death rate than those receiving usual care. The WHO SOLIDARITY trial likewise found little or no effect of hydroxychloroquine on overall mortality, need for ventilation, or hospital stay. NIH’s randomized ORCHID trial also concluded that hydroxychloroquine provided no clinical benefit in hospitalized adults.\n\nTherefore, hydroxychloroquine should not be expected to reduce the likelihood of dying from COVID-19. This addresses treatment of established disease, particularly in hospitalized patients; it is not a substitute for individually appropriate, evidence-based COVID-19 care.\n\nSources:  \n- https://www.nejm.org/doi/full/10.1056/NEJMoa2022926?af=R&rss=currentIssue  \n- https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov/solidarity-clinical-trial-for-covid-19-treatments/interim-results  \n- https://www.nih.gov/news-events/news-releases/hydroxychloroquine-does-not-benefit-adults-hospitalized-covid-19",
+  "run_id": "replay_ff_5fb9af8337dc_neutral_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "WHO hydroxychloroquine COVID-19 mortality living guideline randomized trial",
+      "results": [
+        {
+          "title": "An open-label randomized controlled trial evaluating the efficacy of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33907251/"
+        },
+        {
+          "title": "(PDF) Hydroxychloroquine vs. Azithromycin for Hospitalized Patients...",
+          "url": "https://www.researchgate.net/publication/341506010_Hydroxychloroquine_vs_Azithromycin_for_Hospitalized_Patients_with_Suspected_or_Confirmed_COVID-19_HAHPS_Protocol_for_a_Pragmatic_Open_Label_Active_Comparator_Trial"
+        },
+        {
+          "title": "Many hydroxychloroquine COVID-19 prophylaxis trials... | MDedge",
+          "url": "https://www.mdedge.com/edermatologynews/article/222100/coronavirus-updates/many-hydroxychloroquine-covid-19-prophylaxis"
+        },
+        {
+          "title": "Rolling out mass hydroxychloroquine prophylaxis for covid-19 in...",
+          "url": "https://blogs.bmj.com/bmj/2020/05/01/rolling-out-mass-hydroxychloroquine-prophylaxis-for-covid-19-in-indias-slums-risks-public-trust/"
+        },
+        {
+          "title": "Fauci not alone in saying hydroxychloroquine unproven... | Fact Check",
+          "url": "https://factcheck.afp.com/fauci-not-alone-saying-hydroxychloroquine-unproven-against-covid-19"
+        },
+        {
+          "title": "Malaysia Finds Hydroxychloroquine Can Slow Covid-19... - CodeBlue",
+          "url": "https://codeblue.galencentre.org/2020/06/malaysia-finds-hydroxychloroquine-can-slow-covid-19-progress/"
+        },
+        {
+          "title": "Trump's Prophylactic Use of Hydroxychloroquine for COVID-19...",
+          "url": "https://themighty.com/topic/corona-virus-covid-19/trumps-takes-hydroxychloroquine-covid-19/"
+        },
+        {
+          "title": "Brazilian study finds ivermectin an ineffective COVID-19 treatment",
+          "url": "https://www.startribune.com/brazilian-study-finds-ivermectin-an-ineffective-covid-19-treatment/600160777"
+        }
+      ]
+    },
+    {
+      "query": "NIH COVID-19 treatment guidelines hydroxychloroquine recommends against mortality",
+      "results": [
+        {
+          "title": "Is hydroxychloroquine a treatment for COVID-19? - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/hydroxychloroquine-treatment-covid-19/art-20555331"
+        },
+        {
+          "title": "Hydroxychloroquine doesn't benefit hospitalized COVID-19 ...",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/hydroxychloroquine-doesnt-benefit-hospitalized-covid-19-patients"
+        },
+        {
+          "title": "Final, formal trial results show hydroxychloroquine lacks ...",
+          "url": "https://www.nhlbi.nih.gov/news/2020/final-formal-trial-results-show-hydroxychloroquine-lacks-benefit-covid-19-patients"
+        },
+        {
+          "title": "Hydroxychloroquine does not benefit adults hospitalized with ...",
+          "url": "https://www.nih.gov/news-events/news-releases/hydroxychloroquine-does-not-benefit-adults-hospitalized-covid-19"
+        },
+        {
+          "title": "NIH Releases Final Version of COVID-19 Treatment Guidelines",
+          "url": "https://www.accp.com/report/index.aspx?art=3428"
+        },
+        {
+          "title": "Effect of Hydroxychloroquine in Hospitalized Patients with ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926"
+        },
+        {
+          "title": "Hydroxychloroquine and Chloroquine Prescribing Patterns by ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7470458/"
+        },
+        {
+          "title": "The WHO’s Living Guideline: Hydroxychloroquine Not Effective for...",
+          "url": "https://www.infectiousdiseaseadvisor.com/news/the-whos-living-guideline-hydroxychloroquine-not-effective-for-preventing-covid-19/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane hydroxychloroquine preventing treating COVID-19 mortality review",
+      "results": [
+        {
+          "title": "New Studies Show Hydroxychloroquine Does not Reduce COVID-19...",
+          "url": "https://www.sapeople.com/eish-south-african-stuff/new-studies-show-hydroxychloroquine-does-not-reduce-covid-19-deaths/"
+        },
+        {
+          "title": "Dr. Anthony Cardillo: Hydroxychloroquine cures my COVID-19...",
+          "url": "https://www.fromrome.info/2020/04/06/dr-anthony-cardillo-hydroxychloroquine-cures-my-covid-19-patients-in-8-12-hours/"
+        },
+        {
+          "title": "There's a Mountain of Evidence That Hydroxychloroquine Is an...",
+          "url": "https://pjmedia.com/matt-margolis/2020/08/07/theres-a-mountain-of-evidence-that-hydroxychloroquine-is-an-effective-treatment-for-covid-19-n763953"
+        },
+        {
+          "title": "Rudy Giuliani Reveals He’s Taking Hydroxychloroquine to Fend Off...",
+          "url": "https://www.palmerfoundation.com.au/rudy-giuliani-reveals-hes-taking-hydroxychloroquine-to-fend-off-covid-19/"
+        },
+        {
+          "title": "Physician with 100% success treating COVID-19 patients was banned...",
+          "url": "https://www.covid-19forum.org/index.php?topic=199.0"
+        },
+        {
+          "title": "Treating Covid-19: The toll on France's medical workers - YouTube",
+          "url": "https://www.youtube.com/watch?v=wu0oVIRH_w0"
+        },
+        {
+          "title": "sciencedirect.com/science/article/pii/S0924857920300996",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0924857920300996"
+        },
+        {
+          "title": "Open letter to Dr. Anthony Fauci regarding the use of...",
+          "url": "https://outline.com/6jP6U5"
+        }
+      ]
+    },
+    {
+      "query": "RECOVERY trial hydroxychloroquine 28 day mortality COVID-19 results",
+      "results": [
+        {
+          "title": "India’s Covid-19 tally rises to 7.37 million with 63,371 new cases...",
+          "url": "https://www.hindustantimes.com/india-news/india-s-covid-19-tally-rises-to-7-37-million-with-63-371-new-cases-recoveries-at-6-4-million/story-1jpOz542mHOBySNgjnMQsN.html"
+        },
+        {
+          "title": "COVID-19-triggered MG Case Detected by Highly Sensitive Diagnostics",
+          "url": "https://myastheniagravisnews.com/news/highly-sensitive-test-detects-mg-in-patient-after-covid-19-diagnosis/"
+        },
+        {
+          "title": "BREAKING — Nearly Half of “COVID-19 Deaths” Were Not Due to...",
+          "url": "https://www.thefocalpoints.com/p/breaking-nearly-half-of-covid-19"
+        },
+        {
+          "title": "Quercetine als mogelijk alternatief voor hydroxychloroquine bij...",
+          "url": "https://www.orthokennis.nl/nieuws/quercetine-als-mogelijk-alternatief+voor+hydroxychloroquine-bij-COVID-19"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2016638",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2016638"
+        },
+        {
+          "title": "'Americans Haven't Forgotten': Joni Ernst Confronts Fauci... - Yo...",
+          "url": "https://www.youtube.com/watch?v=VeH8bBqf71A"
+        },
+        {
+          "title": "Thread by @IntegralAnswers on Thread Reader App – Thread Reader...",
+          "url": "https://threadreaderapp.com/thread/2082813086176866498.html"
+        },
+        {
+          "title": "Margaret McCartney: We need better evidence on non-drug...",
+          "url": "https://blogs.bmj.com/bmj/2020/08/28/margaret-mccartney-we-need-better-evidence-on-non-drug-interventions-for-covid-19/"
+        }
+      ]
+    },
+    {
+      "query": "WHO Solidarity trial hydroxychloroquine mortality COVID-19 NEJM",
+      "results": [
+        {
+          "title": "Repurposed Antiviral Drugs for Covid-19 — Interim WHO ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/nejmoa2023184"
+        },
+        {
+          "title": "Coronavirus disease (COVID-19): Solidarity Trial and ...",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-hydroxychloroquine"
+        },
+        {
+          "title": "Repurposed Antiviral Drugs for Covid-19 — Interim WHO ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2023184"
+        },
+        {
+          "title": "Repurposed antiviral drugs for COVID-19 – interim WHO ...",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov/solidarity-clinical-trial-for-covid-19-treatments/interim-results"
+        },
+        {
+          "title": "Repurposed Antiviral Drugs for Covid-19 — Interim WHO ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7727327/"
+        },
+        {
+          "title": "Antiviral Drugs for COVID-19: SOLIDARITY Results | NEJM Clinician",
+          "url": "https://clinician.nejm.org/10.1056/nejm-jw.NA52912"
+        },
+        {
+          "title": "Repurposed Antiviral Drugs for Covid-19 — Interim WHO ...",
+          "url": "https://colab.ws/articles/10.1056/NEJMoa2023184"
+        },
+        {
+          "title": "Effect of Hydroxychloroquine in Hospitalized Patients with Covid-19",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926?af=R&rss=currentIssue"
+        }
+      ]
+    },
+    {
+      "query": "hydroxychloroquine COVID-19 mortality systematic review meta-analysis randomized trials 2021 BMJ",
+      "results": [
+        {
+          "title": "tandfonline.com/doi/full/10.1080/17437199.2021.1923406",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17437199.2021.1923406"
+        },
+        {
+          "title": "No Benefit from Hydroxychloroquine for COVID-19 - NeuroLogica Blog",
+          "url": "https://theness.com/neurologicablog/no-benefit-from-hydroxychloroquine-for-covid-19/"
+        },
+        {
+          "title": "Rolling out mass hydroxychloroquine prophylaxis for covid-19 in...",
+          "url": "https://blogs.bmj.com/bmj/2020/05/01/rolling-out-mass-hydroxychloroquine-prophylaxis-for-covid-19-in-indias-slums-risks-public-trust/"
+        },
+        {
+          "title": "Fauci not alone in saying hydroxychloroquine unproven... | Fact Check",
+          "url": "https://factcheck.afp.com/fauci-not-alone-saying-hydroxychloroquine-unproven-against-covid-19"
+        },
+        {
+          "title": "Malaysia Finds Hydroxychloroquine Can Slow Covid-19... - CodeBlue",
+          "url": "https://codeblue.galencentre.org/2020/06/malaysia-finds-hydroxychloroquine-can-slow-covid-19-progress/"
+        },
+        {
+          "title": "Kotani: Antiandrogen agents in COVID-19: a meta-analysis of...",
+          "url": "https://c19early.org/kotani.html"
+        },
+        {
+          "title": "COVID-19 Q&A #1 with Rhonda Patrick, Ph.D.",
+          "url": "https://www.foundmyfitness.com/episodes/covid-19-episode-1"
+        },
+        {
+          "title": "Hydroxychloroquine is why Uganda, with a population of 43M, has...",
+          "url": "https://www.palmerfoundation.com.au/hydroxychloroquine-is-why-uganda-with-a-population-of-43m-has-only-15-covid-19-deaths/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T16:58:19.610+00:00",
+  "status": "judged",
+  "system": "terra"
+}

@@ -1,0 +1,306 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048",
+    "https://pubmed.ncbi.nlm.nih.gov/28599898/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+  ],
+  "claim_id": "ff_053f82789b61",
+  "completed_at": "2026-08-03T08:42:40.059+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048",
+        "https://pubmed.ncbi.nlm.nih.gov/28599898/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported by the best available direct evidence and confirmed by the highest-quality trial directly addressing the comparison in cesarean delivery.",
+      "label": "endorses"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "d355ebcaa485d29d8e9bf93cd2e74f2333778858d1d31a329bb23aaddb0e6d63",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Conclusion\n\nThe claim is **supported by the best available direct evidence**, though some nuance is warranted.\n\nThe landmark randomized controlled trial by Tuuli et al. (2016), published in the *New England Journal of Medicine*, directly compared chlorhexidine–alcohol versus iodine–alcohol for preoperative skin antisepsis before cesarean delivery. It found a significantly lower rate of surgical-site infection (SSI) with chlorhexidine–alcohol (4.0% vs. 7.3% with iodine–alcohol), establishing chlorhexidine–alcohol as superior for this specific comparison.\n\nHowever, other evidence introduces some uncertainty:\n\n- The **CAPICA trial** found no significant difference in SSI rates, but it compared chlorhexidine–alcohol against **aqueous** povidone–iodine (not iodine–alcohol), making it less directly applicable to this claim.\n- A **pilot RCT** (311 women) found fewer SSIs with chlorhexidine–alcohol (5.4% vs. 8.6%) but did not reach statistical significance; it also compared against povidone–iodine without alcohol.\n- A **2024 network meta-analysis** found no significant difference between chlorhexidine–alcohol and iodine–alcohol across abdominal surgeries broadly (RR 1.20; 95% CI 0.94–1.54), though this was not cesarean-specific.\n\nOverall, the claim is **confirmed by the highest-quality trial directly addressing the chlorhexidine–alcohol vs. iodine–alcohol comparison in cesarean delivery**, with supportive trends from meta-analyses favoring chlorhexidine over iodine-based preparations generally.\n\n## Sources\n\n- https://www.nejm.org/doi/full/10.1056/NEJMoa1511048\n- https://pubmed.ncbi.nlm.nih.gov/28599898/\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/\n- https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282",
+  "run_id": "replay_ff_053f82789b61_neutral_glm_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "chlorhexidine-alcohol vs iodine-alcohol skin preparation cesarean delivery surgical-site infection",
+      "results": [
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "Frontiers | Chlorhexidine versus povidone-iodine for surgical site infection prevention: an updated meta-analysis and trial sequential analysis of randomized controlled trials",
+          "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1641815/full"
+        },
+        {
+          "title": "Chlorhexidine-alcohol versus povidone-iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery-a pilot randomized control trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34404473/"
+        },
+        {
+          "title": "Chlorhexidine or Iodine Based Skin Prep for Cesarean Sections? - The ObG Project",
+          "url": "https://www.obgproject.com/2018/09/30/chlorhexidine-or-iodine-based-skin-prep-for-cesarean-sections/"
+        },
+        {
+          "title": "Chlorhexidine-alcohol versus Povidone-Iodine-alcohol for surgical site antisepsis in caesarean section | International Journal of Reproduction, Contraception, Obstetrics and Gynecology",
+          "url": "https://www.ijrcog.org/index.php/ijrcog/article/view/6461"
+        },
+        {
+          "title": "Chlorhexidine-Alcohol Compared with Povidone-Iodine Preoperative Skin Antisepsis for Cesarean Delivery: A Systematic Review and Meta-Analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30184558/"
+        },
+        {
+          "title": "Which antiseptic to use for a caesarean section? A systematic review and network meta-analysis of randomized controlled trials - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+        }
+      ]
+    },
+    {
+      "query": "chlorhexidine alcohol iodine alcohol cesarean section infection prevention randomized trial",
+      "results": [
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048"
+        },
+        {
+          "title": "Chlorhexidine-alcohol versus povidone-iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery-a pilot randomized control trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34404473/"
+        },
+        {
+          "title": "A randomized open-label controlled trial of chlorhexidine-alcohol vs povidone-iodine for cesarean antisepsis: the CAPICA trial - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0002937817307238"
+        },
+        {
+          "title": "Chlorhexidine-Alcohol Compared with Povidone-Iodine Preoperative Skin Antisepsis for Cesarean Delivery: A Systematic Review and Meta-Analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30184558/"
+        },
+        {
+          "title": "A randomized open-label controlled trial of chlorhexidine-alcohol vs povidone-iodine for cesarean antisepsis: the CAPICA trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28599898/"
+        },
+        {
+          "title": "Which antiseptic to use for a caesarean section? A systematic review and network meta-analysis of randomized controlled trials - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial | Trials | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s13063-021-05490-4"
+        }
+      ]
+    },
+    {
+      "query": "antiseptic skin preparation cesarean delivery surgical site infection comparison",
+      "results": [
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048"
+        },
+        {
+          "title": "Skin Preparation for Prevention of Surgical Site Infection After Cesarean Delivery: A Randomized Controlled Trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26551196/"
+        },
+        {
+          "title": "Skin preparation for preventing infection following caesarean section - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32580252/"
+        },
+        {
+          "title": "Which antiseptic to use for a caesarean section? A systematic review and network meta-analysis of randomized controlled trials - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+        },
+        {
+          "title": "Skin Preparation for Prevention of Surgical Site Infection After Cesarean Delivery",
+          "url": "https://journals.lww.com/greenjournal/abstract/10.1097/aog.0000000000001118~skin-preparation-for-prevention-of-surgical-site-infection?redirectionsource=fulltextview"
+        },
+        {
+          "title": "Chlorhexidine-alcohol versus povidone-iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery-a pilot randomized control trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34404473/"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "(PDF) Antiseptic Skin Preparation for Preventing Surgical Site Infection at Caesarean Section",
+          "url": "https://www.researchgate.net/publication/299406121_Antiseptic_Skin_Preparation_for_Preventing_Surgical_Site_Infection_at_Caesarean_Section"
+        }
+      ]
+    },
+    {
+      "query": "chlorhexidine iodine preoperative skin antisepsis C-section infection rate",
+      "results": [
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048"
+        },
+        {
+          "title": "Frontiers | Chlorhexidine versus povidone-iodine for surgical site infection prevention: an updated meta-analysis and trial sequential analysis of randomized controlled trials",
+          "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1641815/full"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "Skin antisepsis with chlorhexidine versus iodine for the prevention of surgical site infection: A systematic review and meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27838164/"
+        },
+        {
+          "title": "Chlorhexidine-alcohol versus povidone-iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery-a pilot randomized control trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34404473/"
+        },
+        {
+          "title": "Chlorhexidine or Iodine Based Skin Prep for Cesarean Sections? - The ObG Project",
+          "url": "https://www.obgproject.com/2018/09/30/chlorhexidine-or-iodine-based-skin-prep-for-cesarean-sections/"
+        },
+        {
+          "title": "Which antiseptic to use for a caesarean section? A systematic review and network meta-analysis of randomized controlled trials - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+        },
+        {
+          "title": "Skin Preparation with Chlorhexidine Versus Povidone-Iodine for the Prevention of Surgical Site Infection | Journal of Health, Wellness and Community Research",
+          "url": "https://jhwcr.com/index.php/jhwcr/article/view/1510"
+        }
+      ]
+    },
+    {
+      "query": "NEJM 2016 chlorhexidine alcohol iodine alcohol cesarean delivery surgical site infection results Tuuli",
+      "results": [
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048"
+        },
+        {
+          "title": "Chlorhexidine beats iodine for preventing C-section wound infections | MDedge",
+          "url": "https://www.mdedge.com/obgyn/article/106348/obstetrics/chlorhexidine-beats-iodine-preventing-c-section-wound-infections"
+        },
+        {
+          "title": "To prevent infection after C-section, chlorhexidine better than iodine | ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2016/02/160204094918.htm"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "Frontiers | Chlorhexidine versus povidone-iodine for surgical site infection prevention: an updated meta-analysis and trial sequential analysis of randomized controlled trials",
+          "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1641815/full"
+        },
+        {
+          "title": "Chlorhexidine–Alcohol versus Povidone–Iodine for Surgical-Site Antisepsis | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa0810988"
+        },
+        {
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/scholar_lookup?title=A+randomized+trial+comparing+skin+antiseptic+agents+at+cesarean+delivery&amp=&author=MG+Tuuli&amp=&author=J+Liu&amp=&author=MJ+Stout&amp=&publication_year=2016&amp=&journal=N+Engl+J+Med&amp=&pages=647-655&amp=&doi=10.1056/NEJMoa1511048&amp=&pmid=26844840"
+        },
+        {
+          "title": "196: Does the relative efficacy of chlorhexidine-alcohol versus iodine-alcohol antisepsis differ between unscheduled and scheduled cesareans? - American Journal of Obstetrics & Gynecology",
+          "url": "https://www.ajog.org/article/S0002-9378(15)01538-0/fulltext"
+        }
+      ]
+    },
+    {
+      "query": "CAPICA trial chlorhexidine povidone-iodine cesarean antisepsis results",
+      "results": [
+        {
+          "title": "A randomized open-label controlled trial of chlorhexidine-alcohol vs povidone-iodine for cesarean antisepsis: the CAPICA trial - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28599898/"
+        },
+        {
+          "title": "A randomized open-label controlled trial of chlorhexidine-alcohol vs povidone-iodine for cesarean antisepsis: the CAPICA trial - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0002937817307238"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "A randomized open-label controlled trial of chlorhexidine-alcohol vs povidone-iodine for cesarean antisepsis: the CAPICA trial.",
+          "url": "https://scholarlyworks.lvhn.org/obstetrics-gynecology/1791/"
+        },
+        {
+          "title": "A randomized open-label controlled trial of chlorhexidine-alcohol vs povidone-iodine for cesarean antisepsis: the CAPICA trial - American Journal of Obstetrics & Gynecology",
+          "url": "https://www.ajog.org/article/S0002-9378(17)30723-8/abstract"
+        },
+        {
+          "title": "Frontiers | Chlorhexidine versus povidone-iodine for surgical site infection prevention: an updated meta-analysis and trial sequential analysis of randomized controlled trials",
+          "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1641815/full"
+        },
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26844840/?dopt=Abstract"
+        },
+        {
+          "title": "Vaginal cleansing with chlorhexidine gluconate or povidone-iodine prior to cesarean delivery: a randomized comparator-controlled trial - American Journal of Obstetrics & Gynecology MFM",
+          "url": "https://www.ajogmfm.org/article/S2589-9333(19)30012-6/fulltext"
+        }
+      ]
+    },
+    {
+      "query": "Tuuli 2016 NEJM chlorhexidine alcohol iodine alcohol cesarean SSI rate 4.0% 7.3%",
+      "results": [
+        {
+          "title": "A Randomized Trial Comparing Skin Antiseptic Agents at Cesarean Delivery | New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1511048"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369632/"
+        },
+        {
+          "title": "Chlorhexidine–alcohol versus povidone–iodine as preoperative skin antisepsis for prevention of surgical site infection in cesarean delivery—a pilot randomized control trial | Trials | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s13063-021-05490-4"
+        },
+        {
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/scholar_lookup?title=A+randomized+trial+comparing+skin+antiseptic+agents+at+cesarean+delivery&amp=&author=MG+Tuuli&amp=&author=J+Liu&amp=&author=MJ+Stout&amp=&publication_year=2016&amp=&journal=N+Engl+J+Med&amp=&pages=647-655&amp=&doi=10.1056/NEJMoa1511048&amp=&pmid=26844840"
+        },
+        {
+          "title": "efficacy of povidone-iodine vs chlorhexidine to reduce",
+          "url": "https://revista.domhelder.edu.br/index.php/veredas/article/download/5985/27608/38315"
+        },
+        {
+          "title": "Chlorhexidine beats iodine for preventing C-section wound infections | MDedge",
+          "url": "https://www.mdedge.com/obgyn/article/106348/obstetrics/chlorhexidine-beats-iodine-preventing-c-section-wound-infections"
+        },
+        {
+          "title": "Which antiseptic to use for a caesarean section? A systematic review and network meta-analysis of randomized controlled trials - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195670124001282"
+        },
+        {
+          "title": "196: Does the relative efficacy of chlorhexidine-alcohol versus iodine-alcohol antisepsis differ between unscheduled and scheduled cesareans? - American Journal of Obstetrics & Gynecology",
+          "url": "https://www.ajog.org/article/S0002-9378(15)01538-0/fulltext"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T08:42:29.207+00:00",
+  "status": "judged",
+  "system": "glm"
+}

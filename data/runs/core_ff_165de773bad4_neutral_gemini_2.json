@@ -1,0 +1,274 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1802597",
+    "https://pubmed.ncbi.nlm.nih.gov/30462938/",
+    "https://www.gastrojournal.org/article/S0016-5085(20)34729-6/fulltext"
+  ],
+  "claim_id": "ff_165de773bad4",
+  "completed_at": "2026-08-03T10:31:17.815+00:00",
+  "evidence_stance": [
+    {
+      "labels": [
+        "opposes_claim",
+        "opposes_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "opposes_claim",
+        "supports_claim",
+        "supports_claim"
+      ],
+      "normalized_query": "probiotics acute infectious diarrhea duration meta-analysis cochrane",
+      "query": "probiotics acute infectious diarrhea duration meta-analysis Cochrane"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "aga clinical practice guidelines probiotics acute infectious diarrhea",
+      "query": "AGA clinical practice guidelines probiotics acute infectious diarrhea"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "supports_claim"
+      ],
+      "normalized_query": "espghan guidelines probiotics acute gastroenteritis children",
+      "query": "ESPGHAN guidelines probiotics acute gastroenteritis children"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "nejm probiotics acute gastroenteritis children freedman schnadower",
+      "query": "NEJM probiotics acute gastroenteritis children Freedman Schnadower"
+    }
+  ],
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1802597",
+        "https://pubmed.ncbi.nlm.nih.gov/30462938/",
+        "https://www.gastrojournal.org/article/S0016-5085(20)34729-6/fulltext"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that probiotics do not meaningfully shorten the duration of acute infectious diarrhea, citing updated Cochrane reviews and large clinical trials showing no benefit over placebo.",
+      "label": "rejects"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that probiotics do not reliably or meaningfully shorten acute infectious diarrhea, citing updated reviews, clinical trials, and guidelines against routine use.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "probiotics acute infectious diarrhea duration meta-analysis Cochrane",
+    "AGA clinical practice guidelines probiotics acute infectious diarrhea",
+    "ESPGHAN guidelines probiotics acute gastroenteritis children",
+    "NEJM probiotics acute gastroenteritis children Freedman Schnadower"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "Based on high-quality recent clinical evidence, taking probiotics does **not** reliably shorten the duration of acute infectious diarrhea.\n\nWhile early meta-analyses suggested probiotics might reduce illness duration by about 24 hours, rigorous updated research indicates otherwise:\n\n* **Updated Cochrane Review (2020):** Evaluating trials with low risk of bias, Cochrane concluded that probiotics likely make little to no difference in diarrhea duration or the likelihood of diarrhea lasting 48 hours or longer [Cochrane Review](https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea).\n* **Large Clinical Trials (2018):** Two multicenter, randomized controlled trials published in the *New England Journal of Medicine* evaluated widely used probiotic formulations (*Lactobacillus rhamnosus* GG and a *L. rhamnosus* / *L. helveticus* combination) in children with acute gastroenteritis. Neither trial demonstrated a reduction in symptom duration or disease severity compared to placebo [Freedman et al.](https://www.nejm.org/doi/full/10.1056/NEJMoa1802597), [Schnadower et al.](https://pubmed.ncbi.nlm.nih.gov/30462938/).\n* **Medical Guidelines:** The American Gastroenterological Association (AGA) recommends against the routine use of probiotics for acute infectious gastroenteritis, citing a lack of proven clinical benefit [AGA Guidelines](https://www.gastrojournal.org/article/S0016-5085(20)34729-6/fulltext).\n\n**Conclusion:** Probiotics do not meaningfully shorten the duration of acute infectious diarrhea. Fluid rehydration and supportive care remain the standard and primary treatments.",
+  "run_id": "core_ff_165de773bad4_neutral_gemini_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "probiotics acute infectious diarrhea duration meta-analysis Cochrane",
+    "AGA clinical practice guidelines probiotics acute infectious diarrhea",
+    "ESPGHAN guidelines probiotics acute gastroenteritis children",
+    "NEJM probiotics acute gastroenteritis children Freedman Schnadower"
+  ],
+  "searches": [
+    {
+      "query": "probiotics acute infectious diarrhea duration meta-analysis Cochrane",
+      "results": [
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33295643/"
+        },
+        {
+          "title": "Do probiotics help to treat acute infectious diarrhoea? - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea"
+        },
+        {
+          "title": "Probiotics for Acute Infectious Diarrhea - TheNNT",
+          "url": "https://thennt.com/nnt/probiotics-for-acute-infectious-diarrhea/"
+        },
+        {
+          "title": "Probiotics for treating infectious diarrhoea (Review)",
+          "url": "https://www.uhhospitals.org/-/media/files/services/emergency-services/medical-education/global-health-reading-materials/global-health-articles/cochrane-review-probiotics-for-treating-infectious-diarrhea.pdf"
+        },
+        {
+          "title": "Efficacy of probiotics in the treatment of acute diarrhea in children",
+          "url": "https://tp.amegroups.org/article/view/85375/html"
+        },
+        {
+          "title": "What Is the Efficacy of Probiotics for the Treatment of Acute ...",
+          "url": "https://www.annemergmed.com/article/S0196-0644(21)00116-5/pdf"
+        },
+        {
+          "title": "A meta-analysis of the effects of probiotics and synbiotics in children ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6750275/"
+        },
+        {
+          "title": "A systematic review and meta-analysis focusing on probiotics ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1341321X23002775"
+        }
+      ]
+    },
+    {
+      "query": "AGA clinical practice guidelines probiotics acute infectious diarrhea",
+      "results": [
+        {
+          "title": "AGA Clinical Practice Guidelines on the Role of Probiotics in ...",
+          "url": "https://www.gastrojournal.org/article/S0016-5085(20)34729-6/fulltext"
+        },
+        {
+          "title": "AGA Clinical Practice Guidelines on the Role of Probiotics in ...",
+          "url": "https://www.gastrojournal.org/article/S0016-5085(20)34729-6/pdf"
+        },
+        {
+          "title": "Role of probiotics in the management of gastrointestinal ...",
+          "url": "https://gastro.org/clinical-guidance/role-of-probiotics-in-the-management-of-gastrointestinal-disorders/"
+        },
+        {
+          "title": "GI Clinical Guidelines: American Gastroenterological Association",
+          "url": "https://gastro.org/clinical-guidance/"
+        },
+        {
+          "title": "AGA Clinical Practice Guidelines on the Role of Probiotics in ...",
+          "url": "https://files.medelement.com/uploads/materials/5ef5b1002ead50a99cacccc47cafdd14.pdf"
+        },
+        {
+          "title": "AGA Clinical Practice Guidelines on the Role of Probiotics in ...",
+          "url": "https://isappscience.org/resource/aga-clinical-practice-guidelines-on-the-role-of-probiotics-in-the-management-of-gastrointestinal-disorders/"
+        },
+        {
+          "title": "AGA Releases New Guidelines for Probiotic Use in Gastroenterology",
+          "url": "https://www.hcplive.com/view/aga-guidelines-probiotic-gastroenterology"
+        },
+        {
+          "title": "(PDF) AGA Clinical Practice Guidelines on the Role of Probiotics in...",
+          "url": "https://www.researchgate.net/publication/342053698_AGA_Clinical_Practice_Guidelines_on_the_Role_of_Probiotics_in_the_Management_of_Gastrointestinal_Disorders"
+        }
+      ]
+    },
+    {
+      "query": "ESPGHAN guidelines probiotics acute gastroenteritis children",
+      "results": [
+        {
+          "title": "Probiotics for the Management of Pediatric Gastrointestinal Disorders",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36219218/"
+        },
+        {
+          "title": "2023 Probiotics for the Management of Pediatric ... - ESPGHAN",
+          "url": "http://www.espghan.org/knowledge-center/publications/Gastroenterology/2023-Synbiotics-in-the-Management-of-Pediatric-Gastrointestinal-Disorders0"
+        },
+        {
+          "title": "Episode 20: How to navigate probiotic evidence and guidelines for ...",
+          "url": "https://isappscience.org/resource/episode-20-probiotics-pediatric/"
+        },
+        {
+          "title": "Probiotics for the Management of Pediatric Gastrointestinal Disorders",
+          "url": "https://www.espghan.org/dam/jcr:299e3330-b1b6-4940-aa72-786501bffff1/2023_Probiotics+for+the+Management+of+Pediatric+Gastrointestinal+Disorders:+Position+Paper+of+the+ESPGHAN+Special+Interest+Group+on+Gut+Microbiota+and+Modifications.pdf?utm_source=chatgpt.com"
+        },
+        {
+          "title": "Use of probiotics for management of acute gastroenteritis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24614141/"
+        },
+        {
+          "title": "Probiotics in Children: What Is the Evidence?",
+          "url": "https://pghn.org/DOIx.php?id=10.5223/pghn.2017.20.3.139"
+        },
+        {
+          "title": "Use of Probiotics for the Management of Acute Gastroenteritis in ...",
+          "url": "https://www.spgp.pt/media/1366/g-e-p-gastreoenterite-aguda-e-probióticos-espghan-naspghan-jpgn-2020.pdf"
+        },
+        {
+          "title": "Which Probiotics Are Doctors Prescribing for Kids? - Medscape",
+          "url": "https://www.medscape.com/viewarticle/which-probiotics-are-doctors-prescribing-kids-2025a1000kid"
+        }
+      ]
+    },
+    {
+      "query": "NEJM probiotics acute gastroenteritis children Freedman Schnadower",
+      "results": [
+        {
+          "title": "Multicenter Trial of a Combination Probiotic for Children ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1802597"
+        },
+        {
+          "title": "Multicenter Trial of a Combination Probiotic for Children ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1802597"
+        },
+        {
+          "title": "Multicenter Trial of a Combination Probiotic for Children ...",
+          "url": "https://www.ovid.com/journals/nejm/fulltext/10.1056/nejmoa1802597~multicenter-trial-of-a-combination-probiotic-for-children"
+        },
+        {
+          "title": "Lactobacillus rhamnosus GG versus Placebo for Acute ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30462938/"
+        },
+        {
+          "title": "Probiotics Show No Benefits for Pediatric Acute Gastroenteritis - MPR",
+          "url": "https://www.empr.com/home/news/probiotics-show-no-benefits-for-pediatric-acute-gastroenteritis/"
+        },
+        {
+          "title": "Pathogen-Specific Effects of Probiotics in Children With Acute...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9402642/"
+        },
+        {
+          "title": "Probiotics fail to benefit children with gastroenteritis: NEJM",
+          "url": "https://speciality.medicaldialogues.in/probiotics-fail-to-benefit-children-with-gastroenteritis-nejm"
+        },
+        {
+          "title": "Pathogen-Specific Effects of Probiotics in Children With Acute...",
+          "url": "https://escholarship.org/uc/item/9t80q1rw"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T10:15:01.162+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

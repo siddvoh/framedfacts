@@ -1,0 +1,434 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/24814559/",
+    "https://www.redalyc.org/journal/582/58257575001/",
+    "https://pubmed.ncbi.nlm.nih.gov/30831578/"
+  ],
+  "claim_id": "ff_3821c859162e",
+  "completed_at": "2026-08-03T14:22:34.914+00:00",
+  "evidence_stance": [
+    {
+      "labels": [
+        "supports_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "cdc autism vaccines number of vaccines study autism risk",
+      "query": "CDC autism vaccines number of vaccines study autism risk"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "opposes_claim",
+        "supports_claim"
+      ],
+      "normalized_query": "systematic review childhood vaccination cumulative exposure autism risk pubmed",
+      "query": "systematic review childhood vaccination cumulative exposure autism risk PubMed"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "opposes_claim"
+      ],
+      "normalized_query": "danish cohort study vaccines autism 2019 annals internal medicine full text",
+      "query": "Danish cohort study vaccines autism 2019 Annals Internal Medicine full text"
+    },
+    {
+      "labels": [
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "opposes_claim",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "who vaccines autism evidence immunization safety review",
+      "query": "WHO vaccines autism evidence immunization safety review"
+    },
+    {
+      "labels": [
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "total antigen exposure vaccines first two years autism study pubmed destefano price weintraub 2013",
+      "query": "total antigen exposure vaccines first two years autism study PubMed DeStefano Price Weintraub 2013"
+    },
+    {
+      "labels": [
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "vaccine 2021 safety vaccines routine immunization united states updated systematic review meta-analysis autism full text",
+      "query": "Vaccine 2021 safety vaccines routine immunization United States updated systematic review meta-analysis autism full text"
+    },
+    {
+      "labels": [
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim",
+        "opposes_claim"
+      ],
+      "normalized_query": "pubmed vaccines are not associated with autism evidence from case-control and cohort studies meta-analysis 2014",
+      "query": "PubMed vaccines are not associated with autism evidence from case-control and cohort studies meta-analysis 2014"
+    }
+  ],
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24814559/",
+        "https://www.redalyc.org/journal/582/58257575001/",
+        "https://pubmed.ncbi.nlm.nih.gov/30831578/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is not supported by high-quality evidence and states that research does not show receiving more childhood vaccines increases autism risk, citing multiple large studies to support this rejection.",
+      "label": "rejects"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that the claim is not supported and states that research does not show more childhood vaccines increase autism risk.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "CDC autism vaccines number of vaccines study autism risk",
+    "systematic review childhood vaccination cumulative exposure autism risk PubMed",
+    "Danish cohort study vaccines autism 2019 Annals Internal Medicine full text",
+    "WHO vaccines autism evidence immunization safety review",
+    "total antigen exposure vaccines first two years autism study PubMed DeStefano Price Weintraub 2013",
+    "Vaccine 2021 safety vaccines routine immunization United States updated systematic review meta-analysis autism full text",
+    "PubMed vaccines are not associated with autism evidence from case-control and cohort studies meta-analysis 2014"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** The claim is not supported by high-quality evidence. Research does **not** show that receiving more childhood vaccines increases autism risk.\n\nA 2014 meta-analysis combining five cohort studies (1.26 million children) and five case-control studies found no association between vaccination and autism/ASD; it also found no association for MMR or thimerosal/mercury exposure. https://pubmed.ncbi.nlm.nih.gov/24814559/\n\nDirectly relevant to “more vaccines,” a study of cumulative exposure to vaccine antigens in the first two years of life found that greater exposure was not associated with autism. This is important because vaccine count alone is an imperfect measure of immune exposure: modern vaccines can contain fewer antigens than some older vaccines. The study is cited as DeStefano, Price, and Weintraub (2013), *Journal of Pediatrics*, DOI 10.1016/j.jpeds.2013.02.001. https://www.redalyc.org/journal/582/58257575001/\n\nA large Danish nationwide cohort study likewise found MMR vaccination did not increase autism risk, including in children considered more susceptible or during periods after vaccination. https://pubmed.ncbi.nlm.nih.gov/30831578/\n\nAutism is a neurodevelopmental condition with substantial genetic and multifactorial contributors. Rising diagnoses do not establish that vaccines cause autism; diagnostic criteria, awareness, and access to assessment also affect recorded prevalence.",
+  "run_id": "core_ff_3821c859162e_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 7,
+  "search_tool_queries": [
+    "CDC autism vaccines number of vaccines study autism risk",
+    "systematic review childhood vaccination cumulative exposure autism risk PubMed",
+    "Danish cohort study vaccines autism 2019 Annals Internal Medicine full text",
+    "WHO vaccines autism evidence immunization safety review",
+    "total antigen exposure vaccines first two years autism study PubMed DeStefano Price Weintraub 2013",
+    "Vaccine 2021 safety vaccines routine immunization United States updated systematic review meta-analysis autism full text",
+    "PubMed vaccines are not associated with autism evidence from case-control and cohort studies meta-analysis 2014"
+  ],
+  "searches": [
+    {
+      "query": "CDC autism vaccines number of vaccines study autism risk",
+      "results": [
+        {
+          "title": "Autism and Vaccines | Vaccine Safety | CDC",
+          "url": "https://www.cdc.gov/vaccine-safety/about/autism.html"
+        },
+        {
+          "title": "Revised CDC Website About Autism and Vaccines Is Not Evidence ...",
+          "url": "https://www.factcheck.org/2025/11/revised-cdc-website-about-autism-and-vaccines-is-not-evidence-based/"
+        },
+        {
+          "title": "Vaccines and Autism - Summary of CDC Conducted or Sponsored ...",
+          "url": "https://archive.cdc.gov/www_cdc_gov/vaccinesafety/00_pdf/CDCStudiesonVaccinesandAutism.pdf"
+        },
+        {
+          "title": "CDC webpage says link between autism and vaccines has been ...",
+          "url": "https://abcnews.com/Health/cdc-webpage-link-autism-vaccines-despite-studies-finding/story?id=127708382"
+        },
+        {
+          "title": "Vaccines and Autism Risk: Study of 1.2 Million Children Finds ...",
+          "url": "https://www.healthline.com/health-news/research-finds-no-evidence-vaccines-cause-autism"
+        },
+        {
+          "title": "Science Summary: CDC Studies on Thimerosal in Vaccines",
+          "url": "https://www.cdc.gov/autism/media/pdfs/cdcstudiesonvaccinesandautism-508.pdf"
+        },
+        {
+          "title": "Experts: CDC Website Shift on Vaccines, Autism Sparks Confusion",
+          "url": "https://news.northeastern.edu/2025/12/02/cdc-vaccines-autism-misinformation/"
+        },
+        {
+          "title": "Centers for Disease Control and Prevention | CDC",
+          "url": "https://www.cdc.gov/"
+        }
+      ]
+    },
+    {
+      "query": "systematic review childhood vaccination cumulative exposure autism risk PubMed",
+      "results": [
+        {
+          "title": "BREAKING — Landmark Report Finds Vaccination Is the Dominant...",
+          "url": "https://www.thefocalpoints.com/p/breaking-landmark-report-finds-vaccination"
+        },
+        {
+          "title": "How Do Vaccines Cause Autism? – The Body of Research...",
+          "url": "https://howdovaccinescauseautism.org/"
+        },
+        {
+          "title": "Determinants of Autism Spectrum Disorder",
+          "url": "https://journalofindependentmedicine.org/articles/v02n03a05/"
+        },
+        {
+          "title": "A Bridge Across a Captured System: Reviewing...",
+          "url": "https://www.unbekoming.com/p/a-bridge-across-a-captured-system"
+        },
+        {
+          "title": "Immunization Safety Review: Vaccines and Autism... - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK25349/"
+        },
+        {
+          "title": "Major Study Exposes Autism Surge in Vaccinated Children...",
+          "url": "https://www.woolstangray.eu/major-study-exposes-autism-surge-in-vaccinated-children/"
+        },
+        {
+          "title": "Study finds no increased risk from vaccine aluminum exposure",
+          "url": "https://www.news-medical.net/news/20250715/Study-finds-no-increased-risk-from-vaccine-aluminum-exposure.aspx"
+        },
+        {
+          "title": "‘Jaw-dropping’ Study Finds Vaccinated Children Have 170% Higher...",
+          "url": "https://childrenshealthdefense.org/defender/study-vaccinated-children-autism-risk-increase/"
+        }
+      ]
+    },
+    {
+      "query": "Danish cohort study vaccines autism 2019 Annals Internal Medicine full text",
+      "results": [
+        {
+          "title": "(PDF) 189 Annals Intern Med (Hviid) 2019.pdf - Academia.eduMeasles, Mumps, Rubella Vaccination and Autism: A Nationwide ...Measles, Mumps, Rubella Vaccination and Autism – ScienceOpen",
+          "url": "https://www.academia.edu/38500734/189_Annals_Intern_Med_Hviid_2019_pdf"
+        },
+        {
+          "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30831578/"
+        },
+        {
+          "title": "Measles, Mumps, Rubella Vaccination and Autism : Annals of ...",
+          "url": "https://www.ovid.com/journals/aime/fulltext/10.7326/m18-2101~measles-mumps-rubella-vaccination-and-autism-a-nationwide"
+        },
+        {
+          "title": "ORIGINAL RESEARCH - Autism Science Foundation",
+          "url": "https://autismsciencefoundation.org/wp-content/uploads/2019/03/vaccine.2019.pdf"
+        },
+        {
+          "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide ...(PDF) 189 Annals Intern Med (Hviid) 2019.pdf - Academia.eduMeasles, Mumps, Rubella Vaccination and Autism: A Nationwide ...Measles, Mumps, Rubella Vaccination and Autism – ScienceOpen",
+          "url": "https://researchprofiles.ku.dk/en/publications/measles-mumps-rubella-vaccination-and-autism-a-nationwide-cohort-/"
+        },
+        {
+          "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide ...",
+          "url": "https://www.researchgate.net/publication/331531816_Measles_Mumps_Rubella_Vaccination_and_Autism_A_Nationwide_Cohort_Study"
+        },
+        {
+          "title": "Measles, Mumps, Rubella Vaccination and Autism – ScienceOpen",
+          "url": "https://www.scienceopen.com/document?vid=deade266-f5a6-455a-8b10-894b8b85c290"
+        },
+        {
+          "title": "Vaccines in no way cause autism, massive new study finds - Big Think",
+          "url": "https://bigthink.com/health/vaccines-autism/"
+        }
+      ]
+    },
+    {
+      "query": "WHO vaccines autism evidence immunization safety review",
+      "results": [
+        {
+          "title": "Evidence Shows Vaccines Unrelated to Autism",
+          "url": "https://www.immunize.org/wp-content/uploads/catg.d/p4028.pdf"
+        },
+        {
+          "title": "Vaccines, thimerosal and autism spectrum disorder",
+          "url": "https://cdn.who.int/media/docs/default-source/medicines/pharmacovigilance/rev1_vaccines-autism-and-asd-evidence-review-2010-2025_12-dec.pdf?sfvrsn=ebc51d_1&download=true"
+        },
+        {
+          "title": "Vaccines Do Not Cause Autism | Johns Hopkins | Bloomberg School...",
+          "url": "https://publichealth.jhu.edu/2025/vaccines-do-not-cause-autism"
+        },
+        {
+          "title": "Vaccine Safety: Examine the Evidence - HealthyChildren.org",
+          "url": "https://www.healthychildren.org/english/safety-prevention/immunizations/pages/vaccine-studies-examine-the-evidence.aspx"
+        },
+        {
+          "title": "Immunization Safety Review: Vaccines and Autism",
+          "url": "https://web.archive.org/web/20150905233227/http://www.nap.edu/openbook.php?record_id=10997&page=21"
+        },
+        {
+          "title": "Are Vaccinations Linked To Autism? The Latest Science Explained",
+          "url": "https://www.webmd.com/brain/autism/do-vaccines-cause-autism?page=5"
+        },
+        {
+          "title": "False Claim About Cause of Autism Highlighted on... - FactCheck.org",
+          "url": "https://www.factcheck.org/2023/07/scicheck-false-claim-about-cause-of-autism-highlighted-on-pennsylvania-senate-panel/"
+        },
+        {
+          "title": "Immunization Safety Review: Vaccines and Autism...",
+          "url": "https://www.amazon.com/Immunization-Safety-Review-Vaccines-Autism/dp/030909237X"
+        }
+      ]
+    },
+    {
+      "query": "total antigen exposure vaccines first two years autism study PubMed DeStefano Price Weintraub 2013",
+      "results": [
+        {
+          "title": "Autism Spectrum Disorder | Abnormal Psychology",
+          "url": "https://courses.lumenlearning.com/wm-abnormalpsych/chapter/autism-spectrum-disorder/"
+        },
+        {
+          "title": "Myths About Autism - Early Autism Project Malaysia",
+          "url": "https://www.autismmalaysia.com/myths-about-autism/"
+        },
+        {
+          "title": "Vaccines Do Not Cause Autism Essay Example | GraduateWay",
+          "url": "https://graduateway.com/vaccines-do-not-cause-autism/"
+        },
+        {
+          "title": "PubMed.ai – AI-Assisted Biomedical Literature Search Tool",
+          "url": "https://www.pubmed.ai/home?ref=producthunt"
+        },
+        {
+          "title": "Autism, the current pathological trend in psychiatry",
+          "url": "https://www.redalyc.org/journal/582/58257575001/"
+        },
+        {
+          "title": "Disorders in Childhood – Psychology",
+          "url": "http://pressbooks-dev.oer.hawaii.edu/psychology/chapter/disorders-in-childhood/"
+        },
+        {
+          "title": "MMR & Varicella Vaccine Safety by Alyson Childers on Prezi",
+          "url": "https://prezi.com/sayeq17_h1on/mmr--varicella-vaccine-safety/"
+        },
+        {
+          "title": "National Library of Medicine - National Institutes of Health",
+          "url": "https://www.nlm.nih.gov/"
+        }
+      ]
+    },
+    {
+      "query": "Vaccine 2021 safety vaccines routine immunization United States updated systematic review meta-analysis autism full text",
+      "results": [
+        {
+          "title": "Safety of vaccines used for routine immunization in the ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0264410X21003856"
+        },
+        {
+          "title": "Safety of vaccines used for routine immunization in the ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X21003856"
+        },
+        {
+          "title": "Safety of Vaccines Used for Routine Immunization in the ...",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK572041/"
+        },
+        {
+          "title": "Safety of vaccines used for routine immunization in the ...",
+          "url": "https://www.researchgate.net/publication/351852613_Safety_of_vaccines_used_for_routine_immunization_in_the_United_States_An_updated_systematic_review_and_meta-analysis"
+        },
+        {
+          "title": "Partner Reports on Vaccine Safety | Vaccine Safety | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/vaccinesafety/research/iomreports/index.html"
+        },
+        {
+          "title": "Systematic review: safety of routine vaccines in the USA",
+          "url": "https://link.springer.com/article/10.1007/s40278-021-97107-2"
+        },
+        {
+          "title": "Safety of vaccines used for routine immunization in the ...",
+          "url": "https://www.semanticscholar.org/paper/Safety-of-vaccines-used-for-routine-immunization-in-Gidengil-Goetz/4d058097a1d092cf73c25555b99314001418c005"
+        },
+        {
+          "title": "Causes of Autism: A Doctor’s Review of Fact vs. Fiction",
+          "url": "https://www.parentrounds.com/p/what-we-know-and-dont-know-about"
+        }
+      ]
+    },
+    {
+      "query": "PubMed vaccines are not associated with autism evidence from case-control and cohort studies meta-analysis 2014",
+      "results": [
+        {
+          "title": "Vaccines are not associated with autism: an evidence-based ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24814559/"
+        },
+        {
+          "title": "Vaccines are not associated with autism: An evidence-based ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X14006367"
+        },
+        {
+          "title": "Vaccines are not associated with autism: An evidence-based ...",
+          "url": "https://vaccinepapers.org/wp-content/uploads/Vaccines-are-not-associated-with-autism-An-evidence-based-meta-analysis-of-case-control-and-cohort-studies.pdf"
+        },
+        {
+          "title": "[PDF] Vaccines are not associated with autism: an evidence ...",
+          "url": "https://www.semanticscholar.org/paper/Vaccines-are-not-associated-with-autism:-an-of-and-Taylor-Swerdfeger/1f616330d731322a0078862e30e98b7ccbb96a30"
+        },
+        {
+          "title": "Vaccines are not associated with autism: an evidence-based ...",
+          "url": "https://www.scienceopen.com/document?vid=4c1b03aa-a3cf-4eb5-8032-6633c58bfe0f"
+        },
+        {
+          "title": "New analysis: vaccines are not associated with autism - Springer",
+          "url": "https://link.springer.com/article/10.1007/s40278-014-1037-9"
+        },
+        {
+          "title": "Vaccines are not associated with autism: An evidence-based ...",
+          "url": "https://librarysearch.stthomas.edu/discovery/fulldisplay/cdi_proquest_miscellaneous_1534819266/01CLIC_STTHOMAS:STTHOMAS"
+        },
+        {
+          "title": "Vaccines are not associated with autism: an evidence-based...",
+          "url": "https://context.center/timegate/https:/pubmed.ncbi.nlm.nih.gov/24814559/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T14:05:34.643+00:00",
+  "status": "judged",
+  "system": "terra"
+}

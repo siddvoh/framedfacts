@@ -1,0 +1,368 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4198773/",
+    "https://pubmed.ncbi.nlm.nih.gov/21676914/",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389"
+  ],
+  "claim_id": "ff_6df2bebe8e02",
+  "completed_at": "2026-08-03T18:22:59.855+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4198773/",
+        "https://pubmed.ncbi.nlm.nih.gov/21676914/",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the overall claim is not false and that evidence is suggestive, with a major randomized trial supporting causal benefit when part of a Mediterranean diet. Because it finds the evidence plausibly supportive rather than definitive for olive oil alone, it leans endorse.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "olive oil consumption stroke risk systematic review meta-analysis cohort study",
+    "olive oil stroke risk randomized trial PREDIMED stroke results",
+    "American Heart Association olive oil stroke risk evidence",
+    "olive oil intake incident stroke prospective cohort hazard ratio",
+    "site:pubmed.ncbi.nlm.nih.gov PREDIMED Mediterranean diet extra virgin olive oil stroke 2018",
+    "site:nejm.org primary prevention cardiovascular disease Mediterranean diet extra virgin olive oil stroke PREDIMED 2018",
+    "olive oil stroke meta-analysis relative risk 2014 Schwingshackl Hoffmann",
+    "Three-City Study olive oil consumption plasma oleic acid stroke incidence PubMed"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** Your skepticism is partly justified if the claim means that simply adding olive oil, by itself, has been proven to prevent stroke. The evidence is suggestive, not definitive. But the overall claim is not false: higher olive-oil intake is associated with lower stroke risk, and one major randomized dietary trial supports a causal benefit from a Mediterranean diet supplemented with extra-virgin olive oil.\n\n**Evidence supporting the claim**\n\n* A 2014 systematic review/meta-analysis of cohort studies found that higher olive-oil intake (unlike monounsaturated fat from all sources) was significantly associated with lower stroke risk. Cohort studies can adjust for smoking, diet, activity, etc., but cannot fully exclude “healthy-user” confounding: olive-oil consumers may differ in other health-relevant ways.  \nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC4198773/\n\n* The French Three-City prospective study specifically examined incident stroke in older adults and tested both reported olive-oil use and plasma oleic acid (an imperfect intake marker). Its objective and findings support an inverse association, but it was observational and had relatively few strokes, so it cannot establish causation.  \nhttps://pubmed.ncbi.nlm.nih.gov/21676914/\n\n* Stronger evidence comes from the reanalyzed PREDIMED randomized trial: 7,447 Spanish adults aged 55–80 at elevated cardiovascular risk, but without cardiovascular disease, were assigned to a Mediterranean diet supplemented with extra-virgin olive oil, the same diet with nuts, or low-fat-diet advice. Major cardiovascular events—including stroke—were lower in both Mediterranean-diet groups. However, this tested a dietary pattern plus supplementation, not olive oil isolated from the rest of the diet, and applies most directly to similar high-risk adults.  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa1800389\n\n**Bottom line:** Replacing butter or other saturated fats with olive oil within a Mediterranean-style diet is reasonable and plausibly lowers stroke risk. Do not treat olive oil as a stand-alone stroke-prevention treatment or assume that more added calories/oil is automatically beneficial.",
+  "run_id": "core_ff_6df2bebe8e02_skeptic_terra_2",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "olive oil consumption stroke risk systematic review meta-analysis cohort study",
+    "olive oil stroke risk randomized trial PREDIMED stroke results",
+    "American Heart Association olive oil stroke risk evidence",
+    "olive oil intake incident stroke prospective cohort hazard ratio",
+    "site:pubmed.ncbi.nlm.nih.gov PREDIMED Mediterranean diet extra virgin olive oil stroke 2018",
+    "site:nejm.org primary prevention cardiovascular disease Mediterranean diet extra virgin olive oil stroke PREDIMED 2018",
+    "olive oil stroke meta-analysis relative risk 2014 Schwingshackl Hoffmann",
+    "Three-City Study olive oil consumption plasma oleic acid stroke incidence PubMed"
+  ],
+  "searches": [
+    {
+      "query": "olive oil consumption stroke risk systematic review meta-analysis cohort study",
+      "results": [
+        {
+          "title": "Effects of daily extra virgin olive oil consumption on biomarkers of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40749711/"
+        },
+        {
+          "title": "Higher Olive Oil Intake Associated With Much Lower Risk of Death...",
+          "url": "https://www.goodnewsnetwork.org/olive-oil-associated-with-lower-risk-of-mortality/"
+        },
+        {
+          "title": "Frontiers | Egg Consumption and Stroke Risk: A Systematic Review...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.00153/full"
+        },
+        {
+          "title": "Comment on: Mediterranean diet enriched with Olive oil shows no...",
+          "url": "https://link.springer.com/article/10.1007/s00394-025-03619-8"
+        },
+        {
+          "title": "Systematic review/Meta-analysis Coffee consumption and risk of...",
+          "url": "https://www.archivesofmedicalscience.com/Systematic-review-Meta-analysis-Coffee-consumption-and-risk-of-fractures-a-meta-analysis,53076,0,2.html"
+        },
+        {
+          "title": "Adherence to Mediterranean Diet Reduces... | Olive Wellness Institute",
+          "url": "https://olivewellnessinstitute.org/article/adherence-to-mediterranean-diet-reduces-incident-frailty-risk-systematic-review-and-meta‐analysis/"
+        },
+        {
+          "title": "Consumption of Olive Oil and Diet Quality and Risk of...",
+          "url": "https://www.thielechiropractic.com/consumption-of-olive-oil-and-diet-quality-and-risk-of-dementia-related-death/"
+        },
+        {
+          "title": "tandfonline.com/doi/full/10.1080/17437199.2021.1923406",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17437199.2021.1923406"
+        }
+      ]
+    },
+    {
+      "query": "olive oil stroke risk randomized trial PREDIMED stroke results",
+      "results": [
+        {
+          "title": "Extra-virgin olive oil and additional cardiovascular outcomes ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002870325003217"
+        },
+        {
+          "title": "Olive oil consumption and risk of CHD and/or stroke: a meta ...",
+          "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/olive-oil-consumption-and-risk-of-chd-andor-stroke-a-metaanalysis-of-casecontrol-cohort-and-intervention-studies/79A90337470271D8A8CE2FDC77BD869E"
+        },
+        {
+          "title": "Olive oil consumption and risk of CHD and/or stroke: a meta ...",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/79A90337470271D8A8CE2FDC77BD869E/S0007114514000713a.pdf/div-class-title-olive-oil-consumption-and-risk-of-chd-and-or-stroke-a-meta-analysis-of-case-control-cohort-and-intervention-studies-div.pdf"
+        },
+        {
+          "title": "EVOO and Heart Health: What 7,102 PREDIMED Adults Showed",
+          "url": "https://www.myolivea.com/blogs/research/predimed-outcome-wide-evoo-cardiovascular-2025"
+        },
+        {
+          "title": "Clinical Trial: PREDIMED Trial - AHA/ASA Journals",
+          "url": "https://www.ahajournals.org/doi/pdf/10.1161/hypertensionaha.113.03353"
+        },
+        {
+          "title": "Extravirgin Olive Oil Consumption Reduces Risk of Atrial Fibrillation",
+          "url": "https://accedacris.ulpgc.es/bitstream/10553/44645/1/extravirgin_olive_oil.pdf"
+        },
+        {
+          "title": "Mediterranean Diet and Stroke: 7 Keys to Reduce Risk",
+          "url": "https://www.flintrehab.com/mediterranean-diet-and-stroke/"
+        },
+        {
+          "title": "(PDF) Olive oil consumption and risk of CHD and/or stroke...",
+          "url": "https://www.academia.edu/70915220/Olive_oil_consumption_and_risk_of_CHD_and_or_stroke_a_meta_analysis_of_case_control_cohort_and_intervention_studies"
+        }
+      ]
+    },
+    {
+      "query": "American Heart Association olive oil stroke risk evidence",
+      "results": [
+        {
+          "title": "Pour on the olive oil: Big study finds... | Globalnews.ca",
+          "url": "https://globalnews.ca/news/397347/pour-on-the-olive-oil-big-study-finds-mediterranean-style-diet-cuts-heart-attack-stroke-risk-2/"
+        },
+        {
+          "title": "Half Tablespoon of Olive Oil Daily Improves Heart Health",
+          "url": "https://www.aboutoliveoil.org/mediterranean-diet-for-north-americans"
+        },
+        {
+          "title": "expert reaction to study looking at butter or vegetable oils and mortality",
+          "url": "https://www.sciencemediacentre.org/expert-reaction-to-study-looking-at-butter-or-vegetable-oils-and-mortality/"
+        },
+        {
+          "title": "What to Eat for a Healthier Heart",
+          "url": "https://www.healthcentral.com/slideshow/foods-that-will-help-you-reverse-your-heart-disease"
+        },
+        {
+          "title": "Empower Your Health: Eating to Reduce the Risk of Stroke Explained",
+          "url": "https://discover.texasrealfood.com/healthy-living/eating-to-reduce-the-risk-of-stroke"
+        },
+        {
+          "title": "Is Olive Oil Good for You? 6 Benefits",
+          "url": "https://health.clevelandclinic.org/benefits-of-olive-oil"
+        },
+        {
+          "title": "The American Heart Association PREVENT™ Online Calculator",
+          "url": "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator"
+        },
+        {
+          "title": "Olive Oil Reduces Cancer and Risk of Stroke - Suzy Cohen, RPh...",
+          "url": "https://suzycohen.com/articles/olive-oil-reduces-risk-cancer-stroke/"
+        }
+      ]
+    },
+    {
+      "query": "olive oil intake incident stroke prospective cohort hazard ratio",
+      "results": [
+        {
+          "title": "Olive oil consumption and cardiova ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/737499793/"
+        },
+        {
+          "title": "Olive oil intake and cardiovascular disease, cancer, and all-cause...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38568797/"
+        },
+        {
+          "title": "6 Cooking Oils Ranked for Heart-Health Benefits... | A Magical Mess",
+          "url": "https://amagicalmess.com/6-cooking-oils-ranked-for-heart-health-benefits-cardiologists-explain/"
+        },
+        {
+          "title": "Olive oil consumption, plasma oleic acid, and stroke incidence : The...",
+          "url": "https://drperlmutter.com/study/olive-oil-consumption-plasma-oleic-acid-and-stroke-incidence-the-three-city-study/"
+        },
+        {
+          "title": "Olive oil may protect against stroke",
+          "url": "https://www.medscape.com/viewarticle/790952"
+        },
+        {
+          "title": "Eating the Mediterranean Style: A Tasty Way for Stroke Prevention",
+          "url": "https://core.ac.uk/download/pdf/81993784.pdf"
+        },
+        {
+          "title": "Olive Oil Intake and Dementia-Related Mortality... - Neurology Advisor",
+          "url": "https://www.neurologyadvisor.com/news/olive-oil-intake-and-dementia-related-mortality-whats-the-link/"
+        },
+        {
+          "title": "The role of olive oil in disease prevention: A focus on the recent...",
+          "url": "https://www.researchgate.net/publication/279863637_The_role_of_olive_oil_in_disease_prevention_A_focus_on_the_recent_epidemiological_evidence_from_cohort_studies_and_dietary_intervention_trials"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov PREDIMED Mediterranean diet extra virgin olive oil stroke 2018",
+      "results": [
+        {
+          "title": "Primary Prevention of Cardiovascular Disease with a ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/"
+        },
+        {
+          "title": "Mediterranean-style diet for the primary and secondary ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30864165/"
+        },
+        {
+          "title": "The effectiveness of the Mediterranean Diet for primary and ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39143663/"
+        },
+        {
+          "title": "Olive oil intake and risk of cardiovascular disease and ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24886626/"
+        },
+        {
+          "title": "Impact of adherence to the Mediterranean diet on stroke risk",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39777701/"
+        },
+        {
+          "title": "[Oil and life: The impact of olive oil on human health. A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40929788/"
+        },
+        {
+          "title": "Benefits of the Mediterranean Diet: Insights From the PREDIMED Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25940230/"
+        },
+        {
+          "title": "Mediterranean diet and cardiovascular health: Teachings of the...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24829485/"
+        }
+      ]
+    },
+    {
+      "query": "site:nejm.org primary prevention cardiovascular disease Mediterranean diet extra virgin olive oil stroke PREDIMED 2018",
+      "results": [
+        {
+          "title": "Primary Prevention of Cardiovascular Disease with a ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389"
+        },
+        {
+          "title": "Primary Prevention of Cardiovascular Disease with a ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1800389"
+        },
+        {
+          "title": "Primary Prevention of Cardiovascular Disease with a ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMc1809971"
+        },
+        {
+          "title": "RETRACTED: Primary Prevention of Cardiovascular Disease with ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/nejmoa1200303"
+        },
+        {
+          "title": "PREDIMED « CardioExchange",
+          "url": "https://blogs.nejm.org/cardioexchange/tag/predimed/"
+        },
+        {
+          "title": "Primary Prevention of Cardiovascular Disease: New Guideline",
+          "url": "https://clinician.nejm.org/primary-prevention-cardiovascular-disease-new-guideline-nejm-jw.NA48768"
+        },
+        {
+          "title": "Does Olive Oil Lower Cardiovascular Risk in U.S. Populations?",
+          "url": "https://clinician.nejm.org/nejm-jw.NA51457"
+        },
+        {
+          "title": "Primary Prevention of Cardiovascular Disease with... | NEJM",
+          "url": "https://www.nejm.org/doi/10.1056/NEJMoa1800389?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub=www.ncbi.nlm.nih.gov&cookieSet=1"
+        }
+      ]
+    },
+    {
+      "query": "olive oil stroke meta-analysis relative risk 2014 Schwingshackl Hoffmann",
+      "results": [
+        {
+          "title": "Monounsaturated fatty acids, olive oil and health status: a ...",
+          "url": "https://link.springer.com/article/10.1186/1476-511X-13-154"
+        },
+        {
+          "title": "Monounsaturated fatty acids, olive oil and health status: a ...",
+          "url": "https://www.researchgate.net/profile/Lukas-Schwingshackl/publication/266580588_Monounsaturated_fatty_acids_olive_oil_and_health_status_A_systematic_review_and_meta-analysis_of_cohort_studies/links/543f6f5e0cf2eaec07e816e4/Monounsaturated-fatty-acids-olive-oil-and-health-status-A-systematic-review-and-meta-analysis-of-cohort-studies.pdf"
+        },
+        {
+          "title": "(PDF) Monounsaturated fatty acids, olive oil and health ...",
+          "url": "https://www.researchgate.net/publication/266580588_Monounsaturated_fatty_acids_olive_oil_and_health_status_A_systematic_review_and_meta-analysis_of_cohort_studies"
+        },
+        {
+          "title": "RESEARCH Open Access Monounsaturated fatty acids, olive oil ...",
+          "url": "https://link.springer.com/content/pdf/10.1186/1476-511X-13-154.pdf"
+        },
+        {
+          "title": "Olive Oil and Stroke Risk: What 101,460 People Showed",
+          "url": "https://www.myolivea.com/blogs/research/olive-oil-stroke-cardiovascular-meta-analysis-2014"
+        },
+        {
+          "title": "Monounsaturated fatty acids, olive oil and health status: a ...",
+          "url": "https://read.qxmd.com/read/25274026/monounsaturated-fatty-acids-olive-oil-and-health-status-a-systematic-review-and-meta-analysis-of-cohort-studies"
+        },
+        {
+          "title": "(Open Access) Monounsaturated fatty acids, olive oil and ...",
+          "url": "https://scispace.com/papers/monounsaturated-fatty-acids-olive-oil-and-health-status-a-1t2k2weyb3"
+        },
+        {
+          "title": "Monounsaturated fatty acids, olive oil and health status: a systematic...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4198773/"
+        }
+      ]
+    },
+    {
+      "query": "Three-City Study olive oil consumption plasma oleic acid stroke incidence PubMed",
+      "results": [
+        {
+          "title": "Olive oil consumption, plasma oleic acid, and stroke incidence: the...",
+          "url": "https://olivewellnessinstitute.org/article/olive-oil-consumption-plasma-oleic-acid-and-stroke-incidence-the-three-city-study/"
+        },
+        {
+          "title": "Olive oil consumption, plasma oleic acid, and stroke ...Olive oil consumption, plasma oleic acid, and stroke ...Olive oil consumption, plasma oleic acid, and stroke ...Olive oil consumption, plasma oleic acid, and stroke ...",
+          "url": "https://www.academia.edu/17297953/Olive_oil_consumption_plasma_oleic_acid_and_stroke_incidence_The_Three_City_Study"
+        },
+        {
+          "title": "Olive oil consumption, plasma oleic acid, and stroke incidence: the...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21676914/"
+        },
+        {
+          "title": "Olive Oil Protects Against Stroke - ABC News",
+          "url": "https://abcnews.com/Health/CardiacHealth/olive-oil-protects-stroke/story?id=13849901"
+        },
+        {
+          "title": "Olive oil consumption, plasma oleic acid, and stroke incidence",
+          "url": "https://scite.ai/reports/olive-oil-consumption-plasma-oleic-MJLwPY"
+        },
+        {
+          "title": "Olive oil slashes risk of stroke: Study",
+          "url": "https://www.nutraingredients.com/Article/2011/06/16/Olive-oil-slashes-risk-of-stroke-Study/"
+        },
+        {
+          "title": "Olive oil may protect against stroke",
+          "url": "https://www.medscape.com/viewarticle/790952"
+        },
+        {
+          "title": "Using olive oil in your diet may prevent a stroke | ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2011/06/110615161749.htm"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T18:08:02.771+00:00",
+  "status": "judged",
+  "system": "terra"
+}

@@ -1,0 +1,210 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.bmj.com/content/352/bmj.i90",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6601519/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10259140/",
+    "https://link.springer.com/content/pdf/10.1007/s40268-017-0207-7.pdf"
+  ],
+  "claim_id": "ff_17863b4e5ef9",
+  "completed_at": "2026-08-03T11:32:02.443+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.bmj.com/content/352/bmj.i90",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6601519/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10259140/",
+        "https://link.springer.com/content/pdf/10.1007/s40268-017-0207-7.pdf"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the association between sedatives and dementia is likely non-causal and driven by reverse causation (protopathic bias), stating that current scientific evidence does not support a direct causal relationship.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "benzodiazepines dementia risk meta-analysis systematic review",
+    "z-drugs sleeping pills alzheimers dementia causal link reverse causation protopathic bias",
+    "benzodiazepine dementia risk observational studies reverse causation evidence synthesis",
+    "benzodiazepines dementia causal association evidence consensus guidelines"
+  ],
+  "query_labels": [
+    "neutral",
+    "stance_incongruent",
+    "stance_incongruent",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "While observational studies show a statistical correlation between sedatives (benzodiazepines and Z-drugs) and dementia, current scientific evidence indicates that this association is **likely non-causal**.\n\n### Key Evidence Summary\n\n* **Observational Association vs. Causation:** Early observational studies reported an elevated statistical risk of dementia among sedative users. However, more rigorous longitudinal studies demonstrate that sedatives do not cause Alzheimer's disease or neurodegenerative dementia.\n* **Reverse Causation (Protopathic Bias):** Anxiety, insomnia, and restlessness are common early, prodromal symptoms of underlying dementia. Patients frequently receive sedative prescriptions for these symptoms years before receiving a formal dementia diagnosis, creating a misleading statistical link.\n* **Lag-Time Studies:** When research designs account for prodromal symptoms and enforce multi-year lag times between medication use and diagnosis, the apparent risk diminishes or disappears entirely.\n* **Clinical Risks:** While sedatives do not cause dementia, they do induce transient cognitive impairment, drowsiness, confusion, dependence, and increased fall risks. Medical guidelines discourage long-term use in older adults.\n\n### Conclusion\nSedatives are statistically linked to dementia diagnoses in observational data primarily due to reverse causation, but current evidence does not support a direct causal relationship.\n\n### Sources\n* https://www.bmj.com/content/352/bmj.i90\n* https://pmc.ncbi.nlm.nih.gov/articles/PMC6601519/\n* https://pmc.ncbi.nlm.nih.gov/articles/PMC10259140/\n* https://link.springer.com/content/pdf/10.1007/s40268-017-0207-7.pdf",
+  "run_id": "core_ff_17863b4e5ef9_believer_gemini_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "benzodiazepines dementia risk meta-analysis systematic review",
+    "z-drugs sleeping pills alzheimers dementia causal link reverse causation protopathic bias",
+    "benzodiazepine dementia risk observational studies reverse causation evidence synthesis",
+    "benzodiazepines dementia causal association evidence consensus guidelines"
+  ],
+  "searches": [
+    {
+      "query": "benzodiazepines dementia risk meta-analysis systematic review",
+      "results": [
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608561/"
+        },
+        {
+          "title": "(PDF) Benzodiazepine Use and Risk of Dementia in the Elderly...",
+          "url": "https://www.researchgate.net/publication/311844629_Benzodiazepine_Use_and_Risk_of_Dementia_in_the_Elderly_Population_A_Systematic_Review_and_Meta-Analysis"
+        },
+        {
+          "title": "Association between Benzodiazepine Use and Dementia... | PLOS One",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127836"
+        },
+        {
+          "title": "Is there a link between the use of benzodiazepines and related drugs...",
+          "url": "https://link.springer.com/article/10.1007/s41999-021-00553-w"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia | Psychiatric Times",
+          "url": "https://www.psychiatrictimes.com/view/benzodiazepine-use-risk-dementia"
+        },
+        {
+          "title": "Frontiers | Benzodiazepines and Related Drugs as a Risk Factor in...",
+          "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2019.00344/full"
+        },
+        {
+          "title": "Benzodiazepines and dementia: How do... | Ardu Recovery Center",
+          "url": "https://www.ardurecoverycenter.com/benzodiazepines-and-dementia/"
+        },
+        {
+          "title": "A List of Drugs Linked to Dementia",
+          "url": "https://www.aplaceformom.com/caregiver-resources/articles/these-drugs-may-cause-memory-loss"
+        }
+      ]
+    },
+    {
+      "query": "z-drugs sleeping pills alzheimers dementia causal link reverse causation protopathic bias",
+      "results": [
+        {
+          "title": "Benzodiazepines and Z-Drugs: An Updated Review of Major Adverse...",
+          "url": "https://link.springer.com/content/pdf/10.1007/s40268-017-0207-7.pdf"
+        },
+        {
+          "title": "Benzodiazepine Effects on Cognitive Decline and Dementia Risk",
+          "url": "https://www.nature.com/nature-index/topics/l4/benzodiazepine-effects-on-cognitive-decline-and-dementia-risk"
+        },
+        {
+          "title": "Use of Sedative-Hypnotic Medications and Risk of Dementia...",
+          "url": "https://drepo.sdl.edu.sa/items/1f4e717c-3953-4a0f-ae42-5800098b9c7b"
+        },
+        {
+          "title": "Benzodiazepine-related dementia risks and protopathic biases...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10259140/"
+        },
+        {
+          "title": "(PDF) Benzodiazepine use and the risk for dementia",
+          "url": "https://www.academia.edu/124791469/Benzodiazepine_use_and_the_risk_for_dementia"
+        },
+        {
+          "title": "Associations of Benzodiazepines, Z-Drugs, and Other Anxiolytics With...",
+          "url": "https://psychiatryonline.org/doi/10.1176/appi.ajp.2019.19030315?cookieSet=1"
+        },
+        {
+          "title": "Use of sedative-hypnotic medications and risk of dementia...",
+          "url": "https://strathprints.strath.ac.uk/77988/1/AlDawsari_etal_BJCP_2021_Use_of_sedative_hypnotic_medications_and_risk_of_dementia.pdf"
+        },
+        {
+          "title": "Anticholinergic Drug Exposure and the Risk of Dementia: There Is...",
+          "url": "https://www.psychiatrist.com/jcp/anticholinergic-drug-exposure-and-the-risk-of-dementia/"
+        }
+      ]
+    },
+    {
+      "query": "benzodiazepine dementia risk observational studies reverse causation evidence synthesis",
+      "results": [
+        {
+          "title": "Association between benzodiazepines and dementia: A case ...",
+          "url": "https://www.jns-journal.com/article/S0022-510X(25)00366-1/fulltext"
+        },
+        {
+          "title": "Association between benzodiazepines and dementia: A case ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0022510X25003661"
+        },
+        {
+          "title": "Benzodiazepines and risk of dementia: true association or ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8367345/"
+        },
+        {
+          "title": "Benzodiazepine Effects on Cognitive Decline and Dementia Risk",
+          "url": "https://www.nature.com/nature-index/topics/l4/benzodiazepine-effects-on-cognitive-decline-and-dementia-risk"
+        },
+        {
+          "title": "Benzodiazepine-related dementia risks and protopathic biases ...History of Benzodiazepine Prescriptions and Risk of Dementia ...Benzodiazepine use in relation to long‐term dementia risk and ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10259140/"
+        },
+        {
+          "title": "History of Benzodiazepine Prescriptions and Risk of Dementia ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6601519/"
+        },
+        {
+          "title": "Benzodiazepine use in relation to long‐term dementia risk and ...",
+          "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.074601"
+        },
+        {
+          "title": "Risk of Dementia in Long-Term Benzodiazepine Users - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6325366/"
+        }
+      ]
+    },
+    {
+      "query": "benzodiazepines dementia causal association evidence consensus guidelines",
+      "results": [
+        {
+          "title": "Benzodiazepine use in relation to long-term dementia risk and ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11218055/"
+        },
+        {
+          "title": "Association between Benzodiazepine Use and Dementia - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5118753/"
+        },
+        {
+          "title": "Association between Development of Dementia and Use of ...",
+          "url": "https://accpjournals.onlinelibrary.wiley.com/doi/10.1002/phar.2170"
+        },
+        {
+          "title": "Benzodiazepine use and risk of incident dementia or cognitive decline",
+          "url": "https://www.bmj.com/content/352/bmj.i90"
+        },
+        {
+          "title": "Benzodiazepines | GV Health",
+          "url": "https://www.gvhealth.org.au/wp-content/uploads/2023/08/Benzodiazepines.pdf"
+        },
+        {
+          "title": "History of Benzodiazepine Prescriptions and Risk of Dementia - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6601519/"
+        },
+        {
+          "title": "The Effect of Benzodiazepines on Cognition and Alzheimer's Disease",
+          "url": "https://www.mdpi.com/3042-4518/3/1/2"
+        },
+        {
+          "title": "Original Article Benzodiazepines, z-Hypnotics, and Risk of Dementia",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1878747923013867"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T11:14:19.138+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

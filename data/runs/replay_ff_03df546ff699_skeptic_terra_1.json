@@ -1,0 +1,193 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+    "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub2/abstract",
+    "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub4/full"
+  ],
+  "claim_id": "ff_03df546ff699",
+  "completed_at": "2026-08-03T07:50:16.448+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+        "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub2/abstract",
+        "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub4/full"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that taking vitamin C regularly does not meaningfully prevent colds in the general population, citing systematic review evidence that shows no effect on cold incidence.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** Your answer is broadly correct for the general population: taking vitamin C regularly does **not meaningfully prevent people from getting colds**.\n\nThe strongest evidence supplied is a Cochrane systematic review of placebo-controlled trials (at least 200 mg/day). Across 29 comparisons involving 11,306 participants, regular vitamin C had **no effect on cold incidence in the ordinary population**. An earlier pooled estimate was risk ratio **0.96 (95% CI 0.92–1.00)**—at most a small, borderline reduction that does not support routine prevention use.  \nhttps://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold  \nhttps://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub2/abstract\n\nThat does not mean vitamin C has no effect at all. Regular supplementation modestly shortened cold duration—about **8% in adults** and **14% in children**—and reduced severity. This is a treatment-burden benefit among people who do get colds, rather than convincing prevention of infections.  \nhttps://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub4/full\n\nThere is an important exception: Cochrane’s conclusion notes potential usefulness for people exposed to **brief periods of severe physical exercise**—a population unlike most community-dwelling adults.  \n\nSo, for most people, routine vitamin C—especially “mega-dose” use—should not be expected to stop colds. It may slightly reduce how long or how severe a cold is if taken regularly, but that is a different claim from prevention.",
+  "run_id": "replay_ff_03df546ff699_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "Cochrane vitamin C common cold regular supplementation prevention review",
+      "results": [
+        {
+          "title": "Vitamin C for preventing and treating the common cold - Hemilä, H - 2013 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub4/full"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - Douglas, RM - 2004 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub2/abstract"
+        },
+        {
+          "title": "Cochrane review: Vitamin C for preventing and treating the common cold | Request PDF",
+          "url": "https://www.researchgate.net/publication/239295855_Cochrane_review_Vitamin_C_for_preventing_and_treating_the_common_cold"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold"
+        },
+        {
+          "title": "Cochrane review: Vitamin C for preventing and treating the common cold - Douglas - 2008 - Evidence-Based Child Health: A Cochrane Review Journal - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/ebch.266"
+        },
+        {
+          "title": "Cochrane Library Cochrane Database of Systematic Reviews",
+          "url": "https://immunonutrition-isin.org/docs/covidEvidence/Vitamin%20C%202.pdf"
+        },
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis | BMC Public Health | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s12889-023-17229-8"
+        }
+      ]
+    },
+    {
+      "query": "NIH Office Dietary Supplements vitamin C common cold prevention evidence",
+      "results": [
+        {
+          "title": "Vitamin C in the Prevention and Treatment of the Common Cold",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124957/"
+        },
+        {
+          "title": "Vitamin C supplementation and common cold symptoms",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8974108/"
+        },
+        {
+          "title": "Vitamin C and colds: MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/article/002145.htm"
+        },
+        {
+          "title": "Office of Dietary Supplements - Vitamin C",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+        },
+        {
+          "title": "Common colds: Research summaries – Does vitamin C prevent colds? - InformedHealth.org - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK279544/"
+        },
+        {
+          "title": "Vitamin C: Fact Sheet for Health Professionals",
+          "url": "https://digitalmedia.hhs.gov/storefront/showContent/18449"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/"
+        },
+        {
+          "title": "Office of Dietary Supplements - Dietary Supplements for Immune Function and Infectious Diseases",
+          "url": "https://ods.od.nih.gov/factsheets/ImmuneFunction-HealthProfessional/"
+        }
+      ]
+    },
+    {
+      "query": "NCCIH vitamin C common cold prevent colds evidence",
+      "results": [
+        {
+          "title": "Vitamin C in the Prevention and Treatment of the Common Cold",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124957/"
+        },
+        {
+          "title": "The Common Cold and Complementary Health Approaches: What the Science Says | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/the-common-cold-and-complementary-health-approaches-science"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152/"
+        },
+        {
+          "title": "Common colds: Research summaries – Does vitamin C prevent colds? - InformedHealth.org - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK279544/"
+        },
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis | BMC Public Health | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s12889-023-17229-8"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold"
+        },
+        {
+          "title": "The Common Cold and Complementary Health Approaches | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/the-common-cold-and-complementary-health-approaches"
+        }
+      ]
+    },
+    {
+      "query": "PubMed vitamin C prophylaxis common cold randomized trials meta-analysis",
+      "results": [
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38082300/"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+        },
+        {
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis | BMC Public Health | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s12889-023-17229-8"
+        },
+        {
+          "title": "Cochrane review: Vitamin C for preventing and treating the common cold - Douglas - 2008 - Evidence-Based Child Health: A Cochrane Review Journal - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/ebch.266"
+        },
+        {
+          "title": "PLoS Medicine | www.plosmedicine.org 0503 T he role of vitamin C in the",
+          "url": "https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pmed.0020168"
+        },
+        {
+          "title": "Vitamin C for preventing and treating the common cold - Douglas, RM - 2004 | Cochrane Library",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000980.pub2/abstract"
+        },
+        {
+          "title": "Examining the evidence for the use of vitamin C in the prophylaxis and treatment of the common cold - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19432914/"
+        },
+        {
+          "title": "Hemilä: Vitamin C reduces the severity of common colds: a meta-analysis",
+          "url": "https://c19early.org/hemila6.html"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T07:44:29.550+00:00",
+  "status": "judged",
+  "system": "terra"
+}

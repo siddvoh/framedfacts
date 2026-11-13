@@ -1,0 +1,210 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.mdanderson.org/cancerwise/soursop-does-this-tropical-fruit-have-health-benefits.h00-159852978.html",
+    "https://www.cancerresearchuk.org/about-cancer/treatment/complementary-alternative-therapies/individual-therapies/graviola",
+    "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola",
+    "https://www.cancercenter.com/community/blog/2017/07/experts-warn-against-soursop-fruit-to-fight-cancer"
+  ],
+  "claim_id": "ff_8c041b7da55c",
+  "completed_at": "2026-08-03T21:57:55.709+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.mdanderson.org/cancerwise/soursop-does-this-tropical-fruit-have-health-benefits.h00-159852978.html",
+        "https://www.cancerresearchuk.org/about-cancer/treatment/complementary-alternative-therapies/individual-therapies/graviola",
+        "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola",
+        "https://www.cancercenter.com/community/blog/2017/07/experts-warn-against-soursop-fruit-to-fight-cancer"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim that soursop cures cancer in humans is false, noting a lack of credible scientific evidence or human clinical trial data supporting it.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "soursop cancer cure evidence humans",
+    "Cancer Research UK soursop graviola cancer cure",
+    "Memorial Sloan Kettering graviola soursop safety toxicity",
+    "soursop graviola neurotoxicity annonacin side effects"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "### Conclusion\n\n**The claim that soursop (graviola) cures cancer in humans is false.**\n\nWhile laboratory (in vitro) and animal studies show that active compounds in soursop—such as acetogenins—can inhibit or destroy certain cancer cells, there is **no credible scientific evidence or human clinical trial data** demonstrating that soursop treats or cures cancer in people. \n\nOncology organizations warn against using soursop supplements as a cancer treatment due to serious safety concerns. Soursop contains toxic compounds, notably **annonacin**, which can cross the blood-brain barrier and cause neurotoxicity, nerve damage, and movement disorders resembling Parkinson’s disease when consumed in large amounts or over prolonged periods.\n\nMajor cancer centers strongly advise patients against delaying or replacing evidence-based medical treatments with unproven remedies like soursop.\n\n### Sources\n\n* MD Anderson Cancer Center: https://www.mdanderson.org/cancerwise/soursop-does-this-tropical-fruit-have-health-benefits.h00-159852978.html\n* Cancer Research UK: https://www.cancerresearchuk.org/about-cancer/treatment/complementary-alternative-therapies/individual-therapies/graviola\n* Memorial Sloan Kettering Cancer Center: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola\n* City of Hope / Cancer Center: https://www.cancercenter.com/community/blog/2017/07/experts-warn-against-soursop-fruit-to-fight-cancer",
+  "run_id": "core_ff_8c041b7da55c_neutral_gemini_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "soursop cancer cure evidence humans",
+    "Cancer Research UK soursop graviola cancer cure",
+    "Memorial Sloan Kettering graviola soursop safety toxicity",
+    "soursop graviola neurotoxicity annonacin side effects"
+  ],
+  "searches": [
+    {
+      "query": "soursop cancer cure evidence humans",
+      "results": [
+        {
+          "title": "What Research Says on Potential Uses of Soursop for Cancer",
+          "url": "https://www.verywellhealth.com/soursop-cancer-5087901"
+        },
+        {
+          "title": "Soursop and cancer: Separating miracle claims from science",
+          "url": "https://outcomes4me.com/cancer-topic/nutrition/soursop-and-cancer-separating-miracle-claims-from-science/"
+        },
+        {
+          "title": "No, soursop is not 10,000 times stronger than chemotherapy",
+          "url": "https://www.aap.com.au/factcheck/no-soursop-is-not-10000-times-stronger-than-chemotherapy/"
+        },
+        {
+          "title": "Does Soursop Kill Cancer Cells? - Advance Study",
+          "url": "https://advancestudy.org/does-soursop-kill-cancer-cells/"
+        },
+        {
+          "title": "Does Soursop Tea Actually Fight Cancer? - ScienceInsights",
+          "url": "https://scienceinsights.org/does-soursop-tea-actually-fight-cancer/"
+        },
+        {
+          "title": "Soursop: Does this tropical fruit have health benefits?",
+          "url": "https://www.mdanderson.org/cancerwise/soursop-does-this-tropical-fruit-have-health-benefits.h00-159852978.html"
+        },
+        {
+          "title": "Soursop Health Benefits: Does It Fight Cancer? | The Well by ...",
+          "url": "https://thewell.northwell.edu/chronic-diseases-conditions/soursop-cancer"
+        },
+        {
+          "title": "Can Soursop Really Cure Cancer?",
+          "url": "https://int.livhospital.com/can-soursop-really-cure-cancer/"
+        }
+      ]
+    },
+    {
+      "query": "Cancer Research UK soursop graviola cancer cure",
+      "results": [
+        {
+          "title": "Soursop - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soursop"
+        },
+        {
+          "title": "Graviola (soursop) - Cancer Research UK",
+          "url": "https://www.cancerresearchuk.org/about-cancer/treatment/complementary-alternative-therapies/individual-therapies/graviola"
+        },
+        {
+          "title": "Graviola, Soursop, Annona Muricata and cancer | CANCERactive",
+          "url": "https://www.canceractive.com/article/graviola-soursop-annona-muricata-and-cancer"
+        },
+        {
+          "title": "Graviola Treatment for Cancer: Does It Work?",
+          "url": "https://www.webmd.com/cancer/graviola-cancer-overview"
+        },
+        {
+          "title": "Behold the most cutting edge research on soursop vs cancer.",
+          "url": "https://endalldisease.com/graviola-soursop-cancer-killer-10000-times-more-effective-than-chemotherapy/"
+        },
+        {
+          "title": "Is Graviola the Next Cancer Cure?",
+          "url": "https://www.doctorshealthpress.com/graviola-cancer-cure/"
+        },
+        {
+          "title": "Graviola (Soursop) Tea Protocol for Cancer",
+          "url": "https://www.earthclinic.com/graviola-tea-for-cancer.html"
+        },
+        {
+          "title": "Graviola Cancer Cure | Snopes.com",
+          "url": "https://www.snopes.com/fact-check/graviola-cancer-cure/"
+        }
+      ]
+    },
+    {
+      "query": "Memorial Sloan Kettering graviola soursop safety toxicity",
+      "results": [
+        {
+          "title": "Soursop - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soursop"
+        },
+        {
+          "title": "Graviola | Memorial Sloan Kettering Cancer Center",
+          "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola"
+        },
+        {
+          "title": "Graviola Treatment for Cancer: Does It Work?",
+          "url": "https://www.webmd.com/cancer/graviola-cancer-overview"
+        },
+        {
+          "title": "Soursop, also known as graviola, is a fruit with alleged anticancer...",
+          "url": "https://www.medicalnewstoday.com/articles/soursop"
+        },
+        {
+          "title": "Soursop και Καρκίνος: Τι Δείχνουν οι Μελέτες για τα Αντικαρκινικά...",
+          "url": "https://balsamopsyxhs.gr/2026/06/25/soursop-και-καρκίνος-τι-δείχνουν-οι-μελέτες/"
+        },
+        {
+          "title": "Pregnant? Soursop Safety Alert! | ShunChild",
+          "url": "https://shunchild.com/article/why-is-soursop-not-safe-during-pregnancy"
+        },
+        {
+          "title": "Soursop Leaf Tea Buyer Guide: Taste, Brewing & How to Choose",
+          "url": "https://ceylonspicegarden.com/blogs/guides/soursop-leaf-tea-buyer-guide"
+        },
+        {
+          "title": "Graviola Soursop Annona Muricata",
+          "url": "https://getwellnatural.com/graviola-soursop-annona-muricata/"
+        }
+      ]
+    },
+    {
+      "query": "soursop graviola neurotoxicity annonacin side effects",
+      "results": [
+        {
+          "title": "Soursop - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soursop"
+        },
+        {
+          "title": "Soursop Benefits, Nutrition, Recipes and Side Effects - Dr. Axe",
+          "url": "https://draxe.com/nutrition/soursop/"
+        },
+        {
+          "title": "(PDF) Review Article: Annona muricata (Graviola) in Cancer Therapy",
+          "url": "https://www.researchgate.net/publication/390794125_Review_Article_Annona_muricata_Graviola_in_Cancer_Therapy"
+        },
+        {
+          "title": "Soursop",
+          "url": "https://coalicionfloresta.org/en/trees/annona-muricata"
+        },
+        {
+          "title": "Annona Muricata (Soursop): The Natural Enemy of Cancer...",
+          "url": "https://jisciences.com/index.php/journal/article/view/110"
+        },
+        {
+          "title": "Why Is Soursop Illegal? What Scientists and... - The Environmental Blog",
+          "url": "https://www.theenvironmentalblog.org/2025/02/why-is-soursop-illegal/"
+        },
+        {
+          "title": "Why Experts Warn Against Soursop for Cancer Treatment",
+          "url": "https://www.cancercenter.com/community/blog/2017/07/experts-warn-against-soursop-fruit-to-fight-cancer"
+        },
+        {
+          "title": "Soursop Benefits: Nutrition Facts, Cancer Research & How to Eat It...",
+          "url": "https://www.tuasaude.com/en/soursop/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T21:51:00.503+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

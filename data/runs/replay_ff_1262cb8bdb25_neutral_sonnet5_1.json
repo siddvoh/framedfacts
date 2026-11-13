@@ -1,0 +1,199 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5491138/",
+    "https://pubmed.ncbi.nlm.nih.gov/39114293/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303337/",
+    "https://www.sciencedirect.com/science/article/pii/S0261561424000803",
+    "https://www.sciencedirect.com/science/article/pii/S2405457725003109",
+    "https://pubmed.ncbi.nlm.nih.gov/32675291/"
+  ],
+  "claim_id": "ff_1262cb8bdb25",
+  "completed_at": "2026-08-03T10:15:01.124+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5491138/",
+        "https://pubmed.ncbi.nlm.nih.gov/39114293/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303337/",
+        "https://www.sciencedirect.com/science/article/pii/S0261561424000803",
+        "https://www.sciencedirect.com/science/article/pii/S2405457725003109",
+        "https://pubmed.ncbi.nlm.nih.gov/32675291/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly answers 'Yes' to the question, stating that probiotics can modestly lower blood sugar in type 2 diabetes and citing multiple meta-analyses of RCTs that support this finding. Therefore, it endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Conclusion\n\nYes, probiotics can modestly lower blood sugar in type 2 diabetes, though effects are generally small and depend on strain, dose, and duration. Multiple meta-analyses of randomized controlled trials consistently show statistically significant reductions in HbA1c, fasting glucose, and fasting insulin with probiotic supplementation compared to placebo. A meta-analysis of 12 RCTs found significant reductions in HbA1c (SMD −0.38) and fasting insulin (SMD −0.38) (https://pmc.ncbi.nlm.nih.gov/articles/PMC5491138/). A more recent meta-analysis reported significant HbA1c reduction (MD −0.33) and improved insulin levels (https://pubmed.ncbi.nlm.nih.gov/39114293/), with subgroup analysis suggesting 6–8 week interventions produce the best HbA1c improvements (https://pmc.ncbi.nlm.nih.gov/articles/PMC11303337/). A broader 2024 systematic review of probiotics and synbiotics across 41 studies similarly supports benefits on fasting glucose, HbA1c, and insulin (https://www.sciencedirect.com/science/article/pii/S0261561424000803).\n\nHowever, results are not universal. A 2025 randomized controlled trial found that probiotic supplementation did *not* significantly lower HbA1c compared to placebo in patients with suboptimal glycemic control (https://www.sciencedirect.com/science/article/pii/S2405457725003109), highlighting variability based on strain type, baseline glycemic control, and trial design. Notably, multi-strain formulations containing Akkermansia muciniphila and related strains (e.g., Pendulum Glucose Control) showed clinically meaningful reductions in A1C and postprandial glucose spikes in a randomized controlled trial (https://pubmed.ncbi.nlm.nih.gov/32675291/), though this trial was funded by the product's manufacturer, warranting cautious interpretation.\n\n**Bottom line:** Evidence from meta-analyses supports probiotics as a modest adjunct therapy for improving glycemic markers in type 2 diabetes, but they should not replace standard treatment, and specific strain and formulation matter significantly.",
+  "run_id": "replay_ff_1262cb8bdb25_neutral_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "probiotics blood sugar type 2 diabetes meta-analysis",
+      "results": [
+        {
+          "title": "Probiotics improve metabolic factors in type 2 diabetics... - Examine",
+          "url": "https://examine.com/research-feed/study/89gr20/"
+        },
+        {
+          "title": "Harness Probiotics to Manage Blood Sugar Levels | Signos",
+          "url": "https://www.signoshealth.com/blog/probiotics-blood-sugar"
+        },
+        {
+          "title": "Meta-analytical insight on probiotic metabolites and inflammatory...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41059033/"
+        },
+        {
+          "title": "Pendulum Glucose Control - Probiotic for Blood Sugar & A1C Support",
+          "url": "https://pendulumlife.com/products/pendulum-glucose-control-probiotic-blood-sugar"
+        },
+        {
+          "title": "probiotics blood sugar: Does probiotic lower sugar? - Tonum",
+          "url": "https://tonum.com/blogs/useful-knowledge/does-probiotic-lower-sugar-encouraging-powerful-insight"
+        },
+        {
+          "title": "Probiotics, Blood Sugar, and Diabetes - YouTube",
+          "url": "https://www.youtube.com/watch?v=wX7OgH121zA"
+        },
+        {
+          "title": "Can protein, probiotics help with blood sugar control?",
+          "url": "https://medicalxpress.com/news/2016-11-protein-probiotics-blood-sugar.html"
+        },
+        {
+          "title": "Probiotics and Their Role in Blood Sugar Control",
+          "url": "https://scivast.com/articles/probiotics-blood-sugar-regulation/"
+        }
+      ]
+    },
+    {
+      "query": "probiotic supplementation glycemic control randomized controlled trial diabetes",
+      "results": [
+        {
+          "title": "Probiotics and synbiotics for glycemic control in diabetes: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0261561424000803"
+        },
+        {
+          "title": "Effect of probiotic supplementation on glycemic control in ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405457725003109"
+        },
+        {
+          "title": "The effects of probiotics supplementation on glycaemic ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10324246/"
+        },
+        {
+          "title": "Impact of Multistrain Probiotic Supplementation on Glycemic ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11595758/?term=\"Life+(Basel)\"[jour]"
+        },
+        {
+          "title": "Probiotics and synbiotics for glycemic control in diabetes: A ...",
+          "url": "https://www.clinicalnutritionjournal.com/article/S0261-5614(24)00080-3/pdf"
+        },
+        {
+          "title": "Probiotic Supplementation With Bifidobacterium longum Subsp ...",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/fsn3.71437"
+        },
+        {
+          "title": "The effects of probiotics supplementation on glycaemic ...",
+          "url": "https://link.springer.com/article/10.1186/s12967-023-04306-0"
+        },
+        {
+          "title": "Effect of probiotic supplementation on glycemic control in patients ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40345656/"
+        }
+      ]
+    },
+    {
+      "query": "probiotics fasting glucose HbA1c meta-analysis 2023 effect size",
+      "results": [
+        {
+          "title": "Probiotics and synbiotics for glycemic control in diabetes: A systematic review and meta-analysis of randomized controlled trials - Clinical Nutrition",
+          "url": "https://www.clinicalnutritionjournal.com/article/S0261-5614(24)00080-3/fulltext"
+        },
+        {
+          "title": "Effect of probiotics at different intervention time on glycemic control in patients with type 2 diabetes mellitus: a systematic review and meta-analysis - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39114293/"
+        },
+        {
+          "title": "Received 08/23/2023 Review began 09/16/2023 Review ended 09/24/2023",
+          "url": "https://www.cureus.com/articles/184426-probiotics-and-their-role-in-the-management-of-type-2-diabetes-mellitus-short-term-versus-long-term-effect-a-systematic-review-and-meta-analysis.pdf"
+        },
+        {
+          "title": "Effect of probiotics at different intervention time on glycemic control in patients with type 2 diabetes mellitus: a systematic review and meta-analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303337/"
+        },
+        {
+          "title": "Probiotics and synbiotics for glycemic control in diabetes: A systematic review and meta-analysis of randomized controlled trials - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0261561424000803"
+        },
+        {
+          "title": "Frontiers | Effect of probiotics at different intervention time on glycemic control in patients with type 2 diabetes mellitus: a systematic review and meta-analysis",
+          "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1392306/full"
+        },
+        {
+          "title": "Effect of Probiotics on Glucose and Lipid Metabolism in Type 2 Diabetes Mellitus: A Meta-Analysis of 12 Randomized Controlled Trials - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5491138/"
+        },
+        {
+          "title": "The effects of probiotic administration on patients with prediabetes: a meta-analysis and systematic review - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36324119/"
+        }
+      ]
+    },
+    {
+      "query": "Pendulum Akkermansia glucose control clinical trial diabetes",
+      "results": [
+        {
+          "title": "Pendulum | The Next Generation of Probiotics",
+          "url": "https://pendulumlife.com/"
+        },
+        {
+          "title": "Improvements to postprandial glucose control in subjects with type 2 diabetes: a multicenter, double blind, randomized placebo-controlled trial of a novel probiotic formulation - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32675291/"
+        },
+        {
+          "title": "Pendulum Probiotics Review: Is It Worth It? A Dietitian Explains - WellnessVerge",
+          "url": "https://www.wellnessverge.com/pendulum-probiotic-review"
+        },
+        {
+          "title": "Pendulum's published clinical study explained",
+          "url": "https://pendulumlife.com/blogs/news/pendulums-published-clinical-study-explained"
+        },
+        {
+          "title": "Pendulum Therapeutics Announces Clinical Data For Medical Probiotic That Provides The Dietary Management Of Healthy A1C And Blood Glucose Levels - Microbiome Times Magazine",
+          "url": "https://www.microbiometimes.com/pendulum-therapeutics-announces-publication-of-clinical-data-for-first-ever-medical-probiotic-that-provides-the-dietary-management-of-healthy-a1c-and-blood-glucose-levels/"
+        },
+        {
+          "title": "Glucose Control by Pendulum For Good Gut Bacteria",
+          "url": "https://cincinnatihealthinstitute.com/glucose-control-by-pendulum-p/pend0100.htm"
+        },
+        {
+          "title": "Pendulum probiotics: Breakthrough or bandwagon? | Nutrition Diva",
+          "url": "https://nutrition-diva.simplecast.com/episodes/pendulum-probiotics-breakthrough-or-bandwagon-A7GaobYo/transcript"
+        },
+        {
+          "title": "Pendulum Therapeutics Announces Publication Of Clinical Data For First-Ever Medical Probiotic That Provides The Dietary Management Of Healthy A1C And Blood Glucose Levels",
+          "url": "https://www.prnewswire.com/news-releases/pendulum-therapeutics-announces-publication-of-clinical-data-for-first-ever-medical-probiotic-that-provides-the-dietary-management-of-healthy-a1c-and-blood-glucose-levels-301095681.html"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T10:04:17.786+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

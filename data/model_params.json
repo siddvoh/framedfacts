@@ -1,0 +1,55 @@
+{
+  "agents": {
+    "anthropic/claude-sonnet-5": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    "google/gemini-3.6-flash": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "medium"
+      },
+      "temperature": 0.2,
+      "top_p": 1.0
+    },
+    "moonshotai/kimi-k3:exacto": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "high"
+      },
+      "temperature": 0.2,
+      "top_p": 0.95
+    },
+    "openai/gpt-5.6-terra": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    "z-ai/glm-5.2": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "high"
+      },
+      "temperature": 0.2,
+      "top_p": 1.0
+    }
+  },
+  "judges": {
+    "google/gemini-3.6-flash": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "medium"
+      },
+      "temperature": 0.0
+    },
+    "openai/gpt-5.6-luna": {
+      "max_tokens": 2000,
+      "reasoning": {
+        "effort": "medium"
+      }
+    }
+  }
+}

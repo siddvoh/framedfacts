@@ -1,0 +1,296 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9036942/",
+    "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/",
+    "https://justthenews.com/politics-policy/coronavirus/study-342000-adults-finds-masks-effective-against-covid-based-20",
+    "https://www.bmj.com/content/bmj/371/bmj.m4586.full.pdf",
+    "https://www.thebottomline.org.uk/summaries/danmask-19/",
+    "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review",
+    "https://www.pnas.org/doi/10.1073/pnas.2119266119"
+  ],
+  "claim_id": "ff_782692fd8627",
+  "completed_at": "2026-08-03T19:49:11.043+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9036942/",
+        "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/",
+        "https://justthenews.com/politics-policy/coronavirus/study-342000-adults-finds-masks-effective-against-covid-based-20",
+        "https://www.bmj.com/content/bmj/371/bmj.m4586.full.pdf",
+        "https://www.thebottomline.org.uk/summaries/danmask-19/",
+        "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review",
+        "https://www.pnas.org/doi/10.1073/pnas.2119266119"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the best available evidence indicates masks worn broadly provide a modest, real reduction in transmission, clearly supporting the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "masks reduce COVID-19 infections population-level effectiveness study",
+    "randomized controlled trial mask wearing COVID transmission community",
+    "Cochrane review physical interventions face masks respiratory viruses 2023",
+    "Danish mask study DANMASK-19 no significant effect",
+    "Bangladesh mask RCT results 9% reduction surgical masks symptomatic seroprevalence",
+    "mask mandates ecological studies confounding critique effectiveness"
+  ],
+  "query_labels": [
+    "stance_incongruent",
+    "neutral",
+    "neutral",
+    "stance_congruent",
+    "stance_incongruent",
+    "stance_congruent"
+  ],
+  "repeat": 1,
+  "report": "# Research Summary: Do Masks Reduce COVID-19 Infections at the Population Level?\n\nThe scientific evidence does **not** support a simple \"no.\" The overall picture is one of modest but real benefit, not zero effect, though the evidence quality varies and has been contested.\n\n**Key evidence:**\n\n- The **largest randomized controlled trial** to date — a cluster-RCT of ~340,000 people across 600 villages in Bangladesh — found that community mask promotion increased mask-wearing and produced a **~10% relative reduction in symptomatic seroprevalence**, with surgical masks showing stronger effects (~30–35% reduction in symptomatic infections among adults over 60) than cloth masks ([Science, 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC9036942/); [JHSPH summary](https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/)). Critics note the absolute difference between arms was small and some argue results were oversold ([Just The News](https://justthenews.com/politics-policy/coronavirus/study-342000-adults-finds-masks-effective-against-covid-based-20)).\n\n- The earlier **Danish DANMASK-19 trial** (individual mask-wearer protection, not \"source control\") found no statistically significant protective effect for the wearer, but it was underpowered, conducted when mask use was low society-wide, and only tested self-protection rather than population-wide masking ([BMJ](https://www.bmj.com/content/bmj/371/bmj.m4586.full.pdf); [thebottomline.org.uk](https://www.thebottomline.org.uk/summaries/danmask-19/)).\n\n- A widely-cited 2023 **Cochrane review** stated it was \"uncertain\" whether masks reduce spread, based on limited RCTs — but Cochrane's own editors clarified this reflected low certainty of evidence, not proof of no effect ([Cochrane statement](https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review)).\n\n- Observational/quasi-experimental studies, including a large study analyzing mask-wearing directly (not just mandates), found population mask-wearing associated with a **~19% reduction in SARS-CoV-2 transmission** ([PNAS, 2022](https://www.pnas.org/doi/10.1073/pnas.2119266119)).\n\n**Conclusion:** The best available evidence, especially the large RCT, indicates masks worn broadly provide a modest, real reduction in transmission — not zero. The \"no effect\" claim rests mainly on underpowered trials and evidence-quality debates, not on solid proof of ineffectiveness.",
+  "run_id": "core_ff_782692fd8627_skeptic_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 6,
+  "search_tool_queries": [
+    "masks reduce COVID-19 infections population-level effectiveness study",
+    "randomized controlled trial mask wearing COVID transmission community",
+    "Cochrane review physical interventions face masks respiratory viruses 2023",
+    "Danish mask study DANMASK-19 no significant effect",
+    "Bangladesh mask RCT results 9% reduction surgical masks symptomatic seroprevalence",
+    "mask mandates ecological studies confounding critique effectiveness"
+  ],
+  "searches": [
+    {
+      "query": "masks reduce COVID-19 infections population-level effectiveness study",
+      "results": [
+        {
+          "title": "High-Quality Masks Reduce Covid-19 Infections and Death in the US",
+          "url": "https://www.academia.edu/110294106/High_Quality_Masks_Reduce_Covid_19_Infections_and_Death_in_the_US"
+        },
+        {
+          "title": "Evidence shows that, yes, masks prevent COVID-19 – and surgical...",
+          "url": "https://theconversation.com/evidence-shows-that-yes-masks-prevent-covid-19-and-surgical-masks-are-the-way-to-go-167963"
+        },
+        {
+          "title": "In a First, Randomized Study Shows That Masks Reduce COVID-19...",
+          "url": "https://macmillan.yale.edu/stories/first-randomized-study-shows-masks-reduce-covid-19-infections"
+        },
+        {
+          "title": "Surgical masks reduce COVID- 19 spread, large-scale study shows...",
+          "url": "https://ifunny.co/picture/surgical-masks-reduce-covid-19-spread-large-scale-study-shows-LZFZDtOu8"
+        },
+        {
+          "title": "Stanford, UC Berkeley large-scale international study finds masks...",
+          "url": "https://abc11.com/mask-study-reduce-covid-spread-stanford-university-medicine/10993703/"
+        },
+        {
+          "title": "News: Largest Study of Its Kind Finds Face Masks Reduce COVID-19",
+          "url": "https://en.zicos.com/tech/i31408496-Largest-Study-of-Its-Kind-Finds-Face-Masks-Reduce-COVID-19.html"
+        },
+        {
+          "title": "The Danish Mask Study – Healthy Skeptic",
+          "url": "https://healthy-skeptic.com/2020/11/18/flash-on-the-danish-mask-study/"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2114255",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2114255"
+        }
+      ]
+    },
+    {
+      "query": "randomized controlled trial mask wearing COVID transmission community",
+      "results": [
+        {
+          "title": "Masks During Pandemics Caused by Respiratory Pathogens",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811136"
+        },
+        {
+          "title": "Mask wearing in community settings reduces SARS-CoV-2 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191667/"
+        },
+        {
+          "title": "Mask wearing in community settings reduces SARS-CoV-2 ... - PNAS",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2119266119"
+        },
+        {
+          "title": "Effectiveness of Mask Wearing to Control Community Spread of ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2776536"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized ...",
+          "url": "https://www.science.org/doi/10.1126/science.abi9069"
+        },
+        {
+          "title": "Largest study on masks and Covid-19 demonstrates their ...",
+          "url": "https://egc.yale.edu/research/largest-study-masks-and-covid-19-demonstrates-their-effectiveness-real-world"
+        },
+        {
+          "title": "Facemask use in community settings to prevent respiratory ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7518963/"
+        },
+        {
+          "title": "Living Evidence Synthesis 14.2: Effectiveness of masking in...",
+          "url": "https://www.mcmasterforum.org/docs/default-source/product-documents/living-evidence-syntheses/living-evidence-synthesis-14-2---effectiveness-of-masking-in-community-and-healthcare-settings-for-reducing-the-incidence-transmission-hospitalizations-and-deaths-from-respiratory-infectious-diseases.pdf?sfvrsn=324f20bf_5"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review physical interventions face masks respiratory viruses 2023",
+      "results": [
+        {
+          "title": "Statement on 'Physical interventions to interrupt or... | Cochrane",
+          "url": "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+        },
+        {
+          "title": "\"That Simply doesn't Make Sense\" - Lead author of 'Cochrane Face...",
+          "url": "https://bibliotecapleyades.net/ciencia3/ciencia_coronavirus548.htm"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/full"
+        },
+        {
+          "title": "Lead Author of New Cochrane Review... - Canada Health Alliance",
+          "url": "https://canadahealthalliance.org/lead-author-of-new-cochrane-review-speaks-out/"
+        },
+        {
+          "title": "The Cochrane mask fiasco: How the... | Science-Based Medicine",
+          "url": "https://sciencebasedmedicine.org/the-cochrane-mask-fiasco-how-the-evidence-based-medicine-paradigm-can-produce-misleading-results/"
+        },
+        {
+          "title": "The Cochrane Review 'Physical interventions to interrupt or reduce...",
+          "url": "https://omegacanada.win/p/16amPPjFSb/the-cochrane-review-physical-int/c/"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of...",
+          "url": "https://www.researchgate.net/publication/51473285_Physical_interventions_to_interrupt_or_reduce_the_spread_of_respiratory_viruses"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of...",
+          "url": "https://www.pro-memoria.info/wp/wp-content/uploads/Physical-interventions-to-interrupt-or-reduce-the-spread-of-respiratory-viruses-_Tom-Jefferson-2023-Cochrane-Library.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Danish mask study DANMASK-19 no significant effect",
+      "results": [
+        {
+          "title": "DANMASK-19 – The Bottom Line",
+          "url": "https://www.thebottomline.org.uk/summaries/danmask-19/"
+        },
+        {
+          "title": "Do Face Masks Work? - Physicians Quality Care",
+          "url": "https://www.physiciansqualitycare.com/patients/pdfs/mask-study.pdf"
+        },
+        {
+          "title": "Conclusions from the Danish mask study | The BMJ",
+          "url": "https://www.bmj.com/content/371/bmj.m4586/rr-6"
+        },
+        {
+          "title": "The curious case of the Danish mask study - The BMJ",
+          "url": "https://www.bmj.com/content/bmj/371/bmj.m4586.full.pdf"
+        },
+        {
+          "title": "The DANMASK-19 Trial: Masks Not Effective to Prevent COVID-19 ...",
+          "url": "https://rebelem.com/the-danmask-19-trial-masks-not-effective-to-prevent-covid-19-not-so-fast/"
+        },
+        {
+          "title": "Mask mandates in light of DANMASK-19 - PMC",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7884659/"
+        },
+        {
+          "title": "No, a Danish study didn’t prove wearing masks is ineffective",
+          "url": "https://www.politifact.com/factchecks/2020/dec/07/viral-image/no-danish-study-didnt-prove-wearing-masks-ineffect/"
+        },
+        {
+          "title": "Landmark Danish study finds no significant effect for... | The Spectator",
+          "url": "https://spectator.com/article/do-masks-stop-the-spread-of-covid-19/"
+        }
+      ]
+    },
+    {
+      "query": "Bangladesh mask RCT results 9% reduction surgical masks symptomatic seroprevalence",
+      "results": [
+        {
+          "title": "The Impact of Community Masking on COVID-19: A Cluster ...",
+          "url": "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "Largest study of masks yet details their importance in fighting Covid-19",
+          "url": "https://www.nbcnews.com/science/science-news/largest-study-masks-yet-details-importance-fighting-covid-19-rcna1858"
+        },
+        {
+          "title": "Largest study of its kind shows surgical masks still play a key role in...",
+          "url": "https://www.zmescience.com/science/mask-study-bangladesh-03092021/"
+        },
+        {
+          "title": "Famed Bangladesh Mask Study Excluded... - The Heartland Institute",
+          "url": "https://heartland.org/opinion/famed-bangladesh-mask-study-excluded-crucial-data/"
+        },
+        {
+          "title": "Impact of community masking on COVID-19: A cluster-randomized...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9036942/"
+        },
+        {
+          "title": "Community mask usage reduces symptomatic COVID...",
+          "url": "https://www.news-medical.net/news/20211207/Community-mask-usage-reduces-symptomatic-COVID-seroprevalence-in-Bangladesh.aspx"
+        },
+        {
+          "title": "First randomized trial on masking affirms efficacy... | Yale Daily News",
+          "url": "https://yaledailynews.com/articles/first-randomized-trial-on-masking-affirms-efficacy-yale-study-says"
+        },
+        {
+          "title": "Researchers shoot holes in study touted for confirming 'masks work' in...",
+          "url": "https://justthenews.com/politics-policy/coronavirus/study-342000-adults-finds-masks-effective-against-covid-based-20"
+        }
+      ]
+    },
+    {
+      "query": "mask mandates ecological studies confounding critique effectiveness",
+      "results": [
+        {
+          "title": "Masks Didn't Slow COVID Spread: New Study",
+          "url": "https://townhall.com/tipsheet/spencerbrown/2021/05/26/new-study-refutes-fauci-efficacy-of-mask-mandates-n2589990?2616"
+        },
+        {
+          "title": "Mask mandates help, but COVID-19 infection rates are driven... - OPB",
+          "url": "https://www.opb.org/article/2021/12/10/oregon-covid-19-cases-infection-rates-in-door-mask-mandates/"
+        },
+        {
+          "title": "Mask mandates work, but in Missouri they’re politically toxic | STLPR",
+          "url": "https://www.stlpr.org/coronavirus/2021-12-21/science-backs-mask-mandates-but-politically-toxic-in-missouri"
+        },
+        {
+          "title": "Largest study of its kind finds face masks reduce... - Berkeley News",
+          "url": "https://news.berkeley.edu/2021/09/01/largest-study-of-its-kind-finds-face-masks-reduce-covid-19/"
+        },
+        {
+          "title": "The Bangladesh Mask Study is Back, and it Shows Just How Far...",
+          "url": "https://anthonycolpo.com/the-bangladesh-mask-study-is-back-and-it-shows-just-how-far-science-has-fallen/"
+        },
+        {
+          "title": "Minneapolis, St. Paul reinstate indoor mask mandates",
+          "url": "https://www.startribune.com/minneapolis-st-paul-reinstate-indoor-mask-mandates/600132923"
+        },
+        {
+          "title": "Full text of \"Masken-Literatur\"",
+          "url": "https://archive.org/stream/Masken-Literatur/2023-11-03_child_mask_mandates_for_COVID_19+-+a_systematic_review+(Beth+Hoeg+et+al)_djvu.txt"
+        },
+        {
+          "title": "MaskScience.org — Evidence library on masks and mandates",
+          "url": "https://www.maskscience.org/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T19:34:09.344+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

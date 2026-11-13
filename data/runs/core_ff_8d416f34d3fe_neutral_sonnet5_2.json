@@ -1,0 +1,210 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/20927723/",
+    "https://www.nice.org.uk/guidance/ng209/evidence/ph10-rapid-review-of-nonnhs-treatments-for-smoking-cessation-pdf-392073181532",
+    "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full",
+    "https://www.ishhypnosis.org/encyclopedia/the-potential-benefit-of-hypnosis-for-smoking-cessation/"
+  ],
+  "claim_id": "ff_8d416f34d3fe",
+  "completed_at": "2026-08-03T22:21:53.285+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20927723/",
+        "https://www.nice.org.uk/guidance/ng209/evidence/ph10-rapid-review-of-nonnhs-treatments-for-smoking-cessation-pdf-392073181532",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full",
+        "https://www.ishhypnosis.org/encyclopedia/the-potential-benefit-of-hypnosis-for-smoking-cessation/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the evidence for hypnosis in smoking cessation is inconclusive and unimpressive, noting that rigorous trials do not clearly demonstrate superiority over placebo or standard treatments. Because it treats the evidence as insufficient while acknowledging potential modest benefit for some individuals, the report is classified as hedged.",
+      "label": "hedged"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "hypnosis smoking cessation Cochrane review",
+    "hypnotherapy for smoking cessation effectiveness randomized controlled trial",
+    "hypnosis vs cognitive behavioral therapy smoking cessation Frontiers 2024",
+    "NICE hypnotherapy smoking cessation guidance recommendation evidence"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "## Conclusion\n\nThe evidence on hypnosis (hypnotherapy) for smoking cessation is **inconclusive and generally unimpressive**. The most authoritative synthesis, the **Cochrane systematic review** (Barnes et al., updated through 2019), found no consistent evidence that hypnotherapy has a greater effect on six-month quit rates than other interventions (e.g., counseling) or no treatment; trials were small, heterogeneous, and often of low quality, and pooled effect sizes did not reach statistical significance (https://pubmed.ncbi.nlm.nih.gov/20927723/). The UK's **NICE** rapid evidence review similarly concluded there is no strong evidence hypnotherapy improves long-term abstinence, citing the same underlying systematic review base (https://www.nice.org.uk/guidance/ng209/evidence/ph10-rapid-review-of-nonnhs-treatments-for-smoking-cessation-pdf-392073181532).\n\nMore recent, broader analyses complicate this picture somewhat. A 2023 meta-analytic review in *Frontiers in Psychology* found that across five reviews (including three Cochrane analyses), effect sizes for hypnosis versus control ranged widely (d = 0.12–0.84), with only two of six reported effects reaching statistical significance—suggesting modest, inconsistent benefit (https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full). A newer 2025 review (Ekanayake & Elkins), which took a wider-lens approach across 63 studies since 1968, reported more favorable overall support for hypnosis, though this contrasts with Cochrane's stricter RCT-only methodology (https://www.ishhypnosis.org/encyclopedia/the-potential-benefit-of-hypnosis-for-smoking-cessation/).\n\n**Bottom line:** Hypnosis may help some individuals quit smoking, and it is generally safe, but rigorous trial evidence does not clearly show it outperforms other cessation methods (nicotine replacement, counseling, medications) or placebo. It should not be considered a first-line, evidence-based treatment; approaches with stronger backing (varenicline, bupropion, NRT, behavioral counseling) remain the recommended standard, though hypnosis could be tried as an adjunct for motivated individuals.",
+  "run_id": "core_ff_8d416f34d3fe_neutral_sonnet5_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "hypnosis smoking cessation Cochrane review",
+    "hypnotherapy for smoking cessation effectiveness randomized controlled trial",
+    "hypnosis vs cognitive behavioral therapy smoking cessation Frontiers 2024",
+    "NICE hypnotherapy smoking cessation guidance recommendation evidence"
+  ],
+  "searches": [
+    {
+      "query": "hypnosis smoking cessation Cochrane review",
+      "results": [
+        {
+          "title": "The potential benefit of hypnosis for smoking cessation (2026) – The...",
+          "url": "https://www.ishhypnosis.org/encyclopedia/the-potential-benefit-of-hypnosis-for-smoking-cessation/"
+        },
+        {
+          "title": "Cochrane",
+          "url": "https://ora.ox.ac.uk/objects/uuid:f8ad59f1-8e99-47f0-adfc-79e6b149e6a4/files/rtb09j577m"
+        },
+        {
+          "title": "Hypnotherapy for smoking cessation (Cochrane Review)",
+          "url": "https://www.researchgate.net/publication/12519978_Hypnotherapy_for_smoking_cessation_Cochrane_Review"
+        },
+        {
+          "title": "Hypnotherapy for smoking cessation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20927723/"
+        },
+        {
+          "title": "(PDF) Hypnotherapy for smoking cessation",
+          "url": "https://www.academia.edu/103029527/Hypnotherapy_for_smoking_cessation"
+        },
+        {
+          "title": "Hypnotherapy for smoking cessation",
+          "url": "http://pham315.pbworks.com/f/Barnes+et+al+2010.pdf"
+        },
+        {
+          "title": "Hypnotherapy for Vaping Cessation — Research | Melbourne Clinical...",
+          "url": "https://melbourneclinicalhypnotherapy.com.au/research/vaping-cessation-hypnotherapy/"
+        },
+        {
+          "title": "Frontiers | Meta-analytic evidence on the efficacy of hypnosis for...",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full"
+        }
+      ]
+    },
+    {
+      "query": "hypnotherapy for smoking cessation effectiveness randomized controlled trial",
+      "results": [
+        {
+          "title": "Frontiers | Hypnotherapy compared to cognitive-behavioral therapy for...",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1330362/full"
+        },
+        {
+          "title": "(PDF) Group hypnosis vs. relaxation for smoking cessation in adults...",
+          "url": "https://www.researchgate.net/publication/259455115_Group_hypnosis_vs_relaxation_for_smoking_cessation_in_adults_A_cluster-randomised_controlled_trial"
+        },
+        {
+          "title": "Hypnotherapy for smoking cessation",
+          "url": "http://pham315.pbworks.com/f/Barnes+et+al+2010.pdf"
+        },
+        {
+          "title": "PH10 Rapid review of non-NHS treatments for smoking cessation",
+          "url": "https://www.nice.org.uk/guidance/ng209/evidence/ph10-rapid-review-of-nonnhs-treatments-for-smoking-cessation-pdf-392073181532"
+        },
+        {
+          "title": "Meta-Analysis: Hypnotherapy and Its Effect on Quitting Smoking...",
+          "url": "https://thejhpb.com/index.php/thejhpb/article/view/374"
+        },
+        {
+          "title": "Group hypnosis vs. relaxation for smoking cessation in adults...",
+          "url": "https://www.zora.uzh.ch/entities/publication/d28ecc58-485c-4fc4-b2b1-816c109d7812"
+        },
+        {
+          "title": "Closer Look On Hypnotherapy To Stop Smoking",
+          "url": "https://www.academia.edu/35848842/Closer_Look_On_Hypnotherapy_To_Stop_Smoking"
+        },
+        {
+          "title": "Interventions for Tobacco Cessation in Adults, Including Pregnant...",
+          "url": "https://www.uspreventiveservicestaskforce.org/home/getfilebytoken/eP_-ggYh3t9rdR3bB8Q6QX"
+        }
+      ]
+    },
+    {
+      "query": "hypnosis vs cognitive behavioral therapy smoking cessation Frontiers 2024",
+      "results": [
+        {
+          "title": "Hypnosis and Suggestibility – www.Crystals.eu",
+          "url": "https://www.crystals.eu/blogs/readings/hypnosis-and-suggestibility"
+        },
+        {
+          "title": "(PDF) A systematic review exploring the effectiveness of Hypnotherapy...",
+          "url": "https://www.researchgate.net/publication/378927107_A_systematic_review_exploring_the_effectiveness_of_Hypnotherapy_as_an_intervention_for_the_cessation_of_smoking_in_individual"
+        },
+        {
+          "title": "View of Nicotine Replacement Therapy vs. Cognitive-Behavioral...",
+          "url": "https://www.jcdronline.org/index.php/JCDR/article/view/65/49"
+        },
+        {
+          "title": "Preliminary Efficacy of a Cognitive Behavioral Therapy-Based...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38498030/"
+        },
+        {
+          "title": "Cognitive Behavioral Interventions for Motivation... - FindTrial",
+          "url": "https://findtrial.co/trial/NCT06192043"
+        },
+        {
+          "title": "What is Cognitive Behavioral Therapy?",
+          "url": "https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral"
+        },
+        {
+          "title": "Full text of \"ERIC ED455487: Smoking Cessation: Uni-Modal and...\"",
+          "url": "https://archive.org/stream/ERIC_ED455487/ERIC_ED455487_djvu.txt"
+        },
+        {
+          "title": "CBT Cognitive Distortions: Clinician's Guide | TherapyByPro",
+          "url": "https://therapybypro.com/cbt-cognitive-distortions-clinicians-guide/"
+        }
+      ]
+    },
+    {
+      "query": "NICE hypnotherapy smoking cessation guidance recommendation evidence",
+      "results": [
+        {
+          "title": "Evidence | Tobacco: preventing uptake, promoting ... - NICE",
+          "url": "https://www.nice.org.uk/guidance/ng209/evidence"
+        },
+        {
+          "title": "Tobacco: preventing uptake, promoting quitting and ... - NICE",
+          "url": "https://www.nice.org.uk/guidance/ng209"
+        },
+        {
+          "title": "Supporting evidence | Smoking cessation | CKS | NICE",
+          "url": "https://cks.nice.org.uk/topics/smoking-cessation/supporting-evidence/"
+        },
+        {
+          "title": "Hypnotherapy for Smoking Cessation, Sleep, Pain, and the ...",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/00207144.2024.2432843"
+        },
+        {
+          "title": "Evidence review for cessation and harm-reduction treatments",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK589617/"
+        },
+        {
+          "title": "NICE guidance - NCSCT",
+          "url": "https://www.ncsct.co.uk/publications/category/nice-guidance"
+        },
+        {
+          "title": "Implementing NICE Guidance [NG209] - ASH",
+          "url": "https://ash.org.uk/for-professionals/nhs-tobacco-dependence-treatment-resources/nhs-long-term-plan-tobacco-treatment-hub/implementing-nice-guidance-ng209"
+        },
+        {
+          "title": "PH10 Rapid review of non-NHS treatments for smoking cessation",
+          "url": "https://www.nice.org.uk/guidance/ng209/evidence/ph10-rapid-review-of-nonnhs-treatments-for-smoking-cessation-pdf-392073181532"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T22:12:17.959+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

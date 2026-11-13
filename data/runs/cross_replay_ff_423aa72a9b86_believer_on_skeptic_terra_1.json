@@ -1,0 +1,341 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/nejmoa1508660",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1708131",
+    "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30586-7/fulltext"
+  ],
+  "claim_id": "ff_423aa72a9b86",
+  "completed_at": "2026-08-04T17:05:32.032+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/nejmoa1508660",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1708131",
+        "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30586-7/fulltext"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported, citing trial and meta-analysis evidence demonstrating that tenofovir disoproxil fumarate started in late pregnancy reduces mother-to-child transmission of hepatitis B in women with high viral loads.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** The claim is supported: for pregnant people with chronic HBV and *high maternal HBV DNA*, tenofovir disoproxil fumarate (TDF) started late in pregnancy lowers the residual risk of mother-to-child transmission when added to standard newborn prevention (hepatitis-B vaccine, and hepatitis-B immune globulin where used).\n\n**Key evidence**\n\n- A pivotal randomized trial in highly viremic mothers found transmission of **5% with TDF versus 18% without maternal antiviral treatment**—an absolute reduction of 13 percentage points. TDF was used in late pregnancy and infants also received immunoprophylaxis. https://www.nejm.org/doi/full/10.1056/nejmoa1508660  \n- A second placebo-controlled trial starting at 28 weeks found **0/147** infant infections with TDF versus **3/147** with placebo. The difference was not statistically definitive, largely because rigorous infant immunoprophylaxis made transmission uncommon in both groups; it therefore does not negate the overall benefit, but shows the incremental effect can be hard to measure where newborn prevention is very effective. https://www.nejm.org/doi/full/10.1056/NEJMoa1708131  \n- A systematic review/meta-analysis concluded that peripartum antiviral prophylaxis is highly effective and supports WHO’s recommendation for pregnancy use of TDF to prevent HBV transmission. https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30586-7/fulltext  \n\n**Important qualification:** This is targeted prophylaxis—not evidence that every HBsAg-positive pregnant person needs tenofovir. Maternal viral load is central because higher HBV DNA predicts transmission risk. Infant birth-dose vaccination (and HBIG when available/indicated) remains essential; TDF supplements rather than replaces it.",
+  "run_id": "cross_replay_ff_423aa72a9b86_believer_on_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "tenofovir third trimester chronic hepatitis B high viral load mother-to-child transmission randomized trial",
+      "results": [
+        {
+          "title": "Antiviral Treatment During Pregnancy Reduces Mother-to-Child ...",
+          "url": "https://nyulangone.org/news/antiviral-treatment-during-pregnancy-reduces-mother-child-transmission-hepatitis-b"
+        },
+        {
+          "title": "Prevention of Mother-to-Child Transmission in Patients with Chronic...",
+          "url": "https://imj.ie/prevention-of-mother-to-child-transmission-in-patients-with-chronic-hepatitis-b-virus-infection-and-high-viral-loads/"
+        },
+        {
+          "title": "Tenofovir versus Placebo to Preven ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/732806256/"
+        },
+        {
+          "title": "Brasil - Efficacy of antiviral therapy during the second or the third...",
+          "url": "https://www.scielo.br/j/rimtsp/a/vbtYKy99VdYsj4CqQZYTFBK/?lang=en"
+        },
+        {
+          "title": "Prevention of mother-to-child transmission of hepatitis B virus...",
+          "url": "https://bmjopen.bmj.com/content/10/9/e038123"
+        },
+        {
+          "title": "Tenofovir in Early Pregnancy to Prevent Mother-to-child... - FindTrial",
+          "url": "https://findtrial.co/trial/NCT02995005"
+        },
+        {
+          "title": "Ponder of concern and long-term safety of infants from mothers with...",
+          "url": "https://www.researchgate.net/publication/351224019_Ponder_of_concern_and_long-term_safety_of_infants_from_mothers_with_chronic_hepatitis_B_treated_with_tenofovir_disoproxil"
+        },
+        {
+          "title": "AASLD/IDSA 2025 Practice Guideline on Chronic Hepatitis B: Key...",
+          "url": "https://www.worldgastroenterology.org/publications/e-wgn/e-wgn-expert-point-of-view-articles-collection/aasldidsa-2025-practice-guideline-on-chronic-hepatitis-b-key-updates-and-clinical-implications"
+        }
+      ]
+    },
+    {
+      "query": "WHO hepatitis B prevention mother to child transmission tenofovir prophylaxis pregnant high viral load recommendation",
+      "results": [
+        {
+          "title": "Hepatitis: Preventing mother-to-child transmission of the hepatitis...",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/hepatitis-preventing-mother-to-child-transmission-of-the-hepatitis-b-virus"
+        },
+        {
+          "title": "Prevention of Mother-to-child Transmission of Hepatitis B Virus...",
+          "url": "https://www.aidsdatahub.org/sites/default/files/resource/who-pmtct-hepatitis-b-virus-2020.pdf"
+        },
+        {
+          "title": "Guidelines on antiviral",
+          "url": "https://asscat-hepatitis.org/wp-content/uploads/guia-transmision-VHB.pdf"
+        },
+        {
+          "title": "How to Prevent Hepatitis B Transmission From Mother to Baby.",
+          "url": "https://stjohnshfc.com/how-to-prevent-hepatitis-b-transmission-from-mother/"
+        },
+        {
+          "title": "Prevention_of_MTCT_of_HBV",
+          "url": "https://www.hepatitis.gov.hk/english/health_professionals/files/Prevention_of_MTCT_of_HBV_web.pdf"
+        },
+        {
+          "title": "Expanding use of tenofovir to prevent mother-to-child transmission...",
+          "url": "https://www.thrasherresearch.org/grant/01886?lang=eng"
+        },
+        {
+          "title": "Hepatitis B Treatment & Management: Approach Considerations...",
+          "url": "https://emedicine.medscape.com/article/177632-treatment"
+        },
+        {
+          "title": "(PDF) Tenofovir prophylaxis for preventing mother-to-child...",
+          "url": "https://www.researchgate.net/publication/340071880_Tenofovir_prophylaxis_for_preventing_mother-to-child_hepatitis_B_virus_transmission_in_China_A_cost-effectiveness_analysis"
+        }
+      ]
+    },
+    {
+      "query": "AASLD chronic hepatitis B pregnancy tenofovir 28 32 weeks viral load 200000 IU mL mother to child transmission",
+      "results": [
+        {
+          "title": "Prevention of Mother-to-Child Transmission in Patients with Chronic...",
+          "url": "https://imj.ie/prevention-of-mother-to-child-transmission-in-patients-with-chronic-hepatitis-b-virus-infection-and-high-viral-loads/"
+        },
+        {
+          "title": "AASLD/IDSA 2025 Practice Guideline on Chronic Hepatitis B: Key...",
+          "url": "https://www.worldgastroenterology.org/publications/e-wgn/e-wgn-expert-point-of-view-articles-collection/aasldidsa-2025-practice-guideline-on-chronic-hepatitis-b-key-updates-and-clinical-implications"
+        },
+        {
+          "title": "Hotspots and challenges in blocking the mother-to-child...",
+          "url": "https://lcgdbzz.org/en/article/doi/10.12449/JCH241102"
+        },
+        {
+          "title": "Nucleoside/nucleotide analogues in the treatment of chronic hepatitis...",
+          "url": "https://www.researchgate.net/publication/320349408_Nucleosidenucleotide_analogues_in_the_treatment_of_chronic_hepatitis_B_infection_during_pregnancy_a_systematic_review"
+        },
+        {
+          "title": "WHO Releases New Hepatitis B Guidelines | HCPLive",
+          "url": "https://www.hcplive.com/view/who-releases-new-hepatitis-b-guidelines"
+        },
+        {
+          "title": "Current evidence on the management of hepatitis B in pregnancy",
+          "url": "https://www.academia.edu/70925695/Current_evidence_on_the_management_of_hepatitis_B_in_pregnancy"
+        },
+        {
+          "title": "World Hepatitis Day: Preventing Mother-to-child Transmission",
+          "url": "https://naija247news.com/world-hepatitis-day-preventing-mother-to-child-transmission/"
+        },
+        {
+          "title": "Hepatitis B Dilemmas: Navigating HBV Risk in the Tenofovir-Sparing...",
+          "url": "https://www.iasusa.org/wp-content/uploads/hiv/2026/ART/slides/hiv26-art-luetkemeyer-slides.pptx"
+        }
+      ]
+    },
+    {
+      "query": "tenofovir pregnancy hepatitis B transmission trial placebo 2018 NEJM",
+      "results": [
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa1301408",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1301408"
+        },
+        {
+          "title": "Preventing HBV Perinatal Transmission - Core Concepts",
+          "url": "https://www.hepatitisb.uw.edu/pdf/prevention-hbv/preventing-perinatal-transmission-hbv/core-concept/all"
+        },
+        {
+          "title": "Tenofovir to Prevent Perinatal Transmission of Hepatitis B",
+          "url": "https://gutsandgrowth.com/2018/03/31/tenofovir-to-prevent-perinatal-transmission-of-hepatitis-b/"
+        },
+        {
+          "title": "Tenofovir didn’t prevent hepatitis B transmission to... | MDedge",
+          "url": "https://www.mdedge.com/familypracticenews/article/160299/infectious-diseases/tenofovir-didnt-prevent-hepatitis-b"
+        },
+        {
+          "title": "Tenofovir versus Placebo to Preven ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/732806256/"
+        },
+        {
+          "title": "The Use of Tenofovir Disoproxil Fumarate and Tenofovir Alafenamide...",
+          "url": "https://www.researchgate.net/publication/366869760_The_Use_of_Tenofovir_Disoproxil_Fumarate_and_Tenofovir_Alafenamide_for_Preventing_Vertical_Transmission_of_Hepatitis_B"
+        },
+        {
+          "title": "AASLD/IDSA 2025 Practice Guideline on Chronic Hepatitis B: Key...",
+          "url": "https://www.worldgastroenterology.org/publications/e-wgn/e-wgn-expert-point-of-view-articles-collection/aasldidsa-2025-practice-guideline-on-chronic-hepatitis-b-key-updates-and-clinical-implications"
+        },
+        {
+          "title": "Update in the Management of Chronic Hepatitis B in Pregnancy",
+          "url": "https://link.springer.com/article/10.1007/s11901-018-0437-3"
+        }
+      ]
+    },
+    {
+      "query": "systematic review meta-analysis tenofovir third trimester mother-to-child transmission hepatitis B",
+      "results": [
+        {
+          "title": "Brasil - Efficacy of antiviral therapy during the second or the third...",
+          "url": "https://www.scielo.br/j/rimtsp/a/vbtYKy99VdYsj4CqQZYTFBK/?lang=en"
+        },
+        {
+          "title": "Systematic review with meta-analysis: the efficacy and safety of...",
+          "url": "https://pure.korea.ac.kr/en/publications/systematic-review-with-meta-analysis-the-efficacy-and-safety-of-t/"
+        },
+        {
+          "title": "Systematic review with meta-analysis: The efficacy and safety of...",
+          "url": "https://www.researchgate.net/publication/316439858_Systematic_review_with_meta-analysis_The_efficacy_and_safety_of_tenofovir_to_prevent_mother-to-child_transmission_of_hepatitis_B_virus"
+        },
+        {
+          "title": "Third-trimester tenofovir to prevent mother-to-child hepatitis...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5719592/"
+        },
+        {
+          "title": "Efficacy and safety of antiviral therapy for HBV in different trimesters...",
+          "url": "https://scholar.xjtu.edu.cn/en/publications/efficacy-and-safety-of-antiviral-therapy-for-hbv-in-different-tri/"
+        },
+        {
+          "title": "Tenofovir prophylaxis for preventing mother-to-child hepatitis B virus...",
+          "url": "https://www.ijidonline.com/article/S1201-9712(20)30168-5/pdf"
+        },
+        {
+          "title": "Prevention of Mother-to-Child Transmission in Patients with Chronic...",
+          "url": "https://imj.ie/prevention-of-mother-to-child-transmission-in-patients-with-chronic-hepatitis-b-virus-infection-and-high-viral-loads/"
+        },
+        {
+          "title": "Prevention of mother-to-child transmission of hepatitis... | BMJ Open",
+          "url": "https://bmjopen.bmj.com/content/10/9/e038123"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov Tenofovir to Prevent Perinatal Transmission of Hepatitis B Jourdain 2018 results 0% 2%",
+      "results": [
+        {
+          "title": "Tenofovir Alafenamide Versus Tenofovir Disoproxil Fumarate ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38805690/"
+        },
+        {
+          "title": "Tenofovir disoproxil fumarate for prevention of mother-to ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33483986/?dopt=Abstract"
+        },
+        {
+          "title": "Tenofovir alafenamide in blocking mother-to-child ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36253882/?dopt=Abstract"
+        },
+        {
+          "title": "Efficacy and safety of tenofovir disoproxil fumarate or ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35853269/"
+        },
+        {
+          "title": "Checking your browser - reCAPTCHA - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34312798/"
+        },
+        {
+          "title": "Comparative efficacy and safety of tenofovir amibufenamide vs ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39259839/"
+        },
+        {
+          "title": "Efficacy and safety of tenofovir in preventing mother-to-infant...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30071845/"
+        },
+        {
+          "title": "Tenofovir to Prevent Perinatal Transmission of Hepatitis B",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29900727/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov Tenofovir and Hepatitis B Virus Transmission During Pregnancy Pan 2016 5% 18%",
+      "results": [
+        {
+          "title": "Tenofovir disoproxil fumarate for prevention of mother-to ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33483986/?dopt=Abstract"
+        },
+        {
+          "title": "Efficacy and safety of tenofovir in preventing mother-to ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30071845/?dopt=Abstract"
+        },
+        {
+          "title": "Tenofovir Alafenamide Versus Tenofovir Disoproxil Fumarate ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38805690/"
+        },
+        {
+          "title": "Tenofovir Alafenamide Therapy Throughout Pregnancy in Mothers ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40318163/"
+        },
+        {
+          "title": "Tenofovir for Prevention of Mother to Child Transmission of ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27771672/"
+        },
+        {
+          "title": "Tenofovir for Prevention of Mother to Child Transmission of ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27771674/"
+        },
+        {
+          "title": "Efficacy and safety of tenofovir disoproxil fumarate or ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35853269/"
+        },
+        {
+          "title": "Tenofovir prophylaxis for preventing mother-to-child hepatitis B virus...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32205288/"
+        }
+      ]
+    },
+    {
+      "query": "\"Tenofovir and Hepatitis B Virus Transmission During Pregnancy\" results 5% 18%",
+      "results": [
+        {
+          "title": "Efficacy and safety of antiviral prophylaxis during pregnancy ...",
+          "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30586-7/fulltext"
+        },
+        {
+          "title": "Tenofovir versus Placebo to Prevent Perinatal Transmission of ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1708131"
+        },
+        {
+          "title": "Tenofovir to Prevent Hepatitis B Transmission in Mothers with ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/nejmoa1508660"
+        },
+        {
+          "title": "Efficacy and safety of tenofovir disoproxil fumarate or ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0301211522004316"
+        },
+        {
+          "title": "Efficacy and safety of tenofovir disoproxil fumarate in ...",
+          "url": "https://www.researchgate.net/publication/262110002_Efficacy_and_safety_of_tenofovir_disoproxil_fumarate_in_pregnancy_to_prevent_perinatal_transmission_of_Hepatitis_B_Virus"
+        },
+        {
+          "title": "Evidence for Use of Tenofovir in Pregnancy to Prevent ...",
+          "url": "https://www.researchgate.net/publication/337658681_Evidence_for_Use_of_Tenofovir_in_Pregnancy_to_Prevent_Perinatal_Transmission_of_Hepatitis_B_Infection"
+        },
+        {
+          "title": "Tenofovir reduces mother-to-child transmission of hepatitis B ...",
+          "url": "https://www.who.int/westernpacific/news/item/16-06-2016-tenofovir-reduces-mother-to-child-transmission-of-hepatitis-b-new-study"
+        },
+        {
+          "title": "Earlier initiation of tenofovir in pregnancy with infant hepatitis...",
+          "url": "https://tgh.amegroups.org/article/view/9585/html"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:05:04.673+00:00",
+  "status": "judged",
+  "system": "terra"
+}

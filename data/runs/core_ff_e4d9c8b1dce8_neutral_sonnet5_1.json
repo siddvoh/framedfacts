@@ -1,0 +1,212 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa013259",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa0708333",
+    "https://www.cochrane.org/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease",
+    "https://ebi.aomrc.org.uk/interventions/knee-arthroscopy-for-patients-with-osteoarthritis/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4318803/"
+  ],
+  "claim_id": "ff_e4d9c8b1dce8",
+  "completed_at": "2026-08-04T03:44:04.338+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa013259",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa0708333",
+        "https://www.cochrane.org/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease",
+        "https://ebi.aomrc.org.uk/interventions/knee-arthroscopy-for-patients-with-osteoarthritis/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4318803/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that arthroscopic surgery does not meaningfully help knee osteoarthritis, is not an effective treatment, and should generally be avoided based on strong evidence from randomized controlled trials and clinical guidelines.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "arthroscopy knee osteoarthritis effectiveness evidence",
+    "arthroscopic surgery knee osteoarthritis randomized controlled trial",
+    "Cochrane review arthroscopic surgery degenerative knee disease 2022 conclusion",
+    "NICE guideline arthroscopy knee osteoarthritis recommendation"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion\n\nThe best available evidence indicates that arthroscopic surgery (debridement, lavage, and/or partial meniscectomy) does **not** meaningfully help knee osteoarthritis and should not be routinely used to treat it.\n\n- Two landmark randomized, placebo-controlled trials found no benefit of arthroscopic debridement/lavage over sham surgery, and no added benefit over physical therapy/medical management for patients with moderate-to-severe knee OA (Moseley et al., NEJM 2002, https://www.nejm.org/doi/full/10.1056/NEJMoa013259; Kirkley et al., NEJM 2008, https://www.nejm.org/doi/full/10.1056/NEJMoa0708333).\n- The 2022 Cochrane systematic review, pooling 16 RCTs of arthroscopic surgery for degenerative knee disease (including osteoarthritis and degenerative meniscal tears), concluded that arthroscopic surgery provides **little or no clinically important benefit** in pain or function compared with placebo or non-surgical care, and carries surgical risks (https://www.cochrane.org/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease).\n- Based on this evidence, the UK's NICE guidelines explicitly recommend **against** arthroscopic knee washout/debridement for osteoarthritis, listing it among \"do not do\" interventions, except in cases of a clear mechanical block or acute traumatic meniscal tear (https://ebi.aomrc.org.uk/interventions/knee-arthroscopy-for-patients-with-osteoarthritis/).\n- Some surgeons still argue for a limited role in select patients with mild OA plus a clearly symptomatic meniscal tear, but acknowledge that stronger level-I evidence is lacking to support this niche indication (https://pmc.ncbi.nlm.nih.gov/articles/PMC4318803/).\n\n**Bottom line:** For typical degenerative knee osteoarthritis, arthroscopy is not an effective treatment and should generally be avoided in favor of exercise, weight management, physical therapy, and, if needed, medication or joint replacement.",
+  "run_id": "core_ff_e4d9c8b1dce8_neutral_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "arthroscopy knee osteoarthritis effectiveness evidence",
+    "arthroscopic surgery knee osteoarthritis randomized controlled trial",
+    "Cochrane review arthroscopic surgery degenerative knee disease 2022 conclusion",
+    "NICE guideline arthroscopy knee osteoarthritis recommendation"
+  ],
+  "searches": [
+    {
+      "query": "arthroscopy knee osteoarthritis effectiveness evidence",
+      "results": [
+        {
+          "title": "Studies excluded from the clinical reviewWhy we still perform arthroscopy in knee osteoarthritis: a ...Arthroscopy in knee osteoarthritis : a systematic review of ...Utility of Arthroscopic Surgery for Osteoarthritis of the KneeA Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...Arthroscopic surgery for degenerative knee disease - CochraneRole of Arthroscopy in the Treatment of Osteoarthritis of Knee",
+          "url": "https://ncbi.nlm.nih.gov/books/NBK590288/"
+        },
+        {
+          "title": "Why we still perform arthroscopy in knee osteoarthritis: a ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4435528/"
+        },
+        {
+          "title": "Arthroscopy in knee osteoarthritis : a systematic review of ...",
+          "url": "http://actaorthopaedica.be/assets/2271/01-Barlow_et_al.pdf"
+        },
+        {
+          "title": "Utility of Arthroscopic Surgery for Osteoarthritis of the Knee",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4318803/"
+        },
+        {
+          "title": "A Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa013259"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease"
+        },
+        {
+          "title": "Role of Arthroscopy in the Treatment of Osteoarthritis of Knee",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4576602/"
+        },
+        {
+          "title": "Arthroscopic surgery is not superior to conservative treatment in knee...",
+          "url": "https://link.springer.com/article/10.1186/s12891-024-07813-3"
+        }
+      ]
+    },
+    {
+      "query": "arthroscopic surgery knee osteoarthritis randomized controlled trial",
+      "results": [
+        {
+          "title": "A Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa013259"
+        },
+        {
+          "title": "A Randomized Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa0708333"
+        },
+        {
+          "title": "A controlled trial of arthroscopic surgery for osteoarthritis ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12110735/"
+        },
+        {
+          "title": "A Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.researchgate.net/publication/11267297_A_Controlled_Trial_of_Arthroscopic_Surgery_for_Osteoarthritis_of_the_Knee"
+        },
+        {
+          "title": "A Controlled Trial of Arthroscopic Knee Surgery versus ...",
+          "url": "https://academic.oup.com/book/57541/chapter/468477336"
+        },
+        {
+          "title": "A Controlled Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://colab.ws/articles/10.1056/NEJMoa013259"
+        },
+        {
+          "title": "A Randomized Trial of Arthroscopic Surgery for Osteoarthritis ...",
+          "url": "https://www.researchgate.net/publication/23249759_A_Randomized_Trial_of_Arthroscopic_Surgery_for_Osteoarthritis_of_the_Knee"
+        },
+        {
+          "title": "A randomized trial of arthroscopic ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/1121766/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review arthroscopic surgery degenerative knee disease 2022 conclusion",
+      "results": [
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD014328_arthroscopic-surgery-degenerative-knee-disease"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014328/information"
+        },
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014328/abstract"
+        },
+        {
+          "title": "Cochrane in CORR: Arthroscopic Surgery for... : Clinical ...",
+          "url": "https://www.ovid.com/jnls/clinorthop/fulltext/10.1097/corr.0000000000002381~cochrane-in-corr-arthroscopic-surgery-for-degenerative-knee"
+        },
+        {
+          "title": "Cochrane in CORR: Arthroscopic Surgery for Degenerative Knee ...",
+          "url": "https://journals.lww.com/clinorthop/Citation/2022/10000/Cochrane_in_CORR__Arthroscopic_Surgery_for.5.aspx"
+        },
+        {
+          "title": "Cochrane in CORR: Arthroscopic Surgery for Degenerative Knee ...",
+          "url": "https://journals.lww.com/clinorthop/Citation/9900/Cochrane_in_CORR__Arthroscopic_Surgery_for.876.aspx"
+        },
+        {
+          "title": "Cochrane in CORR : Arthroscopic Surgery for Degenerative Knee ...",
+          "url": "https://europepmc.org/articles/PMC9473761/"
+        },
+        {
+          "title": "Systematic Review: Arthroscopic surgery provides little or no...",
+          "url": "https://www.linksmedicus.com/news/systematic-review-arthroscopic-surgery-provides-little-no-clinically-important-benefit-patients-degenerative-knee-disease/"
+        }
+      ]
+    },
+    {
+      "query": "NICE guideline arthroscopy knee osteoarthritis recommendation",
+      "results": [
+        {
+          "title": "Arthroscopic surgery for degenerative knee disease (osteoarthritis...)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892839/"
+        },
+        {
+          "title": "Knee arthroscopy for patients with osteoarthritis - EBI",
+          "url": "https://ebi.aomrc.org.uk/interventions/knee-arthroscopy-for-patients-with-osteoarthritis/"
+        },
+        {
+          "title": "(PDF) Why we still perform arthroscopy in knee osteoarthritis...",
+          "url": "https://www.researchgate.net/publication/275101907_Why_we_still_perform_arthroscopy_in_knee_osteoarthritis_A_multi-methods_study"
+        },
+        {
+          "title": "Management of Osteoarthritis of the",
+          "url": "https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf"
+        },
+        {
+          "title": "Osteoarthritis of the knee nice guidelines",
+          "url": "https://cdn-cms.f-static.net/uploads/4380525/normal_5f8ca0f6217c9.pdf"
+        },
+        {
+          "title": "The Pros and Cons of Knee Arthroscopy for Osteoarthritis Treatment",
+          "url": "https://www.kneepaincentersofamerica.com/blog/the-pros-and-cons-of-knee-arthroscopy-for-osteoarthritis-treatment.html"
+        },
+        {
+          "title": "Knee Osteoarthritis: What Actually Helps? Evidence-Based Guide",
+          "url": "https://ozguroktaynar.com/en/blog/knee-osteoarthritis-what-helps"
+        },
+        {
+          "title": "Knee Pain and Knee Replacement (Adults) – GP Gateway",
+          "url": "https://www.coventryrugbygpgateway.nhs.uk/pages/knee-pain-adults/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T03:39:47.045+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

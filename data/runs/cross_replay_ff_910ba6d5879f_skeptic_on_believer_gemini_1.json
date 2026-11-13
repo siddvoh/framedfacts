@@ -1,0 +1,195 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.nature.com/articles/mp2016167",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428291/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+    "https://www.sciencedirect.com/science/article/pii/S0278584617308862"
+  ],
+  "claim_id": "ff_910ba6d5879f",
+  "completed_at": "2026-08-04T17:17:14.357+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nature.com/articles/mp2016167",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428291/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/",
+        "https://www.sciencedirect.com/science/article/pii/S0278584617308862"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that meta-analyses and clinical trials demonstrate anti-cytokine drugs significantly reduce depressive symptoms in individuals with chronic inflammatory conditions, thereby fully supporting the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "84dc48069e616b91a0e0cb90076077caef6d49be58b396a9b5ac0c272b7495cd",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "### Conclusion\n\nScientific evidence contradicts the view that the claim is false. Meta-analyses and clinical trials demonstrate that anti-cytokine drugs significantly reduce depressive symptoms in individuals with chronic inflammatory conditions.\n\n### Key Findings\n\n* **Efficacy in Clinical Trials:** Systematic reviews and meta-analyses of clinical trials in chronic inflammatory diseases (such as rheumatoid arthritis, psoriasis, and inflammatory bowel disease) show that anti-cytokine therapies—including TNF-α and IL-6 inhibitors—significantly lower depressive symptoms (https://www.nature.com/articles/mp2016167).\n* **Direct Neuropsychiatric Benefits:** Research investigating biologic therapies targeting inflammatory cytokines consistently shows clear neuropsychiatric improvements alongside physical disease management (https://pmc.ncbi.nlm.nih.gov/articles/PMC12428291/).\n* **Independence from Physical Relief:** Analyses examining the relationship between physical healing (e.g., reduced joint pain or skin lesions) and mood improvement indicate that anti-cytokine medications exert an antidepressant effect independent of physical symptom reduction, supporting a direct link between peripheral inflammation and mood regulation (https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/).\n* **Biological Mechanism:** Pro-inflammatory cytokines (e.g., IL-1β, IL-6, TNF-α) contribute directly to neuroinflammation and treatment-resistant mood dysregulation, providing a clear biological rationale for targeting cytokine pathways to treat depressive symptoms (https://www.sciencedirect.com/science/article/pii/S0278584617308862).\n\n### Sources\n\n* https://www.nature.com/articles/mp2016167\n* https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/\n* https://pmc.ncbi.nlm.nih.gov/articles/PMC12428291/\n* https://www.sciencedirect.com/science/article/pii/S0278584617308862",
+  "run_id": "cross_replay_ff_910ba6d5879f_skeptic_on_believer_gemini_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "anti cytokine drugs reduce depressive symptoms chronic inflammatory conditions meta-analysis",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167.pdf"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...Targeting cytokines in reduction of depressive symptoms: A ...Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244402/"
+        },
+        {
+          "title": "Targeting cytokines in reduction of depressive symptoms: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0278584617308862"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: A ...",
+          "url": "https://www.researchgate.net/publication/320769462_Antidepressant_activity_of_anti-cytokine_treatment_A_systematic_review_and_meta-_analysis_of_clinical_trials_of_chronic_inflammatory_conditions"
+        },
+        {
+          "title": "(PDF) Antidepressant Activity of Anti-Cytokine Treatment...",
+          "url": "https://www.researchgate.net/publication/309270309_Antidepressant_Activity_of_Anti-Cytokine_Treatment_A_Systematic_Review_and_Meta-analysis_of_Clinical_Trials_of_Chronic_Inflammatory_Conditions"
+        }
+      ]
+    },
+    {
+      "query": "TNF-alpha IL-6 inhibitors depression chronic inflammatory diseases randomized clinical trials",
+      "results": [
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428291/"
+        },
+        {
+          "title": "Serum inflammatory cytokines in the progression of depression",
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1808989/full"
+        },
+        {
+          "title": "Beyond Joints: Neuropsychiatric Benefits of TNF-α and IL-6 ...",
+          "url": "https://www.mdpi.com/1422-0067/26/17/8361"
+        },
+        {
+          "title": "Interleukin 6 as a Treatment Target for Depression...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42160062/"
+        },
+        {
+          "title": "Are we set to see an increase in demand for anti-inflammatory...",
+          "url": "https://www.foodnavigator.com/Article/2015/11/16/Are-we-set-to-see-an-increase-in-demand-for-anti-inflammatory-formulations/"
+        },
+        {
+          "title": "Linking interleukin-6 and depression | Request PDF",
+          "url": "https://www.researchgate.net/publication/350216241_Linking_interleukin-6_and_depression"
+        },
+        {
+          "title": "(PDF) Treating Depression and Depression-Like Behavior with...",
+          "url": "https://www.academia.edu/93987533/Treating_Depression_and_Depression_Like_Behavior_with_Physical_Activity_An_Immune_Perspective"
+        },
+        {
+          "title": "Immunotherapy for depression: targeting cytokine pathways in ...",
+          "url": "https://link.springer.com/article/10.1007/s00213-026-07022-x"
+        }
+      ]
+    },
+    {
+      "query": "anti-cytokine antidepressant effect independent of physical symptoms inflammatory disease",
+      "results": [
+        {
+          "title": "Anti-Inflammatory Effects of Antidepressant Treatments and the...",
+          "url": "https://jpbs.hapres.com/htmls/JPBS_1913_Detail.html"
+        },
+        {
+          "title": "Frontiers | Exploring the Potential Antidepressant Mechanisms of...",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.00098/full"
+        },
+        {
+          "title": "Neuropathic pain, antidepressant drugs, and inflammation...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39334307/"
+        },
+        {
+          "title": "Has the time come to treat depression with anti‐inflammatory...",
+          "url": "https://www.researchgate.net/publication/332391691_Has_the_time_come_to_treat_depression_with_anti-inflammatory_medication"
+        },
+        {
+          "title": "Whole-body hyperthermia shows promising antidepressant effects...",
+          "url": "https://www.psypost.org/whole-body-hyperthermia-shows-promising-antidepressant-effects-through-anti-inflammatory-pathways/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        }
+      ]
+    },
+    {
+      "query": "anti-cytokine treatment depressive symptoms psoriasis rheumatoid arthritis inflammatory bowel disease meta-analysis",
+      "results": [
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794896/"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27752078/"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...",
+          "url": "https://www.nature.com/articles/s41380-019-0471-8"
+        },
+        {
+          "title": "Antidepressant activity of anti-cytokine treatment: a ...",
+          "url": "https://www.nature.com/articles/mp2016167"
+        },
+        {
+          "title": "Effects of immunomodulatory drugs on depressive symptoms: A ...Targeting cytokines in reduction of depressive symptoms: A ...PubMed",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244402/"
+        },
+        {
+          "title": "Targeting cytokines in reduction of depressive symptoms: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0278584617308862"
+        },
+        {
+          "title": "Psoriatic Arthritis Symptoms | Verywell Health",
+          "url": "https://www.verywellhealth.com/psoriatic-arthritis-symptoms-190196"
+        },
+        {
+          "title": "Defective Inflammatory Pathways in Never-Treated Depressed...",
+          "url": "https://www.cell.com/neuron/fulltext/S0896-6273(18)30674-3?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S0896627318306743?showall=true"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:16:59.965+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

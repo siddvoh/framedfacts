@@ -1,0 +1,509 @@
+{
+  "dataset_quota_per_tier": 8,
+  "inputs": {
+    "adjudication": {
+      "eligible": 48,
+      "file": "claim_adjudication.csv",
+      "rows": 48,
+      "screen_agreements": 42,
+      "screen_disagreements": 6,
+      "sha256": "9615e295660e753885a942357af27dc58218bc769c8711c2849d1bfd4066da8a"
+    },
+    "healthfc": {
+      "file": "healthfc.csv",
+      "metadata": {
+        "label_map": {
+          "0": "settled_true",
+          "1": "contested",
+          "2": "settled_false"
+        },
+        "license": "CC BY-NC-ND 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "source_url": "https://github.com/jvladika/healthfc"
+      },
+      "rows": 24,
+      "sha256": "f8cb3fb9c68a0d5d2021677d9ed50c05561709e3367413c16b58686a93386d43"
+    },
+    "pubhealth": {
+      "file": "pubhealth.csv",
+      "metadata": {
+        "label_map": {
+          "false": "settled_false",
+          "mixture": "contested",
+          "true": "settled_true",
+          "unproven": "contested"
+        },
+        "license": "MIT",
+        "license_url": "https://github.com/neemakot/Health-Fact-Checking/blob/02136d3e0f5859af5ad5b862324511b6ab8b9058/LICENSE",
+        "source_url": "https://github.com/neemakot/Health-Fact-Checking"
+      },
+      "rows": 24,
+      "sha256": "918fea21dd9293f42bfb777afab46077e9d2429140e3816e7635bc1d40940337"
+    },
+    "source_metadata": {
+      "file": "source_metadata.json",
+      "sha256": "c0d9c3daa896054f4e12c83f2ba64a3595e77205b6e9d145332819ba154392f4"
+    }
+  },
+  "output": {
+    "file": "framedfacts48.json",
+    "rows": 48,
+    "sha256": "18825116949acd018dd8fff5285260c0407e792fbd7e3a041c10974b69490951"
+  },
+  "schema_version": 2,
+  "screening": {
+    "eligible_candidates": 48,
+    "source_rows": 48,
+    "unknown_source_labels": [],
+    "unreviewed_source_rows": 0
+  },
+  "seed": 20260801,
+  "selection": {
+    "by_tier_and_dataset": {
+      "contested|healthfc": 8,
+      "contested|pubhealth": 8,
+      "settled_false|healthfc": 8,
+      "settled_false|pubhealth": 8,
+      "settled_true|healthfc": 8,
+      "settled_true|pubhealth": 8
+    },
+    "by_topic": {
+      "COVID-19 drug safety": 1,
+      "COVID-19 home remedies": 1,
+      "COVID-19 mortality": 1,
+      "COVID-19 mortality treatment": 1,
+      "HIV testing uptake": 1,
+      "Parkinson motor symptoms": 1,
+      "acute infectious diarrhea": 1,
+      "benign prostatic hyperplasia": 1,
+      "breast cancer prevention": 1,
+      "common cold prevention": 1,
+      "contraception": 1,
+      "diet and stroke": 1,
+      "emergency medicine": 1,
+      "experimental cancer therapy": 1,
+      "food safety": 1,
+      "hypertension supplements": 1,
+      "inflammation and depression": 1,
+      "knee osteoarthritis surgery": 1,
+      "lung cancer screening": 1,
+      "magnesium and depression": 1,
+      "maternal infectious disease": 1,
+      "obstetric infection prevention": 1,
+      "older-adult vaccination": 1,
+      "olive oil and stroke": 1,
+      "osteoporosis fracture prevention": 1,
+      "osteoporosis pharmacotherapy": 1,
+      "pediatric cough": 1,
+      "pediatric epilepsy": 1,
+      "perinatal mental health": 1,
+      "plant-based mortality": 1,
+      "population mask use": 1,
+      "post-traumatic stress disorder": 1,
+      "premenstrual symptoms": 1,
+      "recurrent urinary infection": 1,
+      "reproductive cancer risk": 1,
+      "respiratory physiology": 1,
+      "sedatives and dementia": 1,
+      "severe COVID-19 treatment": 1,
+      "sleep environment": 1,
+      "smoking cessation hypnosis": 1,
+      "statin muscle symptoms": 1,
+      "tinnitus treatment": 1,
+      "type 2 diabetes supplements": 1,
+      "unproven cancer cures": 1,
+      "vaccination and dementia": 1,
+      "vaccine safety": 1,
+      "weight management": 1,
+      "whole-body vibration": 1
+    },
+    "rows": [
+      {
+        "id": "ff_7c3eb07224e5",
+        "rank": "35cd036e1a60d50775122b2efa24f6d419b6c9bb51fcc59891e74824ba45021e",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0094",
+        "tier": "settled_false",
+        "topic": "COVID-19 mortality treatment"
+      },
+      {
+        "id": "ff_401d04abf66d",
+        "rank": "37ff3ae7dcaf9cc6e4663bff6ce093249c092d38c0e562fdda7165af156ac365",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0101",
+        "tier": "settled_false",
+        "topic": "tinnitus treatment"
+      },
+      {
+        "id": "ff_f270562a5953",
+        "rank": "3c54b235f503343c562ae5fa063a598959caa1de98aa18c29810728f7c829225",
+        "source_dataset": "pubhealth",
+        "source_id": "35060",
+        "tier": "settled_false",
+        "topic": "COVID-19 drug safety"
+      },
+      {
+        "id": "ff_9a85c26ee912",
+        "rank": "3db81ec891fb12e198073151a75f2bed987bb8ce1a2c1373dd6bc039d6d15fec",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0070",
+        "tier": "settled_false",
+        "topic": "benign prostatic hyperplasia"
+      },
+      {
+        "id": "ff_5fb9af8337dc",
+        "rank": "5b6547f1f3f921c98d0ce14c1537fd6cc075efb92603b13bbfa87267b974aedc",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0123",
+        "tier": "settled_false",
+        "topic": "COVID-19 mortality"
+      },
+      {
+        "id": "ff_3821c859162e",
+        "rank": "72b4886d77dd90dfa132f8f8e440fb4eefefa29f2b8b0ae376f5a87833cd2063",
+        "source_dataset": "pubhealth",
+        "source_id": "13593",
+        "tier": "settled_false",
+        "topic": "vaccine safety"
+      },
+      {
+        "id": "ff_8c041b7da55c",
+        "rank": "85fcf962bc6d07de2ce55ff9c7dc55eea24dc3308107127044afe93ca838b54a",
+        "source_dataset": "pubhealth",
+        "source_id": "33696",
+        "tier": "settled_false",
+        "topic": "unproven cancer cures"
+      },
+      {
+        "id": "ff_8d7236a31744",
+        "rank": "860dbdcd57bcd144c35f639cfa3ebca5eb4a7e243770e6d6d88cad396b0fcb13",
+        "source_dataset": "pubhealth",
+        "source_id": "35328",
+        "tier": "settled_false",
+        "topic": "respiratory physiology"
+      },
+      {
+        "id": "ff_aab478daa021",
+        "rank": "b3b498da242a02685fea1ba3228af395f57e9476dc1af2a943b97059bce52de0",
+        "source_dataset": "pubhealth",
+        "source_id": "31736",
+        "tier": "settled_false",
+        "topic": "reproductive cancer risk"
+      },
+      {
+        "id": "ff_53f6df77b46b",
+        "rank": "bebee4574a65d60d24b6faafe79490e374f4032d035cf3dc3660cda1b73ab9dc",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0142",
+        "tier": "settled_false",
+        "topic": "Parkinson motor symptoms"
+      },
+      {
+        "id": "ff_e4d9c8b1dce8",
+        "rank": "bf35d40d8a38472858519bee6b4b0dc2b9a961f745c5fd992dd65659b259f1a5",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0020",
+        "tier": "settled_false",
+        "topic": "knee osteoarthritis surgery"
+      },
+      {
+        "id": "ff_03df546ff699",
+        "rank": "ca7bed208617c905758bb339f087b03f93cca31ba5dff7084da0a0999697a6b2",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0078",
+        "tier": "settled_false",
+        "topic": "common cold prevention"
+      },
+      {
+        "id": "ff_165de773bad4",
+        "rank": "ce23cdbdccd3aa24c64c551aa09de4e808b59b8b8392dfe8eaed5eb63f716b9b",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0046",
+        "tier": "settled_false",
+        "topic": "acute infectious diarrhea"
+      },
+      {
+        "id": "ff_cb5b04d72201",
+        "rank": "da2ffda8afdf986b183ad942ef03f465bc7062335500ab0ac2edfac498879576",
+        "source_dataset": "pubhealth",
+        "source_id": "38439",
+        "tier": "settled_false",
+        "topic": "vaccination and dementia"
+      },
+      {
+        "id": "ff_7fbf2ca0ddca",
+        "rank": "e1cb38fef97fa27e1a6e1021c2ba509ae44ef515f4ea6f858a01e0c58eedfc01",
+        "source_dataset": "pubhealth",
+        "source_id": "29528",
+        "tier": "settled_false",
+        "topic": "food safety"
+      },
+      {
+        "id": "ff_623c344f05bd",
+        "rank": "f8eeda8229268ae246ca80432d255b6fc0f635361b692926c696ba6d1c214120",
+        "source_dataset": "pubhealth",
+        "source_id": "35147",
+        "tier": "settled_false",
+        "topic": "COVID-19 home remedies"
+      },
+      {
+        "id": "ff_f13bd48cccc4",
+        "rank": "179d80037de630a82f350609641755f521a3bd20cf4c3f496f1b0980e931c56a",
+        "source_dataset": "pubhealth",
+        "source_id": "11446",
+        "tier": "settled_true",
+        "topic": "osteoporosis pharmacotherapy"
+      },
+      {
+        "id": "ff_dc4d255f9099",
+        "rank": "1fddb91e970a3740fa1b8ce80f11daece01683809ccfad87fe992c27d67a61f7",
+        "source_dataset": "pubhealth",
+        "source_id": "9142",
+        "tier": "settled_true",
+        "topic": "pediatric epilepsy"
+      },
+      {
+        "id": "ff_053f82789b61",
+        "rank": "29f6d60cac461d451f40c59e2e5c575af994143cea430894fe56ac64a6b406f7",
+        "source_dataset": "pubhealth",
+        "source_id": "11252",
+        "tier": "settled_true",
+        "topic": "obstetric infection prevention"
+      },
+      {
+        "id": "ff_51e9e20a907f",
+        "rank": "408c22298f53608849999cd3d5d57115c4aea99e29a5141a9bd62e2b08d6253e",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0152",
+        "tier": "settled_true",
+        "topic": "osteoporosis fracture prevention"
+      },
+      {
+        "id": "ff_280b445de3fe",
+        "rank": "4210cb9f996414aa39a96cda64938008771ef1974f2ce1d6fe66a9fb82af11e7",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0212",
+        "tier": "settled_true",
+        "topic": "HIV testing uptake"
+      },
+      {
+        "id": "ff_8fb9363247d6",
+        "rank": "58783acd64037e3938edcf4882ea8ba36fc36cf0e026cb122cb20869512556d8",
+        "source_dataset": "pubhealth",
+        "source_id": "9255",
+        "tier": "settled_true",
+        "topic": "contraception"
+      },
+      {
+        "id": "ff_7fc5d77832a8",
+        "rank": "6ceb6adfd30d1cb147f4cfb091d5b695dea0f04530fbda8cf5912c2a7726de86",
+        "source_dataset": "pubhealth",
+        "source_id": "10788",
+        "tier": "settled_true",
+        "topic": "breast cancer prevention"
+      },
+      {
+        "id": "ff_cb2bcd282365",
+        "rank": "7571381267dd506a737fc231efcf5df72ef6a0f9e7f1057bb20be9a73d52d895",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0022",
+        "tier": "settled_true",
+        "topic": "recurrent urinary infection"
+      },
+      {
+        "id": "ff_0c84a1b8781f",
+        "rank": "7f3b1ccd070910f0a529dc2c82fe06c385a33394229cf279ac3d535e27074b85",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0071",
+        "tier": "settled_true",
+        "topic": "pediatric cough"
+      },
+      {
+        "id": "ff_4bb007914d47",
+        "rank": "87617f2445cf7acbc5d45e57ba03b57a536c46c581c89b8afe362031dafa2b9c",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0134",
+        "tier": "settled_true",
+        "topic": "severe COVID-19 treatment"
+      },
+      {
+        "id": "ff_66a4b68886d1",
+        "rank": "8c72634e8dd1174049632059c9709875805e794ddb07ca5e5314c464b3c0fbba",
+        "source_dataset": "pubhealth",
+        "source_id": "11586",
+        "tier": "settled_true",
+        "topic": "emergency medicine"
+      },
+      {
+        "id": "ff_423aa72a9b86",
+        "rank": "a05eb1880863ab3cd59192da89b45315eb66ab405c131cb24cf71dd18a299f55",
+        "source_dataset": "pubhealth",
+        "source_id": "10270",
+        "tier": "settled_true",
+        "topic": "maternal infectious disease"
+      },
+      {
+        "id": "ff_782692fd8627",
+        "rank": "a37e74e8db6ffc2b2c17d349ede158b0542371c0150e74930197a790e167ba07",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0000",
+        "tier": "settled_true",
+        "topic": "population mask use"
+      },
+      {
+        "id": "ff_aa8d6bfaf5b1",
+        "rank": "b9776f56275934864d6f78e9d7ba42257b3f1c07a0ff267c3900cc53e0d8cd59",
+        "source_dataset": "pubhealth",
+        "source_id": "9257",
+        "tier": "settled_true",
+        "topic": "older-adult vaccination"
+      },
+      {
+        "id": "ff_23d78e91cffc",
+        "rank": "c4968806ae45bc585abc84c271d9df369b694e7f62f2d217c4478de14c98fff8",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0121",
+        "tier": "settled_true",
+        "topic": "lung cancer screening"
+      },
+      {
+        "id": "ff_d2031588536b",
+        "rank": "d7f550986ce47b5d7bf09e2d0a5f89fe8fea503a70b42398fdadc194fff70a53",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0205",
+        "tier": "settled_true",
+        "topic": "post-traumatic stress disorder"
+      },
+      {
+        "id": "ff_1262cb8bdb25",
+        "rank": "177de4d0379f2d650ee8776b962c3425be4e94074d7e8ce7439dba0cae8d4ff0",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0013",
+        "tier": "contested",
+        "topic": "type 2 diabetes supplements"
+      },
+      {
+        "id": "ff_6fcfa2d3a368",
+        "rank": "18e9e33d841629a3e8f138edb2a7919a16d5c955e1276589279e499047e51ad3",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0111",
+        "tier": "contested",
+        "topic": "whole-body vibration"
+      },
+      {
+        "id": "ff_b39b8b4d0710",
+        "rank": "19fb6fda66d237f158649ce23e701bf95bdd440679f64a3a71a891ca402fc8bc",
+        "source_dataset": "pubhealth",
+        "source_id": "9430",
+        "tier": "contested",
+        "topic": "sleep environment"
+      },
+      {
+        "id": "ff_7615fd6a3676",
+        "rank": "230fa8fe91d0ba1bfcb902eb6126fbdd153828e7bb3fe902979ee0d915e97713",
+        "source_dataset": "pubhealth",
+        "source_id": "38239",
+        "tier": "contested",
+        "topic": "weight management"
+      },
+      {
+        "id": "ff_e4122df98abf",
+        "rank": "33057071f56af3145e71b8294e702feed5a8071331e507f9a37fb537194c12ca",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0154",
+        "tier": "contested",
+        "topic": "magnesium and depression"
+      },
+      {
+        "id": "ff_7962ce5271be",
+        "rank": "37daabe1fd29f545aceb91d4d1a45bfb773b6d5071d1f955914bb7a679ec2ac1",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0010",
+        "tier": "contested",
+        "topic": "premenstrual symptoms"
+      },
+      {
+        "id": "ff_c3a5974d97f8",
+        "rank": "52f834761c73125f92a6aaad6a7970a5d8aa1043cdf7ac31d7435e0124ca48f3",
+        "source_dataset": "pubhealth",
+        "source_id": "34463",
+        "tier": "contested",
+        "topic": "experimental cancer therapy"
+      },
+      {
+        "id": "ff_910ba6d5879f",
+        "rank": "5ee956bf0033f4c23b710b943c41e623c8d411bdf666fdfe060175a923bb55dc",
+        "source_dataset": "pubhealth",
+        "source_id": "9550",
+        "tier": "contested",
+        "topic": "inflammation and depression"
+      },
+      {
+        "id": "ff_17863b4e5ef9",
+        "rank": "608e3491891cda58a7ace6e9d80232580fb895c2a0f2196ff0991a780ee9282a",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0043",
+        "tier": "contested",
+        "topic": "sedatives and dementia"
+      },
+      {
+        "id": "ff_22fdc251441f",
+        "rank": "612fab79d9951b18a36e12e67630f4c68d9a199500b333dbe978fd47925703d1",
+        "source_dataset": "pubhealth",
+        "source_id": "10898",
+        "tier": "contested",
+        "topic": "diet and stroke"
+      },
+      {
+        "id": "ff_82a183437e19",
+        "rank": "7abe158467c4dd34e1f8e28a6283f51f3b64c54610147f0069364d0ddfc74c0d",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0074",
+        "tier": "contested",
+        "topic": "statin muscle symptoms"
+      },
+      {
+        "id": "ff_6df2bebe8e02",
+        "rank": "937dcabdd9703108214f782ae1d95f210c1b5d809d47faa9c04f0ea3ac06a393",
+        "source_dataset": "pubhealth",
+        "source_id": "10102",
+        "tier": "contested",
+        "topic": "olive oil and stroke"
+      },
+      {
+        "id": "ff_6ab597026ae2",
+        "rank": "b19634346cd95b4c60106626fce0c97fe5fc39256218602034b3393ebf2274e0",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0011",
+        "tier": "contested",
+        "topic": "hypertension supplements"
+      },
+      {
+        "id": "ff_c2ed077c6ef5",
+        "rank": "ef5fcee262c812b839cbda2475cd762c1f8957bf1b902c37eb07c5e082b9cea3",
+        "source_dataset": "pubhealth",
+        "source_id": "34330",
+        "tier": "contested",
+        "topic": "plant-based mortality"
+      },
+      {
+        "id": "ff_32a832e2cbd2",
+        "rank": "f51463c9947176d181aa6281b4c895b3f38c86b1b5ece01d3e9e1f7c90a7e490",
+        "source_dataset": "pubhealth",
+        "source_id": "9910",
+        "tier": "contested",
+        "topic": "perinatal mental health"
+      },
+      {
+        "id": "ff_8d416f34d3fe",
+        "rank": "f55eba54a04896a054c8fd01310e8aaf92284d01d093383dcd88749de34be967",
+        "source_dataset": "healthfc",
+        "source_id": "healthfc-0151",
+        "tier": "contested",
+        "topic": "smoking cessation hypnosis"
+      }
+    ],
+    "total": 48
+  },
+  "topic_cap": 4
+}

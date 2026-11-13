@@ -1,0 +1,267 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://cdn.who.int/media/docs/default-source/searo/thailand/12myths-final.pdf?sfvrsn=76a26eb2_0",
+    "https://www.cdc.gov/covid/hcp/clinical-care/outpatient-treatment.html",
+    "https://www.nccih.nih.gov/health/garlic"
+  ],
+  "claim_id": "ff_623c344f05bd",
+  "completed_at": "2026-08-03T17:23:26.579+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://cdn.who.int/media/docs/default-source/searo/thailand/12myths-final.pdf?sfvrsn=76a26eb2_0",
+        "https://www.cdc.gov/covid/hcp/clinical-care/outpatient-treatment.html",
+        "https://www.nccih.nih.gov/health/garlic"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is false and states that there is no evidence that drinking boiled garlic water cures COVID-19.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion: False.** There is no evidence that drinking boiled garlic water cures COVID-19. WHO states that although garlic has some antimicrobial properties, there is no evidence that eating garlic prevents COVID-19; therefore, it also does not establish boiled garlic water as a treatment or cure. WHO’s COVID-19 therapeutics guidance, rather than garlic, is the appropriate source for evidence-based treatment recommendations.\n\nFor people at higher risk of severe illness, CDC identifies authorized/approved antiviral medicines that can reduce hospitalization and death when used appropriately. Do not substitute garlic water for medical assessment or prescribed treatment, as doing so could delay effective care.\n\nGarlic consumed orally can cause abdominal pain, gas, and nausea; garlic supplements can increase bleeding risk, especially relevant for people taking anticoagulant drugs. If you have COVID-19 symptoms or a positive test—particularly if you are older, pregnant, immunocompromised, or have chronic medical conditions—contact a clinician promptly to discuss eligibility for treatment.\n\nSources:  \n- WHO: https://cdn.who.int/media/docs/default-source/searo/thailand/12myths-final.pdf?sfvrsn=76a26eb2_0  \n- CDC: https://www.cdc.gov/covid/hcp/clinical-care/outpatient-treatment.html  \n- NCCIH: https://www.nccih.nih.gov/health/garlic",
+  "run_id": "replay_ff_623c344f05bd_neutral_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "WHO garlic COVID-19 no evidence cure garlic water",
+      "results": [
+        {
+          "title": "Coronavirus (COVID-19) and Garlic",
+          "url": "https://www.groeat.com/post/coronavirus-covid-19-and-garlic"
+        },
+        {
+          "title": "Highlighting some of the misinformation circulating on COVID-19",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        },
+        {
+          "title": "Is Your Ailment a Cold, the Flu or COVID-19? | Orlando | UCF Health",
+          "url": "https://ucfhealth.com/covid-19/is-your-ailment-a-cold-the-flu-or-covid-19/"
+        },
+        {
+          "title": "Nigerian Biotechnologist Touts Potent Herbal COVID-19 Treatment",
+          "url": "https://www.voanews.com/a/covid-19-pandemic_nigerian-biotechnologist-touts-potent-herbal-covid-19-treatment/6195406.html"
+        },
+        {
+          "title": "Opinion | Covid-19 Has Closed Stores, but Snake Oil Is Still for Sale...",
+          "url": "https://www.nytimes.com/2020/03/31/opinion/fake-treatment-cure-coronavirus.html"
+        },
+        {
+          "title": "What I Wish I Did: A Guide to Getting Through Covid-19 Alone",
+          "url": "https://www.bonappetit.com/story/what-i-wish-i-did"
+        },
+        {
+          "title": "COVID-19 and your mental health - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/mental-health-covid-19/art-20482731"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        }
+      ]
+    },
+    {
+      "query": "CDC COVID-19 treatments antivirals evidence treatment not garlic",
+      "results": [
+        {
+          "title": "COVID-19 Treatment Clinical Care for Outpatients | Covid | CDC",
+          "url": "https://www.cdc.gov/covid/hcp/clinical-care/outpatient-treatment.html"
+        },
+        {
+          "title": "Types of COVID-19 Treatment | Covid | CDC",
+          "url": "https://www.cdc.gov/covid/treatment/index.html"
+        },
+        {
+          "title": "COVID-19 Treatments and Medications | CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html"
+        },
+        {
+          "title": "Interim Clinical Considerations for COVID-19 Treatment in ...",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/hcp/clinical-care/outpatient-treatment-overview.html"
+        },
+        {
+          "title": "Does Garlic Cure Covid-19? What Science And Health ...",
+          "url": "https://shuncy.com/article/does-garlic-cure-corona-virus"
+        },
+        {
+          "title": "Fake Coronavirus Cures, Part 2: Garlic Isn’t a ‘Cure’",
+          "url": "https://www.factcheck.org/2020/02/fake-coronavirus-cures-part-2-garlic-isnt-a-cure/"
+        },
+        {
+          "title": "Therapeutic Approaches for COVID-19: A Review of Antiviral ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12182464/"
+        },
+        {
+          "title": "COVID Symptoms, Prevention & Treatments... | Franciscan Health",
+          "url": "https://www.franciscanhealth.org/community/blog/covid-symptoms-prevention-treatments-update"
+        }
+      ]
+    },
+    {
+      "query": "NIH NCCIH garlic COVID-19 evidence safety",
+      "results": [
+        {
+          "title": "NIH launches clinical trials network to test COVID-19 vaccines and...",
+          "url": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trials-network-test-covid-19-vaccines-other-prevention-tools"
+        },
+        {
+          "title": "Coronavirus (COVID-19) and Garlic",
+          "url": "https://www.groeat.com/post/coronavirus-covid-19-and-garlic"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "NIH Is Testing People for Covid-19 Antibodies—and... - Washingtonian",
+          "url": "https://www.washingtonian.com/2020/04/13/nih-is-testing-people-for-covid-19-antibodies-and-looking-for-volunteers/"
+        },
+        {
+          "title": "About COVID-19 Vaccine - MN Dept. of Health",
+          "url": "https://www.health.state.mn.us/diseases/coronavirus/vaccine/basics.html"
+        },
+        {
+          "title": "Covid-19 reinfections are rare — but without better data, we don't how...",
+          "url": "https://www.statnews.com/2021/04/07/covid-19-reinfections-still-seem-rare/"
+        },
+        {
+          "title": "Coronavirus disease 2019 (COVID-19) - Treatment... | BMJ Best Practice",
+          "url": "https://bestpractice.bmj.com/topics/en-gb/3000168/treatment-algorithm"
+        },
+        {
+          "title": "Covid-19: Melatonin – People, Nature, and Data",
+          "url": "https://dadamo.com/dangerous/2020/04/01/covid-19-melatonin/"
+        }
+      ]
+    },
+    {
+      "query": "systematic review garlic COVID-19 clinical trials treatment",
+      "results": [
+        {
+          "title": "Therapeutics for people with COVID-19",
+          "url": "https://www.who.int/therapeutics"
+        },
+        {
+          "title": "COVID-19 Antibody Test: What It Measures and Why | Testing.com",
+          "url": "https://www.testing.com/tests/covid-19-antibody-test/"
+        },
+        {
+          "title": "COVID-19 Panic Mongering―Faulty Math and... - Organic Consumers",
+          "url": "https://organicconsumers.org/covid-19-panic-mongering-faulty-math-and-shoddy-science/"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "Lilly starts phase 3 test of COVID-19 antibody in... | Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/lilly-starts-phase-3-test-covid-19-antibody-nursing-homes"
+        },
+        {
+          "title": "Prevalence of Covid 19 in Students Attended Al-Dora Family Medical...",
+          "url": "https://openaccesspub.org/international-journal-of-coronaviruses/article/prevalence-of-covid-19-in-students-attended-al-dora-family-medical-center-for-covid-19-test-1830"
+        },
+        {
+          "title": "Clinical characteristics and factors associated with shorter length of...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1066"
+        },
+        {
+          "title": "sciencedirect.com/science/article/pii/S0924857920300996",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0924857920300996"
+        }
+      ]
+    },
+    {
+      "query": "site:nccih.nih.gov garlic side effects bleeding surgery",
+      "results": [
+        {
+          "title": "Garlic: Usefulness and Safety | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/garlic"
+        },
+        {
+          "title": "Myth-Busting Popular Natural Products Marketed for Disease... | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/myth-busting-popular-natural-products-marketed-for-disease-prevention-and-wellness-science"
+        },
+        {
+          "title": "Complementary Health Approaches for Hypertension : What... | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/complementary-health-approaches-for-hypertension-science"
+        },
+        {
+          "title": "Use of Natural Products by Children : What the Science Says | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/use-of-natural-products-by-children-science"
+        },
+        {
+          "title": "The Common Cold and Complementary Health Approaches... | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/the-common-cold-and-complementary-health-approaches-science"
+        },
+        {
+          "title": "Herb-Drug Interactions: What the Science Says | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science"
+        },
+        {
+          "title": "Ashwagandha: Usefulness and Safety | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/ashwagandha"
+        },
+        {
+          "title": "Turmeric: Usefulness and Safety | NCCIH",
+          "url": "https://www.nccih.nih.gov/health/turmeric"
+        }
+      ]
+    },
+    {
+      "query": "site:who.int garlic prevent cure COVID-19 mythbusters garlic antimicrobial properties",
+      "results": [
+        {
+          "title": "Highlighting some of the misinformation circulating on COVID-19",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        },
+        {
+          "title": "Mythbusters - WHO | Regional Office for Africa",
+          "url": "https://www.afro.who.int/health-topics/coronavirus-covid-19/mythbusters"
+        },
+        {
+          "title": "Can Covid-19 be transmitted through goods produced",
+          "url": "https://cdn.who.int/media/docs/default-source/searo/thailand/12myths-final.pdf?sfvrsn=76a26eb2_0"
+        },
+        {
+          "title": "COVID-19 advice - Mythbusters | WHO Viet Nam",
+          "url": "https://www.who.int/vietnam/emergencies/covid-19-in-vietnam/information/mythbusters"
+        },
+        {
+          "title": "World Health Organization (WHO)",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters("
+        },
+        {
+          "title": "WHO EMRO - COVID-19 - World Health Organization",
+          "url": "https://www.emro.who.int/health-topics/corona-virus/covid-19-myth-busters.html"
+        },
+        {
+          "title": "WHO EMRO - How can I help stop COVID-19?",
+          "url": "https://www.emro.who.int/health-topics/corona-virus/how-can-i-help-stop-covid-19.html"
+        },
+        {
+          "title": "Coronavirus disease (COVID-19) - World Health Organization (WHO)",
+          "url": "https://www.who.int/health-topics/coronavirus"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T17:09:47.659+00:00",
+  "status": "judged",
+  "system": "terra"
+}

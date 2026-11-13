@@ -1,0 +1,290 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507",
+    "https://www.uspreventiveservicestaskforce.org/Page/Document/UpdateSummaryFinal/breast-cancer-medications-for-risk-reduction",
+    "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(11)70389-8/abstract",
+    "https://ascopubs.org/doi/10.1200/JCO.19.01472"
+  ],
+  "claim_id": "ff_7fc5d77832a8",
+  "completed_at": "2026-08-03T21:24:27.661+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507",
+        "https://www.uspreventiveservicestaskforce.org/Page/Document/UpdateSummaryFinal/breast-cancer-medications-for-risk-reduction",
+        "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(11)70389-8/abstract",
+        "https://ascopubs.org/doi/10.1200/JCO.19.01472"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is supported, citing strong direct evidence from the pivotal MAP.3 randomized controlled trial showing a significant 65% relative reduction in invasive breast cancer incidence among postmenopausal women at elevated risk.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "MAP.3 exemestane breast cancer prevention postmenopausal elevated risk trial incidence results NEJM",
+    "exemestane primary prevention breast cancer postmenopausal women elevated risk guideline ASCO",
+    "Exemestane for breast-cancer prevention NEJM 2011 65% reduction 0.19 0.55",
+    "USPSTF breast cancer medications risk reduction exemestane postmenopausal evidence",
+    "NCI exemestane prevention high risk postmenopausal MAP.3 side effects bone loss 2011",
+    "ASCO guideline endocrine therapy breast cancer risk reduction exemestane postmenopausal 2019 full text"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion: supported, with important limitations.** Exemestane reduces the *incidence of invasive breast cancer* in postmenopausal women at moderately increased/elevated risk. The pivotal randomized, double-blind MAP.3 trial enrolled 4,560 such women and, at a median follow-up of about three years, found annual invasive-cancer incidence of 0.19% with exemestane versus 0.55% with placebo—a 65% relative reduction. This is strong direct evidence for the claim, though the absolute short-term reduction was modest because baseline annual incidence was low.\n\nThe evidence applies to postmenopausal women selected for increased risk, not average-risk or premenopausal women. It chiefly concerns prevention of estrogen-receptor–positive invasive cancers; it does not establish a breast-cancer mortality benefit, and longer-term benefit/safety data are comparatively limited.\n\nRisk–benefit decisions should be individualized. U.S. preventive guidance finds aromatase inhibitors beneficial for postmenopausal women at increased risk but recognizes harms; exemestane can worsen bone loss, so bone health and other adverse effects require consideration. ASCO includes endocrine therapies, including exemestane, among options for risk reduction in appropriate postmenopausal patients.\n\nSources:  \n- https://www.nejm.org/doi/full/10.1056/NEJMoa1103507  \n- https://www.uspreventiveservicestaskforce.org/Page/Document/UpdateSummaryFinal/breast-cancer-medications-for-risk-reduction  \n- https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(11)70389-8/abstract  \n- https://ascopubs.org/doi/10.1200/JCO.19.01472",
+  "run_id": "core_ff_7fc5d77832a8_neutral_terra_2",
+  "search_backend": "web",
+  "search_count": 6,
+  "search_tool_queries": [
+    "MAP.3 exemestane breast cancer prevention postmenopausal elevated risk trial incidence results NEJM",
+    "exemestane primary prevention breast cancer postmenopausal women elevated risk guideline ASCO",
+    "Exemestane for breast-cancer prevention NEJM 2011 65% reduction 0.19 0.55",
+    "USPSTF breast cancer medications risk reduction exemestane postmenopausal evidence",
+    "NCI exemestane prevention high risk postmenopausal MAP.3 side effects bone loss 2011",
+    "ASCO guideline endocrine therapy breast cancer risk reduction exemestane postmenopausal 2019 full text"
+  ],
+  "searches": [
+    {
+      "query": "MAP.3 exemestane breast cancer prevention postmenopausal elevated risk trial incidence results NEJM",
+      "results": [
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/Nejmoa1103507"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal Women",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1103507"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal Women",
+          "url": "https://www.ovid.com/journals/nejm/fulltext/10.1056/nejmoa1103507~exemestane-for-breast-cancer-prevention-in-postmenopausal"
+        },
+        {
+          "title": "Quality of Life in MAP.3 (Mammary Prevention 3): A Randomized ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879707/"
+        },
+        {
+          "title": "Exemestane Reduces Breast Cancer Risk in High-Risk ...",
+          "url": "https://www.cancer.gov/types/breast/research/exemestane-reduces-risk"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMx110056"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2105215",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2105215"
+        }
+      ]
+    },
+    {
+      "query": "exemestane primary prevention breast cancer postmenopausal women elevated risk guideline ASCO",
+      "results": [
+        {
+          "title": "The burden of breast cancer from China to Italy - Levaggi - Journal of...",
+          "url": "https://jtd.amegroups.org/article/view/2663/html"
+        },
+        {
+          "title": "Exemestane, Thought to Prevent Cancer, Also Causes Bone Loss...",
+          "url": "https://www.nytimes.com/2012/02/07/health/exemestane-thought-to-prevent-cancer-also-causes-bone-loss.html"
+        },
+        {
+          "title": "Early study analysis suggests exemestane reduces breast density in...",
+          "url": "https://medicalxpress.com/news/2010-12-early-analysis-exemestane-breast-density.html"
+        },
+        {
+          "title": "Exemestane versus anastrozole in p ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/717976583/"
+        },
+        {
+          "title": "Full article: Managing arthralgia in a postmenopausal woman taking...",
+          "url": "https://www.tandfonline.com/doi/full/10.2147/CMAR.S29448"
+        },
+        {
+          "title": "Exemestane in Reducing Breast Density in Postmenopausal Women...",
+          "url": "https://findtrial.co/trial/NCT00066586"
+        },
+        {
+          "title": "Chemoprevention of Breast Cancer",
+          "url": "https://www.researchgate.net/publication/26870216_Chemoprevention_of_Breast_Cancer"
+        },
+        {
+          "title": "140+ Women Breast Cancer Statistics | Verified 2026 Data",
+          "url": "https://gitnux.org/women-breast-cancer-statistics/"
+        }
+      ]
+    },
+    {
+      "query": "Exemestane for breast-cancer prevention NEJM 2011 65% reduction 0.19 0.55",
+      "results": [
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal Women",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1103507"
+        },
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "(PDF) Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://www.researchgate.net/publication/224957911_Exemestane_for_Breast_Cancer_Prevention_A_Critical_Shift"
+        },
+        {
+          "title": "Exemestane Prevents Breast Cancer? Maybe. Costly? | Medicynic",
+          "url": "https://medicynic.com/2011/06/05/exemestane-prevents-breast-cancer-maybe-costly-definitely/"
+        },
+        {
+          "title": "Position Statement on Chemoprevention - National Breast Cancer...",
+          "url": "https://www.stopbreastcancer.org/information-center/positions-policies/position-statement-on-chemoprevention/"
+        },
+        {
+          "title": "Clinical Profile of Patients Presenting with Breast Cancer in",
+          "url": "https://www.nepjol.info/index.php/KUMJ/article/download/8009/6520"
+        },
+        {
+          "title": "140+ Breast Cancer Statistics | Verified 2026",
+          "url": "https://gitnux.org/breast-cancer-statistics/"
+        },
+        {
+          "title": "Early study analysis suggests exemestane reduces breast density in...",
+          "url": "https://medicalxpress.com/news/2010-12-early-analysis-exemestane-breast-density.html"
+        }
+      ]
+    },
+    {
+      "query": "USPSTF breast cancer medications risk reduction exemestane postmenopausal evidence",
+      "results": [
+        {
+          "title": "Breast Cancer: Medication Use to Reduce Risk",
+          "url": "https://www.uspreventiveservicestaskforce.org/Page/Document/UpdateSummaryFinal/breast-cancer-medications-for-risk-reduction"
+        },
+        {
+          "title": "Breast Cancer: Medication Use to Reduce Risk",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/evidence-summary/breast-cancer-medications-for-risk-reduction"
+        },
+        {
+          "title": "Medication Use to Reduce Risk of Breast Cancer",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2749221"
+        },
+        {
+          "title": "Medication Use for the Risk Reduction of Primary Breast ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2749220"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/Nejmoa1103507"
+        },
+        {
+          "title": "Exemestane Following Tamoxifen Reduces Breast Cancer ...",
+          "url": "https://www.cancer.gov/types/breast/research/exemestane-prolongs-survival"
+        },
+        {
+          "title": "Medication Use to Reduce Risk of Breast Cancer: US Preventive ...",
+          "url": "https://europepmc.org/article/MED/31479144"
+        },
+        {
+          "title": "Archived: Breast Cancer: Medications for Risk Reduction",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/index.php/recommendation/breast-cancer-medications-for-risk-reduction-2013"
+        }
+      ]
+    },
+    {
+      "query": "NCI exemestane prevention high risk postmenopausal MAP.3 side effects bone loss 2011",
+      "results": [
+        {
+          "title": "Exemestane for Breast Cancer Prevention: A Critical Shift?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354700/"
+        },
+        {
+          "title": "Exemestane for Breast-Cancer Prevention in Postmenopausal ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/Nejmoa1103507"
+        },
+        {
+          "title": "Bone density and structure in healthy postmenopausal women ...",
+          "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(11)70389-8/abstract"
+        },
+        {
+          "title": "Bone density and structure in healthy postmenopausal women ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1470204511703898"
+        },
+        {
+          "title": "P4-11-13: Influence of Two Years of Exemestane on Bone ...",
+          "url": "https://aacrjournals.org/cancerres/article/71/24_Supplement/P4-11-13/569095/P4-11-13-Influence-of-Two-Years-of-Exemestane-on"
+        },
+        {
+          "title": "Bone density and structure in healthy postmenopausal women ...",
+          "url": "https://www.thelancet.com/pdfs/journals/lanonc/PIIS1470-2045(11)70389-8.pdf"
+        },
+        {
+          "title": "Exemestane Reduces Breast Cancer Risk in High-Risk ...",
+          "url": "https://www.cancer.gov/types/breast/research/exemestane-reduces-risk"
+        },
+        {
+          "title": "Exemestane -- A New Option for Breast Cancer Prevention",
+          "url": "https://www.medscape.com/viewarticle/743993"
+        }
+      ]
+    },
+    {
+      "query": "ASCO guideline endocrine therapy breast cancer risk reduction exemestane postmenopausal 2019 full text",
+      "results": [
+        {
+          "title": "Use of Endocrine Therapy for Breast Cancer Risk Reduction ...",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.19.01472"
+        },
+        {
+          "title": "Use of Endocrine Therapy for Breast Cancer Risk Reduction ...",
+          "url": "https://ascopubs.org/doi/10.1200/JOP.19.00379"
+        },
+        {
+          "title": "Use of Endocrine Therapy for Breast Cancer Risk Reduction ...",
+          "url": "https://ascopubs.org/doi/pdf/10.1200/JOP.19.00379"
+        },
+        {
+          "title": "Guidelines - ASCO",
+          "url": "https://www.asco.org/guidelines?categories=Breast+Cancer"
+        },
+        {
+          "title": "Endocrine Therapy for Breast Cancer Risk",
+          "url": "https://www.scribd.com/document/963123015/Visvanathan-Et-Al-2019-Use-of-Endocrine-Therapy-for-Breast-Cancer-Risk-Reduction-Asco-Clinical-Practice-Guideline-Update"
+        },
+        {
+          "title": "Use of Endocrine Therapy for Breast Cancer Risk Reduction ...",
+          "url": "https://read.qxmd.com/read/31479306/use-of-endocrine-therapy-for-breast-cancer-risk-reduction-asco-clinical-practice-guideline-update"
+        },
+        {
+          "title": "Fabian Et Al 2019 Use of Endocrine Therapy For Breast Cancer ...",
+          "url": "https://www.scribd.com/document/1026385954/Fabian-Et-Al-2019-Use-of-Endocrine-Therapy-for-Breast-Cancer-Risk-Reduction-Asco-Clinical-Practice-Guideline-Update"
+        },
+        {
+          "title": "Adjuvant endocrine treatment for estrogen receptor...",
+          "url": "https://cco.amegroups.org/article/view/44282/html"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T21:10:40.908+00:00",
+  "status": "judged",
+  "system": "terra"
+}

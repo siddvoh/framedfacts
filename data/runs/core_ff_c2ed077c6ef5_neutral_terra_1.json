@@ -1,0 +1,368 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/23836264/",
+    "https://www.sciencedirect.com/science/article/pii/S0091743516304479",
+    "https://pubmed.ncbi.nlm.nih.gov/34611632/"
+  ],
+  "claim_id": "ff_c2ed077c6ef5",
+  "completed_at": "2026-08-04T01:31:28.372+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23836264/",
+        "https://www.sciencedirect.com/science/article/pii/S0091743516304479",
+        "https://pubmed.ncbi.nlm.nih.gov/34611632/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is too strong and that current evidence does not establish that following a vegetarian diet increases life expectancy compared to eating meat, concluding that the available evidence does not justify the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "vegetarian diet life expectancy mortality systematic review meta-analysis all-cause mortality",
+    "vegetarian dietary patterns all cause mortality cohort study EPIC-Oxford life expectancy",
+    "Adventist Health Study vegetarian mortality life expectancy vegetarian compared meat eaters",
+    "WHO healthy diet vegetarian mortality evidence position paper all cause mortality",
+    "site:pubmed.ncbi.nlm.nih.gov vegetarian diet all cause mortality meta-analysis prospective cohort studies 2024",
+    "EPIC-Oxford vegetarian all cause mortality study PubMed",
+    "vegetarian diet all cause mortality 45 and Up Study PubMed 2017 hazard ratio",
+    "systematic review vegetarian diet mortality no association prospective cohorts PubMed"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion:** The claim is too strong. Current evidence does **not** establish that simply following a vegetarian diet increases life expectancy versus eating meat.\n\nSome prospective cohorts find lower *all-cause mortality* among vegetarians. For example, Adventist Health Study-2 (73,308 participants; mean follow-up 5.8 years) reported an association between vegetarian dietary patterns and lower mortality after adjustment for measured lifestyle factors. But this is observational evidence: vegetarians may differ in smoking, alcohol use, exercise, healthcare use, socioeconomic factors, and overall diet quality, so it cannot prove that avoiding meat caused longer life.  \nhttps://pubmed.ncbi.nlm.nih.gov/23836264/\n\nResults are inconsistent across populations. The large Australian 45 and Up cohort (243,096 adults; 16,836 deaths) found no independent protective association of vegetarian, semi-vegetarian, or pescatarian diets with all-cause mortality.  \nhttps://www.sciencedirect.com/science/article/pii/S0091743516304479\n\nA 2021 systematic review/meta-analysis similarly found vegetarian diets associated with lower ischemic-heart-disease mortality, but **no effect on all-cause mortality**; it rated the certainty of evidence low.  \nhttps://pubmed.ncbi.nlm.nih.gov/34611632/\n\nThus, a well-planned vegetarian diet can support health and may reduce cardiovascular risk, but the available evidence does not justify a general promise of longer life. Diet quality matters more than the label: replacing processed/red meat with minimally processed plant foods is likely more relevant than vegetarian status alone.",
+  "run_id": "core_ff_c2ed077c6ef5_neutral_terra_1",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "vegetarian diet life expectancy mortality systematic review meta-analysis all-cause mortality",
+    "vegetarian dietary patterns all cause mortality cohort study EPIC-Oxford life expectancy",
+    "Adventist Health Study vegetarian mortality life expectancy vegetarian compared meat eaters",
+    "WHO healthy diet vegetarian mortality evidence position paper all cause mortality",
+    "site:pubmed.ncbi.nlm.nih.gov vegetarian diet all cause mortality meta-analysis prospective cohort studies 2024",
+    "EPIC-Oxford vegetarian all cause mortality study PubMed",
+    "vegetarian diet all cause mortality 45 and Up Study PubMed 2017 hazard ratio",
+    "systematic review vegetarian diet mortality no association prospective cohorts PubMed"
+  ],
+  "searches": [
+    {
+      "query": "vegetarian diet life expectancy mortality systematic review meta-analysis all-cause mortality",
+      "results": [
+        {
+          "title": "(PDF) Health outcomes associated with vegetarian diets: An umbrella...",
+          "url": "https://www.academia.edu/145614749/Health_outcomes_associated_with_vegetarian_diets_An_umbrella_review_of_systematic_reviews_and_meta_analyses"
+        },
+        {
+          "title": "The Health Benefits of the Mediterranean Diet — UniversityNutrition.org",
+          "url": "https://universitynutrition.org/eating-patterns/the-health-benefits-of-the-mediterranean-diet"
+        },
+        {
+          "title": "Mediterranean diet and other lifestyle factors in relation to 20-year...",
+          "url": "https://www.researchgate.net/publication/273327213_Mediterranean_diet_and_other_lifestyle_factors_in_relation_to_20-year_all-cause_mortality_A_cohort_study_in_an_Italian_population"
+        },
+        {
+          "title": "Estimating impact of food choices on life expectancy: A modeling study",
+          "url": "https://journals.plos.org/plosmedicine/article/file?type=printable&id=10.1371/journal.pmed.1003889"
+        },
+        {
+          "title": "BMI and all cause mortality: systematic review and non-linear...",
+          "url": "https://www.readkong.com/page/bmi-and-all-cause-mortality-systematic-review-and-1656638"
+        },
+        {
+          "title": "Olfactory dysfunction and all-cause mortality: a systematic review...",
+          "url": "https://jogh.org/2026/jogh-16-04146/"
+        },
+        {
+          "title": "Blue Zones: Healthy Habits & Lifestyle Lessons For... - MYPROTEIN",
+          "url": "https://us.myprotein.com/thezone/nutrition/blue-zones-explained/"
+        },
+        {
+          "title": "Vegetarian diets for longevity: friend or foe? - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378512225005195"
+        }
+      ]
+    },
+    {
+      "query": "vegetarian dietary patterns all cause mortality cohort study EPIC-Oxford life expectancy",
+      "results": [
+        {
+          "title": "(PDF) Does low meat consumption increase life expectancy in humans?",
+          "url": "https://www.academia.edu/81325031/Does_low_meat_consumption_increase_life_expectancy_in_humans"
+        },
+        {
+          "title": "Do Vegetarians Live Longer Than Meat‑Eaters? A Deep Dive into the...",
+          "url": "https://chilliesheaton.co.uk/do-vegetarians-live-longer-than-meat-eaters-a-deep-dive-into-the-data"
+        },
+        {
+          "title": "Vegetarian dietary patterns and mo ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/718113551/"
+        },
+        {
+          "title": "Do vegetarians live longer? - Torrinomedica",
+          "url": "https://www.torrinomedica.it/english/vegetarians/do-vegetarians-live-longer/"
+        },
+        {
+          "title": "Vegetarian Diet Patterns and Chronic Disease Risk: What We Know...",
+          "url": "https://www.researchgate.net/publication/334700326_Vegetarian_Diet_Patterns_and_Chronic_Disease_Risk_What_We_Know_and_What_We_Don't"
+        },
+        {
+          "title": "Is Vegetarian Longevity a LIE? - A Heart Health Education Company",
+          "url": "https://www.curingheartdisease.com/is-vegetarian-longevity-a-lie/"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMsr043743",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMsr043743"
+        },
+        {
+          "title": "sciencedirect.com/science/article/abs/pii/S0269749121016031",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0269749121016031"
+        }
+      ]
+    },
+    {
+      "query": "Adventist Health Study vegetarian mortality life expectancy vegetarian compared meat eaters",
+      "results": [
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093"
+        },
+        {
+          "title": "Vegetarian dietary patterns and mortality in Adventist Health ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23836264/"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext"
+        },
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://www.researchgate.net/publication/247772472_Vegetarian_Dietary_Patterns_and_Mortality_in_Adventist_Health_Study_2"
+        },
+        {
+          "title": "Adventist Mortality Study Publication Database",
+          "url": "https://adventisthealthstudy.org/researchers/scientific-publications/adventist-mortality-study-publication-database"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S000291652400652X"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)04881-5/fulltext"
+        },
+        {
+          "title": "Do Vegetarians and Vegans Live Longer than Meat Eaters?",
+          "url": "https://chriskresser.com/do-vegetarians-and-vegans-live-longer-than-meat-eaters/"
+        }
+      ]
+    },
+    {
+      "query": "WHO healthy diet vegetarian mortality evidence position paper all cause mortality",
+      "results": [
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health Study...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191896/"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a large...",
+          "url": "https://www.researchgate.net/publication/312055008_Vegetarian_diet_and_all-cause_mortality_Evidence_from_a_large_population-based_Australian_cohort_-_the_45_and_Up_Study"
+        },
+        {
+          "title": "Mortality and Cardiovascular Disease Rates of... - Vegan Health",
+          "url": "https://veganhealth.org/chronic-disease-and-vegetarian-diets/vegetarian-cohorts/"
+        },
+        {
+          "title": "Physical Health Benefits of Vegetarianism... - Become Vegetarian",
+          "url": "https://becomevegetarian.org/studies/physical-health-benefits-of-vegetarianism/"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a large...",
+          "url": "https://openresearch-repository.anu.edu.au/items/c6ae4f02-92e6-40ea-98e0-3fd71cdcc133"
+        },
+        {
+          "title": "Staying a Healthy Vegan (Vegan Outreach)",
+          "url": "https://web.archive.org/web/20070207113135/http://www.veganoutreach.org/health/stayinghealthy.html"
+        },
+        {
+          "title": "Vegetarian Diet Linked to Longer Life, Less CVD Mortality",
+          "url": "https://www.medscape.com/viewarticle/805671"
+        },
+        {
+          "title": "Frontiers | The Association of Plant-Based Diet With Cardiovascular...",
+          "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.756810/full"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov vegetarian diet all cause mortality meta-analysis prospective cohort studies 2024",
+      "results": [
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34611632/"
+        },
+        {
+          "title": "Relation of Vegetarian Dietary Patterns With Major Cardiovascular...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31263700/"
+        },
+        {
+          "title": "Association between dietary fat intake and mortality from all-causes...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32723506/"
+        },
+        {
+          "title": "Dietary intake and biomarkers of linoleic acid and mortality...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32020162/"
+        },
+        {
+          "title": "Adherence to the Mediterranean Diet in Relation to All-Cause...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31111871/"
+        },
+        {
+          "title": "Whole-Grain Intake and Mortality from All Causes, Cardiovascular...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28140323/"
+        },
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Vegetarian and vegan diets and the risk of cardiovascular ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36030329/"
+        }
+      ]
+    },
+    {
+      "query": "EPIC-Oxford vegetarian all cause mortality study PubMed",
+      "results": [
+        {
+          "title": "Mortality in British vegetarians: review and preliminary ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pubmed/12936946"
+        },
+        {
+          "title": "Mortality in British vegetarians: results from the European ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)23833-2/fulltext"
+        },
+        {
+          "title": "Mortality in British vegetarians: results from the European ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)23833-2/pdf"
+        },
+        {
+          "title": "Do Vegetarians and Vegans Live Longer than Meat... | Chris Kresser",
+          "url": "https://chriskresser.com/do-vegetarians-and-vegans-live-longer-than-meat-eaters/"
+        },
+        {
+          "title": "The Oxford Vegetarian Study: an overview2 - The American Journal...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(22)04101-6/fulltext"
+        },
+        {
+          "title": "Vegetarian and vegan diets and the risk of cardiovascular disease...",
+          "url": "https://link.springer.com/article/10.1007/s00394-022-02942-8"
+        },
+        {
+          "title": "EPIC-Oxford Study: Heart Attacks & Strokes in Vegetarians & Vegans",
+          "url": "https://foodrevolution.org/blog/heart-attacks-and-strokes-in-vegetarians-and-vegans/"
+        },
+        {
+          "title": "(PDF) Vegetarian, vegan diets and multiple health outcomes...",
+          "url": "https://www.academia.edu/79239175/Vegetarian_vegan_diets_and_multiple_health_outcomes_a_systematic_review_with_meta_analysis_of_observational_studies"
+        }
+      ]
+    },
+    {
+      "query": "vegetarian diet all cause mortality 45 and Up Study PubMed 2017 hazard ratio",
+      "results": [
+        {
+          "title": "In response to the December 2016 article entitled \"Vegetarian ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28583657/"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0091743516304479"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: evidence from a ...Vegetarian diet and all-cause mortality: Evidence from a ...In response to the December 2016 article entitled \"Vegetarian ...Vegetarian diet and all-cause mortality: Evidence from a ...Vegetarian diet and all-cause mortality: Evidence from a ...Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://researchers.mq.edu.au/en/publications/vegetarian-diet-and-all-cause-mortality-evidence-from-a-large-pop/"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://www.researchgate.net/publication/312055008_Vegetarian_diet_and_all-cause_mortality_Evidence_from_a_large_population-based_Australian_cohort_-_the_45_and_Up_Study"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://www.carnisostenibili.it/wp-content/uploads/2017/04/Mihrshahi-17-Vegetarian-diet-and-all-cause-mortality-Evidence-from-a-large-population-based-Australian-cohort-the-45-and-Up-Study..pdf"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://www.semanticscholar.org/paper/Vegetarian-diet-and-all-cause-mortality:-Evidence-a-Mihrshahi-Ding/9b08642465afab42b351ee9ff5b22a0a87ed9520"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://openresearch-repository.anu.edu.au/items/c6ae4f02-92e6-40ea-98e0-3fd71cdcc133/full"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a large...",
+          "url": "https://openresearch-repository.anu.edu.au/items/c6ae4f02-92e6-40ea-98e0-3fd71cdcc133"
+        }
+      ]
+    },
+    {
+      "query": "systematic review vegetarian diet mortality no association prospective cohorts PubMed",
+      "results": [
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Vegetarian and vegan diets and the risk of ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36030329/"
+        },
+        {
+          "title": "Vegetarian and vegan diets and the risk of cardiovascular ...Vegetarian and vegan diets and the risk of cardiovascular ...Vegetarian and vegan diets and the risk of cardiovascular ...Vegetarian dietary patterns and cardiovascular risk factors ...Frontiers | Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://link.springer.com/content/pdf/10.1007/s00394-022-02942-8.pdf"
+        },
+        {
+          "title": "Vegetarian and vegan diets and the risk of cardiovascular ...",
+          "url": "https://link.springer.com/article/10.1007/s00394-022-02942-8"
+        },
+        {
+          "title": "Vegetarian and vegan diets and the risk of cardiovascular ...",
+          "url": "https://www.researchgate.net/publication/363032193_Vegetarian_and_vegan_diets_and_the_risk_of_cardiovascular_disease_ischemic_heart_disease_and_stroke_a_systematic_review_and_meta-analysis_of_prospective_cohort_studies"
+        },
+        {
+          "title": "Vegetarian dietary patterns and cardiovascular risk factors ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666667724002368"
+        },
+        {
+          "title": "Frontiers | Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1481363/full"
+        },
+        {
+          "title": "Association between dietary fat intake and mortality from all-causes...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32723506/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T01:13:37.339+00:00",
+  "status": "judged",
+  "system": "terra"
+}

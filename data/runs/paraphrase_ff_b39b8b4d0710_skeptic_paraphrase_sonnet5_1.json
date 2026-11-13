@@ -1,0 +1,200 @@
+{
+  "arm": "paraphrase",
+  "citations": [],
+  "claim_id": "ff_b39b8b4d0710",
+  "completed_at": "2026-08-04T01:01:59.108+00:00",
+  "framing": "skeptic_paraphrase",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": false,
+      "all_urls_well_formed": false,
+      "has_url": false,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": false,
+      "substantive_support_verified": false,
+      "urls": []
+    },
+    "conclusion": {
+      "justification": "The report finds that the claim is generally supported and true under favorable conditions (such as when noise, pollution, and temperature extreme are absent), representing a cautiously favorable conclusion.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "opening bedroom window improves sleep quality study",
+    "bedroom ventilation CO2 sleep quality research",
+    "DTU study open window cognitive performance sleep CO2",
+    "sleep foundation window open sleep noise temperature Shanghai study"
+  ],
+  "query_labels": [
+    "stance_incongruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Research Findings\n\nThe evidence is more nuanced than a simple \"false\" — the claim is **partially true but conditional**, not simply false.\n\n**Supporting mechanism:** Multiple controlled studies show that closed bedrooms accumulate CO2 (readings can exceed 2,500 ppm vs. ~650 ppm with a window/door open), and elevated CO2/poor ventilation correlates with reduced sleep quality and worse next-day cognitive performance. A well-cited Danish (DTU) field study of students sleeping with windows open vs. closed found improved air quality and better next-day performance, concluding that ventilation keeping CO2 below ~1,000 ppm supports \"optimal sleep quality\" (sciencedirect.com/science/article/pii/S0360132323011459). A peer-reviewed study on bedroom air quality and sleep (pubmed.ncbi.nlm.nih.gov/26452168/) similarly found objective and subjective improvements in sleep and morning alertness with better ventilation.\n\n**Important caveats:** The effect is context-dependent. The Sleep Foundation summary of a Shanghai study found that while opening windows improved objective air quality, actual sleep quality did *not* improve in summer conditions because open windows also let in heat and outdoor noise—offsetting the ventilation benefit (sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed). Aalto University research measuring CO2, temperature, and humidity with windows/doors open vs. closed likewise shows mixed subjective results depending on season and local conditions (research.aalto.fi).\n\n## Conclusion\nRather than being false, the claim is **generally supported when ventilation lowers indoor CO2 without introducing excessive noise, cold, heat, or outdoor pollution**. In quiet, temperate, low-pollution settings, opening a window/door measurably improves air quality and sleep/cognitive metrics. In noisy, hot, cold, or polluted environments, the benefit can disappear or reverse. So: true under favorable conditions, not universally true.",
+  "run_id": "paraphrase_ff_b39b8b4d0710_skeptic_paraphrase_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "opening bedroom window improves sleep quality study",
+    "bedroom ventilation CO2 sleep quality research",
+    "DTU study open window cognitive performance sleep CO2",
+    "sleep foundation window open sleep noise temperature Shanghai study"
+  ],
+  "searches": [
+    {
+      "query": "opening bedroom window improves sleep quality study",
+      "results": [
+        {
+          "title": "Why Don't More of Us Sleep With the Window Open?",
+          "url": "https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed"
+        },
+        {
+          "title": "Should You Open Your Bedroom Window in Winter for Better Sleep?",
+          "url": "https://www.aol.com/lifestyle/open-bedroom-window-winter-better-160000273.html"
+        },
+        {
+          "title": "Ventilate your bedroom at night. You perform better the next day",
+          "url": "https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day"
+        },
+        {
+          "title": "This summer trick will ensure you sleep well and wake up refreshed",
+          "url": "https://jewishreview.co.il/this-summer-trick-will-ensure-you-sleep-well-and-wake-up-refreshed-22702/"
+        },
+        {
+          "title": "Should I Sleep with the Bedroom Door Open or Closed? - Amerisleep",
+          "url": "https://amerisleep.com/blog/should-i-sleep-with-the-bedroom-door-open-or-closed/"
+        },
+        {
+          "title": "Soft Rain in Outside an Open Window Bedroom - YouTube",
+          "url": "https://www.youtube.com/watch?v=DcIWqeY9DEY"
+        },
+        {
+          "title": "Window/door opening‐mediated bedroom ventilation and its impact...",
+          "url": "https://research.aalto.fi/en/publications/windowdoor-openingmediated-bedroom-ventilation-and-its-impact-on-"
+        },
+        {
+          "title": "Should You Sleep with Window Open | TikTok",
+          "url": "https://www.tiktok.com/discover/should-you-sleep-with-window-open"
+        }
+      ]
+    },
+    {
+      "query": "bedroom ventilation CO2 sleep quality research",
+      "results": [
+        {
+          "title": "(PDF) The Influence of Bedroom CO2 Concentration on Sleep Quality",
+          "url": "https://www.researchgate.net/publication/375214318_The_Influence_of_Bedroom_CO2_Concentration_on_Sleep_Quality"
+        },
+        {
+          "title": "Ventilation causing an average CO2 concentration of 1,000 ppm ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360132323011459"
+        },
+        {
+          "title": "New research on bedroom ventilation and sleep quality ...",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/23744731.2025.2531317"
+        },
+        {
+          "title": "The Influence of Bedroom CO2 Concentration on Sleep Quality",
+          "url": "https://www.mdpi.com/2075-5309/13/11/2768"
+        },
+        {
+          "title": "Sleep quality: Design of bedroom ventilation and evaluation ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378778824011897"
+        },
+        {
+          "title": "Bedroom Ventilation for Better Sleep - What the Latest ...",
+          "url": "https://media.mercola.com/ImageServer/Public/2025/December/PDF/bedroom-ventilation-sleep-quality-pdf.pdf"
+        },
+        {
+          "title": "Reviewing How Bedroom Ventilation Affects IAQ And Sleep Quality",
+          "url": "https://www.researchgate.net/publication/351687297_Reviewing_How_Bedroom_Ventilation_Affects_IAQ_And_Sleep_Quality"
+        },
+        {
+          "title": "Bedroom ventilation: Review of existing evidence and current...",
+          "url": "https://orbit.dtu.dk/en/publications/bedroom-ventilation-review-of-existing-evidence-and-current-stand"
+        }
+      ]
+    },
+    {
+      "query": "DTU study open window cognitive performance sleep CO2",
+      "results": [
+        {
+          "title": "Cognitive performance was reduced by higher air temperature even...",
+          "url": "https://orbit.dtu.dk/en/publications/cognitive-performance-was-reduced-by-higher-air-temperature-even-"
+        },
+        {
+          "title": "Effects of sleep deprivation on cognitive-motor... — Beyond Desk",
+          "url": "https://beyond-desk.com/signal/g-0236"
+        },
+        {
+          "title": "The effects of bedroom air quality on sleep and next-day performance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26452168/"
+        },
+        {
+          "title": "Soft Rain in Outside at the Open Bedroom Window - YouTube",
+          "url": "https://www.youtube.com/watch?v=H78t_1nC6T0"
+        },
+        {
+          "title": "Sleep Deprivation: How Lack of Sleep Affects Your Health",
+          "url": "https://www.sleepfoundation.org/sleep-deprivation"
+        },
+        {
+          "title": "dtu_web2",
+          "url": "https://dtu2.ru/"
+        },
+        {
+          "title": "StudyAI - Персональный помощник для изучения",
+          "url": "https://study24.ai/profile"
+        },
+        {
+          "title": "journals.sagepub.com/doi/abs/10.1177/0956797612459659",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0956797612459659"
+        }
+      ]
+    },
+    {
+      "query": "sleep foundation window open sleep noise temperature Shanghai study",
+      "results": [
+        {
+          "title": "Smoothed Brown Noise 8-Hours - Remastered, for Relaxation, Sleep...",
+          "url": "https://www.youtube.com/watch?v=RqzGzwTY-6w"
+        },
+        {
+          "title": "Sleep Experts Now Recommend Bedtime Habits That Our...",
+          "url": "https://theheartysoul.com/bedtime-habits-sleep/"
+        },
+        {
+          "title": "National Sleep Foundation (@sleepfoundation) | Vanlett",
+          "url": "https://vanlett.net/sleepfoundation"
+        },
+        {
+          "title": "Why open window will help you sleep | The Guardian Nigeria News...",
+          "url": "https://guardian.ng/features/why-open-window-will-help-you-sleep/"
+        },
+        {
+          "title": "Why You Feel Tired in a Closed Bedroom | CO2 Sleep Quality Guide",
+          "url": "https://indoorhumidity.com/indoor-air-quality/why-feel-tired-closed-bedroom/"
+        },
+        {
+          "title": "How climate change is making it harder to sleep - Sleep Education",
+          "url": "https://sleepeducation.org/climate-change-sleep-hot-nights/"
+        },
+        {
+          "title": "The Newborn Sleep Basics Every Parent Should Know",
+          "url": "https://www.whattoexpect.com/first-year/newborn-sleep.aspx"
+        },
+        {
+          "title": "5 Ways to Get Better Sleep in a Noisy City Apar... | Roomi",
+          "url": "https://roomiapp.com/blog/us/apartment-hacks/5-ways-get-better-sleep-noisy-city-apartment"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T00:47:19.514+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

@@ -1,0 +1,368 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-562550-safety-and-labeling-waxed-coated-fruits-and-vegetables",
+    "https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2012.2880",
+    "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.886"
+  ],
+  "claim_id": "ff_7fbf2ca0ddca",
+  "completed_at": "2026-08-03T21:05:39.378+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-562550-safety-and-labeling-waxed-coated-fruits-and-vegetables",
+        "https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2012.2880",
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.886"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is not supported by credible evidence and describes it as misleading, concluding that regulated food-grade wax coatings do not pose a carcinogenic risk.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "FDA food additives fruit wax coatings apples carnauba shellac safety regulation",
+    "FDA wax coatings fresh fruits apples food grade wax ingredients cancer",
+    "EFSA carnauba wax E903 safety carcinogenicity opinion",
+    "American Cancer Society apple wax coating cancer claim food grade wax",
+    "site:pubmed.ncbi.nlm.nih.gov carnauba wax carcinogenicity toxicity oral study",
+    "site:ecfr.gov 172.886 carnauba wax food coating fruits",
+    "site:fda.gov shellac food fruit coating 21 CFR",
+    "EFSA Journal 2012 2880 carnauba wax no concern genotoxic carcinogenic full text"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_congruent"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion:** The claim that *food-grade wax coatings on apples cause cancer* is not supported by credible evidence. For regulated food-grade coatings used as intended, the available evidence points the other way.\n\nApples naturally make a protective wax. Post-harvest washing can remove it, so packers may apply a thin edible coating to reduce water loss and damage. FDA policy says components of fruit/vegetable coatings must be authorized food additives used under their permitted conditions, or otherwise be generally recognized as safe; waxed produce is also subject to ingredient-labeling requirements.\n\nOne common glazing agent, carnauba wax, was independently re-evaluated by EFSA. Its scientific panel found no genotoxicity concern based on available data and no adverse effects attributable to carnauba wax in the subchronic and reproductive/developmental studies reviewed. Genotoxicity is a key mechanism by which substances can initiate cancer, so this directly undercuts the asserted cancer mechanism.\n\nThis does **not** mean every substance ever put on fruit, or every unregulated/counterfeit product, is automatically safe. It means the broad claim about *food-grade apple wax* is misleading: it confuses a coating’s origin (including permitted refined petroleum waxes) with evidence of carcinogenic risk, and supplies no dose, ingredient, or study demonstrating cancer from normal consumption. Wash apples under running water for ordinary hygiene; peeling is optional, not a cancer-prevention requirement.\n\nSources:  \n- https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-562550-safety-and-labeling-waxed-coated-fruits-and-vegetables  \n- https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2012.2880  \n- https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.886",
+  "run_id": "core_ff_7fbf2ca0ddca_skeptic_terra_2",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "FDA food additives fruit wax coatings apples carnauba shellac safety regulation",
+    "FDA wax coatings fresh fruits apples food grade wax ingredients cancer",
+    "EFSA carnauba wax E903 safety carcinogenicity opinion",
+    "American Cancer Society apple wax coating cancer claim food grade wax",
+    "site:pubmed.ncbi.nlm.nih.gov carnauba wax carcinogenicity toxicity oral study",
+    "site:ecfr.gov 172.886 carnauba wax food coating fruits",
+    "site:fda.gov shellac food fruit coating 21 CFR",
+    "EFSA Journal 2012 2880 carnauba wax no concern genotoxic carcinogenic full text"
+  ],
+  "searches": [
+    {
+      "query": "FDA food additives fruit wax coatings apples carnauba shellac safety regulation",
+      "results": [
+        {
+          "title": "Application of Plant Waxes in Edible Coatings | Encyclopedia MDPI",
+          "url": "https://encyclopedia.pub/entry/45510"
+        },
+        {
+          "title": "Quality and microbial safety of ‘Fuji’ apples coated with...",
+          "url": "https://www.researchgate.net/publication/259092157_Quality_and_microbial_safety_of_'Fuji'_apples_coated_with_carnauba-shellac_wax_containing_lemongrass_oil"
+        },
+        {
+          "title": "Why Do Grocery Store Apples Look So Shiny? - Symplexia Labs",
+          "url": "https://news.symplexia.com/2026/04/entertainment/curiosities/why-do-grocery-store-apples-look-so-shiny-and-wait-are-they-safe-to-eat/"
+        },
+        {
+          "title": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/"
+        },
+        {
+          "title": "Fruit Coatings (Wax) - Northwest Horticultural Council",
+          "url": "http://nwhort.org/fruitcoatings/"
+        },
+        {
+          "title": "African Journal of Food Science - physicochemical characterization of...",
+          "url": "https://academicjournals.org/journal/AJFS/article-full-text/FDB2D5062737"
+        },
+        {
+          "title": "Never Eat Wax-Coated Apples: 4 Easy Ways To Get... - NDTV Food",
+          "url": "https://food.ndtv.com/food-drinks/never-eat-wax-coated-apples-4-easy-ways-to-get-rid-of-it-1723338"
+        },
+        {
+          "title": "Assessing the effects of chemically treated food...",
+          "url": "https://www.nytimes.com/1982/03/31/garden/assessing-the-effects-of-chemically-treated-food.html"
+        }
+      ]
+    },
+    {
+      "query": "FDA wax coatings fresh fruits apples food grade wax ingredients cancer",
+      "results": [
+        {
+          "title": "CPG Sec 562.550 Safety and Labeling of Waxed (Coated) Fruits ...",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-562550-safety-and-labeling-waxed-coated-fruits-and-vegetables"
+        },
+        {
+          "title": "Should You Be Worried About The Wax On Your Apples?",
+          "url": "https://www.mashed.com/1761304/should-you-be-worried-about-wax-on-apples/"
+        },
+        {
+          "title": "Claim: Wax on fruits and vegetables causes cancer",
+          "url": "https://cancerfactfinder.org/fact-finder-tool/wax-on-fruits-and-vegetables/"
+        },
+        {
+          "title": "Is Wax Coating on Apples Safe to Eat? All You Need to Know",
+          "url": "https://wellnd.com/is-wax-coating-on-apples-safe"
+        },
+        {
+          "title": "Fruit Coatings (Wax) - Northwest Horticultural Council",
+          "url": "https://nwhort.org/fruitcoatings/"
+        },
+        {
+          "title": "Is the wax on apples safe to eat? - Your Guide to Edible Coatings",
+          "url": "https://wellnd.com/is-the-wax-on-apples-safe-to-eat"
+        },
+        {
+          "title": "What Is the Wax on Apples and Is It Safe to Eat ...",
+          "url": "https://scienceinsights.org/what-is-the-wax-on-apples-and-is-it-safe-to-eat/"
+        },
+        {
+          "title": "Putting Dab Wax on Food | TikTok",
+          "url": "https://www.tiktok.com/discover/putting-dab-wax-on-food"
+        }
+      ]
+    },
+    {
+      "query": "EFSA carnauba wax E903 safety carcinogenicity opinion",
+      "results": [
+        {
+          "title": "Список пищевых добавок E900 — E999 — Википедия",
+          "url": "https://web.archive.org/web/20201203182239/https://ru.wikipedia.org/wiki/Список_пищевых_добавок_E900_—_E999"
+        },
+        {
+          "title": "Scientific Opinion on the re‐evaluation of carnauba wax (E 903) as...",
+          "url": "https://proe.info/files/docs/2508/EFSA_E903.pdf"
+        },
+        {
+          "title": "Scientific Opinion on the re-evaluation of carnauba wax (E 903) as...",
+          "url": "https://ucrisportal.univie.ac.at/en/publications/scientific-opinion-on-the-re-evaluation-of-carnauba-wax-e-903-as-/"
+        },
+        {
+          "title": "(PDF) Scientific Opinion on the re-evaluation of candelilla wax (E 902)...",
+          "url": "https://www.researchgate.net/publication/307790509_Scientific_Opinion_on_the_re-evaluation_of_candelilla_wax_E_902_as_a_food_additive"
+        },
+        {
+          "title": "E903 Carnauba Wax: Glazing Agent in Food",
+          "url": "https://artgerecht.com/en/glossary/e903/"
+        },
+        {
+          "title": "EFSA | Science, safe food, sustainability",
+          "url": "https://www.efsa.europa.eu/"
+        },
+        {
+          "title": "Scientific Opinion on the evaluation of the substances currently on the...",
+          "url": "https://core.ac.uk/download/pdf/26973771.pdf"
+        },
+        {
+          "title": "Safety in question: What is the future of berberine?",
+          "url": "https://www.nutraingredients.com/Article/2026/07/31/safety-in-question-what-is-the-future-of-berberine/"
+        }
+      ]
+    },
+    {
+      "query": "American Cancer Society apple wax coating cancer claim food grade wax",
+      "results": [
+        {
+          "title": "Why Is There Wax on Apples | TikTok",
+          "url": "https://www.tiktok.com/discover/why-is-there-wax-on-apples"
+        },
+        {
+          "title": "What Is Cancer? - NCI",
+          "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+        },
+        {
+          "title": "Cervical Cancer Symptoms by Stage | Verywell Health",
+          "url": "https://www.verywellhealth.com/cervical-cancer-symptoms-p2-581928"
+        },
+        {
+          "title": "This frog bacterium wiped out cancer tumors in mice... | ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260709160655.htm"
+        },
+        {
+          "title": "Wash Apples With Hot Water. The Reason Will... - The Discover Reality",
+          "url": "https://www.thediscoverreality.com/2016/04/wash-apples-with-hot-water-reason-will.html"
+        },
+        {
+          "title": "Первые симптомы рака толстой кишки - признаки, которые нельзя...",
+          "url": "https://onco-pro.ru/stati/pervye-simptomy-raka-tolstoj-kishki/"
+        },
+        {
+          "title": "acsjournals.onlinelibrary.wiley.com/journal/15424863",
+          "url": "https://acsjournals.onlinelibrary.wiley.com/journal/15424863"
+        },
+        {
+          "title": "Link to sciencedirect.com",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2214799324000729"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov carnauba wax carcinogenicity toxicity oral study",
+      "results": [
+        {
+          "title": "Carnauba wax p-methoxycinnamic diesters: Characterisation ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26593619/"
+        },
+        {
+          "title": "Carnauba Wax and Beeswax as Structuring Agents for Water-in ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37174387/"
+        },
+        {
+          "title": "Chitosan-based nanocomposite films with carnauba wax, rosin ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38823838/"
+        },
+        {
+          "title": "Carnauba wax as a promising excipient in melt granulation ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27770888/"
+        },
+        {
+          "title": "Checking your browser - reCAPTCHA - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6681797/"
+        },
+        {
+          "title": "Chronic oral toxicity and carcinogenicity study of ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1761257/"
+        },
+        {
+          "title": "[Subchronic oral toxicity study of potassium pyrophosphate as...]",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2855035/"
+        },
+        {
+          "title": "Long-term carcinogenicity of D-003, a mixture of high molecular...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17937974/"
+        }
+      ]
+    },
+    {
+      "query": "site:ecfr.gov 172.886 carnauba wax food coating fruits",
+      "results": [
+        {
+          "title": "eCFR :: 21 CFR 172.886 -- Petroleum wax.",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.886"
+        },
+        {
+          "title": "eCFR :: 21 CFR Part 172 -- Food Additives Permitted for ...eCFR :: 21 CFR Part 172 -- Food Additives Permitted for ...eCFR :: 21 CFR Part 172 Subpart I -- Multipurpose AdditiveseCFR :: 21 CFR 178.3710 -- Petroleum wax.eCFR :: 21 CFR 172.888 -- Synthetic petroleum wax.eCFR :: 21 CFR Part 172 Subpart G -- Gums, Chewing Gum Bases ...",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172"
+        },
+        {
+          "title": "eCFR :: 21 CFR Part 172 Subpart I -- Multipurpose Additives",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I?toc=1"
+        },
+        {
+          "title": "eCFR :: 21 CFR 178.3710 -- Petroleum wax.",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-178/subpart-D/section-178.3710"
+        },
+        {
+          "title": "eCFR :: 21 CFR 172.888 -- Synthetic petroleum wax.",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.888"
+        },
+        {
+          "title": "eCFR :: 21 CFR Part 172 Subpart G -- Gums, Chewing Gum Bases ...",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-G"
+        },
+        {
+          "title": "eCFR :: 15 CFR Part 774 -- The Commerce Control List",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-774"
+        },
+        {
+          "title": "eCFR :: Home",
+          "url": "https://www.ecfr.gov/"
+        }
+      ]
+    },
+    {
+      "query": "site:fda.gov shellac food fruit coating 21 CFR",
+      "results": [
+        {
+          "title": "Substances Added to Food (formerly EAFUS)",
+          "url": "https://cfsanappsexternal.fda.gov/scripts/fdcc/index.cfm?set=FoodSubstances&id=SHELLACPURIFIED"
+        },
+        {
+          "title": "Inventory of Food Contact Substances Listed in 21 CFR",
+          "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=IndirectAdditives&id=SHELLACPURIFIED"
+        },
+        {
+          "title": "CFR - Code of Federal Regulations Title 21 - accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm/CFRSearch.cfm?fr=172.210"
+        },
+        {
+          "title": "CPG Sec 562.550 Safety and Labeling of Waxed (Coated) Fruits ...",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-562550-safety-and-labeling-waxed-coated-fruits-and-vegetables"
+        },
+        {
+          "title": "Code of Federal Regulations - Title 21 - Food and Drugs | FDA",
+          "url": "https://www.fda.gov/medical-devices/medical-device-databases/code-federal-regulations-title-21-food-and-drugs"
+        },
+        {
+          "title": "Inventory of Food Contact Substances Listed in 21 CFR",
+          "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=IndirectAdditives&sort=Reg01&order=ASC&showAll=true&type=basic"
+        },
+        {
+          "title": "Federal Register and the Code of Federal Regulations for Food ...",
+          "url": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/federal-register-and-code-federal-regulations-food-and-dietary-supplements"
+        },
+        {
+          "title": "CFR - Code of Federal Regulations Title 21",
+          "url": "https://www.accessdata.fda.gov/Scripts/Cdrh/Cfdocs/CfCFR/CFRSearch.cfm?fr=172.890"
+        }
+      ]
+    },
+    {
+      "query": "EFSA Journal 2012 2880 carnauba wax no concern genotoxic carcinogenic full text",
+      "results": [
+        {
+          "title": "(PDF) Scientific Opinion on the re-evaluation of carnauba wax...",
+          "url": "https://www.researchgate.net/publication/307671582_Scientific_Opinion_on_the_re-evaluation_of_carnauba_wax_E_903_as_a_food_additive"
+        },
+        {
+          "title": "Scientific Opinion on the re‐evaluation of carnauba wax (E ...",
+          "url": "https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2012.2880"
+        },
+        {
+          "title": "EFSA Journal 2012 – published scientific outputsScientific Opinion on the re-evaluation of carnauba wax (E ...Scientific Opinion on the reevaluation of carnauba wax (E 903 ...EFSA Journal | Food Safety Journal | Wiley Online LibraryEvaluation of E903 as a food additive - proe.infoEFSA reaffirms carnauba wax safety at current usage levels",
+          "url": "https://www.efsa.europa.eu/en/corporate/pub/ejcompendium2012"
+        },
+        {
+          "title": "Scientific Opinion on the reevaluation of carnauba wax (E 903 ...",
+          "url": "https://www.openagrar.de/receive/openagrar_mods_00019432;lang=en"
+        },
+        {
+          "title": "EFSA Journal | Food Safety Journal | Wiley Online Library",
+          "url": "https://efsa.onlinelibrary.wiley.com/journal/18314732"
+        },
+        {
+          "title": "EFSA reaffirms carnauba wax safety at current usage levels",
+          "url": "https://www.foodnavigator.com/Article/2012/10/10/EFSA-reaffirms-carnauba-wax-safety-at-current-usage-levels/"
+        },
+        {
+          "title": "Scientific Opinion on the re‐evaluation of carnauba wax...",
+          "url": "https://proe.info/files/docs/2508/EFSA_E903.pdf"
+        },
+        {
+          "title": "EFSA | Science, safe food, sustainability",
+          "url": "https://www.efsa.europa.eu/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T20:48:30.941+00:00",
+  "status": "judged",
+  "system": "terra"
+}

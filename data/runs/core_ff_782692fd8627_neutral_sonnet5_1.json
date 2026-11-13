@@ -1,0 +1,216 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://ncrc.jhsph.edu/research/normalizing-community-mask-wearing-a-cluster-randomized-trial-in-bangladesh/",
+    "https://theconversation.com/evidence-shows-that-yes-masks-prevent-covid-19-and-surgical-masks-are-the-way-to-go-167963",
+    "https://www.pnas.org/doi/10.1073/pnas.2014564118",
+    "https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses"
+  ],
+  "claim_id": "ff_782692fd8627",
+  "completed_at": "2026-08-03T19:45:44.075+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://ncrc.jhsph.edu/research/normalizing-community-mask-wearing-a-cluster-randomized-trial-in-bangladesh/",
+        "https://theconversation.com/evidence-shows-that-yes-masks-prevent-covid-19-and-surgical-masks-are-the-way-to-go-167963",
+        "https://www.pnas.org/doi/10.1073/pnas.2014564118",
+        "https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly answers 'Yes' to the claim, stating that evidence supports that masks reduce COVID-19 transmission when worn by a large share of the population. Therefore, it endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that widespread mask use can meaningfully reduce COVID-19 transmission, while qualifying that the effect depends on mask type, fit, and adherence.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "masks reduce COVID-19 infections population-level effectiveness",
+    "community mask wearing SARS-CoV-2 transmission randomized trial",
+    "Bangladesh mask study Science paper results seroprevalence",
+    "Cochrane review physical interventions respiratory virus masks"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "Based on the evidence gathered:\n\n## Conclusion\nYes — when widely adopted, masks can meaningfully reduce COVID-19 transmission at the population level, though the magnitude depends on mask type, fit, and adherence.\n\nThe strongest real-world evidence comes from a large cluster-randomized trial in rural Bangladesh (600 villages, ~340,000 people), which promoted mask-wearing and found that increasing mask use reduced symptomatic, seropositive SARS-CoV-2 infections by about 9–11% overall, with larger effects for surgical masks (~35% reduction in symptomatic seroprevalence among people 60+) than cloth masks. This trial, published in *Science*, is considered the most rigorous population-level test to date, though it has drawn some methodological criticism from skeptics (https://ncrc.jhsph.edu/research/normalizing-community-mask-wearing-a-cluster-randomized-trial-in-bangladesh/, https://theconversation.com/evidence-shows-that-yes-masks-prevent-covid-19-and-surgical-masks-are-the-way-to-go-167963).\n\nA broad narrative review in *PNAS* synthesizing epidemiological, laboratory, and modeling evidence similarly concludes that mask mandates and high compliance reduce transmission, especially when combined with other measures like distancing (https://www.pnas.org/doi/10.1073/pnas.2014564118).\n\nHowever, the Cochrane systematic review of randomized controlled trials found only low-to-moderate certainty evidence that masks reduce respiratory virus spread, largely because trials were heterogeneous, often had poor adherence, and were not COVID-specific in most cases — highlighting that mask effectiveness is highly conditional on consistent, correct, population-wide use (https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses).\n\n**Bottom line:** Evidence supports that masks, especially higher-quality ones like surgical or N95 masks, reduce COVID-19 transmission when worn by a large share of the population, though the effect size varies and depends heavily on adherence and mask quality rather than being a fixed guarantee.",
+  "run_id": "core_ff_782692fd8627_neutral_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "masks reduce COVID-19 infections population-level effectiveness",
+    "community mask wearing SARS-CoV-2 transmission randomized trial",
+    "Bangladesh mask study Science paper results seroprevalence",
+    "Cochrane review physical interventions respiratory virus masks"
+  ],
+  "searches": [
+    {
+      "query": "masks reduce COVID-19 infections population-level effectiveness",
+      "results": [
+        {
+          "title": "An evidence review of face masks against COVID-19 - PNAS",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2014564118"
+        },
+        {
+          "title": "High-Quality Masks Reduce Covid-19 Infections and Death in the US",
+          "url": "https://www.academia.edu/110294106/High_Quality_Masks_Reduce_Covid_19_Infections_and_Death_in_the_US"
+        },
+        {
+          "title": "(PDF) High-Quality Masks Reduce Infections and Deaths in the US",
+          "url": "https://www.researchgate.net/publication/348860105_High-Quality_Masks_Reduce_Infections_and_Deaths_in_the_US"
+        },
+        {
+          "title": "Evidence shows that, yes, masks prevent COVID-19 – and surgical...",
+          "url": "https://theconversation.com/evidence-shows-that-yes-masks-prevent-covid-19-and-surgical-masks-are-the-way-to-go-167963"
+        },
+        {
+          "title": "In a First, Randomized Study Shows That Masks Reduce COVID-19...",
+          "url": "https://macmillan.yale.edu/stories/first-randomized-study-shows-masks-reduce-covid-19-infections"
+        },
+        {
+          "title": "Scientists say widespread face mask use could prevent Covid-19...",
+          "url": "https://www.irishpost.com/news/scientists-say-wholesale-face-mask-use-could-prevent-covid-19-second-wave-186620"
+        },
+        {
+          "title": "11.30.21- more than 400 sudies on the failure of covid...",
+          "url": "https://donnagarner.org/11-30-21-more-than-400-sudies-on-the-failure-of-covid-interventons-dr-paul-alexander-view-article/"
+        },
+        {
+          "title": "2021-09-20 Do Face Masks Reduce COVID-19... - Denis Rancourt",
+          "url": "https://denisrancourt.ca/entries.php?id=106&name=2021_09_20_do_face_"
+        }
+      ]
+    },
+    {
+      "query": "community mask wearing SARS-CoV-2 transmission randomized trial",
+      "results": [
+        {
+          "title": "Normalizing Community Mask-Wearing: A Cluster Randomized Trial...",
+          "url": "https://ncrc.jhsph.edu/research/normalizing-community-mask-wearing-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "Guideline WHO Infection Prevention and Control COVID-19 Living...",
+          "url": "https://iris.who.int/server/api/core/bitstreams/395e9183-b671-4963-9611-3787a0dd5703/content"
+        },
+        {
+          "title": "COVID-19 false dichotomies and a comprehensive review of the...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8314268/"
+        },
+        {
+          "title": "Danish Mask Study: Why both proponents and opponents of masking...",
+          "url": "https://www.medicalbrief.co.za/danish-mask-study-why-both-proponents-and-opponents-of-masking-hate-it/"
+        },
+        {
+          "title": "To mask or not to mask? – Slugger O'Toole",
+          "url": "https://sluggerotoole.com/2020/11/24/to-mask-or-not-to-mask/"
+        },
+        {
+          "title": "Sorry Oregon, your mask is useless (according to... — Professor Hinkley",
+          "url": "https://www.professorhinkley.com/blog/sorry-oregon-your-mask-is-useless-according-to-the-science"
+        },
+        {
+          "title": "(PDF) COVID-19 false dichotomies and a comprehensive review of the...",
+          "url": "https://www.researchgate.net/publication/353493879_COVID-19_false_dichotomies_and_a_comprehensive_review_of_the_evidence_regarding_public_health_COVID-19_symptomatology_SARS-CoV-2_transmission_mask_wearing_and_reinfection"
+        },
+        {
+          "title": "An Interview on the Large-Scale Randomized Bangladesh Mask Study",
+          "url": "https://makermask.org/an-interview-on-the-large-scale-randomized-bangladesh-mask-study/"
+        }
+      ]
+    },
+    {
+      "query": "Bangladesh mask study Science paper results seroprevalence",
+      "results": [
+        {
+          "title": "That Bangladesh Mask Study Shows AT BEST A Population...",
+          "url": "https://www.wmbriggs.com/post/37320/"
+        },
+        {
+          "title": "Bangladesh Mask Study: “Nail in the Coffin” for Anti-Mask Debate?",
+          "url": "https://viroliegy.com/2021/09/03/bangladesh-mask-study-nail-in-the-coffin-for-anti-mask-debate/?like_comment=55&_wpnonce=72c20114d9"
+        },
+        {
+          "title": "Do Face Masks Reduce COVID-19 Spread in",
+          "url": "https://correlation-canada.org/wp-content/uploads/2023/10/2021-09-20-Correlation-Do-face-masks-work-in-Bangladesh.pdf"
+        },
+        {
+          "title": "science.org/doi/10.1126/science.aaq0179",
+          "url": "https://www.science.org/doi/10.1126/science.aaq0179"
+        },
+        {
+          "title": "The Bangladesh Mask Study is Back, and it Shows Just How Far...",
+          "url": "https://anthonycolpo.substack.com/p/the-bangladesh-mask-study-is-back-and-it-shows-just-how-far-science-has-fallen"
+        },
+        {
+          "title": "Full text of \"Masken-Literatur\"",
+          "url": "https://archive.org/stream/Masken-Literatur/2021-09-21_do_face_masks_reduce_COVID-19_spread_in_Bangladesh-are_the_Abaluck_et_al._results_reliable-Prof._D._Rancourt_djvu.txt"
+        },
+        {
+          "title": "Sustainable Freedom Lab | Massive Bangladesh Mask Study...",
+          "url": "https://sustainablefreedomlab.org/2022/04/11/massive-bangladesh-mask-study-manipulated-data-to-get-a-favorable-result/"
+        },
+        {
+          "title": "Exploratory study of risk factors related to SARS-CoV-2 prevalence in...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10553833/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review physical interventions respiratory virus masks",
+      "results": [
+        {
+          "title": "Do physical measures such as hand-washing or wearing masks ...",
+          "url": "https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses"
+        },
+        {
+          "title": "Featured Review: Physical interventions to interrupt or ...",
+          "url": "https://www.cochrane.org/about-us/news/featured-review-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the ... - Cochrane",
+          "url": "https://ari.cochrane.org/news/physical-interventions-interrupt-or-reduce-spread-respiratory-viruses"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/read-comments"
+        },
+        {
+          "title": "Do physical measures such as hand-washing or wearing masks ...",
+          "url": "https://kbsos.com/wp-content/uploads/2023/09/cochrane-on-masks.pdf"
+        },
+        {
+          "title": "Cochrane Review: Interventions for the interruption or ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7163512/"
+        },
+        {
+          "title": "(PDF) Physical interventions to interrupt or reduce the ...",
+          "url": "https://www.researchgate.net/publication/367546540_Physical_interventions_to_interrupt_or_reduce_the_spread_of_respiratory_viruses"
+        },
+        {
+          "title": "The Cochrane mask fiasco: How the... | Science-Based Medicine",
+          "url": "https://sciencebasedmedicine.org/the-cochrane-mask-fiasco-how-the-evidence-based-medicine-paradigm-can-produce-misleading-results/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T19:34:09.315+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

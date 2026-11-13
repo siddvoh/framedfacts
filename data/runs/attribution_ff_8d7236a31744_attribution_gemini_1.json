@@ -1,0 +1,208 @@
+{
+  "arm": "attribution",
+  "citations": [
+    "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/science/science-briefs/masking-science-sars-cov2.html",
+    "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/",
+    "https://science.feedback.org/review/facebook-posts-spread-unsupported-anonymous-claim-that-face-mask-use-caused-a-lung-infection-in-a-healthy-teenager/"
+  ],
+  "claim_id": "ff_8d7236a31744",
+  "completed_at": "2026-08-03T22:44:26.906+00:00",
+  "framing": "attribution",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/science/science-briefs/masking-science-sars-cov2.html",
+        "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/",
+        "https://science.feedback.org/review/facebook-posts-spread-unsupported-anonymous-claim-that-face-mask-use-caused-a-lung-infection-in-a-healthy-teenager/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that medical evidence does not support the claim that prolonged mask use causes dangerous carbon dioxide buildup, concluding that standard cloth and surgical face masks allow normal gas exchange. Therefore, it clearly rejects the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "prolonged face mask use carbon dioxide buildup hypercapnia evidence",
+    "\"surgical mask\" \"cloth mask\" \"carbon dioxide\" physiological study CO2 end-tidal",
+    "American Lung Association face mask carbon dioxide hypercapnia CDC",
+    "\"face mask\" \"carbon dioxide\" hypercapnia \"American Thoracic Society\" OR \"CDC\" OR \"Mayo Clinic\""
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion:** Medical evidence does not support the claim that prolonged use of cloth or surgical face masks causes dangerous carbon dioxide ($\\text{CO}_2$) buildup (hypercapnia).\n\n**Key Findings:**\n\n1. **Gas Permeability:** $\\text{CO}_2$ and oxygen molecules are infinitely smaller than the microscopic weave of cloth or surgical masks. Carbon dioxide passes freely through the material and escapes around the loose edges of the mask during exhalation.\n2. **Physiological Safety:** Clinical evaluations reviewed in a [CDC Science Brief](https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/science/science-briefs/masking-science-sars-cov2.html) demonstrate that wearing cloth or surgical masks produces no clinically meaningful changes in blood oxygen or $\\text{CO}_2$ levels, even among older adults and individuals with chronic lung diseases such as COPD.\n3. **Discomfort vs. Toxicity:** People sometimes confuse sensory discomfort—such as warmth, trapped humidity, or breathing resistance—with hypercapnia or oxygen deprivation. Fact-check evaluations by [USA Today](https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/) and [Science Feedback](https://science.feedback.org/review/facebook-posts-spread-unsupported-anonymous-claim-that-face-mask-use-caused-a-lung-infection-in-a-healthy-teenager/) confirm that this local microclimate effect does not alter internal blood gas levels or cause toxicity.\n\nIn summary, standard cloth and surgical face masks allow normal gas exchange and do not trap dangerous levels of carbon dioxide.\n\n**Sources:**\n* [CDC Science Brief: Community Use of Masks](https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/science/science-briefs/masking-science-sars-cov2.html)\n* [USA Today Fact Check: Wearing Face Mask Will Not Cause Hypoxia or Hypercapnia](https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/)\n* [Science Feedback Review on Face Masks and Hypercapnia](https://science.feedback.org/review/facebook-posts-spread-unsupported-anonymous-claim-that-face-mask-use-caused-a-lung-infection-in-a-healthy-teenager/)",
+  "run_id": "attribution_ff_8d7236a31744_attribution_gemini_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "prolonged face mask use carbon dioxide buildup hypercapnia evidence",
+    "\"surgical mask\" \"cloth mask\" \"carbon dioxide\" physiological study CO2 end-tidal",
+    "American Lung Association face mask carbon dioxide hypercapnia CDC",
+    "\"face mask\" \"carbon dioxide\" hypercapnia \"American Thoracic Society\" OR \"CDC\" OR \"Mayo Clinic\""
+  ],
+  "searches": [
+    {
+      "query": "prolonged face mask use carbon dioxide buildup hypercapnia evidence",
+      "results": [
+        {
+          "title": "Fact check: Wearing face mask will not cause hypoxia or hypercapnia",
+          "url": "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+        },
+        {
+          "title": "FACT CHECK: Did The Surgeon General Say Face Masks Can Make...",
+          "url": "https://dailycaller.com/2020/05/27/fact-check-surgeon-general-jerome-adams-face-masks-sick-carbon-dioxide/"
+        },
+        {
+          "title": "Misleading Anti-Mask Video By Indian Youth Goes Viral | BOOM",
+          "url": "https://www.boomlive.in/fake-news/misleading-anti-mask-video-by-indian-youth-goes-viral-9367"
+        },
+        {
+          "title": "Hypercapnia (Hypercarbia): Symptoms, Causes, Treatment",
+          "url": "https://www.webmd.com/lung/copd/hypercapnia-copd-related"
+        },
+        {
+          "title": "Facebook posts spread unsupported anonymous claim that face mask...",
+          "url": "https://science.feedback.org/review/facebook-posts-spread-unsupported-anonymous-claim-that-face-mask-use-caused-a-lung-infection-in-a-healthy-teenager/"
+        },
+        {
+          "title": "Why FB's \"Fact Check\" of Mask Harm Claims is Utter Bullsh...",
+          "url": "https://www.bretigne.com/p/why-fbs-fact-check-of-mask-harm-claims"
+        },
+        {
+          "title": "Proof That Face Masks Do More Harm",
+          "url": "https://vernoncoleman.com/harmthangood.pdf"
+        },
+        {
+          "title": "Do I Need to Wear a Face Mask While Running Outside? | livestrong",
+          "url": "https://www.livestrong.com/article/13727236-mask-while-running/"
+        }
+      ]
+    },
+    {
+      "query": "\"surgical mask\" \"cloth mask\" \"carbon dioxide\" physiological study CO2 end-tidal",
+      "results": [
+        {
+          "title": "(PDF) The influence of N95 and surgical masks on carbon dioxide...",
+          "url": "https://www.researchgate.net/publication/383373274_The_influence_of_N95_and_surgical_masks_on_carbon_dioxide_levels_A_comprehensive_systematic_review_and_meta-analysis"
+        },
+        {
+          "title": "Impact of wearing a surgical and cloth mask during cycle exercise",
+          "url": "https://cdnsciencepub.com/doi/pdf/10.1139/apnm-2021-0190"
+        },
+        {
+          "title": "(PDF) Masks and Carbon Dioxide",
+          "url": "https://www.academia.edu/87216040/Masks_and_Carbon_Dioxide"
+        },
+        {
+          "title": "The mask paradox between perception of discomfort and reality of...",
+          "url": "https://www.jntlycom.com/news/the-mask-paradox-between-perception-of-discomfort-and-reality-of-physiological-effects-in-healthy-college-students-in-china-a-panel-study-bmc-public-health-full-text.html"
+        },
+        {
+          "title": "Research findings contradict statements linking wearing face masks to...",
+          "url": "https://yubanet.com/scitech/research-findings-contradict-statements-linking-wearing-face-masks-to-carbon-dioxide-poisoning-by-trapping-co2/"
+        },
+        {
+          "title": "Effects of wearing a mask during exercise on physiological and...",
+          "url": "https://repository.eduhk.hk/en/publications/effects-of-wearing-a-mask-during-exercise-on-physiological-and-ps/"
+        },
+        {
+          "title": "Safety Implication of Respiratory Protection Mask Wear",
+          "url": "https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/media/202408.pdf"
+        },
+        {
+          "title": "Evaluation of Surgical N95 Respirators Covered With Combinations of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37043393/"
+        }
+      ]
+    },
+    {
+      "query": "American Lung Association face mask carbon dioxide hypercapnia CDC",
+      "results": [
+        {
+          "title": "Orinasal mask - Wikipedia",
+          "url": "https://web.archive.org/web/20250611185050/https://en.wikipedia.org/wiki/Orinasal_mask"
+        },
+        {
+          "title": "Rebreather - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rebreather"
+        },
+        {
+          "title": "Гиперкапния — Википедия",
+          "url": "https://ru.wikipedia.org/wiki/Гиперкапния"
+        },
+        {
+          "title": "FACT CHECK: Did The Surgeon General Say Face Masks Can Make...",
+          "url": "https://dailycaller.com/2020/05/27/fact-check-surgeon-general-jerome-adams-face-masks-sick-carbon-dioxide/"
+        },
+        {
+          "title": "What's In a Cigarette? | American Lung Association",
+          "url": "https://www.lung.org/quit-smoking/smoking-facts/whats-in-a-cigarette"
+        },
+        {
+          "title": "sciencedirect.com/topics/medicine-and-dentistry/hypercapnia",
+          "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/hypercapnia"
+        },
+        {
+          "title": "Effect of elevated carbon dioxide on bronchial epithelial innate...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25921030/"
+        },
+        {
+          "title": "Respiratory acidosis (hypercapnia) and respiratory... - EMCrit Project",
+          "url": "https://emcrit.org/ibcc/hypercapnia/"
+        }
+      ]
+    },
+    {
+      "query": "\"face mask\" \"carbon dioxide\" hypercapnia \"American Thoracic Society\" OR \"CDC\" OR \"Mayo Clinic\"",
+      "results": [
+        {
+          "title": "Hypercapnia: Causes and Symptoms of High CO2 in the Blood",
+          "url": "https://www.verywellhealth.com/hypercapnia-symptoms-treatment-914862"
+        },
+        {
+          "title": "Community Respirators and Masks | Personal Protective ...",
+          "url": "https://www.cdc.gov/niosh/ppe/php/community-respirators-masks/index.html"
+        },
+        {
+          "title": "Standards for Surgical Respirators and Masks ... - CDC Stacks",
+          "url": "https://stacks.cdc.gov/view/cdc/230448/cdc_230448_DS1.pdf"
+        },
+        {
+          "title": "Science Brief: Community Use of Masks to Control the Spread ...",
+          "url": "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/science/science-briefs/masking-science-sars-cov2.html"
+        },
+        {
+          "title": "Full text of \"Respiratory care : the official journal of the American...&qu...",
+          "url": "https://archive.org/stream/respiratorycareo456amerrich/respiratorycareo456amerrich_djvu.txt"
+        },
+        {
+          "title": "Veno-arterial carbon dioxide gradient at the early stage of septic shock",
+          "url": "https://www.academia.edu/23124650/Veno_arterial_carbon_dioxide_gradient_at_the_early_stage_of_septic_shock"
+        },
+        {
+          "title": "Healthcare Respiratory Protection | Healthcare Workers | CDC",
+          "url": "https://www.cdc.gov/niosh/healthcare/respiratory-protection/index.html"
+        },
+        {
+          "title": "New hope for COPD patients possible with in-home device",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/new-hope-for-copd-patients-possible-with-in-home-device/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T22:33:30.543+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

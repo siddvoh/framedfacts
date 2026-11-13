@@ -1,0 +1,370 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926",
+    "https://pubmed.ncbi.nlm.nih.gov/33859192/",
+    "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-hydroxychloroquine",
+    "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-revokes-emergency-use-authorization-chloroquine-and"
+  ],
+  "claim_id": "ff_5fb9af8337dc",
+  "completed_at": "2026-08-03T16:58:09.363+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926",
+        "https://pubmed.ncbi.nlm.nih.gov/33859192/",
+        "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-hydroxychloroquine",
+        "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-revokes-emergency-use-authorization-chloroquine-and"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes 'No' and cites high-quality randomized evidence, WHO reviews, and FDA findings demonstrating that hydroxychloroquine does not reduce deaths from COVID-19.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "WHO hydroxychloroquine COVID-19 mortality living guideline randomized trials",
+    "RECOVERY trial hydroxychloroquine no mortality COVID-19 published results",
+    "Cochrane hydroxychloroquine COVID-19 treatment mortality review",
+    "NIH COVID-19 Treatment Guidelines hydroxychloroquine recommend against mortality",
+    "site:pubmed.ncbi.nlm.nih.gov hydroxychloroquine COVID-19 mortality randomized meta-analysis WHO living systematic review",
+    "site:who.int hydroxychloroquine COVID-19 guideline recommendation treatment",
+    "site:fda.gov hydroxychloroquine COVID-19 not effective death authorization revoked",
+    "hydroxychloroquine outpatient COVID-19 randomized trial hospitalization death NEJM"
+  ],
+  "query_labels": [
+    "neutral",
+    "stance_congruent",
+    "neutral",
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "stance_congruent",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion: No.** High-quality randomized evidence does not show that hydroxychloroquine reduces deaths from COVID-19.\n\nThe clearest direct evidence is the large UK RECOVERY randomized controlled trial in hospitalized patients. It found no improvement in 28-day mortality with hydroxychloroquine (and no benefit on hospital discharge or progression to mechanical ventilation/death). Random allocation is important because it avoids the confounding that can make early observational reports appear favorable.  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa2022926\n\nResults also hold when trials are pooled. A meta-analysis of randomized trials assessing mortality found hydroxychloroquine was not associated with lower mortality; its results were driven by the large, well-conducted trials rather than small or uncontrolled studies.  \nhttps://pubmed.ncbi.nlm.nih.gov/33859192/\n\nWHO’s current review is especially useful as a synthesis of the overall evidence: it reports findings from 30 trials involving more than 10,000 COVID-19 patients. Hydroxychloroquine did **not** reduce mortality, need for mechanical ventilation, or its duration, and WHO does not recommend it as COVID-19 treatment.  \nhttps://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-hydroxychloroquine\n\nThere are also safety reasons not to use it outside an appropriate clinical setting: hydroxychloroquine can cause potentially serious heart-rhythm effects and drug interactions. The FDA revoked its COVID-19 emergency authorization after concluding that the totality of evidence showed lack of benefit.  \nhttps://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-revokes-emergency-use-authorization-chloroquine-and\n\nThis concerns hydroxychloroquine for COVID-19; it remains an established prescription medicine for certain autoimmune diseases.",
+  "run_id": "core_ff_5fb9af8337dc_skeptic_terra_2",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "WHO hydroxychloroquine COVID-19 mortality living guideline randomized trials",
+    "RECOVERY trial hydroxychloroquine no mortality COVID-19 published results",
+    "Cochrane hydroxychloroquine COVID-19 treatment mortality review",
+    "NIH COVID-19 Treatment Guidelines hydroxychloroquine recommend against mortality",
+    "site:pubmed.ncbi.nlm.nih.gov hydroxychloroquine COVID-19 mortality randomized meta-analysis WHO living systematic review",
+    "site:who.int hydroxychloroquine COVID-19 guideline recommendation treatment",
+    "site:fda.gov hydroxychloroquine COVID-19 not effective death authorization revoked",
+    "hydroxychloroquine outpatient COVID-19 randomized trial hospitalization death NEJM"
+  ],
+  "searches": [
+    {
+      "query": "WHO hydroxychloroquine COVID-19 mortality living guideline randomized trials",
+      "results": [
+        {
+          "title": "Hydroxychloroquine for COVID-19: What do the clinical trials tell us?",
+          "url": "https://www.cebm.net/covid-19/hydroxychloroquine-for-covid-19-what-do-the-clinical-trials-tell-us/"
+        },
+        {
+          "title": "WHO halts hydroxychloroquine in COVID-19 trials: Live... | Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2020/7/4/who-halts-hydroxychloroquine-in-covid-19-trials-live-updates"
+        },
+        {
+          "title": "Michigan hospital study says Hydroxychloroquine COVID-19...",
+          "url": "https://nsjonline.com/article/2020/07/michigan-hospital-study-says-hydroxychloroquine-covid-19-treatment-cut-death-rate-significantly/"
+        },
+        {
+          "title": "(PDF) Hydroxychloroquine vs. Azithromycin for Hospitalized Patients...",
+          "url": "https://www.researchgate.net/publication/341506010_Hydroxychloroquine_vs_Azithromycin_for_Hospitalized_Patients_with_Suspected_or_Confirmed_COVID-19_HAHPS_Protocol_for_a_Pragmatic_Open_Label_Active_Comparator_Trial"
+        },
+        {
+          "title": "Epidemiologist at Yale Provides Testimony on Hydroxychloroquine...",
+          "url": "https://www.lewrockwell.com/2020/12/no_author/epidemiologist-at-yale-provides-testimony-on-hydroxychloroquine-for-treating-covid-19/"
+        },
+        {
+          "title": "The Strange and Twisted Tale of Hydroxychloroquine | WIRED",
+          "url": "https://www.wired.com/story/hydroxychloroquine-covid-19-strange-twisted-tale/"
+        },
+        {
+          "title": "There's a Mountain of Evidence That Hydroxychloroquine Is an...",
+          "url": "https://pjmedia.com/matt-margolis/2020/08/07/theres-a-mountain-of-evidence-that-hydroxychloroquine-is-an-effective-treatment-for-covid-19-n763953"
+        },
+        {
+          "title": "Opinion | Why Is Congress Still Discussing Hydroxychloroquine?",
+          "url": "https://www.nytimes.com/2020/11/24/opinion/hydroxychloroquine-covid.html"
+        }
+      ]
+    },
+    {
+      "query": "RECOVERY trial hydroxychloroquine no mortality COVID-19 published results",
+      "results": [
+        {
+          "title": "There's a Mountain of Evidence That Hydroxychloroquine Is an...",
+          "url": "https://pjmedia.com/matt-margolis/2020/08/07/theres-a-mountain-of-evidence-that-hydroxychloroquine-is-an-effective-treatment-for-covid-19-n763953"
+        },
+        {
+          "title": "Epidemiologist at Yale Provides Testimony on Hydroxychloroquine...",
+          "url": "https://www.lewrockwell.com/2020/12/no_author/epidemiologist-at-yale-provides-testimony-on-hydroxychloroquine-for-treating-covid-19/"
+        },
+        {
+          "title": "120+ Covid Lies And Statistics (2026, Verified)",
+          "url": "https://gitnux.org/covid-lies-and-statistics/"
+        },
+        {
+          "title": "(PDF) General aspects of the COVID-19 pandemic",
+          "url": "https://www.academia.edu/100323528/General_aspects_of_the_COVID_19_pandemic"
+        },
+        {
+          "title": "Giuliani Reveals He’s Taking Hydroxy to Fend Off COVID-19",
+          "url": "https://www.thedailybeast.com/rudy-giuliani-reveals-hes-taking-hydroxychloroquine-to-fend-off-covid-19/"
+        },
+        {
+          "title": "Effect of Hydroxychloroquine in Hospitalized Patients with ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2022926"
+        },
+        {
+          "title": "Effect of Hydroxychloroquine in Hospitalized Patients with ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2022926"
+        },
+        {
+          "title": "Hydroxychloroquine results - RECOVERY Trial",
+          "url": "https://www.recoverytrial.net/results/hydroxychloroquine-results"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane hydroxychloroquine COVID-19 treatment mortality review",
+      "results": [
+        {
+          "title": "Michigan hospital study says Hydroxychloroquine COVID-19...",
+          "url": "https://nsjonline.com/article/2020/07/michigan-hospital-study-says-hydroxychloroquine-covid-19-treatment-cut-death-rate-significantly/"
+        },
+        {
+          "title": "There's a Mountain of Evidence That Hydroxychloroquine Is an...",
+          "url": "https://pjmedia.com/matt-margolis/2020/08/07/theres-a-mountain-of-evidence-that-hydroxychloroquine-is-an-effective-treatment-for-covid-19-n763953"
+        },
+        {
+          "title": "In Viral Video, Doctor Falsely Touts Hydroxychloroquine as...",
+          "url": "https://www.factcheck.org/2020/07/in-viral-video-doctor-falsely-touts-hydroxychloroquine-as-covid-19-cure/"
+        },
+        {
+          "title": "From therapeutic promise to political symbol: hydroxychloroquine...",
+          "url": "https://link.springer.com/article/10.1057/s41292-026-00398-1"
+        },
+        {
+          "title": "Is Your Ailment a Cold, the Flu or COVID-19? | Orlando | UCF Health",
+          "url": "https://ucfhealth.com/covid-19/is-your-ailment-a-cold-the-flu-or-covid-19/"
+        },
+        {
+          "title": "Fact checking Clive Palmer's hydroxychloroquine advertisements",
+          "url": "https://www.abc.net.au/news/2020-05-02/coronacheck-clive-palmer-hydroxychloroquine-covid-19/12203608"
+        },
+        {
+          "title": "sciencedirect.com/science/article/pii/S0924857920300996",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0924857920300996"
+        },
+        {
+          "title": "Dr. Vladimir Zelenko MD",
+          "url": "https://vladimirzelenkomd.com/"
+        }
+      ]
+    },
+    {
+      "query": "NIH COVID-19 Treatment Guidelines hydroxychloroquine recommend against mortality",
+      "results": [
+        {
+          "title": "'This was a gift to us': Ivermectin effective for COVID-19 prophylaxis...",
+          "url": "https://www.healio.com/news/primary-care/20201208/this-was-a-gift-to-us-ivermectin-effective-for-covid19-prophylaxis-treatment"
+        },
+        {
+          "title": "Fauci Brushed Off E-mail Suggesting Hydroxychloroquine Was...",
+          "url": "https://thenewamerican.com/us/healthcare/fauci-brushed-off-email-suggesting-hydroxychloroquine-was-effective-against-covid-19-too-long-for-me-to-read/"
+        },
+        {
+          "title": "FACT CHECK: Did The NIH List Ivermectin As An... | The Daily Caller",
+          "url": "https://dailycaller.com/2022/09/05/fact-check-nih-ivermectin-covid/"
+        },
+        {
+          "title": "Frontiers | Neurological symphony: post-acute COVID-19 syndrome, an...",
+          "url": "https://www.frontiersin.org/journals/integrative-neuroscience/articles/10.3389/fnint.2024.1417856/full"
+        },
+        {
+          "title": "sciencedirect.com/science/article/pii/S0924857920300996",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0924857920300996"
+        },
+        {
+          "title": "Thread by @IntegralAnswers on Thread Reader App – Thread Reader...",
+          "url": "https://threadreaderapp.com/thread/2082813086176866498.html"
+        },
+        {
+          "title": "Spike Protein Detox & Mitochondrial Recovery: The Complete 2026...",
+          "url": "https://covid19.onedaymd.com/2026/07/spike-protein-induced-mitochondrial-dysfunction.html"
+        },
+        {
+          "title": "'Americans Haven't Forgotten': Joni Ernst Confronts Fauci... - Yo...",
+          "url": "https://www.youtube.com/watch?v=VeH8bBqf71A"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov hydroxychloroquine COVID-19 mortality randomized meta-analysis WHO living systematic review",
+      "results": [
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Mortality outcomes with hydroxychloroquine and chloroquine in ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33859192/"
+        },
+        {
+          "title": "\"Hydroxychloroquine in patients with COVID-19: A Systematic ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32417708/"
+        },
+        {
+          "title": "The Outcome of Hydroxychloroquine in Patients Treated for ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33082891/"
+        },
+        {
+          "title": "Does Adding of Hydroxychloroquine to the Standard Care ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32519281/"
+        },
+        {
+          "title": "The efficacy and safety of hydroxychloroquine at different ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39365687/"
+        },
+        {
+          "title": "Hydroxychloroquine/chloroquine for the treatment of ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36173983/"
+        },
+        {
+          "title": "Interventions for treatment of COVID-19: Second edition of a living...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33705495/"
+        }
+      ]
+    },
+    {
+      "query": "site:who.int hydroxychloroquine COVID-19 guideline recommendation treatment",
+      "results": [
+        {
+          "title": "Coronavirus disease (COVID-19): Hydroxychloroquine",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-hydroxychloroquine"
+        },
+        {
+          "title": "Targeted Update: Safety and efficacy of hydroxychloroquine or ...",
+          "url": "https://www.who.int/publications/m/item/targeted-update-safety-and-efficacy-of-hydroxychloroquine-or-chloroquine-for-treatment-of-covid-19"
+        },
+        {
+          "title": "Guideline Drugs to prevent COVID-19: living guideline",
+          "url": "https://iris.who.int/bitstream/handle/10665/366530/WHO-2019-nCoV-prophylaxes-2023.1-eng.pdf?sequence=1"
+        },
+        {
+          "title": "WHO Guideline Development Group for living clinical practice ...",
+          "url": "https://cdn.who.int/media/docs/default-source/documents/emergencies/9-mar_23015_bios_who-gdg-living-clinical-guidance-for-clinical-management-of-covid-19.pdf?sfvrsn=3aab40bb_8&download=true"
+        },
+        {
+          "title": "Effectiveness of use of chloroquine/ hydroxychloroquine in ...",
+          "url": "https://www.afro.who.int/publications/effectiveness-use-chloroquine-hydroxychloroquine-covid-19-case-management"
+        },
+        {
+          "title": "Therapeutics for people with COVID-19",
+          "url": "https://www.who.int/therapeutics"
+        },
+        {
+          "title": "Coronavirus disease (COVID-19): Solidarity Trial and...",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-hydroxychloroquine"
+        },
+        {
+          "title": "COVID-19 Scientific and Public Health Policy",
+          "url": "https://afrolib.afro.who.int/doc_num.php?explnum_id=7734"
+        }
+      ]
+    },
+    {
+      "query": "site:fda.gov hydroxychloroquine COVID-19 not effective death authorization revoked",
+      "results": [
+        {
+          "title": "Coronavirus (COVID-19) Update: FDA Revokes Emergency Use... | FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-revokes-emergency-use-authorization-chloroquine-and"
+        },
+        {
+          "title": "Letter of Authorization - chloroquine phosphate and...",
+          "url": "https://www.fda.gov/media/136534/download"
+        },
+        {
+          "title": "Coronavirus (COVID-19) Update: FDA Authorizes Monoclonal... | FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-monoclonal-antibodies-treatment-covid-19-0"
+        },
+        {
+          "title": "Coronavirus (COVID-19) Update: FDA Revokes Emergency Use... | FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-revokes-emergency-use-authorization-monoclonal-antibody-bamlanivimab"
+        },
+        {
+          "title": "FDA cautions use of hydroxychloroquine/chloroquine for COVID-19",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-cautions-against-use-hydroxychloroquine-or-chloroquine-covid-19-outside-hospital-setting-or"
+        },
+        {
+          "title": "Hydroxychloroquine or Chloroquine for COVID-19: Drug Safety ...",
+          "url": "https://www.fda.gov/safety/medical-product-safety-information/hydroxychloroquine-or-chloroquine-covid-19-drug-safety-communication-fda-cautions-against-use"
+        },
+        {
+          "title": "Emergency Use Authorization (EUA) for chloroquine phosphate ...",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/EUA+Review+CQ+HCQ.pdf"
+        },
+        {
+          "title": "Hydroxychloroquine sulfate EUA fact sheet for parent/caregivers",
+          "url": "https://www.fda.gov/media/136538/download"
+        }
+      ]
+    },
+    {
+      "query": "hydroxychloroquine outpatient COVID-19 randomized trial hospitalization death NEJM",
+      "results": [
+        {
+          "title": "A Randomized Trial of Hydroxychloroquine as Postexposure ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2016638"
+        },
+        {
+          "title": "Should clinicians prescribe hydroxychloroquine for ear...",
+          "url": "https://factually.co/fact-checks/health/hydroxychloroquine-early-outpatient-covid19-randomized-trial-evidence-5e0d56"
+        },
+        {
+          "title": "Fauci not alone in saying hydroxychloroquine unproven... | Fact Check",
+          "url": "https://factcheck.afp.com/fauci-not-alone-saying-hydroxychloroquine-unproven-against-covid-19"
+        },
+        {
+          "title": "Rolling out mass hydroxychloroquine prophylaxis for covid-19 in...",
+          "url": "https://blogs.bmj.com/bmj/2020/05/01/rolling-out-mass-hydroxychloroquine-prophylaxis-for-covid-19-in-indias-slums-risks-public-trust/"
+        },
+        {
+          "title": "Nigerian-trained doctor claims hydroxychloroquine cures COVID-19",
+          "url": "https://guardian.ng/news/nigerian-trained-us-based-doctor-claims-hydroxychloroquine-cures-covid-19/"
+        },
+        {
+          "title": "COVID-19: A Second Opinion — Bombshell US Senate Hearing... | VK",
+          "url": "https://vk.com/@agitpapa-covid-19-a-second-opinion-bombshell-us-senate-hearing-on-the"
+        },
+        {
+          "title": "Hospitalization for COVID-19 in patients treated with selected...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33098713/"
+        },
+        {
+          "title": "(PDF) Inhaled Corticosteroids and COVID-19 Risk and Mortality...",
+          "url": "https://www.academia.edu/67361832/Inhaled_Corticosteroids_and_COVID_19_Risk_and_Mortality_A_Nationwide_Cohort_Study"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T16:38:24.817+00:00",
+  "status": "judged",
+  "system": "terra"
+}

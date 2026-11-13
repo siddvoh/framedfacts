@@ -1,0 +1,193 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793",
+    "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+  ],
+  "claim_id": "ff_23d78e91cffc",
+  "completed_at": "2026-08-03T13:27:35.331+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793",
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly confirms the claim by stating 'Yes' and citing randomized trials demonstrating that low-dose CT screening reduces lung-cancer mortality in heavy current or former smokers.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** Yes. Randomized trials show that low-dose CT (LDCT) screening reduces *lung-cancer mortality* in people at high risk because of substantial current or past smoking—not merely that it finds more cancers.\n\nIn the U.S. NLST (53,454 high-risk participants), LDCT screening produced about a **20% relative reduction** in lung-cancer deaths compared with chest X-ray. The Dutch-Belgian NELSON trial independently found lower lung-cancer mortality with CT screening than with no screening (reported as **24% lower in men** after 10 years; estimates in women were also favorable). Thus, for eligible heavy current or former smokers, repeated LDCT screening is likely to lower the chance of dying from lung cancer.\n\nThis does **not** mean CT screening prevents lung cancer or eliminates risk, and trial results do not establish the same benefit for people at lower risk. Screening also has harms: false-positive/indeterminate findings, follow-up scans or invasive procedures, radiation exposure, incidental findings, and possible overdiagnosis. The benefit depends on receiving appropriate follow-up and being healthy enough to undergo curative treatment if cancer is found.\n\nIn the U.S., the USPSTF recommends **annual** LDCT for adults aged 50–80 with at least a 20-pack-year history who currently smoke or quit within 15 years; it should be paired with smoking-cessation support. Quitting remains the most effective way to reduce lung-cancer risk.\n\nSources:  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa1102873  \nhttps://www.nejm.org/doi/full/10.1056/NEJMoa1911793  \nhttps://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening",
+  "run_id": "replay_ff_23d78e91cffc_neutral_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "National Lung Screening Trial low-dose CT lung cancer mortality reduction heavy smokers results",
+      "results": [
+        {
+          "title": "National Lung Screening Trial - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/National_Lung_Screening_Trial"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic Screening",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1102873"
+        },
+        {
+          "title": "Results of Initial Low-Dose Computed Tomographic Screening for Lung Cancer",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1209120"
+        },
+        {
+          "title": "National Lung Screening Trial (NLST) - NCI - National Cancer Institute",
+          "url": "https://www.cancer.gov/types/lung/research/nlst"
+        },
+        {
+          "title": "Reduced lung-cancer mortality with low-dose computed tomographic screening",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21714641/"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic Screening",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4356534/"
+        },
+        {
+          "title": "National Lung Screening Trial: Questions and Answers",
+          "url": "https://www.cancer.gov/types/lung/research/nlst-qa"
+        },
+        {
+          "title": "Low-dose CT for Lung Cancer Screening: Updates and Clinical Impact",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0037198X25000549"
+        }
+      ]
+    },
+    {
+      "query": "NELSON trial CT screening lung cancer mortality reduction 10 years high risk smokers",
+      "results": [
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793"
+        },
+        {
+          "title": "NELSON trial: reduced lung-cancer mortality with volume CT ...",
+          "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext"
+        },
+        {
+          "title": "NELSON Trial confirms mortality benefit of lung cancer screening",
+          "url": "https://pressroom.cancer.org/NELSON2020"
+        },
+        {
+          "title": "Lung Cancer Screening with Chest CT: Efficacy Confirmed",
+          "url": "https://pubs.rsna.org/doi/10.1148/rycan.2020204015"
+        },
+        {
+          "title": "NELSON trial: reduced lung-cancer mortality with volume CT ...",
+          "url": "https://www.thelancet.com/pdfs/journals/lanres/PIIS2213-2600(20)30059-X.pdf"
+        },
+        {
+          "title": "PL02.05 Effects of Volume CT Lung Cancer Screening: Mortality ...",
+          "url": "https://www.jto.org/article/S1556-0864(18)30970-5/fulltext"
+        },
+        {
+          "title": "NELSON Study Shows CT Screening for Nodule Volume ... - IASLC",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/nelson-study"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31995683/"
+        }
+      ]
+    },
+    {
+      "query": "USPSTF lung cancer screening recommendation annual low dose CT mortality evidence harms",
+      "results": [
+        {
+          "title": "Recommendation: Lung Cancer: Screening | United States ...",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+        },
+        {
+          "title": "USPSTF Evidence Report: Screening for Lung Cancer",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2777244"
+        },
+        {
+          "title": "Screening for Lung Cancer",
+          "url": "https://www.uspreventiveservicestaskforce.org/home/getfilebytoken/WN7F3WW6RQFDkHay87a3Dx"
+        },
+        {
+          "title": "Screening for Lung Cancer With Low-Dose Computed Tomography",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2777242"
+        },
+        {
+          "title": "USPSTF Recommends Lung Cancer Screening with Low-dose CT - AAFP",
+          "url": "https://www.aafp.org/about/news/20210325uspstflungcancer"
+        },
+        {
+          "title": "Screening for Lung Cancer | Lung Cancer | CDC",
+          "url": "https://www.cdc.gov/lung-cancer/screening/index.html"
+        },
+        {
+          "title": "Lung Cancer: Screening - Healthy People 2030 | odphp.health.gov",
+          "url": "https://odphp.health.gov/healthypeople/tools-action/browse-evidence-based-resources/lung-cancer-screening"
+        },
+        {
+          "title": "Lung Cancer Early Detection | Lung Cancer Screening",
+          "url": "https://www.cancer.org/cancer/types/lung-cancer/detection-diagnosis-staging/detection.html"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane lung cancer screening low dose CT mortality randomized trial smokers",
+      "results": [
+        {
+          "title": "Lung Cancer–Related Mortality and the Impact of Low-Dose...",
+          "url": "https://www.aafp.org/afp/2023/0500/cochrane-lung-cancer-related-mortality-ct-screening"
+        },
+        {
+          "title": "Impact of low‐dose computed tomography (LDCT) screening on ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013829.pub2/full"
+        },
+        {
+          "title": "New Horizons in Lung Cancer Screening | Image Wisely",
+          "url": "https://www.imagewisely.org/Imaging-Modalities/Computed-Tomography/New-Horizons"
+        },
+        {
+          "title": "Impact of low-dose computed tomography (LDCT) screening on lung ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35921047/"
+        },
+        {
+          "title": "Screening for Lung Cancer With Low-Dose Computed Tomography ...",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2777242"
+        },
+        {
+          "title": "Low-dose CT Scan for Lung Cancer Screening - TheNNT",
+          "url": "https://thennt.com/nnt/low-dose-ct-scan-lung-cancer-screening/"
+        },
+        {
+          "title": "Screening for Lung Cancer with Low Dose Computed Tomography ...",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?proposed=N&ncaid=304&keyword=lesion&keywordType=all&areaId=all&docType=NCA,CAL,NCD,MEDCAC,TA,MCD,6,3,5,1,F,P&contractOption=all&sortBy=relevance&bc=1"
+        },
+        {
+          "title": "Impact of computed tomography (CT) on lung cancer screening",
+          "url": "https://www.cochrane.org/evidence/CD013829_impact-computed-tomography-ct-lung-cancer-screening"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T13:27:22.441+00:00",
+  "status": "judged",
+  "system": "terra"
+}

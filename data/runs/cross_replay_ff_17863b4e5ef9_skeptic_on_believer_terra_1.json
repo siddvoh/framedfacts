@@ -1,0 +1,343 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608561/",
+    "https://pubmed.ncbi.nlm.nih.gov/38951846/",
+    "https://www.bmj.com/content/345/bmj.e6231",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12460949/"
+  ],
+  "claim_id": "ff_17863b4e5ef9",
+  "completed_at": "2026-08-04T17:01:51.952+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608561/",
+        "https://pubmed.ncbi.nlm.nih.gov/38951846/",
+        "https://www.bmj.com/content/345/bmj.e6231",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12460949/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that while an association between benzodiazepine/sedative use and dementia exists in some observational studies, causality remains unresolved due to potential reverse causation and confounding, rendering the overall evidence inconclusive.",
+      "label": "hedged"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** Your answer is broadly right if “increase” means a *proven causal, long-term increase* in Alzheimer’s disease or dementia: the evidence does **not** establish that benzodiazepines cause dementia. But it would be too strong to say there is no concern at all.\n\nMany observational studies and meta-analyses report that benzodiazepine users have a higher subsequent dementia rate. However, this may reflect **reverse causation/protopathic bias**: anxiety, insomnia, depression, and subtle cognitive or behavioral changes can be early manifestations of dementia and can lead to sedative prescriptions before dementia is diagnosed. Other differences between users and non-users can also confound results. An umbrella review concluded the evidence linking benzodiazepines to dementia was limited and required more research.  \nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC10608561/\n\nMore causally careful research weakens the case. A 2024 population-based cohort of cognitively healthy adults found overall benzodiazepine use was **not associated** with increased dementia risk, while noting uncertainty about long-term neurodegenerative effects.  \nhttps://pubmed.ncbi.nlm.nih.gov/38951846/\n\nThere are conflicting studies: for example, an earlier prospective study reported increased risk among *new* users.  \nhttps://www.bmj.com/content/345/bmj.e6231  \nThus, association remains possible—especially with prolonged/high-dose use—but causality is unresolved.\n\nFor “related” non-benzodiazepine sleeping pills (“Z-drugs,” such as zolpidem), the supplied evidence does not provide strong evidence of a dementia-specific causal effect. They should not be assumed harmless, however: benzodiazepine receptor agonists can cause short-term cognitive impairment, falls, fractures, and hospitalization in older adults.  \nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12460949/\n\nDo not stop regular sedatives abruptly; discuss tapering or alternatives with the prescriber.",
+  "run_id": "cross_replay_ff_17863b4e5ef9_skeptic_on_believer_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "benzodiazepines dementia risk systematic review meta-analysis 2023 reverse causation",
+      "results": [
+        {
+          "title": "Benzodiazepine use in relation to long-term dementia risk and ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11218055/"
+        },
+        {
+          "title": "Benzodiazepine Effects on Cognitive Decline and Dementia Risk",
+          "url": "https://www.nature.com/nature-index/topics/l4/benzodiazepine-effects-on-cognitive-decline-and-dementia-risk"
+        },
+        {
+          "title": "The Effect of Benzodiazepines on Cognition and Alzheimer's Disease",
+          "url": "https://www.mdpi.com/3042-4518/3/1/2"
+        },
+        {
+          "title": "Benzodiazepines | GV Health",
+          "url": "https://www.gvhealth.org.au/wp-content/uploads/2023/08/Benzodiazepines.pdf"
+        },
+        {
+          "title": "Benzodiazepine-related dementia risks and protopathic biases ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10259140/"
+        },
+        {
+          "title": "What Drugs and Substances to Avoid to Lower Your Dementia Risk",
+          "url": "https://drglorioso.substack.com/p/what-drugs-and-substances-to-avoid"
+        },
+        {
+          "title": "Association between benzodiazepines and dementia: A case ...",
+          "url": "https://europepmc.org/article/med/41218578"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia | Psychiatric Times",
+          "url": "https://www.psychiatrictimes.com/view/benzodiazepine-use-risk-dementia"
+        }
+      ]
+    },
+    {
+      "query": "benzodiazepine use dementia risk umbrella review systematic review PubMed",
+      "results": [
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly ... - MDPI",
+          "url": "https://www.mdpi.com/2075-4426/13/10/1485"
+        },
+        {
+          "title": "(PDF) Benzodiazepine Use and the Risk of Dementia in the Elderly ...",
+          "url": "https://www.researchgate.net/publication/374682495_Benzodiazepine_Use_and_the_Risk_of_Dementia_in_the_Elderly_Population_An_Umbrella_Review_of_Meta-Analyses"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly Population ...",
+          "url": "https://europepmc.org/article/PMC/PMC10608561"
+        },
+        {
+          "title": "[PDF] Benzodiazepine Use and the Risk of Dementia in the Elderly ...",
+          "url": "https://www.semanticscholar.org/paper/Benzodiazepine-Use-and-the-Risk-of-Dementia-in-the-Wu-Liao/4095b9deff5f3f1b416b3c0adab9d7b23f154a51"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly Population ...",
+          "url": "https://hub.tmu.edu.tw/en/publications/benzodiazepine-use-and-the-risk-of-dementia-in-the-elderly-popula/"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly Population ...",
+          "url": "https://www.researchgate.net/publication/374682495_Benzodiazepine_Use_and_the_Risk_of_Dementia_in_the_Elderly_Population_An_Umbrella_Review_of_Meta-Analyses/fulltext/65293a9f0e4a1710e5072a55/Benzodiazepine-Use-and-the-Risk-of-Dementia-in-the-Elderly-Population-An-Umbrella-Review-of-Meta-Analyses.pdf"
+        },
+        {
+          "title": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly Population ...",
+          "url": "https://read.qxmd.com/read/37888096/benzodiazepine-use-and-the-risk-of-dementia-in-the-elderly-population-an-umbrella-review-of-meta-analyses"
+        }
+      ]
+    },
+    {
+      "query": "Alzheimer's Society benzodiazepines dementia risk evidence sleeping pills",
+      "results": [
+        {
+          "title": "Sleep and the risk of dementia | Alzheimer's Society",
+          "url": "https://www.alzheimers.org.uk/about-dementia/managing-the-risk-of-dementia/possible-risks-of-dementia/sleep"
+        },
+        {
+          "title": "Can Some Sleep Medications Raise the Risk of Alzheimer's Disease?",
+          "url": "https://www.alzdiscovery.org/cognitive-vitality/blog/can-some-sleep-medications-raise-the-risk-of-alzheimers-disease"
+        },
+        {
+          "title": "Benzodiazepine Use and the Risk of Dementia in the Elderly ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608561/"
+        },
+        {
+          "title": "Do sleep medications increase your chances of dementia?",
+          "url": "https://psychiatry.ucsf.edu/news/do-sleep-medications-increase-your-chances-dementia"
+        },
+        {
+          "title": "Benzodiazepines Don't Increase Dementia Risks in Older Adults ...",
+          "url": "https://schaeffer.usc.edu/research/benzodiazepines-dont-increase-dementia-risks-in-older-adults-usc-study-finds/"
+        },
+        {
+          "title": "Benzodiazepine use and the risk of dementia - Joyce - 2022",
+          "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/trc2.12309"
+        },
+        {
+          "title": "Clearing the confounding confusion: Benzodiazepines and the risk ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167494325001086"
+        },
+        {
+          "title": "Treatments for Sleep Changes | Alzheimer's Association",
+          "url": "https://www.alz.org/alzheimers-dementia/treatments/for-sleep-changes"
+        }
+      ]
+    },
+    {
+      "query": "benzodiazepines dementia risk prospective cohort study protopathic bias BMJ",
+      "results": [
+        {
+          "title": "Benzodiazepine use and risk of incident dementia or cognitive decline ...",
+          "url": "https://www.bmj.com/content/352/bmj.i90"
+        },
+        {
+          "title": "A Systematic Review and Meta-Analysis of the Risk of Dementia ...",
+          "url": "https://link.springer.com/article/10.1007/s40263-018-0535-3"
+        },
+        {
+          "title": "Benzodiazepine use and risk of dementia: prospective ... - The BMJ",
+          "url": "https://www.bmj.com/content/345/bmj.e6231"
+        },
+        {
+          "title": "Use of Benzodiazepines and Risk of Incident Dementia: A Retrospective ...",
+          "url": "https://academic.oup.com/biomedgerontology/article/77/5/1035/6354922"
+        },
+        {
+          "title": "Benzodiazepine-related dementia risks and protopathic biases revealed ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10259140/"
+        },
+        {
+          "title": "Association between benzodiazepines and dementia: A case-control study ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0022510X25003661"
+        },
+        {
+          "title": "Association between benzodiazepines and dementia: A case-control study ...",
+          "url": "https://www.jns-journal.com/article/S0022-510X(25)00366-1/fulltext"
+        },
+        {
+          "title": "Benzodiazepine use in relation to long‐term dementia risk and imaging ...",
+          "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.074601"
+        }
+      ]
+    },
+    {
+      "query": "Z-drugs zolpidem dementia risk systematic review meta-analysis insomnia medication",
+      "results": [
+        {
+          "title": "Insomnia - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Insomnia"
+        },
+        {
+          "title": "Adverse effects of Z-drugs for sleep disturbance in people living with...",
+          "url": "https://sbgg.org.br/wp-content/uploads/2020/12/1-ZOLPIDEM-DEMENTIA.pdf"
+        },
+        {
+          "title": "(PDF) An Increased Risk of Reversible Dementia May Occur After...",
+          "url": "https://www.researchgate.net/publication/275666683_An_Increased_Risk_of_Reversible_Dementia_May_Occur_After_Zolpidem_Derivative_Use_in_the_Elderly_Population_A_Population-Based_Case-Control_Study"
+        },
+        {
+          "title": "Zolpidem Uses, Dosage & Side Effects - Drugs.com",
+          "url": "https://www.drugs.com/zolpidem.html"
+        },
+        {
+          "title": "Zolpidem (Ambien): Uses, Side Effects, Interactions... - WebMD",
+          "url": "https://www.webmd.com/drugs/zolpidem-ambien"
+        },
+        {
+          "title": "My dad is on sleep medication and keeps getting dizzy at night — his...",
+          "url": "https://www.thesleepreset.com/blog/my-dad-is-on-sleep-medication-and-keeps-getting-dizzy-at-night-his-doctor-mentioned-its-a-common-side-effect-are-there-programs-that-help-elderly-patients-get-off-sleep-meds-safely"
+        },
+        {
+          "title": "Unmet Needs in the Management of Insomnia in Older Adults and the...",
+          "url": "https://link.springer.com/article/10.1007/s41782-026-00342-0"
+        },
+        {
+          "title": "Safety analysis of zolpidem in elderly subjects 80 years of age or...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25871951/"
+        }
+      ]
+    },
+    {
+      "query": "2024 benzodiazepine long term dementia risk population cohort no association Rotterdam study PMC11218055",
+      "results": [
+        {
+          "title": "Benzodiazepine use in relation to long-term dementia risk and...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11218055/"
+        },
+        {
+          "title": "Benzodiazepine use in relation to long-term dementia risk ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38951846/"
+        },
+        {
+          "title": "verywellmind.com/benzodiazepine-withdrawal-4588452",
+          "url": "https://www.verywellmind.com/benzodiazepine-withdrawal-4588452"
+        },
+        {
+          "title": "Limiting Sugar Before Age 2 Linked to Lower Dementia Risk",
+          "url": "https://easternherald.com/2026/07/30/sugar-age-two-dementia-brain-health/"
+        },
+        {
+          "title": "Benzodiazepines for anxiety and depression: an updated overview of...",
+          "url": "https://link.springer.com/article/10.1007/s11033-026-11939-z"
+        },
+        {
+          "title": "Sudden blood pressure drops associated with long-term dementia risk",
+          "url": "https://health.economictimes.indiatimes.com/news/industry/sudden-blood-pressure-drops-associated-with-long-term-dementia-risk/54712953"
+        },
+        {
+          "title": "Benzo brain damage recovery timeline | Ardu Recovery Center",
+          "url": "https://www.ardurecoverycenter.com/brain-healing-after-benzos/"
+        },
+        {
+          "title": "Your Daily digest for PsyPost – Psychology News Daily Digest...",
+          "url": "http://lists.clinicians-exchange.org/pipermail/article-digests-clinicians-exchange.org/2024-August/001962.html"
+        }
+      ]
+    },
+    {
+      "query": "benzodiazepine dementia causality guideline evidence reverse causation NIH",
+      "results": [
+        {
+          "title": "Benzodiazepines and risk of dementia: true association or reverse ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8367345/"
+        },
+        {
+          "title": "Benzodiazepine-related dementia risks and protopathic biases revealed ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10259140/"
+        },
+        {
+          "title": "Association between benzodiazepines and dementia: A case-control study ...",
+          "url": "https://www.jns-journal.com/article/S0022-510X(25)00366-1/fulltext"
+        },
+        {
+          "title": "Association between benzodiazepines and dementia: A case-control study ...",
+          "url": "https://www.jns-journal.com/article/S0022-510X(25)00366-1/pdf"
+        },
+        {
+          "title": "Chasing Causality: Understanding the Link Between Benzodiazepine ...",
+          "url": "https://www.ajgponline.org/article/S1064-7481(24)00268-9/pdf"
+        },
+        {
+          "title": "Chasing Causality: Understanding the Link Between Benzodiazepine ...",
+          "url": "https://www.ajgponline.org/article/S1064-7481(24)00268-9/fulltext"
+        },
+        {
+          "title": "Unresolved Controversies: The Effect of Benzodiazepines on ... - MDPI",
+          "url": "https://www.mdpi.com/3042-4518/3/1/2"
+        },
+        {
+          "title": "The Benzodiazepine-Dementia Disorders Link: Current State of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26715389/"
+        }
+      ]
+    },
+    {
+      "query": "American Geriatrics Society Beers criteria benzodiazepines cognitive impairment dementia older adults 2023",
+      "results": [
+        {
+          "title": "Beers criteria - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beers_criteria"
+        },
+        {
+          "title": "Beers Criteria — Beers List of Inappropriate Medication Used in Older...",
+          "url": "https://my.clevelandclinic.org/health/articles/24946-beers-criteria"
+        },
+        {
+          "title": "Beers Criteria®: American Geriatrics Society updated AGS Beers...",
+          "url": "https://www.nursingcenter.com/getattachment/clinical-resources/Guideline-Summaries/Beers-Criteria/Guideline-Summary_Beers-criteria_2023.pdf.aspx"
+        },
+        {
+          "title": "Deprescribing Benzodiazepine Receptor Agonists in Older Adults...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12460949/"
+        },
+        {
+          "title": "American Geriatrics Society 2023 updated AGS Beers Criteria® for...",
+          "url": "https://repositorio.essalud.gob.pe/handle/20.500.12959/6064"
+        },
+        {
+          "title": "Helping Adults With Dementia Travel by Air | AFP",
+          "url": "https://www.aafp.org/afp/2022/1100/letter-dementia-air-travel"
+        },
+        {
+          "title": "American Geriatrics Society 2019 Updated AGS Beers Criteria® for...",
+          "url": "https://ubmm.med.buffalo.edu/uploads/MMU3/10-16-2020+Grand+Rounds+-+Beers.pdf"
+        },
+        {
+          "title": "Prevalence of potentially inappropriate medications in older adults with...",
+          "url": "https://pharmacia.pensoft.net/article/198333/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:01:29.655+00:00",
+  "status": "judged",
+  "system": "terra"
+}

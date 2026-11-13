@@ -1,0 +1,332 @@
+{
+  "arm": "mitigation",
+  "citations": [
+    "https://www.sciencedirect.com/science/article/pii/S2589537021002716",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/",
+    "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services",
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498"
+  ],
+  "claim_id": "ff_280b445de3fe",
+  "completed_at": "2026-08-03T13:42:52.122+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2589537021002716",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/",
+        "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report unequivocally concludes that offering HIV self-testing in addition to standard testing increases the number of people who get tested, supporting its conclusion with evidence from systematic reviews and randomized controlled trials.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "HIV self-testing additional offer increases HIV testing uptake randomized trial systematic review",
+    "WHO HIV self-testing systematic review uptake HIV testing evidence randomized controlled trials",
+    "Cochrane HIV self-testing uptake test additional offer review",
+    "HIV self testing no increase testing uptake randomized trial evidence",
+    "HIV self testing randomized trial additional option standard services uptake not significant facility systematic review WHO 2023",
+    "HIV self testing systematic review 13 RCTs RR 2.09 2021 linkage diagnosis adverse events",
+    "WHO HIV self-testing recommendation additional testing option 2016 evidence uptake frequency linkage care"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "stance_incongruent",
+    "stance_congruent",
+    "stance_incongruent",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion\n\n**Yes—on balance, offering HIV self-testing *in addition to* standard testing increases the number of people who test for HIV.** The strongest evidence is systematic-review evidence from randomized trials rather than a single study.\n\nA 2021 systematic review/meta-analysis of 13 randomized controlled trials found that HIV self-testing increased testing uptake overall (risk ratio **2.09**, 95% CI 1.69–2.58; **moderate-certainty** evidence). This means uptake was roughly twice as high in self-testing strategies as in the comparison testing services, though the absolute increase will differ by population, setting, price, delivery method, and how easy conventional testing already is. https://www.sciencedirect.com/science/article/pii/S2589537021002716\n\nA separate systematic review, also drawing on randomized trials, estimated a smaller but still clear relative increase—**1.45 times** as many people tested with HIV self-testing than with standard services. https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/\n\nThe evidence is not uniformly strong in every context. For **facility-based** self-testing specifically, WHO says uptake may be *comparable to or higher than* standard facility testing—so simply placing self-tests in a clinic may not always add much where ordinary testing is already convenient. https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services\n\nImportant qualification: more testing does not automatically ensure equivalent follow-up. One review found a possible reduction in linkage to HIV care/treatment after a reactive self-test versus standard testing, although estimates varied. Programs should therefore provide clear confirmatory-testing and care-linkage support. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498",
+  "run_id": "mitigation_ff_280b445de3fe_believer_terra_1",
+  "search_backend": "web",
+  "search_count": 7,
+  "search_tool_queries": [
+    "HIV self-testing additional offer increases HIV testing uptake randomized trial systematic review",
+    "WHO HIV self-testing systematic review uptake HIV testing evidence randomized controlled trials",
+    "Cochrane HIV self-testing uptake test additional offer review",
+    "HIV self testing no increase testing uptake randomized trial evidence",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC7713313 HIVST increased testing uptake 1.45 subgroup results 2020",
+    "HIV self testing randomized trial additional option standard services uptake not significant facility systematic review WHO 2023",
+    "HIV self testing systematic review 13 RCTs RR 2.09 2021 linkage diagnosis adverse events",
+    "WHO HIV self-testing recommendation additional testing option 2016 evidence uptake frequency linkage care"
+  ],
+  "searches": [
+    {
+      "query": "HIV self-testing additional offer increases HIV testing uptake randomized trial systematic review",
+      "results": [
+        {
+          "title": "Examining the effects of HIV self-testing compared to ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext"
+        },
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention ...",
+          "url": "https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(24)00187-5/fulltext"
+        },
+        {
+          "title": "Acceptability and Uptake of HIV Self-Testing in Emergency ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8674381/"
+        },
+        {
+          "title": "Comparing the Uptake of HIV Self-Testing to HIV Serology ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/23259582251393357"
+        },
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2352301824001875"
+        },
+        {
+          "title": "Comparing the effects of HIV self-testing to standard HIV ...",
+          "url": "https://link.springer.com/article/10.1186/s12916-020-01835-z"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to ...",
+          "url": "https://onlinelibrary.wiley.com/doi/10.7448/IAS.20.1.21594"
+        },
+        {
+          "title": "(PDF) Offering self-administered oral HIV testing to truck drivers in...",
+          "url": "https://www.academia.edu/57715156/Offering_self_administered_oral_HIV_testing_to_truck_drivers_in_Kenya_to_increase_testing_a_randomized_controlled_trial"
+        }
+      ]
+    },
+    {
+      "query": "WHO HIV self-testing systematic review uptake HIV testing evidence randomized controlled trials",
+      "results": [
+        {
+          "title": "Comparing the effects of HIV self-testing to standard HIV ... - Springer",
+          "url": "https://link.springer.com/article/10.1186/s12916-020-01835-z"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext"
+        },
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention services",
+          "url": "https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(24)00187-5/fulltext"
+        },
+        {
+          "title": "WHO recommends optimizing HIV testing services",
+          "url": "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services"
+        },
+        {
+          "title": "Consolidated guidelines on differentiated HIV testing services: web ...",
+          "url": "https://iris.who.int/items/50668002-5ca8-4023-8554-5e0ea8b8d1fd"
+        },
+        {
+          "title": "mHealth Interventions to Promote HIV Self-Testing Among Key Populations ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/23259582261431644"
+        },
+        {
+          "title": "Effect of human immunodeficiency virus self-testing (HIVST) on HIV and ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12223730/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://onlinelibrary.wiley.com/doi/10.7448/IAS.20.1.21594"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane HIV self-testing uptake test additional offer review",
+      "results": [
+        {
+          "title": "Approaches and impacts of digital health in HIV self-testing uptake ...",
+          "url": "https://jphe.amegroups.org/article/view/10315/html"
+        },
+        {
+          "title": "GRADE table and systematic review: should HIV self-testing ... - NCBI",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK605636/"
+        },
+        {
+          "title": "The effects of HIV self-testing on the uptake of HIV testing, linkage to ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33503050/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537021002716"
+        },
+        {
+          "title": "Acceptability of HIV self-testing: a systematic literature review",
+          "url": "https://link.springer.com/article/10.1186/1471-2458-13-735"
+        },
+        {
+          "title": "Comparing the effects of HIV self-testing to standard ... - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7713313/"
+        },
+        {
+          "title": "The effects of HIV self-testing on the uptake of HIV testing, linkage to ...",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498"
+        },
+        {
+          "title": "Examining the effects of HIV self‐testing compared to standard HIV ...",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.7448/IAS.20.1.21594"
+        }
+      ]
+    },
+    {
+      "query": "HIV self testing no increase testing uptake randomized trial evidence",
+      "results": [
+        {
+          "title": "Effect of human immunodeficiency virus self-testing (HIVST) on",
+          "url": "https://pjms.org.pk/index.php/pjms/article/download/11774/2836/"
+        },
+        {
+          "title": "HIV oral self-testing for male partners of women attending antenatal...",
+          "url": "https://www.researchgate.net/publication/339881926_HIV_oral_self-testing_for_male_partners_of_women_attending_antenatal_care_in_central_Uganda_uptake_and_linkage_to_care_post-test_in_a_randomized_trial"
+        },
+        {
+          "title": "(PDF) Offering self-administered oral HIV testing to truck drivers in...",
+          "url": "https://www.academia.edu/57715156/Offering_self_administered_oral_HIV_testing_to_truck_drivers_in_Kenya_to_increase_testing_a_randomized_controlled_trial"
+        },
+        {
+          "title": "Two strategies for partner notification and partner HIV self-testing...",
+          "url": "https://scispace.com/papers/two-strategies-for-partner-notification-and-partner-hiv-self-fhvik54g"
+        },
+        {
+          "title": "Mobile Health–Supported HIV Self-Testing... - McMaster Experts",
+          "url": "https://experts.mcmaster.ca/display/publication1958383"
+        },
+        {
+          "title": "Factors Associated with HIV Self-Testing among Long-Distance Truck",
+          "url": "https://www.ajol.info/index.php/ajhs/article/download/296467/278853"
+        },
+        {
+          "title": "Do men face greater barriers to accessing HIV testing services than...",
+          "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0006125"
+        },
+        {
+          "title": "Mobile health–Supported HIV self-testing strategy... - Illinois Experts",
+          "url": "https://experts.illinois.edu/en/publications/mobile-healthsupported-hiv-self-testing-strategy-among-urban-refu"
+        }
+      ]
+    },
+    {
+      "query": "HIV self testing randomized trial additional option standard services uptake not significant facility systematic review WHO 2023",
+      "results": [
+        {
+          "title": "Role of HIV self-testing in strengthening HIV prevention services",
+          "url": "https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(24)00187-5/fulltext"
+        },
+        {
+          "title": "GRADE table and systematic review: should HIV self-testing be ...Examining the effects of HIV self-testing compared to ...Consolidated guidelines on differentiated HIV testing ...WHO recommends optimizing HIV testing servicesExamining the effects of HIV self-testing compared to ...Effectiveness of Linkage to Care and Prevention Interventions ...",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK605636/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to ...",
+          "url": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00271-6/fulltext"
+        },
+        {
+          "title": "Consolidated guidelines on differentiated HIV testing ...",
+          "url": "https://iris.who.int/items/50668002-5ca8-4023-8554-5e0ea8b8d1fd"
+        },
+        {
+          "title": "WHO recommends optimizing HIV testing services",
+          "url": "https://www.who.int/news/item/22-07-2023-who-recommends-optimizing-hiv-testing-services"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537021002716"
+        },
+        {
+          "title": "HIV/AIDS Symptoms, Stages, and Early Warning Signs",
+          "url": "https://www.webmd.com/hiv-aids/understanding-aids-hiv-symptoms"
+        },
+        {
+          "title": "HIV - Global",
+          "url": "https://www.who.int/health-topics/hiv-aids"
+        }
+      ]
+    },
+    {
+      "query": "HIV self testing systematic review 13 RCTs RR 2.09 2021 linkage diagnosis adverse events",
+      "results": [
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537021002716"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.researchgate.net/publication/353091613_Examining_the_effects_of_HIV_self-testing_compared_to_standard_HIV_testing_services_in_the_general_population_A_systematic_review_and_meta-analysis"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://profiles.wustl.edu/en/publications/examining-the-effects-of-hiv-self-testing-compared-to-standard-hi/"
+        },
+        {
+          "title": "The effects of HIV self-testing on the uptake of HIV testing, linkage ...",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245498"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10132658/"
+        },
+        {
+          "title": "HIV self-testing with digital supports as the new paradigm: A ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8367787/"
+        },
+        {
+          "title": "Examining the effects of HIV self-testing compared to standard HIV ...",
+          "url": "https://www.semanticscholar.org/paper/Examining-the-effects-of-HIV-self-testing-compared-Jamil-Eshun-Wilson/3d5424e53ab620b9fa5354883099b523c987c395"
+        },
+        {
+          "title": "Linkage to care and prevention after HIV self-testing: a systematic ...",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jia2.26388"
+        }
+      ]
+    },
+    {
+      "query": "WHO HIV self-testing recommendation additional testing option 2016 evidence uptake frequency linkage care",
+      "results": [
+        {
+          "title": "WHO recommends HIV self-testing – evidence update and considerations ...",
+          "url": "https://www.who.int/publications/i/item/WHO-CDS-HIV-19.36"
+        },
+        {
+          "title": "WHO recommends HIV self-testing – evidence update and ... - PAHO",
+          "url": "https://www.paho.org/en/documents/who-recommends-hiv-self-testing-evidence-update-and-considerations-success"
+        },
+        {
+          "title": "GUIDELINES ON HIV SELF-TESTING AND PARTNER NOTIFICATION",
+          "url": "https://iris.who.int/server/api/core/bitstreams/ddbf5c52-175d-4e95-9d33-dae992096e8f/content"
+        },
+        {
+          "title": "Country uptake of WHO recommendations on differentiated HIV testing ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10941124/"
+        },
+        {
+          "title": "WHO recommends HIV self-testing – evidence update and considerations ...",
+          "url": "https://fctc.who.int/resources/publications/i/item/WHO-CDS-HIV-19.36"
+        },
+        {
+          "title": "Consolidated guidelines on HIV testing services - WHO",
+          "url": "https://www.afro.who.int/publications/consolidated-guidelines-hiv-testing-services"
+        },
+        {
+          "title": "EXECUTIVE SUMMARY - Guidelines on HIV Self-Testing and Partner ...",
+          "url": "https://www.ncbi.nlm.nih.gov/books/n/who251655/fm.s13/?report=reader"
+        },
+        {
+          "title": "Consolidated guidelines on differentiated HIV testing services: web ...",
+          "url": "https://iris.who.int/items/50668002-5ca8-4023-8554-5e0ea8b8d1fd"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T13:32:40.589+00:00",
+  "status": "judged",
+  "system": "terra"
+}

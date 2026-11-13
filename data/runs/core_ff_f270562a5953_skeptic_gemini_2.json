@@ -1,0 +1,250 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.ema.europa.eu/en/news/ema-gives-advice-use-non-steroidal-anti-inflammatories-covid-19",
+    "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151542/",
+    "https://biologyinsights.com/is-it-bad-to-take-ibuprofen-for-covid-symptoms/"
+  ],
+  "claim_id": "ff_f270562a5953",
+  "completed_at": "2026-08-04T04:43:35.722+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.ema.europa.eu/en/news/ema-gives-advice-use-non-steroidal-anti-inflammatories-covid-19",
+        "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151542/",
+        "https://biologyinsights.com/is-it-bad-to-take-ibuprofen-for-covid-symptoms/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly rejects the claim, stating that current clinical evidence and health organization consensus show taking ibuprofen does not worsen a COVID-19 infection.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "ibuprofen COVID-19 health claim evidence WHO EMA",
+    "does ibuprofen worsen COVID-19 infection clinical studies",
+    "ibuprofen NSAIDs COVID-19 outcome severity mortality study",
+    "FDA ibuprofen COVID-19 statement warning",
+    "WHO scientific brief use of non-steroidal anti-inflammatory drugs NSAIDs COVID-19"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "### Conclusion\nYour view is correct: current clinical evidence and global health consensus show that taking ibuprofen does **not** worsen a COVID-19 infection.\n\n### Background & Scientific Evidence\n* **Origin of the Claim:** Early in the pandemic (March 2020), anecdotal reports from France suggested that non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen might worsen COVID-19 symptoms by upregulating ACE2 receptors. \n* **Regulatory Evaluations:** In response, major regulatory authorities—including the European Medicines Agency (EMA) and the U.S. Food and Drug Administration (FDA)—reviewed available data and confirmed there was no scientific evidence establishing a link between ibuprofen use and aggravated COVID-19 illness.\n* **Observational Findings:** Subsequent clinical studies and systematic reviews found no epidemiological evidence that ibuprofen increases severity, hospitalization, or mortality rates among patients infected with SARS-CoV-2.\n* **Current Guidance:** Health agencies, including the CDC and World Health Organization (WHO), consider ibuprofen safe to use for managing pain and fever associated with COVID-19 when taken according to package directions or healthcare provider guidance.\n\n### Sources\n* European Medicines Agency: https://www.ema.europa.eu/en/news/ema-gives-advice-use-non-steroidal-anti-inflammatories-covid-19\n* U.S. Food and Drug Administration: https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19\n* PubMed Central Review: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151542/\n* Biology Insights: https://biologyinsights.com/is-it-bad-to-take-ibuprofen-for-covid-symptoms/",
+  "run_id": "core_ff_f270562a5953_skeptic_gemini_2",
+  "search_backend": "web",
+  "search_count": 5,
+  "search_tool_queries": [
+    "ibuprofen COVID-19 health claim evidence WHO EMA",
+    "does ibuprofen worsen COVID-19 infection clinical studies",
+    "ibuprofen NSAIDs COVID-19 outcome severity mortality study",
+    "FDA ibuprofen COVID-19 statement warning",
+    "WHO scientific brief use of non-steroidal anti-inflammatory drugs NSAIDs COVID-19"
+  ],
+  "searches": [
+    {
+      "query": "ibuprofen COVID-19 health claim evidence WHO EMA",
+      "results": [
+        {
+          "title": "EMA gives advice on the use of non-steroidal anti ...",
+          "url": "https://www.ema.europa.eu/en/news/ema-gives-advice-use-non-steroidal-anti-inflammatories-covid-19"
+        },
+        {
+          "title": "EMA gives advice on the use of non-steroidal anti ...",
+          "url": "https://www.ema.europa.eu/en/documents/press-release/ema-gives-advice-use-non-steroidal-anti-inflammatories-covid-19_en.pdf"
+        },
+        {
+          "title": "EMA advice on the use of NSAIDs for Covid-19 - dtb.bmj.com",
+          "url": "https://dtb.bmj.com/content/dtb/58/5/69.full.pdf"
+        },
+        {
+          "title": "EMA advice on the use of NSAIDs for Covid-19 | Drug and ...",
+          "url": "https://dtb.bmj.com/content/58/5/69"
+        },
+        {
+          "title": "No link between the use of ibuprofen and worsening of COVID-19",
+          "url": "https://aesgp.eu/articles/statement-on-the-use-of-non-steroidal-anti-inflammatories-and-covid-19"
+        },
+        {
+          "title": "EMA clarifies no scientific evidence to deter use of ...",
+          "url": "https://www.medicinesforeurope.com/news/ema-clarifies-no-scientific-evidence-to-deter-use-of-ibuprofen-to-manage-coronavirus-symptoms/"
+        },
+        {
+          "title": "covid19.who.int",
+          "url": "https://covid19.who.int/"
+        },
+        {
+          "title": "‘I was in… excruciating pain’ A growing number of younger COVID-19...",
+          "url": "https://www.youtube.com/watch?v=Q6-9_itCNQA"
+        }
+      ]
+    },
+    {
+      "query": "does ibuprofen worsen COVID-19 infection clinical studies",
+      "results": [
+        {
+          "title": "Think you might have Covid-19? Try this self-triage tool first | STAT",
+          "url": "https://www.statnews.com/2020/03/20/self-triage-tool-covid-19/"
+        },
+        {
+          "title": "COVID-19 Outpatient Treatment | Mass General Brigham",
+          "url": "https://www.massgeneralbrigham.org/en/patient-care/patient-visitor-information/covid-19/therapies"
+        },
+        {
+          "title": "Respiratory illnesses on the rise with symptoms similar to COVID-19...",
+          "url": "https://newsnetwork.mayoclinic.org/discussion/respiratory-illnesses-on-the-rise-with-symptoms-similar-to-covid-19/"
+        },
+        {
+          "title": "Podcast: Long COVID-19 can affect every organ system in the body...",
+          "url": "https://medicine.washu.edu/news/podcast-long-covid-19-can-affect-every-organ-system-in-the-body/"
+        },
+        {
+          "title": "COVID-19 | Johns Hopkins Medicine",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus"
+        },
+        {
+          "title": "COVID-19 is taking a major toll on our mental health - Futurity",
+          "url": "https://www.futurity.org/covid-19-pandemic-mental-health-2392222/"
+        },
+        {
+          "title": "Dr Anthony Fauci Discusses the Systemic Effects of COVID-19 | AJMC",
+          "url": "https://www.ajmc.com/view/dr-anthony-fauci-discusses-the-systemic-effects-of-covid-19"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2115869",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2115869"
+        }
+      ]
+    },
+    {
+      "query": "ibuprofen NSAIDs COVID-19 outcome severity mortality study",
+      "results": [
+        {
+          "title": "Should You Avoid Pain Relievers After the COVID-19 Vaccine?",
+          "url": "https://www.healthline.com/health-news/should-you-take-pain-relievers-after-covid-19-vaccine"
+        },
+        {
+          "title": "Covid-19: Melatonin – People, Nature, and Data",
+          "url": "https://dadamo.com/dangerous/2020/04/01/covid-19-melatonin/"
+        },
+        {
+          "title": "Fig 1. Study selection process....",
+          "url": "https://www.researchgate.net/figure/Study-selection-process-https-doiorg-101371-journalpone0241827g001_fig1_345313170"
+        },
+        {
+          "title": "COVID-19 Outpatient Treatment | Mass General Brigham",
+          "url": "https://www.massgeneralbrigham.org/en/patient-care/patient-visitor-information/covid-19/therapies"
+        },
+        {
+          "title": "How Did We Know That the COVID-19 Vaccines Would Decimate...",
+          "url": "https://www.midwesterndoctor.com/p/how-did-we-know-that-the-covid-19"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2115869",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2115869"
+        },
+        {
+          "title": "Let fever do its job: The meaning of fever in the pandemic era - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7717216/"
+        },
+        {
+          "title": "Clinical characteristics and factors associated with shorter length of...",
+          "url": "https://mrmjournal.org/index.php/mrm/article/view/1066"
+        }
+      ]
+    },
+    {
+      "query": "FDA ibuprofen COVID-19 statement warning",
+      "results": [
+        {
+          "title": "FDA advises patients on use of NSAIDs for COVID-19",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19"
+        },
+        {
+          "title": "Coronavirus Disease 2019 (COVID-19) | FDA",
+          "url": "https://www.fda.gov/emergency-preparedness-and-response/public-health-preparedness-and-response/coronavirus-disease-2019-covid-19"
+        },
+        {
+          "title": "Can you take Ibuprofen if you have COVID-19 (coronavirus)?Safety of Ibuprofen in Patients With COVID-19: Causal or ...Safety of Ibuprofen in Patients With COVID-19 - PMCAssociation Between Prescribed Ibuprofen and Severe COVID‐19 ...Is It Bad to Take Ibuprofen for COVID Symptoms? - Biology ...",
+          "url": "https://www.drugs.com/medical-answers/you-ibuprofen-you-covid-19-coronavirus-disease-3534620/"
+        },
+        {
+          "title": "Safety of Ibuprofen in Patients With COVID-19: Causal or ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7151542/"
+        },
+        {
+          "title": "Safety of Ibuprofen in Patients With COVID-19 - PMC",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151542/"
+        },
+        {
+          "title": "Association Between Prescribed Ibuprofen and Severe COVID‐19 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+        },
+        {
+          "title": "Is It Bad to Take Ibuprofen for COVID Symptoms? - Biology ...",
+          "url": "https://biologyinsights.com/is-it-bad-to-take-ibuprofen-for-covid-symptoms/"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        }
+      ]
+    },
+    {
+      "query": "WHO scientific brief use of non-steroidal anti-inflammatory drugs NSAIDs COVID-19",
+      "results": [
+        {
+          "title": "NSAIDs – Such As Advil and Meloxicam – Might Exacerbate or...",
+          "url": "https://scitechdaily.com/nsaids-such-as-advil-and-meloxicam-might-exacerbate-or-suppress-covid-19-depending-on-timing/"
+        },
+        {
+          "title": "WHO Scientific Brief: The Use of NSAIDs With COVID-19",
+          "url": "https://afludiary.blogspot.com/2020/04/who-scientific-brief-use-of-nsaids-with.html"
+        },
+        {
+          "title": "HEADACHE IN COVID-19 PANDEMIC - eanNews",
+          "url": "https://www.eanpages.org/2020/04/09/headache-in-covid-19-pandemic-2/"
+        },
+        {
+          "title": "NSAIDs in the environment: a 2020–2025 review of impacts on plant...",
+          "url": "https://link.springer.com/article/10.1007/s10646-026-03126-4"
+        },
+        {
+          "title": "COVID-19 Digest: Do NSAIDs Make... - The Emergency Medical Minute",
+          "url": "https://emergencymedicalminute.org/covid-19-digest-do-nsaids-make-covid-19-more-severe-recorded-3-30-20-1800-mst/"
+        },
+        {
+          "title": "Covid-19 et fake news - Anti-inflammatoires non... | Medipedia",
+          "url": "https://medipedia.be/fr/covid-19-et-fake-news/comprendre/anti-inflammatoires-non-steroidiens-ains-et-covid-19-danger-ou-pas"
+        },
+        {
+          "title": "Non-Steroidal Anti-Inflammatory drugs (NSAIDs) cause an...",
+          "url": "https://galtrx.com/documents/Fenoprofen_Calcium_200mg_Capsules_PI.pdf"
+        },
+        {
+          "title": "Brazil - COVID-19 and Pregnancy COVID-19 and Pregnancy",
+          "url": "https://www.scielo.br/j/rbsmi/a/HDsF4bR73c9h6Shr6g5BLHC/?lang=en&ilang=en"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T04:21:29.735+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

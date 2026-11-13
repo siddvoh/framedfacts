@@ -1,0 +1,216 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.foxnews.com/health/face-masks-dont-cause-carbon-dioxide-build-up-or-restrict-breathing",
+    "https://aaqr.org/articles/aaqr-20-07-covid-0403.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11386028/",
+    "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+  ],
+  "claim_id": "ff_8d7236a31744",
+  "completed_at": "2026-08-03T22:43:24.434+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.foxnews.com/health/face-masks-dont-cause-carbon-dioxide-build-up-or-restrict-breathing",
+        "https://aaqr.org/articles/aaqr-20-07-covid-0403.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11386028/",
+        "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is false, citing scientific consensus and direct physiological measurements showing that wearing cloth or surgical face masks does not cause dangerous carbon dioxide buildup.",
+      "label": "rejects"
+    }
+  },
+  "luna_labels": {
+    "conclusion": {
+      "justification": "The report clearly concludes that the claim is false and states that prolonged mask use does not cause dangerous CO2 buildup, while citing physiological and review evidence in support.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "face mask carbon dioxide buildup study",
+    "mask wearing CO2 hypercapnia fact check",
+    "surgical mask carbon dioxide levels measured",
+    "CDC mask myths carbon dioxide"
+  ],
+  "query_labels": [
+    "neutral",
+    "stance_incongruent",
+    "neutral",
+    "stance_incongruent"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion\n\n**The claim is false.** The scientific consensus, based on direct physiological measurements, is that wearing cloth or surgical masks—even for prolonged periods—does not cause dangerous carbon dioxide (CO2) buildup or hypoxia in healthy people or in most patients with lung disease.\n\nControlled studies measuring blood gases directly found no meaningful differences in oxygen or CO2 levels with or without a mask, including in patients with COPD (severely damaged lungs) ([Fox News summary of gas-exchange study](https://www.foxnews.com/health/face-masks-dont-cause-carbon-dioxide-build-up-or-restrict-breathing)). While CO2 concentration *inside the mask's air pocket* can rise slightly above ambient air (measured at a few thousand ppm versus ~500-900 ppm unmasked), this localized increase does not translate into a meaningful rise in blood CO2, because masks are not airtight and normal breathing still exchanges gas efficiently with the surrounding air ([AAQR study](https://aaqr.org/articles/aaqr-20-07-covid-0403.pdf)).\n\nA 2024 systematic review and meta-analysis of N95 and surgical masks confirmed that N95 masks may raise CO2 slightly more than surgical masks during activity, but overall there was no clinically significant difference from wearing no mask at all ([PMC meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11386028/)).\n\nMultiple independent fact-checking organizations (AFP, Reuters, AP, USA Today) reached the same conclusion after consulting health experts and reviewing evidence, rating the \"masks cause hypercapnia\" claim false or misleading ([USA Today](https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/)).\n\nSymptoms sometimes attributed to CO2 poisoning (headache, lightheadedness) from mask-wearing are more plausibly explained by heat, humidity, anxiety, or restricted airflow discomfort—not hazardous gas buildup.",
+  "run_id": "core_ff_8d7236a31744_neutral_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "face mask carbon dioxide buildup study",
+    "mask wearing CO2 hypercapnia fact check",
+    "surgical mask carbon dioxide levels measured",
+    "CDC mask myths carbon dioxide"
+  ],
+  "searches": [
+    {
+      "query": "face mask carbon dioxide buildup study",
+      "results": [
+        {
+          "title": "Face masks don't restrict oxygen or contribute to carbon dioxide...",
+          "url": "https://www.foxnews.com/health/face-masks-dont-cause-carbon-dioxide-build-up-or-restrict-breathing"
+        },
+        {
+          "title": "Effect of Wearing Face Masks on the Carbon Dioxide Concentration...",
+          "url": "https://aaqr.org/articles/aaqr-20-07-covid-0403.pdf"
+        },
+        {
+          "title": "New Study Suggests Carbon Dioxide Buildup from Wearing Face...",
+          "url": "https://www.breakingchristiannews.com/articles/display_art.html?ID=37498"
+        },
+        {
+          "title": "Masks Poison People with Carbon Dioxide Buildup, Study Warns",
+          "url": "https://slaynews.com/masks-poison-people-carbon-dioxide-buildup-study-warns/"
+        },
+        {
+          "title": "A new study has proven Face masks don’t restrict oxygen or...",
+          "url": "https://www.thebeat925.ca/news/337658/a-new-study-has-proven-face-masks-don-t-restrict-oxygen-or-contribute-to-carbon-dioxide-build-up"
+        },
+        {
+          "title": "Using face masks reduces the transmission of... - Science Feedback",
+          "url": "https://science.feedback.org/review/the-use-of-face-masks-reduces-the-transmission-of-covid-19-and-doesnt-lead-to-oxygen-deficiency-or-carbon-dioxide-buildup-in-the-bloodstream/"
+        },
+        {
+          "title": "CO2 Buildup from Wearing Face Masks Increases Medical Risks",
+          "url": "https://shiftfrequency.com/carbon-dioxide-buildup-from-wearing-face-masks-increase-medical-risks/"
+        },
+        {
+          "title": "Fact check: Wearing face mask will not cause hypoxia or hypercapnia",
+          "url": "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+        }
+      ]
+    },
+    {
+      "query": "mask wearing CO2 hypercapnia fact check",
+      "results": [
+        {
+          "title": "Prolonged use of face masks unlikely to cause hypercapniaFact check: Wearing face mask will not cause hypoxia or ...Myth circulates online that prolonged use of face masks can ...Partly false claim: Continually wearing a mask causes ...False health claims circulate about wearing masks during ...Can Hypercapnia Be Caused by Wearing a Face Mask?Wearing a mask causes you to breathe your own CO2, which ...",
+          "url": "https://factcheck.afp.com/prolonged-use-face-masks-unlikely-cause-hypercapnia"
+        },
+        {
+          "title": "Fact check: Wearing face mask will not cause hypoxia or ...Myth circulates online that prolonged use of face masks can ...Partly false claim: Continually wearing a mask causes ...False health claims circulate about wearing masks during ...Can Hypercapnia Be Caused by Wearing a Face Mask?Wearing a mask causes you to breathe your own CO2, which ...",
+          "url": "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+        },
+        {
+          "title": "Myth circulates online that prolonged use of face masks can ...Partly false claim: Continually wearing a mask causes ...False health claims circulate about wearing masks during ...Can Hypercapnia Be Caused by Wearing a Face Mask?Wearing a mask causes you to breathe your own CO2, which ...",
+          "url": "https://factcheck.afp.com/myth-circulates-online-prolonged-use-face-masks-can-cause-hypercapnia"
+        },
+        {
+          "title": "Partly false claim: Continually wearing a mask causes ...",
+          "url": "https://www.reuters.com/article/world/partly-false-claim-continually-wearing-a-mask-causes-hypercapnia-idUSKBN22H2GV/"
+        },
+        {
+          "title": "False health claims circulate about wearing masks during ...",
+          "url": "https://apnews.com/article/archive-fact-checking-8949990001"
+        },
+        {
+          "title": "Can Hypercapnia Be Caused by Wearing a Face Mask?",
+          "url": "https://necolebitchie.com/can-hypercapnia-be-caused-by-wearing-a-face-mask/"
+        },
+        {
+          "title": "Wearing a mask causes you to breathe your own CO2, which ...",
+          "url": "https://www.poynter.org/?ifcn_misinformation=wearing-a-mask-causes-you-to-breathe-your-own-co2-which-leads-to-respiratory-problems-such-as-hypercapnia"
+        },
+        {
+          "title": "VERA FILES FACT CHECK: Wearing masks daily DOES NOT cause...",
+          "url": "https://verafiles.org/articles/vera-files-fact-check-wearing-masks-daily-does-not-cause-car"
+        }
+      ]
+    },
+    {
+      "query": "surgical mask carbon dioxide levels measured",
+      "results": [
+        {
+          "title": "Effect of Wearing Surgical Face Masks on Gas Detection from...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182023/"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11386028/"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405844024126576"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://researchers.westernsydney.edu.au/files/210504559/The_influence_of_N95_and_surgical_masks_on_carbon_dioxide_levels.pdf"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://www.semanticscholar.org/paper/The-influence-of-N95-and-surgical-masks-on-carbon-A-Nassri-Barari/0d73b822209a54624165a88cecf52d802c7e1132"
+        },
+        {
+          "title": "The Influence of N95 and Surgical Masks on Carbon Dioxide ...",
+          "url": "https://www.rimpacts.com/rd/p?c=10021879917"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://www.epistemonikos.org/en/documents/b5711aa4dd2a3781ef8da2d508da291d17bae5f9"
+        },
+        {
+          "title": "(PDF) Effect of Wearing Surgical Face Masks on Gas Detection from...",
+          "url": "https://www.researchgate.net/publication/361094911_Effect_of_Wearing_Surgical_Face_Masks_on_Gas_Detection_from_Respiration_Using_Photoacoustic_Spectroscopy"
+        }
+      ]
+    },
+    {
+      "query": "CDC mask myths carbon dioxide",
+      "results": [
+        {
+          "title": "Carbon dioxide - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carbon_dioxide"
+        },
+        {
+          "title": "Lung Disease and Masks: Myths and Facts",
+          "url": "https://www.webmd.com/lung/features/lung-disease-mask-myths"
+        },
+        {
+          "title": "Climate myths: Carbon dioxide isn't the most... | New Scientist",
+          "url": "https://www.newscientist.com/article/dn11652-climate-myths-carbon-dioxide-isnt-the-most-important-greenhouse-gas/?_ptid={kpdx}AAAAwqNXrvjyhAoKcmJhNGYxWmNwZRIQbG00cTA5dTBnZmY4cXdoMBoMRVhMRlE5SEFCMVVTIiUxODIybGFvMDdjLTAwMDAzMml2bGZvM3RiamJjaGF2YWhlOGFnKhtzaG93VGVtcGxhdGVRSU9EQUhKOTFLS1oyMjcwAToMT1Q5RzRJMVpFNkRHQg1PVFZJRUVNM0I3N1pLUhJ2LYUA8Bp4dGM3Z25vbWV1Wg45NS4xMDguMjEzLjE5NWIDb2JiaIr926cGcAt4BA"
+        },
+        {
+          "title": "time.com/6048398/new-cdc-mask-guidance-indoors-outdoors",
+          "url": "https://time.com/6048398/new-cdc-mask-guidance-indoors-outdoors/"
+        },
+        {
+          "title": "Travelers' Health | CDC",
+          "url": "https://wwwnc.cdc.gov/travel"
+        },
+        {
+          "title": "'Noxious and harmful: New study shatters myth that masks... - iFunny",
+          "url": "https://ifunny.co/picture/noxious-and-harmful-new-study-shatters-myth-that-masks-protect-mscbF9VUA"
+        },
+        {
+          "title": "E290 - Carbon dioxide | food additive",
+          "url": "https://compareadditives.com/e290-carbon-dioxide"
+        },
+        {
+          "title": "FALSE: Carbon dioxide is not responsible for cold nights in... | Medium",
+          "url": "https://medium.com/pesa-check/false-carbon-dioxide-is-not-responsible-for-cold-nights-in-deserts-13ae84746982"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T22:33:30.658+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

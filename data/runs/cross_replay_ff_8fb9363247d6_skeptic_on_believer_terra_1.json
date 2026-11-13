@@ -1,0 +1,230 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/208224s005lbl.pdf",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080",
+    "https://www.kyleenahcp.com/about-kyleena/efficacy"
+  ],
+  "claim_id": "ff_8fb9363247d6",
+  "completed_at": "2026-08-04T17:16:53.042+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/208224s005lbl.pdf",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080",
+        "https://www.kyleenahcp.com/about-kyleena/efficacy"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is true, noting that Kyleena is FDA-approved and labeled for the prevention of pregnancy for up to five years.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion: the claim is true, not false (in the U.S.).** Kyleena is FDA-approved/labelled for prevention of pregnancy for **up to five years**. The FDA-approved prescribing-information label states: “Kyleena is indicated to prevent pregnancy for up to 5 years” and directs that it be replaced after five years if continued use is desired.\n\nThe five-year duration is supported by clinical-trial contraceptive outcomes in the product information. The reported first-year Pearl Index was 0.16 (a low pregnancy rate), and the estimated cumulative pregnancy rate across five years was 1.45% (13 pregnancies), with a 95% upper confidence limit of 2.53%. This does not mean pregnancy is impossible; it means the device has demonstrated contraceptive effectiveness through its labeled five-year use period.\n\nA possible source of confusion is that “approved for up to five years” is a regulatory indication and replacement limit, not a guarantee of zero pregnancies or a statement that every individual device remains equally effective beyond five years. The current label says replacement is needed after five years for ongoing contraception.\n\nSources:  \n- https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/208224s005lbl.pdf  \n- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080  \n- https://www.kyleenahcp.com/about-kyleena/efficacy",
+  "run_id": "cross_replay_ff_8fb9363247d6_skeptic_on_believer_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "Kyleena prescribing information approved pregnancy prevention up to 5 years PDF",
+      "results": [
+        {
+          "title": "Kyleena_PI",
+          "url": "https://labeling.bayerhealthcare.com/html/products/pi/Kyleena_PI.pdf"
+        },
+        {
+          "title": "Kyleena® IUD Downloadable Resources | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/resources/downloads"
+        },
+        {
+          "title": "Prescribing Information | Kyleena® IUD | Patient Site",
+          "url": "https://www.kyleena-us.com/prescribing-information"
+        },
+        {
+          "title": "KYLEENA - Bayer",
+          "url": "https://www.bayer.com/sites/default/files/KYLEENA_EN_PI.pdf"
+        },
+        {
+          "title": "Patient Information Kyleena (Ki-lee-nah)",
+          "url": "https://labeling.bayerhealthcare.com/html/products/pi/kyleena_pib_en.pdf"
+        },
+        {
+          "title": "DailyMed - KYLEENA- levonorgestrel intrauterine device",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "Kyleena: Package Insert / Prescribing Information / MOA",
+          "url": "https://www.drugs.com/pro/kyleena.html"
+        },
+        {
+          "title": "Kyleena IUD: Is It the Right Birth Control for You?",
+          "url": "https://www.verywellhealth.com/kyleena-iud-4119899"
+        }
+      ]
+    },
+    {
+      "query": "FDA Kyleena levonorgestrel intrauterine system label 5 years contraception",
+      "results": [
+        {
+          "title": "Kyleena DailyMed Label - FDA.report",
+          "url": "https://fda.report/DailyMed/2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "label",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/208224s005lbl.pdf"
+        },
+        {
+          "title": "DailyMed - KYLEENA- levonorgestrel intrauterine device",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "Kyleena IUD: Is It the Right Birth Control for You?",
+          "url": "https://www.verywellhealth.com/kyleena-iud-4119899"
+        },
+        {
+          "title": "Kyleena (levonorgestrel) FDA Approval History - Drugs.com",
+          "url": "https://www.drugs.com/history/kyleena.html"
+        },
+        {
+          "title": "Contraception - intrauterine devices (IUD) | Better Health Channel",
+          "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/contraception-intrauterine-devices-iud"
+        },
+        {
+          "title": "Kyleena and Mirena IUDs: Differences, benefits, and side effects",
+          "url": "https://www.singlecare.com/blog/kyleena-vs-mirena/"
+        },
+        {
+          "title": "When will the patents on KYLEENA expire, and when will KYLEENA...",
+          "url": "https://www.drugpatentwatch.com/p/tradename/KYLEENA"
+        }
+      ]
+    },
+    {
+      "query": "Kyleena official patient information prevents pregnancy for up to 5 years",
+      "results": [
+        {
+          "title": "Kyleena® IUD | Official Patient Website",
+          "url": "https://www.kyleena-us.com/"
+        },
+        {
+          "title": "READY FOR BIRTH CONTROL THAT DOESN’T REQUIRE A DAILY ROUTINE?",
+          "url": "https://www.kyleena-us.com/Kyleena_Patient_Brochure_Digital.pdf?inline"
+        },
+        {
+          "title": "Patient Information Kyleena (Ki-lee-nah)",
+          "url": "https://labeling.bayerhealthcare.com/html/products/pi/kyleena_pib_en.pdf"
+        },
+        {
+          "title": "Kyleena® IUD Frequently Asked Questions (FAQs) | HCP Website",
+          "url": "https://www.kyleenahcp.com/resources/iud-faqs"
+        },
+        {
+          "title": "Patient Brochure | Kyleena® IUD",
+          "url": "https://colwc.com/Documents/Kyleena.pdf"
+        },
+        {
+          "title": "GUIDELINE ON THE REQUIREMENTS FOR PATIENT INFORMATION LEAFLETS",
+          "url": "https://www.bayer.com/sites/default/files/KYLEENA+ENG+PIL.pdf"
+        },
+        {
+          "title": "Kyleena® IUD | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/"
+        },
+        {
+          "title": "Bloor West Village Women's Clinic-By Women For Women",
+          "url": "https://www.bloorwestwomensclinic.com/blog/2018/1/26/oops-the-morning-after-the-night-before-emergency-contraception"
+        }
+      ]
+    },
+    {
+      "query": "DailyMed Kyleena levonorgestrel intrauterine system indicated prevention pregnancy 5 years",
+      "results": [
+        {
+          "title": "DailyMed - KYLEENA- levonorgestrel intrauterine device",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "Kyleena: Package Insert / Prescribing Information / MOA",
+          "url": "https://www.drugs.com/pro/kyleena.html"
+        },
+        {
+          "title": "Kyleena (19.5mg levonorgestrel) Intrauterine System",
+          "url": "https://pro.bayer.co.uk/kyleena/product-information"
+        },
+        {
+          "title": "Kyleena DailyMed Label - FDA.report",
+          "url": "https://fda.report/DailyMed/2e07c155-21e1-4781-9633-ce8bddd47080"
+        },
+        {
+          "title": "Kyleena® IUD | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/"
+        },
+        {
+          "title": "Kyleena_PI",
+          "url": "http://labeling.bayerhealthcare.com/html/products/pi/Kyleena_PI.pdf"
+        },
+        {
+          "title": "Kyleena (levonorgestrel): Uses, Side Effects, Interactions... - WebMD",
+          "url": "https://www.webmd.com/drugs/kyleena-levonorgestrel"
+        },
+        {
+          "title": "How Kyleena® IUD Works | Official Patient Site",
+          "url": "https://www.kyleena-us.com/kyleena-effectiveness/how-does-kyleena-work"
+        }
+      ]
+    },
+    {
+      "query": "Kyleena prescribing information clinical trials 5 year Pearl Index cumulative pregnancy rate 1.45",
+      "results": [
+        {
+          "title": "Kyleena® IUD Effectiveness | Official HCP Website",
+          "url": "https://www.kyleenahcp.com/about-kyleena/efficacy"
+        },
+        {
+          "title": "Kyleena: Package Insert / Prescribing Information / MOA",
+          "url": "https://www.drugs.com/pro/kyleena.html"
+        },
+        {
+          "title": "SAMPLE KYLEENA® (levonorgestrel-releasing intrauterine system)...",
+          "url": "https://www.whcsupport.com/Kyleena_Letter_of_Appeals.pdf"
+        },
+        {
+          "title": "Kyleena (19.5mg levonorgestrel) Intrauterine System",
+          "url": "https://pro.bayer.co.uk/kyleena/product-information"
+        },
+        {
+          "title": "FDA Green Lights Bayer's Five-Year Contraceptive Kyleena - BioSpace",
+          "url": "https://www.biospace.com/fda-green-lights-bayer-s-five-year-contraceptive-kyleena"
+        },
+        {
+          "title": "KYLEENA Prescription & Dosage Information - MPR",
+          "url": "https://www.empr.com/drug/kyleena/"
+        },
+        {
+          "title": "Kyleena: Side effects and what to do about them",
+          "url": "https://www.medicalnewstoday.com/articles/drugs-kyleena-side-effects"
+        },
+        {
+          "title": "Kyleena Lawsuit: Claims, Status, and Eligibility - LegalClarity",
+          "url": "https://legalclarity.org/kyleena-lawsuit-claims-status-and-eligibility/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:16:42.473+00:00",
+  "status": "judged",
+  "system": "terra"
+}

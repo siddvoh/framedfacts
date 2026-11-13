@@ -1,0 +1,195 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day",
+    "https://jewishreview.co.il/this-summer-trick-will-ensure-you-sleep-well-and-wake-up-refreshed-22702/",
+    "https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed",
+    "https://www.sciencedirect.com/science/article/pii/S036013232301051X"
+  ],
+  "claim_id": "ff_b39b8b4d0710",
+  "completed_at": "2026-08-04T17:20:09.904+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day",
+        "https://jewishreview.co.il/this-summer-trick-will-ensure-you-sleep-well-and-wake-up-refreshed-22702/",
+        "https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed",
+        "https://www.sciencedirect.com/science/article/pii/S036013232301051X"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report finds that opening a bedroom window or door to improve sleep quality is context-dependent, presenting balanced evidence that it improves sleep under favorable outdoor conditions (by reducing CO2) but impairs sleep in hot, noisy, or polluted conditions.",
+      "label": "hedged"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "# Is \"Opening a Window/Door Improves Sleep Quality\" False? Research Findings\n\nThe claim is **not simply false—it's conditionally true**. Evidence suggests opening a bedroom window or door can improve sleep, but only under favorable environmental conditions, and it can backfire otherwise.\n\n**Supporting evidence:** A DTU (Technical University of Denmark) field study of 29 bedrooms found that opening windows or doors reduced CO2 buildup, and when ventilation kept CO2 below ~750 ppm, air quality was good enough that it didn't hinder sleep—researchers linked better bedroom ventilation to improved next-day cognitive performance (https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day). A related study reported 87% of participants slept soundly with windows open vs. 70% with them closed (https://jewishreview.co.il/this-summer-trick-will-ensure-you-sleep-well-and-wake-up-refreshed-22702/).\n\n**Contradicting evidence:** A Shanghai study of 50 residents found that while open windows improved air quality, sleep quality still suffered—likely due to summer heat and noise entering through open windows (https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed). Similarly, a follow-up DTU-affiliated study found that opening windows during summer nights actually *decreased* sleep quality, plausibly due to higher indoor temperature, PM2.5 pollution, and noise—despite improved ventilation rates (https://www.sciencedirect.com/science/article/pii/S036013232301051X).\n\n**Conclusion:** The claim holds true primarily when outdoor conditions are favorable (clean air, low noise, moderate temperature). Ventilation itself benefits sleep by reducing CO2, but opening a window is just one (often noisy, temperature-disrupting) method of achieving that ventilation. In poor outdoor conditions—heat, pollution, or noise—opening a window can worsen sleep despite better air exchange. The claim is best characterized as **context-dependent, not categorically false**.",
+  "run_id": "cross_replay_ff_b39b8b4d0710_skeptic_on_believer_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "opening bedroom window improves sleep quality study",
+      "results": [
+        {
+          "title": "Why Don't More of Us Sleep With the Window Open?",
+          "url": "https://www.sleepfoundation.org/sleep-news/open-window-may-be-better-for-sleep-but-we-keep-it-closed"
+        },
+        {
+          "title": "Should You Open Your Bedroom Window in Winter for Better Sleep?",
+          "url": "https://www.aol.com/lifestyle/open-bedroom-window-winter-better-160000273.html"
+        },
+        {
+          "title": "Ventilate your bedroom at night. You perform better the next day",
+          "url": "https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day"
+        },
+        {
+          "title": "This summer trick will ensure you sleep well and wake up refreshed",
+          "url": "https://jewishreview.co.il/this-summer-trick-will-ensure-you-sleep-well-and-wake-up-refreshed-22702/"
+        },
+        {
+          "title": "Should I Sleep with the Bedroom Door Open or Closed? - Amerisleep",
+          "url": "https://amerisleep.com/blog/should-i-sleep-with-the-bedroom-door-open-or-closed/"
+        },
+        {
+          "title": "Soft Rain in Outside an Open Window Bedroom - YouTube",
+          "url": "https://www.youtube.com/watch?v=DcIWqeY9DEY"
+        },
+        {
+          "title": "Window/door opening‐mediated bedroom ventilation and its impact...",
+          "url": "https://research.aalto.fi/en/publications/windowdoor-openingmediated-bedroom-ventilation-and-its-impact-on-"
+        },
+        {
+          "title": "Should You Sleep with Window Open | TikTok",
+          "url": "https://www.tiktok.com/discover/should-you-sleep-with-window-open"
+        }
+      ]
+    },
+    {
+      "query": "bedroom ventilation CO2 sleep quality research",
+      "results": [
+        {
+          "title": "(PDF) The Influence of Bedroom CO2 Concentration on Sleep Quality",
+          "url": "https://www.researchgate.net/publication/375214318_The_Influence_of_Bedroom_CO2_Concentration_on_Sleep_Quality"
+        },
+        {
+          "title": "Ventilation causing an average CO2 concentration of 1,000 ppm ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360132323011459"
+        },
+        {
+          "title": "New research on bedroom ventilation and sleep quality ...",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/23744731.2025.2531317"
+        },
+        {
+          "title": "The Influence of Bedroom CO2 Concentration on Sleep Quality",
+          "url": "https://www.mdpi.com/2075-5309/13/11/2768"
+        },
+        {
+          "title": "Sleep quality: Design of bedroom ventilation and evaluation ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378778824011897"
+        },
+        {
+          "title": "Bedroom Ventilation for Better Sleep - What the Latest ...",
+          "url": "https://media.mercola.com/ImageServer/Public/2025/December/PDF/bedroom-ventilation-sleep-quality-pdf.pdf"
+        },
+        {
+          "title": "Reviewing How Bedroom Ventilation Affects IAQ And Sleep Quality",
+          "url": "https://www.researchgate.net/publication/351687297_Reviewing_How_Bedroom_Ventilation_Affects_IAQ_And_Sleep_Quality"
+        },
+        {
+          "title": "Bedroom ventilation: Review of existing evidence and current...",
+          "url": "https://orbit.dtu.dk/en/publications/bedroom-ventilation-review-of-existing-evidence-and-current-stand"
+        }
+      ]
+    },
+    {
+      "query": "DTU study open window sleep next-day cognitive performance",
+      "results": [
+        {
+          "title": "A field intervention study of the effects of window and door ...",
+          "url": "https://backend.orbit.dtu.dk/ws/files/289339952/1_s2.0_S0360132322008605_main.pdf"
+        },
+        {
+          "title": "A field intervention study of the effects of window and door ...A field intervention study of the effects of window and door ...HB2009 Instructions for Full paper - DTUBedroom ventilation and sleep quality - Welcome to DTU ...A field intervention study of the effects of window and door ...Ventilate your bedroom at night. You perform better the next day",
+          "url": "https://orbit.dtu.dk/en/publications/a-field-intervention-study-of-the-effects-of-window-and-door-open/"
+        },
+        {
+          "title": "A field intervention study of the effects of window and door ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360132322008605"
+        },
+        {
+          "title": "HB2009 Instructions for Full paper - DTU",
+          "url": "https://backend.orbit.dtu.dk/ws/portalfiles/portal/278577875/Xiaojun_Fan_IA2022_Extended_Abstract.pdf"
+        },
+        {
+          "title": "Bedroom ventilation and sleep quality - Welcome to DTU ...A field intervention study of the effects of window and door ...Ventilate your bedroom at night. You perform better the next day",
+          "url": "https://orbit.dtu.dk/en/publications/bedroom-ventilation-and-sleep-quality-2"
+        },
+        {
+          "title": "A field intervention study of the effects of window and door ...",
+          "url": "https://colab.ws/articles/10.1016/j.buildenv.2022.109630"
+        },
+        {
+          "title": "Ventilate your bedroom at night. You perform better the next day",
+          "url": "https://www.dtu.dk/english/newsarchive/2023/05/ventilate-your-bedroom-at-night-you-perform-better-the-next-day"
+        },
+        {
+          "title": "A field intervention study of the effects of window and door opening...",
+          "url": "https://orbit.dtu.dk/en/publications/a-field-intervention-study-of-the-effects-of-window-and-door-open"
+        }
+      ]
+    },
+    {
+      "query": "outdoor air pollution noise open bedroom window sleep negative effect",
+      "results": [
+        {
+          "title": "Is It Bad to Sleep With the Window Open at Night? - Molekule",
+          "url": "https://molekule.com/blogs/all/sleep-window-open-night"
+        },
+        {
+          "title": "Is Leaving the Window Open at Night Bad? - Biology Insights",
+          "url": "https://biologyinsights.com/is-leaving-the-window-open-at-night-bad/"
+        },
+        {
+          "title": "Why You Shouldn’t Sleep With Windows Open - Biology Insights",
+          "url": "https://biologyinsights.com/why-you-shouldnt-sleep-with-windows-open/"
+        },
+        {
+          "title": "Does window/door opening behaviour during summer affect the ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S036013232301051X"
+        },
+        {
+          "title": "Sleeping with Open Windows: Benefits, Risks, and Considerations",
+          "url": "https://neurolaunch.com/is-it-good-to-sleep-with-the-window-open/"
+        },
+        {
+          "title": "Environmental exposures and sleep outcomes: A review of ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0013935120313037"
+        },
+        {
+          "title": "Environmental exposures and sleep outcomes: A review of ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8081760/"
+        },
+        {
+          "title": "Measuring Sound from the Bedroom Window - City of Toronto Open...",
+          "url": "https://open.toronto.ca/measuring-sound-from-the-bedroom-window/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:19:55.055+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

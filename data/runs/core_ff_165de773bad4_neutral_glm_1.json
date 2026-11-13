@@ -1,0 +1,268 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.cochrane.org/CD003048/INFECTN_do-probiotics-help-treat-acute-infectious-diarrhoea",
+    "https://www.racgp.org.au/clinical-resources/clinical-guidelines/handi/handi-interventions/nutrition/probiotics-for-acute-infectious-diarrhea",
+    "https://www.annemergmed.com/article/S0196-0644(21)00116-5/fulltext",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1802597"
+  ],
+  "claim_id": "ff_165de773bad4",
+  "completed_at": "2026-08-03T10:22:18.318+00:00",
+  "evidence_stance": [
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "opposes_claim"
+      ],
+      "normalized_query": "probiotics shorten duration acute infectious diarrhea",
+      "query": "probiotics shorten duration acute infectious diarrhea"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "supports_claim",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim",
+        "supports_claim"
+      ],
+      "normalized_query": "meta-analysis probiotics acute diarrhea duration",
+      "query": "meta-analysis probiotics acute diarrhea duration"
+    },
+    {
+      "labels": [
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "opposes_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "opposes_claim"
+      ],
+      "normalized_query": "cochrane review probiotics infectious diarrhea",
+      "query": "Cochrane review probiotics infectious diarrhea"
+    },
+    {
+      "labels": [
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "supports_claim",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated",
+        "neutral_or_unrelated"
+      ],
+      "normalized_query": "probiotics acute gastroenteritis children duration randomized controlled trial",
+      "query": "probiotics acute gastroenteritis children duration randomized controlled trial"
+    }
+  ],
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.cochrane.org/CD003048/INFECTN_do-probiotics-help-treat-acute-infectious-diarrhoea",
+        "https://www.racgp.org.au/clinical-resources/clinical-guidelines/handi/handi-interventions/nutrition/probiotics-for-acute-infectious-diarrhea",
+        "https://www.annemergmed.com/article/S0196-0644(21)00116-5/fulltext",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1802597"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the evidence on whether probiotics shorten acute infectious diarrhea is mixed and has shifted over time, noting older studies showed a modest benefit while recent high-quality evidence casts doubt on it. Since it treats the evidence as balanced or insufficient to make a firm positive or negative claim, it is hedged.",
+      "label": "hedged"
+    }
+  },
+  "model": "z-ai/glm-5.2",
+  "params_hash": "5bc62f51921f0a6786d0dbb36a5500bb402a260c8f69181407cb2f7d15740186",
+  "queries": [
+    "probiotics shorten duration acute infectious diarrhea",
+    "meta-analysis probiotics acute diarrhea duration",
+    "Cochrane review probiotics infectious diarrhea",
+    "probiotics acute gastroenteritis children duration randomized controlled trial"
+  ],
+  "query_labels": [
+    "stance_congruent",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion\n\nThe evidence on whether probiotics shorten acute infectious diarrhea is **mixed and has shifted over time**. Older meta-analyses suggested a modest benefit, but the most recent and rigorous evidence is notably more skeptical.\n\n**Evidence supporting a benefit:** A 2019 meta-analysis (63 studies, ~8,000 participants) found that probiotics used alongside oral rehydration reduced diarrhea duration by about **25 hours** and decreased stool frequency, with the strongest effects seen in children and with specific strains such as *Lactobacillus rhamnosus* GG and *Saccharomyces boulardii*. The RACGP clinical guidelines similarly cite approximately a one-day reduction.\n\n**Evidence questioning benefit:** The **2020 Cochrane review** (the gold standard for systematic reviews) concluded that \"probiotics may not affect how long acute diarrhoea lasts\" and that uncertainty remains due to low-certainty evidence. A **2021 meta-analysis** in the *Annals of Emergency Medicine* explicitly stated it does **not** recommend routine probiotics for acute infectious diarrhea, citing heterogeneity and methodological concerns. A large **2018 NEJM randomized controlled trial** (886 children across six Canadian emergency departments) found that a combination probiotic had **no significant effect** on diarrhea duration compared to placebo.\n\n**Bottom line:** Probiotics may offer a modest (~1 day) reduction in diarrhea duration, particularly in children and with specific strains, but the highest-quality recent evidence casts doubt on this benefit. Oral rehydration remains the cornerstone of treatment. Patients should consult their physician before using probiotics, especially in vulnerable populations.\n\n### Sources\n- Cochrane Review (2020): https://www.cochrane.org/CD003048/INFECTN_do-probiotics-help-treat-acute-infectious-diarrhoea\n- RACGP Clinical Guidelines: https://www.racgp.org.au/clinical-resources/clinical-guidelines/handi/handi-interventions/nutrition/probiotics-for-acute-infectious-diarrhea\n- Annals of Emergency Medicine Meta-analysis (2021): https://www.annemergmed.com/article/S0196-0644(21)00116-5/fulltext\n- NEJM Multicenter RCT (2018): https://www.nejm.org/doi/full/10.1056/NEJMoa1802597",
+  "run_id": "core_ff_165de773bad4_neutral_glm_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "probiotics shorten duration acute infectious diarrhea",
+    "meta-analysis probiotics acute diarrhea duration",
+    "Cochrane review probiotics infectious diarrhea",
+    "probiotics acute gastroenteritis children duration randomized controlled trial"
+  ],
+  "searches": [
+    {
+      "query": "probiotics shorten duration acute infectious diarrhea",
+      "results": [
+        {
+          "title": "Probiotics for treating acute infectious diarrhoea - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6532699/"
+        },
+        {
+          "title": "Probiotics for infectious diarrhoea - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1773578/"
+        },
+        {
+          "title": "Do Probiotics Reduce the Duration and Symptoms of Acute Infectious ...",
+          "url": "https://www.annemergmed.com/article/S0196-0644(11)00467-7/fulltext"
+        },
+        {
+          "title": "Probiotics for Diarrhea: Strains That Actually Shorten It",
+          "url": "https://biomeguide.com/articles/probiotics-for-diarrhea/"
+        },
+        {
+          "title": "RACGP - Probiotics for acute infectious diarrhea",
+          "url": "https://www.racgp.org.au/clinical-resources/clinical-guidelines/handi/handi-interventions/nutrition/probiotics-for-acute-infectious-diarrhea"
+        },
+        {
+          "title": "EFFECTIVENESS OF PROBIOTICS IN REDUCING THE DURATION OF ACUTE DIARRHEA ...",
+          "url": "https://tpmap.org/submission/index.php/tpm/article/download/2105/1633/4540"
+        },
+        {
+          "title": "Do probiotics help to treat acute infectious diarrhoea?",
+          "url": "https://www.cochrane.org/evidence/CD003048_do-probiotics-help-treat-acute-infectious-diarrhoea"
+        },
+        {
+          "title": "What Is the Efficacy of Probiotics for the Treatment of Acute ...",
+          "url": "https://www.annemergmed.com/article/S0196-0644(21)00116-5/fulltext"
+        }
+      ]
+    },
+    {
+      "query": "meta-analysis probiotics acute diarrhea duration",
+      "results": [
+        {
+          "title": "Efficacy of probiotics in the treatment of acute diarrhea in children...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35070839/"
+        },
+        {
+          "title": "Efficacy of probiotics in the treatment of acute diarrhea in children",
+          "url": "https://tp.amegroups.org/article/view/85375/html"
+        },
+        {
+          "title": "Meta-analysis The effectiveness of probiotics or synbiotics in the ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405457724015420"
+        },
+        {
+          "title": "Which Probiotic Is the Most Effective for Treating Acute Diarrhea in ...",
+          "url": "https://www.mdpi.com/2072-6643/13/12/4319"
+        },
+        {
+          "title": "A meta-analysis of the effects of probiotics and synbiotics in children ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6750275/"
+        },
+        {
+          "title": "Efficacy of probiotics in reducing the duration and severity of acute ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40739406/"
+        },
+        {
+          "title": "Probiotics may improve acute diarrhea and vomiting in children",
+          "url": "https://examine.com/research-feed/study/9D7xg0/?srsltid=AfmBOoruMKnfF2nz50rTtLTZiOkmRk3WZyLQ4F_91EPkfutquHosaf8S"
+        },
+        {
+          "title": "The probiotic Bacillus clausii is an effective treatment of acute ...",
+          "url": "https://www.efsm.online/int_en/article-overview/101/2022/the-probiotic-bacillus-clausii-is-an-effective-treatment-of-acute-diarrhea-in-children"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review probiotics infectious diarrhea",
+      "results": [
+        {
+          "title": "Do probiotics help to treat acute infectious diarrhoea? | Cochrane",
+          "url": "https://www.cochrane.org/CD003048/INFECTN_do-probiotics-help-treat-acute-infectious-diarrhoea"
+        },
+        {
+          "title": "Cochrane Review: Probiotics for treating acute infectious diarrhoea",
+          "url": "https://www.academia.edu/88790135/Cochrane_Review_Probiotics_for_treating_acute_infectious_diarrhoea"
+        },
+        {
+          "title": "Cochrane Review: Probiotics for treating acute infectious diarrhoea",
+          "url": "https://www.semanticscholar.org/paper/Cochrane-Review:-Probiotics-for-treating-acute-Allen-Martinez/dd0a022b9f842ffc4fb59c08c928d35ccabc8c41"
+        },
+        {
+          "title": "Researchers examine effectiveness of treating acute infectious...",
+          "url": "https://www.news-medical.net/news/20201209/Researchers-examine-effectiveness-of-treating-acute-infectious-diarrhea-with-probiotics.aspx"
+        },
+        {
+          "title": "Commentary on ‘Probiotics for treating acute infectious diarrhoea’",
+          "url": "https://www.researchgate.net/publication/264256115_Commentary_on_'Probiotics_for_treating_acute_infectious_diarrhoea'"
+        },
+        {
+          "title": "cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004407.pub4/full"
+        },
+        {
+          "title": "Dr. Natalie Cram: Journal Club - Probiotics for treating... - YouTube",
+          "url": "https://www.youtube.com/watch?v=c_OwOOCHvlU"
+        },
+        {
+          "title": "Cochrane Review: Probiotics NOT Proven Effective... | gutsandgrowth",
+          "url": "https://gutsandgrowth.com/2020/12/23/cochrane-review-probiotics-not-proven-effective-for-acute-gastroenteritis/"
+        }
+      ]
+    },
+    {
+      "query": "probiotics acute gastroenteritis children duration randomized controlled trial",
+      "results": [
+        {
+          "title": "Efficacy of probiotics in reducing the duration and severity ...",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jpn3.70172"
+        },
+        {
+          "title": "Efficacy of probiotics in reducing the duration and severity ...",
+          "url": "https://www.researchgate.net/publication/394127430_Efficacy_of_probiotics_in_reducing_the_duration_and_severity_of_acute_gastroenteritis_in_children_A_meta-analysis_of_randomized_controlled_trials"
+        },
+        {
+          "title": "Impact of Probiotics on Children with Acute Gastroenteritis ...",
+          "url": "https://journals.sagepub.com/doi/10.1177/27683605261441039"
+        },
+        {
+          "title": "Efficacy of probiotics in reducing the duration and severity of acute ...",
+          "url": "https://researchdiscovery.drexel.edu/esploro/outputs/journalArticle/Efficacy-of-probiotics-in-reducing-the/991022068079404721"
+        },
+        {
+          "title": "Association Between Diarrhea Duration and Severity and Probiotic ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/34183579/"
+        },
+        {
+          "title": "Frontiers | Probiotics for treating acute diarrhea in children: an ...",
+          "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1722257/full"
+        },
+        {
+          "title": "Multicenter Trial of a Combination Probiotic for Children with ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1802597"
+        },
+        {
+          "title": "Intestinal Microbial Composition of Children in a Randomized Controlled ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9238408/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T10:15:01.165+00:00",
+  "status": "judged",
+  "system": "glm"
+}

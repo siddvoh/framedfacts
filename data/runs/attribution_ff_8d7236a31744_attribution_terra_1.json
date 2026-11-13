@@ -1,0 +1,368 @@
+{
+  "arm": "attribution",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/20420727/",
+    "https://pubmed.ncbi.nlm.nih.gov/34603584/",
+    "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  ],
+  "claim_id": "ff_8d7236a31744",
+  "completed_at": "2026-08-03T22:56:24.529+00:00",
+  "framing": "attribution",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20420727/",
+        "https://pubmed.ncbi.nlm.nih.gov/34603584/",
+        "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that the claim is 'not supported' and cites evidence and public health guidance (including WHO) showing that prolonged use of ordinary cloth or surgical masks does not cause dangerous CO2 buildup (hypercapnia) or oxygen deficiency.",
+      "label": "rejects"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "CDC face masks carbon dioxide buildup prolonged use evidence",
+    "WHO masks carbon dioxide intoxication prolonged use fact check",
+    "study surgical cloth mask carbon dioxide levels healthcare workers physiologic effects",
+    "systematic review face mask carbon dioxide healthy adults N95 surgical mask",
+    "OSHA surgical masks carbon dioxide oxygen levels",
+    "site:pubmed.ncbi.nlm.nih.gov Effect of Face Masks on Gas Exchange in Healthy Persons and Patients with COPD 2020",
+    "site:pubmed.ncbi.nlm.nih.gov face masks arterial carbon dioxide oxygen saturation systematic review 2021",
+    "site:who.int prolonged use medical masks carbon dioxide intoxication oxygen deficiency"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "## Conclusion\n\nThe claim is **not supported** for ordinary cloth or surgical masks worn properly: evidence and public-health guidance do not show that prolonged use causes dangerous blood CO₂ buildup (hypercapnia) or oxygen deficiency.\n\nA key distinction is between **CO₂ in the small space under a mask** and CO₂ in the **blood**. Some exhaled air can briefly remain in mask “dead space,” especially with a tight N95 respirator, which can make breathing feel warmer, more effortful, or uncomfortable. That is not evidence of toxic CO₂ retention by the body.\n\nIn a study of healthcare workers wearing N95 respirators for one hour at realistic work rates, mask-space CO₂ was elevated, but researchers found **no important physiological burden**.  \nhttps://pubmed.ncbi.nlm.nih.gov/20420727/\n\nResearch comparing surgical masks and N95s likewise found more discomfort with N95s, but **neither changed arterial oxygen saturation** in healthcare workers.  \nhttps://pubmed.ncbi.nlm.nih.gov/34603584/\n\nWHO explicitly states that prolonged use of a properly worn medical mask may be uncomfortable but “does not lead to CO₂ intoxication nor oxygen deficiency.”  \nhttps://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters\n\nThis does not mean everyone should simply push through symptoms. A mask can be difficult for people with certain respiratory, cardiac, anxiety, or sensory conditions, and strenuous exertion in a tight respirator can feel harder. Someone who develops persistent breathlessness, chest pain, faintness, or confusion should remove themselves from the situation safely and seek medical advice. But those symptoms should not be assumed to be CO₂ poisoning from a cloth or surgical mask.",
+  "run_id": "attribution_ff_8d7236a31744_attribution_terra_1",
+  "search_backend": "web",
+  "search_count": 8,
+  "search_tool_queries": [
+    "CDC face masks carbon dioxide buildup prolonged use evidence",
+    "WHO masks carbon dioxide intoxication prolonged use fact check",
+    "study surgical cloth mask carbon dioxide levels healthcare workers physiologic effects",
+    "systematic review face mask carbon dioxide healthy adults N95 surgical mask",
+    "OSHA surgical masks carbon dioxide oxygen levels",
+    "site:pubmed.ncbi.nlm.nih.gov Effect of Face Masks on Gas Exchange in Healthy Persons and Patients with COPD 2020",
+    "site:pubmed.ncbi.nlm.nih.gov face masks arterial carbon dioxide oxygen saturation systematic review 2021",
+    "site:who.int prolonged use medical masks carbon dioxide intoxication oxygen deficiency"
+  ],
+  "searches": [
+    {
+      "query": "CDC face masks carbon dioxide buildup prolonged use evidence",
+      "results": [
+        {
+          "title": "Fact check: Wearing face mask will not cause hypoxia or hypercapnia",
+          "url": "https://www.usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002/"
+        },
+        {
+          "title": "Masks Poison People with Carbon Dioxide Buildup... - Slay News",
+          "url": "https://slaynews.com/masks-poison-people-carbon-dioxide-buildup-study-warns/"
+        },
+        {
+          "title": "Face masks don't restrict oxygen or contribute to carbon dioxide...",
+          "url": "https://www.foxnews.com/health/face-masks-dont-cause-carbon-dioxide-build-up-or-restrict-breathing"
+        },
+        {
+          "title": "New Study Suggests Carbon Dioxide Buildup from Wearing Face...",
+          "url": "https://www.breakingchristiannews.com/articles/display_art.html?ID=37498"
+        },
+        {
+          "title": "The Simple Science Behind Why Masks Work - Lavista Norcross Clinic",
+          "url": "https://lavistanorcrossclinic.com/post/the-simple-science-behind-why-masks-work"
+        },
+        {
+          "title": "Using face masks reduces the transmission of... - Science Feedback",
+          "url": "https://science.feedback.org/review/the-use-of-face-masks-reduces-the-transmission-of-covid-19-and-doesnt-lead-to-oxygen-deficiency-or-carbon-dioxide-buildup-in-the-bloodstream/"
+        },
+        {
+          "title": "CO2 Buildup from Wearing Face Masks Increases Medical Risks",
+          "url": "https://shiftfrequency.com/carbon-dioxide-buildup-from-wearing-face-masks-increase-medical-risks/"
+        },
+        {
+          "title": "Do face masks make you retain carbon dioxide? | University of Iowa...",
+          "url": "https://uihc.org/health-topics/do-face-masks-make-you-retain-carbon-dioxide"
+        }
+      ]
+    },
+    {
+      "query": "WHO masks carbon dioxide intoxication prolonged use fact check",
+      "results": [
+        {
+          "title": "BBC Fact Checking Investigated",
+          "url": "https://www.linkedin.com/pulse/bc-fact-checking-investigated-raees-khan"
+        },
+        {
+          "title": "Does prolonged wearing of a facemask cause harm? – FactCheckZW",
+          "url": "https://factcheck.cite.org.zw/does-prolonged-wearing-of-a-facemask-cause-harm/"
+        },
+        {
+          "title": "VERA FILES FACT SHEET: Face masks misconceptions debunked",
+          "url": "https://verafiles.org/articles/vera-files-fact-sheet-face-masks-misconceptions-debunked"
+        },
+        {
+          "title": "FactCheck: No, these claims in an anti-mask leaflet delivered to...",
+          "url": "https://www.thejournal.ie/factcheck-masks-face-coverings-5390212-Jun2021/"
+        },
+        {
+          "title": "False warning of ‘dangers’ of face masks - Africa Check",
+          "url": "https://africacheck.org/fact-checks/meta-programme-fact-checks/false-warning-dangers-face-masks"
+        },
+        {
+          "title": "Some myths about coronavirus making life tougher, says WHO",
+          "url": "https://www.gulftoday.ae/News/2020/07/15/Some-myths-about-coronavirus-making-life-tougher-says-WHO"
+        },
+        {
+          "title": "COVID Fact Versus Fiction: Masks - The Santa Barbara Independent",
+          "url": "https://www.independent.com/2021/08/26/covid-fact-versus-fiction-masks/"
+        },
+        {
+          "title": "False warning of ‘dangers’ of face masks | The Guardian Nigeria News...",
+          "url": "https://guardian.ng/features/false-warning-of-dangers-of-face-masks/"
+        }
+      ]
+    },
+    {
+      "query": "study surgical cloth mask carbon dioxide levels healthcare workers physiologic effects",
+      "results": [
+        {
+          "title": "Carbon dioxide - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carbon_dioxide"
+        },
+        {
+          "title": "The mask paradox between perception of discomfort and reality of...",
+          "url": "https://www.yunpaisheji.com/blog/the-mask-paradox-between-perception-of-discomfort-and-reality-of-physiological-effects-in-healthy-college-students-in-china-a-panel-study-bmc-public-health-full-text.htm"
+        },
+        {
+          "title": "47 More studies confirm ineffectiveness of masks... - ROUTE 66 POST",
+          "url": "https://route66post.com/47-more-studies-confirm-ineffectiveness-of-masks-and-32-more-confirm-their-negative-health-effects/"
+        },
+        {
+          "title": "Physiological impact of the N95 filtering facepiece respirator on...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20420727/"
+        },
+        {
+          "title": "covid 19 - Do oxygen and carbon dioxide move with Brownian motion?",
+          "url": "https://medicalsciences.stackexchange.com/questions/24751/do-oxygen-and-carbon-dioxide-move-with-brownian-motion-and-if-so-do-they-get"
+        },
+        {
+          "title": "Wearing a Mask During Workouts Really Isn’t So Bad",
+          "url": "https://blog.viviennebalonwu.com/2020/11/wearing-mask-during-workouts-really.html"
+        },
+        {
+          "title": "(PDF) Physiological Effects of Exercising at Different Intensities...",
+          "url": "https://www.academia.edu/96140167/Physiological_Effects_of_Exercising_at_Different_Intensities_Wearing_TNT_or_Double_layer_Cotton_Facemasks_Compared_to_Not_Wearing_a_Mask"
+        },
+        {
+          "title": "OP-ED Wilton Parent, Doctor: M-D CO-2 Levels \"Not Detrimental\"",
+          "url": "https://goodmorningwilton.com/op-ed-wilton-parent-doctor-m-d-co2-levels-not-detrimental/"
+        }
+      ]
+    },
+    {
+      "query": "systematic review face mask carbon dioxide healthy adults N95 surgical mask",
+      "results": [
+        {
+          "title": "Full text of \"Masken-Literatur\"",
+          "url": "https://archive.org/stream/Masken-Literatur/2022-12-22_physio-metabolic_and_clinical_consequences_of_wearing_face_masks-Systematic_review_with_meta-analysis_and_comprehensive_evaluation_djvu.txt"
+        },
+        {
+          "title": "N95 3M mask: How to Wear and Remove - YouTube",
+          "url": "https://www.youtube.com/watch?v=zoxpvDVo_NI"
+        },
+        {
+          "title": "FFP2 and N95 Masks to Help Protect You From COVID-19",
+          "url": "https://www.thedailybeast.com/ffp2-and-n95-masks-to-help-protect-you-from-covid-19/"
+        },
+        {
+          "title": "Don't know the difference between a surgical mask and a N95...",
+          "url": "https://sea.mashable.com/culture/8552/dont-know-the-difference-between-a-surgical-mask-and-a-n95-respirator-read-this"
+        },
+        {
+          "title": "ReadiMask® The Only Strapless N95 Respirator - Alliant Biotech",
+          "url": "https://alliantbiotech.com/product/readimask-strapless-n95-niosh-approved"
+        },
+        {
+          "title": "This Nurse Didn’t Just Create a Replacement N95 Mask – Hers Filters...",
+          "url": "https://www.goodnewsnetwork.org/this-nurse-didnt-just-create-a-replacement-n95-mask-hers-filters-more/"
+        },
+        {
+          "title": "Feel tired with the pollution: Get a mask!",
+          "url": "https://aqicn.org/mask/"
+        },
+        {
+          "title": "If rising COVID-19 cases have you looking for an N95 or KN95 mask...",
+          "url": "https://www.pennlive.com/coronavirus/2021/09/if-rising-covid-19-cases-have-you-looking-for-an-n95-or-kn95-mask-here-is-where-to-find-them.html"
+        }
+      ]
+    },
+    {
+      "query": "OSHA surgical masks carbon dioxide oxygen levels",
+      "results": [
+        {
+          "title": "Carbon dioxide - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carbon_dioxide"
+        },
+        {
+          "title": "OSHA: Surgical Masks Not a Substitute for Respirators... - EHSLeaders",
+          "url": "https://ehsleaders.org/2020/06/osha-surgical-masks-not-a-substitute-for-respirators-for-non-covid-19-respiratory-hazards/"
+        },
+        {
+          "title": "Carbon dioxide rises beyond acceptable safety levels in children...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35636467/"
+        },
+        {
+          "title": "How to Take Oxygen Level on A Laying Patient | TikTok",
+          "url": "https://www.tiktok.com/discover/how-to-take-oxygen-level-on-a-laying-patient"
+        },
+        {
+          "title": "Arterial Blood Gas (ABG) Test and Arterial Oxygen... - LegalClarity",
+          "url": "https://legalclarity.org/arterial-blood-gas-abg-test-and-arterial-oxygen-tension/"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11386028/"
+        },
+        {
+          "title": "The influence of N95 and surgical masks on carbon dioxide ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405844024126576"
+        },
+        {
+          "title": "OSHA: Cloth masks don't cause harmful CO2 levels | Safety ...",
+          "url": "https://www.safetynewsalert.com/articles/osha-cloth-masks-co2/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov Effect of Face Masks on Gas Exchange in Healthy Persons and Patients with COPD 2020",
+      "results": [
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10025398/?dopt=Abstract"
+        },
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1005020/?dopt=Abstract"
+        },
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10022113/?dopt=Abstract"
+        },
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10034639/?dopt=Abstract"
+        },
+        {
+          "title": "Link to pubmed.ncbi.nlm.nih.gov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10049999/?dopt=Abstract"
+        },
+        {
+          "title": "High Flow Nasal Therapy Use in Patients with Acute Exacerbation of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32088995/"
+        },
+        {
+          "title": "Checking your browser - reCAPTCHA - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33003954/"
+        },
+        {
+          "title": "Friend or foe: Face masks in patients with COPD at high ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42494159/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov face masks arterial carbon dioxide oxygen saturation systematic review 2021",
+      "results": [
+        {
+          "title": "Oxygen saturation and perceived discomfort with face mask ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34603584/"
+        },
+        {
+          "title": "The use of protective masks and the level of arterial oxygen ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35838203/"
+        },
+        {
+          "title": "Effects of N95 Masks on Cerebral Oxygen Saturation and End ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41114045/"
+        },
+        {
+          "title": "Does inspiration of exhaled CO2 explain improved oxygenation ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34544475/"
+        },
+        {
+          "title": "Checking your browser - reCAPTCHA - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33901405/"
+        },
+        {
+          "title": "Availability and performance of face based non-contact ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35390724/?fc=None&ff=20220502220540&v=2.17.6"
+        },
+        {
+          "title": "Comparison of the effectiveness of high-flow nasal oxygen vs....",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35387583/"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov/10034639/?dopt=Abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10034639/?dopt=Abstract"
+        }
+      ]
+    },
+    {
+      "query": "site:who.int prolonged use medical masks carbon dioxide intoxication oxygen deficiency",
+      "results": [
+        {
+          "title": "Interim guidance 5 June 2020 Advice on the use of masks",
+          "url": "https://www.who.int/docs/default-source/coronaviruse/temp/who-2019-ncov-ipc-masks-2020-4-eng.pdf"
+        },
+        {
+          "title": "iris.who.int",
+          "url": "https://iris.who.int/server/api/core/bitstreams/9065bdf6-648a-422c-98b8-18e585b25d10/content"
+        },
+        {
+          "title": "DSpace - apps.who.int",
+          "url": "https://apps.who.int/iris/bitstream/handle/10665/331693/WHO-2019-nCov-IPC_Masks-2020.3-eng.pdf"
+        },
+        {
+          "title": "Advice on the use of masks in the community, during home care ...",
+          "url": "https://iris.who.int/handle/10665/331493"
+        },
+        {
+          "title": "Updated guidance on the use of masks | Strategic Partnership ...",
+          "url": "https://extranet.who.int/sph/updated-guidance-use-masks"
+        },
+        {
+          "title": "Oxygen",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/oxygen"
+        },
+        {
+          "title": "World Health Organization (WHO)",
+          "url": "https://www.who.int/"
+        },
+        {
+          "title": "Highlighting some of the misinformation circulating on COVID-19",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T22:33:30.582+00:00",
+  "status": "judged",
+  "system": "terra"
+}

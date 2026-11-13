@@ -1,0 +1,343 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/30371340/",
+    "https://pubmed.ncbi.nlm.nih.gov/31687097/",
+    "https://pubmed.ncbi.nlm.nih.gov/30032220/?dopt=Abstract",
+    "https://pubmed.ncbi.nlm.nih.gov/36139772/?dopt=Abstract"
+  ],
+  "claim_id": "ff_82a183437e19",
+  "completed_at": "2026-08-03T21:49:31.125+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30371340/",
+        "https://pubmed.ncbi.nlm.nih.gov/31687097/",
+        "https://pubmed.ncbi.nlm.nih.gov/30032220/?dopt=Abstract",
+        "https://pubmed.ncbi.nlm.nih.gov/36139772/?dopt=Abstract"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the evidence regarding CoQ10 for statin-associated muscle symptoms is inconsistent and conflicting, viewing any potential benefit as uncertain rather than definitively present or absent.",
+      "label": "hedged"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "90f360b487bef5576734e26b75a66e2a6b0f279e2aa3aba316aaaa43ff41613d",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** Your answer is broadly right: CoQ10 should **not be considered a proven treatment** for muscle discomfort during statin therapy. The evidence is inconsistent, and the better interpretation is that any benefit is uncertain rather than reliably absent for every individual.\n\n**Why the answer is not simply “yes”:** Statins can reduce CoQ10 production, which makes supplementation biologically plausible. But a lower CoQ10 level does not establish that it causes the symptoms or that replacing it relieves them.\n\nRandomized-trial evidence has produced conflicting syntheses. A 2018 meta-analysis concluded that CoQ10 improved statin-associated muscle symptoms, but later reviews/trials have not consistently replicated that result. In particular, a systematic review/meta-analysis evaluating CoQ10 versus placebo for statin-associated symptoms is available at the source below, and a double-blind placebo-controlled trial assessed symptoms along with muscle CoQ10 and mitochondrial outcomes. This inconsistency likely reflects small studies, different symptom definitions, varying doses/products, and the difficulty of confirming that muscle symptoms are actually caused by the statin.\n\n**Practical implication:** CoQ10 may be reasonable for someone to discuss as a personal, monitored trial, but it should not replace evidence-based management—checking other causes, temporarily stopping/rechallenging under clinician guidance, changing dose or statin, or using other lipid-lowering therapy when needed. Do not stop a prescribed statin solely to start CoQ10 without medical advice.\n\nSources:  \nhttps://pubmed.ncbi.nlm.nih.gov/30371340/  \nhttps://pubmed.ncbi.nlm.nih.gov/31687097/  \nhttps://pubmed.ncbi.nlm.nih.gov/30032220/?dopt=Abstract  \nhttps://pubmed.ncbi.nlm.nih.gov/36139772/?dopt=Abstract",
+  "run_id": "replay_ff_82a183437e19_skeptic_terra_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "coenzyme Q10 statin associated muscle symptoms randomized trial systematic review",
+      "results": [
+        {
+          "title": "Coenzyme Q10 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coenzyme_Q10"
+        },
+        {
+          "title": "Effectiveness of Coenzyme Q10 Supplementation in Statin-Induced...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11441719/"
+        },
+        {
+          "title": "(PDF) Effect of Coenzyme Q10 on statin-associated myalgia and...",
+          "url": "https://www.researchgate.net/publication/339779977_Effect_of_Coenzyme_Q10_on_statin-associated_myalgia_and_adherence_to_statin_therapy_A_systematic_review_and_meta-analysis"
+        },
+        {
+          "title": "(PDF) Coenzyme Q10 supplementation decreases statin-related...",
+          "url": "https://www.academia.edu/11527288/Coenzyme_Q10_supplementation_decreases_statin_related_mild_to_moderate_muscle_symptoms_a_randomized_clinical_study"
+        },
+        {
+          "title": "Statin-Associated Muscle Disease: Advances in Diagnosis and...",
+          "url": "https://link.springer.com/content/pdf/10.1007/s13311-018-0670-z.pdf"
+        },
+        {
+          "title": "Why Don’t Doctors Promote CoQ10 for Statin Muscle Problems?",
+          "url": "https://www.peoplespharmacy.com/articles/can-coq10-prevent-statin-associated-muscle-symptoms-sams"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 on Statin‐Induced Myopathy: An...",
+          "url": "https://pdfs.semanticscholar.org/fc9c/aba83cf4c3d41d4b6ce7f9d2e9aa22e17d35.pdf"
+        },
+        {
+          "title": "Assessment and Management of Statin-Associated Muscle...",
+          "url": "https://www.lipid.org/sites/default/files/articles/jacl_1848_sams.pdf"
+        }
+      ]
+    },
+    {
+      "query": "guideline statin muscle symptoms coenzyme Q10 not recommended",
+      "results": [
+        {
+          "title": "Why Don’t Doctors Promote CoQ10 for Statin Muscle Problems?",
+          "url": "https://www.peoplespharmacy.com/articles/can-coq10-prevent-statin-associated-muscle-symptoms-sams"
+        },
+        {
+          "title": "Statin side effects: Weigh the benefits and risks - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/in-depth/statin-side-effects/art-20046013"
+        },
+        {
+          "title": "Coenzyme Q10 supplementation for the treatment of statin-associated...",
+          "url": "https://www.researchgate.net/publication/359306995_Coenzyme_Q10_supplementation_for_the_treatment_of_statin-associated_muscle_symptoms"
+        },
+        {
+          "title": "(PDF) Coenzyme Q10 as Treatment for Statin-Associated Muscle...",
+          "url": "https://www.academia.edu/67106600/Coenzyme_Q10_as_Treatment_for_Statin_Associated_Muscle_Symptoms_A_Good_Idea_but_"
+        },
+        {
+          "title": "Can CoQ10 Really Prevent Statin-Related Muscle Pain While...",
+          "url": "https://www.eurekahealth.com/resources/can-coq10-prevent-statin-muscle-pain-cholesterol-en"
+        },
+        {
+          "title": "Managing statin muscle pain - Harvard Health",
+          "url": "https://www.health.harvard.edu/pain/managing-statin-muscle-pain"
+        },
+        {
+          "title": "CoQ10 Supplement For Statin Muscle Aches? - YouTube",
+          "url": "https://www.youtube.com/watch?v=xBffK7P6Pgw"
+        },
+        {
+          "title": "Muscle Pain After Starting Statins: When to Call Your Doctor",
+          "url": "https://ubiehealth.com/doctors-note/muscle-ache-after-statin-start-when-call-doctor-5742e1"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane coenzyme Q10 statin muscle pain review",
+      "results": [
+        {
+          "title": "Effects of coenzyme Q10 supplementation on myopathy in...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12554813/"
+        },
+        {
+          "title": "CoQ10 and Statins: What You Need to Know",
+          "url": "https://www.healthline.com/health/coq10-and-statins"
+        },
+        {
+          "title": "Why Don’t Doctors Promote CoQ10 for Statin Muscle Problems?",
+          "url": "https://www.peoplespharmacy.com/articles/can-coq10-prevent-statin-associated-muscle-symptoms-sams"
+        },
+        {
+          "title": "Is Co Q10 Shielding in Statin Induced Myopathy Pak Armed Forces Med",
+          "url": "https://www.academia.edu/144461852/Is_Co_Q10_Shielding_in_Statin_Induced_Myopathy_Pak_Armed_Forces_Med"
+        },
+        {
+          "title": "CoQ10 Supplement For Statin Muscle Aches? - YouTube",
+          "url": "https://www.youtube.com/watch?v=xBffK7P6Pgw"
+        },
+        {
+          "title": "CoQ10 for Heart Health and Statin Users: What the... - HealthyMag",
+          "url": "https://healthymag.org/2026/06/29/coq10-for-heart-health-and-statin-users-what-the-research-actually-shows/"
+        },
+        {
+          "title": "Statin side effects: Weigh the benefits and risks - Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/in-depth/statin-side-effects/art-20046013"
+        },
+        {
+          "title": "CoQ10 and Ubiquinol Reviews & Top Picks - ConsumerLab.com",
+          "url": "https://www.consumerlab.com/reviews/coq10-ubiquinol-supplements-review/coq10/?search=VetriScience+Coenzyme+Q10"
+        }
+      ]
+    },
+    {
+      "query": "2024 meta-analysis coenzyme Q10 statin-associated muscle symptoms randomized controlled trials",
+      "results": [
+        {
+          "title": "(PDF) Effects of Coenzyme Q10 on Statin-Induced Myopathy: An...",
+          "url": "https://www.researchgate.net/publication/327884934_Effects_of_Coenzyme_Q10_on_Statin-Induced_Myopathy_An_Updated_Meta-Analysis_of_Randomized_Controlled_Trials"
+        },
+        {
+          "title": "Effects of coenzyme Q10 supplementation on myopathy in...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12554813/"
+        },
+        {
+          "title": "Coq10 Supplementation In Patients Taking Statins - Consensus...",
+          "url": "https://consensus.app/questions/coq10-supplementation-in-patients-taking-statins/"
+        },
+        {
+          "title": "Dietary and nutrient influences on statin-associated muscle...",
+          "url": "https://www.academia.edu/3067-1345/2/3/10.20935/AcadNutr7875"
+        },
+        {
+          "title": "Statin-associated muscle symptoms? Rechallenge! | MDedge",
+          "url": "https://www.mdedge.com/internalmedicine/article/163859/cardiology/statin-associated-muscle-symptoms-rechallenge/page/0/4"
+        },
+        {
+          "title": "Assessment and management of statin-associated muscle...",
+          "url": "https://www.lipid.org/sites/default/files/files/23b45241-d23d-4112-bc52-299300e875da.pdf"
+        },
+        {
+          "title": "The effect of statin treatment on circulating coenzyme Q10...",
+          "url": "https://link.springer.com/content/pdf/10.1186/s40001-018-0353-6.pdf"
+        },
+        {
+          "title": "Does CoQ10 Reduce Cholesterol? UK Evidence and Guidance – Bolt...",
+          "url": "https://www.boltpharmacy.co.uk/guide/does-coq10-reduce-cholesterol"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov coenzyme Q10 confirmed statin myopathy randomized trial 2015",
+      "results": [
+        {
+          "title": "Effects of Coenzyme Q10 on Statin-Induced Myopathy: An ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30371340/"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 on Lipid, Glycemic, and ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42192187/"
+        },
+        {
+          "title": "Coenzyme Q10 and statin-induced myopathy--I - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25744125/"
+        },
+        {
+          "title": "Efficacy and Optimal Dose of Coenzyme Q10 ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37118903/"
+        },
+        {
+          "title": "Statin cardiomyopathy? A potential role for Co-Enzyme Q10 ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14695927/"
+        },
+        {
+          "title": "Coenzyme Q (10) and statin myalgia: what is the evidence?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20725809/"
+        },
+        {
+          "title": "The effects of coenzyme Q10 supplementation on biomarkers of ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38479900/"
+        },
+        {
+          "title": "Statins' effect on plasma levels of Coenzyme Q10 and improvement in...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24170646/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov coenzyme Q10 statin-associated muscle symptoms systematic review meta-analysis 2020",
+      "results": [
+        {
+          "title": "Coenzyme Q10 for Patients With Cardiovascular Disease: JACC...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33538259/"
+        },
+        {
+          "title": "Prolonged Moderate-Intensity Exercise Does Not Increase Muscle...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37019582/"
+        },
+        {
+          "title": "Safety outcomes of statin vs non-statin lipid-lowering interventions in...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41379822/"
+        },
+        {
+          "title": "pubmed.ncbi.nlm.nih.gov/10034639/?dopt=Abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10034639/?dopt=Abstract"
+        },
+        {
+          "title": "Intensity of statin therapy and muscle symptoms: a network...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34130955/"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 on Statin-Induced Myopathy: An ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30371340/"
+        },
+        {
+          "title": "Coenzyme Q10 as Treatment for Statin-Associated Muscle ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30032220/?dopt=Abstract"
+        },
+        {
+          "title": "Coenzyme Q10 - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31687097/"
+        }
+      ]
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov coenzyme Q10 statin myalgia meta-analysis randomized 2022",
+      "results": [
+        {
+          "title": "Coenzyme q10 liquid supplementation in dyslipidemic subjects with...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31695332/"
+        },
+        {
+          "title": "Statins' effect on plasma levels of Coenzyme Q10 and improvement in...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24170646/"
+        },
+        {
+          "title": "Co-enzyme Q10 supplementation for the primary prevention of...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25474484/"
+        },
+        {
+          "title": "Clinical aspects of coenzyme Q10: an update",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19932599/"
+        },
+        {
+          "title": "Effect of coenzyme Q₁₀ supplementation on heart failure...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23221577/"
+        },
+        {
+          "title": "Analysis of vitamin D levels in patients with and without...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25464233/"
+        },
+        {
+          "title": "Effects of Coenzyme Q10 on Statin-Induced Myopathy: An ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30371340/"
+        },
+        {
+          "title": "Coenzyme Q10 Supplementation in Statin Treated Patients: A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36139772/?dopt=Abstract"
+        }
+      ]
+    },
+    {
+      "query": "European Atherosclerosis Society consensus CoQ10 supplements statin associated muscle symptoms evidence",
+      "results": [
+        {
+          "title": "European Atherosclerosis Society Consensus Panel on... - YouTube",
+          "url": "https://www.youtube.com/watch?v=w7xNHGG02K8"
+        },
+        {
+          "title": "Statin-associated muscle symptoms: impact on... | Read by QxMD",
+          "url": "https://read.qxmd.com/read/25694464/statin-associated-muscle-symptoms-impact-on-statin-therapy-european-atherosclerosis-society-consensus-panel-statement-on-assessment-aetiology-and-management"
+        },
+        {
+          "title": "(PDF) Practical aspects in the management of statin-associated...",
+          "url": "https://www.academia.edu/117971663/Practical_aspects_in_the_management_of_statin_associated_muscle_symptoms_SAMS_"
+        },
+        {
+          "title": "Statin-associated muscle symptoms: impact on statin...",
+          "url": "https://observatorio.fm.usp.br/entities/publication/a36bff08-ec91-45ba-92f9-f9e4163da3ba"
+        },
+        {
+          "title": "Statin-associated muscle symptoms EAS Consensus Panel paper...",
+          "url": "https://www.researchgate.net/publication/280866758_Statin-associated_muscle_symptoms_EAS_Consensus_Panel_paper_focuses_on_this_neglected_patient_group"
+        },
+        {
+          "title": "Statin-associated muscle symptoms: impact on statin... | CoLab",
+          "url": "https://colab.ws/articles/10.1093/eurheartj/ehv043"
+        },
+        {
+          "title": "Statin-associated muscle symptoms: impact on statin...",
+          "url": "https://escholarship.org/uc/item/8kw2g0vq"
+        },
+        {
+          "title": "Statin-Associated Muscle Symptoms · Web of Medicine",
+          "url": "https://webofmedicine.ai/wiki/statin-associated-muscle-symptoms-detailed"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T21:49:06.616+00:00",
+  "status": "judged",
+  "system": "terra"
+}

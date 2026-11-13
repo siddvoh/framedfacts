@@ -1,0 +1,210 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://heart.bmj.com/content/105/1/49",
+    "https://www.mdpi.com/2072-6643/9/7/688",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992872/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+  ],
+  "claim_id": "ff_22fdc251441f",
+  "completed_at": "2026-08-03T12:58:47.665+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://heart.bmj.com/content/105/1/49",
+        "https://www.mdpi.com/2072-6643/9/7/688",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992872/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the claim is plausible but not firmly established, noting that while observational studies and biological mechanisms suggest a benefit, strong causal evidence from randomized controlled trials is lacking and confounding remains a concern.",
+      "label": "hedged"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "dark chocolate stroke risk study",
+    "chocolate consumption cardiovascular disease meta-analysis",
+    "flavonoid cocoa mechanism stroke endothelial function blood pressure",
+    "cocoa flavanols randomized controlled trial cardiovascular outcomes COSMOS trial"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "Based on the evidence, here's my assessment of that health claim.\n\n## What the evidence shows\n\n**Observational studies suggest a modest protective association.** A large meta-analysis in *Heart* pooling prospective cohort studies found chocolate consumption was inversely associated with cardiovascular disease risk, including stroke, though the relationship appeared non-linear with diminishing benefit at higher intakes (https://heart.bmj.com/content/105/1/49). A dedicated meta-analysis of chocolate and coronary heart disease/stroke similarly reported reduced risk with higher chocolate intake (https://www.mdpi.com/2072-6643/9/7/688). Individual cohort and case-control studies (e.g., in *Neurology* and *Atherosclerosis*) report similar inverse associations, particularly for higher-quality (dark) chocolate.\n\n**Mechanistic plausibility exists.** Cocoa flavanols improve endothelial function, nitric oxide-mediated vasodilation, blood pressure, and cerebral/peripheral blood flow — all biologically relevant to stroke risk (https://pmc.ncbi.nlm.nih.gov/articles/PMC11992872/).\n\n**However, causal proof is weak.** The large-scale randomized COSMOS trial testing cocoa flavanol supplements found a reduction in cardiovascular *death* but did not show a significant reduction in stroke or overall major cardiovascular events. A Mendelian randomization study on dark chocolate and cardiovascular disease also produced mixed/limited causal evidence (https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/).\n\n## Bottom line\n\nThe claim is **plausible but not firmly established**. Observational data and biological mechanisms support a modest inverse association between chocolate (especially dark, flavanol-rich) intake and stroke risk, but confounding (chocolate eaters may have healthier overall diets/lifestyles) is a concern, and the best available randomized trial evidence hasn't confirmed a clear stroke-specific benefit. Moderate dark chocolate consumption is unlikely to be harmful and may offer some cardiovascular benefit, but it shouldn't be considered a proven stroke-prevention strategy.",
+  "run_id": "core_ff_22fdc251441f_believer_sonnet5_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "dark chocolate stroke risk study",
+    "chocolate consumption cardiovascular disease meta-analysis",
+    "flavonoid cocoa mechanism stroke endothelial function blood pressure",
+    "cocoa flavanols randomized controlled trial cardiovascular outcomes COSMOS trial"
+  ],
+  "searches": [
+    {
+      "query": "dark chocolate stroke risk study",
+      "results": [
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781976/"
+        },
+        {
+          "title": "Dark chocolate intake and cardiovascular diseases: a ... - NatureStudy Details | NCT06808282 | Effects of Dark Chocolate on ...Chocolate consumption and risk of stroke among men and women ...Chocolate consumption and risk of stroke - NeurologyBeyond Taste: The Impact of Chocolate on ... - MDPIChocolate Consumption and Risk of Coronary Heart Disease ...",
+          "url": "https://www.nature.com/articles/s41598-023-50351-6"
+        },
+        {
+          "title": "Study Details | NCT06808282 | Effects of Dark Chocolate on ...",
+          "url": "https://clinicaltrials.gov/study/NCT06808282"
+        },
+        {
+          "title": "Chocolate consumption and risk of stroke among men and women ...",
+          "url": "https://www.atherosclerosis-journal.com/article/S0021-9150(17)30094-1/fulltext"
+        },
+        {
+          "title": "Chocolate consumption and risk of stroke - Neurology",
+          "url": "https://www.neurology.org/doi/10.1212/WNL.0b013e31826aacfa"
+        },
+        {
+          "title": "Beyond Taste: The Impact of Chocolate on ... - MDPI",
+          "url": "https://www.mdpi.com/2072-6643/18/4/636"
+        },
+        {
+          "title": "Chocolate Consumption and Risk of Coronary Heart Disease ...",
+          "url": "https://www.mdpi.com/2072-6643/9/7/688"
+        },
+        {
+          "title": "Dark Chocolate Intake and Cardiovascular Diseases: A Mendelian ...",
+          "url": "https://www.researchgate.net/publication/370883134_Dark_Chocolate_Intake_and_Cardiovascular_Diseases_A_Mendelian_Randomization_Study"
+        }
+      ]
+    },
+    {
+      "query": "chocolate consumption cardiovascular disease meta-analysis",
+      "results": [
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a meta ...",
+          "url": "https://heart.bmj.com/content/105/1/49"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: A ...",
+          "url": "https://www.researchgate.net/publication/326709194_Chocolate_consumption_and_risk_of_cardiovascular_diseases_A_meta-Analysis_of_prospective_studies"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a ...",
+          "url": "https://www.semanticscholar.org/paper/Chocolate-consumption-and-risk-of-cardiovascular-a-Ren-Liu/66081260aec906ae680b1848143490d38504d4fe"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular - ProQuest",
+          "url": "https://www.proquest.com/docview/2154939362"
+        },
+        {
+          "title": "Chocolate Consumption and Risk of Coronary Heart Disease ...",
+          "url": "https://www.mdpi.com/2072-6643/9/7/688"
+        },
+        {
+          "title": "Relationship between chocolate consumption and overall and cause ...",
+          "url": "https://www.jstor.org/stable/48808165"
+        },
+        {
+          "title": "Chocolate consumption and risk of cardiovascular diseases: a meta ...",
+          "url": "https://europepmc.org/article/MED/30061161"
+        },
+        {
+          "title": "Can chocolate consumption reduce cardio-cerebrovascular risk? A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S089990071730206X"
+        }
+      ]
+    },
+    {
+      "query": "flavonoid cocoa mechanism stroke endothelial function blood pressure",
+      "results": [
+        {
+          "title": "The role of cocoa flavanols in modulating peripheral and cerebral ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992872/"
+        },
+        {
+          "title": "The Role of Cocoa Flavanols in Modulating Peripheral and Cerebral ...",
+          "url": "https://nutritionconnect.org/resource-center/role-cocoa-flavanols-modulating-peripheral-and-cerebral-microvascular-function"
+        },
+        {
+          "title": "Impact of cocoa flavanols on human health - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S027869152100154X"
+        },
+        {
+          "title": "Cocoa, Blood Pressure, and Vascular Function - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28824916/"
+        },
+        {
+          "title": "The Effects of Flavonoids on Cardiovascular Health: A Review of ... - MDPI",
+          "url": "https://www.mdpi.com/2072-6643/10/12/1852"
+        },
+        {
+          "title": "Cocoa, Blood Pressure, and Vascular Function - Frontiers",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2017.00036/full"
+        },
+        {
+          "title": "Impact of flavan-3-ols on blood pressure and endothelial function in ...",
+          "url": "https://academic.oup.com/eurjpc/article/32/14/1322/8092214"
+        },
+        {
+          "title": "Cocoa Flavanols and Cardiometabolic Health - Nature",
+          "url": "https://www.nature.com/nature-index/topics/l4/cocoa-flavanols-and-cardiometabolic-health"
+        }
+      ]
+    },
+    {
+      "query": "cocoa flavanols randomized controlled trial cardiovascular outcomes COSMOS trial",
+      "results": [
+        {
+          "title": "Cocoa Flavanols Supplement Lowers Risk of Cardiovascular Death...",
+          "url": "https://www.hcplive.com/view/cocoa-flavanols-supplement-lowers-risk-of-cardiovascular-death-study-finds"
+        },
+        {
+          "title": "New trial finds signs of preventive cardiovascular effects for cocoa...",
+          "url": "https://www.news-medical.net/news/20220316/New-trial-finds-signs-of-preventive-cardiovascular-effects-for-cocoa-flavanols.aspx"
+        },
+        {
+          "title": "What Is the Evidence That Cocoa Flavanols... | The People's Pharmacy",
+          "url": "https://www.peoplespharmacy.com/articles/what-is-the-evidence-that-cocoa-flavanols-improve-health"
+        },
+        {
+          "title": "New Study Shows Cocoa Flavanols could Significantly Reduce Heart...",
+          "url": "https://www.cacultured.com/blog/cosmos-trial-6b26s"
+        },
+        {
+          "title": "Cocoa Flavanols Benefits: Heart & Brain Health... | Alinea Nutrition",
+          "url": "https://alineanutrition.com/blog/macronutrients-research/cocoa-flavanols-benefits-yay-for-heart-no-for-brain/"
+        },
+        {
+          "title": "Cocoa Flavanols and Cardiovascular Health: From the Kuna Tribe to...",
+          "url": "https://www.eatrightstore.org/dpg-and-mig-products/cv-well/cocoa-flavanols-and-cardiovascular-health-from-the-kuna-tribe-to-harvards-the-cosmos-trial"
+        },
+        {
+          "title": "World’s Largest Dietary Intervention Study of Cocoa Flavanols...",
+          "url": "https://www.marscocoascience.com/news/worlds-largest-dietary-intervention-study-of-cocoa-flavanols-investigates-long-term-cardiovascular-health-benefits"
+        },
+        {
+          "title": "Industry-funded study of the week: Cocoa flavanols",
+          "url": "https://www.foodpolitics.com/2022/03/industry-funded-study-of-the-week-cocoa-flavanols/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T12:38:30.026+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

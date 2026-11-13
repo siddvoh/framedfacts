@@ -1,0 +1,187 @@
+{
+  "definitions": {
+    "condition_side": "sign of the mean ordinal score over runs retained by the authenticated schedule profile",
+    "decomposition_pairing": "run-level pairs match claim, system, and repeat; contrast deltas are first minus second framing on the ordinal score, with claim-cluster bootstrap intervals",
+    "domain": "lowercase URL hostname with leading www removed",
+    "hedging_and_deviation_differences": "hedging contrasts report the run-level rate difference with a claim-cluster bootstrap interval; the Fisher test and Newcombe interval on the same contrast, and the rare-event deviation risk differences, are unadjusted run-level quantities",
+    "luna_denominator": "the frozen Luna sample receives no replacements; agreement uses only parse-valid labels and reports planned, attempted, and parse-valid n",
+    "midp_mcnemar": "two-sided mid-p McNemar is the primary paired test per Fagerland et al. 2013; the exact conditional p is reported alongside",
+    "neutral_query_rate": "either directional query label",
+    "neutral_repeat": "computed only for claim-system cells retaining both core repeats",
+    "primary_judge_invalid": "a schema-invalid primary judge output receives no replacement and makes that run inapplicable to all outcome analyses",
+    "query_direction": "framing-relative stance labels recoded to absolute claim direction: believer and neutral congruent labels affirm the claim, skeptic congruent labels deny it; net is affirm minus deny over all labeled queries",
+    "query_tokens": "set of lowercase ASCII alphanumeric tokens across a run's queries",
+    "replay": "descriptive attenuation, not a causal mediation estimate",
+    "run_denominators": "planned schedule rows, manifests attempted, terminally successful trajectories, parse-valid judged manifests, and analysis-applicable runs are reported separately; terminal failures and judge-invalid outputs are never imputed",
+    "source_pairing": "believer and skeptic runs matched by repeat index",
+    "zero_mean_primary": "non-flip",
+    "zero_mean_sensitivity": "pair excluded"
+  },
+  "input": {
+    "arm_denominators": {
+      "attribution": {
+        "analysis_applicable": 123,
+        "attempted": 128,
+        "judge_terminal_invalid": 0,
+        "parse_valid": 123,
+        "planned": 128,
+        "terminal_failed": 5,
+        "terminal_success": 123
+      },
+      "core": {
+        "analysis_applicable": 960,
+        "attempted": 1008,
+        "judge_terminal_invalid": 0,
+        "parse_valid": 960,
+        "planned": 1008,
+        "terminal_failed": 48,
+        "terminal_success": 960
+      },
+      "mitigation": {
+        "analysis_applicable": 185,
+        "attempted": 192,
+        "judge_terminal_invalid": 0,
+        "parse_valid": 185,
+        "planned": 192,
+        "terminal_failed": 7,
+        "terminal_success": 185
+      },
+      "paraphrase": {
+        "analysis_applicable": 56,
+        "attempted": 64,
+        "judge_terminal_invalid": 0,
+        "parse_valid": 56,
+        "planned": 64,
+        "terminal_failed": 8,
+        "terminal_success": 56
+      },
+      "replay": {
+        "analysis_applicable": 550,
+        "attempted": 576,
+        "judge_terminal_invalid": 0,
+        "parse_valid": 550,
+        "planned": 576,
+        "terminal_failed": 26,
+        "terminal_success": 550
+      },
+      "scholarly": {
+        "analysis_applicable": 0,
+        "attempted": 96,
+        "judge_terminal_invalid": 0,
+        "parse_valid": 0,
+        "planned": 96,
+        "terminal_failed": 96,
+        "terminal_success": 0
+      }
+    },
+    "arms": {
+      "attribution": 128,
+      "core": 1008,
+      "mitigation": 192,
+      "paraphrase": 64,
+      "replay": 576,
+      "scholarly": 96
+    },
+    "audit_binding": {
+      "luna_resolution": {
+        "attempted": 298,
+        "planned": 300,
+        "terminally_closed": [
+          "core_ff_165de773bad4_skeptic_terra_2",
+          "core_ff_53f6df77b46b_neutral_glm_1"
+        ]
+      },
+      "phase": "full",
+      "required": true,
+      "status": "verified",
+      "timestamp": "2026-08-05T01:32:37+00:00"
+    },
+    "claims": 48,
+    "denominators": {
+      "analysis_applicable": 1874,
+      "attempted": 2064,
+      "judge_terminal_invalid": 0,
+      "parse_valid": 1874,
+      "planned": 2064,
+      "terminal_failed": 190,
+      "terminal_success": 1874
+    },
+    "ignored_runs": 60,
+    "inapplicable_reason_codes": {
+      "terminal_failure:awaiting_response:JSONDecodeError": 8,
+      "terminal_failure:awaiting_response:RuntimeError": 154,
+      "terminal_failure:replay_source_terminal:RuntimeError": 24,
+      "terminal_failure:tool_call_clamp_logged:RuntimeError": 4
+    },
+    "include_kimi": true,
+    "judge_terminal_invalid_runs": 0,
+    "kimi_probe": {
+      "analysis_applicable": 117,
+      "attempted": 144,
+      "inapplicable_reason_codes": {
+        "terminal_failure:awaiting_response:RuntimeError": 25,
+        "terminal_failure:awaiting_response:SearchQueryExhausted": 1,
+        "terminal_failure:tool_call_clamp_logged:RuntimeError": 1
+      },
+      "included": true,
+      "judge_terminal_invalid": 0,
+      "model": "moonshotai/kimi-k3:exacto",
+      "parse_valid": 117,
+      "planned": 144,
+      "scope": "out_of_band_appendix_only",
+      "status": "included",
+      "terminal_failed": 27,
+      "terminal_success": 117
+    },
+    "luna_denominators": {
+      "analysis_applicable": 298,
+      "attempted": 298,
+      "inapplicable_reason_codes": {
+        "luna_not_attempted": 2
+      },
+      "not_attempted": 2,
+      "parse_valid": 298,
+      "planned": 300,
+      "replacement_attempts": 0,
+      "replacement_policy": "none_frozen_sample",
+      "terminal_invalid": 0,
+      "terminal_success": 298
+    },
+    "luna_labels": 298,
+    "runs": 1874,
+    "runs_with_all_citations_in_results": 1769,
+    "schedule_sha256": "be012ce99b73fea2cf9035404cd2aeecd1c09c4747bc0a96a29115b119f11093",
+    "screen_agreements": 42,
+    "screen_disagreements": 6,
+    "screening_methods": {
+      "model_assisted_independent": 48
+    },
+    "terminal_failed_runs": 190,
+    "trim_profile": "kimi_step1_glm_core_repeat2",
+    "trim_record_count": 1,
+    "trim_record_sha256": "61c6a4cb109b95e6f20fc365568c77cac08e5dd08504943b7575f150a573632c"
+  },
+  "models": {
+    "gee": {
+      "settled_false": {
+        "available": false,
+        "diagnostic": "RuntimeError: GEE did not converge"
+      },
+      "settled_true": {
+        "available": false,
+        "diagnostic": "RuntimeError: GEE did not converge"
+      }
+    },
+    "proportional_odds": {
+      "available": true,
+      "claims": 48,
+      "converged": true,
+      "covariance": "claim-clustered sandwich",
+      "formula": "ordinal_score ~ framing + system + tier",
+      "link": "logit",
+      "n": 960,
+      "parameters": 11,
+      "warnings": []
+    }
+  }
+}

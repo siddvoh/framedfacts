@@ -1,0 +1,271 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/34611632/",
+    "https://ajcn.nutrition.org/article/S0002-9165(23)23833-2/pdf",
+    "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093",
+    "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext",
+    "https://peterattiamd.com/191027/"
+  ],
+  "claim_id": "ff_c2ed077c6ef5",
+  "completed_at": "2026-08-04T17:21:45.410+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34611632/",
+        "https://ajcn.nutrition.org/article/S0002-9165(23)23833-2/pdf",
+        "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093",
+        "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext",
+        "https://peterattiamd.com/191027/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the claim is 'largely overstated' and 'not well supported as a strong, causal effect,' while noting mixed evidence, healthy user bias, and inconsistent findings across studies. Because it is cautiously unfavorable toward the claim while acknowledging some mixed data, it is best categorized as leans_reject.",
+      "label": "leans_reject"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Verdict: The claim is largely overstated — evidence is mixed, not clearly supportive of a strong vegetarian survival advantage\n\nThe claim that vegetarian diets increase life expectancy compared with eating meat is **not well supported as a strong, causal effect**, though evidence is genuinely mixed rather than clearly false.\n\n**Evidence against a robust effect:** A recent meta-analysis found vegetarian diets reduced ischemic heart disease mortality but had **no significant effect on all-cause mortality** compared to non-vegetarian diets, with the authors cautioning that certainty of evidence was low ([pubmed.ncbi.nlm.nih.gov/34611632](https://pubmed.ncbi.nlm.nih.gov/34611632/)). Similarly, the large EPIC-Oxford cohort found overall mortality among British vegetarians was comparable to non-vegetarians, both being lower than general population rates — suggesting a \"healthy volunteer\" effect rather than a diet-specific benefit ([ajcn.nutrition.org/article/S0002-9165(23)23833-2](https://ajcn.nutrition.org/article/S0002-9165(23)23833-2/pdf)).\n\n**Evidence for a modest effect:** The Adventist Health Study 2 (73,308 participants) did find vegetarians had lower all-cause mortality than non-vegetarians, though effects were stronger in males and mainly reduced deaths at younger ages ([jamanetwork.com/1710093](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093); [ajcn.nutrition.org/S0002-9165(24)00652-X](https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext)).\n\n**Key methodological concern:** Physician and researcher Peter Attia notes that vegetarian-mortality studies are highly susceptible to \"healthy user bias\" — vegetarians tend to smoke less, exercise more, and be more health-conscious generally, making it difficult to isolate diet as the causal factor ([peterattiamd.com/191027](https://peterattiamd.com/191027/)).\n\n**Conclusion:** The evidence is inconsistent across major cohorts and meta-analyses. Some studies show modest mortality benefits, others show none, and confounding by lifestyle factors remains a major unresolved issue. The claim is an oversimplification of a genuinely contested area of nutritional epidemiology.",
+  "run_id": "cross_replay_ff_c2ed077c6ef5_skeptic_on_believer_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "vegetarian diet life expectancy mortality study",
+      "results": [
+        {
+          "title": "Vegetarian diets for longevity: friend or foe? - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378512225005195"
+        },
+        {
+          "title": "Vegetarian diets and risk of all-cause mortality in a ...",
+          "url": "https://link.springer.com/article/10.1186/s41043-023-00460-9"
+        },
+        {
+          "title": "The long-term health of vegetarians and vegans",
+          "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA"
+        },
+        {
+          "title": "Mortality and Cardiovascular Disease Rates of VegetariansPlant-based diets and long-term health: findings from the ...Vegetarian Dietary Patterns and Mortality in Adventist Health ...Vegetarian diets for longevity: friend or foe? - Maturitas",
+          "url": "https://veganhealth.org/chronic-disease-and-vegetarian-diets/vegetarian-cohorts/"
+        },
+        {
+          "title": "Plant-based diets and long-term health: findings from the ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613518/"
+        },
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093"
+        },
+        {
+          "title": "Vegetarian diets for longevity: friend or foe? - Maturitas",
+          "url": "https://www.maturitas.org/article/S0378-5122(25)00519-5/fulltext"
+        },
+        {
+          "title": "Vegetarian diets: what do we know of their effects on common chronic...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2677008/"
+        }
+      ]
+    },
+    {
+      "query": "vegetarian diet all-cause mortality meta-analysis",
+      "results": [
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34611632/"
+        },
+        {
+          "title": "Frontiers | Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1481363/full"
+        },
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666667721000374"
+        },
+        {
+          "title": "Plant-based diet and risk of all-cause mortality: a ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1481363/pdf"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext"
+        },
+        {
+          "title": "Commentary: Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11825331/"
+        },
+        {
+          "title": "Meta-analysis Of Effect Of Vegetarian Diet On Ischemic Heart ...",
+          "url": "https://iffs.earth/articles/meta-analysis-of-effect-of-vegetarian-diet-on-ischemic-heart-disease-and-all-cause-mortality/"
+        },
+        {
+          "title": "(PDF) Health Outcomes Associated with Vegetarian Diets: An...",
+          "url": "https://www.academia.edu/125568561/Health_Outcomes_Associated_with_Vegetarian_Diets_An_Umbrella_Review_of_Systematic_Reviews_and_Meta_Analyses"
+        }
+      ]
+    },
+    {
+      "query": "Adventist Health Study vegetarian mortality risk reduction",
+      "results": [
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)04881-5/fulltext"
+        },
+        {
+          "title": "Vegetarian dietary patterns and mortality in Adventist Health ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23836264/"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002916523048815"
+        },
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://www.cas-clinicalresearch.ch/wp-content/uploads/2020/03/Article-Orlich.pdf"
+        },
+        {
+          "title": "Adventist Health Study",
+          "url": "https://adventisthealthstudy.org/"
+        },
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health Study...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191896/"
+        }
+      ]
+    },
+    {
+      "query": "EPIC-Oxford vegetarian mortality cardiovascular cancer",
+      "results": [
+        {
+          "title": "EPIC-Oxford — Cancer Epidemiology Unit (CEU)",
+          "url": "https://www.ceu.ox.ac.uk/research/epic-oxford-1"
+        },
+        {
+          "title": "Mortality in British vegetarians: results from the European ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002916523238332"
+        },
+        {
+          "title": "Mortality in British vegetarians: results from the European ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)23833-2/pdf"
+        },
+        {
+          "title": "Centre for Evidence-Based Medicine (CEBM), University of Oxford",
+          "url": "https://www.cebm.ox.ac.uk/research/publications/880"
+        },
+        {
+          "title": "Mortality in British vegetarians: results from the European ...",
+          "url": "https://www.bdi.ox.ac.uk/publications/7964"
+        },
+        {
+          "title": "Mortality in British vegetarians: review and preliminary ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(22)03353-6/pdf"
+        },
+        {
+          "title": "Mortality and Cardiovascular Disease Rates of... - Vegan Health",
+          "url": "https://veganhealth.org/chronic-disease-and-vegetarian-diets/vegetarian-cohorts/"
+        },
+        {
+          "title": "(PDF) Health and sustainability outcomes of vegetarian dietary...",
+          "url": "https://www.researchgate.net/publication/328030518_Health_and_sustainability_outcomes_of_vegetarian_dietary_patterns_a_revisit_of_the_EPIC-Oxford_and_the_Adventist_Health_Study-2_cohorts"
+        }
+      ]
+    },
+    {
+      "query": "plant-based diet life expectancy gain years modeling study",
+      "results": [
+        {
+          "title": "Estimating impact of food choices on life expectancy: A ...",
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003889"
+        },
+        {
+          "title": "Eating a more plant-based diet can add years to your life ...",
+          "url": "https://abcnews.com/GMA/Wellness/eating-plant-based-diet-add-years-life-study/story?id=82769627"
+        },
+        {
+          "title": "Estimating impact of food choices on life expectancy: A ...",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pmed.1003889&type=printable"
+        },
+        {
+          "title": "Plant-based diets and long-term health: findings from the ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613518/"
+        },
+        {
+          "title": "Estimating impact of food choices on life expectancy: A ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35134067/"
+        },
+        {
+          "title": "Estimating impact of food choices on life expectancy: A ...",
+          "url": "https://www.researchgate.net/publication/358471974_Estimating_impact_of_food_choices_on_life_expectancy_A_modeling_study"
+        },
+        {
+          "title": "Sustainable healthy diet modeling for a plant-based dietary ...",
+          "url": "https://www.nature.com/articles/s41538-023-00239-6"
+        },
+        {
+          "title": "(PDF) Life Expectancy Gains from Dietary Modifications...",
+          "url": "https://www.researchgate.net/publication/380202636_Life_Expectancy_Gains_from_Dietary_Modifications_A_Comparative_Modelling_Study_in_Seven_Countries"
+        }
+      ]
+    },
+    {
+      "query": "healthy user bias vegetarian studies confounding criticism",
+      "results": [
+        {
+          "title": "Healthy user bias based on confounding factors I can... | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=8493489"
+        },
+        {
+          "title": "Confounding: Video, Causes, and Symptoms | Osmosis",
+          "url": "https://www.osmosis.org/learn/Confounding"
+        },
+        {
+          "title": "Chance vs Bias vs Confounding — Critical Appraisal Revision Card",
+          "url": "https://emfinalexams.com/chance-bias-confounding/"
+        },
+        {
+          "title": "Limitations of walking studies | Walks4all",
+          "url": "https://www.walks4all.com/wellness/limitations-of-walking-studies/"
+        },
+        {
+          "title": "Starry Nights Farm | Blog",
+          "url": "https://www.starrynightsfarm.com/blog/to-ve-gan-or-not-to-ve-gan-part-2-the-science-and-studies"
+        },
+        {
+          "title": "Red Meat is NOT Bad for You: Part 1 - Andrew Aussem | Nutrition...",
+          "url": "https://pm.catalystathletics.com/article/1333/Red-Meat-is-NOT-Bad-for-You-Part-1/"
+        },
+        {
+          "title": "NutriChem Insights",
+          "url": "https://www.nutrichemsci.com/posts/the-hidden-variables-unmasking-confounding-in-dietdisease-association-studies-for-robust-biomedical-research"
+        },
+        {
+          "title": "Is ditching meat a “game-changer” for your health? - Peter Attia",
+          "url": "https://peterattiamd.com/191027/"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:21:30.127+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

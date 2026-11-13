@@ -1,0 +1,232 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMc2207995",
+    "https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic",
+    "https://www.cell.com/heliyon/fulltext/S2405-8440(24)03678-8",
+    "https://link.springer.com/article/10.1186/s12879-022-07589-8"
+  ],
+  "claim_id": "ff_7c3eb07224e5",
+  "completed_at": "2026-08-03T20:46:04.927+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMc2207995",
+        "https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic",
+        "https://www.cell.com/heliyon/fulltext/S2405-8440(24)03678-8",
+        "https://link.springer.com/article/10.1186/s12879-022-07589-8"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that high-quality randomized evidence supports 'no', stating that ivermectin does not reduce COVID-19 mortality, clearly rejecting the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "## Does Ivermectin Lower COVID-19 Mortality? No, Based on the Best Evidence\n\nThe current weight of high-quality evidence indicates ivermectin does **not** reduce COVID-19 mortality.\n\n**Large randomized trials:** The most rigorous studies—ACTIV-6 (published in JAMA, 2022) and the TOGETHER trial (published in NEJM)—found no meaningful benefit. TOGETHER, a large placebo-controlled outpatient trial, showed only a modest, non-definitive difference in hospitalization (14.7% vs. 16.3%), and a follow-up NEJM correspondence noted the relative risk reduction did not meet the trial's pre-specified threshold for efficacy ([nejm.org](https://www.nejm.org/doi/full/10.1056/NEJMc2207995)). Wikipedia's summary confirms ACTIV-6 \"found ivermectin was not effective as a COVID-19 treatment\" ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic)).\n\n**Recent systematic reviews/meta-analyses:** A 2024 meta-analysis in *Heliyon*, covering 33 RCTs (n=10,489) through June 2023, concluded that ivermectin \"did not have an effect in reducing the risk of mortality in patients with COVID-19\" ([cell.com](https://www.cell.com/heliyon/fulltext/S2405-8440(24)03678-8)). Similarly, a 2022 systematic review in *BMC Infectious Diseases* reassessed evidence after accounting for retracted studies and found no consistent mortality benefit ([link.springer.com](https://link.springer.com/article/10.1186/s12879-022-07589-8)).\n\n**Regulatory/expert consensus:** The WHO recommends ivermectin only within clinical trials, citing \"very low certainty\" evidence on mortality, ventilation, and hospitalization outcomes. The FDA has not approved it for COVID-19.\n\n**Caveat:** Some earlier, smaller meta-analyses (e.g., a 2021 *EClinicalMedicine* study) reported reduced mortality, but these relied on lower-certainty evidence and were superseded by larger, more rigorous trials once fraudulent/retracted studies were excluded.\n\n**Conclusion:** The most credible, updated randomized evidence supports \"no\"—ivermectin does not reduce COVID-19 mortality.",
+  "run_id": "replay_ff_7c3eb07224e5_skeptic_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "ivermectin covid-19 mortality randomized controlled trial",
+      "results": [
+        {
+          "title": "Ivermectin during the COVID-19 pandemic - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic"
+        },
+        {
+          "title": "Ivermectin for COVID-19: real-time analysis of 302 studies",
+          "url": "https://c19early.org/i"
+        },
+        {
+          "title": "(PDF) Ivermectin as a potential treatment for mild to moderate...",
+          "url": "https://www.academia.edu/143926294/Ivermectin_as_a_potential_treatment_for_mild_to_moderate_COVID_19_A_double_blind_randomized_placebo_controlled_trial"
+        },
+        {
+          "title": "Ivermectin as a potential treatment for mild to moderate COVID-19...",
+          "url": "https://www.researchgate.net/profile/Ravi-Kirti/publication/348363600_Evaluation_of_Ivermectin_as_a_Potential_Treatment_for_Mild_to_Moderate_COVID-19_A_Double-Blind_Randomized_Placebo_Controlled_Trial_in_Eastern_India/links/5ffa907c299bf14088858cb4/Evaluation-of-Ivermectin-as-a-Potential-Treatment-for-Mild-to-Moderate-COVID-19-A-Double-Blind-Randomized-Placebo-Controlled-Trial-in-Eastern-India.pdf"
+        },
+        {
+          "title": "'This was a gift to us': Ivermectin effective for COVID-19 prophylaxis...",
+          "url": "https://www.healio.com/news/primary-care/20201208/this-was-a-gift-to-us-ivermectin-effective-for-covid19-prophylaxis-treatment"
+        },
+        {
+          "title": "Covid-19: Ivermectin’s politicisation is a warning sign for... | The BMJ",
+          "url": "https://www.bmj.com/content/373/bmj.n747"
+        },
+        {
+          "title": "How does Ivermectin actually Combat COVID-19? – Explore EVERY...",
+          "url": "https://pennybutler.com/how-ivermectin-works/"
+        },
+        {
+          "title": "Ivermectin for COVID-19: real-time meta analysis of 63 studies",
+          "url": "https://web.archive.org/web/20210907152911/https://ivmmeta.com/"
+        }
+      ]
+    },
+    {
+      "query": "ivermectin covid-19 death meta-analysis",
+      "results": [
+        {
+          "title": "Ivermectin during the COVID-19 pandemic - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic"
+        },
+        {
+          "title": "CLINICAL OUTCOMES ASSOCIATED WITH IVERMECTIN USE IN COVID-19 ...",
+          "url": "https://journal.chestnet.org/article/S0012-3692(21)02013-4/fulltext"
+        },
+        {
+          "title": "The impact of ivermectin on COVID-19 outcomes: a systematic ...",
+          "url": "https://www.ovid.com/jnls/annals-of-medicine-and-surgery/fulltext/10.1097/ms9.0000000000002762~the-impact-of-ivermectin-on-covid-19-outcomes-a-systematic"
+        },
+        {
+          "title": "Systematic review and meta-analysis of ivermectin for ...",
+          "url": "https://link.springer.com/article/10.1186/s12879-022-07589-8"
+        },
+        {
+          "title": "Ivermectin for treatment of COVID-19: A systematic review and ...",
+          "url": "https://www.cell.com/heliyon/fulltext/S2405-8440(24)03678-8"
+        },
+        {
+          "title": "Ivermectin for treatment of COVID-19: A systematic review and ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2405844024036788"
+        },
+        {
+          "title": "Systematic review and meta-analysis of ivermectin for ...",
+          "url": "https://link.springer.com/content/pdf/10.1186/s12879-022-07589-8.pdf"
+        },
+        {
+          "title": "Ivermectin and mortality in patients with COVID-19: A ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S187140212100206X"
+        }
+      ]
+    },
+    {
+      "query": "ACTIV-6 ivermectin covid-19 results NEJM",
+      "results": [
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMc2114907",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2114907"
+        },
+        {
+          "title": "Fact-check: ivermectin, Fauci, and COVID-19 vaccines · GitHub",
+          "url": "https://gist.github.com/magnus919/05f39d1ec80ea485ff51d631d2c35962"
+        },
+        {
+          "title": "Ivermectin: Uses, Dosage, Side Effects, Warnings - Drugs.com",
+          "url": "https://www.drugs.com/ivermectin.html"
+        },
+        {
+          "title": "'This was a gift to us': Ivermectin effective for COVID-19 prophylaxis...",
+          "url": "https://www.healio.com/news/primary-care/20201208/this-was-a-gift-to-us-ivermectin-effective-for-covid19-prophylaxis-treatment"
+        },
+        {
+          "title": "Ivermectin (Stromectol):Benefits, Risks, and Safety",
+          "url": "https://www.webmd.com/drugs/what-is-ivermectin"
+        },
+        {
+          "title": "Joe Rogan Says He Tested Positive for Covid-19, Claims He's Taking...",
+          "url": "https://gizmodo.com/joe-rogan-says-he-tested-positive-for-covid-19-claims-1847603938"
+        },
+        {
+          "title": "Is COVID-19 Dangerous to Pregnancy: ObGyn Responds - YouTube",
+          "url": "https://www.youtube.com/watch?v=pc71CWAmrOg"
+        },
+        {
+          "title": "Ivermectin Dosage: Form, Strength, How It’s Given, and More",
+          "url": "https://www.healthline.com/health/drugs/ivermectin-dosage"
+        }
+      ]
+    },
+    {
+      "query": "TOGETHER trial ivermectin covid-19 hospitalization mortality",
+      "results": [
+        {
+          "title": "Ivermectin Treatment for Covid-19 - The New England Journal ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMc2207995?download=true"
+        },
+        {
+          "title": "Ivermectin Treatment for Covid-19 | New England Journal of ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2207995"
+        },
+        {
+          "title": "Early Treatment of COVID-19 with Repurposed Therapies: The ...",
+          "url": "https://dcricollab.dcri.duke.edu/sites/NIHKR/KR/GR-Slides-08-06-21.pdf"
+        },
+        {
+          "title": "A multi-center, adaptive, randomized,... | Gates Open ResearchIs Ivermectin Effective Against COVID? What Evidence ShowsIvermectin COVID Studies: A Review of Major Trials",
+          "url": "https://gatesopenresearch.org/articles/5-117"
+        },
+        {
+          "title": "Is Ivermectin Effective Against COVID? What Evidence Shows",
+          "url": "https://scienceinsights.org/is-ivermectin-effective-against-covid-what-evidence-shows/"
+        },
+        {
+          "title": "Ivermectin COVID Studies: A Review of Major Trials",
+          "url": "https://biologyinsights.com/ivermectin-covid-studies-a-review-of-major-trials/"
+        },
+        {
+          "title": "Ivermectin for COVID-19: real-time analysis of 302 studies",
+          "url": "https://c19early.org/i"
+        },
+        {
+          "title": "Ivermectin for Prevention and Treatment of COVID-19 Infection...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8248252/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review ivermectin COVID-19 2024",
+      "results": [
+        {
+          "title": "Ivermectin (Stromectol):Benefits, Risks, and Safety",
+          "url": "https://www.webmd.com/drugs/what-is-ivermectin"
+        },
+        {
+          "title": "(PDF) Ivermectin for preventing and treating COVID‐19",
+          "url": "https://www.researchgate.net/publication/361442829_Ivermectin_for_preventing_and_treating_COVID-19"
+        },
+        {
+          "title": "Ivermectin: Uses, Dosage, Side Effects, Warnings - Drugs.com",
+          "url": "https://www.drugs.com/ivermectin.html"
+        },
+        {
+          "title": "Joe Rogan Says He Tested Positive for Covid-19, Claims He's Taking...",
+          "url": "https://gizmodo.com/joe-rogan-says-he-tested-positive-for-covid-19-claims-1847603938"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "Ivermectin Dosage: Form, Strength, How It’s Given, and More",
+          "url": "https://www.healthline.com/health/drugs/ivermectin-dosage"
+        },
+        {
+          "title": "Long Haul COVID-19 - Southern Pain Society",
+          "url": "https://southernpainsociety.org/long-haul-covid-19/"
+        },
+        {
+          "title": "Is COVID-19 Dangerous to Pregnancy: ObGyn Responds - YouTube",
+          "url": "https://www.youtube.com/watch?v=pc71CWAmrOg"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T20:45:51.846+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

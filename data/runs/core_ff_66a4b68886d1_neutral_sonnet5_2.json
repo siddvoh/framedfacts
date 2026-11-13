@@ -1,0 +1,200 @@
+{
+  "arm": "core",
+  "citations": [],
+  "claim_id": "ff_66a4b68886d1",
+  "completed_at": "2026-08-03T17:38:35.888+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": false,
+      "all_urls_well_formed": false,
+      "has_url": false,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": false,
+      "substantive_support_verified": false,
+      "urls": []
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is well-supported by evidence, citing multiple large studies and meta-analyses showing that bystander hands-only CPR improves survival compared to no bystander CPR. Therefore, the report unequivocally endorses the claim.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "5828c7fa078c9ca867699b1b31dffa267cd01bb21ee8eec8dedd40988b957978",
+  "queries": [
+    "hands-only CPR bystander survival out-of-hospital cardiac arrest",
+    "compression-only CPR vs conventional CPR vs no bystander CPR survival meta-analysis",
+    "no bystander CPR vs any bystander CPR survival cardiac arrest odds ratio",
+    "AHA guidelines hands-only CPR survival compared to no CPR"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 2,
+  "report": "**Conclusion: The claim is well-supported by evidence.**\n\nMultiple large studies and meta-analyses confirm that bystander hands-only (compression-only) CPR improves survival after out-of-hospital cardiac arrest (OHCA) compared with no bystander CPR at all. The American Heart Association's scientific advisory notes that \"hands-only (compression-only) CPR was better than no attempt at CPR and produced survival equivalent to conventional CPR\" in the cited bystander studies (ahajournals.org/doi/pdf/10.1161/CIRCULATIONAHA.107.189380). A landmark Swedish nationwide registry study of witnessed OHCA found that patients receiving either standard or hands-only CPR were roughly twice as likely to survive 30 days compared with those receiving no CPR, across all time periods studied (as reported via emergency-live.com, summarizing the Circulation/AHA-published Swedish data).\n\nThis is corroborated by randomized and meta-analytic evidence comparing compression-only to standard CPR: the Lancet meta-analysis found that dispatcher-assisted compression-only CPR was associated with *improved* survival compared to standard CPR with ventilations (thelancet.com/journals/lancet/article/PIIS0140-6736(10)61454-7), and the NEJM trial found a modestly higher 30-day survival with compression-only CPR (8.7%) versus standard CPR (7.0%) (nejm.org/doi/full/10.1056/NEJMoa0908991). Since standard CPR itself is well established as superior to no CPR, and compression-only performs at least as well as (often better than) standard CPR in adult OHCA, the chain of evidence supports that hands-only CPR confers a substantial survival benefit over no bystander CPR.\n\nCaveats: benefits are somewhat smaller in pediatric/asphyxial arrests, where conventional CPR with ventilations may be preferable, and outcome magnitude varies by study design and population.",
+  "run_id": "core_ff_66a4b68886d1_neutral_sonnet5_2",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "hands-only CPR bystander survival out-of-hospital cardiac arrest",
+    "compression-only CPR vs conventional CPR vs no bystander CPR survival meta-analysis",
+    "no bystander CPR vs any bystander CPR survival cardiac arrest odds ratio",
+    "AHA guidelines hands-only CPR survival compared to no CPR"
+  ],
+  "searches": [
+    {
+      "query": "hands-only CPR bystander survival out-of-hospital cardiac arrest",
+      "results": [
+        {
+          "title": "Hands-Only CPR - UF Health",
+          "url": "https://ufhealth.org/conditions-and-treatments/hands-only-cpr"
+        },
+        {
+          "title": "(PDF) Bystander-initiated chest compression-only CPR is better than...",
+          "url": "https://www.researchgate.net/publication/235729060_Bystander-initiated_chest_compression-only_CPR_is_better_than_standard_CPR_in_out-of-hospital_cardiac_arrest"
+        },
+        {
+          "title": "Hands-only CPR increases survival rate after an OHCA - a study",
+          "url": "https://www.emergency-live.com/health-and-safety/survive-an-ohca-the-american-heart-association-revealed-that-hands-only-cpr-increases-survival-rate/"
+        },
+        {
+          "title": "A Hands-On Approach - JEMS: EMS, Emergency Medical Services...",
+          "url": "https://www.jems.com/patient-care/cardiac-resuscitation/hands-approach/"
+        },
+        {
+          "title": "Compression-only CPR increases survival of out-of-hospital cardiac...",
+          "url": "https://www.trinityonlaurens.org/blog/compression-only-cpr-increases-survival-out-hospital-cardiac-arrest"
+        },
+        {
+          "title": "Bystander CPR: A key link in the chain of survival",
+          "url": "https://www.ems1.com/ems-products/cpr-resuscitation/articles/bystander-cpr-a-key-link-in-the-chain-of-survival-LIRauM34WSpssdEz/"
+        },
+        {
+          "title": "Hands only cpr – reducing barriers to bystander cpr",
+          "url": "https://www.healthforceph.com/post/hands-only-cpr-reducing-barriers-to-bystander-cpr"
+        },
+        {
+          "title": "These Twins Weren't Identical (But Only for Eight Weeks) | UKNow",
+          "url": "https://uknow.uky.edu/uk-healthcare/gill-heart-institute/these-twins-werent-identical-only-eight-weeks"
+        }
+      ]
+    },
+    {
+      "query": "compression-only CPR vs conventional CPR vs no bystander CPR survival meta-analysis",
+      "results": [
+        {
+          "title": "Conventional Versus Compression-Only Versus No-Bystander ...",
+          "url": "https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.116.023831"
+        },
+        {
+          "title": "Chest Compression-Only CPR: A Meta-Analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2987687/"
+        },
+        {
+          "title": "Chest-compression-only versus standard cardiopulmonary ...",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61454-7/fulltext"
+        },
+        {
+          "title": "Meta-analysis of chest compression-only versus conventional ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34622436/"
+        },
+        {
+          "title": "Chest compression-only vs standard CPR in adults with out-of ...",
+          "url": "https://www.amjmed.com/article/S0002-9343(26)00145-2/fulltext"
+        },
+        {
+          "title": "Chest-compression-only versus conventional cardiopulmonary ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0300957218310670"
+        },
+        {
+          "title": "Compression-Only CPR or Standard CPR in Out-of-Hospital ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa0908991"
+        },
+        {
+          "title": "Chest-compression-only versus conventional cardiopulmonary...",
+          "url": "https://www.resuscitationjournal.com/article/S0300-9572(18)31067-0/fulltext?dgcid=raven_jbs_etoc_email"
+        }
+      ]
+    },
+    {
+      "query": "no bystander CPR vs any bystander CPR survival cardiac arrest odds ratio",
+      "results": [
+        {
+          "title": "Chest‐compression‐only bystander cardiopulmonary resuscitation in...",
+          "url": "https://www.researchgate.net/publication/272380182_Chest-compression-only_bystander_cardiopulmonary_resuscitation_in_the_302_compression-to-ventilation_ratio_era-Nationwide_Observational_Study"
+        },
+        {
+          "title": "CPR Facts and Stats | American Heart Association CPR & First Aid",
+          "url": "https://cpr.heart.org/en/resources/cpr-facts-and-stats"
+        },
+        {
+          "title": "Organ donation after resuscitation from cardiac arrest",
+          "url": "https://www.jvsmedicscorner.com/ICU-Cardiovascular_files/2019+International+Consensus+on+Cardiopulmonary+Resuscitation+and+Emergency+Cardiovascular+Care+Science.pdf"
+        },
+        {
+          "title": "40+ Heart Attack Survival Rate Statistics (2026, Verified)",
+          "url": "https://gitnux.org/heart-attack-survival-rate-statistics/"
+        },
+        {
+          "title": "Hands-only CPR increases survival rate after an OHCA - a study",
+          "url": "https://www.emergency-live.com/health-and-safety/survive-an-ohca-the-american-heart-association-revealed-that-hands-only-cpr-increases-survival-rate/"
+        },
+        {
+          "title": "(PDF) Out-of-Hospital Cardiac Arrest Outcomes – Bystander...",
+          "url": "https://www.academia.edu/113759508/Out_of_Hospital_Cardiac_Arrest_Outcomes_Bystander_Cardiopulmonary_Resuscitation_Rate_Improvement"
+        },
+        {
+          "title": "Hold the Breath for Bystander CPR",
+          "url": "https://www.patientcareonline.com/view/hold-breath-bystander-cpr"
+        },
+        {
+          "title": "Black Adults and Women Least Likely to Benefit from Bystander CPR",
+          "url": "https://respiratory-therapy.com/disorders-diseases/critical-care/ambulance-ems/black-adults-women-least-likely-benefit-bystander-cpr/"
+        }
+      ]
+    },
+    {
+      "query": "AHA guidelines hands-only CPR survival compared to no CPR",
+      "results": [
+        {
+          "title": "Hands-Only CPR - American Heart Association CPR & First Aid",
+          "url": "https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr"
+        },
+        {
+          "title": "Learn Hands-Only CPR | American Heart Association International",
+          "url": "https://international.heart.org/en/resuscitation/hands-only-cpr"
+        },
+        {
+          "title": "CPR and ECC Guidelines - American Heart Association CPR ...",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+        },
+        {
+          "title": "CPR - Cardiopulmonary Resuscitation and Updated Guidelines ...",
+          "url": "https://newsroom.heart.org/facts/cpr-cardiopulmonary-resuscitation-and-updated-guidelines-2025"
+        },
+        {
+          "title": "How Effective Is Hands-Only CPR in Emergencies?",
+          "url": "https://cprlifeline.net/blog/how-effective-is-hands-only-cpr/"
+        },
+        {
+          "title": "Hands-Only (Compression-Only) Cardiopulmonary Resuscitation ...",
+          "url": "https://www.ahajournals.org/doi/pdf/10.1161/CIRCULATIONAHA.107.189380"
+        },
+        {
+          "title": "Hands-only CPR increases survival rate after an OHCA - a study",
+          "url": "https://www.emergency-live.com/health-and-safety/survive-an-ohca-the-american-heart-association-revealed-that-hands-only-cpr-increases-survival-rate/"
+        },
+        {
+          "title": "Part 7: Adult Basic Life Support | American Heart Association CPR...",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T17:28:58.629+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

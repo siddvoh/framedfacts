@@ -1,0 +1,210 @@
+{
+  "arm": "kimi",
+  "citations": [
+    "https://www.pnas.org/doi/10.1073/pnas.2014564118",
+    "https://escholarship.org/uc/item/86t771h3",
+    "https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses",
+    "https://www.cochrane.org/about-us/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+  ],
+  "claim_id": "ff_782692fd8627",
+  "completed_at": "2026-08-03T19:46:26.213+00:00",
+  "framing": "neutral",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.pnas.org/doi/10.1073/pnas.2014564118",
+        "https://escholarship.org/uc/item/86t771h3",
+        "https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses",
+        "https://www.cochrane.org/about-us/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes 'Yes' to the claim, stating that the weight of evidence indicates reduced SARS-CoV-2 transmission when a large share of the population wears masks consistently.",
+      "label": "endorses"
+    }
+  },
+  "model": "moonshotai/kimi-k3:exacto",
+  "params_hash": "5b73edffbd5cb9dfcfede042e73a6ddc3775e3026bc39efa7340eed875692c3a",
+  "queries": [
+    "population-level mask wearing COVID-19 infection reduction systematic review",
+    "community mask mandates SARS-CoV-2 transmission randomized trial evidence",
+    "Cochrane review physical interventions respiratory viruses masks 2023",
+    "Bangladesh mask randomized trial community COVID-19 Abaluck 2021"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "Conclusion: Yes—when a large share of the population wears masks consistently, especially well-fitting surgical masks/respirators, the weight of evidence indicates reduced SARS-CoV-2 transmission, though the population-level effect is likely modest and depends heavily on compliance, mask quality, indoor exposure, and timing.\n\nA PNAS evidence review concluded that “the preponderance of evidence” shows masks reduce transmissibility per contact and work best when compliance is high: https://www.pnas.org/doi/10.1073/pnas.2014564118. The strongest community randomized evidence is the Bangladesh cluster trial of ~342,000 adults: promoting masks tripled use and reduced symptomatic SARS-CoV-2 infection, with larger benefits for surgical masks than cloth and among older adults: https://escholarship.org/uc/item/86t771h3.\n\nHowever, certainty is not absolute. Cochrane’s review of randomized trials said it was “uncertain” whether masks slow respiratory-virus spread based on the limited trials assessed: https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses. Cochrane later warned this was widely misinterpreted and should not be read as proof masks do not work: https://www.cochrane.org/about-us/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review.\n\nBottom line: masks are not a standalone fix, but broad, high-quality mask use during surges can reduce infections at the population level, particularly alongside ventilation, testing, and vaccination.",
+  "run_id": "kimi_ff_782692fd8627_neutral_kimi_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "population-level mask wearing COVID-19 infection reduction systematic review",
+    "community mask mandates SARS-CoV-2 transmission randomized trial evidence",
+    "Cochrane review physical interventions respiratory viruses masks 2023",
+    "Bangladesh mask randomized trial community COVID-19 Abaluck 2021"
+  ],
+  "searches": [
+    {
+      "query": "population-level mask wearing COVID-19 infection reduction systematic review",
+      "results": [
+        {
+          "title": "An evidence review of face masks against COVID-19 | PNAS",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2014564118"
+        },
+        {
+          "title": "COVID-19 Face Mask Advice, Explained - FactCheck.org",
+          "url": "https://www.factcheck.org/2020/04/covid-19-face-mask-advice-explained/"
+        },
+        {
+          "title": "Prevalence of Covid 19 in Students Attended Al-Dora Family Medical...",
+          "url": "https://openaccesspub.org/international-journal-of-coronaviruses/article/prevalence-of-covid-19-in-students-attended-al-dora-family-medical-center-for-covid-19-test-1830"
+        },
+        {
+          "title": "COVID - Coronavirus Statistics - Worldometer",
+          "url": "https://www.worldometers.info/coronavirus/"
+        },
+        {
+          "title": "Current COVID-19 situation - COVID 19 graph & data",
+          "url": "https://covidgraph.com/"
+        },
+        {
+          "title": "My third COVID-19 infection: Why reinfection can be anything but mild",
+          "url": "https://www.gavi.org/vaccineswork/my-third-covid-19-infection-why-reinfection-can-be-anything-mild"
+        },
+        {
+          "title": "Americans’ Responses to Covid-19 Stay-Home Orders Differed...",
+          "url": "https://publichealth.jhu.edu/2020/americans-responses-to-covid-19-stay-home-orders-differed-according-to-population-density"
+        },
+        {
+          "title": "science.org/doi/10.1126/science.abf4063",
+          "url": "https://www.science.org/doi/10.1126/science.abf4063"
+        }
+      ]
+    },
+    {
+      "query": "community mask mandates SARS-CoV-2 transmission randomized trial evidence",
+      "results": [
+        {
+          "title": "Normalizing Community Mask-Wearing: A Cluster Randomized Trial...",
+          "url": "https://ncrc.jhsph.edu/research/normalizing-community-mask-wearing-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "Impact of community mask mandates on SARS-CoV-2 transmission...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38463611/"
+        },
+        {
+          "title": "Mask wearing in community settings reduces...",
+          "url": "https://www.jstor.org/stable/27152069"
+        },
+        {
+          "title": "A modeling study on SARS-CoV-2 transmissions in primary and...",
+          "url": "https://link.springer.com/article/10.1186/s12889-024-20623-5"
+        },
+        {
+          "title": "A prospective randomised controlled trial investigating household...",
+          "url": "https://kclpure.kcl.ac.uk/portal/en/publications/a-prospective-randomised-controlled-trial-investigating-household/"
+        },
+        {
+          "title": "Comment to: Factors affecting SARS-CoV-2 transmission among face...",
+          "url": "https://www.scielo.br/j/eins/a/HrGhLywTpHBXk5TtXJk3cTL/?lang=en"
+        },
+        {
+          "title": "There is no evidence COVID-19 is transmitted by 'asymptomatic...",
+          "url": "https://www.lifesitenews.com/opinion/there-is-no-evidence-that-covid-19-is-transmitted-by-asymptomatic-people/"
+        },
+        {
+          "title": "nejm.org/doi/full/10.1056/NEJMoa2107659",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2107659"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review physical interventions respiratory viruses masks 2023",
+      "results": [
+        {
+          "title": "Statement on 'Physical interventions to interrupt ... - Cochrane",
+          "url": "https://www.cochrane.org/about-us/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/read-comments"
+        },
+        {
+          "title": "Do physical measures such as hand-washing or ... - Cochrane",
+          "url": "https://www.cochrane.org/evidence/CD006207_do-physical-measures-such-hand-washing-or-wearing-masks-stop-or-slow-down-spread-respiratory-viruses"
+        },
+        {
+          "title": "(PDF) Physical interventions to interrupt or reduce the ...",
+          "url": "https://www.researchgate.net/publication/367546540_Physical_interventions_to_interrupt_or_reduce_the_spread_of_respiratory_viruses"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/PMC9885521"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the ... - Cochrane",
+          "url": "https://ari.cochrane.org/news/physical-interventions-interrupt-or-reduce-spread-respiratory-viruses"
+        },
+        {
+          "title": "Physical interventions to interrupt or reduce the spread of ...",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006207.pub6/references"
+        },
+        {
+          "title": "Statement on 'Physical interventions to interrupt or... | Cochrane",
+          "url": "https://www.cochrane.org/news/statement-physical-interventions-interrupt-or-reduce-spread-respiratory-viruses-review"
+        }
+      ]
+    },
+    {
+      "query": "Bangladesh mask randomized trial community COVID-19 Abaluck 2021",
+      "results": [
+        {
+          "title": "The Impact of Community Masking on COVID-19",
+          "url": "https://pashev.ru/files/abaluck-2021-08-31.pdf"
+        },
+        {
+          "title": "October 15, 2021: The Impact of Community Masking on COVID-19...",
+          "url": "https://rethinkingclinicaltrials.org/news/october-15-2021-the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh-jason-abaluck-phd/"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19... | NCRC",
+          "url": "https://ncrc.jhsph.edu/research/the-impact-of-community-masking-on-covid-19-a-cluster-randomized-trial-in-bangladesh/"
+        },
+        {
+          "title": "Do Face Masks Reduce COVID-19 Spread in Bangladesh?",
+          "url": "https://www.globalresearch.ca/do-face-masks-reduce-covid-19-spread-bangladesh-abaluck-et-al-results-reliable/5756323?pdf=5756323"
+        },
+        {
+          "title": "Abaluck: Impact of community masking on COVID-19...",
+          "url": "https://c19early.org/abaluck.html"
+        },
+        {
+          "title": "(PDF) Impact of community masking on COVID-19...",
+          "url": "https://www.academia.edu/75708721/Impact_of_community_masking_on_COVID_19_A_cluster_randomized_trial_in_Bangladesh"
+        },
+        {
+          "title": "Full text of \"Masken-Literatur\"",
+          "url": "https://archive.org/stream/Masken-Literatur/2021-09-21_do_face_masks_reduce_COVID-19_spread_in_Bangladesh-are_the_Abaluck_et_al._results_reliable-Prof._D._Rancourt_djvu.txt"
+        },
+        {
+          "title": "The Impact of Community Masking on COVID-19...",
+          "url": "https://escholarship.org/uc/item/86t771h3"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T19:34:09.362+00:00",
+  "status": "judged",
+  "system": "kimi"
+}

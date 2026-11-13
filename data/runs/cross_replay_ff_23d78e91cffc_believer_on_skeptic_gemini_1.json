@@ -1,0 +1,195 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://msrads.web.unc.edu/wp-content/uploads/sites/15695/2018/08/Lung-Cancer-Screening-NEJM.pdf",
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793",
+    "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext",
+    "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+  ],
+  "claim_id": "ff_23d78e91cffc",
+  "completed_at": "2026-08-04T17:03:05.861+00:00",
+  "framing": "believer",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://msrads.web.unc.edu/wp-content/uploads/sites/15695/2018/08/Lung-Cancer-Screening-NEJM.pdf",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793",
+        "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext",
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that heavy current and former smokers participating in regular low-dose CT screening are significantly less likely to die from lung cancer, citing major clinical trials like NLST and NELSON.",
+      "label": "endorses"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "84dc48069e616b91a0e0cb90076077caef6d49be58b396a9b5ac0c272b7495cd",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion:** Yes. Clinical trial evidence confirms that heavy current and former smokers who participate in regular screening with low-dose computed tomography (LDCT) are significantly less likely to die from lung cancer.\n\n### Key Evidence\n\n1. **National Lung Screening Trial (NLST):** A landmark trial involving over 53,000 high-risk individuals demonstrated a 20% reduction in lung cancer mortality among participants screened annually with low-dose CT compared to those who received standard chest X-rays (https://msrads.web.unc.edu/wp-content/uploads/sites/15695/2018/08/Lung-Cancer-Screening-NEJM.pdf).\n2. **NELSON Trial:** A large European randomized trial comparing volume CT screening against no screening in high-risk individuals confirmed a significant survival benefit, showing a 24% reduction in lung cancer mortality in men and a 33% reduction in women (https://www.nejm.org/doi/full/10.1056/NEJMoa1911793, https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext).\n3. **Clinical Guidelines:** Based on these trial findings, health organizations like the U.S. Preventive Services Task Force (USPSTF) recommend annual LDCT screening for eligible adults aged 50 to 80 years who have a 20 pack-year smoking history (https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening).\n\nBy detecting lung nodules and early-stage cancers before symptoms appear, regular LDCT screening enables earlier treatment and lowers lung cancer mortality in high-risk populations.",
+  "run_id": "cross_replay_ff_23d78e91cffc_believer_on_skeptic_gemini_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "NLST trial low dose CT screening lung cancer mortality",
+      "results": [
+        {
+          "title": "National Lung Screening Trial - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/National_Lung_Screening_Trial"
+        },
+        {
+          "title": "The NLST Puzzle | Radiology Business",
+          "url": "https://radiologybusiness.com/topics/healthcare-policy/nlst-puzzle"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Low-Dose Computed...",
+          "url": "https://msrads.web.unc.edu/wp-content/uploads/sites/15695/2018/08/Lung-Cancer-Screening-NEJM.pdf"
+        },
+        {
+          "title": "Lung cancer incidence and mortality in National Lung Screening...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27009070/"
+        },
+        {
+          "title": "NLST stands alone in finding lung screening mortality... | AuntMinnie",
+          "url": "https://www.auntminnie.com/clinical-news/ct/article/15603952/nlst-stands-alone-in-finding-lung-screening-mortality-benefit"
+        },
+        {
+          "title": "Lung Cancer Screening: Scary Controversy Alerts - Liv Hospital",
+          "url": "https://int.livhospital.com/lung-cancer-screening-scary-controversy-alerts/"
+        },
+        {
+          "title": "(PDF) The National Lung Screening Trial: Overview and Study Design",
+          "url": "https://www.academia.edu/164540708/The_National_Lung_Screening_Trial_Overview_and_Study_Design"
+        },
+        {
+          "title": "Screening for Lung Cancer: What Have We Learned?",
+          "url": "https://www.ajronline.org/doi/pdfplus/10.2214/AJR.13.11540?download=true"
+        }
+      ]
+    },
+    {
+      "query": "NELSON trial CT screening lung cancer mortality NEJM",
+      "results": [
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1911793"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1911793?articleTools=true"
+        },
+        {
+          "title": "NELSON trial: reduced lung-cancer mortality with volume CT ...",
+          "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/fulltext"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in a ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31995683/"
+        },
+        {
+          "title": "NELSON Trial confirms mortality benefit of lung cancer screening",
+          "url": "https://pressroom.cancer.org/NELSON2020"
+        },
+        {
+          "title": "NELSON trial: reduced lung-cancer mortality with volume CT ...",
+          "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30059-X/abstract"
+        },
+        {
+          "title": "Lung Nodule Management in Low-Dose CT Screening for Lung ...",
+          "url": "https://pubs.rsna.org/doi/pdf/10.1148/radiol.240535?download=true"
+        },
+        {
+          "title": "Reduced Lung-Cancer Mortality with Volume CT Screening in...",
+          "url": "https://scholarlypublications.universiteitleiden.nl/access/item:3453624/view"
+        }
+      ]
+    },
+    {
+      "query": "USPSTF lung cancer screening recommendation low dose CT mortality reduction",
+      "results": [
+        {
+          "title": "Recommendation: Lung Cancer: Screening | United States ...",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+        },
+        {
+          "title": "USPSTF Recommends Lung Cancer Screening with Low-dose CT - AAFP",
+          "url": "https://www.aafp.org/about/news/20210325uspstflungcancer"
+        },
+        {
+          "title": "Lung Cancer: Screening -- Adults aged 50 to 80 years ... - USPSTF",
+          "url": "https://www.uspreventiveservicestaskforce.org/webview/#!/recommendation/1916"
+        },
+        {
+          "title": "Updated USPSTF screening guidelines may reduce lung cancer ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8619807/"
+        },
+        {
+          "title": "New Horizons in Lung Cancer Screening | Image Wisely",
+          "url": "https://www.imagewisely.org/Imaging-Modalities/Computed-Tomography/New-Horizons"
+        },
+        {
+          "title": "Lung Cancer Screening and USPSTF Recommendations",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2830087"
+        },
+        {
+          "title": "Lung cancer screening guidelines - Norton Healthcare Provider",
+          "url": "https://nortonhealthcareprovider.com/news/uspstf-lung-cancer-screening"
+        },
+        {
+          "title": "Screening for Lung Cancer with Low Dose Computed Tomography ...",
+          "url": "https://www.cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?proposed=N&ncaid=304"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane review low dose CT screening lung cancer mortality",
+      "results": [
+        {
+          "title": "CT screening for lung cancer bring ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/717989854/"
+        },
+        {
+          "title": "LDCT detects threefold more early lung cancers | MDedge",
+          "url": "https://www.mdedge.com/internalmedicinenews/article/77470/lung-cancer/ldct-detects-threefold-more-early-lung-cancers"
+        },
+        {
+          "title": "Lung Cancer Screening Awareness Falls: Budget Cuts Threaten 70...",
+          "url": "https://www.techtimes.com/articles/322459/20260731/lung-cancer-screening-awareness-falls-budget-cuts-threaten-70000-more-missed-scans.htm"
+        },
+        {
+          "title": "World Lung Cancer Day: Who should get lung cancer screening?",
+          "url": "https://www.thehealthsite.com/diseases-conditions/world-lung-cancer-day-who-should-get-lung-cancer-screening-warning-signs-risk-factors-and-when-to-get-tested-1335944/"
+        },
+        {
+          "title": "20+ Lung Cancer Survival Rate Statistics | Verified 2026",
+          "url": "https://gitnux.org/lung-cancer-survival-rate-statistics/"
+        },
+        {
+          "title": "(PDF) Impact of low-dose computed tomography screening on lung...",
+          "url": "https://www.academia.edu/171148096/Impact_of_low_dose_computed_tomography_screening_on_lung_cancer_mortality_among_asbestos_exposed_workers"
+        },
+        {
+          "title": "Low-dose computed tomography screening for lung cancer: how...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25317533/"
+        },
+        {
+          "title": "Who Should Get Lung Cancer Screening | Right as Rain by UW...",
+          "url": "https://rightasrain.uwmedicine.org/well/health/did-your-parents-smoke"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:02:46.198+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

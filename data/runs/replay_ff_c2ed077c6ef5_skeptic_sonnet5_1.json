@@ -1,0 +1,195 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/23836264/",
+    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full",
+    "https://pubmed.ncbi.nlm.nih.gov/34611632/",
+    "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA"
+  ],
+  "claim_id": "ff_c2ed077c6ef5",
+  "completed_at": "2026-08-04T01:32:21.186+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23836264/",
+        "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full",
+        "https://pubmed.ncbi.nlm.nih.gov/34611632/",
+        "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report concludes that the claim is 'not false' and that the evidence is 'suggestive and directionally supportive' of a mortality benefit, while noting that the claim is overstated as a certainty and results vary across studies.",
+      "label": "leans_endorse"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "# Is \"Vegetarian diets increase life expectancy vs. meat-eating\" false?\n\n**Conclusion: The claim is not false, but it is overstated as a certainty.** The evidence is suggestive and directionally supportive of a mortality benefit from vegetarian/plant-based diets, but effect sizes are modest, evidence quality is rated low-to-moderate, and results vary by outcome and cohort.\n\n## What the evidence shows\n\n**Supportive evidence:** The Adventist Health Study-2, one of the largest cohorts with substantial numbers of vegetarians, found vegetarian diets associated with lower all-cause mortality, with more robust effects in men ([pubmed.ncbi.nlm.nih.gov/23836264](https://pubmed.ncbi.nlm.nih.gov/23836264/)). A 2025 meta-analysis of plant-based diet indices similarly reported reduced mortality risk associated with healthful plant-based eating patterns ([frontiersin.org/fnut.2025.1518519](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full)).\n\n**Mixed/weaker evidence:** A 2021 meta-analysis specifically comparing vegetarian vs. non-vegetarian diets found a reduced risk of ischemic heart disease mortality, but **no significant effect on all-cause mortality**, and explicitly noted the certainty of evidence was low ([pubmed.ncbi.nlm.nih.gov/34611632](https://pubmed.ncbi.nlm.nih.gov/34611632/)). A review covering multiple prospective cohorts (Adventist, Oxford, Heidelberg) similarly concluded that \"overall mortality is similar for vegetarians and comparable non-vegetarians,\" though vegetarians fared better than the general population ([cambridge.org, Key et al. review](https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA)).\n\n## Bottom line\n\nThe claim isn't false — multiple studies do show associations between vegetarian/plant-based diets and lower mortality, particularly cardiovascular. But it's an oversimplification: at least one rigorous meta-analysis found no significant all-cause mortality benefit, and much evidence comes from observational cohorts (like Adventists) with confounding lifestyle factors (no smoking/alcohol), limiting causal claims about meat-eating specifically.",
+  "run_id": "replay_ff_c2ed077c6ef5_skeptic_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "vegetarian diet life expectancy mortality meta-analysis",
+      "results": [
+        {
+          "title": "Vegetarian diets for longevity: friend or foe? - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378512225005195"
+        },
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666667721000374"
+        },
+        {
+          "title": "Mortality and Cardiovascular Disease Rates of VegetariansThe long-term health of vegetarians and vegansFrontiers | Plant-based diets and total and cause-specific ...Frontiers | Plant-based diet and risk of all-cause mortality ...Vegetarian, Vegan Diets And Multiple Health Outcomes: A ...",
+          "url": "https://veganhealth.org/chronic-disease-and-vegetarian-diets/vegetarian-cohorts/"
+        },
+        {
+          "title": "The long-term health of vegetarians and vegans",
+          "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/longterm-health-of-vegetarians-and-vegans/263822873377096A7BAC4F887D42A4CA"
+        },
+        {
+          "title": "Frontiers | Plant-based diets and total and cause-specific ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1518519/full"
+        },
+        {
+          "title": "Frontiers | Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1481363/full"
+        },
+        {
+          "title": "Vegetarian, Vegan Diets And Multiple Health Outcomes: A ...",
+          "url": "https://iffs.earth/articles/vegetarian-vegan-diets-and-multiple-health-outcomes-a-systematic-review-with-meta-analysis-of-observational-studies-2/"
+        },
+        {
+          "title": "Meta-analysis of effect of vegetarian diet on ischemic heart disease...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34611632/"
+        }
+      ]
+    },
+    {
+      "query": "vegetarian diet reduce all-cause mortality risk cohort study",
+      "results": [
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext"
+        },
+        {
+          "title": "Vegetarian diets and risk of all-cause mortality in a ...",
+          "url": "https://link.springer.com/article/10.1186/s41043-023-00460-9"
+        },
+        {
+          "title": "Plant-based dietary patterns and mortality from all causes ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0261561424001420"
+        },
+        {
+          "title": "Frontiers | Plant-based diet and risk of all-cause mortality ...",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1481363/full"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: Evidence from a ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0091743516304479"
+        },
+        {
+          "title": "Plant-based diets and long-term health: findings from the ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613518/"
+        },
+        {
+          "title": "Vegetarian diets and risk of all-cause mortality in a ...",
+          "url": "https://europepmc.org/article/PMC/PMC10666432"
+        },
+        {
+          "title": "Vegetarian diet and all-cause mortality: evidence from a large...",
+          "url": "https://researchers.mq.edu.au/en/publications/vegetarian-diet-and-all-cause-mortality-evidence-from-a-large-pop"
+        }
+      ]
+    },
+    {
+      "query": "Adventist health study vegetarian diet longevity mortality",
+      "results": [
+        {
+          "title": "Vegetarian Dietary Patterns and Mortality in Adventist Health ...",
+          "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1710093"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(23)04881-5/fulltext"
+        },
+        {
+          "title": "Vegetarian dietary patterns and mortality in Adventist Health ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23836264/"
+        },
+        {
+          "title": "Studies | Adventist Health Study",
+          "url": "https://adventisthealthstudy.org/studies"
+        },
+        {
+          "title": "Findings for Lifestyle, Diet & Disease - Adventist Health Study",
+          "url": "https://adventisthealthstudy.org/studies/AHS-2/findings-lifestyle-diet-disease"
+        },
+        {
+          "title": "Vegetarian diets in the Adventist Health Study 2: a review of ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002916523048815"
+        },
+        {
+          "title": "Cause-specific and all-cause mortalities in vegetarian ...",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165(24)00652-X/fulltext"
+        },
+        {
+          "title": "Do Vegetarians Live Longer Than Health Conscious... - Dr. McDougall",
+          "url": "https://www.drmcdougall.com/education/information-all/do-vegetarians-live-longer-than-health-conscious-omnivores/"
+        }
+      ]
+    },
+    {
+      "query": "plant-based diet life expectancy years gained modeling study",
+      "results": [
+        {
+          "title": "Plant-Based Diets & Life Expectancy - YouTube",
+          "url": "https://www.youtube.com/watch?v=Qp_xtwl9zE4"
+        },
+        {
+          "title": "Life Expectancy by Country and in the World (2026) - Worldometer",
+          "url": "https://www.worldometers.info/demographics/life-expectancy/"
+        },
+        {
+          "title": "(PDF) Obesity and Life Expectancy Among Long-Lived Black Adults",
+          "url": "https://www.researchgate.net/publication/236916624_Obesity_and_Life_Expectancy_Among_Long-Lived_Black_Adults"
+        },
+        {
+          "title": "Does a Plant-Based Diet Help You Live Longer?",
+          "url": "https://craxarticles.com/plant-based-diet-life-expectancy/"
+        },
+        {
+          "title": "The Average Life Expectancy From 1800 to Today",
+          "url": "https://www.verywellhealth.com/longevity-throughout-history-2224054"
+        },
+        {
+          "title": "KamaLama - science-based health assessment",
+          "url": "https://www.kamalama.org/"
+        },
+        {
+          "title": "Plant Based Diet Longevity What Research Suggests - Vuanu",
+          "url": "https://vuanu.com/2026/05/07/plant-based-diet-longevity/"
+        },
+        {
+          "title": "science.org/doi/10.1126/science.abg5332",
+          "url": "https://www.science.org/doi/10.1126/science.abg5332"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T01:31:54.411+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

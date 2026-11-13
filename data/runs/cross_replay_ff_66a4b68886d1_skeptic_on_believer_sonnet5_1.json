@@ -1,0 +1,234 @@
+{
+  "arm": "cross_replay",
+  "citations": [
+    "https://www.ems1.com/research-monitor/articles/for-dispatcher-assisted-cpr-compression-only-may-be-best-NSEdFSCAsRKQZeIT/",
+    "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.112.109504",
+    "https://pubmed.ncbi.nlm.nih.gov/26048093/",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0140673610600645",
+    "https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation"
+  ],
+  "claim_id": "ff_66a4b68886d1",
+  "completed_at": "2026-08-04T17:08:54.737+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.ems1.com/research-monitor/articles/for-dispatcher-assisted-cpr-compression-only-may-be-best-NSEdFSCAsRKQZeIT/",
+        "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.112.109504",
+        "https://pubmed.ncbi.nlm.nih.gov/26048093/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0140673610600645",
+        "https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is well-supported by evidence and accurate, citing multiple large studies that show hands-only CPR is associated with significantly better survival outcomes than no CPR.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "**Conclusion: The claim is well-supported by evidence — it is not false.** Multiple large studies consistently show hands-only (compression-only) CPR is associated with better survival than no bystander CPR at all.\n\n**Evidence:**\n\n1. **Randomized controlled trials of dispatcher-assisted CPR** directly compared compression-only CPR to standard CPR (with rescue breaths) in witnessed arrests. A meta-analysis of these RCTs found chest-compression-only CPR was associated with *improved* survival (14% vs. 12%) compared to standard CPR — and both dramatically outperform no CPR (https://www.ems1.com/research-monitor/articles/for-dispatcher-assisted-cpr-compression-only-may-be-best-NSEdFSCAsRKQZeIT/).\n\n2. **Japan's nationwide OHCA registry**, one of the largest population-based datasets on this topic, found that bystander-initiated compression-only CPR was linked to significantly better neurological survival outcomes than no bystander CPR, and that population-wide dissemination of compression-only CPR increased survival with favorable neurological outcomes (https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.112.109504; https://pubmed.ncbi.nlm.nih.gov/26048093/).\n\n3. Data from a related large nationwide registry also showed bystander CPR (both conventional and compression-only) is associated with higher survival than no bystander CPR, including in pediatric arrests (https://www.sciencedirect.com/science/article/abs/pii/S0140673610600645).\n\n4. A JAMA study cited by Wikipedia found bystanders using hands-only CPR boosted survival to 34%, versus 18% for those receiving conventional CPR or no CPR at all (https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation).\n\n**Caveat:** Some nuance exists — conventional CPR with rescue breathing appears superior for prolonged arrests, non-cardiac causes, and pediatric arrests specifically, but for the general adult population with witnessed sudden cardiac arrest, hands-only CPR performs at least as well as, and often better than, conventional CPR, and both are clearly superior to no CPR. The claim as stated is accurate.",
+  "run_id": "cross_replay_ff_66a4b68886d1_skeptic_on_believer_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "bystander hands-only CPR survival out-of-hospital cardiac arrest compared to no bystander CPR",
+      "results": [
+        {
+          "title": "Resuscitation: A Call to Action for Bystander Response",
+          "url": "https://www.azdhs.gov/documents/preparedness/emergency-medical-services-trauma-system/save-hearts-az-registry-education/published-papers/2008-march-aha-advisory-statement-for-compression-only-cpr.pdf"
+        },
+        {
+          "title": "Hands-only CPR increases survival rate after an OHCA - a study",
+          "url": "https://www.emergency-live.com/health-and-safety/survive-an-ohca-the-american-heart-association-revealed-that-hands-only-cpr-increases-survival-rate/"
+        },
+        {
+          "title": "(PDF) Bystander-initiated chest compression-only CPR is better than...",
+          "url": "https://www.researchgate.net/publication/235729060_Bystander-initiated_chest_compression-only_CPR_is_better_than_standard_CPR_in_out-of-hospital_cardiac_arrest"
+        },
+        {
+          "title": "A Hands-On Approach - JEMS: EMS, Emergency Medical Services...",
+          "url": "https://www.jems.com/patient-care/cardiac-resuscitation/hands-approach/"
+        },
+        {
+          "title": "Promotion of hands-only CPR could increase usage, improve...",
+          "url": "https://www.healio.com/news/cardiology/20220607/promotion-of-handsonly-cpr-could-increase-usage-improve-outcomes-in-cardiac-arrest"
+        },
+        {
+          "title": "Cpr Survival: ZipDo Education Reports 2026",
+          "url": "https://zipdo.co/cpr-survival-statistics/"
+        },
+        {
+          "title": "Sci-Hub: The effect of bystander CPR on neurologic outcome in...",
+          "url": "https://sci-hub.su/meta/10.1016/0300-9572(89)90082-8"
+        },
+        {
+          "title": "Hands only cpr – reducing barriers to bystander cpr",
+          "url": "https://www.healthforceph.com/post/hands-only-cpr-reducing-barriers-to-bystander-cpr"
+        }
+      ]
+    },
+    {
+      "query": "compression-only CPR vs conventional CPR survival meta-analysis",
+      "results": [
+        {
+          "title": "Cardiopulmonary resuscitation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation"
+        },
+        {
+          "title": "(PDF) Meta-analysis of chest compression-only versus...",
+          "url": "https://www.academia.edu/81483861/Meta_analysis_of_chest_compression_only_versus_conventional_cardiopulmonary_resuscitation_by_bystanders_for_adult_with_out_of_hospital_cardiac_arrest"
+        },
+        {
+          "title": "Chest-compression-only versus conventional cardiopulmonary...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30391520/"
+        },
+        {
+          "title": "(PDF) Meta-analysis of chest compression-only versus...",
+          "url": "https://www.researchgate.net/publication/354968499_Meta-analysis_of_chest_compression-only_versus_conventional_cardiopulmonary_resuscitation_by_bystanders_for_adult_with_out-of-hospital_cardiac_arrest"
+        },
+        {
+          "title": "Sci-Hub: Time-dependent effectiveness of chest compression-only...",
+          "url": "https://www.sci-hub.ru/10.1016/j.resuscitation.2010.09.468"
+        },
+        {
+          "title": "Chest compression-only cardiopulmo ... | Article | H1 Connect",
+          "url": "https://archive.connect.h1.co/article/723702286/"
+        },
+        {
+          "title": "Two studies about chest compression only CPR | Ivor Medical",
+          "url": "https://ivormedical.com/2010/10/two-studies-about-chest-compression-only-cpr-2/"
+        },
+        {
+          "title": "Literature Review: Compression-Only CPR by OOHCA Bystanders",
+          "url": "https://www.hmpgloballearningnetwork.com/site/emsworld/article/10319099/literature-review-compression-only-cpr-oohca-bystanders"
+        }
+      ]
+    },
+    {
+      "query": "AHA American Heart Association guidelines hands-only CPR effectiveness bystander",
+      "results": [
+        {
+          "title": "Cardiopulmonary resuscitation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation"
+        },
+        {
+          "title": "Hands-Only CPR vs Traditional Techniques - Adelaide First Aid Course",
+          "url": "https://www.adelaidefirstaidcourse.com.au/hands-only-cpr-vs-traditional-techniques/"
+        },
+        {
+          "title": "Hands only cpr aha pdf",
+          "url": "https://cdn-cms.f-static.net/uploads/4365662/normal_5f87395d2ab42.pdf"
+        },
+        {
+          "title": "CPR Facts and Stats | American Heart Association CPR & First Aid",
+          "url": "https://cpr.heart.org/en/resources/cpr-facts-and-stats"
+        },
+        {
+          "title": "Q: What is Hands",
+          "url": "https://studyres.com/doc/5779600/q--what-is-hands"
+        },
+        {
+          "title": "Hands-Only CPR Boost Bystander Intervention - _State Template Basic",
+          "url": "https://template.heartcertcpr.com/cpr/hands-only-cpr-boost-bystander-intervention/"
+        },
+        {
+          "title": "Stickman CPR and CPR Training Video Guide: AHA 2026 July",
+          "url": "https://practicetestgeeks.com/cpr/cpr-training-video"
+        },
+        {
+          "title": "Effectiveness of Bystander",
+          "url": "https://degreesofclarity.com/emsbasics/library/gallagher+-+Effectiveness+of+Bystander+Cardiopulmonary+Resuscitation+and+Survival+Following+Out-of-Hospital+Cardiac+Arrest.pdf"
+        }
+      ]
+    },
+    {
+      "query": "Rea Hallstrom randomized trial compression-only CPR dispatcher assisted survival",
+      "results": [
+        {
+          "title": "To Breathe or Not to Breathe… | Emergency Physicians Monthly",
+          "url": "https://epmonthly.com/article/to-breathe-or-not-to-breathe/"
+        },
+        {
+          "title": "ORBi: Dispatcher-assisted telephone cardiopulmonary resuscitation...",
+          "url": "https://orbi.uliege.be/handle/2268/100255"
+        },
+        {
+          "title": "Dispatcher instructions for bystander cardiopulmonary resuscitation...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8627004/"
+        },
+        {
+          "title": "A Simulation Trial of Traditional Dispatcher-Assisted CPR Versus...",
+          "url": "https://www.researchgate.net/publication/7247836_A_Simulation_Trial_of_Traditional_Dispatcher-Assisted_CPR_Versus_Compressions-Only_Dispatcher-Assisted_CPR"
+        },
+        {
+          "title": "(PDF) Manual chest compression vs use of an automated chest...",
+          "url": "https://www.academia.edu/3646777/Manual_chest_compression_vs_use_of_an_automated_chest_compression_device_during_resuscitation_following_out_of_hospital_cardiac_arrest_a_randomized_trial"
+        },
+        {
+          "title": "Compression-Only CPR or Standard CPR in Out-of-Hospital Cardiac...",
+          "url": "http://urgentologue.free.fr/dmdocuments/acr/breathing/2010+-+CPR+only+compression+versus+standard+-+NEJM.pdf"
+        },
+        {
+          "title": "For Dispatcher-Assisted CPR, Compression-Only May Be Best",
+          "url": "https://www.ems1.com/research-monitor/articles/for-dispatcher-assisted-cpr-compression-only-may-be-best-NSEdFSCAsRKQZeIT/"
+        },
+        {
+          "title": "Chest Compression-only CPR | 2010-10-01 | Relias Media",
+          "url": "https://www.reliasmedia.com/articles/20419-chest-compression-only-cpr"
+        }
+      ]
+    },
+    {
+      "query": "Iwami Kitamura Japan nationwide registry hands-only CPR vs no bystander CPR survival",
+      "results": [
+        {
+          "title": "Cardiopulmonary resuscitation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation"
+        },
+        {
+          "title": "Chest Compression–Only Cardiopulmonary Resuscitation for Out ...",
+          "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.112.109504"
+        },
+        {
+          "title": "Dissemination of Chest Compression-Only Cardiopulmonary ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26048093/"
+        },
+        {
+          "title": "Dissemination of Chest Compression–Only Cardiopulmonary ...",
+          "url": "https://www.semanticscholar.org/paper/Dissemination-of-Chest-Compression–Only-and-After-Iwami-Kitamura/c9345bd1b8215a5f4399952795c18a09da2cd6f7"
+        },
+        {
+          "title": "Time-dependent effectiveness of chest compression-only and ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0300957210009536"
+        },
+        {
+          "title": "Conventional and chest-compression-only cardiopulmonary ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0140673610600645"
+        },
+        {
+          "title": "Chest compression-only versus conventional cardiopulmonary ...",
+          "url": "https://www.resuscitationjournal.com/article/S0300-9572(18)30085-6/abstract"
+        },
+        {
+          "title": "Time-dependent effectiveness of chest compression-only and ...",
+          "url": "https://www.resuscitationjournal.com/article/S0300-9572(10)00953-6/abstract"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T17:08:41.008+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}

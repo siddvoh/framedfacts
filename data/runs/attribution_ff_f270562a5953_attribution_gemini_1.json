@@ -1,0 +1,210 @@
+{
+  "arm": "attribution",
+  "citations": [
+    "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19",
+    "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/",
+    "https://link.springer.com/article/10.1007/s10787-023-01309-7"
+  ],
+  "claim_id": "ff_f270562a5953",
+  "completed_at": "2026-08-04T04:31:50.736+00:00",
+  "framing": "attribution",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19",
+        "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/",
+        "https://link.springer.com/article/10.1007/s10787-023-01309-7"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly states that there is no scientific evidence that taking ibuprofen worsens COVID-19 infections, citing major health authorities and clinical studies to confirm it is safe for symptom management. Therefore, it rejects the claim.",
+      "label": "rejects"
+    }
+  },
+  "model": "google/gemini-3.6-flash",
+  "params_hash": "125ed6b70a39fb6a646ea32be1b53c0ce201912950358e3d34417bd8d729263c",
+  "queries": [
+    "ibuprofen COVID 19 origin claim worsens infection",
+    "WHO FDA ibuprofen COVID 19 safety consensus statement",
+    "FDA statement ibuprofen COVID-19 safety",
+    "\"FDA\" ibuprofen \"COVID-19\" \"NSAIDs\" statement"
+  ],
+  "query_labels": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "repeat": 1,
+  "report": "### Conclusion\nThere is **no scientific evidence** that taking ibuprofen worsens COVID-19 infections. Major global health authorities and clinical studies agree that ibuprofen is safe to use as directed for treating COVID-19 symptoms such as fever and pain.\n\n### Evidence Behind the Claim\n* **Origin of the View:** In March 2020, early in the pandemic, public concern spread after theoretical hypotheses suggested ibuprofen might upregulate ACE2 receptors (the receptor SARS-CoV-2 uses to enter cells) alongside early cautions issued by French health authorities.\n* **Health Agency Stance:** Both the U.S. Food and Drug Administration (FDA) and the World Health Organization (WHO) evaluated the available evidence and clarified that there is no scientific link between ibuprofen or other non-steroidal anti-inflammatory drugs (NSAIDs) and worsening COVID-19 disease. Neither organization recommends avoiding ibuprofen for COVID-19 symptoms.\n* **Clinical Findings:** Subsequent observational studies and extensive clinical reviews found no association between ibuprofen use and an increased risk of severe disease, intensive care admission, or higher mortality among COVID-19 patients.\n\n### Sources\n* U.S. Food and Drug Administration (FDA): https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19\n* World Health Organization (WHO): https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19\n* Nationwide Clinical Study on Ibuprofen: https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/\n* Narrative Review on NSAIDs and COVID-19: https://link.springer.com/article/10.1007/s10787-023-01309-7",
+  "run_id": "attribution_ff_f270562a5953_attribution_gemini_1",
+  "search_backend": "web",
+  "search_count": 4,
+  "search_tool_queries": [
+    "ibuprofen COVID 19 origin claim worsens infection",
+    "WHO FDA ibuprofen COVID 19 safety consensus statement",
+    "FDA statement ibuprofen COVID-19 safety",
+    "\"FDA\" ibuprofen \"COVID-19\" \"NSAIDs\" statement"
+  ],
+  "searches": [
+    {
+      "query": "ibuprofen COVID 19 origin claim worsens infection",
+      "results": [
+        {
+          "title": "Does Ibuprofen Worsen COVID-19? - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287029/"
+        },
+        {
+          "title": "Association Between Prescribed Ibuprofen and Severe COVID‐19 ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7537121/"
+        },
+        {
+          "title": "Ibuprofen for COVID-19: real-time analysis of 24 studies",
+          "url": "https://c19early.org/ib"
+        },
+        {
+          "title": "ACEIs, ARBs, ibuprofen originally linked to COVID-19: the ...",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7486973/"
+        },
+        {
+          "title": "Does Ibuprofen Worsen COVID-19? - Drug Safety - SpringerIbuprofen, other NSAIDs and COVID-19: a narrative reviewThe latest from WHO: No proof that ibuprofen worsens COVID-19",
+          "url": "https://link.springer.com/article/10.1007/s40264-020-00953-0"
+        },
+        {
+          "title": "Ibuprofen, other NSAIDs and COVID-19: a narrative review",
+          "url": "https://link.springer.com/article/10.1007/s10787-023-01309-7"
+        },
+        {
+          "title": "The latest from WHO: No proof that ibuprofen worsens COVID-19",
+          "url": "https://www.factrakers.org/post/the-latest-from-who-no-evidence-that-ibuprofen-worsens-covid-19"
+        },
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no... | CBC News",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        }
+      ]
+    },
+    {
+      "query": "WHO FDA ibuprofen COVID 19 safety consensus statement",
+      "results": [
+        {
+          "title": "Updated: WHO Now Doesn't Recommend Avoiding Ibuprofen For...",
+          "url": "https://www.sciencealert.com/who-recommends-to-avoid-taking-ibuprofen-for-covid-19-symptoms"
+        },
+        {
+          "title": "Gov. Ron DeSantis Doesn’t Always Tell the Full COVID Story",
+          "url": "https://www.governing.com/now/gov-ron-desantis-doesnt-always-tell-the-full-covid-story"
+        },
+        {
+          "title": "Covid-19: Melatonin – People, Nature, and Data",
+          "url": "https://dadamo.com/dangerous/2020/04/01/covid-19-melatonin/"
+        },
+        {
+          "title": "The FDA Has Blocked Studies Concluding COVID-19 And... - Blavity",
+          "url": "https://blavity.com/the-fda-has-blocked-studies-concluding-covid-19-and-shingles-vaccines-are-safe"
+        },
+        {
+          "title": "White House: True origins of covid - The Expose",
+          "url": "https://expose-news.com/2026/07/31/white-house-true-origins-of-covid/"
+        },
+        {
+          "title": "Woman in ICU warns of Covid-19 dangers: 'Don't take any... - YouTube",
+          "url": "https://www.youtube.com/watch?v=iFLSG-7K3Tc"
+        },
+        {
+          "title": "Is Covid-19 Giving You Agoraphobia? | The Healthy",
+          "url": "https://www.thehealthy.com/mental-health/is-covid-19-giving-you-agoraphobia/"
+        },
+        {
+          "title": "Accuracy of COVID-19 tests coming to market uncertain",
+          "url": "https://www.startribune.com/accuracy-of-covid-19-tests-coming-to-market-uncertain/569570582"
+        }
+      ]
+    },
+    {
+      "query": "FDA statement ibuprofen COVID-19 safety",
+      "results": [
+        {
+          "title": "Updated: WHO Now Doesn't Recommend Avoiding Ibuprofen For...",
+          "url": "https://www.sciencealert.com/who-recommends-to-avoid-taking-ibuprofen-for-covid-19-symptoms"
+        },
+        {
+          "title": "WHO clarifies guidance on ibuprofen, says there's no... | CBC News",
+          "url": "https://www.cbc.ca/news/health/ibuprofen-covid-19-novel-coronavirus-1.5501496"
+        },
+        {
+          "title": "The Ibuprofen Debate Reveals the Danger of Covid-19... | WIRED",
+          "url": "https://www.wired.com/story/the-ibuprofen-debate-reveals-the-danger-of-covid-19-rumors/"
+        },
+        {
+          "title": "Drugs | FDA",
+          "url": "https://www.fda.gov/drugs"
+        },
+        {
+          "title": "COVID-19 hastaları Ibuprofen kullanmamalı mı?",
+          "url": "https://www.dw.com/tr/covid-19-hastaları-ibuprofen-kullanmamalı-mı/a-52845674"
+        },
+        {
+          "title": "The FDA Has Blocked Studies Concluding COVID-19 And... - Blavity",
+          "url": "https://blavity.com/the-fda-has-blocked-studies-concluding-covid-19-and-shingles-vaccines-are-safe"
+        },
+        {
+          "title": "tandfonline.com/toc/raec20/current",
+          "url": "https://www.tandfonline.com/toc/raec20/current"
+        },
+        {
+          "title": "sciencedirect.com/science/article/pii/S0264410X24001270",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X24001270"
+        }
+      ]
+    },
+    {
+      "query": "\"FDA\" ibuprofen \"COVID-19\" \"NSAIDs\" statement",
+      "results": [
+        {
+          "title": "FDA advises patients on use of NSAIDs for COVID-19",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-advises-patients-use-non-steroidal-anti-inflammatory-drugs-nsaids-covid-19"
+        },
+        {
+          "title": "Non-steroidal anti-inflammatory drug use in COVID-19",
+          "url": "https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(21)00144-2/fulltext"
+        },
+        {
+          "title": "Ibuprofen, other NSAIDs and COVID-19: a narrative review",
+          "url": "https://link.springer.com/article/10.1007/s10787-023-01309-7"
+        },
+        {
+          "title": "The use of non-steroidal anti-inflammatory drugs (NSAIDs) in ...",
+          "url": "https://www.who.int/news-room/commentaries/detail/the-use-of-non-steroidal-anti-inflammatory-drugs-(nsaids)-in-patients-with-covid-19"
+        },
+        {
+          "title": "Prevalence of NSAID use among people with COVID‐19 and the ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9538204/"
+        },
+        {
+          "title": "COVID-19 and NSAIDs: Is There Reason for Concern with Use of ...",
+          "url": "https://www.obgproject.com/2020/03/31/fda-statement-on-covid19-and-nsaids-is-there-plausible-risk-with-the-use-ibuprofen/"
+        },
+        {
+          "title": "Ibuprofen for COVID-19: real-time analysis of 24 studies",
+          "url": "https://c19early.org/ib"
+        },
+        {
+          "title": "Covid-19: ibuprofen should not be used for managing... | The BMJ",
+          "url": "https://www.bmj.com/content/368/BMJ.m1086/rapid-responses"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T04:21:29.591+00:00",
+  "status": "judged",
+  "system": "gemini"
+}

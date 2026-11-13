@@ -1,0 +1,290 @@
+{
+  "arm": "core",
+  "citations": [
+    "https://www.nejm.org/doi/full/10.1056/NEJMoa1603800",
+    "https://www.fda.gov/media/108597/download",
+    "https://pubmed.ncbi.nlm.nih.gov/34283213/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8442779/"
+  ],
+  "claim_id": "ff_aa8d6bfaf5b1",
+  "completed_at": "2026-08-04T00:21:16.923+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1603800",
+        "https://www.fda.gov/media/108597/download",
+        "https://pubmed.ncbi.nlm.nih.gov/34283213/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8442779/"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report strongly supports the claim, citing pivotal phase-3 trial evidence (ZOE-70) showing a 91.3% vaccine efficacy in reducing shingles among adults aged 70 and older.",
+      "label": "endorses"
+    }
+  },
+  "model": "openai/gpt-5.6-terra",
+  "params_hash": "6afd0d9e4268e94ac1e9ed9bc98de2451ed6a292b238bddd42aebe55da13364b",
+  "queries": [
+    "adjuvanted recombinant zoster vaccine adults 70 years or older efficacy trial shingles NEJM ZOE-70",
+    "CDC recombinant zoster vaccine efficacy 70 years older shingles 91%",
+    "FDA Shingrix prescribing information clinical studies age 70 efficacy herpes zoster",
+    "Cochrane recombinant zoster vaccine older adults 70 herpes zoster efficacy systematic review",
+    "recombinant zoster vaccine real world effectiveness age 70 older Medicare herpes zoster study 2021",
+    "ZOE-70 trial 14 cases 216 placebo 91.3 confidence interval recombinant zoster vaccine"
+  ],
+  "query_labels": [
+    "neutral",
+    "stance_incongruent",
+    "neutral",
+    "neutral",
+    "neutral",
+    "stance_incongruent"
+  ],
+  "repeat": 1,
+  "report": "**Conclusion:** The claim is false. Strong randomized-trial evidence shows that the adjuvanted recombinant zoster vaccine (RZV; Shingrix) substantially reduces shingles in adults aged ≥70.\n\nThe pivotal ZOE-70 phase-3 trial randomly assigned adults ≥70 to two RZV doses or placebo. Over about four years, vaccine efficacy against confirmed shingles was **91.3%** (95% CI, 86.8–94.5): 14 cases occurred among vaccine recipients versus 216 with placebo. This is direct evidence for the precise age group in the claim.\n\nThe FDA prescribing information independently summarizes the placebo-controlled clinical studies and their age-stratified efficacy findings. Longer-term follow-up also found protection remains high years after vaccination, though efficacy wanes somewhat over time.\n\nA possible basis for the contrary view is confusion with the older *live* zoster vaccine, whose protection was lower and fell more markedly with increasing age. RZV is a different, recombinant adjuvanted vaccine. “Reduces” does not mean eliminates all shingles; breakthrough cases occur, and trial participants may not perfectly represent every frail or immunocompromised older adult. But those limitations do not support saying it fails to reduce shingles in people ≥70.\n\nSources:  \n- https://www.nejm.org/doi/full/10.1056/NEJMoa1603800  \n- https://www.fda.gov/media/108597/download  \n- https://pubmed.ncbi.nlm.nih.gov/34283213/  \n- https://pmc.ncbi.nlm.nih.gov/articles/PMC8442779/",
+  "run_id": "core_ff_aa8d6bfaf5b1_skeptic_terra_1",
+  "search_backend": "web",
+  "search_count": 6,
+  "search_tool_queries": [
+    "adjuvanted recombinant zoster vaccine adults 70 years or older efficacy trial shingles NEJM ZOE-70",
+    "CDC recombinant zoster vaccine efficacy 70 years older shingles 91%",
+    "FDA Shingrix prescribing information clinical studies age 70 efficacy herpes zoster",
+    "Cochrane recombinant zoster vaccine older adults 70 herpes zoster efficacy systematic review",
+    "recombinant zoster vaccine real world effectiveness age 70 older Medicare herpes zoster study 2021",
+    "ZOE-70 trial 14 cases 216 placebo 91.3 confidence interval recombinant zoster vaccine"
+  ],
+  "searches": [
+    {
+      "query": "adjuvanted recombinant zoster vaccine adults 70 years or older efficacy trial shingles NEJM ZOE-70",
+      "results": [
+        {
+          "title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 ...",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1603800"
+        },
+        {
+          "title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 ...",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1603800"
+        },
+        {
+          "title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27626517/"
+        },
+        {
+          "title": "Vaccine Efficacy | SHINGRIX (Zoster Vaccine Recombinant ...",
+          "url": "https://shingrixhcp.com/efficacy-safety/efficacy-data/"
+        },
+        {
+          "title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 ...",
+          "url": "https://www.researchgate.net/publication/308121580_Efficacy_of_the_Herpes_Zoster_Subunit_Vaccine_in_Adults_70_Years_of_Age_or_Older"
+        },
+        {
+          "title": "ZOE-50 and ZOE-70: Efficacy of an Adjuvanted Herpes Zoster ...",
+          "url": "https://journaljams.org/study/zoe-50-70-2016.html"
+        },
+        {
+          "title": "Prevention through vaccination: The ZOE programme – RZV ...",
+          "url": "https://medical.gsk.com/en-pm/therapy-areas/vaccines/disease-information/herpes-zoster/prevention-through-vaccination/"
+        },
+        {
+          "title": "Zoster vaccine recombinant, adjuvanted (Shingrix)",
+          "url": "https://www.idstewardship.com/drugs/zoster-vaccine-recombinant-adjuvanted-shingrix/"
+        }
+      ]
+    },
+    {
+      "query": "CDC recombinant zoster vaccine efficacy 70 years older shingles 91%",
+      "results": [
+        {
+          "title": "Recommendations of the Advisory Committee on Immunization ...Ask The Experts About Vaccines: Zoster (Shingles) | Vaccine ...CDC urges shingle vaccination: Historic high ... - WBIWRecombinant zoster vaccine in immunocompetent and ...Vaccination to Prevent Shingles - U.S. PharmacistEfficacy of the Herpes Zoster Subunit Vaccine in Adults 70 ...",
+          "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6703a5.htm"
+        },
+        {
+          "title": "Ask The Experts About Vaccines: Zoster (Shingles) | Immunize.org",
+          "url": "https://www.immunize.org/ask-experts/topic/zoster/"
+        },
+        {
+          "title": "Shingles Treatment and Prevention",
+          "url": "https://www.everydayhealth.com/skin-conditions/shingles-care-and-prevention/"
+        },
+        {
+          "title": "Prevention of Herpes Zoster: A Focus on the Effectiveness and Safety...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9782228/"
+        },
+        {
+          "title": "Two doses of recombinant zoster vaccine provide strong protection...",
+          "url": "https://www.healio.com/news/primary-care/20240108/two-doses-of-recombinant-zoster-vaccine-provide-strong-protection-against-shingles"
+        },
+        {
+          "title": "Vaccine Efficacy | SHINGRIX (Zoster Vaccine Recombinant...)",
+          "url": "https://shingrixhcp.com/efficacy-safety/efficacy-data1/"
+        },
+        {
+          "title": "(PDF) Development of adjuvanted recombinant zoster vaccine and...",
+          "url": "https://www.academia.edu/162470715/Development_of_adjuvanted_recombinant_zoster_vaccine_and_its_implications_for_shingles_prevention"
+        },
+        {
+          "title": "The adjuvanted recombinant zoster vaccine... - Journal of Infection",
+          "url": "https://www.journalofinfection.com/article/S0163-4453(21)00651-4/fulltext"
+        }
+      ]
+    },
+    {
+      "query": "FDA Shingrix prescribing information clinical studies age 70 efficacy herpes zoster",
+      "results": [
+        {
+          "title": "Package Insert - SHINGRIX",
+          "url": "https://www.fda.gov/media/108597/download"
+        },
+        {
+          "title": "Shingrix: Package Insert / Prescribing Information / MOA",
+          "url": "https://www.drugs.com/pro/shingrix.html"
+        },
+        {
+          "title": "SHINGRIX Prescription & Dosage Information - MPR",
+          "url": "https://www.empr.com/drug/shingrix/"
+        },
+        {
+          "title": "Review of Vaccines against Herpes Zoster: the Efficacy, Safety and...",
+          "url": "https://hkpj.org/en/blog-detail.php?id=70&vol=76"
+        },
+        {
+          "title": "Shingrix Product Monograph",
+          "url": "https://ca.gsk.com/media/q55ntrsk/shingrix-pm-en.pdf"
+        },
+        {
+          "title": "Recombinant Zoster Vaccine (Shingrix®): A Review in Herpes Zoster",
+          "url": "https://link.springer.com/article/10.1007/s40266-018-0603-x"
+        },
+        {
+          "title": "Shingrix Vaccine for Shingles Prevention: What... | Pharmacy Times",
+          "url": "https://www.pharmacytimes.com/view/shingrix-vaccine-for-shingles-prevention-what-pharmacists-should-know"
+        },
+        {
+          "title": "Effectiveness and safety of recombinant zoster vaccine: A review of...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653743/"
+        }
+      ]
+    },
+    {
+      "query": "Cochrane recombinant zoster vaccine older adults 70 herpes zoster efficacy systematic review",
+      "results": [
+        {
+          "title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 Years of...",
+          "url": "https://www.nejm.org/doi/10.1056/NEJMoa1603800?page=2"
+        },
+        {
+          "title": "(PDF) Post-licensure zoster vaccine effectiveness against herpes...",
+          "url": "https://www.academia.edu/88062828/Post_licensure_zoster_vaccine_effectiveness_against_herpes_zoster_and_postherpetic_neuralgia_in_older_adults_a_systematic_review_and_meta_analysis"
+        },
+        {
+          "title": "Cost-effectiveness of the recombinant zoster vaccine (RZV) against...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10054181/"
+        },
+        {
+          "title": "(PDF) Cost-effectiveness of the recombinant zoster vaccine...",
+          "url": "https://www.researchgate.net/publication/369228989_Cost-effectiveness_of_the_recombinant_zoster_vaccine_RZV_against_herpes_zoster_An_updated_critical_review"
+        },
+        {
+          "title": "Review of Vaccines against Herpes Zoster: the Efficacy, Safety and...",
+          "url": "https://hkpj.org/en/blog-detail.php?id=70&vol=76"
+        },
+        {
+          "title": "Effectiveness of the Recombinant Zoster Vaccine in Adults",
+          "url": "https://escholarship.org/content/qt9qz70837/qt9qz70837.pdf?t=rwd3bx"
+        },
+        {
+          "title": "Frontiers | Bibliometric analysis and visualization mapping of herpes...",
+          "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1516450/full"
+        },
+        {
+          "title": "The adjuvanted recombinant zoster vaccine... - Journal of Infection",
+          "url": "https://www.journalofinfection.com/article/S0163-4453(21)00651-4/fulltext"
+        }
+      ]
+    },
+    {
+      "query": "recombinant zoster vaccine real world effectiveness age 70 older Medicare herpes zoster study 2021",
+      "results": [
+        {
+          "title": "(PDF) Recombinant Zoster Vaccine (Shingrix): Real-World...",
+          "url": "https://www.academia.edu/97801289/Recombinant_Zoster_Vaccine_Shingrix_Real_World_Effectiveness_in_the_First_2_Years_Post_Licensure"
+        },
+        {
+          "title": "Effectiveness of the Recombinant Zoster Vaccine in Adults Aged 50...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8442779/"
+        },
+        {
+          "title": "Real-world data trumpet effectiveness of recombinant zoster vaccine",
+          "url": "https://www.healio.com/news/infectious-disease/20210226/realworld-data-trumpet-effectiveness-of-recombinant-zoster-vaccine"
+        },
+        {
+          "title": "Effectiveness of the recombinant zoster vaccine among Kaiser...",
+          "url": "https://www.researchgate.net/publication/352243476_Effectiveness_of_the_recombinant_zoster_vaccine_among_Kaiser_Permanente_Hawaii_enrollees_aged_50_and_older_A_retrospective_cohort_study"
+        },
+        {
+          "title": "Use of Recombinant Zoster Vaccine in Immunocompromised ...",
+          "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7103a2.htm"
+        },
+        {
+          "title": "Modelling the Public Health Burden of Herpes Zoster and the Impact...",
+          "url": "https://link.springer.com/article/10.1007/s40121-024-00945-y"
+        },
+        {
+          "title": "Review of Vaccines against Herpes Zoster: the Efficacy, Safety and...",
+          "url": "https://hkpj.org/en/blog-detail.php?id=70&vol=76"
+        },
+        {
+          "title": "Vaccination against shingles(Herpes Zoster) Training for healthcare...",
+          "url": "https://khub.net/documents/135939561/174090192/Vaccination+against+shingles.pptx/8b316b34-d058-df55-b3bd-4df2fcb1fbe6"
+        }
+      ]
+    },
+    {
+      "query": "ZOE-70 trial 14 cases 216 placebo 91.3 confidence interval recombinant zoster vaccine",
+      "results": [
+        {
+          "title": "The Adjuvanted Recombinant Zoster Vaccine Confers Long-Term...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34283213/"
+        },
+        {
+          "title": "(PDF) Final analysis of the ZOE-LTFU trial to 11 years post...",
+          "url": "https://www.researchgate.net/publication/395700770_Final_analysis_of_the_ZOE-LTFU_trial_to_11_years_post-_vaccination_efficacy_of_the_adjuvanted_recombinant_zoster_vaccine_against_herpes_zoster_and_related_complications"
+        },
+        {
+          "title": "Shingles Vaccine Recommendations | Shingles (Herpes Zoster) | CDC",
+          "url": "https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html"
+        },
+        {
+          "title": "(PDF) Herpes Zoster Following Recombinant Zoster Vaccine With or...",
+          "url": "https://www.academia.edu/77307314/Herpes_Zoster_Following_Recombinant_Zoster_Vaccine_With_or_Without_Concomitant_Vaccination"
+        },
+        {
+          "title": "Ask The Experts About Vaccines: Zoster (Shingles) | Immunize.org",
+          "url": "https://www.immunize.org/ask-experts/topic/zoster/"
+        },
+        {
+          "title": "Varicella and Herpes Zoster Vaccines - Medical Clinical Policy... | Aetna",
+          "url": "https://www.aetna.com/cpb/medical/data/100_199/0115.html"
+        },
+        {
+          "title": "Shingrix, INN-Herpes zoster vaccine (recombinant, adjuvanted)",
+          "url": "https://www.ema.europa.eu/en/documents/product-information/shingrix-epar-product-information_en.pdf"
+        },
+        {
+          "title": "The adjuvanted recombinant zoster vaccine... - Journal of Infection",
+          "url": "https://www.journalofinfection.com/article/S0163-4453(21)00651-4/fulltext"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-04T00:07:09.277+00:00",
+  "status": "judged",
+  "system": "terra"
+}

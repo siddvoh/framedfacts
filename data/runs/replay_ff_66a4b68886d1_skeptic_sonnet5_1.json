@@ -1,0 +1,197 @@
+{
+  "arm": "replay",
+  "citations": [
+    "https://www.ahajournals.org/doi/10.1161/circulationaha.107.189380",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2987687/",
+    "https://pubmed.ncbi.nlm.nih.gov/31129226/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9803815/",
+    "https://www.resuscitationjournal.com/article/S0300-9572(18)31067-0/pdf"
+  ],
+  "claim_id": "ff_66a4b68886d1",
+  "completed_at": "2026-08-03T17:46:39.801+00:00",
+  "framing": "skeptic",
+  "judge_labels": {
+    "citation_presence": {
+      "all_citations_in_results": true,
+      "all_urls_well_formed": true,
+      "has_url": true,
+      "method": "exact_retrieved_url_presence_v2",
+      "passes": true,
+      "substantive_support_verified": false,
+      "urls": [
+        "https://www.ahajournals.org/doi/10.1161/circulationaha.107.189380",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2987687/",
+        "https://pubmed.ncbi.nlm.nih.gov/31129226/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9803815/",
+        "https://www.resuscitationjournal.com/article/S0300-9572(18)31067-0/pdf"
+      ]
+    },
+    "conclusion": {
+      "justification": "The report explicitly concludes that the claim is well-supported by evidence, stating clearly that hands-only CPR clearly improves survival compared to no bystander CPR.",
+      "label": "endorses"
+    }
+  },
+  "model": "anthropic/claude-sonnet-5",
+  "params_hash": "acfe71e382b8f7f6a46f2bb78a5688bd50cd750a1b4f2baf35722a5fdb8718ef",
+  "queries": [],
+  "query_labels": [],
+  "repeat": 1,
+  "report": "The evidence does not support the claim that hands-only CPR is false—it is well supported. Multiple large studies and meta-analyses consistently show that bystander CPR (whether hands-only/compression-only or conventional with rescue breaths) improves survival compared with no bystander CPR at all, in adults with out-of-hospital cardiac arrest (OHCA).\n\nKey evidence:\n- The American Heart Association's science advisory concluded that adult OHCA victims receiving bystander hands-only CPR have a similar—or in some analyses slightly better—chance of survival compared to conventional CPR, and both are far superior to no CPR (https://www.ahajournals.org/doi/10.1161/circulationaha.107.189380).\n- A meta-analysis in *Circulation* found dispatcher-assisted chest-compression-only bystander CPR was associated with improved survival compared to standard CPR, reinforcing that any bystander CPR beats none (https://pmc.ncbi.nlm.nih.gov/articles/PMC2987687/).\n- A large observational study found bystander CPR was associated with significantly higher 30-day survival among OHCA patients regardless of etiology, and both CPR types outperformed no bystander CPR after adjustment (https://pubmed.ncbi.nlm.nih.gov/31129226/; https://pmc.ncbi.nlm.nih.gov/articles/PMC9803815/).\n\nNuances: For pediatric OHCA, evidence is more mixed—some analyses suggest conventional CPR (with ventilation) may outperform compression-only CPR in children, though both still beat no CPR (https://www.resuscitationjournal.com/article/S0300-9572(18)31067-0/pdf). Also, some critiques (e.g., in *The Lancet*) note methodological limitations in meta-analyses possibly overstating compression-only benefits relative to conventional CPR, but this concerns comparisons *between* CPR types, not CPR versus no CPR.\n\n**Conclusion:** The claim is well-supported by the evidence for adults; hands-only CPR clearly improves survival versus no bystander CPR. It is not false.",
+  "run_id": "replay_ff_66a4b68886d1_skeptic_sonnet5_1",
+  "search_backend": "fixed_replay",
+  "search_count": 0,
+  "search_tool_queries": [],
+  "searches": [
+    {
+      "query": "hands-only CPR versus no bystander CPR survival out-of-hospital cardiac arrest",
+      "results": [
+        {
+          "title": "(PDF) Bystander-initiated chest compression-only CPR is better than...",
+          "url": "https://www.researchgate.net/publication/235729060_Bystander-initiated_chest_compression-only_CPR_is_better_than_standard_CPR_in_out-of-hospital_cardiac_arrest"
+        },
+        {
+          "title": "(PDF) Hands-Only (Compression-Only) Cardiopulmonary...",
+          "url": "https://www.academia.edu/18703229/Hands_Only_Compression_Only_Cardiopulmonary_Resuscitation_A_Call_to_Action_for_Bystander_Response_to_Adults_Who_Experience_Out_of_Hospital_Sudden_Cardiac_Arrest_A_Science_Advisory_for_the_Public_From_the_American_Heart_Association_Emergency_Cardiovascular_Care_Committee"
+        },
+        {
+          "title": "A Hands-On Approach - JEMS: EMS, Emergency Medical Services...",
+          "url": "https://www.jems.com/patient-care/cardiac-resuscitation/hands-approach/"
+        },
+        {
+          "title": "Resuscitation: A Call to Action for Bystander Response",
+          "url": "https://www.documents.philips.com/doclib/enc/fetch/577774/577775/AHA_Hands-Only_CPR.pdf"
+        },
+        {
+          "title": "Chest-compression-only versus conventional cardiopulmonary...",
+          "url": "https://www.resuscitationjournal.com/article/S0300-9572(18)31067-0/pdf"
+        },
+        {
+          "title": "Hands only cpr – reducing barriers to bystander cpr",
+          "url": "https://www.healthforceph.com/post/hands-only-cpr-reducing-barriers-to-bystander-cpr"
+        },
+        {
+          "title": "Bystander cardiopulmonary resuscitation and survival in patients...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31129226/"
+        },
+        {
+          "title": "Hands-Only (Compression-Only) Cardiopulmonary Resuscitation ...",
+          "url": "https://www.ahajournals.org/doi/10.1161/circulationaha.107.189380"
+        }
+      ]
+    },
+    {
+      "query": "compression-only CPR vs conventional CPR bystander survival meta-analysis",
+      "results": [
+        {
+          "title": "Meta-analysis of chest compression-only versus conventional ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34622436/"
+        },
+        {
+          "title": "Meta-analysis of chest compression-only versus conventional ...Chest Compression-Only CPR: A Meta-Analysis - PMCChest-compression-only versus conventional cardiopulmonary ...Meta-analysis of chest compression-only versus conventional ...Survival and Neurologic Performance at 30 Days and Beyond ...Chest-compression-only versus standard CPR - The Lancet",
+          "url": "https://journals.viamedica.pl/cardiology_journal/article/view/84984"
+        },
+        {
+          "title": "Chest Compression-Only CPR: A Meta-Analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2987687/"
+        },
+        {
+          "title": "Chest-compression-only versus conventional cardiopulmonary ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0300957218310670"
+        },
+        {
+          "title": "Meta-analysis of chest compression-only versus conventional ...",
+          "url": "https://www.researchgate.net/publication/354968499_Meta-analysis_of_chest_compression-only_versus_conventional_cardiopulmonary_resuscitation_by_bystanders_for_adult_with_out-of-hospital_cardiac_arrest"
+        },
+        {
+          "title": "Survival and Neurologic Performance at 30 Days and Beyond ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0099176726000103"
+        },
+        {
+          "title": "Chest-compression-only versus standard CPR - The Lancet",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)60266-3/fulltext"
+        },
+        {
+          "title": "Chest-compression-only versus conventional cardiopulmonary...",
+          "url": "https://www.resuscitationjournal.com/article/S0300-9572(18)31067-0/pdf"
+        }
+      ]
+    },
+    {
+      "query": "bystander CPR versus no CPR out-of-hospital cardiac arrest survival odds ratio",
+      "results": [
+        {
+          "title": "(PDF) Bystander-initiated chest compression-only CPR is better than...",
+          "url": "https://www.researchgate.net/publication/235729060_Bystander-initiated_chest_compression-only_CPR_is_better_than_standard_CPR_in_out-of-hospital_cardiac_arrest"
+        },
+        {
+          "title": "Sex difference in the association between type of bystander CPR and...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9803815/"
+        },
+        {
+          "title": "40+ Heart Attack Survival Rate Statistics (2026, Verified)",
+          "url": "https://gitnux.org/heart-attack-survival-rate-statistics/"
+        },
+        {
+          "title": "The impact of bystander relation and medical training on...",
+          "url": "https://research.monash.edu/en/publications/the-impact-of-bystander-relation-and-medical-training-on-out-of-h/"
+        },
+        {
+          "title": "Agonal Breathing Common, Predicts CPR Success",
+          "url": "https://www.medscape.com/viewarticle/584317"
+        },
+        {
+          "title": "Out of hospital cardiac arrest (ohca): where we are.. ?? | PDF",
+          "url": "https://pt.slideshare.net/slideshow/out-of-hospital-cardiac-arrest-ohca-where-we-are-128700146/128700146"
+        },
+        {
+          "title": "emermed86363 703..706",
+          "url": "https://emj.bmj.com/content/emermed/28/8/703.full.pdf?panels_ajax_tab_tab=jnl_template_bmjj_cite_apa&panels_ajax_tab_trigger="
+        },
+        {
+          "title": "Edinburgh Research Explorer",
+          "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/476330399/s12245-024-00731-0.pdf"
+        }
+      ]
+    },
+    {
+      "query": "any bystander CPR compared to no bystander CPR outcome cardiac arrest studies",
+      "results": [
+        {
+          "title": "(PDF) Conventional Versus Compression-Only Versus No Bystander...",
+          "url": "https://www.researchgate.net/publication/310739588_Conventional_Versus_Compression-Only_Versus_No_Bystander_Cardiopulmonary_Resuscitation_for_Pediatric_Out-of-Hospital_Cardiac_Arrest"
+        },
+        {
+          "title": "No Matter Where They Live Women are Less Likely to Get Bystander...",
+          "url": "https://medschool.duke.edu/news/no-matter-where-they-live-women-are-less-likely-get-bystander-cpr"
+        },
+        {
+          "title": "Bystander (without DA-CPR) compression-only CPR compared with...",
+          "url": "https://costr.ilcor.org/document/bystander-without-da-cpr-compression-only-cpr-compared-with-conventional-cpr-in-adults-bls-2220-tf-sr"
+        },
+        {
+          "title": "Read \"Strategies to Improve Cardiac Arrest Survival: A Time to Act\" at...",
+          "url": "https://www.nationalacademies.org/read/21723/chapter/5"
+        },
+        {
+          "title": "Conventional bystander CPR benefits children with out-of-hospital...",
+          "url": "https://www.healio.com/news/cardiology/20161112/conventional-bystander-cpr-benefits-children-with-outofhospital-cardiac-arrest"
+        },
+        {
+          "title": "Organ donation after resuscitation from cardiac arrest",
+          "url": "https://researchmgt.monash.edu/ws/portalfiles/portal/294859859/291790675_oa.pdf"
+        },
+        {
+          "title": "Hold the Breath for Bystander CPR",
+          "url": "https://www.patientcareonline.com/view/hold-breath-bystander-cpr"
+        },
+        {
+          "title": "Cardiac Arrests in Hispanic Neighborhoods Less Likely to get CPR...",
+          "url": "https://corporate.dukehealth.org/news/cardiac-arrests-hispanic-neighborhoods-less-likely-get-cpr-bystanders"
+        }
+      ]
+    }
+  ],
+  "started_at": "2026-08-03T17:46:26.595+00:00",
+  "status": "judged",
+  "system": "sonnet5"
+}
